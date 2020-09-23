@@ -2,19 +2,19 @@
 <link rel="stylesheet" href="./Nav.css" />
 <title>Games</title>
 <ul id="ul">
-		<li id="li"><a id="a" href="/">Home</a></li>
-		<li id="li" class="dropdown">
-			<a id="a" href="javascript:void(0)" class="dropbtn">Games</a>
-			<div class="dropdown-content">
-				<a style="padding-top: 0; padding-bottom: 0; height: 0;  visibility: hidden; "> Games </a>
-				<a href="bird.html" style=" border-top-left-radius: 0; border-top-right-radius: 0; ">Bird</a>
-				<a href="">Snake</a>
-			</div>
-		</li>
-		<li id="li"><a id="a" href="../lcd-character-generator.html">LCD Character Generator</a></li>
-		<li id="li"><a id="a" href="/#/movies">Movies</a></li>
-		<li id="li" style="float:right"><a id="a" href="https://about.me/iAKIN" target="_blank">About</a></li>
-	</ul>
+	<li id="li"><a id="a" href="/">Home</a></li>
+	<li id="li" class="dropdown">
+		<a id="a" href="javascript:void(0)" class="dropbtn">Games</a>
+		<div class="dropdown-content">
+			<a style="padding-top: 0; padding-bottom: 0; height: 0;  visibility: hidden; "> Games </a>
+			<a href="bird.html" style=" border-top-left-radius: 0; border-top-right-radius: 0; ">Bird</a>
+			<a href="">Snake</a>
+		</div>
+	</li>
+	<li id="li"><a id="a" href="../lcd-character-generator.html">LCD Character Generator</a></li>
+	<li id="li"><a id="a" href="/#/movies">Movies</a></li>
+	<li id="li" style="float:right"><a id="a" href="https://about.me/iAKIN" target="_blank">About</a></li>
+</ul>
 <canvas id="game" width="400" height="400"></canvas>
 
 <script>
@@ -33,7 +33,7 @@
 			this.gridSize = this.tileCount = 20;
 			this.velocityX = this.velocityY = 0;
 
-			this.timer = setInterval(this.loop.bind(this), 1000 / 15);
+			this.timer = setInterval(this.loop.bind(this), 1000 / 10);
 		}
 
 		reset() {

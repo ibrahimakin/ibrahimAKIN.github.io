@@ -13,7 +13,7 @@
 		<li id="li" class="dropdown">
 			<a id="a" href="javascript:void(0)" class="dropbtn">Games</a>
 			<div class="dropdown-content">
-			    <a style="padding-top: 0; padding-bottom: 0; height: 0;  visibility: hidden; "> Games </a>
+				<a style="padding-top: 0; padding-bottom: 0; height: 0;  visibility: hidden; "> Games </a>
 				<a href="" style=" border-top-left-radius: 0; border-top-right-radius: 0; ">Bird</a>
 				<a href="snake.html">Snake</a>
 			</div>
@@ -27,9 +27,9 @@
 			<th>
 				<canvas id="canvas" width="800" height="500" style="margin-top:24px; border:1px solid #c3c3c3;">
 				</canvas>
-				<div id="Score">0</div>
+				<!--<div id="Score">0</div>-->
 			</th>
-			<th align="top">High Score <br />
+			<th align="top">Score <br />
 				<p id="bestScore">0</p>
 			</th>
 		</tr>
@@ -51,6 +51,7 @@
 		const FPS = 120;
 		var counter = 0;
 		var bestScore = 0;
+		let isStart = false;
 
 		function Bird(ctx) {
 			this.ctx = ctx;
@@ -96,10 +97,10 @@
 				if (this.x + pipeWidth < 150 && this.Score) {
 					counter = counter + 0.5;
 					this.Score = false;
-					document.getElementById("Score").innerHTML = counter;
-					if (counter > bestScore) {
+					document.getElementById("bestScore").innerHTML = counter;
+					/*if (counter > bestScore) {
 						document.getElementById("bestScore").innerHTML = counter;
-					}
+					}*/
 				}
 				if ((this.x + pipeWidth) < 0) {
 					this.isDead = true;
@@ -116,11 +117,21 @@
 
 			var pipes = generatePipes();
 			var birds = [new Bird(ctx)];
-			var loop = window.setInterval(gameLoop, 1000 / FPS);
+
+			let loop;
+			function startPlay(params) {
+				if (isStart) {
+					loop = window.setInterval(gameLoop, 1000 / FPS);
+				}
+			}
 
 			function onKeyDown(e) {
 				if (e.code === 'Space') {
 					birds[0].jump();
+					if (!isStart) {
+						isStart = true;
+						startPlay();
+					}
 				}
 			}
 
@@ -154,7 +165,13 @@
 				}
 
 				if (isGameOver()) {
-					alert('Game Over!');
+					isStart = false;
+					//alert('Game Over!');
+					if (confirm("Game Over")) {
+						location.reload();
+					} else {
+						location.reload();
+					}
 					clearInterval(loop);
 				}
 			}
