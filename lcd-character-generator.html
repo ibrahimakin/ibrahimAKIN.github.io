@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<link rel="icon" href="../icon.ico" />
+	<link rel="icon" href="favicon.ico" />
 	<link rel="stylesheet" href="./games/Nav.css" />
 	<title>LCD-Character-Generator</title>
 	<style>
@@ -157,7 +157,7 @@
 					<td><th style="padding-bottom:40;">Display</th></td>
 					<tr>
 						<td></td>
-						<td><button class="btnY" name="a" id="ia" onclick="DisplayClick(this)">a</button></td>
+						<td><button class="btnY" name="na" id="ina" onclick="DisplayClick(this)">a</button></td>
 						<td></td>
 					</tr>
 					<tr>
@@ -185,7 +185,7 @@
 					<tr>
 						<td colspan="3" align="center"><br /> % <label id="dp">0</label> <label id="g">0</label> <label
 								id="f">0</label> <label id="e">0</label> <label id="d">0</label> <label id="c">0</label>
-							<label id="b">0</label> <label id="a">0</label> </td>
+							<label id="b">0</label> <label id="na">0</label> </td>
 					</tr>
 					<tr>
 						<td colspan="3" align="left"><br /> <button onclick="displayClear()"> Clear </button> </td>
@@ -256,7 +256,7 @@
 						document.getElementById(btn.name).innerHTML = 0;
 					}
 				}
-				var dizi = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'dp'];
+				var dizi = ['na', 'b', 'c', 'd', 'e', 'f', 'g', 'dp'];
 				function displayClear() {
 					var i;
 					for (i = 0; i < 8; i++) {
