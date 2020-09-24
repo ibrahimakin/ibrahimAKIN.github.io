@@ -15,8 +15,9 @@
 	<li id="li"><a id="a" href="/#/movies">Movies</a></li>
 	<li id="li" style="float:right"><a id="a" href="https://about.me/iAKIN" target="_blank">About</a></li>
 </ul>
-<canvas id="game" width="400" height="400"></canvas>
-
+<div align="center">
+	<canvas id="game" width="800" height="500"></canvas>
+</div>
 <script>
 	class SnakeGame {
 		constructor() {
@@ -30,7 +31,9 @@
 			this.appleX = this.appleY = 5;
 			this.tailSize = 5;
 			this.trail = [];
-			this.gridSize = this.tileCount = 20;
+			this.gridSize = /*this.tileCount =*/ 20; //canvas 400x400 kare iken tileCount=20
+			this.tileCountX = 40;
+			this.tileCountY = 25;
 			this.velocityX = this.velocityY = 0;
 
 			this.timer = setInterval(this.loop.bind(this), 1000 / 10);
@@ -51,15 +54,15 @@
 			this.positionY += this.velocityY;
 
 			if (this.positionX < 0) {
-				this.positionX = this.tileCount - 1;
+				this.positionX = this.tileCountX - 1;
 			}
 			if (this.positionY < 0) {
-				this.positionY = this.tileCount - 1;
+				this.positionY = this.tileCountY - 1;
 			}
-			if (this.positionX > this.tileCount - 1) {
+			if (this.positionX > this.tileCountX - 1) {
 				this.positionX = 0;
 			}
-			if (this.positionY > this.tileCount - 1) {
+			if (this.positionY > this.tileCountY - 1) {
 				this.positionY = 0;
 			}
 
@@ -77,8 +80,8 @@
 
 			if (this.appleX === this.positionX && this.appleY === this.positionY) {
 				this.tailSize++;
-				this.appleX = Math.floor(Math.random() * this.tileCount);
-				this.appleY = Math.floor(Math.random() * this.tileCount);
+				this.appleX = Math.floor(Math.random() * this.tileCountX);
+				this.appleY = Math.floor(Math.random() * this.tileCountY);
 			}
 		}
 
