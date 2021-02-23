@@ -2,9 +2,6 @@ const sidenavOpenWidth = 250;
 const sidenavWidth = 83;
 const sidenavDelay = 100;
 const sidenavMediaWidth = 750;
-let isClicked = false;
-// let secondClick = false;
-// let currentClickedName = '';
 
 function closeNavbar() {
   let button = document.getElementById('center-button');
@@ -62,37 +59,14 @@ class Sidenavbar extends HTMLElement {
         button.click();
       }
     }
-    
-    // handleDropdownClick(event) {
-    //   if (currentClickedName.length) {
-    //     document.getElementById(currentClickedName + 'dc').style.display = 'none';
-    //   }
-    //   if (event.target.name) {
-    //     currentClickedName = event.target.name;
-    //     showDropdownContent(event)
-    //     isClicked = true;
-    //   }
-    // }
-    // windowClick(event){
-    //   if (isClicked) {
-    //     if (event.target.name !== currentClickedName) {
-    //       document.getElementById(currentClickedName + 'dc').style.display = 'none';
-    //       isClicked = false;
-    //     }
-    //   }
-    // }
 
     handleDropdownHover(event) {
-      if (!isClicked) {
-        if (event.target.name) {
-          showDropdownContent(event);
-        }
+      if (event.target.name) {
+        showDropdownContent(event);
       }
     }
     handleDropdownLeave(event) {
-      if(!isClicked){
-        event.target.children[1].style.display = 'none';
-      }
+      event.target.children[1].style.display = 'none';
     }
     
     connectedCallback() {
