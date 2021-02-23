@@ -73,50 +73,50 @@ class Sidenavbar extends HTMLElement {
         this.innerHTML = `
           <div id="sidenavbar" style="min-width: ${sidenavOpenWidth}px;">
             <div id="particles-jsnav"></div>
-              <div id="grid-container">
-                <div class="grid-sub-container">
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="white ripple-button"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="white ripple-button"></button>
-                </div>
-                <div class="grid-sub-container" id="sticky-navbar">
-                  <a title="Home" href="/"><button class="white ripple-button home icon"></button></a>
-                  <div><button class="black"></button></div>
-                  <div class="dropdown" name="projects">
+            <div id="grid-container">
+              <div class="grid-sub-container">
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="white ripple-button"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="white ripple-button"></button>
+              </div>
+              <div class="grid-sub-container" id="sticky-navbar">
+                <a title="Home" href="/"><button class="white ripple-button home icon"></button></a>
+                <div><button class="black"></button></div>
+                <div class="dropdown" name="projects">
                   <button name="projects" class="white ripple-button project icon dropdown-button" title="Projects"></button>
                   <div id="projectsdc" class="dropdown-content">
                     <a href="/projects/lcd-character-generator"><button class="white">LCD Character Generator</button></a>
                   </div>
-                  </div>
-                  <div class="dropdown" name="games">
+                </div>
+                <div class="dropdown" name="games">
                   <button name="games" class="white ripple-button games icon dropdown-button" title="Games"></button>
                   <div id="gamesdc" class="dropdown-content">
                     <a href="/games/bird"><button class="white">Bird</button></a>
                     <a href="/games/snake"><button class="white">Snake</button></a>
                     <a href="/games/tetris"><button class="white">Tetris</button></a>
                   </div>
-                  </div>
-                  <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
-                  <a title="Movies" href="#"><button class="white ripple-button movies icon"></button></a>
-                  <div><button class="white ripple-button"></button></div>
-                  <div><button class="white ripple-button back icon" id="center-button"></button></div>
                 </div>
-                <div class="grid-sub-container">
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="white ripple-button"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="white ripple-button"></button>
-                </div>
+                <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
+                <a title="Movies" href="#"><button class="white ripple-button movies icon"></button></a>
+                <div><button class="white ripple-button"></button></div>
+                <div><button class="white ripple-button back icon" id="center-button"></button></div>
               </div>
+              <div class="grid-sub-container">
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="white ripple-button"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="white ripple-button"></button>
+              </div>
+            </div>
           </div>
         `;
         let button = document.getElementById('center-button');
