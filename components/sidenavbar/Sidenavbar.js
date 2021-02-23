@@ -132,12 +132,6 @@ class Sidenavbar extends HTMLElement {
           dropdown.addEventListener('mouseover', this.handleDropdownHover);
           dropdown.addEventListener('mouseleave', this.handleDropdownLeave);
         }
-
-        // let dropdownButtons = document.getElementsByClassName('dropdown-button');
-        // for (let dropdownButton of dropdownButtons) {
-        //   dropdownButton.addEventListener('click', this.handleDropdownClick);
-        // }
-        // window.addEventListener('click', this.windowClick);
     }
 }
 
