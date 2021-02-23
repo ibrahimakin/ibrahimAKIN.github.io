@@ -1,0 +1,52 @@
+  button.ripple-button {
+    overflow: hidden;
+    /* transition: background 400ms; */
+  }
+  
+  span.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 600ms linear;
+    background-color: #0a141d;
+  }
+  
+  @keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+
+button:active {
+    background-position-x: calc(50% + 2px);
+    background-position-y: calc(50% + 2px);
+    background-size: 48%;
+}
+.icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.home {
+  background-image: url('../../assets/icons/navbar/home-icon-silhouette.svg');
+}
+.project {
+  background-image: url('../../assets/icons/navbar/project-solid.svg');
+}
+.games {
+  background-image: url('../../assets/icons/navbar/games.svg');
+}
+.resume {
+  background-image: url('../../assets/icons/navbar/resume-and-cv.svg');
+}
+.back {
+  background-image: url('../../assets/icons/navbar/back.svg');
+}
+.forward {
+  background-image: url('../../assets/icons/navbar/forward.svg');
+}
+.movies {
+  background-image: url('../../assets/icons/navbar/clapperboard.svg');
+}

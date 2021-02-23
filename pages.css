@@ -1,0 +1,19 @@
+#sidenavbar {
+    position: relative;
+}
+
+@media screen and (max-width: 700px) {
+    #sidenavbar {
+      position: absolute;
+      z-index: 111;
+    }
+    #sidenav-mobile {
+      min-width: 83px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #sidenav-mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,252 @@
+#sidenav-mobile, #topnavbar {
+    --sidenav-button-rad: 0px;
+    --sidenav-right-rad: 0px;
+}
+#resume-container {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    height: 100%;
+    line-height: 1.5;
+}
+
+#resume-page {
+    display: flex;
+    background-color: #f5f5f5;
+    transition: width 100ms linear;
+    width: 85%;
+    overflow: auto;
+    box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+}
+
+#resume-page h2 {
+    color: #008080;
+}
+
+.lang-button {
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+#resume-leftside {
+    overflow: auto;
+    width: 35%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#resume-leftside hr {
+    margin-bottom: 5px;
+    border-color: #008080;
+}
+
+#resume-rightside {
+    overflow: auto;
+    width: 65%;
+}
+.resume-padding {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#resume-rightside ul {
+    display: flex;
+    justify-content: space-between;
+}
+#resume-rightside li {
+    margin-left: 18px;
+    width: 50%;
+}::marker{
+    content: '◻  '; 
+    font-size: small;
+    color: #008080;
+}
+#resume-rightside hr {
+    margin-bottom: 10px;
+    border-color: #008080;
+}
+
+#resume-summary {
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0;
+    background-color: #008080;
+    color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+#profession {
+    border-bottom: 1.5px solid white;
+    padding-bottom: 2px;
+}
+#resume-summary p {
+    margin-top: 10px;
+}
+
+#left-profile-image, #right-profile-image {
+    background-image: url('../assets/images/resume/ibrahimAKIN.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 129px;
+    margin-top: 20px;
+}
+#right-profile-image {
+    margin-top: 0;
+    display: none;
+}
+#contact {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#contact div {
+    padding: 4px 0;
+    font-weight: 500;
+}
+#contact a {
+    text-decoration: none;
+    color: black;
+}
+.contact-icon { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+#mail-icon {
+    background-image: url('../assets/icons/resume/email.svg');
+}
+#phone-icon {
+    background-image: url('../assets/icons/resume/smartphone.svg');
+}
+#location-icon {
+    background-image: url('../assets/icons/resume/maps-and-flags.svg');
+}
+#www-icon {
+    background-image: url('../assets/icons/resume/www.svg');
+}
+#linkedin-icon {
+    background-image: url('../assets/icons/resume/linkedin.svg');
+}
+#github-icon {
+    background-image: url('../assets/icons/resume/github.svg');
+}
+#stackoverflow-icon {
+    background-image: url('../assets/icons/resume/stack-overflow.svg');
+}
+.private-info {
+    filter: blur(3px);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.skill {
+    display: inline-block;
+    background-color: #008080;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+.interest {
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+.language {
+    margin-bottom: 5px;
+}
+
+#educations {
+    margin-top: 10px;
+}
+
+.education {
+    margin-bottom: 20px;
+}
+.edu-period {
+    display: flex;
+    justify-content: space-between;
+    color: #008080;
+    font-style: italic;
+}
+.sec-title {
+    color: #008080;
+    font-style: italic;
+}
+
+#read-more-courses, #read-less-courses {
+    cursor: pointer;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+.work-experience {
+    margin-bottom: 20px;
+}
+.certificate {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cert-info {
+    width: 100%;
+}
+.cert-period {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    text-align: right;
+    justify-content: space-between;
+}
+.cert-period a {
+    color: black;
+}
+
+#skills, #interests, #languages {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    #resume-page {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #resume-page {
+        flex-direction: column-reverse;
+    }
+    #resume-leftside{
+        overflow: unset;
+        width: 100%;
+    }
+    #resume-rightside {
+        overflow: unset;
+        width: 100%;
+    }
+    #right-profile-image { display: block; width: 200px; }
+    #left-profile-image { display: none; }
+}
+
+@media screen and (max-height: 330px) {
+    #resume-summary {
+        position: relative;
+    }
+    #contact {
+        position: relative;
+    }
+}

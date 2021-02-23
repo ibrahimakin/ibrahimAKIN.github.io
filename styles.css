@@ -1,0 +1,43 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 0.625em;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+  
+.App {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #0a141d;
+}
+
+#main-container {
+  display: flex;
+  overflow: auto;
+  height: 100%;
+}
+
+#content-container {
+  width: 100%;
+  overflow: auto;
+}

@@ -1,0 +1,128 @@
+#content {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0a141d;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.container {
+    width: 50%;
+    min-height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.card { 
+    background: black;
+    transform-style: preserve-3d;
+    width: 35rem;
+    border-radius: 30px;
+    padding: 0 /*5rem;*/;
+    border: 1px solid white;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5), 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.sneaker {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 10rem;
+    height: 10rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/home/iakin_fg.png');
+}
+
+.sneaker .img {
+    z-index: 2;
+    transition: all .75s ease-out;
+}
+
+.circle {
+    width: 10rem;
+    height: 10rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/images/home/iakin_bg.png');
+    position: absolute;
+    transition: all .75s ease-out;
+}
+
+.info {
+  padding: 0 5rem;
+}
+
+.info h1 {
+    font-size: 3rem;
+    transition: all .75s ease-out;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.info h3 {
+    font-size: 1.3rem;
+    padding: 2rem 0;
+    font-weight: lighter;
+    transition: all .75s ease-out;
+    color: rgb(223, 223, 223);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.info p {
+  font-size: 1.2rem;
+  transition: all .75s ease-out;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.sizes {
+    display: flex;
+    justify-content: space-between;
+    transition: all .75s ease-out;
+}
+
+.sizes button {
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #585858;
+}
+
+button.active {
+    background-color: #585858;
+    color: white;
+}
+
+.purchase {
+    margin: 3rem 0;
+}
+
+.purchase button {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #f54642;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+    transition: all .75s ease-out;
+}
