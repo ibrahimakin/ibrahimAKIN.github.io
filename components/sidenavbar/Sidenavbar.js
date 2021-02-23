@@ -71,7 +71,7 @@ class Sidenavbar extends HTMLElement {
     
     connectedCallback() {
         this.innerHTML = `
-          <div id="sidenavbar" class="layout" style="min-width: 250px;">
+          <div id="sidenavbar" style="min-width: ${sidenavOpenWidth}px;">
             <div id="particles-jsnav"></div>
               <div id="grid-container">
                 <div class="grid-sub-container">
