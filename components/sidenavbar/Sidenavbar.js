@@ -45,7 +45,7 @@ class Sidenavbar extends HTMLElement {
         closeNavbar();
       } else {
         element.style.transition = `min-width ${sidenavDelay}ms linear`;
-        openNavbar()
+        openNavbar();
       }
     };
     myFunction(x, onStart) {
@@ -123,9 +123,9 @@ class Sidenavbar extends HTMLElement {
         button.addEventListener('click', this.handleClick);
         particlesJS('particles-jsnav', particlesConfig);
 
-        let x = window.matchMedia(`(max-width: ${sidenavMediaWidth}px)`)
-        this.myFunction(x, true)                          // Call listener function at run time
-        x.addEventListener('change', this.myFunction)     // Attach listener function on state changes
+        let x = window.matchMedia(`(max-width: ${sidenavMediaWidth}px)`);
+        this.myFunction(x, true);                          // Call listener function at run time
+        x.addEventListener('change', this.myFunction);     // Attach listener function on state changes
 
         let dropdownContainer = document.getElementsByClassName('dropdown');
         for (let dropdown of dropdownContainer) {
