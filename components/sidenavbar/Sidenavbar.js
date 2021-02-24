@@ -2,9 +2,6 @@ const sidenavOpenWidth = 250;
 const sidenavWidth = 83;
 const sidenavDelay = 100;
 const sidenavMediaWidth = 750;
-let isClicked = false;
-// let secondClick = false;
-// let currentClickedName = '';
 
 function closeNavbar() {
   let button = document.getElementById('center-button');
@@ -48,7 +45,7 @@ class Sidenavbar extends HTMLElement {
         closeNavbar();
       } else {
         element.style.transition = `min-width ${sidenavDelay}ms linear`;
-        openNavbar()
+        openNavbar();
       }
     };
     myFunction(x, onStart) {
@@ -62,108 +59,79 @@ class Sidenavbar extends HTMLElement {
         button.click();
       }
     }
-    
-    // handleDropdownClick(event) {
-    //   if (currentClickedName.length) {
-    //     document.getElementById(currentClickedName + 'dc').style.display = 'none';
-    //   }
-    //   if (event.target.name) {
-    //     currentClickedName = event.target.name;
-    //     showDropdownContent(event)
-    //     isClicked = true;
-    //   }
-    // }
-    // windowClick(event){
-    //   if (isClicked) {
-    //     if (event.target.name !== currentClickedName) {
-    //       document.getElementById(currentClickedName + 'dc').style.display = 'none';
-    //       isClicked = false;
-    //     }
-    //   }
-    // }
 
     handleDropdownHover(event) {
-      if (!isClicked) {
-        if (event.target.name) {
-          showDropdownContent(event);
-        }
+      if (event.target.name) {
+        showDropdownContent(event);
       }
     }
     handleDropdownLeave(event) {
-      if(!isClicked){
-        event.target.children[1].style.display = 'none';
-      }
+      event.target.children[1].style.display = 'none';
     }
     
     connectedCallback() {
         this.innerHTML = `
-          <div id="sidenavbar" class="layout" style="min-width: 250px;">
+          <div id="sidenavbar" style="min-width: ${sidenavOpenWidth}px;">
             <div id="particles-jsnav"></div>
-              <div id="grid-container">
-                <div class="grid-sub-container">
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="white ripple-button"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="white ripple-button"></button>
-                </div>
-                <div class="grid-sub-container" id="sticky-navbar">
-                  <a title="Home" href="/"><button class="white ripple-button home icon"></button></a>
-                  <div><button class="black"></button></div>
-                  <div class="dropdown" name="projects">
+            <div id="grid-container">
+              <div class="grid-sub-container">
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="white ripple-button"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="white ripple-button"></button>
+              </div>
+              <div class="grid-sub-container" id="sticky-navbar">
+                <a title="Home" href="/"><button class="white ripple-button home icon"></button></a>
+                <div><button class="black"></button></div>
+                <div class="dropdown" name="projects">
                   <button name="projects" class="white ripple-button project icon dropdown-button" title="Projects"></button>
                   <div id="projectsdc" class="dropdown-content">
                     <a href="/projects/lcd-character-generator"><button class="white">LCD Character Generator</button></a>
                   </div>
-                  </div>
-                  <div class="dropdown" name="games">
+                </div>
+                <div class="dropdown" name="games">
                   <button name="games" class="white ripple-button games icon dropdown-button" title="Games"></button>
                   <div id="gamesdc" class="dropdown-content">
                     <a href="/games/bird"><button class="white">Bird</button></a>
                     <a href="/games/snake"><button class="white">Snake</button></a>
                     <a href="/games/tetris"><button class="white">Tetris</button></a>
                   </div>
-                  </div>
-                  <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
-                  <a title="Movies" href="#"><button class="white ripple-button movies icon"></button></a>
-                  <div><button class="white ripple-button"></button></div>
-                  <div><button class="white ripple-button back icon" id="center-button"></button></div>
                 </div>
-                <div class="grid-sub-container">
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="white ripple-button"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="black"></button>
-                  <button class="white ripple-button"></button>
-                </div>
+                <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
+                <a title="Movies" href="#"><button class="white ripple-button movies icon"></button></a>
+                <div><button class="white ripple-button"></button></div>
+                <div><button class="white ripple-button back icon" id="center-button"></button></div>
               </div>
+              <div class="grid-sub-container">
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="white ripple-button"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="black"></button>
+                <button class="white ripple-button"></button>
+              </div>
+            </div>
           </div>
         `;
         let button = document.getElementById('center-button');
         button.addEventListener('click', this.handleClick);
         particlesJS('particles-jsnav', particlesConfig);
 
-        let x = window.matchMedia(`(max-width: ${sidenavMediaWidth}px)`)
-        this.myFunction(x, true)                          // Call listener function at run time
-        x.addEventListener('change', this.myFunction)     // Attach listener function on state changes
+        let x = window.matchMedia(`(max-width: ${sidenavMediaWidth}px)`);
+        this.myFunction(x, true);                          // Call listener function at run time
+        x.addEventListener('change', this.myFunction);     // Attach listener function on state changes
 
         let dropdownContainer = document.getElementsByClassName('dropdown');
         for (let dropdown of dropdownContainer) {
           dropdown.addEventListener('mouseover', this.handleDropdownHover);
           dropdown.addEventListener('mouseleave', this.handleDropdownLeave);
         }
-
-        // let dropdownButtons = document.getElementsByClassName('dropdown-button');
-        // for (let dropdownButton of dropdownButtons) {
-        //   dropdownButton.addEventListener('click', this.handleDropdownClick);
-        // }
-        // window.addEventListener('click', this.windowClick);
     }
 }
 

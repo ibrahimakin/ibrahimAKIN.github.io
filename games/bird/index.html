@@ -31,19 +31,14 @@
 				<!--<div id="Score">0</div>-->
 				<div> Press SPACE </div>
 			</th>
-			<th align="top">Score <br />
+			<th align="top">
+				Score <br />
+				<p id="score">0</p><br />
+				Best Score <br />
 				<p id="bestScore">0</p>
 			</th>
 		</tr>
 	</table>
-	<?php
-		$myfile = fopen("newfile.txt", "w+") or die("Unable to open file!");
-		$txt = "John Doe\n";
-		fwrite($myfile, $txt);
-		$txt = "Jane Doe\n";
-		fwrite($myfile, $txt);
-		fclose($myfile);
-	?>
 	<script>
 		const HEIGHT = 500;
 		const WIDTH = 800
@@ -59,15 +54,13 @@
 			this.ctx = ctx;
 			this.x = 150;
 			this.y = 150;
-
+			this.bird = new Image()
+			this.bird.src = '../../assets/images/games/bird.png'
 			this.gravity = 0;
 			this.velocity = 0.1;
 
 			this.draw = function () {
-				this.ctx.fillStyle = "red";
-				this.ctx.beginPath();
-				this.ctx.arc(this.x, this.y, 10, 0, Math.PI * 2);
-				this.ctx.fill();
+				this.ctx.drawImage(this.bird, this.x-20, this.y-20, 40, 40);
 			}
 			this.update = function () {
 				this.gravity += this.velocity;
@@ -99,10 +92,12 @@
 				if (this.x + pipeWidth < 150 && this.Score) {
 					counter = counter + 0.5;
 					this.Score = false;
-					document.getElementById("bestScore").innerHTML = counter;
-					/*if (counter > bestScore) {
+					document.getElementById("score").innerHTML = counter;
+					if (counter > bestScore) {
 						document.getElementById("bestScore").innerHTML = counter;
-					}*/
+						bestScore = counter;
+						localStorage.setItem('bestScore', counter);
+					}
 				}
 				if ((this.x + pipeWidth) < 0) {
 					this.isDead = true;
@@ -112,6 +107,9 @@
 
 		window.onload = function start() {
 			document.addEventListener('keydown', onKeyDown);
+
+			bestScore = localStorage.getItem('bestScore');
+			document.getElementById('bestScore').innerHTML = bestScore;
 
 			var frameCount = 0;
 			var c = document.getElementById("canvas");
@@ -182,9 +180,9 @@
 				let gameOver = false;
 				birds.forEach(bird => {
 					pipes.forEach(pipe => {
-						if (bird.y < 0 || bird.y > HEIGHT || (
-							bird.x > pipe.x && bird.x < pipe.x + pipe.width
-							&& bird.y > pipe.y && bird.y < pipe.y + pipe.height)) {
+						if (bird.y-10 < 0 || bird.y+10 > HEIGHT || (
+							bird.x+10 > pipe.x && bird.x-10 < pipe.x + pipe.width
+							&& bird.y+10 > pipe.y && bird.y-10 < pipe.y + pipe.height)) {
 							console.log('game over');
 							gameOver = true;
 						}
