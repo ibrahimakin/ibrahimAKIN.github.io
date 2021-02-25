@@ -96,7 +96,7 @@
 					if (counter > bestScore) {
 						document.getElementById("bestScore").innerHTML = counter;
 						bestScore = counter;
-						localStorage.setItem('bestScore', counter);
+						localStorage.setItem('birdBestScore', counter);
 					}
 				}
 				if ((this.x + pipeWidth) < 0) {
@@ -108,8 +108,10 @@
 		window.onload = function start() {
 			document.addEventListener('keydown', onKeyDown);
 
-			bestScore = localStorage.getItem('bestScore');
-			document.getElementById('bestScore').innerHTML = bestScore;
+			bestScore = localStorage.getItem('birdBestScore');
+			if (bestScore) {
+				document.getElementById('bestScore').innerHTML = bestScore;
+			}
 
 			var frameCount = 0;
 			var c = document.getElementById("canvas");
