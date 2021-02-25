@@ -25,6 +25,10 @@
 			this.canvas = document.getElementById('game');
 			this.context = this.canvas.getContext('2d');
 			document.addEventListener('keydown', this.onKeyPress.bind(this));
+			this.best = localStorage.getItem('snakeBestScore')
+			if (!this.best) {
+				this.best = 0;
+			}
 		}
 
 		init() {
@@ -81,6 +85,10 @@
 
 			if (this.appleX === this.positionX && this.appleY === this.positionY) {
 				this.tailSize++;
+				if (this.tailSize-5 > this.best) {
+					this.best = this.tailSize-5;
+					localStorage.setItem('snakeBestScore', this.best);
+				}
 				this.appleX = Math.floor(Math.random() * this.tileCountX);
 				this.appleY = Math.floor(Math.random() * this.tileCountY);
 			}
@@ -92,7 +100,8 @@
 
 			this.context.fillStyle = 'white';
 			this.context.font = '20px Arial';
-			this.context.fillText(this.tailSize - 5, 20, 40);
+			this.context.fillText('Best ' + this.best, 20, 30);
+			this.context.fillText(this.tailSize - 5, 20, 60);
 
 			this.context.fillStyle = 'yellow';
 			this.trail.forEach(t => {
