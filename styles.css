@@ -10,7 +10,7 @@ html {
 
 html,
 body,
-#root {
+#docroot {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -19,7 +19,7 @@ body,
   box-sizing: border-box;
 }
   
-.App {
+.docApp {
     display: flex;
     padding: 0;
     margin: 0;

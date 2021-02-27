@@ -22,7 +22,7 @@ class Navbar extends HTMLElement {
                 </div>
               </div>
               <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
-              <a title="Movies" href="#"><button class="white ripple-button movies icon"></button></a>
+              <a title="Movies" href="/projects/movies"><button class="white ripple-button movies icon"></button></a>
               <button class="white ripple-button"></button>
               <button class="white ripple-button"></button>                
           </div>

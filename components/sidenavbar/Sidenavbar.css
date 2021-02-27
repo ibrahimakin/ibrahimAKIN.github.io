@@ -14,6 +14,8 @@
     border: 1px solid white;
     box-shadow: 10px 0px 40px 5px rgb(0, 0, 0);
     z-index: 1;
+    font-size: 0.625em;
+    line-height: 1;
 }
 
 @media screen and (max-width: 775px) {
@@ -82,6 +84,9 @@ button.white:hover, a.white:hover {
     border-radius: 10px;
 }
 
+.dropdown button {
+    color: black;
+}
 .dropdown-content {
     display: none;
     position: fixed;
