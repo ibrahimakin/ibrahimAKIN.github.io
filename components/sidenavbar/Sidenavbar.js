@@ -102,7 +102,7 @@ class Sidenavbar extends HTMLElement {
                   </div>
                 </div>
                 <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
-                <a title="Movies" href="#"><button class="white ripple-button movies icon"></button></a>
+                <a title="Movies" href="/projects/movies"><button class="white ripple-button movies icon"></button></a>
                 <div><button class="white ripple-button"></button></div>
                 <div><button class="white ripple-button back icon" id="center-button"></button></div>
               </div>
@@ -121,7 +121,6 @@ class Sidenavbar extends HTMLElement {
         `;
         let button = document.getElementById('center-button');
         button.addEventListener('click', this.handleClick);
-        particlesJS('particles-jsnav', particlesConfig);
 
         let x = window.matchMedia(`(max-width: ${sidenavMediaWidth}px)`);
         this.myFunction(x, true);                          // Call listener function at run time
@@ -132,6 +131,7 @@ class Sidenavbar extends HTMLElement {
           dropdown.addEventListener('mouseover', this.handleDropdownHover);
           dropdown.addEventListener('mouseleave', this.handleDropdownLeave);
         }
+        particlesJS('particles-jsnav', particlesConfig);
     }
 }
 
