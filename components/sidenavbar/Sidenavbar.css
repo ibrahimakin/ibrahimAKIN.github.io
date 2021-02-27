@@ -15,7 +15,7 @@
     box-shadow: 10px 0px 40px 5px rgb(0, 0, 0);
     z-index: 1;
     font-size: 0.625em;
-    line-height: 1;
+    line-height: 1.15;
 }
 
 @media screen and (max-width: 775px) {
