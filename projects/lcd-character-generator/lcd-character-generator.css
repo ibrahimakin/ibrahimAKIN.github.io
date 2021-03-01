@@ -1,0 +1,36 @@
+.docApp {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.button {
+    border: none;
+    padding: 25px 25px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btnD {
+    border: none;
+    padding: 60px 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btnY {
+    border: none;
+    padding: 4px 60px;
+    display: inline-block;
+    cursor: pointer;
+}
+.clr-button {
+    padding: 5px;
+    cursor: pointer;
+}
+#content-container > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+.calc-container {
+    display: inline-block;
+    margin: auto;
+    padding: 0 30px;
+}
