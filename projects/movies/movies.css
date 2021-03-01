@@ -2,3 +2,13 @@
     --sidenav-button-rad: 0px;
     --sidenav-right-rad: 0px;
 }
+#root{
+    height: 100%;
+}
+.App {
+    height: 100%;
+    overflow: auto;
+}
+section.ant-layout {
+    min-height: 100%;
+}
