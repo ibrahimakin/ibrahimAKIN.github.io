@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     perspective: 1000px;
+    font-size: 0.625em;
 }
 
 .container {
@@ -25,7 +26,7 @@
 .card { 
     background: black;
     transform-style: preserve-3d;
-    width: 35rem;
+    width: 35em;
     border-radius: 30px;
     padding: 0 /*5rem;*/;
     border: 1px solid white;
@@ -40,8 +41,8 @@
 }
 
 .img {
-    width: 10rem;
-    height: 10rem;
+    width: 10em;
+    height: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../../assets/images/home/iakin_fg.png');
@@ -53,8 +54,8 @@
 }
 
 .circle {
-    width: 10rem;
-    height: 10rem;
+    width: 10em;
+    height: 10em;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../../assets/images/home/iakin_bg.png');
@@ -63,19 +64,19 @@
 }
 
 .info {
-  padding: 0 5rem;
+  padding: 0 5em;
 }
 
 .info h1 {
-    font-size: 3rem;
+    font-size: 3em;
     transition: all .75s ease-out;
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
 
 .info h3 {
-    font-size: 1.3rem;
-    padding: 2rem 0;
+    font-size: 1.3em;
+    padding: 2em 0;
     font-weight: lighter;
     transition: all .75s ease-out;
     color: rgb(223, 223, 223);
@@ -83,7 +84,7 @@
 }
 
 .info p {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   transition: all .75s ease-out;
   color: white;
   text-shadow: 2px 2px 4px #000000;
@@ -96,7 +97,7 @@
 }
 
 .sizes button {
-    padding: 0.5rem 2rem;
+    padding: 0.5em 2em;
     background: none;
     border: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -112,12 +113,12 @@ button.active {
 }
 
 .purchase {
-    margin: 3rem 0;
+    margin: 3em 0;
 }
 
 .purchase button {
     width: 100%;
-    padding: 1rem 0;
+    padding: 1em 0;
     background-color: #f54642;
     border: none;
     color: white;
