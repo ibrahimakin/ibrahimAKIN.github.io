@@ -1,7 +1,25 @@
-.docApp {
-    background-color: rgba(128, 128, 128, 0.5);
+#content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
 }
-
+#canvas-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+#score-container {
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#canvas {
+    border: 1px white solid;
+    background-color: rgba(255, 255, 255, 0.8);
+}
 #space-button {
     padding: 5px 50px;
     margin: 5px;
