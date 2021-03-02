@@ -1,0 +1,11 @@
+.docApp {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#space-button {
+    padding: 5px 50px;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
