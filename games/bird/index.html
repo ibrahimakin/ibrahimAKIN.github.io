@@ -25,22 +25,18 @@
 					<side-navbar></side-navbar>
 				</div>
                 <div id="content-container">
-						<table style="margin: auto; border: 1px solid black;">
-							<tr>
-								<th>
-									<canvas id="canvas" width="800" height="500" style="margin-top:24px; border:1px solid #000;">
-									</canvas>
-									<!--<div id="Score">0</div>-->
-									<div><button id="space-button"> Press SPACE </button></div>
-								</th>
-								<th>
-									Score <br />
-									<p id="score">0</p><br />
-									Best Score <br />
-									<p id="bestScore">0</p>
-								</th>
-							</tr>
-						</table>
+					<div id="canvas-container">
+						<canvas id="canvas" width="800" height="500"></canvas>
+						<div id="button-container">
+							<button id="space-button"> Press SPACE </button>
+						</div>
+					</div>
+					<div id="score-container">
+						Best Score <br />
+						<p id="bestScore">0</p><br />
+						Score <br />
+						<p id="score">0</p><br />
+					</div>
 				</div>
 			</div>
 		</div>
