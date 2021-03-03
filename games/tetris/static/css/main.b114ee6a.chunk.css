@@ -1,0 +1,2 @@
+body,html{margin:0;padding:0}@font-face{font-family:"Pixel";src:url('../media/Pixel-LCD-7.e2897552.woff') format("woff")}#root,.App,body,html{height:100%}#mobile-controler{display:none;text-align:center;position:fixed;bottom:0;padding:25px;right:unset}#mobile-controler button{padding:15px;margin:5px;cursor:pointer}@media screen and (max-width:450px){#mobile-controler{left:0}}@media screen and (max-width:700px){#mobile-controler{display:inline;right:0}}
+/*# sourceMappingURL=main.b114ee6a.chunk.css.map */
