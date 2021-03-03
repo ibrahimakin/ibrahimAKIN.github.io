@@ -50,3 +50,12 @@ button:active {
 .movies {
   background-image: url('../../assets/icons/navbar/clapperboard.svg');
 }
+.bird {
+  background-image: url('../../assets/icons/navbar/bird.svg');
+}
+.snake {
+  background-image: url('../../assets/icons/navbar/snake.svg');
+}
+.tetris {
+  background-image: url('../../assets/icons/navbar/tetris.svg');
+}
