@@ -2,6 +2,11 @@ class Navbar extends HTMLElement {
     constructor() {
       super();
     }
+    handleTopDropdownHover(event) {
+      if (event.target.name) {
+        document.getElementById(event.target.name + 'tdc').style.width = event.target.getBoundingClientRect().width + 'px';;
+      }
+    }
     connectedCallback() {
         this.innerHTML = `
           <div id="topnavbar">
@@ -13,12 +18,12 @@ class Navbar extends HTMLElement {
                   <a href="/projects/lcd-character-generator"><button class="white">LCD Character Generator</button></a>
                 </div>
               </div>
-              <div class="dropdown-top">
+              <div id="gamestn" class="dropdown-top">
                 <button title="Games" class="white ripple-button games icon" name="games"></button>
                 <div id="gamestdc" class="dropdown-content">
-                  <a href="/games/bird"><button class="white">Bird</button></a>
-                  <a href="/games/snake"><button class="white">Snake</button></a>
-                  <a href="/games/tetris"><button class="white">Tetris</button></a>
+                  <a title="Bird" href="/games/bird"><button class="white bird icon"></button></a>
+                  <a title="Snake" href="/games/snake"><button class="white snake icon"></button></a>
+                  <a title="Tetris" href="/games/tetris"><button class="white tetris icon"></button></a>
                 </div>
               </div>
               <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
@@ -27,6 +32,8 @@ class Navbar extends HTMLElement {
               <button class="white ripple-button"></button>                
           </div>
         `;
+        let topDropdown = document.getElementById('gamestn');
+        topDropdown.addEventListener('mouseover', this.handleTopDropdownHover);
     }
 }
 

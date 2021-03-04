@@ -1,8 +1,11 @@
+:root {
+    --topnav-height: 50px;
+}
 #topnavbar {
     display: none;
     /* position: absolute; */
     width: 100%;
-    height: 50px;
+    height: var(--topnav-height);
     z-index: 20;
     font-size: 0.625em;
     line-height: 1.15;
@@ -22,6 +25,7 @@
 
 #topnavbar .dropdown-content button{
     padding: 10px 0;
+    min-height: var(--topnav-height);
 }
 
 .dropdown-top:hover .dropdown-content {
