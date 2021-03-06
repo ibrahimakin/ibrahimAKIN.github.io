@@ -3,8 +3,8 @@ class PersonalCard extends HTMLElement {
       super();
     }
     handleOrientation(event, card){
-        let beta = event['beta'];
-        let alpha = event['alpha'];
+        let beta = event['beta'] % 360;
+        let alpha = event['gamma'] % 360;
         if ((45 < beta && beta < 135) && (-45 < alpha && alpha < 45)) {
             card.style.transform = `rotateY(${-alpha}deg) rotateX(${beta-90}deg)`;
         }
