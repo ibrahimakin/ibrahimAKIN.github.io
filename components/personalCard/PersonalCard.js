@@ -48,7 +48,7 @@ class PersonalCard extends HTMLElement {
         const about = document.querySelector('.info p');
         const sizes = document.querySelector('.sizes');
 
-		window.addEventListener('deviceorientation', (event)=>{this.handleOrientation(event, card)});
+        window.addEventListener('deviceorientation', (event)=>{this.handleOrientation(event, card)});
 
         // Moving Animation Event
         container.addEventListener('mousemove', (e) => {
