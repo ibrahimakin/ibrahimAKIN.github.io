@@ -2,7 +2,7 @@ class PersonalCard extends HTMLElement {
     constructor() {
       super();
     }
-    handleOrientation(event, card){
+    handleOrientation(event, card) {
         let beta = event['beta'] % 360;
         let alpha = event['gamma'] % 360;
         if ((45 < beta && beta < 135) && (-45 < alpha && alpha < 45)) {
@@ -72,7 +72,7 @@ class PersonalCard extends HTMLElement {
 
         // Animate Out
         container.addEventListener('mouseleave', (e) => {
-            card.style.transition = 'all 0.5s ease';
+            card.style.transition = 'transform 0.5s ease';
             card.style.transform = `rotateY(0deg) rotateX(0deg)`;
             // Popback
             particlesJs.style.transform = 'translateZ(0px)'
