@@ -87,7 +87,4 @@ class PersonalCard extends HTMLElement {
         particlesJS("particles-js", particlesConfig);
     }
 }
-
 customElements.define('personal-card', PersonalCard);
-
-
