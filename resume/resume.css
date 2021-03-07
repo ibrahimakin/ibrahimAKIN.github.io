@@ -220,7 +220,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1125px) {
     #resume-page {
         width: 100%;
     }
