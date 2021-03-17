@@ -68,7 +68,11 @@ class Sidenavbar extends HTMLElement {
     handleDropdownLeave(event) {
       event.target.children[1].style.display = 'none';
     }
-    
+    linkClick(event) {
+      if (event.type !== 'click') {
+        event.preventDefault()
+      }
+    }
     connectedCallback() {
         this.innerHTML = `
           <div id="sidenavbar" style="min-width: ${sidenavOpenWidth}px;">
@@ -88,13 +92,13 @@ class Sidenavbar extends HTMLElement {
                 <a title="Home" href="/"><button class="white ripple-button home icon"></button></a>
                 <div><button class="black"></button></div>
                 <div class="dropdown" name="projects">
-                  <button name="projects" class="white ripple-button project icon dropdown-button" title="Projects"></button>
+                  <a title="Projects" href="/projects"><button name="projects" class="white ripple-button project icon dropdown-button"></button></a>
                   <div id="projectsdc" class="dropdown-content">
                     <a href="/projects/lcd-character-generator"><button class="white">LCD Character Generator</button></a>
                   </div>
                 </div>
                 <div class="dropdown" name="games">
-                  <button name="games" class="white ripple-button games icon dropdown-button" title="Games"></button>
+                  <a title="Games" href="/games"><button name="games" class="white ripple-button games icon dropdown-button"></button></a>
                   <div id="gamesdc" class="dropdown-content">
                     <a title="Bird" href="/games/bird"><button class="white bird icon dropdown-button"></button></a>
                     <a title="Snake" href="/games/snake"><button class="white snake icon dropdown-button"></button></a>
@@ -128,6 +132,7 @@ class Sidenavbar extends HTMLElement {
 
         let dropdownContainer = document.getElementsByClassName('dropdown');
         for (let dropdown of dropdownContainer) {
+          dropdown.children[0].addEventListener('click', this.linkClick);
           dropdown.addEventListener('mouseover', this.handleDropdownHover);
           dropdown.addEventListener('mouseleave', this.handleDropdownLeave);
         }
