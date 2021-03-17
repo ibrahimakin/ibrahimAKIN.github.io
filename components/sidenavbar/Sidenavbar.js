@@ -38,7 +38,7 @@ class Sidenavbar extends HTMLElement {
     constructor() {
       super();
     }
-    handleClick(event) {
+    handleClick() {
       const element = document.getElementById('sidenavbar');      
       if ( parseFloat(element.style.minWidth) >= sidenavOpenWidth ) {
         element.style.transition = `min-width ${sidenavDelay}ms linear, width ${sidenavDelay}ms linear`;
@@ -47,8 +47,8 @@ class Sidenavbar extends HTMLElement {
         element.style.transition = `min-width ${sidenavDelay}ms linear`;
         openNavbar();
       }
-    };
-    myFunction(x, onStart) {
+    }
+    handleMediaQuery(x, onStart) {
       const element = document.getElementById('sidenavbar');
       let button = document.getElementById('center-button');
       if (x.matches && parseFloat(element.style.minWidth) >= sidenavOpenWidth) { // If media query matches
@@ -59,7 +59,6 @@ class Sidenavbar extends HTMLElement {
         button.click();
       }
     }
-
     handleDropdownHover(event) {
       if (event.target.name) {
         showDropdownContent(event);
@@ -68,10 +67,13 @@ class Sidenavbar extends HTMLElement {
     handleDropdownLeave(event) {
       event.target.children[1].style.display = 'none';
     }
-    linkClick(event) {
-      if (event.type !== 'click') {
-        event.preventDefault()
+    handleTouchEnd(event) {
+      event.preventDefault();
+      let dropdownContents = document.getElementsByClassName('dropdown-content');
+      for (let dropdown of dropdownContents) {
+        dropdown.style.display = 'none';
       }
+      showDropdownContent(event);
     }
     connectedCallback() {
         this.innerHTML = `
@@ -127,12 +129,12 @@ class Sidenavbar extends HTMLElement {
         button.addEventListener('click', this.handleClick);
 
         let x = window.matchMedia(`(max-width: ${sidenavMediaWidth}px)`);
-        this.myFunction(x, true);                          // Call listener function at run time
-        x.addEventListener('change', this.myFunction);     // Attach listener function on state changes
+        this.handleMediaQuery(x, true);                          // Call listener function at run time
+        x.addEventListener('change', this.handleMediaQuery);     // Attach listener function on state changes
 
         let dropdownContainer = document.getElementsByClassName('dropdown');
         for (let dropdown of dropdownContainer) {
-          dropdown.children[0].addEventListener('click', this.linkClick);
+          dropdown.children[0].addEventListener('touchend', this.handleTouchEnd);
           dropdown.addEventListener('mouseover', this.handleDropdownHover);
           dropdown.addEventListener('mouseleave', this.handleDropdownLeave);
         }
