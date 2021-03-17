@@ -69,7 +69,7 @@ class Sidenavbar extends HTMLElement {
     }
     handleTouchEnd(event) {
       event.preventDefault();
-      let dropdownContents = document.getElementsByClassName('dropdown-content');
+      let dropdownContents = document.getElementsByClassName('sidebarddc');
       for (let dropdown of dropdownContents) {
         dropdown.style.display = 'none';
       }
@@ -95,13 +95,13 @@ class Sidenavbar extends HTMLElement {
                 <div><button class="black"></button></div>
                 <div class="dropdown" name="projects">
                   <a title="Projects" href="/projects"><button name="projects" class="white ripple-button project icon dropdown-button"></button></a>
-                  <div id="projectsdc" class="dropdown-content">
+                  <div id="projectsdc" class="dropdown-content sidebarddc">
                     <a href="/projects/lcd-character-generator"><button class="white">LCD Character Generator</button></a>
                   </div>
                 </div>
                 <div class="dropdown" name="games">
                   <a title="Games" href="/games"><button name="games" class="white ripple-button games icon dropdown-button"></button></a>
-                  <div id="gamesdc" class="dropdown-content">
+                  <div id="gamesdc" class="dropdown-content sidebarddc">
                     <a title="Bird" href="/games/bird"><button class="white bird icon dropdown-button"></button></a>
                     <a title="Snake" href="/games/snake"><button class="white snake icon dropdown-button"></button></a>
                     <a title="Tetris" href="/games/tetris"><button class="white tetris icon dropdown-button"></button></a>
