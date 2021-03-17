@@ -1,0 +1,30 @@
+#menu-content-container {
+    display: flex;
+    height: 100%;
+}
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+}
+.card-item {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    margin: 10px 5px;
+    transition: transform 100ms linear, background-color 100ms linear;
+    border: 1px solid red;
+}
+.card-item:hover {
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+}
+.card-item a {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    cursor: pointer;
+}
