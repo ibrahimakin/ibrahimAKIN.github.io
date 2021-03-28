@@ -100,7 +100,9 @@ button.white:hover, a.white:hover {
 .dropdown-content a {
     display: block;
 }
-
+.lang-option {
+    font-weight: 900;
+}
 .dropdown-content::-webkit-scrollbar {
     width: 10px;
 }

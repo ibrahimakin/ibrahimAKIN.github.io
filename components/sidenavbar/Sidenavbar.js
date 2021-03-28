@@ -4,7 +4,7 @@ const sidenavDelay = 100;
 const sidenavMediaWidth = 750;
 
 function closeNavbar() {
-  let button = document.getElementById('center-button');
+  let button = document.getElementById('collapse-button');
   let element = document.getElementById('sidenavbar');
   let header = document.getElementById('sticky-navbar');
   element.style.minWidth = `${sidenavWidth}px`;
@@ -14,7 +14,7 @@ function closeNavbar() {
   button.classList.add('forward');
 }
 function openNavbar() {
-  let button = document.getElementById('center-button');
+  let button = document.getElementById('collapse-button');
   let element = document.getElementById('sidenavbar');
   let header = document.getElementById('sticky-navbar');
   element.style.minWidth = `${sidenavOpenWidth}px`;
@@ -29,7 +29,7 @@ function showDropdownContent(event) {
   let dropdownContent = document.getElementById(event.target.name + 'dc');
   dropdownContent.style.left = (event.target.offsetLeft + event.target.offsetWidth - 1) + 'px';
   for (let node of dropdownContent.children) {
-    node.style.height = event.target.getBoundingClientRect().height+'px';
+    node.style.height = event.target.getBoundingClientRect().height + 'px';
   }
   dropdownContent.style.display = 'inline-block';
 }
@@ -50,7 +50,7 @@ class Sidenavbar extends HTMLElement {
     }
     handleMediaQuery(x, onStart) {
       const element = document.getElementById('sidenavbar');
-      let button = document.getElementById('center-button');
+      let button = document.getElementById('collapse-button');
       if (x.matches && parseFloat(element.style.minWidth) >= sidenavOpenWidth) { // If media query matches
         if(onStart){ closeNavbar(); }
         else { button.click(); }
@@ -109,8 +109,14 @@ class Sidenavbar extends HTMLElement {
                 </div>
                 <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
                 <a title="Movies" href="/projects/movies"><button class="white ripple-button movies icon"></button></a>
-                <div><button class="white ripple-button"></button></div>
-                <div><button class="white ripple-button back icon" id="center-button"></button></div>
+                <div class="dropdown" name="settings">
+                  <button name="settings" class="white ripple-button settings icon dropdown-button"></button>
+                  <div id="settingsdc" class="dropdown-content sidebarddc">
+                    <button title="Türkçe" lang-name="tr" class="white lang-button dropdown-button"><span class="lang-option">TR</span></button>
+                    <button title="English" lang-name="en" class="white lang-button dropdown-button"><span class="lang-option">EN</span></button>
+                  </div>
+                </div>
+                <div><button class="white ripple-button back icon" id="collapse-button"></button></div>
               </div>
               <div class="grid-sub-container">
                 <button class="black"></button>
@@ -125,7 +131,7 @@ class Sidenavbar extends HTMLElement {
             </div>
           </div>
         `;
-        let button = document.getElementById('center-button');
+        let button = document.getElementById('collapse-button');
         button.addEventListener('click', this.handleClick);
 
         let x = window.matchMedia(`(max-width: ${sidenavMediaWidth}px)`);
