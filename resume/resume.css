@@ -27,7 +27,7 @@
     color: var(--resume-clr);
 }
 
-.lang-button {
+.resume-lang-option {
     padding: 5px;
     border-radius: 5px;
     outline: none;

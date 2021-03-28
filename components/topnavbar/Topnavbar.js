@@ -18,7 +18,7 @@ class Navbar extends HTMLElement {
                   <a href="/projects/lcd-character-generator"><button class="white">LCD Character Generator</button></a>
                 </div>
               </div>
-              <div id="gamestn" class="dropdown-top">
+              <div class="dropdown-top tn-same-width">
                 <button title="Games" class="white ripple-button games icon" name="games"></button>
                 <div id="gamestdc" class="dropdown-content">
                   <a title="Bird" href="/games/bird"><button class="white bird icon"></button></a>
@@ -28,12 +28,20 @@ class Navbar extends HTMLElement {
               </div>
               <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
               <a title="Movies" href="/projects/movies"><button class="white ripple-button movies icon"></button></a>
-              <button class="white ripple-button"></button>
+              <div class="dropdown-top tn-same-width">
+                <button title="Settings" class="white ripple-button settings icon" name="settings"></button>
+                <div id="settingstdc" class="dropdown-content">
+                  <button title="Türkçe" lang-name="tr" class="white lang-button dropdown-button lang-option">TR</button>
+                  <button title="English" lang-name="en" class="white lang-button dropdown-button lang-option">EN</button>
+                </div>
+              </div>
               <button class="white ripple-button"></button>                
           </div>
         `;
-        let topDropdown = document.getElementById('gamestn');
-        topDropdown.addEventListener('mouseover', this.handleTopDropdownHover);
+        let topDropdowns = document.getElementsByClassName('tn-same-width');
+        for (const topDropdown of topDropdowns) {
+          topDropdown.addEventListener('mouseover', this.handleTopDropdownHover);
+        }
     }
 }
 
