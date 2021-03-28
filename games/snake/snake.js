@@ -78,7 +78,7 @@ class SnakeGame {
 
         this.context.fillStyle = 'white';
         this.context.font = '20px Arial';
-        this.context.fillText('Best ' + this.best, 20, 30);
+        this.context.fillText('High Score ' + this.best, 20, 30);
         this.context.fillText(this.tailSize - 5, 20, 60);
 
         this.context.fillStyle = 'yellow';

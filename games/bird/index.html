@@ -16,6 +16,8 @@
     <script src="../../components/sidenavbar/Sidenavbar.js" type="text/javascript" defer></script>
     <script src="../../components/topnavbar/Topnavbar.js" type="text/javascript" defer></script>
     <script src="../../components/rippleButton/rippleButton.js" type="text/javascript" defer></script>
+	<script src="./lang.js" type="text/javascript" defer></script>
+    <script src="../../script.js" type="text/javascript" defer></script>
     <script src="./bird.js" type="text/javascript" defer></script>
 </head>
 <body>
@@ -30,13 +32,13 @@
 					<div id="canvas-container">
 						<canvas id="canvas" width="800" height="500"></canvas>
 						<div id="button-container">
-							<button id="space-button"> Press SPACE </button>
+							<button id="space-button" lang-tag="press_space">Press SPACE</button>
 						</div>
 					</div>
 					<div id="score-container">
-						Best Score <br />
+						<span lang-tag="high_score">High Score</span><br />
 						<p id="bestScore">0</p><br />
-						Score <br />
+						<span lang-tag="score">Score</span><br />
 						<p id="score">0</p><br />
 					</div>
 				</div>

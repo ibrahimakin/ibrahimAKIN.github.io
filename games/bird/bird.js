@@ -37,7 +37,7 @@ function Pipe(ctx, height) {
 	this.width = pipeWidth;
 	this.height = height || minPipe + Math.random() * (HEIGHT - space - minPipe * 2);
 	this.draw = function () {
-		this.ctx.fillStyle = "#000";
+		this.ctx.fillStyle = '#000';
 		this.ctx.fillRect(this.x, this.y, this.width, this.height);
 	}
 	this.update = function () {
@@ -45,9 +45,9 @@ function Pipe(ctx, height) {
 		if (this.x + pipeWidth < 150 && this.Score) {
 			counter = counter + 0.5;
 			this.Score = false;
-			document.getElementById("score").innerHTML = counter;
+			document.getElementById('score').innerHTML = counter;
 			if (counter > bestScore) {
-				document.getElementById("bestScore").innerHTML = counter;
+				document.getElementById('bestScore').innerHTML = counter;
 				bestScore = counter;
 				localStorage.setItem('birdBestScore', counter);
 			}
@@ -65,9 +65,9 @@ window.onload = function start() {
 		document.getElementById('bestScore').innerHTML = bestScore;
 	}
 	var frameCount = 0;
-	var c = document.getElementById("canvas");
+	var c = document.getElementById('canvas');
     c.addEventListener('touchstart', ()=>{ onKeyDown({code:'Space'}); })
-	var ctx = c.getContext("2d");
+	var ctx = c.getContext('2d');
 	var pipes = generatePipes();
 	var birds = [new Bird(ctx)];
 	let loop;
@@ -112,8 +112,8 @@ window.onload = function start() {
 		}
 		if (isGameOver()) {
 			isStart = false;
-			//alert('Game Over!');
-			if (confirm("Game Over")) {
+			// alert('Game Over!');
+			if (confirm(langObj[getLang()]['game_over'])) {
 				location.reload();
 			} else {
 				location.reload();
@@ -128,7 +128,6 @@ window.onload = function start() {
 				if (bird.y-10 < 0 || bird.y+10 > HEIGHT || (
 					bird.x+10 > pipe.x && bird.x-10 < pipe.x + pipe.width
 					&& bird.y+10 > pipe.y && bird.y-10 < pipe.y + pipe.height)) {
-					console.log('game over');
 					gameOver = true;
 				}
 			});
