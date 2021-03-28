@@ -2,6 +2,10 @@
     --sidenav-button-rad: 0px;
     --sidenav-right-rad: 0px;
 }
+:root {
+    --resume-clr: #008080;
+    --resume-clr-hvr: #006060;
+}
 #resume-container {
     display: flex;
     justify-content: center;
@@ -20,7 +24,7 @@
 }
 
 #resume-page h2 {
-    color: #008080;
+    color: var(--resume-clr);
 }
 
 .lang-button {
@@ -40,7 +44,7 @@
 
 #resume-leftside hr {
     margin-bottom: 5px;
-    border-color: #008080;
+    border-color: var(--resume-clr);
 }
 
 #resume-rightside {
@@ -61,11 +65,11 @@
 }::marker{
     content: '◻  '; 
     font-size: small;
-    color: #008080;
+    color: var(--resume-clr);
 }
 #resume-rightside hr {
     margin-bottom: 10px;
-    border-color: #008080;
+    border-color: var(--resume-clr);
 }
 
 #resume-summary {
@@ -74,7 +78,7 @@
     display: flex;
     align-items: center;
     top: 0;
-    background-color: #008080;
+    background-color: var(--resume-clr);
     color: white;
     margin-top: 20px;
     padding-top: 10px;
@@ -153,11 +157,15 @@
 }
 .skill {
     display: inline-block;
-    background-color: #008080;
+    background-color: var(--resume-clr);
     color: white;
     padding: 5px;
     border-radius: 7px;
     margin-top: 5px;
+    cursor: default;
+}
+.skill:hover {
+    background-color: var(--resume-clr-hvr);
 }
 .interest {
     display: inline-block;
@@ -165,6 +173,11 @@
     padding: 5px;
     border-radius: 7px;
     margin-top: 5px;
+    cursor: default;
+}
+.interest:hover {
+    border-color: var(--resume-clr-hvr);
+    color: var(--resume-clr-hvr);
 }
 .language {
     margin-bottom: 5px;
@@ -180,11 +193,11 @@
 .edu-period {
     display: flex;
     justify-content: space-between;
-    color: #008080;
+    color: var(--resume-clr);
     font-style: italic;
 }
 .sec-title {
-    color: #008080;
+    color: var(--resume-clr);
     font-style: italic;
 }
 
