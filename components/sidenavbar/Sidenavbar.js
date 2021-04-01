@@ -24,7 +24,6 @@ function openNavbar() {
     header.classList.remove('sticky-nav');
   }, (sidenavDelay / 2));
 }
-
 function showDropdownContent(event) {
   let dropdownContent = document.getElementById(event.target.name + 'dc');
   dropdownContent.style.left = (event.target.offsetLeft + event.target.offsetWidth - 1) + 'px';
@@ -33,7 +32,12 @@ function showDropdownContent(event) {
   }
   dropdownContent.style.display = 'inline-block';
 }
-
+function hideDropdownContent(event) {
+  let dropdownContents = document.getElementsByClassName('sidebarddc');
+  for (let dropdown of dropdownContents) {
+    dropdown.style.display = 'none';
+  }
+}
 class Sidenavbar extends HTMLElement {
     constructor() {
       super();
@@ -52,7 +56,7 @@ class Sidenavbar extends HTMLElement {
       const element = document.getElementById('sidenavbar');
       let button = document.getElementById('collapse-button');
       if (x.matches && parseFloat(element.style.minWidth) >= sidenavOpenWidth) { // If media query matches
-        if(onStart){ closeNavbar(); }
+        if (onStart) { closeNavbar(); }
         else { button.click(); }
       }
       else if (!x.matches && parseFloat(element.style.minWidth) < sidenavOpenWidth) {
@@ -67,13 +71,17 @@ class Sidenavbar extends HTMLElement {
     handleDropdownLeave(event) {
       event.target.children[1].style.display = 'none';
     }
-    handleTouchEnd(event) {
-      event.preventDefault();
-      let dropdownContents = document.getElementsByClassName('sidebarddc');
-      for (let dropdown of dropdownContents) {
-        dropdown.style.display = 'none';
+    handleTouchHover(event) {
+      if (event.target.name) {
+        event.preventDefault();
+        hideDropdownContent();
+        showDropdownContent(event);
       }
-      showDropdownContent(event);
+    }
+    handleTouchLeave(event) {
+      if (!event.target.classList.contains('dropdown-button')) {
+        hideDropdownContent();
+      }
     }
     connectedCallback() {
         this.innerHTML = `
@@ -96,7 +104,7 @@ class Sidenavbar extends HTMLElement {
                 <div class="dropdown" name="projects">
                   <a title="Projects" href="/projects"><button name="projects" class="white ripple-button project icon dropdown-button"></button></a>
                   <div id="projectsdc" class="dropdown-content sidebarddc">
-                    <a href="/projects/lcd-character-generator"><button class="white">LCD Character Generator</button></a>
+                    <a href="/projects/lcd-character-generator"><button class="white dropdown-button">LCD Character Generator</button></a>
                   </div>
                 </div>
                 <div class="dropdown" name="games">
@@ -140,10 +148,11 @@ class Sidenavbar extends HTMLElement {
 
         let dropdownContainer = document.getElementsByClassName('dropdown');
         for (let dropdown of dropdownContainer) {
-          dropdown.children[0].addEventListener('touchend', this.handleTouchEnd);
+          dropdown.addEventListener('touchend', this.handleTouchHover);
           dropdown.addEventListener('mouseover', this.handleDropdownHover);
           dropdown.addEventListener('mouseleave', this.handleDropdownLeave);
         }
+        document.addEventListener('touchstart', this.handleTouchLeave)
         particlesJS('particles-jsnav', particlesConfig);
     }
 }
