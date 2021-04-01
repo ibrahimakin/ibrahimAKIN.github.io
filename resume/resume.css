@@ -55,13 +55,9 @@
     padding-left: 2%;
     padding-right: 2%;
 }
-#resume-rightside ul {
-    display: flex;
-    justify-content: space-between;
-}
+
 #resume-rightside li {
     margin-left: 18px;
-    width: 50%;
 }::marker{
     content: '◻  '; 
     font-size: small;
@@ -196,6 +192,13 @@
     color: var(--resume-clr);
     font-style: italic;
 }
+.education-content {
+    display: flex;
+    justify-content: space-between;
+}
+.education-content > div {
+    width: 50%;
+}
 .sec-title {
     color: var(--resume-clr);
     font-style: italic;
@@ -255,7 +258,7 @@
     #left-profile-image { display: none; }
 }
 
-@media screen and (max-height: 330px) {
+@media screen and (max-height: 400px) {
     #resume-summary {
         position: relative;
     }
