@@ -3,7 +3,6 @@ class PersonalCard extends HTMLElement {
       super();
     }
     handleOrientation(event, card) {
-        card.style.transition = 'transform 0.3s ease';
         let beta = event['beta'] % 360;
         let alpha = event['gamma'] % 360;
         if ((45 < beta && beta < 135) && (-45 < alpha && alpha < 45)) {
