@@ -31,4 +31,44 @@
     border: 1px solid white;
     border-radius: 20px;
     cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+}
+.card-img {
+    height: 50%;
+    background-size: contain;
+    transition: transform 100ms linear, background-color 100ms linear;
+}
+.card-img:hover {
+    transform: scale(1.2);
+}
+.card-title {
+    color: #fff;
+    font-weight: bold;
+    height: 50%;
+    display: flex;
+    transition: transform 100ms linear, background-color 100ms linear;
+}
+.card-title > div {
+    margin: auto;
+    text-align: center;
+}
+.card-title:hover {
+    transform: scale(1.2);
+}
+
+.bird-img {
+    background-image: url('../../assets/games/bird.png');
+}
+.snake-img {
+    background-image: url('../../assets/games/snake.png');
+}
+.tetris-img {
+    background-image: url('../../assets/games/tetris.png');
+}
+.lcd-img {
+    background-image: url('../../assets/projects/lcd.png');
+}
+.movies-img {
+    background-image: url('../../assets/projects/movies.png');
 }
