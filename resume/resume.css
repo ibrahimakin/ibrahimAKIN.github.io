@@ -67,7 +67,10 @@
     margin-bottom: 10px;
     border-color: var(--resume-clr);
 }
-
+#resume-rightside a {
+    white-space: nowrap;
+    color: #000;
+}
 #resume-summary {
     position: -webkit-sticky;
     position: sticky;
@@ -224,12 +227,8 @@
 .cert-period {
     display: flex;
     flex-direction: column;
-    white-space: nowrap;
     text-align: right;
     justify-content: space-between;
-}
-.cert-period a {
-    color: black;
 }
 
 #skills, #interests, #languages {
