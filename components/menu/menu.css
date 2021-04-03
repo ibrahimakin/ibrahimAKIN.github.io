@@ -70,17 +70,17 @@
     text-align: center;
 }
 .bird-img {
-    background-image: url('../../assets/games/bird.png');
+    background-image: url('../../assets/images/games/bird.png');
 }
 .snake-img {
-    background-image: url('../../assets/games/snake.png');
+    background-image: url('../../assets/images/games/snake.png');
 }
 .tetris-img {
-    background-image: url('../../assets/games/tetris.png');
+    background-image: url('../../assets/images/games/tetris.png');
 }
 .lcd-img {
-    background-image: url('../../assets/projects/lcd.png');
+    background-image: url('../../assets/images/projects/lcd.png');
 }
 .movies-img {
-    background-image: url('../../assets/projects/movies.png');
+    background-image: url('../../assets/images/projects/movies.png');
 }
