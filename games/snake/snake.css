@@ -11,3 +11,8 @@
 #game {
 	border: 1px solid white;
 }
+#content-container button {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}

@@ -118,7 +118,7 @@ class Sidenavbar extends HTMLElement {
                 <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
                 <a title="Movies" href="/projects/movies"><button class="white ripple-button movies icon"></button></a>
                 <div class="dropdown" name="settings">
-                  <button name="settings" class="white ripple-button settings icon dropdown-button"></button>
+                  <button title="Settings" name="settings" class="white ripple-button settings icon dropdown-button"></button>
                   <div id="settingsdc" class="dropdown-content sidebarddc">
                     <button title="Türkçe" lang-name="tr" class="white lang-button dropdown-button lang-option">TR</button>
                     <button title="English" lang-name="en" class="white lang-button dropdown-button lang-option">EN</button>
