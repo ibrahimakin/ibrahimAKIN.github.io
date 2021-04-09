@@ -2,11 +2,23 @@ class SnakeGame {
     constructor() {
         this.canvas = document.getElementById('game');
         this.context = this.canvas.getContext('2d');
+        document.getElementById('snake-play').addEventListener('click', this.handlePlayClick.bind(this));
+        document.getElementById('snake-pause').addEventListener('click', this.handlePauseClick.bind(this));
         document.addEventListener('keydown', this.onKeyPress.bind(this));
-        this.best = localStorage.getItem('snakeBestScore')
-        if (!this.best) {
-            this.best = 0;
+        this.best = localStorage.getItem('snakeBestScore');
+        if (!this.best) { this.best = 0; }
+    }
+
+    handlePlayClick() {
+        if (!this.play) {
+            this.onKeyPress({ keyCode: 37 });
+            this.play = true;
         }
+        this.pause = false;
+    }
+
+    handlePauseClick() {
+        if (this.play) { this.pause = true; }
     }
 
     init() {
@@ -14,11 +26,12 @@ class SnakeGame {
         this.appleX = this.appleY = 5;
         this.tailSize = 5;
         this.trail = [];
-        this.gridSize = /*this.tileCount =*/ 20; //canvas 400x400 kare iken tileCount=20
+        this.gridSize = /* this.tileCount = */ 20; // canvas 400x400 kare iken tileCount = 20
         this.tileCountX = 40;
         this.tileCountY = 25;
         this.velocityX = this.velocityY = 0;
-
+        this.pause = false;
+        this.play = false;
         this.timer = setInterval(this.loop.bind(this), 1000 / 10);
     }
 
@@ -28,8 +41,10 @@ class SnakeGame {
     }
 
     loop() {
-        this.update();
-        this.draw();
+        if (!this.pause) {
+            this.update();
+            this.draw();
+        }
     }
 
     update() {
@@ -63,8 +78,8 @@ class SnakeGame {
 
         if (this.appleX === this.positionX && this.appleY === this.positionY) {
             this.tailSize++;
-            if (this.tailSize-5 > this.best) {
-                this.best = this.tailSize-5;
+            if (this.tailSize - 5 > this.best) {
+                this.best = this.tailSize - 5;
                 localStorage.setItem('snakeBestScore', this.best);
             }
             this.appleX = Math.floor(Math.random() * this.tileCountX);
@@ -78,7 +93,7 @@ class SnakeGame {
 
         this.context.fillStyle = 'white';
         this.context.font = '20px Arial';
-        this.context.fillText('High Score ' + this.best, 20, 30);
+        this.context.fillText(langObj[getLang()]['high_score'] + this.best, 20, 30);
         this.context.fillText(this.tailSize - 5, 20, 60);
 
         this.context.fillStyle = 'yellow';
@@ -91,6 +106,8 @@ class SnakeGame {
     }
 
     onKeyPress(e) {
+        if (this.pause) { return; }
+        this.play = true;
         if (e.keyCode === 37 && this.velocityX !== 1) {
             this.velocityX = -1;
             this.velocityY = 0;

@@ -66,7 +66,7 @@ window.onload = function start() {
 	}
 	var frameCount = 0;
 	var c = document.getElementById('canvas');
-    c.addEventListener('touchstart', ()=>{ onKeyDown({code:'Space'}); })
+    c.addEventListener('touchstart', () => { onKeyDown({code:'Space'}); }, { passive: false })
 	var ctx = c.getContext('2d');
 	var pipes = generatePipes();
 	var birds = [new Bird(ctx)];
