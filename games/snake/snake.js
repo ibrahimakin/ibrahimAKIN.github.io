@@ -5,7 +5,7 @@ class SnakeGame {
         document.getElementById('snake-play').addEventListener('click', this.handlePlayClick.bind(this));
         document.getElementById('snake-pause').addEventListener('click', this.handlePauseClick.bind(this));
         document.addEventListener('keydown', this.onKeyPress.bind(this));
-        this.best = localStorage.getItem('snakeBestScore');
+        this.best = localStorage.getItem('snakeHighScore');
         if (!this.best) { this.best = 0; }
     }
 
@@ -80,7 +80,7 @@ class SnakeGame {
             this.tailSize++;
             if (this.tailSize - 5 > this.best) {
                 this.best = this.tailSize - 5;
-                localStorage.setItem('snakeBestScore', this.best);
+                localStorage.setItem('snakeHighScore', this.best);
             }
             this.appleX = Math.floor(Math.random() * this.tileCountX);
             this.appleY = Math.floor(Math.random() * this.tileCountY);
@@ -93,8 +93,9 @@ class SnakeGame {
 
         this.context.fillStyle = 'white';
         this.context.font = '20px Arial';
-        this.context.fillText(langObj[getLang()]['high_score'] + this.best, 20, 30);
-        this.context.fillText(this.tailSize - 5, 20, 60);
+        let lang = getLang();
+        this.context.fillText(langObj[lang]['high_score'] + this.best, 20, 30);
+        this.context.fillText(langObj[lang]['score'] + (this.tailSize - 5), 20, 60);
 
         this.context.fillStyle = 'yellow';
         this.trail.forEach(t => {
