@@ -5,15 +5,15 @@ const minPipe = 40;
 const space = 120;
 const FPS = 120;
 var counter = 0;
-var bestScore = 0;
+var highScore = 0;
 let isStart = false;
 
 function Bird(ctx) {
 	this.ctx = ctx;
 	this.x = 150;
 	this.y = 150;
-	this.bird = new Image()
-	this.bird.src = '../../assets/images/games/bird/bird.png'
+	this.bird = new Image();
+	this.bird.src = '../../assets/images/games/bird/bird.png';
 	this.gravity = 0;
 	this.velocity = 0.1;
 	this.draw = function () {
@@ -46,10 +46,10 @@ function Pipe(ctx, height) {
 			counter = counter + 0.5;
 			this.Score = false;
 			document.getElementById('score').innerHTML = counter;
-			if (counter > bestScore) {
-				document.getElementById('bestScore').innerHTML = counter;
-				bestScore = counter;
-				localStorage.setItem('birdBestScore', counter);
+			if (counter > highScore) {
+				document.getElementById('high-score').innerHTML = counter;
+				highScore = counter;
+				localStorage.setItem('birdHighScore', counter);
 			}
 		}
 		if ((this.x + pipeWidth) < 0) {
@@ -60,9 +60,9 @@ function Pipe(ctx, height) {
 window.onload = function start() {
     document.getElementById('space-button').onclick = () => { onKeyDown({code:'Space'}); };
 	document.addEventListener('keydown', onKeyDown);
-	bestScore = localStorage.getItem('birdBestScore');
-	if (bestScore) {
-		document.getElementById('bestScore').innerHTML = bestScore;
+	highScore = localStorage.getItem('birdHighScore');
+	if (highScore) {
+		document.getElementById('high-score').innerHTML = highScore;
 	}
 	var frameCount = 0;
 	var c = document.getElementById('canvas');
@@ -71,7 +71,7 @@ window.onload = function start() {
 	var pipes = generatePipes();
 	var birds = [new Bird(ctx)];
 	let loop;
-	function startPlay(params) {
+	function startPlay() {
 		if (isStart) {
 			loop = window.setInterval(gameLoop, 1000 / FPS);
 		}
@@ -112,7 +112,6 @@ window.onload = function start() {
 		}
 		if (isGameOver()) {
 			isStart = false;
-			// alert('Game Over!');
 			if (confirm(langObj[getLang()]['game_over'])) {
 				location.reload();
 			} else {
@@ -126,8 +125,8 @@ window.onload = function start() {
 		birds.forEach(bird => {
 			pipes.forEach(pipe => {
 				if (bird.y-10 < 0 || bird.y+10 > HEIGHT || (
-					bird.x+10 > pipe.x && bird.x-10 < pipe.x + pipe.width
-					&& bird.y+10 > pipe.y && bird.y-10 < pipe.y + pipe.height)) {
+					bird.x+10 > pipe.x && bird.x-10 < pipe.x + pipe.width &&
+					bird.y+10 > pipe.y && bird.y-10 < pipe.y + pipe.height)) {
 					gameOver = true;
 				}
 			});
