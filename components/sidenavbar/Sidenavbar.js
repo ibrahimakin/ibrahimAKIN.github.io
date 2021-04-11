@@ -111,9 +111,9 @@ class Sidenavbar extends HTMLElement {
                 <div class="dropdown" name="games">
                   <a title="Games" href="/games"><button name="games" class="white ripple-button games icon dropdown-button"></button></a>
                   <div id="gamesdc" class="dropdown-content sidebarddc">
-                    <a title="Bird" href="/games/bird"><button class="white bird icon dropdown-button"></button></a>
-                    <a title="Snake" href="/games/snake"><button class="white snake icon dropdown-button"></button></a>
                     <a title="Tetris" href="/games/tetris"><button class="white tetris icon dropdown-button"></button></a>
+                    <a title="Snake" href="/games/snake"><button class="white snake icon dropdown-button"></button></a>
+                    <a title="Bird" href="/games/bird"><button class="white bird icon dropdown-button"></button></a>
                   </div>
                 </div>
                 <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
