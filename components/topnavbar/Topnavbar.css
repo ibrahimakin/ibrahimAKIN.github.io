@@ -3,7 +3,6 @@
 }
 #topnavbar {
     display: none;
-    /* position: absolute; */
     width: 100%;
     height: var(--topnav-height);
     z-index: 20;
