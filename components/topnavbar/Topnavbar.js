@@ -15,6 +15,7 @@ class Navbar extends HTMLElement {
               <div class="dropdown-top">
                 <button title="Projects" class="white ripple-button project icon" name="projects"></button>
                 <div id="projectstdc" class="dropdown-content">
+                  <a title="Face Detector" href="/projects/face-detector"><button class="white face icon"></button></a>
                   <a href="/projects/lcd-character-generator"><button class="white">LCD Character Generator</button></a>
                 </div>
               </div>
