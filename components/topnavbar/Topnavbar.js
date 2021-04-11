@@ -22,9 +22,9 @@ class Navbar extends HTMLElement {
               <div class="dropdown-top tn-same-width">
                 <button title="Games" class="white ripple-button games icon" name="games"></button>
                 <div id="gamestdc" class="dropdown-content">
-                  <a title="Bird" href="/games/bird"><button class="white bird icon"></button></a>
-                  <a title="Snake" href="/games/snake"><button class="white snake icon"></button></a>
                   <a title="Tetris" href="/games/tetris"><button class="white tetris icon"></button></a>
+                  <a title="Snake" href="/games/snake"><button class="white snake icon"></button></a>
+                  <a title="Bird" href="/games/bird"><button class="white bird icon"></button></a>
                 </div>
               </div>
               <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
