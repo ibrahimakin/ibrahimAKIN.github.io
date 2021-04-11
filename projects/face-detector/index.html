@@ -10,7 +10,7 @@
         <link href="../../components/sidenavbar/Sidenavbar.css" rel="stylesheet" type="text/css" />
         <link href="../../components/topnavbar/Topnavbar.css" rel="stylesheet" type="text/css" />
         <link href="../../components/rippleButton/rippleButton.css" rel="stylesheet" type="text/css" />
-        <link href="../../pages.css" rel="stylesheet" type="text/css" />
+        <link href="./face-detector.css" rel="stylesheet" type="text/css" />
         <script src="../../components/particles/particles.js" type="text/javascript" defer></script>
         <script src="../../components/particles/particlesConfig.js" type="text/javascript" defer></script>
         <script src="../../components/sidenavbar/Sidenavbar.js" type="text/javascript" defer></script>
@@ -18,10 +18,6 @@
     	<script src="../../components/rippleButton/rippleButton.js" type="text/javascript" defer></script>
         <script src="./face-api.min.js" type="text/javascript" defer></script>
         <script src="./app.js" type="text/javascript" defer></script>
-        <style>
-            canvas { position: absolute; }
-            video { box-shadow: -2px 12px 20px 0px #000; }
-        </style>
     </head>
     <body>
         <div id="docroot">
@@ -32,7 +28,9 @@
                         <side-navbar></side-navbar>
                     </div>
                     <div id="content-container">
-                        <video id="video" width="720" height="540" autoplay muted></video>
+                        <div id="face-detector">
+                            <video id="video" width="720" height="540" autoplay muted></video>
+                        </div>
                     </div>
                 </div>
             </div>
