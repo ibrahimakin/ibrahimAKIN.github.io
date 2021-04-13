@@ -153,8 +153,9 @@ class Sidenavbar extends HTMLElement {
           dropdown.addEventListener('mouseover', this.handleDropdownHover);
           dropdown.addEventListener('mouseleave', this.handleDropdownLeave);
         }
-        document.addEventListener('touchstart', this.handleTouchLeave)
-        particlesJS('particles-jsnav', particlesConfig);
+        document.addEventListener('touchstart', this.handleTouchLeave);
+        try { particlesJS('particles-jsnav', particlesConfig); }
+        catch { }
     }
 }
 
