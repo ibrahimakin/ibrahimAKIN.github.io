@@ -12,11 +12,11 @@ class Navbar extends HTMLElement {
           <div id="topnavbar">
               <a title="Home" href="/"><button class="white ripple-button home icon"></button></a>
               <button class="black"></button>
-              <div class="dropdown-top">
+              <div class="dropdown-top tn-same-width">
                 <button title="Projects" class="white ripple-button project icon" name="projects"></button>
                 <div id="projectstdc" class="dropdown-content">
                   <a title="Face Detector" href="/projects/face-detector"><button class="white face icon"></button></a>
-                  <a href="/projects/lcd-character-generator"><button class="white">LCD Character Generator</button></a>
+                  <a title="LCD Character Generator" href="/projects/lcd-character-generator"><button class="white iicon icon"></button></a>
                 </div>
               </div>
               <div class="dropdown-top tn-same-width">
