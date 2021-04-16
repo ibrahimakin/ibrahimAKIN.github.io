@@ -1,8 +1,8 @@
 const langObj = {
-    'tr': {
-        'clear': 'Temizle'
+    tr: {
+        clear: 'Temizle'
     },
-    'en': {
-        'clear': 'Clear'
+    en: {
+        clear: 'Clear'
     }
 };
