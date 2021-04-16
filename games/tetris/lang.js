@@ -1,12 +1,12 @@
 const langObj = {
     tr : {
         score: 'Skor',
-        rows: 'Satır',
+        rows: 'Rows',
         level: 'Seviye',
         start_game: 'Basla',
         game_over: 'Oyun Bitti',
-        high_score: 'En Yüksek Skor',
-        max_rows: 'Max Satır',
+        high_score: 'En Yuksek Skor',
+        max_rows: 'Max Rows',
         pause_game: 'Durdur',
         resume_game: 'Devam Et'
     },
