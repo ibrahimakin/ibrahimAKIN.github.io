@@ -1,5 +1,5 @@
 const langObj = {
-    tr : {
+    tr: {
         score: 'Skor',
         rows: 'Rows',
         level: 'Seviye',
