@@ -53,6 +53,9 @@ button:active {
 .face {
   background-image: url('../../assets/icons/navbar/face-scan.svg');
 }
+.iicon {
+  background-image: url('../../assets/icons/navbar/i-icon.svg');
+}
 .bird {
   background-image: url('../../assets/icons/navbar/bird.svg');
 }
