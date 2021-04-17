@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
                 for (const element of document.querySelectorAll('[lang-tag]')) {
                     element.textContent = langObj[lang][element.getAttribute('lang-tag')];
                 }
+                // document.documentElement.setAttribute('lang', lang);
             }
         };
     }
@@ -15,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
         for (const element of document.querySelectorAll('[lang-tag]')) {                
             element.textContent = langObj[lang][element.getAttribute('lang-tag')];
         }
+        // document.documentElement.setAttribute('lang', lang); // Gets a reference to the root node of the document.
     }    
 });
 
