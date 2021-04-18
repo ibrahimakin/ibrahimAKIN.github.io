@@ -84,3 +84,7 @@
 .movies-img {
     background-image: url('../../assets/images/projects/movies.png');
 }
+
+iframe div[title="open live statistics"] {
+    display: none;
+}
