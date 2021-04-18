@@ -1,3 +1,6 @@
+top-navbar {
+    z-index: 1;
+}
 #menu-content-container {
     display: flex;
     height: 100%;
