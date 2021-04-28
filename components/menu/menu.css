@@ -82,6 +82,9 @@ top-navbar {
 .tetris-img {
     background-image: url('../../assets/images/games/tetris.png');
 }
+.code-img {
+    background-image: url('../../assets/images/projects/code.png');
+}
 .lcd-img {
     background-image: url('../../assets/images/projects/lcd.png');
 }
