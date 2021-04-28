@@ -1,0 +1,101 @@
+#sidenavbar, #topnavbar {
+    --sidenav-button-rad: 0px;
+    --sidenav-right-rad: 0px;
+    box-shadow: none;
+}
+
+#content-container {
+    font: 14px/1.4 sans-serif;
+    background: hsl(220, 16%, 16%);
+    color: #fff;
+    padding: 16px;
+}
+
+#run-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+#run-section > div {
+    display: flex;
+    align-items: center;
+}
+
+#run-button, #instant-run, label {
+    cursor: pointer;
+}
+
+#run-button {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: hsl(220, 16%, 16%);
+}
+
+#code-result {
+    background-color: #fff;
+}
+
+h2 {
+    padding: 16px 0;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.highLite {
+    position: relative;
+    background: hsl(220, 16%, 14%);
+}
+
+.highLite_colors,
+.highLite_editable {
+    padding: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+/* THE OVERLAYING CONTENTEDITABLE WITH TRANSPARENT TEXT */
+.highLite_editable {
+    position: relative;
+    -webkit-text-fill-color: transparent; /* Chrome: make text transparent */
+    text-fill-color: transparent; /* One day, hopefully? */
+    color: hsl(100, 95%, 95%); /* But keep caret colored */
+}
+.highLite_editable:focus {
+    outline: 1px solid hsl(220, 16%, 19%);
+}
+
+/* THE UNDERLAYING ONE WITH HIGHLIGHT COLORS */
+.highLite_colors {
+    position: absolute;
+    user-select: none;
+}
+
+.highLite_colors i {
+    font-style: normal;
+}
+
+/* JS */
+i.js_quot { color: hsl( 50, 75%, 70%); }
+i.js_decl { color: hsl(200, 75%, 70%); }
+i.js_func { color: hsl(300, 75%, 70%); }
+i.js_pare { color: hsl(210, 75%, 70%); }
+i.js_squa { color: hsl(230, 75%, 70%); }
+i.js_curl { color: hsl(250, 75%, 70%); }
+i.js_numb { color: hsl(100, 75%, 70%); }
+i.js_logi { color: hsl(200, 75%, 70%); }
+i.js_equa { color: hsl(200, 75%, 70%); }
+i.js_comm { color: hsl(200, 10%, 45%); font-style: italic; }
+i.js_comm > * { color: inherit; }
+
+/* HTML */
+i.html_angl { color: hsl(200, 10%, 45%); }
+i.html_tags { color: hsl(  0, 75%, 70%); }
+i.html_attr { color: hsl(200, 74%, 70%); }

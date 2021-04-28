@@ -50,6 +50,9 @@ button:active {
 .movies {
   background-image: url('../../assets/icons/navbar/clapperboard.svg');
 }
+.code {
+  background-image: url('../../assets/icons/navbar/code.svg');
+}
 .face {
   background-image: url('../../assets/icons/navbar/face-scan.svg');
 }
