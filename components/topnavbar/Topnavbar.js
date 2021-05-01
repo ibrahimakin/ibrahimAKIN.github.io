@@ -26,6 +26,7 @@ class Navbar extends HTMLElement {
                   <a title="Tetris" href="/games/tetris"><button class="white tetris icon"></button></a>
                   <a title="Snake" href="/games/snake"><button class="white snake icon"></button></a>
                   <a title="Bird" href="/games/bird"><button class="white bird icon"></button></a>
+                  <a title="Tic Tac Toe" href="/games/tic-tac-toe"><button class="white tic-tac-toe icon"></button></a>
                 </div>
               </div>
               <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
@@ -33,8 +34,8 @@ class Navbar extends HTMLElement {
               <div class="dropdown-top tn-same-width">
                 <button title="Settings" class="white ripple-button settings icon" name="settings"></button>
                 <div id="settingstdc" class="dropdown-content">
-                  <button title="Türkçe" lang-name="tr" class="white lang-button dropdown-button lang-option">TR</button>
-                  <button title="English" lang-name="en" class="white lang-button dropdown-button lang-option">EN</button>
+                  <button title="Türkçe" lang-name="tr" class="white lang-button lang-option">TR</button>
+                  <button title="English" lang-name="en" class="white lang-button lang-option">EN</button>
                 </div>
               </div>
               <button class="white ripple-button"></button>                

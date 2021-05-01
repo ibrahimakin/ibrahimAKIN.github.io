@@ -68,6 +68,9 @@ button:active {
 .tetris {
   background-image: url('../../assets/icons/navbar/tetris.svg');
 }
+.tic-tac-toe {
+  background-image: url('../../assets/icons/navbar/tic-tac-toe.svg');
+}
 .settings {
   background-image: url('../../assets/icons/navbar/settings.svg');
 }
