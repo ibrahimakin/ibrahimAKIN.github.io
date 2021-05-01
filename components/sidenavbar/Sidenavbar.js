@@ -115,6 +115,7 @@ class Sidenavbar extends HTMLElement {
                     <a title="Tetris" href="/games/tetris"><button class="white tetris icon dropdown-button"></button></a>
                     <a title="Snake" href="/games/snake"><button class="white snake icon dropdown-button"></button></a>
                     <a title="Bird" href="/games/bird"><button class="white bird icon dropdown-button"></button></a>
+                    <a title="Tic Tac Toe" href="/games/tic-tac-toe"><button class="white tic-tac-toe icon dropdown-button"></button></a>
                   </div>
                 </div>
                 <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
