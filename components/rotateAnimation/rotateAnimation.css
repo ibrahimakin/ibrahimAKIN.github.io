@@ -1,0 +1,74 @@
+:root {
+    --rotate-height: 120px;
+    --rotate-width: 120px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.content {
+    display: flex;
+	justify-content: center;
+	height: 100%;
+	perspective: 500px;
+    padding-top: 260px;
+}
+
+.container {
+    height: var(--rotate-height);
+    width: var(--rotate-width);
+    transform: rotateX(0deg) rotateY(20deg);
+    transform-style: preserve-3d;
+}
+
+.sq {
+    position: absolute;
+	width: var(--rotate-width);
+	height: var(--rotate-height);
+	background: grey;
+    cursor: pointer;
+    transition: transform .5s linear;
+    transform-origin: var(--rotate-width) var(--rotate-height);
+    transform-style: preserve-3d;
+}
+.sq:hover {
+	background: blue;
+}
+.container:hover .square {
+	transform: rotateX(0deg) translateY(var(--rotate-height));
+}
+.container:hover .square-l {
+	transform: rotateY(-180deg);
+}
+.container:hover .square-r {
+	transform: rotateY(180deg);
+}
+.container:hover .square-t-m {
+	transform: rotateX(180deg);
+}
+.container:hover .square-t {
+	transform: rotateX(180deg);
+}
+.square-m {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px);
+}
+.square-l {
+    transform: rotateX(0deg) rotateY(-90deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px);
+}
+.square-r {
+    transform-origin: 0;
+    transform: rotateX(0deg) rotateY(90deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px);
+}
+.square-t-m {
+    transform-origin: 0 0;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px);
+}
+.square-t {
+    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px);
+}
+.square {
+    transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(var(--rotate-height)) translateZ(0px);
+}
