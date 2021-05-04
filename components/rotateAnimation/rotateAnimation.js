@@ -9,9 +9,9 @@ let currentXDeg = -15;
 let currentYDeg = 46;
 let currentZDeg = 0;
 const setRotation = () => {
-    if (currentXDeg >= 360 || currentXDeg <= -360) { currentXDeg = 0; }
-    if (currentYDeg >= 360 || currentYDeg <= -360) { currentYDeg = 0; }
-    if (currentZDeg >= 360 || currentZDeg <= -360) { currentZDeg = 0; }
+    currentXDeg %= 360;
+    currentYDeg %= 360;
+    currentZDeg %= 360;
     sqc.style.transform = 'rotateX('+ currentXDeg +'deg) rotateY('+ currentYDeg +'deg) rotateZ('+ currentZDeg +'deg)';
 }
 const setRotationWithAnim = () => {
@@ -40,7 +40,7 @@ rightButton.addEventListener('click', (e) => {
 });
 centerButton.addEventListener('click', (e) => {
     e.preventDefault();
-    currentXDeg = 0; currentYDeg = 0; currentZDeg = 0;
+    currentXDeg = 1; currentYDeg = 1; currentZDeg = 0;
     setRotationWithAnim();
 })
 
