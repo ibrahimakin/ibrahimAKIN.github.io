@@ -76,3 +76,35 @@ const mouseUpHandler = () => {
 };
 
 container.addEventListener('mousedown', mouseDownHandler);
+
+const touchDownHandler = (e) => {
+    sqc.style.transition = 'none';
+    pos = {
+        // The current scroll 
+        left: currentYDeg,
+        top: currentXDeg,
+        // Get the current mouse position
+        x: Math.floor(e.touches[0].pageX),
+        y: Math.floor(e.touches[0].pageY)
+    };
+    container.style.userSelect = 'none';
+    document.addEventListener('touchmove', touchMoveHandler);
+    document.addEventListener('touchend', touchUpHandler);
+};
+
+const touchMoveHandler = (e) => {
+    // How far the mouse has been moved
+    const dx = Math.floor(e.touches[0].pageX) - pos.x;
+    const dy = Math.floor(e.touches[0].pageY) - pos.y;
+    currentXDeg = pos.top - dy;
+    currentYDeg = pos.left + dx;
+    setRotation();
+};
+
+const touchUpHandler = () => {
+    container.style.removeProperty('user-select');
+    document.removeEventListener('touchmove', touchMoveHandler);
+    document.removeEventListener('touchend', touchUpHandler);
+};
+
+container.addEventListener('touchstart', touchDownHandler);
