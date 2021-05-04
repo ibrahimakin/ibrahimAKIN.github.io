@@ -46,68 +46,55 @@ centerButton.addEventListener('click', (e) => {
 })
 
 let pos = { top: 0, left: 0, x: 0, y: 0 };
-const mouseDownHandler = (e) => {
+const downHandler = (x, y) => {
     sqc.style.transition = 'none';
     pos = {
         // The current scroll 
         left: currentYDeg,
         top: currentXDeg,
         // Get the current mouse position
-        x: e.clientX,
-        y: e.clientY
+        x, y
     };
     container.style.userSelect = 'none';
-    document.addEventListener('mousemove', mouseMoveHandler);
-    document.addEventListener('mouseup', mouseUpHandler);
-};
-
-const mouseMoveHandler = (e) => {
+}
+const moveHandler = (x, y) => {
     // How far the mouse has been moved
-    const dx = e.clientX - pos.x;
-    const dy = e.clientY - pos.y;
+    const dx = x - pos.x;
+    const dy = y - pos.y;
     currentXDeg = pos.top - dy;
     currentYDeg = pos.left + dx;
     setRotation();
-};
+}
 
+const mouseDownHandler = (e) => {
+    downHandler(e.clientX, e.clientY);
+    document.addEventListener('mousemove', mouseMoveHandler);
+    document.addEventListener('mouseup', mouseUpHandler);
+};
+const mouseMoveHandler = (e) => {
+    moveHandler(e.clientX, e.clientY);
+};
 const mouseUpHandler = () => {
     container.style.removeProperty('user-select');
     document.removeEventListener('mousemove', mouseMoveHandler);
     document.removeEventListener('mouseup', mouseUpHandler);
 };
 
-container.addEventListener('mousedown', mouseDownHandler);
-
 const touchDownHandler = (e) => {
-    sqc.style.transition = 'none';
-    pos = {
-        // The current scroll 
-        left: currentYDeg,
-        top: currentXDeg,
-        // Get the current mouse position
-        x: Math.floor(e.touches[0].pageX),
-        y: Math.floor(e.touches[0].pageY)
-    };
-    container.style.userSelect = 'none';
+    downHandler(Math.floor(e.touches[0].pageX), Math.floor(e.touches[0].pageY));
     document.addEventListener('touchmove', touchMoveHandler);
     document.addEventListener('touchend', touchUpHandler);
 };
-
 const touchMoveHandler = (e) => {
-    // How far the mouse has been moved
-    const dx = Math.floor(e.touches[0].pageX) - pos.x;
-    const dy = Math.floor(e.touches[0].pageY) - pos.y;
-    currentXDeg = pos.top - dy;
-    currentYDeg = pos.left + dx;
-    setRotation();
+    moveHandler(Math.floor(e.touches[0].pageX), Math.floor(e.touches[0].pageY));
 };
-
 const touchUpHandler = () => {
     container.style.removeProperty('user-select');
     document.removeEventListener('touchmove', touchMoveHandler);
     document.removeEventListener('touchend', touchUpHandler);
 };
 
+container.addEventListener('mousedown', mouseDownHandler);
 container.addEventListener('touchstart', touchDownHandler);
 
 for (const square of squares) {
