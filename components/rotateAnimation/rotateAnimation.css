@@ -54,7 +54,7 @@
     transform-origin: var(--rotate-width) var(--rotate-height);
     transform-style: preserve-3d;
 }
-.square:hover {
+.square-hover {
     background-color: #808080;
 }
 

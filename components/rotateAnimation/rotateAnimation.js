@@ -4,6 +4,7 @@ const centerButton = document.getElementById('center-button');
 const rightButton = document.getElementById('right-button');
 const downButton = document.getElementById('down-button');
 const container = document.getElementById('drag-n-rotate');
+const squares = document.getElementsByClassName('square');
 const sqc = document.getElementById('sq-c');
 let currentXDeg = -15;
 let currentYDeg = 46;
@@ -108,3 +109,15 @@ const touchUpHandler = () => {
 };
 
 container.addEventListener('touchstart', touchDownHandler);
+
+for (const square of squares) {
+    square.addEventListener('mouseover', (e) => {
+        for (const square of squares) {
+            square.classList.remove('square-hover');
+        }
+        e.target.classList.add('square-hover');
+    });
+    square.addEventListener('mouseleave', (e) => {
+        e.target.classList.remove('square-hover');
+    });
+}
