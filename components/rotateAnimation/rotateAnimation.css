@@ -47,10 +47,15 @@
     position: absolute;
 	width: var(--rotate-width);
 	height: var(--rotate-height);
+    background-color: #80808060;
+    box-shadow: inset 0px 0px 0px 5px #000;
     cursor: pointer;
     transition: transform .5s linear, background-color .5s linear;
     transform-origin: var(--rotate-width) var(--rotate-height);
     transform-style: preserve-3d;
+}
+.square-hover {
+    background-color: #808080;
 }
 
 .sq-m {
@@ -90,13 +95,14 @@
 	transform: rotateX(180deg);
 }
 
-.sq00 {
+/* .sq00 {
     background-color: #a52a2a70;
-}
+} */
 .sq01 {
     background-color: #ffffff00;
+    box-shadow: none;
 }
-.sq02 {
+/* .sq02 {
     background-color: #00800070;
 }
 .sq03 {
@@ -122,15 +128,15 @@
 }
 .sq10 {
     background-color: #ff149370;
-}
+} */
 
-.sq00:hover {
+/* .sq00:hover {
     background-color: #a52a2a;
-}
+} */
 .sq01:hover {
     background-color: #ffffff00;
 }
-.sq02:hover {
+/* .sq02:hover {
     background-color: #008000;
 }
 .sq03:hover {
@@ -156,4 +162,4 @@
 }
 .sq10:hover {
     background-color: #ff1493;
-}
+} */
