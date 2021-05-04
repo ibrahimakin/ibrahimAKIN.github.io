@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rotate Animation</title>
     <link href="./rotateAnimation.css" rel="stylesheet" type="text/css" />
+    <script src="./rotateAnimation.js" type="text/javascript" defer></script>
 </head>
 <body>
-    <div class="content">
+    <div id="drag-n-drop" class="content">
         <div class="container">
             <div class="sq square-m">
                 <div class="sq square-t-m" style="background-color: transparent;">
@@ -26,6 +27,12 @@
                 </div>
                 <div class="sq square-r"></div>
             </div>
+        </div>
+        <div id="rotation-buttons">
+            <button id="up-button">Up</button>
+            <button id="down-button">Down</button>
+            <button id="left-button">Left</button>
+            <button id="right-button">Right</button>
         </div>
     </div>
 </body>

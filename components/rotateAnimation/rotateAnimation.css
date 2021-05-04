@@ -8,19 +8,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
+#rotation-buttons {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+#rotation-buttons button {
+    cursor: pointer;
+}
+
 .content {
     display: flex;
 	justify-content: center;
 	height: 100%;
-	perspective: 500px;
+    cursor: move;
+    overflow: auto;
     padding-top: 260px;
+	perspective: 500px;
 }
 
 .container {
     height: var(--rotate-height);
     width: var(--rotate-width);
     transform: rotateX(0deg) rotateY(20deg);
+    transform-origin: center;
+    -ms-transform-origin-z: -60px;
+    -webkit-transform-origin-z: -60px;
     transform-style: preserve-3d;
 }
 
