@@ -8,10 +8,10 @@
     <script src="./rotateAnimation.js" type="text/javascript" defer></script>
 </head>
 <body>
-    <div id="drag-n-drop" class="content">
-        <div class="container">
+    <div id="drag-n-rotate" class="content">
+        <div id="sq-c">
             <div class="square sq-m sq02">
-                <div class="square sq-t-m sq01" style="background-color: transparent;">
+                <div class="square sq-t-m sq01">
                     <div class="square sq-t sq00"></div>
                 </div>
                 <div class="square sq-l sq03"></div>
@@ -30,10 +30,13 @@
         </div>
     </div>
     <div id="rotation-buttons">
-        <button id="up-button">Up</button>
-        <button id="down-button">Down</button>
-        <button id="left-button">Left</button>
-        <button id="right-button">Right</button>
+        <div><button id="up-button">&uarr;</button></div>
+        <div>
+            <button id="left-button">&larr;</button>
+            <button id="center-button">O</button>
+            <button id="right-button">&rarr;</button>
+        </div>
+        <div><button id="down-button">&darr;</button></div>
     </div>
 </body>
 </html>

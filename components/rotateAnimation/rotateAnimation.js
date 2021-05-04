@@ -1,41 +1,52 @@
 const upButton = document.getElementById('up-button');
-const downButton = document.getElementById('down-button');
 const leftButton = document.getElementById('left-button');
+const centerButton = document.getElementById('center-button');
 const rightButton = document.getElementById('right-button');
-const container = document.getElementsByClassName('container').item(0);
-const ele = document.getElementById('drag-n-drop');
-let currentXDeg = 0;
-let currentYDeg = 20;
+const downButton = document.getElementById('down-button');
+const container = document.getElementById('drag-n-rotate');
+const sqc = document.getElementById('sq-c');
+let currentXDeg = -15;
+let currentYDeg = 46;
 let currentZDeg = 0;
 const setRotation = () => {
     if (currentXDeg >= 360 || currentXDeg <= -360) { currentXDeg = 0; }
     if (currentYDeg >= 360 || currentYDeg <= -360) { currentYDeg = 0; }
     if (currentZDeg >= 360 || currentZDeg <= -360) { currentZDeg = 0; }
-    container.style.transform = 'rotateX('+ currentXDeg +'deg) rotateY('+ currentYDeg +'deg) rotateZ('+ currentZDeg +'deg)';
+    sqc.style.transform = 'rotateX('+ currentXDeg +'deg) rotateY('+ currentYDeg +'deg) rotateZ('+ currentZDeg +'deg)';
+}
+const setRotationWithAnim = () => {
+    sqc.style.transition = 'transform .3s linear';
+    setRotation();
 }
 upButton.addEventListener('click', (e) => {
     e.preventDefault();
-    currentXDeg -= 5;
-    setRotation();
+    currentXDeg += 5;
+    setRotationWithAnim();
 });
 downButton.addEventListener('click', (e) => {
     e.preventDefault();
-    currentXDeg += 5;
-    setRotation();
+    currentXDeg -= 5;
+    setRotationWithAnim();
 });
 leftButton.addEventListener('click', (e) => {
     e.preventDefault();
     currentYDeg -= 5;
-    setRotation();
+    setRotationWithAnim();
 });
 rightButton.addEventListener('click', (e) => {
     e.preventDefault();
     currentYDeg += 5;
-    setRotation();
+    setRotationWithAnim();
 });
+centerButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    currentXDeg = 0; currentYDeg = 0; currentZDeg = 0;
+    setRotationWithAnim();
+})
 
 let pos = { top: 0, left: 0, x: 0, y: 0 };
 const mouseDownHandler = (e) => {
+    sqc.style.transition = 'none';
     pos = {
         // The current scroll 
         left: currentYDeg,
@@ -44,7 +55,7 @@ const mouseDownHandler = (e) => {
         x: e.clientX,
         y: e.clientY
     };
-    ele.style.userSelect = 'none';
+    container.style.userSelect = 'none';
     document.addEventListener('mousemove', mouseMoveHandler);
     document.addEventListener('mouseup', mouseUpHandler);
 };
@@ -59,9 +70,9 @@ const mouseMoveHandler = (e) => {
 };
 
 const mouseUpHandler = () => {
-    ele.style.removeProperty('user-select');
+    container.style.removeProperty('user-select');
     document.removeEventListener('mousemove', mouseMoveHandler);
     document.removeEventListener('mouseup', mouseUpHandler);
 };
 
-ele.addEventListener('mousedown', mouseDownHandler);
+container.addEventListener('mousedown', mouseDownHandler);
