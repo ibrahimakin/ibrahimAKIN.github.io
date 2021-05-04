@@ -11,10 +11,12 @@
 
 #rotation-buttons {
     position: fixed;
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: 20px;
 }
 #rotation-buttons button {
+    padding: 5px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -87,4 +89,38 @@
 }
 .container:hover .sq-t {
 	transform: rotateX(180deg);
+}
+
+.sq00 {
+    background-color: #a52a2a80;
+}
+.sq01 {
+    background-color: transparent;
+}
+.sq02 {
+    background-color: #00800078;
+}
+.sq03 {
+    background-color: #0000ff70;
+}
+.sq04 {
+    background-color: #daa5208a;
+}
+.sq05 {
+    background-color: #80008082;
+}
+.sq06 {
+    background-color: #ffff0078;
+}
+.sq07 {
+    background-color: #ff000080;
+}
+.sq08 {
+    background-color: #008b8b73;
+}
+.sq09 {
+    background-color: #ff7f5082;
+}
+.sq10 {
+    background-color: #ff149387;
 }

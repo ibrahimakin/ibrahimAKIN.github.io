@@ -25,12 +25,12 @@ downButton.addEventListener('click', (e) => {
 });
 leftButton.addEventListener('click', (e) => {
     e.preventDefault();
-    currentYDeg += 5;
+    currentYDeg -= 5;
     setRotation();
 });
 rightButton.addEventListener('click', (e) => {
     e.preventDefault();
-    currentYDeg -= 5;
+    currentYDeg += 5;
     setRotation();
 });
 
