@@ -88,10 +88,7 @@
 #sq-c:hover .sq-r {
 	transform: rotateY(180deg);
 }
-#sq-c:hover .sq-t-m {
-	transform: rotateX(180deg);
-}
-#sq-c:hover .sq-t {
+#sq-c:hover .sq-t-m, #sq-c:hover .sq-t {
 	transform: rotateX(180deg);
 }
 
