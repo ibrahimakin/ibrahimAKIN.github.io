@@ -50,7 +50,7 @@
     background-color: #80808060;
     box-shadow: inset 0px 0px 0px 5px #000;
     cursor: pointer;
-    transition: transform .5s linear, background-color .5s linear;
+    transition: transform .5s linear, background-color .5s linear, box-shadow .5s linear;
     transform-origin: var(--rotate-width) var(--rotate-height);
     transform-style: preserve-3d;
 }
