@@ -130,14 +130,14 @@ class Sidenavbar extends HTMLElement {
                 <div><button class="white ripple-button back icon" id="collapse-button"></button></div>
               </div>
               <div class="grid-sub-container">
-                <button class="black"></button>
-                <button class="black"></button>
-                <button class="white ripple-button"></button>
-                <button class="black"></button>
-                <button class="black"></button>
-                <button class="black"></button>
-                <button class="black"></button>
-                <button class="white ripple-button"></button>
+                <button tabindex="-1" class="black"></button>
+                <button tabindex="-1" class="black"></button>
+                <button tabindex="-1" class="white ripple-button"></button>
+                <button tabindex="-1" class="black"></button>
+                <button tabindex="-1" class="black"></button>
+                <button tabindex="-1" class="black"></button>
+                <button tabindex="-1" class="black"></button>
+                <button tabindex="-1" class="white ripple-button"></button>
               </div>
             </div>
           </div>
