@@ -16,5 +16,5 @@ function resetMoveSmiley() {
 }
 
 document.body.addEventListener('mousemove', moveSmiley);
-document.body.addEventListener('mouseover', resetMoveSmiley);
-document.body.addEventListener('mouseout', resetMoveSmiley);
+// document.body.addEventListener('mouseover', resetMoveSmiley);
+// document.body.addEventListener('mouseout', resetMoveSmiley);

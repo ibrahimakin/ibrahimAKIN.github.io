@@ -52,9 +52,6 @@
     transform-style: preserve-3d;
     transform: translateZ(5rem);
 }
-.smiley-wrapper > div > div{
-    transform-style: preserve-3d;
-}
 
 .eye {
     background-color: #000000;
@@ -99,12 +96,12 @@
 
 .blush-left {
     left: .5rem;
-    transform: rotateY(-45deg) rotateX(-15deg) translateZ(-20px);
+    transform: rotateY(-45deg) rotateX(-15deg) translateZ(-17px);
 }
 
 .blush-right {
     right: .5rem;
-    transform: rotateY(40deg) rotateX(-15deg) translateZ(-20px);
+    transform: rotateY(40deg) rotateX(-15deg) translateZ(-17px);
 }
 
 .mouth {
