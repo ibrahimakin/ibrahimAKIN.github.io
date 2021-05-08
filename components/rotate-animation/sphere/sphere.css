@@ -47,8 +47,13 @@
 }
 
 .smiley-wrapper > div {
+    width: 100%;
+    height: 100%;
     transform-style: preserve-3d;
     transform: translateZ(5rem);
+}
+.smiley-wrapper > div > div{
+    transform-style: preserve-3d;
 }
 
 .eye {
@@ -74,39 +79,43 @@
 
 .eye-left {
     left: 2.5rem;
+    transform: rotateY(-15deg) translateZ(-5px);
 }
 
 .eye-right {
     right: 2.5rem;
+    transform: rotateY(15deg) translateZ(-5px);
 }
 
 .blush {
     background-color: #ff4040;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
     position: absolute;
-    top: 5.5rem;
+    top: 6rem;
     border-radius: 50%;
     filter: blur(0.5rem);
 }
 
 .blush-left {
-    left: 1.2rem;
+    left: .5rem;
+    transform: rotateY(-45deg) rotateX(-15deg) translateZ(-20px);
 }
 
 .blush-right {
-    right: 1.2rem;
+    right: .5rem;
+    transform: rotateY(40deg) rotateX(-15deg) translateZ(-20px);
 }
 
 .mouth {
     --width: 1.8rem;
     width: var(--width);
     height: 1.2rem;
-    border: solid 0.3rem #000000;
-    border-top: 0;
+    border-bottom: solid 0.3rem #000000;
     position: absolute;
     bottom: 2rem;
     left: calc(50% - calc(var(--width) / 2));
     border-radius: 0 0 50% 50% / 0 0 75% 75%;
     box-sizing: border-box;
+    transform:  rotateX(-20deg) translateZ(-10px);
 }
