@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="https://raw.githubusercontent.com/ibrahimakin/ibrahimAKIN.github.io/master/assets/images/app/app_image.png">
-    <meta http-equiv="Cache-control" content="public">
-    <title>ibrahim AKIN</title>
-    <link rel="icon" href="../../favicon.ico"/>
-    <link href="./ghostMouse.css" rel="stylesheet" type="text/css" />
-    <script src="./ghostMouse.js" type="text/javascript" defer></script>
-  </head>
-  <body>
-    <div id="docroot">
-        <div class="docApp">
-            <top-navbar></top-navbar>
-            <div id="main-container">
-                <side-navbar></side-navbar>
-                <div id="content-container">
-                  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
-                  <script id="vertexShader" type="x-shader/x-vertex">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="https://raw.githubusercontent.com/ibrahimakin/ibrahimAKIN.github.io/master/assets/images/app/app_image.png">
+  <meta http-equiv="Cache-control" content="public">
+  <title>ibrahim AKIN</title>
+  <link rel="icon" href="../../favicon.ico" />
+  <link href="./ghost-mouse.css" rel="stylesheet" type="text/css" />
+  <script src="./ghost-mouse.js" type="text/javascript" defer></script>
+</head>
+<body>
+  <div id="docroot">
+    <div class="docApp">
+      <top-navbar></top-navbar>
+      <div id="main-container">
+        <side-navbar></side-navbar>
+        <div id="content-container">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
+          <script id="vertexShader" type="x-shader/x-vertex">
                     void main() { gl_Position = vec4( position, 1.0 ); }
                   </script>
-                  <script id="fragmentShader" type="x-shader/x-fragment">
+          <script id="fragmentShader" type="x-shader/x-fragment">
                     uniform vec2 u_resolution;
                     uniform vec2 u_mouse;
                     uniform float u_time;
@@ -129,10 +129,10 @@
                       gl_FragColor += tex;
                     }
                   </script>
-                  <div id="container" touch-action="none"></div>
-                </div>
-            </div>
+          <div id="container" touch-action="none"></div>
         </div>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
