@@ -3,31 +3,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>LCD Character Generator</title>
 	<link rel="icon" href="../../favicon.ico" />
-    <link href="../../styles.css" rel="stylesheet" type="text/css" />
+	<link href="../../styles.css" rel="stylesheet" type="text/css" />
 	<link href="../../components/particles/particles.css" rel="stylesheet" type="text/css" />
-    <link href="../../components/sidenavbar/Sidenavbar.css" rel="stylesheet" type="text/css" />
-    <link href="../../components/topnavbar/Topnavbar.css" rel="stylesheet" type="text/css" />
-    <link href="../../components/rippleButton/rippleButton.css" rel="stylesheet" type="text/css" />
-    <link href="../../pages.css" rel="stylesheet" type="text/css" />
-    <link href="./lcd-character-generator.css" rel="stylesheet" type="text/css" />
+	<link href="../../components/sidenavbar/sidenavbar.css" rel="stylesheet" type="text/css" />
+	<link href="../../components/topnavbar/topnavbar.css" rel="stylesheet" type="text/css" />
+	<link href="../../components/ripple-button/ripple-button.css" rel="stylesheet" type="text/css" />
+	<link href="../../pages.css" rel="stylesheet" type="text/css" />
+	<link href="./lcd-character-generator.css" rel="stylesheet" type="text/css" />
 	<script src="../../components/particles/particles.js" type="text/javascript" defer></script>
-    <script src="../../components/particles/particlesConfig.js" type="text/javascript" defer></script>
-    <script src="../../components/sidenavbar/Sidenavbar.js" type="text/javascript" defer></script>
-    <script src="../../components/topnavbar/Topnavbar.js" type="text/javascript" defer></script>
-	<script src="../../components/rippleButton/rippleButton.js" type="text/javascript" defer></script>
+	<script src="../../components/particles/particles-config.js" type="text/javascript" defer></script>
+	<script src="../../components/sidenavbar/sidenavbar.js" type="text/javascript" defer></script>
+	<script src="../../components/topnavbar/topnavbar.js" type="text/javascript" defer></script>
+	<script src="../../components/ripple-button/ripple-button.js" type="text/javascript" defer></script>
 	<script src="./lang.js" type="text/javascript" defer></script>
-    <script src="../../script.js" type="text/javascript" defer></script>
-    <script src="./lcd-character-generator.js" type="text/javascript" defer></script>
+	<script src="../../script.js" type="text/javascript" defer></script>
+	<script src="./lcd-character-generator.js" type="text/javascript" defer></script>
 </head>
 <body>
 	<div id="docroot">
-        <div class="docApp">
-            <top-navbar></top-navbar>
-            <div id="main-container">
-                <div id="sidenav-mobile">
+		<div class="docApp">
+			<top-navbar></top-navbar>
+			<div id="main-container">
+				<div id="sidenav-mobile">
 					<side-navbar></side-navbar>
 				</div>
-                <div id="content-container">
+				<div id="content-container">
 					<div>
 						<div class="calc-container">
 							<table id="LCD">
@@ -120,13 +120,10 @@
 									<td> 8 </td>
 								</tr>
 								<tr>
-									<td colspan="7"><br /> LCDOUT $fe, $40, <label id="11">0</label>, <label
-											id="22">0</label>, <label id="33">0</label>, <label id="44">0</label>, <label
-											id="55">0</label>, <label id="66">0</label>, <label id="77">0</label>, <label
-											id="88">0</label> </td>
+									<td colspan="7"><br /> LCDOUT $fe, $40, <label id="11">0</label>, <label id="22">0</label>, <label id="33">0</label>, <label id="44">0</label>, <label id="55">0</label>, <label id="66">0</label>, <label id="77">0</label>, <label id="88">0</label> </td>
 								</tr>
 								<tr>
-									<td colspan="3" ><br /> <button class="clr-button" lang-tag="clear" onclick="btnClear()"> Clear </button> </td>
+									<td colspan="3"><br /> <button class="clr-button" lang-tag="clear" onclick="btnClear()"> Clear </button> </td>
 								</tr>
 							</table>
 						</div>
@@ -159,13 +156,12 @@
 									<td></td>
 									<td><button class="btnY" name="d" id="id" onclick="DisplayClick(this)">d</button></td>
 									<td></td>
-									<td><button name="dp" id="idp" style="padding: 5px; border: none; cursor: pointer;"
-											onclick="DisplayClick(this)">dp</button></td>
+									<td><button name="dp" id="idp" style="padding: 5px; border: none; cursor: pointer;" onclick="DisplayClick(this)">dp</button></td>
 								</tr>
 								<tr>
-									<td colspan="3"><br /> % <label id="dp">0</label> <label id="g">0</label> <label
-											id="f">0</label> <label id="e">0</label> <label id="d">0</label> <label id="c">0</label>
-										<label id="b">0</label> <label id="na">0</label> </td>
+									<td colspan="3"><br /> % <label id="dp">0</label> <label id="g">0</label> <label id="f">0</label> <label id="e">0</label> <label id="d">0</label> <label id="c">0</label>
+										<label id="b">0</label> <label id="na">0</label>
+									</td>
 								</tr>
 								<tr>
 									<td colspan="3"><br /> <button class="clr-button" lang-tag="clear" onclick="displayClear()"> Clear </button> </td>
