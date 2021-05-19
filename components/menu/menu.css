@@ -4,10 +4,13 @@ top-navbar {
 button.white.icon:not(.dropdown-content button, #collapse-button):hover {
     transform: scale(1.2);
     z-index: 1;
-    transition: transform .1s linear;
+}
+button.white:hover {
+    background-color: #cbcbcb;
     box-shadow: 0 0 0 1px #fff, 0 0 0 2px #f00, inset 0 0 10px 5px #fff;
 }
 button.white {
+    transition: transform .1s linear;
     box-shadow: 0 0 0 1px #fff, 0 0 0 2px #f00;
 }
 #sidenavbar {
