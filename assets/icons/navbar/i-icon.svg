@@ -1,46 +1,44 @@
-<svg width="335" height="530" xmlns="http://www.w3.org/2000/svg">
- <style>rect[fill="#000"]:hover { fill: #f00; }</style>
+<svg viewBox="0 0 335 530" width="335" height="530" xmlns="http://www.w3.org/2000/svg">
  <g>
-  <title>iAKIN</title>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_01" opacity="undefined" x="10" y="10"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_02" opacity="undefined" x="76" y="10"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_03" opacity="undefined" x="142" y="10"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_04" opacity="undefined" x="208" y="10"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_05" opacity="undefined" x="274" y="10"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_06" opacity="undefined" x="10" y="76"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_07" opacity="undefined" x="76" y="76"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_08" opacity="undefined" x="142" y="76"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_09" opacity="undefined" x="208" y="76"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_10" opacity="undefined" x="274" y="76"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_11" opacity="undefined" x="10" y="144"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_12" opacity="undefined" x="76" y="144"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_13" opacity="undefined" x="142" y="144"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_14" opacity="undefined" x="208" y="144"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_15" opacity="undefined" x="274" y="144"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_16" opacity="undefined" x="10" y="210"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_17" opacity="undefined" x="76" y="210"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_18" opacity="undefined" x="142" y="210"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_19" opacity="undefined" x="208" y="210"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_20" opacity="undefined" x="274" y="210"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_21" opacity="undefined" x="10" y="276"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_22" opacity="undefined" x="76" y="276"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_23" opacity="undefined" x="142" y="276"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_24" opacity="undefined" x="208" y="276"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_25" opacity="undefined" x="274" y="276"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_26" opacity="undefined" x="10" y="340"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_27" opacity="undefined" x="76" y="340"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_28" opacity="undefined" x="142" y="340"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_29" opacity="undefined" x="208" y="340"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_30" opacity="undefined" x="274" y="340"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_31" opacity="undefined" x="10" y="406"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_32" opacity="undefined" x="76" y="406"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_33" opacity="undefined" x="142" y="406"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_34" opacity="undefined" x="208" y="406"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_35" opacity="undefined" x="274" y="406"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_36" opacity="undefined" x="10" y="470"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_37" opacity="undefined" x="76" y="470"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_38" opacity="undefined" x="142" y="470"/>
-  <rect fill="#000" stroke="#fff" width="50" height="50" id="svg_39" opacity="undefined" x="208" y="470"/>
-  <rect fill="#fff" stroke="#000" width="50" height="50" id="svg_40" opacity="undefined" x="274" y="470"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="10" y="10"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="76" y="10"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="142" y="10"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="208" y="10"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="274" y="10"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="10" y="76"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="76" y="76"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="142" y="76"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="208" y="76"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="274" y="76"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="10" y="144"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="76" y="144"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="142" y="144"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="208" y="144"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="274" y="144"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="10" y="210"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="76" y="210"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="142" y="210"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="208" y="210"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="274" y="210"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="10" y="276"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="76" y="276"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="142" y="276"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="208" y="276"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="274" y="276"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="10" y="340"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="76" y="340"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="142" y="340"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="208" y="340"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="274" y="340"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="10" y="406"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="76" y="406"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="142" y="406"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="208" y="406"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="274" y="406"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="10" y="470"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="76" y="470"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="142" y="470"/>
+  <rect fill="#000" stroke="#fff" width="50" height="50" x="208" y="470"/>
+  <rect fill="#fff" stroke="#000" width="50" height="50" x="274" y="470"/>
  </g>
 </svg>
