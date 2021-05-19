@@ -1,13 +1,12 @@
 function readSVGFile(file, className) {
     let rawFile = new XMLHttpRequest();
     rawFile.open('GET', file);
-    rawFile.setRequestHeader("Content-Type", "image/svg+xml");
-    rawFile.addEventListener("load", function (event) {
+    rawFile.setRequestHeader('Content-Type', 'image/svg+xml');
+    rawFile.addEventListener('load', function (event) {
         if(rawFile.readyState === 4) {
             if(rawFile.status === 200 || rawFile.status == 0) {
                 let allText = rawFile.responseText;
                 for (const el of document.getElementsByClassName(className)) {
-                    el.style = "height: 120px; width: 120px;";
                     el.innerHTML = allText;
                 }
             }
