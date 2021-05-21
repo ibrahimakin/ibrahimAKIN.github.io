@@ -26,7 +26,7 @@ function openNavbar() {
 }
 function showDropdownContent(event) {
   let dropdownContent = document.getElementById(event.target.name + 'dc');
-  dropdownContent.style.left = (event.target.offsetLeft + event.target.offsetWidth - 1) + 'px';
+  dropdownContent.style.left = (event.target.offsetLeft + event.target.offsetWidth) + 'px';
   for (let node of dropdownContent.children) {
     node.style.height = event.target.getBoundingClientRect().height + 'px';
   }
