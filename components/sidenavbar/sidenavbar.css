@@ -11,8 +11,7 @@
     transition: background-color 1s linear, box-shadow 1s linear;
     background-color: black;
     border-radius: 0 var(--sidenav-right-rad) var(--sidenav-right-rad) 0;
-    border: 1px solid white;
-    box-shadow: 10px 0px 40px 5px rgb(0, 0, 0);
+    box-shadow: 0 0 0 1px #fff, 10px 0px 40px 5px #000;
     z-index: 1;
     font-size: 0.625em;
     line-height: 1.15;
@@ -61,7 +60,7 @@
 }
 
 button.white {
-    background-color:white;
+    background-color: #fff;
     position: relative;
     cursor: pointer;
 } 

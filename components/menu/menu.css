@@ -15,7 +15,7 @@ button.white {
 }
 #sidenavbar {
     background-color: transparent;
-    box-shadow: 1px 0 0 .5px #f00;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 2px #f00;
 }
 #menu-content-container {
     display: flex;
