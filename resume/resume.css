@@ -2,6 +2,18 @@
     --sidenav-button-rad: 0px;
     --sidenav-right-rad: 0px;
 }
+#sidenavbar {
+    box-shadow: 0 0 10px 3px #000;
+    background-color: transparent;
+}
+button.white {
+    background-color: #f5f5f5;
+    color: var(--resume-clr);
+}
+button.white:hover, a.white:hover {
+    background-color: #c1c1c1;
+}
+.dropdown button {  }
 :root {
     --resume-clr: #008080;
     --resume-clr-hvr: #006060;
