@@ -1,3 +1,7 @@
+#sidenav-mobile, #topnavbar {
+    --sidenav-button-rad: 0px;
+    --sidenav-right-rad: 0px;
+}
 #content-container {
     display: flex;
     justify-content: center;
@@ -18,7 +22,7 @@
     justify-content: center;
 }
 #canvas {
-    border: 1px white solid;
+    border: 1px solid #fff;
     background-color: rgba(255, 255, 255, 0.8);
 }
 #space-button {
@@ -26,5 +30,6 @@
     margin: 5px;
     cursor: pointer;
     outline: none;
-    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: #fff;
 }

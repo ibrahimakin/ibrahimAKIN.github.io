@@ -46,6 +46,9 @@ const langObj = {
         cashier: 'Kasiyer',
         sales_consultant: 'Satış Danışmanı',
         certificates: 'SERTİFİKALAR',
+        bmo_docker: 'Bilgisayar Mühendisleri Odası Docker Eğitimi',
+        coronathon: '21-22 Mart 2020 Coronathon Türkiye Etkinliği Başarılı Projeleri',
+        occupational: 'İş Sağlığı ve Güvenliği Sertifikası',
         see_credential: 'Sertifikayı gör',
         final_project: 'Final Projesi',
         project: 'Proje'
@@ -97,6 +100,9 @@ const langObj = {
         cashier: 'Cashier',
         sales_consultant: 'Sales Consultant',
         certificates: 'CERTIFICATES',
+        bmo_docker: 'The Chamber of Computer Engineers Docker Education',
+        coronathon: '21-22 March 2020 Coronathon Turkey Activity Successful Projects',
+        occupational: 'Occupational Health and Safety Certificate',
         see_credential: 'See credential',
         final_project: 'Final Project',
         project: 'Project'
