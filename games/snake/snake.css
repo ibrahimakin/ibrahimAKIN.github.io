@@ -1,3 +1,7 @@
+#sidenav-mobile, #topnavbar {
+    --sidenav-button-rad: 0px;
+    --sidenav-right-rad: 0px;
+}
 #content-container {
 	display: flex;
 	justify-content: center;
@@ -9,9 +13,13 @@
     flex-direction: column;
 }
 #game {
-	border: 1px solid white;
+	border: 1px solid #fff;
 }
 #content-container button {
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
     cursor: pointer;
     padding: 5px;
     margin: 5px;

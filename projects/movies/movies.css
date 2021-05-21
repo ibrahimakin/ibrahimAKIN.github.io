@@ -2,6 +2,13 @@
     --sidenav-button-rad: 0px;
     --sidenav-right-rad: 0px;
 }
+#sidenavbar {
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #fff, 10px 0px 40px 5px #000, inset 10px 0px 40px 5px #000;
+}
+.docApp {
+    background-color: #001529;
+}
 #root{
     height: 100%;
 }

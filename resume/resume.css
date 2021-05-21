@@ -13,7 +13,6 @@ button.white {
 button.white:hover, a.white:hover {
     background-color: #c1c1c1;
 }
-.dropdown button {  }
 :root {
     --resume-clr: #008080;
     --resume-clr-hvr: #006060;

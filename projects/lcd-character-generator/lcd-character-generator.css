@@ -2,11 +2,11 @@
     --sidenav-button-rad: 0px;
     --sidenav-right-rad: 0px;
 }
-button.white {
+#sidenavbar button.white {
     border: none;
     box-shadow: inset 0 0 0 5px rgba(128, 128, 128, 0.5);
 }
-button.black {
+#sidenavbar button.black {
     border: none;
 }
 #sidenavbar {
