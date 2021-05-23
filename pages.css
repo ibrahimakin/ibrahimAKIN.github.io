@@ -8,7 +8,7 @@
       z-index: 111;
     }
     #sidenav-mobile {
-      min-width: 83px;
+      min-width: var(--sidenav-width);
     }
 }
 
