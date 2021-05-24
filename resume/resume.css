@@ -29,7 +29,6 @@ button.white:hover, a.white:hover {
 #resume-page {
     display: flex;
     background-color: #f5f5f5;
-    transition: width 100ms linear;
     width: 85%;
     overflow: auto;
     box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
