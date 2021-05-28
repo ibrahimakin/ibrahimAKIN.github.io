@@ -41,9 +41,13 @@
     cursor: pointer;
 }
 #content-container {
-    margin: auto;
+    display: flex;
 }
 #content-container > div {
+    width: 100%;
+    margin: auto;
+}
+#content-container > div > div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
