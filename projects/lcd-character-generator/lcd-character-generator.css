@@ -40,6 +40,9 @@
     padding: 5px;
     cursor: pointer;
 }
+#content-container {
+    margin: auto;
+}
 #content-container > div {
     display: flex;
     flex-wrap: wrap;
