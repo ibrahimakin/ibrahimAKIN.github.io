@@ -51,7 +51,7 @@ function displayClear() {
 	displayResult = 0;
 	displayRes.innerHTML = 0;
 	for (let i = 0; i < 8; i++) {
-		document.getElementById("i" + dizi[i]).style.backgroundColor = 'white';
+		document.getElementById("i" + dizi[i]).style.backgroundColor = '';
 		document.getElementById("i" + dizi[i]).style.color = 'black';
 		document.getElementById(dizi[i]).innerHTML = 0;
 	}
