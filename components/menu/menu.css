@@ -1,7 +1,7 @@
 top-navbar {
     z-index: 1;
 }
-button.white.icon:not(.dropdown-content button, #collapse-button):hover {
+/* button.white.icon:not(.dropdown-content button, #collapse-button):hover {
     transform: scale(1.2);
     z-index: 3;
 }
@@ -12,7 +12,7 @@ button.white:hover {
 button.white {
     transition: transform .1s linear;
     box-shadow: 0 0 0 1px #fff, 0 0 0 2px #f00;
-}
+} */
 #sidenavbar {
     background-color: transparent;
     box-shadow: 0 0 0 1px #fff, 0 0 0 2px #f00;

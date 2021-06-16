@@ -43,6 +43,9 @@
 #content-container {
     display: flex;
 }
+#content-container a {
+    text-decoration: none;
+}
 #content-container > div {
     width: 100%;
     margin: auto;
