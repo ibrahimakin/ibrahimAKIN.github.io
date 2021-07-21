@@ -11,9 +11,7 @@ function moveSmiley(evt) {
     
     smw.style.transform = `rotateX(${angleY}deg) rotateY(${angleX}deg)`;
 }
-function resetMoveSmiley() {
-    smw.style.transform = 'rotateX(0deg) rotateY(0deg)';
-}
+// function resetMoveSmiley() { smw.style.transform = 'rotateX(0deg) rotateY(0deg)'; }
 
 document.body.addEventListener('mousemove', moveSmiley);
 // document.body.addEventListener('mouseover', resetMoveSmiley);

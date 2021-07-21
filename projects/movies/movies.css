@@ -4,12 +4,21 @@
 }
 #sidenavbar {
     background-color: transparent;
-    box-shadow: 0 0 0 1px #fff, 10px 0px 40px 5px #000, inset 10px 0px 40px 5px #000;
+    /* box-shadow: 0 0 0 1px #fff, 10px 0px 40px 5px #000, inset 10px 0px 40px 5px #000; */
+    box-shadow: none;
+}
+#sidenavbar button.white {
+    box-shadow: inset 0 0 0 2px #001529;
+    border-color: #001529;
+    border: none;
+}
+#sidenavbar button.black {
+    border: none;
 }
 .docApp {
     background-color: #001529;
 }
-#root{
+#root {
     height: 100%;
 }
 .App {
