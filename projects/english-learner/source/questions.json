@@ -7,121 +7,133 @@
 }, {
     "type": "word",
     "en": "January",
-    "tr": "Ocak",
+    "tr": "Ocak   (1)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "February",
-    "tr": "Şubat",
+    "tr": "Şubat   (2)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "March",
-    "tr": "Mart",
+    "tr": "Mart   (3)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "April",
-    "tr": "Nisan",
+    "tr": "Nisan   (4)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "May",
-    "tr": "Mayıs",
+    "tr": "Mayıs   (5)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "June",
-    "tr": "Haziran",
+    "tr": "Haziran   (6)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "July",
-    "tr": "Temmuz",
+    "tr": "Temmuz   (7)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "August",
-    "tr": "Ağustos",
+    "tr": "Ağustos   (8)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "September",
-    "tr": "Eylül",
+    "tr": "Eylül   (9)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "October",
-    "tr": "Ekim",
+    "tr": "Ekim   (10)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "November",
-    "tr": "Kasım",
+    "tr": "Kasım   (11)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "December",
-    "tr": "Aralık",
+    "tr": "Aralık   (12)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "Monday",
-    "tr": "Pazartesi",
+    "tr": "Pazartesi   (1)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "Tuesday",
-    "tr": "Salı",
+    "tr": "Salı   (2)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "Wednesday",
-    "tr": "Çarşamba",
+    "tr": "Çarşamba   (3)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "Thursday",
-    "tr": "Perşembe",
+    "tr": "Perşembe   (4)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "Friday",
-    "tr": "Cuma",
+    "tr": "Cuma   (5)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "Saturday",
-    "tr": "Cumartesi",
+    "tr": "Cumartesi   (6)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "Sunday",
-    "tr": "Pazar",
+    "tr": "Pazar   (7)",
     "en_s": "",
     "tr_s": ""
 }, {
     "type": "word",
     "en": "Aisle",
     "tr": "Koridor",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Nephew",
+    "tr": "Yeğen (Erkek)",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Neiece",
+    "tr": "Yeğen (Kız)",
     "en_s": "",
     "tr_s": ""
 }]
