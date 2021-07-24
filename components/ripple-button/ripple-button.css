@@ -50,6 +50,9 @@ button:active {
 .movies {
   background-image: url('../../assets/icons/navbar/movies.svg');
 }
+.smile {
+  background-image: url('../../assets/icons/navbar/smile.svg');
+}
 .code {
   background-image: url('../../assets/icons/navbar/code.svg');
 }
