@@ -98,6 +98,9 @@ button.white {
 .tic-tac-toe-img {
     background-image: url('../../assets/images/games/tic-tac-toe.png');
 }
+.english-img {
+    background-image: url('../../assets/images/projects/english-learner.png');
+}
 .code-img {
     background-image: url('../../assets/images/projects/code.png');
 }
