@@ -1,0 +1,55 @@
+[{
+    "type": "sentence",
+    "en": "This is the village in which my father was born.",
+    "tr": "Bu benim babamın doğduğu köy.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Whom do we pay?",
+    "tr": "Biz kime öderiz?",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Nobody knows where she came from.",
+    "tr": "Kimse onun nereden geldiğini bilmiyor.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "It is the city of which I told you.",
+    "tr": "O sana bahsettiğim şehir.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "We know whose it is.",
+    "tr": "Biz onun kimin olduğunu biliyoruz.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I know where I am.",
+    "tr": "Ben nerede olduğumu biliyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "The man, whose son is here, is in the house as well.",
+    "tr": "Oğlu burada olan adam da evde.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "The child who is not born.",
+    "tr": "Doğmamış çocuk.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I have a friend whose father is a teacher.",
+    "tr": "Babası öğretmen olan bir arkadaşım var.",
+    "en_s": "",
+    "tr_s": ""
+}]
