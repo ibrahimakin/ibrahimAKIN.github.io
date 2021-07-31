@@ -166,4 +166,32 @@
     "tr": "Akciğer / Ciğer",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Lettuce",
+    "tr": "Marul",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/lettuceiceberg.jpg"
+}, {
+    "type": "word",
+    "en": "Peach",
+    "tr": "Şeftali",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/peach.jpg"
+}, {
+    "type": "word",
+    "en": "Apricot",
+    "tr": "Kayısı",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/apricot.jpg"
+}, {
+    "type": "word",
+    "en": "Pomegranate",
+    "tr": "Nar",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/pomegranate.jpg"
 }]
