@@ -123,7 +123,8 @@
     "en": "Aisle",
     "tr": "Koridor",
     "en_s": "",
-    "tr_s": ""
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/aisle.jpg"
 }, {
     "type": "word",
     "en": "Nephew",
@@ -194,4 +195,121 @@
     "en_s": "",
     "tr_s": "",
     "img": "/projects/english-learner/source/img/pomegranate.jpg"
+}, {
+    "type": "word",
+    "en": "to worship",
+    "tr": "Tapmak",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "to wipe out",
+    "tr": "Silip yoketmek",
+    "en_s": "a nuclear wipeout.",
+    "tr_s": "",
+    "def": "an instance of complete destruction."
+}, {
+    "type": "word",
+    "en": "to cure",
+    "tr": "İyileştirmek",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Honey Badger / Ratel",
+    "tr": "Bal Porsuğu",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/ratel.jpg"
+}, {
+    "type": "word",
+    "en": "Walnut",
+    "tr": "Ceviz",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/walnut.jpg"
+}, {
+    "type": "word",
+    "en": "Subconscious",
+    "tr": "Bilinçaltı",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Colossal",
+    "tr": "Devasa",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Tedious",
+    "tr": "Sıkıcı",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Obnoxious",
+    "tr": "İğrenç",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Stringing",
+    "tr": "İp çekmek / Kandırmak",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Ravenous",
+    "tr": "Son derece aç",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Appetite",
+    "tr": "İştah",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "to dedicate",
+    "tr": "Adamak",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "to influence",
+    "tr": "Etkilemek",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "to defect",
+    "tr": "Döneklik etmek",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "to hesitate",
+    "tr": "Tereddüt etmek",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "to consist of",
+    "tr": "Meydana gelmek / Oluşmak",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "to call off",
+    "tr": "İptal etmek",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "to wither up / to fade",
+    "tr": "Solmak",
+    "en_s": "",
+    "tr_s": ""
 }]
