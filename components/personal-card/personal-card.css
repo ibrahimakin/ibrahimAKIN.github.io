@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transform-style: preserve-3d;
 }
 
 @media screen and (max-width: 700px) {
@@ -38,6 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transform-style: preserve-3d;
 }
 
 .img {
@@ -65,6 +67,7 @@
 
 .info {
   padding: 0 5em;
+  transform-style: preserve-3d;
 }
 
 .info h1 {
