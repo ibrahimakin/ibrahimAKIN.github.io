@@ -18,23 +18,17 @@
     transform-style: preserve-3d;
 }
 
-@media screen and (max-width: 700px) {
-    .container {
-        width: 100%;
-    }
-}
-
 .card { 
-    background: black;
-    transform-style: preserve-3d;
     width: 35em;
-    border-radius: 30px;
     padding: 0 /*5rem;*/;
-    border: 1px solid white;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 30px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5), 0 0 50px rgba(0, 0, 0, 0.5);
+    transform-style: preserve-3d;
 }
 
-.sneaker {
+.photo {
     height: 150px;
     display: flex;
     align-items: center;
@@ -50,7 +44,7 @@
     background-image: url('../../assets/images/home/iakin_fg.png');
 }
 
-.sneaker .img {
+.photo .img {
     z-index: 2;
     transition: transform .75s ease-out;
 }
@@ -66,15 +60,15 @@
 }
 
 .info {
-  padding: 0 5em;
-  transform-style: preserve-3d;
+    padding: 0 5em;
+    transform-style: preserve-3d;
 }
 
 .info h1 {
     font-size: 3em;
+    color: #fff;
     transition: transform .75s ease-out;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #000;
 }
 
 .info h3 {
@@ -83,50 +77,22 @@
     font-weight: lighter;
     transition: transform .75s ease-out;
     color: rgb(223, 223, 223);
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #000;
 }
 
 .info p {
-  font-size: 1.2em;
-  transition: transform .75s ease-out;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+    font-size: 1.2em;
+    color: #fff;
+    transition: transform .75s ease-out;
+    text-shadow: 2px 2px 4px #000;
 }
 
-.sizes {
-    display: flex;
-    justify-content: space-between;
+.links {
     transition: transform .75s ease-out;
 }
 
-.sizes button {
-    padding: 0.5em 2em;
-    background: none;
-    border: none;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: bold;
-    color: #585858;
-}
-
-button.active {
-    background-color: #585858;
-    color: white;
-}
-
-.purchase {
-    margin: 3em 0;
-}
-
-.purchase button {
-    width: 100%;
-    padding: 1em 0;
-    background-color: #f54642;
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 30px;
-    font-weight: bolder;
-    transition: transform .75s ease-out;
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+    }
 }
