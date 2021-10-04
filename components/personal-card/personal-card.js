@@ -15,7 +15,7 @@ class PersonalCard extends HTMLElement {
             <div class="container">
                 <div class="card">
                     <div id="particles-js"></div>
-                    <div class="sneaker">
+                    <div class="photo">
                         <div class="circle"></div>
                         <div class="img"></div>
                     </div>
@@ -26,7 +26,7 @@ class PersonalCard extends HTMLElement {
                             and search them to discover.<br/><br/>
                             Feel free to say hello through any of the social links below.<br/><br/>
                         </p>
-                        <div class="sizes">
+                        <div class="links">
                           <social-icons></social-icons>
                         </div>
                     </div>
@@ -40,12 +40,12 @@ class PersonalCard extends HTMLElement {
 
         // Items
         const particlesJs = document.querySelector('#particles-js');
-        const circle = document.querySelector('.sneaker .circle');
-        const sneaker = document.querySelector('.sneaker .img');
+        const circle = document.querySelector('.photo .circle');
+        const photo = document.querySelector('.photo .img');
         const title = document.querySelector('.title');
         const description = document.querySelector('.info h3');
         const about = document.querySelector('.info p');
-        const sizes = document.querySelector('.sizes');
+        const links = document.querySelector('.links');
 
         window.addEventListener('deviceorientation', (event)=>{this.handleOrientation(event, card)});
 
@@ -63,11 +63,11 @@ class PersonalCard extends HTMLElement {
             // Popout
             particlesJs.style.transform = 'translateZ(50px)';
             circle.style.transform = 'translateZ(55px)';
-            sneaker.style.transform = 'translateZ(75px)';//rotateZ(-45deg)';
+            photo.style.transform = 'translateZ(75px)';
             title.style.transform = 'translateZ(75px)';
             description.style.transform = 'translateZ(60px)';
             about.style.transform = 'translateZ(55px)';
-            sizes.style.transform = 'translateZ(75px)';
+            links.style.transform = 'translateZ(75px)';
         })
 
         // Animate Out
@@ -77,13 +77,13 @@ class PersonalCard extends HTMLElement {
             // Popback
             particlesJs.style.transform = 'translateZ(0px)'
             circle.style.transform = 'translateZ(0px)';
-            sneaker.style.transform = 'translateZ(0px)';
+            photo.style.transform = 'translateZ(0px)';
             title.style.transform = 'translateZ(0px)';
             description.style.transform = 'translateZ(0px)';
             about.style.transform = 'translateZ(0px)';
-            sizes.style.transform = 'translateZ(0px)';
+            links.style.transform = 'translateZ(0px)';
         });
-        particlesJS("particles-js", particlesConfig);
+        particlesJS('particles-js', particlesConfig);
     }
 }
 customElements.define('personal-card', PersonalCard);
