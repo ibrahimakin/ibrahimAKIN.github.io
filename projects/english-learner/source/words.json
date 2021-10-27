@@ -494,4 +494,18 @@
     "tr": "Büyü",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Cashpoint",
+    "tr": "ATM (Automatic Teller Machine)",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/cashpoint.jpg"
+}, {
+    "type": "word",
+    "en": "Pharmacy",
+    "tr": "Eczane",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/pharmacy.jpg"
 }]
