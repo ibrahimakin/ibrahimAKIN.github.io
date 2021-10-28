@@ -11,3 +11,6 @@
 .docApp {
     background-color: #fff;
 }
+.question-detail > div:not(:first-child) {
+    width: fit-content;
+}
