@@ -508,4 +508,17 @@
     "en_s": "",
     "tr_s": "",
     "img": "/projects/english-learner/source/img/pharmacy.jpg"
+}, {
+    "type": "word",
+    "en": "Chickpea",
+    "tr": "Nohut",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/chickpea.jpg"
+}, {
+    "type": "word",
+    "en": "Stray",
+    "tr": "Başıboş",
+    "en_s": "",
+    "tr_s": ""
 }]
