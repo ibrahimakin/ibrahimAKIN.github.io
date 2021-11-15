@@ -136,4 +136,65 @@
     "tr": "Zevkler ve renkler meselesi.",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I should have told the truth.",
+    "tr": "Doğruyu söylemeliydim.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Lost track of time.",
+    "tr": "Zamanın nasıl geçtiğini anlayamamak.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Please don't make things up.",
+    "tr": "Lütfen bir şeyler uydurma.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I am stuffed.",
+    "tr": "Tıka basa doydum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I object.",
+    "tr": "İtiraz ediyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Have you ever made a snowman?",
+    "tr": "Hiç kardan adam yaptın mı?",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/snowman.gif"
+}, {
+    "type": "sentence",
+    "en": "I'm under a lot of pressure.",
+    "tr": "Çok baskı altındayım.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Dig in!",
+    "tr": "Gömül! (yemeğe)",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Take your share.",
+    "tr": "Payına düşeni al.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Can I have a second serving?",
+    "tr": "İkinci bir tabak alabilir miyim?",
+    "en_s": "",
+    "tr_s": ""
 }]
