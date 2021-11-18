@@ -197,4 +197,40 @@
     "tr": "İkinci bir tabak alabilir miyim?",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Let's go on a spending spree.",
+    "tr": "Hadi bir harcama çılgınlığı yapalım.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "These are rip-offs.",
+    "tr": "Çok kazıklar.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "The food is going to get cold.",
+    "tr": "Yemek soğuyacak.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "The manager came up with a new way for us to increase the sales.",
+    "tr": "Yönetici, satışları artırmamız için yeni bir yol buldu.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I wonder what Liz has up his sleeve for my birthday celebration.",
+    "tr": "Doğum günü kutlamam için Liz'in ne planı var merak ediyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Do you have anything up your sleeve that can solve our problem?",
+    "tr": "Elinde sorunumuzu çözebilecek herhangi bir planın var mı?",
+    "en_s": "",
+    "tr_s": ""
 }]
