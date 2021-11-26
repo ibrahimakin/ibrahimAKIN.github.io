@@ -239,4 +239,16 @@
     "tr": "Şu an işimin başındayım!",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "He is very afraid of dogs.",
+    "tr": "O köpeklerden çok korkar.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "You're making me blush.",
+    "tr": "Beni utandırıyorsun.",
+    "en_s": "",
+    "tr_s": ""
 }]
