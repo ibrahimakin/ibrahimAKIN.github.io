@@ -599,4 +599,60 @@
     "tr": "ev işleri",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "word",
+    "en": "intuition",
+    "tr": "sezgi",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "cumbersome",
+    "tr": "kullanışsız, elverişsiz",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "dispute",
+    "tr": "anlaşmazlık, tartışma",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "brick-and-mortar store",
+    "tr": "fiziksel mağaza",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "delight",
+    "tr": "zevk / sevinç",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "anticlimactic",
+    "tr": "hayal kırıklığı",
+    "en_s": "",
+    "tr_s": "",
+    "def": "causing disappointment at the end of an exciting or impressive series of events."
+}, {
+    "type": "word",
+    "en": "helm",
+    "tr": "zevk / sevinç",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/helm.jpeg"
+}, {
+    "type": "word",
+    "en": "inconvenience",
+    "tr": "rahatsızlık",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "knackered",
+    "tr": "çok yorgun",
+    "en_s": "",
+    "tr_s": ""
 }]
