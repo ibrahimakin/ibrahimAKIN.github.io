@@ -427,8 +427,32 @@
     "tr_s": ""
 }, {
     "type": "sentence",
-    "en": "I can already feel some spots of rain",
+    "en": "I can already feel some spots of rain.",
     "tr": "Şimdiden bazı yağmur damlalarını hissedebiliyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I am having a hard time getting up in the morning.",
+    "tr": "Sabahları uyanmakta zorlanıyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "The best is yet to come.",
+    "tr": "En iyisi henüz gelmedi.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "It's pretty strange that we keep running into each other.",
+    "tr": "Birbirimizle karşılaşmaya devam etmemiz oldukça garip.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I feel like lying around all day.",
+    "tr": "Canım bütün gün uzanmak istiyor.",
     "en_s": "",
     "tr_s": ""
 }]

@@ -691,4 +691,29 @@
     "tr": "birdenbire",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Toddler",
+    "tr": "Yürümeye başlayan çocuk",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Dough",
+    "tr": "Hamur",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "shattered",
+    "tr": "paramparça",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "Cinnamon",
+    "tr": "Tarçın",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/cinnamon.jpeg"
 }]
