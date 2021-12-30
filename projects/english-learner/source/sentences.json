@@ -268,7 +268,8 @@
     "en": "Have the courage to follow your heart and intuition.",
     "tr": "Kalbinizi ve önsezilerinizi dinleyecek cesaretiniz olsun.",
     "en_s": "",
-    "tr_s": ""
+    "tr_s": "",
+    "quotes": "Steve Jobs"
 }, {
     "type": "sentence",
     "en": "Don't beat yourself up!",
@@ -465,6 +466,37 @@
     "type": "sentence",
     "en": "It is important that she travels more.",
     "tr": "Onun daha fazla seyahat etmesi önemli.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I'm going to heat up my pan.",
+    "tr": "Tavamı ısıtacağım.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I need to preheat the oven.",
+    "tr": "Fırını önceden ısıtmam gerekiyor.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Just add some seasoning!",
+    "tr": "Sadece biraz çeşni ekle!",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+    "tr": "Büyük beyinler fikirleri; ortalama beyinler olayları; küçük beyinler insanları tartışır.",
+    "en_s": "",
+    "tr_s": "",
+    "quotes": "Eleanor Roosevelt"
+}, {
+    "type": "sentence",
+    "en": "I have a lot on my mind.",
+    "tr": "Aklımda çok şey var.",
     "en_s": "",
     "tr_s": ""
 }]
