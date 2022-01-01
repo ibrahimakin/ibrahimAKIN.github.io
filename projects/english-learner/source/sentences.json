@@ -499,4 +499,23 @@
     "tr": "Aklımda çok şey var.",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Peace at home, peace in the world.",
+    "tr": "Yurtta sulh cihanda sulh.",
+    "en_s": "",
+    "tr_s": "",
+    "quotes": "Mustafa Kemal Atatürk"
+}, {
+    "type": "sentence",
+    "en": "You shouldn't have!",
+    "tr": "Zahmet etmeseydin!",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Yesterday when we spoke on the phone, I was at my aunt's house.",
+    "tr": "Dün biz telefonda konuştuğumuzda, ben teyzemin evindeydim.",
+    "en_s": "",
+    "tr_s": ""
 }]
