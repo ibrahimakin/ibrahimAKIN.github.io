@@ -518,4 +518,29 @@
     "tr": "Dün biz telefonda konuştuğumuzda, ben teyzemin evindeydim.",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "It's dusk.",
+    "tr": "Hava kararıyor. (Alacakaranlık)",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I have had a hat since you have had a hat.",
+    "tr": "Senin bir şapkan olduğundan beri benim bir şapkam var.",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/english-learner/source/img/hat.gif"
+}, {
+    "type": "sentence",
+    "en": "Everyone is in favor of your idea.",
+    "tr": "Herkes senin fikrin lehinde.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "We do not know what attitude to take.",
+    "tr": "Biz hangi tavrı almamız gerektiğini bilmiyoruz.",
+    "en_s": "",
+    "tr_s": ""
 }]
