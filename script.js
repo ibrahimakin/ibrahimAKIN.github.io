@@ -1,9 +1,11 @@
-document.addEventListener('DOMContentLoaded', function(event) { 
-    for (const button of document.getElementsByClassName('lang-button')) {    
-        button.onclick = function(event) {
+let current = getLang();
+document.addEventListener('DOMContentLoaded', function () {
+    for (const button of document.getElementsByClassName('lang-button')) {
+        button.onclick = function (event) {
             let lang = event.target.getAttribute('lang-name');
-            if (lang !== getLang()) {
-                localStorage.setItem('lang', JSON.stringify(lang));
+            if (lang !== getLang() || lang !== current) {
+                current = lang;
+                try { localStorage.setItem('lang', JSON.stringify(lang)); } catch (e) { }
                 for (const element of document.querySelectorAll('[lang-tag]')) {
                     element.textContent = langObj[lang][element.getAttribute('lang-tag')];
                 }
@@ -11,16 +13,17 @@ document.addEventListener('DOMContentLoaded', function(event) {
             }
         };
     }
-    let lang = getLang();
-    if (lang !== 'en') {
-        for (const element of document.querySelectorAll('[lang-tag]')) {                
-            element.textContent = langObj[lang][element.getAttribute('lang-tag')];
+    if (current !== 'en') {
+        for (const element of document.querySelectorAll('[lang-tag]')) {
+            element.textContent = langObj[current][element.getAttribute('lang-tag')];
         }
         // document.documentElement.setAttribute('lang', lang); // Gets a reference to the root node of the document.
-    }    
+    }
 });
 
 function getLang() {
-    let localLang = localStorage.getItem('lang');
+    let localLang;
+    try { localLang = localStorage.getItem('lang'); }
+    catch (e) { }
     return localLang ? JSON.parse(localLang) : 'en';
 }
