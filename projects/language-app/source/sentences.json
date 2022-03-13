@@ -172,7 +172,7 @@
     "tr": "Hiç kardan adam yaptın mı?",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/snowman.gif"
+    "img": "/projects/language-app/source/img/snowman.gif"
 }, {
     "type": "sentence",
     "en": "I'm under a lot of pressure.",
@@ -530,7 +530,7 @@
     "tr": "Senin bir şapkan olduğundan beri benim bir şapkam var.",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/hat.gif"
+    "img": "/projects/language-app/source/img/hat.gif"
 }, {
     "type": "sentence",
     "en": "Everyone is in favor of your idea.",

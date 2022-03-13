@@ -124,7 +124,7 @@
     "tr": "Koridor",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/aisle.jpg"
+    "img": "/projects/language-app/source/img/aisle.jpg"
 }, {
     "type": "word",
     "en": "Nephew",
@@ -173,28 +173,28 @@
     "tr": "Marul  (Göbek Marul)",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/lettuceiceberg.gif"
+    "img": "/projects/language-app/source/img/lettuceiceberg.gif"
 }, {
     "type": "word",
     "en": "Peach",
     "tr": "Şeftali",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/peach.jpg"
+    "img": "/projects/language-app/source/img/peach.jpg"
 }, {
     "type": "word",
     "en": "Apricot",
     "tr": "Kayısı",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/apricot.jpg"
+    "img": "/projects/language-app/source/img/apricot.jpg"
 }, {
     "type": "word",
     "en": "Pomegranate",
     "tr": "Nar",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/pomegranate.jpg"
+    "img": "/projects/language-app/source/img/pomegranate.jpg"
 }, {
     "type": "word",
     "en": "to worship",
@@ -220,14 +220,14 @@
     "tr": "Bal Porsuğu",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/ratel.jpg"
+    "img": "/projects/language-app/source/img/ratel.jpg"
 }, {
     "type": "word",
     "en": "Walnut",
     "tr": "Ceviz",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/walnut.jpg"
+    "img": "/projects/language-app/source/img/walnut.jpg"
 }, {
     "type": "word",
     "en": "Subconscious",
@@ -451,7 +451,7 @@
     "tr": "Buz Örtüsü",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/ice_cap.jpg"
+    "img": "/projects/language-app/source/img/ice_cap.jpg"
 }, {
     "type": "word",
     "en": "to loosen",
@@ -500,21 +500,21 @@
     "tr": "ATM (Automatic Teller Machine)",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/cashpoint.jpg"
+    "img": "/projects/language-app/source/img/cashpoint.jpg"
 }, {
     "type": "word",
     "en": "Pharmacy",
     "tr": "Eczane",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/pharmacy.jpg"
+    "img": "/projects/language-app/source/img/pharmacy.jpg"
 }, {
     "type": "word",
     "en": "Chickpea",
     "tr": "Nohut",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/chickpea.jpg"
+    "img": "/projects/language-app/source/img/chickpea.jpg"
 }, {
     "type": "word",
     "en": "Stray",
@@ -642,7 +642,7 @@
     "tr": "dümen",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/helm.jpeg"
+    "img": "/projects/language-app/source/img/helm.jpeg"
 }, {
     "type": "word",
     "en": "inconvenience",
@@ -715,7 +715,7 @@
     "tr": "Tarçın",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/cinnamon.jpg"
+    "img": "/projects/language-app/source/img/cinnamon.jpg"
 }, {
     "type": "word",
     "en": "Good deed",
@@ -764,5 +764,5 @@
     "tr": "toprak",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/soil.jpg"
+    "img": "/projects/language-app/source/img/soil.jpg"
 }]

@@ -104,7 +104,7 @@ class Sidenavbar extends HTMLElement {
                 <div class="dropdown" name="projects">
                   <a title="Projects" href="/projects"><button name="projects" class="white ripple-button project icon dropdown-button"></button></a>
                   <div id="projectsdc" class="dropdown-content sidebarddc">
-                    <a title="Language App" href="/projects/english-learner"><button class="white smile icon dropdown-button"></button></a>
+                    <a title="Language App" href="/projects/language-app"><button class="white smile icon dropdown-button"></button></a>
                     <a title="Code Playground" href="/projects/code-playground"><button class="white code icon dropdown-button"></button></a>
                     <a title="Face Detector" href="/projects/face-detector"><button class="white face icon dropdown-button"></button></a>
                     <a title="LCD Character Generator" href="/projects/lcd-character-generator"><button class="white iicon icon dropdown-button"></button></a>
