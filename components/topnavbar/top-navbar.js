@@ -15,7 +15,7 @@ class Navbar extends HTMLElement {
               <div class="dropdown-top tn-same-width">
                 <button title="Projects" class="white ripple-button project icon" name="projects"></button>
                 <div id="projectstdc" class="dropdown-content">
-                  <a title="English Learner" href="/projects/english-learner"><button class="white smile icon"></button></a>
+                  <a title="Language App" href="/projects/english-learner"><button class="white smile icon"></button></a>
                   <a title="Code Playground" href="/projects/code-playground"><button class="white code icon"></button></a>
                   <a title="Face Detector" href="/projects/face-detector"><button class="white face icon"></button></a>
                   <a title="LCD Character Generator" href="/projects/lcd-character-generator"><button class="white iicon icon"></button></a>
