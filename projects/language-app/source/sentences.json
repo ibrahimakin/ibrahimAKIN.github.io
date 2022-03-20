@@ -579,4 +579,34 @@
     "tr": "Kendini değiştirmenin en zor yanı, başkalarının seni nasıl gördüğünü değiştirmektir.",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Do you commute to and from work by public transportation?",
+    "tr": "Toplu taşıma ile mi işe gidip geliyorsunuz?",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "We are booked solid.",
+    "tr": "Tamamıyla doluyuz.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I'm psyched to go there.",
+    "tr": "Oraya gitmek için can atıyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "It was really anticlimactic.",
+    "tr": "Gerçekten hayal kırıklığına uğrattı.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "They asked me point blank.",
+    "tr": "Bana açıkça sordular.",
+    "en_s": "",
+    "tr_s": ""
 }]

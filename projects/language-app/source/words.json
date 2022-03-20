@@ -765,4 +765,16 @@
     "en_s": "",
     "tr_s": "",
     "img": "/projects/language-app/source/img/soil.jpg"
+}, {
+    "type": "word",
+    "en": "call in sick",
+    "tr": "mazeret bildirmek",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "commute",
+    "tr": "işe gidip gelmek",
+    "en_s": "",
+    "tr_s": ""
 }]
