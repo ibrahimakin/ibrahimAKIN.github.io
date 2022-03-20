@@ -172,7 +172,7 @@
     "tr": "Hiç kardan adam yaptın mı?",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/snowman.gif"
+    "img": "/projects/language-app/source/img/snowman.gif"
 }, {
     "type": "sentence",
     "en": "I'm under a lot of pressure.",
@@ -530,7 +530,7 @@
     "tr": "Senin bir şapkan olduğundan beri benim bir şapkam var.",
     "en_s": "",
     "tr_s": "",
-    "img": "/projects/english-learner/source/img/hat.gif"
+    "img": "/projects/language-app/source/img/hat.gif"
 }, {
     "type": "sentence",
     "en": "Everyone is in favor of your idea.",
@@ -577,6 +577,36 @@
     "type": "sentence",
     "en": "The hardest thing about changing yourself is changing how other people see you.",
     "tr": "Kendini değiştirmenin en zor yanı, başkalarının seni nasıl gördüğünü değiştirmektir.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Do you commute to and from work by public transportation?",
+    "tr": "Toplu taşıma ile mi işe gidip geliyorsunuz?",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "We are booked solid.",
+    "tr": "Tamamıyla doluyuz.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I'm psyched to go there.",
+    "tr": "Oraya gitmek için can atıyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "It was really anticlimactic.",
+    "tr": "Gerçekten hayal kırıklığına uğrattı.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "They asked me point blank.",
+    "tr": "Bana açıkça sordular.",
     "en_s": "",
     "tr_s": ""
 }]
