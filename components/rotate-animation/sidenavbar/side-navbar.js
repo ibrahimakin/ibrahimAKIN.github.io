@@ -1,7 +1,5 @@
 class Sidenavbar extends HTMLElement {
-  constructor() {
-    super();
-  }
+  constructor() { super(); }
   handleCollapseChange(e) {
     let sidenav = document.getElementById('main');
     let right = document.getElementById('right');
@@ -19,78 +17,59 @@ class Sidenavbar extends HTMLElement {
   handleCollapseExtChange(e) {
     let collapseExts = document.getElementsByClassName('collapse-ext');
     for (const collapseExt of collapseExts) {
-      if (collapseExt !== e.target) { collapseExt.checked = false; }
+      if (collapseExt !== e.target) collapseExt.checked = false;
     }
   }
   connectedCallback() {
     this.innerHTML = `
       <div id="sidenavbar">
         <div class="transform sub">
-          <div></div><div></div><div><div class="white"></div></div><div></div>
-          <div></div><div></div><div></div><div><div class="white"></div></div>
+          <div></div><div></div><div class="white"></div><div></div>
+          <div></div><div></div><div></div><div class="white"></div>
         </div>
         <div id="main" class="close">
           <div id="center" class="sub">
-            <div>
-              <a title="Home" href="/"><button class="white ripple-button home icon"></button></a>
-            </div><div></div>
+            <a title="Home" class="white ripple-button home icon" href="/"></a>
+            <div></div>
             <div class="right-ext-cont">
-              <a title="Projects" href="/projects"><button name="projects" class="white ripple-button project icon"></button></a>
+              <a title="Projects" name="projects" class="white ripple-button project icon" href="#"></a>
               <input class="collapse-ext" type="checkbox">
               <div class="right-ext transform sub">
                 <div></div><div></div>
-                <div>
-                  <a title="Code Playground" href="/projects/code-playground"><button class="white ripple-button code icon"></button></a>
-                </div>
-                <div>
-                  <a title="Face Detector" href="/projects/face-detector"><button class="white ripple-button face icon"></button></a>
-                </div>
-                <div>
-                  <a title="LCD Character Generator" href="/projects/lcd-character-generator"><button class="white ripple-button iicon icon"></button></a>
-                </div>
+                <a title="Code Playground" class="white ripple-button code icon" href="#"></a>
+                <a title="Face Detector" class="white ripple-button face icon" href="/projects/face-detector"></a>
+                <a title="LCD Character Generator" class="white ripple-button iicon icon" href="/projects/lcd-character-generator"></a>
                 <div></div><div></div><div></div>
               </div>
             </div>
             <div class="right-ext-cont">
-              <a title="Games" href="/games"><button name="games" class="white ripple-button games icon"></button></a>
+              <a title="Games" name="games" class="white ripple-button games icon" href="/games"></a>
               <input class="collapse-ext" type="checkbox">
               <div class="right-ext transform sub">
                 <div></div><div></div><div></div>
-                <div>
-                  <a title="Tetris" href="/games/tetris"><button class="white ripple-button tetris icon"></button></a>
-                </div>
-                <div>
-                  <a title="Snake" href="/games/snake"><button class="white ripple-button snake icon"></button></a>
-                </div>
-                <div>
-                  <a title="Bird" href="/games/bird"><button class="white ripple-button bird icon"></button></a>
-                </div>
-                <div>
-                  <a title="Tic Tac Toe" href="/games/tic-tac-toe"><button class="white ripple-button tic-tac-toe icon"></button></a>
-                </div>
+                <a title="Tetris" class="white ripple-button tetris icon" href="/games/tetris"></a>
+                <a title="Snake" class="white ripple-button snake icon" href="/games/snake"></a>
+                <a title="Bird" class="white ripple-button bird icon" href="/games/bird"></a>
+                <a title="Tic Tac Toe" class="white ripple-button tic-tac-toe icon" href="/games/tic-tac-toe"></a>
                 <div></div>
               </div>
             </div>
-            <div>
-              <a title="Resume" href="/resume"><button class="white ripple-button resume icon"></button></a>
-            </div>
-            <div>
-              <a title="Movies" href="/projects/movies"><button class="white ripple-button movies icon"></button></a>
-            </div>
+            <a title="Resume" class="white ripple-button resume icon" href="/resume"></a>
+            <a title="Movies" class="white ripple-button movies icon" href="/projects/movies"></a>
             <div class="right-ext-cont">
               <button title="Settings" name="settings" class="white ripple-button settings icon"></button>
               <input class="collapse-ext" type="checkbox">
               <div class="right-ext transform sub">
                 <div></div><div></div><div></div><div></div><div></div><div></div>
-                <div><button class="white ripple-button">TR</button></div>
-                <div><button class="white ripple-button">EN</button></div>
+                <button class="white ripple-button">TR</button>
+                <button class="white ripple-button">EN</button>
               </div>
             </div>
-            <div><div class="white forward icon"><input id="collapse" type="checkbox"></div></div>
+            <div class="white forward icon"><input id="collapse" type="checkbox"></div>
           </div>
           <div id="right" class="transform sub">
-            <div></div><div></div><div><div class="white"></div></div><div></div>
-            <div></div><div></div><div></div><div><div class="white"></div></div>
+            <div></div><div></div><div class="white"></div><div></div>
+            <div></div><div></div><div></div><div class="white"></div>
           </div>
         </div>
       </div>
@@ -99,9 +78,8 @@ class Sidenavbar extends HTMLElement {
     collapse.addEventListener('change', this.handleCollapseChange);
     let collapseExts = document.getElementsByClassName('collapse-ext');
     for (const collapseExt of collapseExts) {
-      collapseExt.addEventListener('change', this.handleCollapseExtChange)
+      collapseExt.addEventListener('change', this.handleCollapseExtChange);
     }
   }
 }
-
 customElements.define('side-navbar', Sidenavbar);
