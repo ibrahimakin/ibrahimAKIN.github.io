@@ -93,7 +93,7 @@ const langObj = {
         rpa: 'Robotic Process Automation',
         see_project: 'See project',
         technical_support: 'Technical Support',
-        ts_desc: 'Part-time working student at Canakkale 18th March University Distance Education Center.',
+        ts_desc: 'Part-time working student at Canakkale 18th March University Online Education Center.',
         ce_intern: 'Computer Engineering Internship',
         inc: 'Inc.',
         cei_desc: 'Educational technologies, application and game development.',
