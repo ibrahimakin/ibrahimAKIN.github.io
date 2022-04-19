@@ -1,0 +1,136 @@
+:root {
+    --sidenav-width: 90px;
+    --sidenav-gap: 10px;
+}
+
+#sidenav {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: calc(var(--sidenav-width) * 3);
+    transition: width .1s linear;
+    position: relative;
+}
+
+#sidenav input,
+#sidenav a {
+    cursor: pointer;
+}
+
+#sidenav.collapsed {
+    width: var(--sidenav-width);
+}
+
+#sidenav>.sub:first-child,
+#sidenav>.sub:last-child {
+    position: absolute;
+}
+
+#sidenav>.sub:first-child {
+    left: 0;
+}
+
+#sidenav>.sub:last-child {
+    right: 0;
+}
+
+.main {
+    z-index: 1;
+}
+
+.sub {
+    display: grid;
+    min-width: var(--sidenav-width);
+    transition: transform .1s linear;
+    grid-template-rows: repeat(8, 1fr);
+    height: 100%;
+}
+
+.sub .filled {
+    background-color: #fff;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.sub>div {
+    position: relative;
+    padding: var(--sidenav-gap);
+}
+
+.sub>div a {
+    display: block;
+}
+
+.expand {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.expand>div {
+    height: 100%;
+    padding: var(--sidenav-gap);
+}
+
+.sub>.menu:hover>.expand {
+    height: 100%;
+    left: 100%;
+}
+
+#collapse {
+    opacity: 0;
+    position: absolute;
+    height: calc(100% - var(--sidenav-gap) * 2);
+    width: calc(100% - var(--sidenav-gap) * 2);
+}
+
+#collapse:checked+.back {
+    background-image: url('../../assets/icons/navbar/forward.svg');
+}
+
+.grid-3 {
+    grid-row: 3;
+}
+
+.grid-8 {
+    grid-row: 8;
+}
+
+.pin-menu {
+    display: none;
+    position: absolute;
+    height: 0;
+    width: 0;
+    right: 0;
+    top: 10px;
+    z-index: 1;
+}
+
+.sub>.menu:hover>.pin-menu {
+    display: inline-block;
+}
+
+.pin-menu::after {
+    content: ' ';
+    background-image: url('../../assets/icons/navbar/pin.svg');
+    background-size: 20px 20px;
+    display: inline-block;
+    margin: 1px 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.pin-menu:checked {
+    display: inline-block;
+}
+
+.pin-menu:checked::after {
+    transform: rotateZ(-45deg);
+    height: 15px;
+}
+
+.pin-menu:checked+.expand {
+    height: 100%;
+    left: 100%;
+}

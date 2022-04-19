@@ -74,6 +74,12 @@ button:active {
 .tic-tac-toe {
   background-image: url('../../assets/icons/navbar/tic-tac-toe.svg');
 }
+.tr {
+  background-image: url('../../assets/icons/navbar/tr.svg');
+}
+.en {
+  background-image: url('../../assets/icons/navbar/en.svg');
+}
 .settings {
   background-image: url('../../assets/icons/navbar/settings.svg');
 }
