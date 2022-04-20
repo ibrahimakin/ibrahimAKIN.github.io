@@ -10,11 +10,7 @@
     width: calc(var(--sidenav-width) * 3);
     transition: width .1s linear;
     position: relative;
-}
-
-#sidenav input,
-#sidenav a {
-    cursor: pointer;
+    z-index: 1;
 }
 
 #sidenav.collapsed {
@@ -34,10 +30,6 @@
     right: 0;
 }
 
-.main {
-    z-index: 1;
-}
-
 .sub {
     display: grid;
     min-width: var(--sidenav-width);
@@ -46,35 +38,15 @@
     height: 100%;
 }
 
-.sub .filled {
-    background-color: #fff;
-    border-radius: 5px;
-    height: 100%;
-    width: 100%;
-}
-
 .sub>div {
-    position: relative;
     padding: var(--sidenav-gap);
 }
 
-.sub>div a {
-    display: block;
-}
-
-.expand {
-    position: absolute;
-    width: 100%;
-    top: 0;
-}
-
-.expand>div {
-    height: 100%;
+#sidenav .expand>div {
     padding: var(--sidenav-gap);
 }
 
-.sub>.menu:hover>.expand {
-    height: 100%;
+#sidenav .menu:hover>.expand {
     left: 100%;
 }
 
@@ -86,7 +58,7 @@
 }
 
 #collapse:checked+.back {
-    background-image: url('../../assets/icons/navbar/forward.svg');
+    background-image: url('../../../assets/icons/navbar/forward.svg');
 }
 
 .grid-3 {
@@ -113,7 +85,7 @@
 
 .pin-menu::after {
     content: ' ';
-    background-image: url('../../assets/icons/navbar/pin.svg');
+    background-image: url('../../../assets/icons/navbar/pin.svg');
     background-size: 20px 20px;
     display: inline-block;
     margin: 1px 8px;

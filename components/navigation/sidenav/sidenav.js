@@ -1,5 +1,3 @@
-const sidenavMediaWidth = 750;
-const sidenavWidth = 90;
 class Sidenav extends HTMLElement {
     constructor() { super(); }
     handleCollapseChange() {
@@ -95,7 +93,7 @@ class Sidenav extends HTMLElement {
             </div>
         `;
         document.getElementById('collapse').addEventListener('change', this.handleCollapseChange);
-        let x = window.matchMedia(`(max-width: ${sidenavMediaWidth}px)`);
+        let x = window.matchMedia('(max-width: 750px)');
         x.addEventListener('change', this.handleMediaQuery);     // Attach listener function on state changes                                // Attach listener function on state changes
         this.handleMediaQuery(x);                                // Call listener function at run time
     }

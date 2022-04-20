@@ -1,0 +1,28 @@
+top-nav {
+    z-index: 1;
+}
+
+#topnav {
+    display: none;
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+    height: 40px;
+}
+
+#topnav .menu:hover > .expand {
+    left: 0;
+    top: 100%;
+    z-index: 1;
+}
+
+#topnav.main > div {
+    padding: calc(var(--sidenav-gap) / 3);
+}
+
+#topnav.main > div {
+    padding: calc(var(--sidenav-gap) / 3);
+}
+
+#topnav .expand > div {
+    padding: calc(var(--sidenav-gap) / 3);
+}
