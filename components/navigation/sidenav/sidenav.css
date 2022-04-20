@@ -10,6 +10,7 @@
     width: calc(var(--sidenav-width) * 3);
     transition: width .1s linear;
     position: relative;
+    z-index: 1;
 }
 
 #sidenav.collapsed {

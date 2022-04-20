@@ -45,9 +45,7 @@ class Topnav extends HTMLElement {
                     <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
                 </div>
                 <div>
-                    <div>
-                        <a title="Language App" class="filled smile icon" href="/projects/language-app"></a>
-                    </div>             
+                    <a title="Language App" class="filled smile icon" href="/projects/language-app"></a>
                 </div>
                 <div class="menu">
                     <a title="Settings" name="settings" class="filled settings icon"></a>
