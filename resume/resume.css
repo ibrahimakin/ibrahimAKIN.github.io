@@ -1,17 +1,15 @@
-#sidenav-mobile, #topnavbar {
-    --sidenav-button-rad: 0px;
-    --sidenav-right-rad: 0px;
-}
-#sidenavbar {
-    box-shadow: 0 0 10px 3px #000;
-    background-color: transparent;
-}
-button.white {
+#sidenav .filled, #topnav .filled {
     background-color: #f5f5f5;
-    color: var(--resume-clr);
+    border-radius: 0;
 }
-button.white:hover, a.white:hover {
-    background-color: #c1c1c1;
+.filled, .menu:hover .filled, .pin-menu:checked + div .filled {
+    border: 1px solid #0a141d;
+}
+.expand .filled {
+    border: none;
+}
+#collapse:checked+.back {
+    background-image: url('data:image/svg+xml, <svg fill="rgb(0,128,128)" viewBox="0 0 309.143 309.143" xmlns="http://www.w3.org/2000/svg"><path d="M240.481,149.268L93.41,2.197c-2.929-2.929-7.678-2.929-10.606,0L68.661,16.34c-1.407,1.406-2.197,3.314-2.197,5.303c0,1.989,0.79,3.897,2.197,5.303l127.626,127.625L68.661,282.197c-1.407,1.406-2.197,3.314-2.197,5.303c0,1.989,0.79,3.897,2.197,5.303l14.143,14.143c1.464,1.464,3.384,2.197,5.303,2.197c1.919,0,3.839-0.732,5.303-2.197l147.071-147.071C243.411,156.946,243.411,152.197,240.481,149.268z"/></svg>');
 }
 :root {
     --resume-clr: #008080;
