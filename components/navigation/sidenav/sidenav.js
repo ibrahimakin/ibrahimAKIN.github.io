@@ -3,6 +3,9 @@ class Sidenav extends HTMLElement {
     handleCollapseChange() {
         document.getElementById('sidenav').classList.toggle('collapsed');
     }
+    handleExpandChange(e, pins) {
+        for (const pin of pins) if (e.target !== pin) pin.checked = false;
+    }
     handleMediaQuery(x) {
         const collapse = document.getElementById('collapse');
         const sidenav = document.getElementById('sidenav');
@@ -93,6 +96,8 @@ class Sidenav extends HTMLElement {
             </div>
         `;
         document.getElementById('collapse').addEventListener('change', this.handleCollapseChange);
+        const pins = document.getElementsByClassName('pin-menu');
+        for (const pin of pins) pin.addEventListener('change', e => this.handleExpandChange(e, pins));
         let x = window.matchMedia('(max-width: 750px)');
         x.addEventListener('change', this.handleMediaQuery);     // Attach listener function on state changes                                // Attach listener function on state changes
         this.handleMediaQuery(x);                                // Call listener function at run time
