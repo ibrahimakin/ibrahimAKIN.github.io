@@ -127,7 +127,7 @@
 }
 #contact a {
     text-decoration: none;
-    color: black;
+    color: #000;
 }
 .contact-icon { 
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@
 }
 .interest {
     display: inline-block;
-    border: 1px solid gray;
+    border: 1px solid #808080;
     padding: 5px;
     border-radius: 7px;
     margin-top: 5px;
