@@ -84,26 +84,22 @@
     display: inline-block;
 }
 
-.pin-menu::after {
+.expand::before {
     content: ' ';
+    display: none;
+    position: absolute;
     background-image: url('../../../assets/icons/navbar/pin.svg');
-    background-size: 20px 20px;
-    display: inline-block;
-    margin: 1px 8px;
+    margin: 10px;
     height: 20px;
     width: 20px;
-}
-
-.pin-menu:checked {
-    display: inline-block;
-}
-
-.pin-menu:checked::after {
     transform: rotateZ(-45deg);
-    height: 15px;
 }
 
 .pin-menu:checked+.expand {
     height: 100%;
     left: 100%;
+}
+
+.pin-menu:checked+.expand::before {
+    display: inline;
 }

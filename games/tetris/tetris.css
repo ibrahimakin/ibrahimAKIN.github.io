@@ -1,0 +1,13 @@
+#sidenav .filled, #topnav .filled {
+    border-radius: 0;
+}
+.filled, .menu:hover .filled, .pin-menu:checked + div .filled {
+    background-color: rgba(220, 220, 220, 0.8);
+    border-width: 8px;
+    border-style: solid;
+    border-image: initial;
+    border-color: rgb(220, 220, 220) rgb(220, 220, 220) rgba(220, 220, 220, 0.1) rgba(220, 220, 220, 0.3);
+}
+.expand .filled {
+    border: none;
+}

@@ -1,18 +1,10 @@
-#sidenav-mobile, #topnavbar {
-    --sidenav-button-rad: 0px;
-    --sidenav-right-rad: 0px;
+#sidenav .filled, #topnav .filled {
+    border-radius: 0;
 }
-#sidenavbar {
-    background-color: transparent;
-    /* box-shadow: 0 0 0 1px #fff, 10px 0px 40px 5px #000, inset 10px 0px 40px 5px #000; */
-    box-shadow: none;
+.filled, .menu:hover .filled, .pin-menu:checked + div .filled {
+    border: 1px solid #0a141d;
 }
-#sidenavbar button.white {
-    box-shadow: inset 0 0 0 2px #001529;
-    border-color: #001529;
-    border: none;
-}
-#sidenavbar button.black {
+.expand .filled {
     border: none;
 }
 .docApp {
