@@ -1,15 +1,11 @@
-#sidenavbar, #topnavbar {
-    --sidenav-button-rad: 0px;
-    --sidenav-right-rad: 0px;
-    box-shadow: none;
-    background-color: transparent;
+#sidenav .filled, #topnav .filled {
+    border-radius: 0;
 }
-#sidenavbar button {
-    border-color: #1e2229;
-}
+
 .docApp {
     background: hsl(220, 16%, 16%);
 }
+
 #content-container {
     font: 14px/1.4 sans-serif;
     color: #fff;

@@ -31,8 +31,8 @@ class Sidenav extends HTMLElement {
                     </div>
                     <div></div>
                     <div class="menu">
-                        <a title="Projects" name="projects" class="filled project icon"></a>
-                        <input class="pin-menu" type="checkbox">
+                        <a name="projects" class="filled project icon"></a>
+                        <input title="Projects" class="pin-menu" type="checkbox">
                         <div class="expand">
                             <div>
                                 <a title="Language App" class="filled smile icon" href="/projects/language-app"></a>
@@ -49,8 +49,8 @@ class Sidenav extends HTMLElement {
                         </div>
                     </div>
                     <div class="menu">
-                        <a title="Games" name="games" class="filled games icon"></a>
-                        <input class="pin-menu" type="checkbox">
+                        <a name="games" class="filled games icon"></a>
+                        <input title="Games" class="pin-menu" type="checkbox">
                         <div class="expand">
                             <div>
                                 <a title="Tetris" class="filled tetris icon" href="/games/tetris"></a>
