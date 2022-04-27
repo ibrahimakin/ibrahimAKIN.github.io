@@ -77,7 +77,8 @@
     right: 0;
     top: 10px;
     z-index: 1;
-    -moz-appearance: initial; /* add ::before pseude elements for Firefox Browsers */
+    -moz-appearance: initial;
+    /* add ::before pseude elements for Firefox Browsers */
 }
 
 .sub>.menu:hover>.pin-menu {
@@ -102,4 +103,10 @@
 
 .pin-menu:checked+.expand::before {
     display: inline;
+}
+
+@media screen and (max-height: 400px) {
+    :root {
+        --sidenav-gap: 4px;
+    }
 }
