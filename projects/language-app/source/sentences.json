@@ -693,4 +693,40 @@
     "tr": "Sonya neden seni ispiyonladı?",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I have a cold.",
+    "tr": "Nezle oldum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "You're on the mend.",
+    "tr": "İyileşmek üzeresin.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Let's check the forecast.",
+    "tr": "Hava tahminini kontrol edelim.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "The breeze is so nice.",
+    "tr": "Esinti çok güzel.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Let me sleep on it.",
+    "tr": "Sabah ola hayrola.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "A fork fell off the table.",
+    "tr": "Bir çatal masadan düştü.",
+    "en_s": "",
+    "tr_s": ""
 }]
