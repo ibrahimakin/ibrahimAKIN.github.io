@@ -84,6 +84,9 @@
     white-space: nowrap;
     color: #000;
 }
+#resume-rightside h3 a {
+    text-decoration: none;
+}
 #resume-summary {
     position: -webkit-sticky;
     position: sticky;
