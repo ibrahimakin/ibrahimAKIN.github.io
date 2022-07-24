@@ -1,0 +1,41 @@
+#content-container {
+    display: grid;
+    color: #fff;
+}
+
+form {
+    margin: auto;
+    padding: 10px 0;
+}
+
+input {
+    padding: 5px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+a {
+    color: #c9d1d9;
+    text-decoration: none;
+}
+
+img {
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    background-color: #ffffff1a;
+    box-shadow: 0 0 0 1px #f0f6fc1a;
+    aspect-ratio: auto 50 / 50;
+    flex-shrink: 0;
+    height: 50px;
+    width: 50px;
+}
+
+p {
+    text-align: center;
+}

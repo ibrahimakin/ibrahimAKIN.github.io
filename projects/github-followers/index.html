@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Followers Tracking</title>
+	<link rel="icon" href="../../favicon.ico" />
+    <link href="../../styles.css" rel="stylesheet" type="text/css" />
+    <link href="../../components/navigation/sidenav/sidenav.css" rel="stylesheet" type="text/css" />
+    <link href="../../components/navigation/topnav/topnav.css" rel="stylesheet" type="text/css" />
+    <link href="../../components/navigation/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="../../components/ripple-button/ripple-button.css" rel="stylesheet" type="text/css" />
+    <link href="./github-followers.css" rel="stylesheet" type="text/css" />
+    <script src="../../components/navigation/sidenav/sidenav.js" type="text/javascript" defer></script>
+    <script src="../../components/navigation/topnav/topnav.js" type="text/javascript" defer></script>
+    <script src="../../script.js" type="text/javascript" defer></script>
+    <script src="./github-followers.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div id="docroot">
+        <div class="docApp">
+            <top-nav></top-nav>
+            <div id="main-container">
+                <div id="sidenav-mobile">
+                    <side-nav></side-nav>
+                </div>
+                <div id="content-container">
+                    <form onsubmit="handleSubmit(event)">
+                        <input type="search" placeholder="username" autofocus required>
+                        <input type="submit">
+                    </form>
+                    <table style="display: none;">
+                        <tr><th colspan="2">Difference</th></tr>
+                        <tr>
+                            <th>Followers <span id="c_dif_followers"></span></th>
+                            <th>Following <span id="c_dif_following"></span></th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td><ul id="dif_followers"></ul></td>
+                                <td><ul id="dif_following"></ul></td>
+                            </tr>
+                        </tbody>
+                        <tr><th colspan="2">All</th></tr>
+                        <tr>
+                            <th>Followers <span id="c_all_followers"></span></th>
+                            <th>Following <span id="c_all_following"></span></th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td><ul id="all_followers"></ul></td>
+                                <td><ul id="all_following"></ul></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="display: none;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
