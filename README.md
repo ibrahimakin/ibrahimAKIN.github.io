@@ -1,1 +1,0 @@
-https://ibrahimakin.github.io
