@@ -5,7 +5,7 @@
       "value": 125,
       "density": {
         "enable": true,
-        "value_area": 700
+        "value_area": 1700
       }
     },
     "color": {
