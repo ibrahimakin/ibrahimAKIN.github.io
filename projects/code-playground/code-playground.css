@@ -2,8 +2,8 @@
     border-radius: 0;
 }
 
-.docApp {
-    background: hsl(220, 16%, 16%);
+.docApp, .icon::before, .expand::before {
+    background-color: hsl(220, 16%, 16%);
 }
 
 #content-container {

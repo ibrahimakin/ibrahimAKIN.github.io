@@ -55,10 +55,12 @@
     position: absolute;
     height: calc(100% - var(--sidenav-gap) * 2);
     width: calc(100% - var(--sidenav-gap) * 2);
+    z-index: 1;
 }
 
-#collapse:checked+.back {
-    background-image: url('../../../assets/icons/navbar/forward.svg');
+#collapse:checked+.back::before {
+    -webkit-mask-image: url('../../../assets/icons/navbar/forward.svg');
+    mask-image: url('../../../assets/icons/navbar/forward.svg');
 }
 
 .grid-3 {
@@ -76,8 +78,8 @@
     width: 100%;
     right: 0;
     top: 10px;
-    z-index: 1;
     -moz-appearance: initial;
+    appearance: initial;
     /* add ::before pseude elements for Firefox Browsers */
 }
 
@@ -86,10 +88,12 @@
 }
 
 .expand::before {
-    content: ' ';
+    content: '';
     display: none;
     position: absolute;
-    background-image: url('../../../assets/icons/navbar/pin.svg');
+    background-color: #000;
+    -webkit-mask-image: url('../../../assets/icons/navbar/pin.svg');
+    mask-image: url('../../../assets/icons/navbar/pin.svg');
     margin: 10px;
     height: 20px;
     width: 20px;

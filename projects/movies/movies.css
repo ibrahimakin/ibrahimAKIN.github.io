@@ -7,7 +7,7 @@
 .expand .filled {
     border: none;
 }
-.docApp {
+.docApp, .icon::before, .expand::before {
     background-color: #001529;
 }
 #root {

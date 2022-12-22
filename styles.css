@@ -1,20 +1,22 @@
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html,
 body,
 #docroot {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
 }
-  
+
 .docApp {
     display: flex;
     padding: 0;
@@ -28,12 +30,12 @@ body,
 }
 
 #main-container {
-  display: flex;
-  overflow: auto;
-  height: 100%;
+    display: flex;
+    overflow: auto;
+    height: 100%;
 }
 
 #content-container {
-  width: 100%;
-  overflow: auto;
+    width: 100%;
+    overflow: auto;
 }

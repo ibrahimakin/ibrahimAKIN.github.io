@@ -93,7 +93,7 @@ const langObj = {
         present: 'Present',
         work_experience: 'WORK EXPERIENCE',
         embedded_developer: 'Embedded Software Engineer',
-        vestel_desc: 'I’m working on embedded TV software.',
+        vestel_desc: 'I\'m working on embedded TV software.',
         fullstack_developer: 'Full Stack Developer',
         ithero: 'IT HERO Information Technology & Services',
         ithero_desc: 'I worked on Autommate robotic process automation project as a full stack developer.',
