@@ -6,7 +6,7 @@
     border: 1px solid #0a141d;
 }
 .expand .filled {
-    border: none;
+    border-width: 0;
 }
 .icon::before, .expand::before {
     background-color: var(--resume-clr);
@@ -202,7 +202,7 @@
     color: var(--resume-clr-hvr);
 }
 .language {
-    margin-bottom: 5px;
+    margin: 10px 0 5px 0;
 }
 
 #educations {

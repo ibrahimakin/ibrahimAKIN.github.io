@@ -1,7 +1,3 @@
-#sidenav-mobile, #topnavbar {
-    --sidenav-button-rad: 0px;
-    --sidenav-right-rad: 0px;
-}
 #content-container {
 	display: flex;
 	justify-content: center;

@@ -74,7 +74,7 @@
 
 .info h3 {
     font-size: 1.3em;
-    padding: 2em 0;
+    padding: 20px 0;
     font-weight: lighter;
     transition: transform .75s ease-out;
     color: rgb(223, 223, 223);
@@ -83,6 +83,7 @@
 
 .info p {
     font-size: 1.2em;
+    line-height: 17px;
     color: #fff;
     transition: transform .75s ease-out;
     text-shadow: 2px 2px 4px #000;

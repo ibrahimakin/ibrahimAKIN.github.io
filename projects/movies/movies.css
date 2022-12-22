@@ -8,15 +8,5 @@
     border: none;
 }
 .docApp, .icon::before, .expand::before {
-    background-color: #001529;
-}
-#root {
-    height: 100%;
-}
-.App {
-    height: 100%;
-    overflow: auto;
-}
-section.ant-layout {
-    min-height: 100%;
+    background-color: var(--movies-clr);
 }

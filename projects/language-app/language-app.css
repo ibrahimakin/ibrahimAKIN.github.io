@@ -1,5 +1,8 @@
 .filled, .menu:hover .filled, .pin-menu:checked + div .filled {
-    border: 2px outset #0a141d;
+    border: 2px outset #808080;
+}
+.filled:active, .menu:hover .filled:active {
+    border-style: inset;
 }
 .expand .filled {
     border: none;

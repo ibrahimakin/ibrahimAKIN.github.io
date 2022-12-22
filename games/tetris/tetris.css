@@ -11,3 +11,18 @@
 .expand .filled {
     border: none;
 }
+div.App aside {
+    max-width: unset;
+    width: unset;
+}
+div.styled-display {
+    white-space: nowrap;
+    padding: 16px;
+}
+button.styled-button {
+    border: 4px outset #666;
+    padding: 15px;
+}
+button.styled-button:active {
+    border-style: inset;
+}
