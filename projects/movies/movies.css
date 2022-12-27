@@ -7,16 +7,6 @@
 .expand .filled {
     border: none;
 }
-.docApp {
-    background-color: #001529;
-}
-#root {
-    height: 100%;
-}
-.App {
-    height: 100%;
-    overflow: auto;
-}
-section.ant-layout {
-    min-height: 100%;
+.docApp, .icon::before, .expand::before {
+    background-color: var(--movies-clr);
 }

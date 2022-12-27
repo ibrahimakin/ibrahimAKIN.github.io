@@ -2,8 +2,8 @@
     border-radius: 0;
 }
 
-.docApp {
-    background: hsl(220, 16%, 16%);
+.docApp, .icon::before, .expand::before {
+    background-color: hsl(220, 16%, 16%);
 }
 
 #content-container {
@@ -47,7 +47,7 @@ h2 {
 
 .highLite {
     position: relative;
-    background: hsl(220, 16%, 14%);
+    background-color: hsl(220, 16%, 14%);
 }
 
 .highLite_colors,

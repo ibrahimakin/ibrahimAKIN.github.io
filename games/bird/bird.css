@@ -1,12 +1,12 @@
-#sidenav-mobile, #topnavbar {
-    --sidenav-button-rad: 0px;
-    --sidenav-right-rad: 0px;
+#sidenav .filled, #topnav .filled {
+    background-color: rgb(206 208 210);
+    border-radius: 0;
 }
 #content-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(206 208 210);
     text-align: center;
     padding: 0 10px;
 }
@@ -16,10 +16,10 @@
     flex-direction: column;
 }
 #score-container {
-    padding-left: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 10px;
 }
 #canvas {
     border: 1px solid #fff;
@@ -27,7 +27,7 @@
 }
 #space-button {
     padding: 5px 50px;
-    margin: 5px;
+    margin-top: 5px;
     cursor: pointer;
     outline: none;
     background-color: rgba(255, 255, 255, 0.8);

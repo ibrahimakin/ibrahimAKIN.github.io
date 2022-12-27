@@ -11,31 +11,31 @@ class PersonalCard extends HTMLElement {
     }
     connectedCallback() {
         this.innerHTML = `
-          <div id="content">
-            <div class="container">
-                <div class="card">
-                    <div class="effects">
-                        <div class="background"></div>
-                        <div class="glow"></div>
-                    </div>
-                    <div class="photo">
-                        <div class="circle"></div>
-                        <div class="img"></div>
-                    </div>
-                    <div class="info">
-                        <h1 class="title">ibrahim AKIN</h1>
-                        <h3>Software Developer</h3>
-                        <p>The best adjective that describes me is curious. I always want to learn new things
-                            and search them to discover.<br/><br/>
-                            Feel free to say hello through any of the social links below.<br/><br/>
-                        </p>
-                        <div class="links">
-                          <social-icons></social-icons>
+            <div id="content">
+                <div class="container">
+                    <div class="card">
+                        <div class="effects">
+                            <div class="background"></div>
+                            <div class="glow"></div>
+                        </div>
+                        <div class="photo">
+                            <div class="circle"></div>
+                            <div class="img"></div>
+                        </div>
+                        <div class="info">
+                            <h1 class="title">ibrahim AKIN</h1>
+                            <h3>Software Developer</h3>
+                            <p>The best adjective that describes me is curious. I always want to learn new things
+                                and search them to discover.<br/><br/>
+                                Feel free to say hello through any of the social links below.<br/>
+                            </p>
+                            <div class="links">
+                                <social-icons></social-icons>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-          </div>
         `;
         // Movement Animation to happen
         const card = document.querySelector('.card');

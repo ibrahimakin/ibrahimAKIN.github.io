@@ -46,3 +46,106 @@
         display: grid;
     }
 }
+
+.icon::before {
+    content: '';
+    display: block;
+    height: 100%;
+    background-color: #000;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: 50%;
+    -webkit-mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: 50%;
+    mask-size: 50%;
+}
+
+.home::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/home-icon-silhouette.svg');
+    mask-image: url('../../assets/icons/navbar/home-icon-silhouette.svg');
+}
+
+.project::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/project-solid.svg');
+    mask-image: url('../../assets/icons/navbar/project-solid.svg');
+}
+
+.smile::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/smile.svg');
+    mask-image: url('../../assets/icons/navbar/smile.svg');
+}
+
+.code::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/code.svg');
+    mask-image: url('../../assets/icons/navbar/code.svg');
+}
+
+.face::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/face-scan.svg');
+    mask-image: url('../../assets/icons/navbar/face-scan.svg');
+}
+
+.iicon::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/i-icon.svg');
+    mask-image: url('../../assets/icons/navbar/i-icon.svg');
+}
+
+.games::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/games.svg');
+    mask-image: url('../../assets/icons/navbar/games.svg');
+}
+
+.tetris::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/tetris.svg');
+    mask-image: url('../../assets/icons/navbar/tetris.svg');
+}
+
+.snake::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/snake.svg');
+    mask-image: url('../../assets/icons/navbar/snake.svg');
+}
+
+.bird::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/bird.svg');
+    mask-image: url('../../assets/icons/navbar/bird.svg');
+}
+
+.tic-tac-toe::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/tic-tac-toe.svg');
+    mask-image: url('../../assets/icons/navbar/tic-tac-toe.svg');
+}
+
+.resume::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/resume-and-cv.svg');
+    mask-image: url('../../assets/icons/navbar/resume-and-cv.svg');
+}
+
+.movies::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/movies.svg');
+    mask-image: url('../../assets/icons/navbar/movies.svg');
+}
+
+.settings::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/settings.svg');
+    mask-image: url('../../assets/icons/navbar/settings.svg');
+}
+
+.tr::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/tr.svg');
+    mask-image: url('../../assets/icons/navbar/tr.svg');
+}
+
+.en::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/en.svg');
+    mask-image: url('../../assets/icons/navbar/en.svg');
+}
+
+.back::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/back.svg');
+    mask-image: url('../../assets/icons/navbar/back.svg');
+}
+
+.forward::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/forward.svg');
+    mask-image: url('../../assets/icons/navbar/forward.svg');
+}
