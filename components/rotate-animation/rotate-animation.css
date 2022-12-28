@@ -27,12 +27,12 @@
 
 .content {
     display: flex;
-	justify-content: center;
-	height: 100%;
+    justify-content: center;
+    height: 100%;
     cursor: move;
     overflow: scroll;
     padding-top: 260px;
-	perspective: 500px;
+    perspective: 500px;
 }
 
 #sq-c {
@@ -45,8 +45,8 @@
 
 .square {
     position: absolute;
-	width: var(--rotate-width);
-	height: var(--rotate-height);
+    width: var(--rotate-width);
+    height: var(--rotate-height);
     background-color: #80808060;
     box-shadow: inset 0px 0px 0px 5px #000;
     cursor: pointer;
@@ -94,25 +94,26 @@
 }
 
 #sq-c:hover .sq {
-	transform: rotateX(0deg) translateY(var(--rotate-height));
+    transform: rotateX(0deg) translateY(var(--rotate-height));
 }
 #sq-c:hover .sq-l {
-	transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
 }
 #sq-c:hover .sq-r {
-	transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
-#sq-c:hover .sq-t-m, #sq-c:hover .sq-t {
-	transform: rotateX(180deg);
+#sq-c:hover .sq-t-m,
+#sq-c:hover .sq-t {
+    transform: rotateX(180deg);
 }
 #sq-c:hover .sq-lr {
-	transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
 }
 #sq-c:hover .sq-rr {
-	transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 #sq-c:hover .sq-tr-m, #sq-c:hover .sq-tr {
-	transform: rotateX(180deg);
+    transform: rotateX(180deg);
 }
 #sq-c:hover .sq0t {
     background-color: #ffffff00;

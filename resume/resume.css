@@ -78,7 +78,6 @@
     border-color: var(--resume-clr);
 }
 #resume-rightside a {
-    white-space: nowrap;
     color: #000;
 }
 #resume-rightside h3 a {
@@ -243,6 +242,9 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 20px;
+}
+.certificate a {
+    white-space: nowrap;
 }
 .cert-info {
     width: 100%;

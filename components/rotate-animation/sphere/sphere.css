@@ -114,5 +114,5 @@
     left: calc(50% - calc(var(--width) / 2));
     border-radius: 0 0 50% 50% / 0 0 75% 75%;
     box-sizing: border-box;
-    transform:  rotateX(-20deg) translateZ(-10px);
+    transform: rotateX(-20deg) translateZ(-10px);
 }
