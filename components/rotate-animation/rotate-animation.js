@@ -13,7 +13,7 @@ const setRotation = () => {
     currentXDeg %= 360;
     currentYDeg %= 360;
     currentZDeg %= 360;
-    sqc.style.transform = 'rotateX('+ currentXDeg +'deg) rotateY('+ currentYDeg +'deg) rotateZ('+ currentZDeg +'deg)';
+    sqc.style.transform = 'rotateX(' + currentXDeg + 'deg) rotateY(' + currentYDeg + 'deg) rotateZ(' + currentZDeg + 'deg)';
 }
 const setRotationWithAnim = () => {
     sqc.style.transition = 'transform .3s linear';

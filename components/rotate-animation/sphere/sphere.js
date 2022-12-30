@@ -8,7 +8,7 @@ function moveSmiley(evt) {
     const h = evt.target.clientHeight;
     const angleX = (x - (w / 2)) / (w / 2) * a;
     const angleY = ((h / 2) - y) / (h / 2) * a;
-    
+
     smw.style.transform = `rotateX(${angleY}deg) rotateY(${angleX}deg)`;
 }
 // function resetMoveSmiley() { smw.style.transform = 'rotateX(0deg) rotateY(0deg)'; }

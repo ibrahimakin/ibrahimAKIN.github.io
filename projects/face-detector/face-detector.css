@@ -5,9 +5,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-#topnavbar {
-    position: absolute;
-}
 #face-detector {
     display: flex;
     width: 100%;
@@ -15,10 +12,10 @@ body {
     align-items: center;
     justify-content: center;
 }
-canvas {
+#topnav, #sidenav, canvas {
     position: absolute;
 }
-video {
+.filled, video {
     box-shadow: -2px 12px 20px 0px #000;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */

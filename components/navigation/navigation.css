@@ -2,46 +2,59 @@
 .main a {
     cursor: pointer;
 }
+
 .main {
     z-index: 1;
 }
-.main > div {
+
+.main>div {
     position: relative;
 }
-.main > div a {
+
+.main>div a {
     display: block;
 }
+
 .main>.menu:hover>.expand {
     height: 100%;
 }
+
 .expand {
     position: absolute;
     width: 100%;
     top: 0;
 }
-.expand > div {
+
+.expand>div {
     height: 100%;
 }
-#sidenav .filled, #topnav .filled {
+
+#sidenav .filled,
+#topnav .filled {
     background-color: #fff;
     border-radius: 5px;
     height: 100%;
     width: 100%;
 }
+
 @media screen and (max-width: 700px) {
     #sidenav {
         position: absolute;
         z-index: 111;
     }
+
     #sidenav-mobile {
         min-width: var(--sidenav-width);
     }
 }
 
 @media screen and (max-width: 450px) {
-    #sidenav-mobile, #sidenav {
+
+    #sidenav-mobile,
+    #sidenav {
         display: none;
     }
+
     #topnav {
         display: grid;
     }

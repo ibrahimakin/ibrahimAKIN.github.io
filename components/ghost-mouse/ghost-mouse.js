@@ -14,22 +14,23 @@ let divisor = 1 / 10;
 
 let newmouse = {
   x: 0,
-  y: 0 };
+  y: 0
+};
 
 
 let loader = new THREE.TextureLoader();
 let texture, rtTexture, rtTexture2;
 loader.setCrossOrigin("anonymous");
 loader.load(
-'https://s3-us-west-2.amazonaws.com/s.cdpn.io/982762/noise.png',
-function do_something_with_texture(tex) {
-  texture = tex;
-  texture.wrapS = THREE.RepeatWrapping;
-  texture.wrapT = THREE.RepeatWrapping;
-  texture.minFilter = THREE.LinearFilter;
-  init();
-  animate();
-});
+  'https://s3-us-west-2.amazonaws.com/s.cdpn.io/982762/noise.png',
+  function do_something_with_texture(tex) {
+    texture = tex;
+    texture.wrapS = THREE.RepeatWrapping;
+    texture.wrapT = THREE.RepeatWrapping;
+    texture.minFilter = THREE.LinearFilter;
+    init();
+    animate();
+  });
 
 
 function init() {
@@ -51,13 +52,15 @@ function init() {
     u_noise: { type: "t", value: texture },
     u_buffer: { type: "t", value: rtTexture.texture },
     u_mouse: { type: "v2", value: new THREE.Vector2() },
-    u_renderpass: { type: 'b', value: false } };
+    u_renderpass: { type: 'b', value: false }
+  };
 
 
   var material = new THREE.ShaderMaterial({
     uniforms: uniforms,
     vertexShader: document.getElementById('vertexShader').textContent,
-    fragmentShader: document.getElementById('fragmentShader').textContent });
+    fragmentShader: document.getElementById('fragmentShader').textContent
+  });
 
   material.extensions.derivatives = true;
 
@@ -102,7 +105,8 @@ let capturer = new CCapture({
   // motionBlurFrames: 4,
   quality: 90,
   format: 'webm',
-  workersPath: 'js/' });
+  workersPath: 'js/'
+});
 
 let capturing = false;
 
@@ -119,7 +123,7 @@ toggleCapture = function () {
   isCapturing(!capturing);
 };
 
-window.addEventListener('keyup', function (e) {if (e.keyCode == 68) toggleCapture();});
+window.addEventListener('keyup', function (e) { if (e.keyCode == 68) toggleCapture(); });
 
 let then = 0;
 function renderTexture(delta) {
@@ -133,8 +137,8 @@ function renderTexture(delta) {
 
   uniforms.u_renderpass.value = true;
 
-  //   rtTexture = rtTexture2;
-  //   rtTexture2 = buffer;
+  // rtTexture = rtTexture2;
+  // rtTexture2 = buffer;
 
   window.rtTexture = rtTexture;
   renderer.setRenderTarget(rtTexture);
