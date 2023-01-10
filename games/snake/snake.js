@@ -94,8 +94,8 @@ class SnakeGame {
         this.context.fillStyle = 'white';
         this.context.font = '20px Arial';
         let lang = getLang();
-        this.context.fillText(langObj[lang]['high_score'] + this.best, 20, 30);
-        this.context.fillText(langObj[lang]['score'] + (this.tailSize - 5), 20, 60);
+        this.context.fillText(lang_obj[lang]['high_score'] + this.best, 20, 30);
+        this.context.fillText(lang_obj[lang]['score'] + (this.tailSize - 5), 20, 60);
 
         this.context.fillStyle = 'yellow';
         this.trail.forEach(t => {

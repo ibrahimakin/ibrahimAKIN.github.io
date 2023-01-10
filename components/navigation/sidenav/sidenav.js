@@ -9,16 +9,18 @@ class Sidenav extends HTMLElement {
     handleMediaQuery(x) {
         const collapse = document.getElementById('collapse');
         const sidenav = document.getElementById('sidenav');
-        if (x.matches && !collapse.checked) {       // If media query matches
+        const collapsed = typeof sidenav_colapsed !== 'undefined';
+        if ((collapsed || x.matches) && !collapse.checked) {       // If media query matches
             sidenav.classList.add('collapsed');
             collapse.checked = true;
         }
-        else if (!x.matches && collapse.checked) {
+        else if ((!collapsed && !x.matches) && collapse.checked) {
             sidenav.classList.remove('collapsed');
             collapse.checked = false;
         }
     }
     connectedCallback() {
+        const lang_support = typeof lang_obj === 'undefined' ? 'disabled' : '';
         this.innerHTML = `
             <div id="sidenav">
                 <div class="sub">
@@ -42,6 +44,9 @@ class Sidenav extends HTMLElement {
                             </div>
                             <div>
                                 <a title="Face Detector" class="filled face icon" href="/projects/face-detector"></a>
+                            </div>
+                            <div>
+                                <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
                             </div>
                             <div>
                                 <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator"></a>
@@ -70,17 +75,17 @@ class Sidenav extends HTMLElement {
                         <a title="Resume" class="filled resume icon" href="/resume"></a>
                     </div>
                     <div>
-                        <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
+                        <a title="Blog" class="filled blog icon" href="/blog"></a>
                     </div>
                     <div class="menu">
                         <a title="Settings" name="settings" class="filled settings icon"></a>
                         <input class="pin-menu" type="checkbox">
                         <div class="expand">
                             <div>
-                                <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button"></a>
+                                <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" ${lang_support}></a>
                             </div>
                             <div>
-                                <a title="English" lang-name="en" class="filled en icon lang-button"></a>
+                                <a title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></a>
                             </div>
                         </div>
                     </div>
@@ -99,8 +104,8 @@ class Sidenav extends HTMLElement {
         const pins = document.getElementsByClassName('pin-menu');
         for (const pin of pins) pin.addEventListener('change', e => this.handleExpandChange(e, pins));
         let x = window.matchMedia('(max-width: 750px)');
-        x.addEventListener('change', this.handleMediaQuery);     // Attach listener function on state changes                                // Attach listener function on state changes
-        this.handleMediaQuery(x);                                // Call listener function at run time
+        x.addEventListener('change', this.handleMediaQuery);       // Attach listener function on state changes
+        this.handleMediaQuery(x);                                  // Call listener function at run time
     }
 }
 customElements.define('side-nav', Sidenav);

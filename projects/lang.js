@@ -1,4 +1,4 @@
-const langObj = {
+const lang_obj = {
     tr: {
         lcd: 'LCD Karakter Hesaplayıcı',
         movies: 'Filmler',

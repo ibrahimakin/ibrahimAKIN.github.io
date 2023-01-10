@@ -7,6 +7,6 @@
 .expand .filled {
     border: none;
 }
-.docApp, .icon::before, .expand::before {
+.docapp, .icon::before, .expand::before {
     background-color: var(--movies-clr);
 }

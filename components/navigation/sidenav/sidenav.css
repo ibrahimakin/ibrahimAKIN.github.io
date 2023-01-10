@@ -103,6 +103,7 @@
 .pin-menu:checked+.expand {
     height: 100%;
     left: 100%;
+    z-index: 1;
 }
 
 .pin-menu:checked+.expand::before {

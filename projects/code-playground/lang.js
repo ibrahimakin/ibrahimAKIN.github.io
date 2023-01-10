@@ -1,4 +1,4 @@
-const langObj = {
+const lang_obj = {
     tr: {
         run: 'Çalıştır',
         instant_run: 'Anında Çalıştır',

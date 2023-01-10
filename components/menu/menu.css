@@ -56,6 +56,18 @@
     background-repeat: no-repeat;
     transition: transform 100ms linear;
 }
+.face.card-img::before {
+    content: '';
+    display: block;
+    height: 100%;
+    background-color: #000;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: 50%;
+    -webkit-mask-size: 50%;
+    mask-repeat: no-repeat;
+    mask-position: 50%;
+    mask-size: 50%;
+}
 .card-title {
     color: #fff;
     font-weight: bold;
@@ -119,10 +131,10 @@
     display:block;
 }
 .stars {
-    background:#000 url(../../assets/images/menu/stars.png) repeat top center;
+    background: #000 url(../../assets/images/menu/stars.png) repeat top center;
 }
 .clouds {
-    background:transparent url(../../assets/images/menu/clouds.png) repeat top center;
+    background: transparent url(../../assets/images/menu/clouds.png) repeat top center;
     -moz-animation:move-clouds-back 200s linear infinite;
     -ms-animation:move-clouds-back 200s linear infinite;
     -o-animation:move-clouds-back 200s linear infinite;

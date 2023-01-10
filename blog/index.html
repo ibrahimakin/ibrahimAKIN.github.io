@@ -2,32 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="../../favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Face Detector</title>
-    <link rel="icon" href="../../favicon.ico" />
+    <title>Blogs</title>
     <link href="../../styles.css" rel="stylesheet" type="text/css" />
     <link href="../../components/navigation/sidenav/sidenav.css" rel="stylesheet" type="text/css" />
     <link href="../../components/navigation/topnav/topnav.css" rel="stylesheet" type="text/css" />
     <link href="../../components/navigation/navigation.css" rel="stylesheet" type="text/css" />
-    <link href="./face-detector.css" rel="stylesheet" type="text/css" />
+    <link href="../../components/particles/particles.css" rel="stylesheet" type="text/css" />
     <script src="../../components/navigation/sidenav/sidenav.js" type="text/javascript" defer></script>
     <script src="../../components/navigation/topnav/topnav.js" type="text/javascript" defer></script>
-    <script src="./face-api.min.js" type="text/javascript" defer></script>
-    <script src="./app.js" type="text/javascript" defer></script>
+    <script type="module" crossorigin src="./assets/index.js"></script>
+    <link href="./assets/index.css" rel="stylesheet">
 </head>
 <body>
     <div id="docroot">
         <div class="docapp">
             <top-nav></top-nav>
             <div id="main-container">
-                <side-nav></side-nav>
+                <div id="sidenav-mobile">
+                    <side-nav></side-nav>
+                </div>
                 <div id="content-container">
-                    <div id="face-detector">
-                        <video id="video" width="720" height="540" autoplay muted></video>
-                    </div>
+                    <div id="app"></div>
                 </div>
             </div>
         </div>
     </div>
+    <script>const sidenav_colapsed = true;</script>
 </body>
 </html>

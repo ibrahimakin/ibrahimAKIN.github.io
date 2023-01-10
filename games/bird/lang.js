@@ -1,4 +1,4 @@
-const langObj = {
+const lang_obj = {
     tr: {
         press_space: 'SPACE\'e Bas',
         high_score: 'En Yüksek Skor',

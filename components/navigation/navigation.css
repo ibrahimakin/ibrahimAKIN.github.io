@@ -37,10 +37,17 @@
     width: 100%;
 }
 
+.lang-button[disabled] {
+    pointer-events: none;
+}
+
+.lang-button[disabled]::before {
+    opacity: .5;
+}
+
 @media screen and (max-width: 700px) {
     #sidenav {
         position: absolute;
-        z-index: 111;
     }
 
     #sidenav-mobile {
@@ -131,6 +138,11 @@
 .resume::before {
     -webkit-mask-image: url('../../assets/icons/navbar/resume-and-cv.svg');
     mask-image: url('../../assets/icons/navbar/resume-and-cv.svg');
+}
+
+.blog::before {
+    -webkit-mask-image: url('../../assets/icons/navbar/blog.svg');
+    mask-image: url('../../assets/icons/navbar/blog.svg');
 }
 
 .movies::before {

@@ -112,7 +112,7 @@ window.onload = function start() {
 		}
 		if (isGameOver()) {
 			isStart = false;
-			if (confirm(langObj[getLang()]['game_over'])) {
+			if (confirm(lang_obj[getLang()]['game_over'])) {
 				location.reload();
 			} else {
 				location.reload();
