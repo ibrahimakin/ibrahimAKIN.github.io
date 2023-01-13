@@ -1,4 +1,4 @@
-const langObj = {
+const lang_obj = {
     tr: {
         next_player: 'Sıradaki Oyuncu: ',
         go_to_start: 'Oyun başlangıcına git',

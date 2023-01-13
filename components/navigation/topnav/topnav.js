@@ -1,6 +1,7 @@
 class Topnav extends HTMLElement {
     constructor() { super(); }
     connectedCallback() {
+        const lang_support = typeof lang_obj === 'undefined' ? 'disabled' : '';
         this.innerHTML = `
             <div id="topnav" class="main">
                 <div>
@@ -15,6 +16,9 @@ class Topnav extends HTMLElement {
                         </div>
                         <div>
                             <a title="Face Detector" class="filled face icon" href="/projects/face-detector"></a>
+                        </div>
+                        <div>
+                            <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
                         </div>
                         <div>
                             <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator"></a>
@@ -39,22 +43,22 @@ class Topnav extends HTMLElement {
                     </div>
                 </div>
                 <div>
+                    <a title="Language App" class="filled smile icon" href="/projects/language-app"></a>
+                </div>
+                <div>
                     <a title="Resume" class="filled resume icon" href="/resume"></a>
                 </div>
                 <div>
-                    <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
-                </div>
-                <div>
-                    <a title="Language App" class="filled smile icon" href="/projects/language-app"></a>
+                    <a title="Blog" class="filled blog icon" href="/blog"></a>
                 </div>
                 <div class="menu">
                     <a title="Settings" name="settings" class="filled settings icon"></a>
                     <div class="expand">
                         <div>
-                            <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button"></a>
+                            <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" ${lang_support}></a>
                         </div>
                         <div>
-                            <a title="English" lang-name="en" class="filled en icon lang-button"></a>
+                            <a title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></a>
                         </div>
                     </div>
                 </div>

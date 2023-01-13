@@ -2,7 +2,7 @@
     border-radius: 0;
 }
 
-.docApp, .icon::before, .expand::before {
+.docapp, .icon::before, .expand::before {
     background-color: hsl(220, 16%, 16%);
 }
 

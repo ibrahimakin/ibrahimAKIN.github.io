@@ -1,4 +1,4 @@
-const langObj = {
+const lang_obj = {
     tr: {
         movies: 'FİLMLER',
         search: 'Ara',
