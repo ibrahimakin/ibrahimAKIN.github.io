@@ -1,12 +1,12 @@
 #sidenav .filled, #topnav .filled {
+    border: 1px solid #0a141d;
     border-radius: 0;
 }
-.filled, .menu:hover .filled, .pin-menu:checked + div .filled {
-    border: 1px solid #0a141d;
+
+#sidenav .main div>span {
+    color: #0a141d;
 }
-.expand .filled {
-    border: none;
-}
+
 .docapp, .icon::before, .expand::before {
     background-color: var(--movies-clr);
 }

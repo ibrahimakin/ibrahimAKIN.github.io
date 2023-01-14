@@ -1,4 +1,4 @@
-const lang_obj = {
+let lang_obj = {
     tr: {
         turkey: 'Türkiye',
         skills: 'YETENEKLER',

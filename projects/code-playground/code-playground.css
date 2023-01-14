@@ -6,6 +6,10 @@
     background-color: hsl(220, 16%, 16%);
 }
 
+#sidenav .main div>span {
+    color: hsl(220, 16%, 16%);
+}
+
 #content-container {
     font: 14px/1.4 sans-serif;
     color: #fff;

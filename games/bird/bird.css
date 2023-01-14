@@ -1,12 +1,7 @@
 #sidenav .filled, #topnav .filled {
     background-color: rgb(206 208 210);
-    border-radius: 0;
-}
-.filled, .menu:hover .filled, .pin-menu:checked + div .filled {
     border: 1px solid #fff;
-}
-.expand .filled {
-    border-width: 0;
+    border-radius: 0;
 }
 #content-container {
     display: flex;

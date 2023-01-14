@@ -1,15 +1,13 @@
 #sidenav .filled, #topnav .filled {
     background-color: #f5f5f5;
-    border-radius: 0;
-}
-.filled, .menu:hover .filled, .pin-menu:checked + div .filled {
     border: 1px solid #0a141d;
-}
-.expand .filled {
-    border-width: 0;
+    border-radius: 0;
 }
 .icon::before, .expand::before {
     background-color: var(--resume-clr);
+}
+#sidenav .main div>span {
+    color: var(--resume-clr);
 }
 :root {
     --resume-clr: #008080;
