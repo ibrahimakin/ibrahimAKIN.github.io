@@ -1,13 +1,10 @@
-#sidenav .filled, #topnav .filled {
+:root {
+    --bg-clr: hsl(220, 16%, 16%);
+    --nav-clr: var(--bg-clr);
+}
+
+.filled {
     border-radius: 0;
-}
-
-.docapp, .icon::before, .expand::before {
-    background-color: hsl(220, 16%, 16%);
-}
-
-#sidenav .main div>span {
-    color: hsl(220, 16%, 16%);
 }
 
 #content-container {
@@ -24,7 +21,7 @@
     padding: 5px 0;
 }
 
-#run-section > div {
+#run-section>div {
     display: flex;
     align-items: center;
 }
@@ -36,7 +33,7 @@
 #run-button {
     padding: 5px 10px;
     color: #fff;
-    background-color: hsl(220, 16%, 16%);
+    background-color: var(--bg-clr);
 }
 
 #code-result {
@@ -73,6 +70,7 @@ h2 {
     /* text-fill-color: transparent; One day, hopefully? */
     color: hsl(100, 95%, 95%); /* But keep caret colored */
 }
+
 .highLite_editable:focus {
     outline: 1px solid hsl(220, 16%, 19%);
 }

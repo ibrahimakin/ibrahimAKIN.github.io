@@ -1,12 +1,9 @@
-#sidenav .filled, #topnav .filled {
-    border: 1px solid #0a141d;
+:root {
+    --bg-clr: var(--movies-clr);
+    --nav-clr: var(--movies-clr);
+}
+
+.filled {
+    border: 1px solid var(--movies-clr);
     border-radius: 0;
-}
-
-#sidenav .main div>span {
-    color: #0a141d;
-}
-
-.docapp, .icon::before, .expand::before {
-    background-color: var(--movies-clr);
 }

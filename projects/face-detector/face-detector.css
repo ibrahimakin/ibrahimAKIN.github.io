@@ -5,6 +5,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 #face-detector {
     display: flex;
     width: 100%;
@@ -12,18 +13,24 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 #topnav, #sidenav, canvas {
     position: absolute;
 }
+
 .filled, video {
     box-shadow: -2px 12px 20px 0px #000;
 }
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 #content-container::-webkit-scrollbar {
     display: none;
 }
+
 /* Hide scrollbar for IE, Edge and Firefox */
 #content-container {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }

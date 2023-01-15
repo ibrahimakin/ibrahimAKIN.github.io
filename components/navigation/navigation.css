@@ -1,5 +1,8 @@
-.main input,
-.main a {
+:root {
+    --nav-clr: #000;
+}
+
+.main input, .main a {
     cursor: pointer;
 }
 
@@ -39,8 +42,7 @@
     height: 100%;
 }
 
-#sidenav .filled,
-#topnav .filled {
+.filled {
     background-color: #fff;
     border-radius: 5px;
     height: 100%;
@@ -81,7 +83,7 @@
     content: '';
     display: block;
     height: 100%;
-    background-color: #000;
+    background-color: var(--nav-clr);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: 50%;
     -webkit-mask-size: 50%;

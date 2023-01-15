@@ -1,19 +1,16 @@
-#sidenav .filled, #topnav .filled {
+.filled {
     background-color: #f5f5f5;
-    border: 1px solid #0a141d;
+    border: 1px solid var(--bg-clr);
     border-radius: 0;
 }
-.icon::before, .expand::before {
-    background-color: var(--resume-clr);
-}
-#sidenav .main div>span {
-    color: var(--resume-clr);
-}
+
 :root {
     --resume-clr: #008080;
     --resume-clr-hvr: #006060;
     --resume-txt: #fff;
+    --nav-clr: var(--resume-clr);
 }
+
 #resume-container {
     display: flex;
     justify-content: center;
@@ -59,6 +56,7 @@
     overflow: auto;
     width: 65%;
 }
+
 .resume-padding {
     padding-left: 2%;
     padding-right: 2%;
@@ -66,21 +64,27 @@
 
 #resume-rightside li {
     margin-left: 18px;
-}::marker {
-    content: '◻  '; 
+}
+
+::marker {
+    content: '◻  ';
     font-size: small;
     color: var(--resume-clr);
 }
+
 #resume-rightside hr {
     margin-bottom: 10px;
     border-color: var(--resume-clr);
 }
+
 #resume-rightside a {
     color: #000;
 }
+
 #resume-rightside h3 a {
     text-decoration: none;
 }
+
 #resume-summary {
     position: -webkit-sticky;
     position: sticky;
@@ -93,10 +97,12 @@
     padding-top: 10px;
     padding-bottom: 10px
 }
+
 #profession {
     border-bottom: 1.5px solid var(--resume-txt);
     padding-bottom: 2px;
 }
+
 #resume-summary p {
     margin-top: 10px;
 }
@@ -109,10 +115,12 @@
     height: 129px;
     margin-top: 20px;
 }
+
 #right-profile-image {
     margin-top: 0;
     display: none;
 }
+
 #contact {
     position: -webkit-sticky;
     position: sticky;
@@ -121,14 +129,17 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 #contact div {
     padding: 4px 0;
     font-weight: 500;
 }
+
 #contact a {
     text-decoration: none;
     color: #000;
 }
+
 .contact-icon {
     display: inline-block;
     width: 15px;
@@ -139,34 +150,42 @@
     mask-size: cover;
     background-color: var(--resume-clr);
 }
+
 #mail-icon {
     -webkit-mask-image: url('../assets/icons/resume/email.svg');
     mask-image: url('../assets/icons/resume/email.svg');
 }
+
 #phone-icon {
     -webkit-mask-image: url('../assets/icons/resume/smartphone.svg');
     mask-image: url('../assets/icons/resume/smartphone.svg');
 }
+
 #location-icon {
     -webkit-mask-image: url('../assets/icons/resume/maps-and-flags.svg');
     mask-image: url('../assets/icons/resume/maps-and-flags.svg');
 }
+
 #www-icon {
     -webkit-mask-image: url('../assets/icons/resume/www.svg');
     mask-image: url('../assets/icons/resume/www.svg');
 }
+
 #linkedin-icon {
     -webkit-mask-image: url('../assets/icons/resume/linkedin.svg');
     mask-image: url('../assets/icons/resume/linkedin.svg');
 }
+
 #github-icon {
     -webkit-mask-image: url('../assets/icons/resume/github.svg');
     mask-image: url('../assets/icons/resume/github.svg');
 }
+
 #stackoverflow-icon {
     -webkit-mask-image: url('../assets/icons/resume/stack-overflow.svg');
     mask-image: url('../assets/icons/resume/stack-overflow.svg');
 }
+
 .private-info {
     filter: blur(3px);
     -webkit-user-select: none;
@@ -174,7 +193,8 @@
     -ms-user-select: none;
     user-select: none;
 }
-#skills > div {
+
+#skills>div {
     display: inline-block;
     background-color: var(--resume-clr);
     color: var(--resume-txt);
@@ -183,10 +203,12 @@
     margin-top: 5px;
     cursor: default;
 }
-#skills > div:hover {
+
+#skills>div:hover {
     background-color: var(--resume-clr-hvr);
 }
-#interests > div {
+
+#interests>div {
     display: inline-block;
     border: 1px solid #808080;
     padding: 5px;
@@ -194,10 +216,12 @@
     margin-top: 5px;
     cursor: default;
 }
-#interests > div:hover {
+
+#interests>div:hover {
     border-color: var(--resume-clr-hvr);
     color: var(--resume-clr-hvr);
 }
+
 .language {
     margin: 10px 0 5px 0;
 }
@@ -209,19 +233,23 @@
 .education {
     margin-bottom: 20px;
 }
+
 .edu-period {
     display: flex;
     justify-content: space-between;
     color: var(--resume-clr);
     font-style: italic;
 }
+
 .education-content {
     display: flex;
     justify-content: space-between;
 }
-.education-content > div {
+
+.education-content>div {
     width: 50%;
 }
+
 .sec-title {
     color: var(--resume-clr);
     font-style: italic;
@@ -232,21 +260,26 @@
     text-decoration: underline;
     white-space: nowrap;
 }
+
 .work-experience {
     margin-bottom: 20px;
 }
+
 .certificate {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 20px;
 }
+
 .certificate a {
     white-space: nowrap;
 }
+
 .cert-info {
     width: 100%;
 }
+
 .cert-period {
     display: flex;
     flex-direction: column;
@@ -268,22 +301,32 @@
     #resume-page {
         flex-direction: column-reverse;
     }
+
     #resume-leftside {
         overflow: unset;
         width: 100%;
     }
+
     #resume-rightside {
         overflow: unset;
         width: 100%;
     }
-    #right-profile-image { display: block; width: 200px; }
-    #left-profile-image { display: none; }
+
+    #right-profile-image {
+        display: block;
+        width: 200px;
+    }
+
+    #left-profile-image {
+        display: none;
+    }
 }
 
 @media screen and (max-height: 400px) {
     #resume-summary {
         position: relative;
     }
+
     #contact {
         position: relative;
     }

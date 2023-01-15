@@ -1,9 +1,11 @@
 .filled {
     border: 2px outset #808080;
 }
+
 .filled:active {
     border-style: inset;
 }
+
 .docapp {
     background-color: #fff;
     font-family: inherit;
