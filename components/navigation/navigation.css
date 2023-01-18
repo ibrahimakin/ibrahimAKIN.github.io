@@ -1,5 +1,8 @@
-.main input,
-.main a {
+:root {
+    --nav-clr: #000;
+}
+
+.main input, .main a {
     cursor: pointer;
 }
 
@@ -15,13 +18,23 @@
     display: block;
 }
 
+.main>div .filled {
+    position: relative;
+    z-index: 1;
+}
+
 .main>.menu:hover>.expand {
     height: 100%;
+    opacity: 1;
 }
 
 .expand {
-    position: absolute;
+    height: 0;
     width: 100%;
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    left: 0;
     top: 0;
 }
 
@@ -29,8 +42,7 @@
     height: 100%;
 }
 
-#sidenav .filled,
-#topnav .filled {
+.filled {
     background-color: #fff;
     border-radius: 5px;
     height: 100%;
@@ -71,7 +83,7 @@
     content: '';
     display: block;
     height: 100%;
-    background-color: #000;
+    background-color: var(--nav-clr);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: 50%;
     -webkit-mask-size: 50%;

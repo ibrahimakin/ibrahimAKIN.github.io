@@ -1,40 +1,41 @@
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="../../favicon.ico" />
-	<title>Games</title>
-	<link href="../../styles.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../favicon.ico" />
+    <title>Games</title>
+    <link href="../../styles.css" rel="stylesheet" type="text/css" />
     <link href="../../components/navigation/sidenav/sidenav.css" rel="stylesheet" type="text/css" />
     <link href="../../components/navigation/topnav/topnav.css" rel="stylesheet" type="text/css" />
     <link href="../../components/navigation/navigation.css" rel="stylesheet" type="text/css" />
-	<link href="./snake.css" rel="stylesheet" type="text/css" />
-	<script src="./lang.js" type="text/javascript" defer></script>
+    <link href="./snake.css" rel="stylesheet" type="text/css" />
+    <script src="./lang.js" type="text/javascript" defer></script>
+    <script src="../../components/navigation/sidenav/lang.js" type="text/javascript" defer></script>
     <script src="../../components/navigation/sidenav/sidenav.js" type="text/javascript" defer></script>
     <script src="../../components/navigation/topnav/topnav.js" type="text/javascript" defer></script>
-	<script src="../../script.js" type="text/javascript" defer></script>
-	<script src="./snake.js" type="text/javascript" defer></script>
+    <script src="../../script.js" type="text/javascript" defer></script>
+    <script src="./snake.js" type="text/javascript" defer></script>
 </head>
 <body>
-	<div id="docroot">
-		<div class="docapp">
-			<top-nav></top-nav>
-			<div id="main-container">
-				<div id="sidenav-mobile">
-					<side-nav></side-nav>
-				</div>
-				<div id="content-container">
-					<div id="canvas-container">
-						<canvas id="game" width="800" height="500"></canvas>
-					</div>
-					<div>
-						<div><button id="snake-play"><span lang-tag="play">Play</span></button></div>
-						<div><button id="snake-pause"><span lang-tag="pause">Pause</span></button></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div id="docroot">
+        <div class="docapp">
+            <top-nav></top-nav>
+            <div id="main-container">
+                <div id="sidenav-mobile">
+                    <side-nav></side-nav>
+                </div>
+                <div id="content-container">
+                    <div id="canvas-container">
+                        <canvas id="game" width="800" height="500"></canvas>
+                    </div>
+                    <div>
+                        <div><button id="snake-play"><span lang-tag="play">Play</span></button></div>
+                        <div><button id="snake-pause"><span lang-tag="pause">Pause</span></button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

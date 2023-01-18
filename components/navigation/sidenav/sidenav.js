@@ -30,6 +30,7 @@ class Sidenav extends HTMLElement {
                 <div class="main sub">
                     <div>
                         <a title="Home" class="filled home icon" href="/"></a>
+                        <span lang-tag="home">Home</span>
                     </div>
                     <div></div>
                     <div class="menu">
@@ -38,20 +39,26 @@ class Sidenav extends HTMLElement {
                         <div class="expand">
                             <div>
                                 <a title="Language App" class="filled smile icon" href="/projects/language-app"></a>
+                                <span>Language App</span>
                             </div>
                             <div>
                                 <a title="Code Playground" class="filled code icon" href="/projects/code-playground"></a>
+                                <span>Code Playground</span>
                             </div>
                             <div>
                                 <a title="Face Detector" class="filled face icon" href="/projects/face-detector"></a>
+                                <span lang-tag="face_detector">Face Detector</span>
                             </div>
                             <div>
                                 <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
+                                <span lang-tag="movies">Movies</span>
                             </div>
                             <div>
                                 <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator"></a>
+                                <span lang-tag="lcd">LCD Character Generator</span>
                             </div>
                         </div>
+                        <span lang-tag="projects">Projects</span>
                     </div>
                     <div class="menu">
                         <a name="games" class="filled games icon"></a>
@@ -59,23 +66,30 @@ class Sidenav extends HTMLElement {
                         <div class="expand">
                             <div>
                                 <a title="Tetris" class="filled tetris icon" href="/games/tetris"></a>
+                                <span>Tetris</span>
                             </div>
                             <div>
                                 <a title="Snake" class="filled snake icon" href="/games/snake"></a>
+                                <span>Snake</span>
                             </div>
                             <div>
                                 <a title="Bird" class="filled bird icon" href="/games/bird"></a>
+                                <span>Bird</span>
                             </div>
                             <div>
                                 <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe"></a>
+                                <span lang-tag="xox">Tic Tac Toe</span>
                             </div>
                         </div>
+                        <span lang-tag="games">Games</span>
                     </div>
                     <div>
                         <a title="Resume" class="filled resume icon" href="/resume"></a>
+                        <span lang-tag="resume">Resume</span>
                     </div>
                     <div>
                         <a title="Blog" class="filled blog icon" href="/blog"></a>
+                        <span>Blog</span>
                     </div>
                     <div class="menu">
                         <a title="Settings" name="settings" class="filled settings icon"></a>
@@ -88,6 +102,7 @@ class Sidenav extends HTMLElement {
                                 <a title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></a>
                             </div>
                         </div>
+                        <span lang-tag="settings">Settings</span>
                     </div>
                     <div>
                         <input id="collapse" type="checkbox">

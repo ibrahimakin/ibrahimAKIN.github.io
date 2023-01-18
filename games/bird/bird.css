@@ -1,13 +1,9 @@
-#sidenav .filled, #topnav .filled {
+.filled {
     background-color: rgb(206 208 210);
+    border: 1px solid #fff;
     border-radius: 0;
 }
-.filled, .menu:hover .filled, .pin-menu:checked + div .filled {
-    border: 1px solid #fff;
-}
-.expand .filled {
-    border-width: 0;
-}
+
 #content-container {
     display: flex;
     justify-content: center;
@@ -16,21 +12,25 @@
     text-align: center;
     padding: 0 10px;
 }
+
 #canvas-container {
     width: 80%;
     display: flex;
     flex-direction: column;
 }
+
 #score-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 10px;
 }
+
 #canvas {
     border: 1px solid #fff;
     background-color: rgba(255, 255, 255, 0.8);
 }
+
 #space-button {
     padding: 5px 50px;
     margin-top: 5px;

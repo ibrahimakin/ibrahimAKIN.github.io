@@ -1,10 +1,12 @@
-#sidenav .filled, #topnav .filled {
+.filled {
     background-color: rgb(239, 239, 239);
     border-radius: 0;
 }
+
 .docapp {
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, .5);
 }
+
 .button {
     border: none;
     padding: 25px 25px;
@@ -12,37 +14,45 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+
 .btnD {
     border: none;
     padding: 60px 8px;
     display: inline-block;
     cursor: pointer;
 }
+
 .btnY {
     border: none;
     padding: 4px 60px;
     display: inline-block;
     cursor: pointer;
 }
+
 .clr-button {
     padding: 5px;
     cursor: pointer;
 }
+
 #content-container {
     display: flex;
 }
+
 #content-container a {
     text-decoration: none;
 }
-#content-container > div {
+
+#content-container>div {
     width: 100%;
     margin: auto;
 }
-#content-container > div > div {
+
+#content-container>div>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-} 
+}
+
 .calc-container {
     display: inline-block;
     margin: auto;

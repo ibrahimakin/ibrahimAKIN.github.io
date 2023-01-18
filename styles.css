@@ -1,14 +1,14 @@
-*,
-*:before,
-*:after {
+:root {
+    --bg-clr: #0a141d;
+}
+
+*, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html,
-body,
-#docroot {
+html, body, #docroot {
     height: 100%;
     width: 100%;
     margin: 0;
@@ -24,7 +24,7 @@ body,
     height: 100%;
     overflow: hidden;
     flex-direction: column;
-    background-color: #0a141d;
+    background-color: var(--bg-clr);
 }
 
 #main-container {
