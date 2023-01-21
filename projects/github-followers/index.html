@@ -13,7 +13,6 @@
     <link href="./github-followers.css" rel="stylesheet" type="text/css" />
     <script src="../../components/navigation/sidenav/sidenav.js" type="text/javascript" defer></script>
     <script src="../../components/navigation/topnav/topnav.js" type="text/javascript" defer></script>
-    <script src="../../script.js" type="text/javascript" defer></script>
     <script src="./github-followers.js" type="text/javascript" defer></script>
 </head>
 <body>
@@ -27,7 +26,8 @@
                 <div id="content-container">
                     <form onsubmit="handleSubmit(event)">
                         <input type="search" placeholder="username" autofocus required>
-                        <input type="submit">
+                        <button onclick="newtab = false"></button>
+                        <button onclick="newtab = true"></button>
                     </form>
                     <table style="display: none;">
                         <tr><th colspan="2">Difference</th></tr>

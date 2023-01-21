@@ -1,27 +1,25 @@
-const params = new Proxy(new URLSearchParams(window.location.search), {
-    get: (search, prop) => search.get(prop)
-});
-let value = params.user;
-if (value) {
-    document.querySelector('input[type=search]').value = value;
-    fetchData(value);
-}
-
-let table = document.getElementsByTagName('table')[0];
-let p = document.getElementsByTagName('p')[0];
+const input = document.querySelector('input[type=search]');
+const table = document.getElementsByTagName('table')[0];
+const p = document.getElementsByTagName('p')[0];
+let newtab = false;
+let current = '';
 
 function display(place, data, type) {
     let ul = document.getElementById(type + '_' + place);
     for (const item of data) {
+        let b = document.createElement('button');
         let img = document.createElement('img');
         let li = document.createElement('li');
         let a = document.createElement('a');
         img.src = item.avatar_url;
         a.innerText = item.login;
+        b.onclick = handleClick;
         a.href = item.html_url;
+        b.value = item.login;
         a.target = '_blank';
         a.prepend(img);
         li.appendChild(a);
+        li.appendChild(b);
         ul.appendChild(li);
     }
 }
@@ -64,6 +62,10 @@ async function fetchData(user) {
                 play(0);
                 return;
             }
+            else if (newtab) {
+                window.open('https://github.com/' + user, '_blank');
+                return;
+            }
             else if (i === 1 && key === Object.keys(res)[0]) {
                 clear();
                 play(1);
@@ -85,9 +87,44 @@ async function fetchData(user) {
         counts(key, result[key].length, 'dif');
         display(key, result[key], 'dif');
     }
-};
+}
+
+function setURL(user) {
+    if (current != user) {
+        let url = new URL(window.location);
+        url.searchParams.set('user', user);
+        window.history.pushState({}, '', url);
+        current = user;
+    }
+}
+
+function loadPage() {
+    let params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (search, prop) => search.get(prop)
+    });
+    let value = params.user;
+    if (value) {
+        input.value = value;
+        fetchData(value);
+        current = value;
+    }
+}
+
+function handleClick(e) {
+    newtab = false;
+    let value = e.target.value;
+    input.value = value;
+    fetchData(value);
+    setURL(value);
+}
 
 function handleSubmit(e) {
     e.preventDefault();
-    fetchData(e.target[0].value);
+    let value = e.target[0].value;
+    if (!newtab) setURL(value);
+    fetchData(value);
 }
+
+window.addEventListener('popstate', loadPage);
+
+loadPage();
