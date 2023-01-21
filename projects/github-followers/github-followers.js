@@ -64,6 +64,7 @@ async function fetchData(user) {
             }
             else if (newtab) {
                 window.open('https://github.com/' + user, '_blank');
+                newtab = false;
                 return;
             }
             else if (i === 1 && key === Object.keys(res)[0]) {
