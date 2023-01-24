@@ -1,0 +1,25 @@
+#sidenav .expand {
+    transition: unset;
+    transition-delay: .2s;
+}
+
+#sidenav .expand>div div>span {
+    bottom: unset;
+    margin-top: calc(-2 * var(--sidenav-gap));
+    width: 100%;
+}
+
+.expand>div div {
+    perspective: 1000px;
+    position: relative;
+    padding-top: calc(2 * var(--sidenav-gap));
+    transition: transform .2s linear;
+    transform-style: preserve-3d;
+    transform: rotateX(-50deg);
+    transform-origin: top;
+}
+
+.menu:hover>.expand>div div,
+.pin-menu:checked+.expand>div div {
+    transform: rotateX(0);
+}
