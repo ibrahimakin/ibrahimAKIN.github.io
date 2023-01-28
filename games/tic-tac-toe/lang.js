@@ -13,4 +13,4 @@ const lang_obj = {
         winner: 'Winner: ',
         draw: 'Draw'
     }
-}
+};

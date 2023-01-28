@@ -1,6 +1,7 @@
 #topnav, #sidenav {
     position: absolute;
 }
+
 #container {
     position: fixed;
     touch-action: none;

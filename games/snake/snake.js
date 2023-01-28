@@ -6,7 +6,7 @@ class SnakeGame {
         document.getElementById('snake-pause').addEventListener('click', this.handlePauseClick.bind(this));
         document.addEventListener('keydown', this.onKeyPress.bind(this));
         this.best = localStorage.getItem('snakeHighScore');
-        if (!this.best) { this.best = 0; }
+        if (!this.best) this.best = 0;
     }
 
     handlePlayClick() {
@@ -18,7 +18,7 @@ class SnakeGame {
     }
 
     handlePauseClick() {
-        if (this.play) { this.pause = true; }
+        if (this.play) this.pause = true;
     }
 
     init() {

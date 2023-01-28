@@ -1,19 +1,20 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Code Playground</title>
-  <link rel="icon" href="../../favicon.ico" />
-  <link href="../../styles.css" rel="stylesheet" type="text/css" />
-  <link href="../../components/navigation/sidenav/sidenav.css" rel="stylesheet" type="text/css" />
-  <link href="../../components/navigation/topnav/topnav.css" rel="stylesheet" type="text/css" />
-  <link href="../../components/navigation/navigation.css" rel="stylesheet" type="text/css" />
-  <link href="./code-playground.css" rel="stylesheet" type="text/css" />
-  <script src="./lang.js" type="text/javascript" defer></script>
-  <script src="../../components/navigation/sidenav/lang.js" type="text/javascript" defer></script>
-  <script src="../../components/navigation/sidenav/sidenav.js" type="text/javascript" defer></script>
-  <script src="../../components/navigation/topnav/topnav.js" type="text/javascript" defer></script>
-  <script src="../../script.js" type="text/javascript" defer></script>
-  <script src="./code-playground.js" type="text/javascript" defer></script>
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="/styles.css" />
+  <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
+  <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
+  <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+  <link rel="stylesheet" type="text/css" href="code-playground.css" />
+  <script type="text/javascript" src="lang.js"></script>
+  <script type="text/javascript" src="/components/navigation/sidenav/lang.js"></script>
+  <script type="text/javascript" src="/components/navigation/sidenav/sidenav.js"></script>
+  <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
+  <script type="text/javascript" defer src="code-playground.js"></script>
+  <script type="text/javascript" defer src="/script.js"></script>
 </head>
 <body>
   <div id="docroot">
@@ -25,9 +26,9 @@
         </div>
         <div id="content-container">
           <h2>HTML</h2>
-          <div class="highLite">
-            <div class="highLite_colors"></div>
-            <div class="highLite_editable" data-lang="html">
+          <div class="highlite">
+            <div class="highlite_colors"></div>
+            <div class="highlite_editable" data-lang="html">
               &lt;div style="padding: 1px 20px;"&gt;
               &lt;div id="id01"&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
               &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
@@ -44,9 +45,9 @@
             </div>
           </div>
           <h2>JAVASCRIPT</h2>
-          <div class="highLite">
-            <div class="highLite_colors"></div>
-            <div class="highLite_editable" data-lang="js">
+          <div class="highlite">
+            <div class="highlite_colors"></div>
+            <div class="highlite_editable" data-lang="js">
               // Type some JavaScript here
               console.log(`OK`);
               document.getElementById('id01').style="color: red;";

@@ -12,14 +12,10 @@ function createRipple(event) {
 
     const ripple = button.getElementsByClassName('ripple')[0];
 
-    if (ripple) {
-        ripple.remove();
-    }
+    if (ripple) ripple.remove();
 
     button.appendChild(circle);
 }
 
 const buttons = document.getElementsByClassName('ripple-button');
-for (const button of buttons) {
-    button.addEventListener('click', createRipple);
-}
+for (const button of buttons) button.addEventListener('click', createRipple);

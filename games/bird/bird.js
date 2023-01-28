@@ -4,8 +4,8 @@ const pipeWidth = 60;
 const minPipe = 40;
 const space = 120;
 const FPS = 120;
-var counter = 0;
-var highScore = 0;
+let counter = 0;
+let highScore = 0;
 let isStart = false;
 
 function Bird(ctx) {
@@ -13,18 +13,18 @@ function Bird(ctx) {
 	this.x = 150;
 	this.y = 150;
 	this.bird = new Image();
-	this.bird.src = '../../assets/images/games/bird/bird.png';
+	this.bird.src = '/assets/images/games/bird/bird.png';
 	this.gravity = 0;
 	this.velocity = 0.1;
-	this.draw = function () {
-		this.ctx.drawImage(this.bird, this.x-20, this.y-20, 40, 40);
+	this.draw = () => {
+		this.ctx.drawImage(this.bird, this.x - 20, this.y - 20, 40, 40);
 	}
-	this.update = function () {
+	this.update = () => {
 		this.gravity += this.velocity;
 		this.gravity = Math.min(4, this.gravity);
 		this.y += this.gravity;
 	}
-	this.jump = function () {
+	this.jump = () => {
 		this.gravity = -4;
 	}
 }
@@ -36,11 +36,11 @@ function Pipe(ctx, height) {
 	this.y = height ? HEIGHT - height : 0;
 	this.width = pipeWidth;
 	this.height = height || minPipe + Math.random() * (HEIGHT - space - minPipe * 2);
-	this.draw = function () {
+	this.draw = () => {
 		this.ctx.fillStyle = '#000';
 		this.ctx.fillRect(this.x, this.y, this.width, this.height);
 	}
-	this.update = function () {
+	this.update = () => {
 		this.x -= 1;
 		if (this.x + pipeWidth < 150 && this.Score) {
 			counter = counter + 0.5;
@@ -52,24 +52,22 @@ function Pipe(ctx, height) {
 				localStorage.setItem('birdHighScore', counter);
 			}
 		}
-		if ((this.x + pipeWidth) < 0) {
-			this.isDead = true;
-		}
+		if ((this.x + pipeWidth) < 0) this.isDead = true;
 	}
 }
-window.onload = function start() {
-    document.getElementById('space-button').onclick = () => { onKeyDown({code:'Space'}); };
+window.onload = () => {
+	document.getElementById('space-button').onclick = () => onKeyDown({ code: 'Space' });
 	document.addEventListener('keydown', onKeyDown);
 	highScore = localStorage.getItem('birdHighScore');
 	if (highScore) {
 		document.getElementById('high-score').innerHTML = highScore;
 	}
-	var frameCount = 0;
-	var c = document.getElementById('canvas');
-    c.addEventListener('touchstart', () => { onKeyDown({code:'Space'}); }, { passive: false })
-	var ctx = c.getContext('2d');
-	var pipes = generatePipes();
-	var birds = [new Bird(ctx)];
+	let frameCount = 0;
+	let c = document.getElementById('canvas');
+	c.addEventListener('touchstart', () => onKeyDown({ code: 'Space' }), { passive: false });
+	let ctx = c.getContext('2d');
+	let pipes = generatePipes();
+	let birds = [new Bird(ctx)];
 	let loop;
 	function startPlay() {
 		if (isStart) {
@@ -98,7 +96,7 @@ window.onload = function start() {
 	function update() {
 		frameCount = frameCount + 1;
 		if (frameCount % 320 === 0) {
-			var pipe = generatePipes();
+			let pipe = generatePipes();
 			pipes.push(...pipe);
 		}
 		pipes.forEach(myFunction)
@@ -124,9 +122,9 @@ window.onload = function start() {
 		let gameOver = false;
 		birds.forEach(bird => {
 			pipes.forEach(pipe => {
-				if (bird.y-10 < 0 || bird.y+10 > HEIGHT || (
-					bird.x+10 > pipe.x && bird.x-10 < pipe.x + pipe.width &&
-					bird.y+10 > pipe.y && bird.y-10 < pipe.y + pipe.height)) {
+				if (bird.y - 10 < 0 || bird.y + 10 > HEIGHT || (
+					bird.x + 10 > pipe.x && bird.x - 10 < pipe.x + pipe.width &&
+					bird.y + 10 > pipe.y && bird.y - 10 < pipe.y + pipe.height)) {
 					gameOver = true;
 				}
 			});

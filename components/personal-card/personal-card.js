@@ -87,7 +87,7 @@ class PersonalCard extends HTMLElement {
             background.style.transition = 'transform 0.5s ease, opacity .5s ease';
             background.style.transform = `translateX(0px) translateY(0px)`;
         });
-        particlesJS('particles-js', particlesConfig);
+        particlesJS('particles-js', particles_config);
     }
 }
 customElements.define('personal-card', PersonalCard);

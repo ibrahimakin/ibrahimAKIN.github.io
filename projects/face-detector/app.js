@@ -9,7 +9,7 @@ Promise.all([
 
 function startCamera() {
     navigator.getUserMedia(
-        { video: { } },
+        { video: {} },
         (stream) => { video.srcObject = stream },
         (err) => { console.log(err) }
     );

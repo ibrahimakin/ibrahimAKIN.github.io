@@ -1,7 +1,5 @@
 class SocialIcons extends HTMLElement {
-  constructor() {
-    super();
-  }
+  constructor() { super(); }
   connectedCallback() {
     this.innerHTML = `
       <ul class="soc">

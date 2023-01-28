@@ -80,28 +80,28 @@
     text-align: center;
 }
 .bird-img {
-    background-image: url('../../assets/images/games/bird.png');
+    background-image: url('/assets/images/games/bird.png');
 }
 .snake-img {
-    background-image: url('../../assets/images/games/snake.png');
+    background-image: url('/assets/images/games/snake.png');
 }
 .tetris-img {
-    background-image: url('../../assets/images/games/tetris.png');
+    background-image: url('/assets/images/games/tetris.png');
 }
 .tic-tac-toe-img {
-    background-image: url('../../assets/images/games/tic-tac-toe.png');
+    background-image: url('/assets/images/games/tic-tac-toe.png');
 }
 .english-img {
-    background-image: url('../../assets/images/projects/language-app.png');
+    background-image: url('/assets/images/projects/language-app.png');
 }
 .code-img {
-    background-image: url('../../assets/images/projects/code.png');
+    background-image: url('/assets/images/projects/code.png');
 }
 .lcd-img {
-    background-image: url('../../assets/images/projects/lcd.png');
+    background-image: url('/assets/images/projects/lcd.png');
 }
 .movies-img {
-    background-image: url('../../assets/images/projects/movies.png');
+    background-image: url('/assets/images/projects/movies.png');
 }
 
 @keyframes move-clouds-back {
@@ -131,10 +131,10 @@
     display:block;
 }
 .stars {
-    background: #000 url(../../assets/images/menu/stars.png) repeat top center;
+    background: #000 url('/assets/images/menu/stars.png') repeat top center;
 }
 .clouds {
-    background: transparent url(../../assets/images/menu/clouds.png) repeat top center;
+    background: transparent url('/assets/images/menu/clouds.png') repeat top center;
     -moz-animation:move-clouds-back 200s linear infinite;
     -ms-animation:move-clouds-back 200s linear infinite;
     -o-animation:move-clouds-back 200s linear infinite;

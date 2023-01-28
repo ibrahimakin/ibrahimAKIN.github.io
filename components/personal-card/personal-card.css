@@ -48,7 +48,7 @@
     height: 10em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../../assets/images/home/iakin_fg.png');
+    background-image: url('/assets/images/home/iakin_fg.png');
 }
 
 .photo .img {
@@ -62,7 +62,7 @@
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('../../assets/images/home/iakin_bg.png');
+    background-image: url('/assets/images/home/iakin_bg.png');
     border: 1px solid #fff;
     border-radius: 50%;
     transition: transform .75s ease-out;
@@ -116,7 +116,7 @@
     width: 300%;
     height: 125%;
     opacity: 0;
-    background-image: url('../../assets/images/home/universe.jpeg');
+    background-image: url('/assets/images/home/universe.jpeg');
     transition: opacity .5s cubic-bezier(.645, .045, .355, 1);
 }
 

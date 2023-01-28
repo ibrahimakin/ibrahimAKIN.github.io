@@ -87,8 +87,8 @@
 }
 
 #collapse:checked+.back::before {
-    -webkit-mask-image: url('../../../assets/icons/navbar/forward.svg');
-    mask-image: url('../../../assets/icons/navbar/forward.svg');
+    -webkit-mask-image: url('/assets/icons/navbar/forward.svg');
+    mask-image: url('/assets/icons/navbar/forward.svg');
 }
 
 .grid-3 {
@@ -105,15 +105,11 @@
     height: 100%;
     width: 100%;
     right: 0;
-    top: 10px;
+    top: 0;
+    /* add ::before pseude elements for Firefox Browsers */
     -moz-appearance: initial;
     appearance: initial;
     z-index: 1;
-    /* add ::before pseude elements for Firefox Browsers */
-}
-
-.sub>.menu:hover>.pin-menu {
-    display: inline-block;
 }
 
 .expand::before {
@@ -121,13 +117,18 @@
     display: none;
     position: absolute;
     background-color: var(--nav-clr);
-    -webkit-mask-image: url('../../../assets/icons/navbar/pin.svg');
-    mask-image: url('../../../assets/icons/navbar/pin.svg');
+    -webkit-mask-image: url('/assets/icons/navbar/pin.svg');
+    mask-image: url('/assets/icons/navbar/pin.svg');
     transform: rotateZ(-45deg);
-    margin: 10px;
+    margin: var(--sidenav-gap);
     height: 20px;
     width: 20px;
     z-index: 2;
+}
+
+.expand.more {
+    top: calc(var(--extra) * -100%);
+    z-index: -1;
 }
 
 .pin-menu:checked+.expand {

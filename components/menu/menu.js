@@ -1,4 +1,4 @@
-window.addEventListener('load', function (event) {
+window.addEventListener('load', () => {
   var targetClassName = 'flex-wrap-anim';
   var defaultDuration = '0.3s';
 
@@ -6,7 +6,7 @@ window.addEventListener('load', function (event) {
   function addDummy(item, duration) {
     var top = item.offsetTop;
     var left = item.offsetLeft;
-    setTimeout(function () {
+    setTimeout(() => {
       item.style.position = 'absolute';
       item.style.top = top + 'px';
       item.style.left = left + 'px';
@@ -36,8 +36,8 @@ window.addEventListener('load', function (event) {
     }
   }
 
-  window.addEventListener('resize', function (event) {
-    dummyList.forEach(function (dummyDiv) {
+  window.addEventListener('resize', () => {
+    dummyList.forEach(dummyDiv => {
       var item = dummyDiv['__' + targetClassName + '_pair'];
       var duration = dummyDiv['__' + targetClassName + '_duration'];
       if (item.offsetTop != dummyDiv.offsetTop) {
