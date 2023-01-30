@@ -95,7 +95,7 @@ i.js_curl { color: hsl(250, 75%, 70%); }
 i.js_numb { color: hsl(100, 75%, 70%); }
 i.js_logi { color: hsl(200, 75%, 70%); }
 i.js_equa { color: hsl(200, 75%, 70%); }
-i.js_comm { color: hsl(200, 10%, 45%); font-style: italic; }
+i.js_comm { color: hsl(124, 56%, 49%); font-style: italic; }
 i.js_comm > * { color: inherit; }
 
 /* HTML */

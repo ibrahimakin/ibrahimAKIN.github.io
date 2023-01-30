@@ -843,4 +843,59 @@
     "tr": "ummak",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "word",
+    "en": "comet",
+    "tr": "kuyruklu yıldız",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "attend",
+    "tr": "katılmak",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "curriculum",
+    "tr": "müfredat",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "ingenuity",
+    "tr": "marifet",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "boil",
+    "tr": "kaynatmak",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/language-app/source/img/boil.gif"
+}, {
+    "type": "word",
+    "en": "fine grained",
+    "tr": "ince taneli",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "coarse grained",
+    "tr": "kaba taneli",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "dispose",
+    "tr": "elden çıkarmak",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "lighthouse",
+    "tr": "deniz feneri",
+    "en_s": "",
+    "tr_s": ""
 }]

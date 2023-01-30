@@ -96,25 +96,15 @@ window.onload = () => {
 	function update() {
 		frameCount = frameCount + 1;
 		if (frameCount % 320 === 0) {
-			let pipe = generatePipes();
-			pipes.push(...pipe);
+			pipes.push(...generatePipes());
 		}
-		pipes.forEach(myFunction)
-		function myFunction(item) {
-			item.update();
-		}
+		pipes.forEach(item => item.update());
 		pipes = pipes.filter(pipe => !pipe.isDead);
-		birds.forEach(myFunction2)
-		function myFunction2(item) {
-			item.update();
-		}
+		birds.forEach(item => item.update());
 		if (isGameOver()) {
 			isStart = false;
-			if (confirm(lang_obj[getLang()]['game_over'])) {
-				location.reload();
-			} else {
-				location.reload();
-			}
+			confirm(lang_obj[getLang()]['game_over']);
+			location.reload();
 			clearInterval(loop);
 		}
 	}
@@ -133,13 +123,7 @@ window.onload = () => {
 	}
 	function draw() {
 		ctx.clearRect(0, 0, WIDTH, HEIGHT);
-		pipes.forEach(myFunction)
-		function myFunction(item) {
-			item.draw();
-		}
-		birds.forEach(myFunction2)
-		function myFunction2(item) {
-			item.draw();
-		}
+		pipes.forEach(item => item.draw());
+		birds.forEach(item => item.draw());
 	}
 }

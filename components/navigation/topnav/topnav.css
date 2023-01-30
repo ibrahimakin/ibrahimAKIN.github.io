@@ -23,10 +23,6 @@ top-nav {
     padding: calc(var(--sidenav-gap) / 3);
 }
 
-#topnav.main>div {
-    padding: calc(var(--sidenav-gap) / 3);
-}
-
 #topnav .expand>div {
     padding: calc(var(--sidenav-gap) / 3);
 }

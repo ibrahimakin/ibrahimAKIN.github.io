@@ -70,7 +70,6 @@ function init() {
   onWindowResize();
   window.addEventListener('resize', onWindowResize, false);
 
-
   document.addEventListener('pointermove', e => {
     let ratio = window.innerHeight / window.innerWidth;
     newmouse.x = (e.pageX - window.innerWidth / 2) / window.innerWidth / ratio;
@@ -93,29 +92,6 @@ function animate(delta) {
   requestAnimationFrame(animate);
   render(delta);
 }
-
-let capturer = new CCapture({
-  verbose: true,
-  framerate: 60,
-  // motionBlurFrames: 4,
-  quality: 90,
-  format: 'webm',
-  workersPath: 'js/'
-});
-
-let capturing = false;
-
-function isCapturing(val) {
-  if (val === false && window.capturing === true) {
-    capturer.stop();
-    capturer.save();
-  } else if (val === true && window.capturing === false) {
-    capturer.start();
-  }
-  capturing = val;
-};
-
-window.addEventListener('keyup', e => { if (e.keyCode == 68) isCapturing(!capturing); });
 
 let then = 0;
 function renderTexture() {
@@ -154,8 +130,4 @@ function render(delta) {
   uniforms.u_time.value = delta * 0.0005;
   renderer.render(scene, camera);
   renderTexture();
-
-  if (capturing) {
-    capturer.capture(renderer.domElement);
-  }
 }

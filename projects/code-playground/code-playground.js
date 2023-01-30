@@ -28,6 +28,7 @@ const lang = {
 let iframeOMid = 'OM300x250' + Math.round(Math.random() * (10000 - 1)) + 1;       // create multi unique iframe
 let iframeOM = document.createElement('IFRAME');
 iframeOM.id = iframeOMid;
+iframeOM.title = 'result';
 iframeOM.src = 'about:blank';
 iframeOM.style.width = '100%';
 iframeOM.style.height = '250px';
