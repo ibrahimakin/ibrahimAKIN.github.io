@@ -46,7 +46,7 @@
     transition: transform 128ms ease-out;
 }
 
-.smiley-wrapper > div {
+.smiley-wrapper>div {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;

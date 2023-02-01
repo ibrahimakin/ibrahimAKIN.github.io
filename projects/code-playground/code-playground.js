@@ -25,23 +25,24 @@ const lang = {
   }
 };
 
-let iframeOMid= 'OM300x250'+Math.round(Math.random()*(10000-1))+1;                // create multi unique iframe
+let iframeOMid = 'OM300x250' + Math.round(Math.random() * (10000 - 1)) + 1;       // create multi unique iframe
 let iframeOM = document.createElement('IFRAME');
 iframeOM.id = iframeOMid;
+iframeOM.title = 'result';
 iframeOM.src = 'about:blank';
-iframeOM.style.width='100%';
-iframeOM.style.height='250px';
-iframeOM.style.border='0';
-iframeOM.scrolling='no';
-iframeOM.margin='0';
-iframeOM.frameborder='0';
+iframeOM.style.width = '100%';
+iframeOM.style.height = '250px';
+iframeOM.style.border = '0';
+iframeOM.scrolling = 'no';
+iframeOM.margin = '0';
+iframeOM.frameborder = '0';
 
-const codeResult =  document.getElementById('code-result').appendChild(iframeOM); // this can not apply to curent div
-const editors = document.querySelectorAll('.highLite_editable');
+const codeResult = document.getElementById('code-result').appendChild(iframeOM);  // this can not apply to curent div
+const editors = document.querySelectorAll('.highlite_editable');
 const runButton = document.getElementById('run-button');
 const instantRun = document.getElementById('instant-run');
 
-const replaceChar = (innerHtml) => {
+const replaceChar = innerHtml => {
   return innerHtml.replace(/<div>/g, '').replace(/<\/div>/g, '').replace(/<br>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 };
 
@@ -57,28 +58,27 @@ const insertResults = () => {
   // docu.open(); docu.writeln(contentDOM); docu.close();
 }
 
-const handleRunClick = (event) => {
+const handleRunClick = () => {
   htmlResult = replaceChar(editors[0].innerHTML);
   scriptResult = replaceChar(editors[1].innerHTML);
   insertResults();
 };
 
-const handleCheckbox = (event) => {
-  insantCompile = event.target.checked;
+const handleCheckbox = e => {
+  insantCompile = e.target.checked;
 }
 
-const highLite = (el) => {
+const highlite = el => {
   const dataLang = el.dataset.lang;                                               // Detect "js", "html", "py", "bash", ...
   const langObj = lang[dataLang];                                                 // Extract object from lang regexes dictionary
   let html = el.innerHTML;
-  Object.keys(langObj).forEach(function(key) {
+  Object.keys(langObj).forEach(key => {
     html = html.replace(langObj[key], `<i class=${dataLang}_${key}>$1</i>`);
   });
   el.previousElementSibling.innerHTML = html;                                     // Finally, show highlights!
-
-  if (insantCompile) {  
-    if(dataLang === 'js'){ scriptResult = replaceChar(el.innerHTML); }
-    else if(dataLang === 'html'){ htmlResult = replaceChar(el.innerHTML); }
+  if (insantCompile) {
+    if (dataLang === 'js') scriptResult = replaceChar(el.innerHTML);
+    else if (dataLang === 'html') htmlResult = replaceChar(el.innerHTML);
     insertResults();
   }
 };
@@ -88,8 +88,8 @@ editors.forEach(el => {
   el.spellcheck = false;
   el.autocorrect = 'off';
   el.autocapitalize = 'off';
-  el.addEventListener('input', highLite.bind(null, el));
-  highLite(el);                                                                   // Init!
+  el.addEventListener('input', highlite.bind(null, el));
+  highlite(el);                                                                   // Init!
 });
 
 runButton.addEventListener('click', handleRunClick);

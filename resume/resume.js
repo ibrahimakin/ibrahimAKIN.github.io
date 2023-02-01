@@ -31,6 +31,7 @@ function responsiveResume(x, onStart) {
         else e.scrollIntoView();
     }
 }
+
 let x = window.matchMedia('(max-width: 600px)');
 responsiveResume(x);                            // Call listener function at run time
 x.addEventListener('change', responsiveResume); // Attach listener function on state changes

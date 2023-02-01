@@ -1,7 +1,5 @@
 class PersonalCard extends HTMLElement {
-    constructor() {
-        super();
-    }
+    constructor() { super(); }
     handleOrientation(event, card) {
         let beta = event['beta'] % 360;
         let alpha = event['gamma'] % 360;
@@ -24,10 +22,10 @@ class PersonalCard extends HTMLElement {
                         </div>
                         <div class="info">
                             <h1 class="title">ibrahim AKIN</h1>
-                            <h3>Software Developer</h3>
+                            <h2>Software Developer</h2>
                             <p>The best adjective that describes me is curious. I always want to learn new things
                                 and search them to discover.<br/><br/>
-                                Feel free to say hello through any of the social links below.<br/>
+                                Feel free to say hello through any of the social links below.
                             </p>
                             <div class="links">
                                 <social-icons></social-icons>
@@ -46,7 +44,7 @@ class PersonalCard extends HTMLElement {
         const circle = document.querySelector('.photo .circle');
         const photo = document.querySelector('.photo .img');
         const title = document.querySelector('.title');
-        const description = document.querySelector('.info h3');
+        const description = document.querySelector('.info h2');
         const about = document.querySelector('.info p');
         const links = document.querySelector('.links');
 
@@ -87,7 +85,7 @@ class PersonalCard extends HTMLElement {
             background.style.transition = 'transform 0.5s ease, opacity .5s ease';
             background.style.transform = `translateX(0px) translateY(0px)`;
         });
-        particlesJS('particles-js', particlesConfig);
+        particlesJS('particles-js', particles_config);
     }
 }
 customElements.define('personal-card', PersonalCard);

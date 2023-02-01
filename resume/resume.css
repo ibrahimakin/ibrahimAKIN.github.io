@@ -1,14 +1,14 @@
+:root {
+    --resume-clr: #007070;
+    --resume-clr-hvr: #006060;
+    --resume-txt: #fff;
+    --nav-clr: var(--resume-clr);
+}
+
 .filled {
     background-color: #f5f5f5;
     border: 1px solid var(--bg-clr);
     border-radius: 0;
-}
-
-:root {
-    --resume-clr: #008080;
-    --resume-clr-hvr: #006060;
-    --resume-txt: #fff;
-    --nav-clr: var(--resume-clr);
 }
 
 #resume-container {
@@ -105,6 +105,10 @@
 
 #resume-summary p {
     margin-top: 10px;
+}
+
+#resume-summary h2 {
+    color: var(--resume-txt);
 }
 
 #left-profile-image, #right-profile-image {
@@ -323,11 +327,7 @@
 }
 
 @media screen and (max-height: 400px) {
-    #resume-summary {
-        position: relative;
-    }
-
-    #contact {
+    #resume-summary, #contact {
         position: relative;
     }
 }

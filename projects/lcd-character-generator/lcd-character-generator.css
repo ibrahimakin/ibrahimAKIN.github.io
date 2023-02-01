@@ -7,54 +7,84 @@
     background-color: rgba(128, 128, 128, .5);
 }
 
-.button {
-    border: none;
-    padding: 25px 25px;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-.btnD {
-    border: none;
-    padding: 60px 8px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.btnY {
-    border: none;
-    padding: 4px 60px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.clr-button {
-    padding: 5px;
-    cursor: pointer;
-}
-
 #content-container {
     display: flex;
 }
 
-#content-container a {
-    text-decoration: none;
-}
-
 #content-container>div {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     margin: auto;
+    width: 100%;
 }
 
 #content-container>div>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
-.calc-container {
-    display: inline-block;
-    margin: auto;
+button {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.btn-b {
+    padding: 25px 25px;
+    margin: 4px 2px;
+}
+
+.btn-v {
+    font-family: monospace;
+    padding: 60px 8px;
+}
+
+.btn-h {
+    padding: 4px 60px;
+}
+
+.btn-b, .btn-v, .btn-h, #idp {
+    border: none;
+}
+
+table {
     padding: 0 30px;
+}
+
+table:last-child th {
+    padding-bottom: 40px;
+}
+
+#lcd th {
+    padding-bottom: 20px;
+}
+
+#lcd tr:nth-child(2) {
+    text-align: center;
+}
+
+#lcd tr:nth-child(2)>td:first-child {
+    padding: 10px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.link-img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 155px;
+    height: 60px;
+}
+
+.link-img:nth-child(2) {
+    background-image: url('/assets/images/projects/lcd/google-play-badge.png');
+}
+
+.link-img:nth-child(3) {
+    background-image: url('/assets/images/projects/lcd/huawei-app-gallery-badge.png');
 }

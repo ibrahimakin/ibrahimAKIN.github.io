@@ -21,4 +21,4 @@ const lang_obj = {
         pause_game: 'Pause',
         resume_game: 'Resume'
     }
-}
+};

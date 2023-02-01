@@ -19,31 +19,31 @@ const setRotationWithAnim = () => {
     sqc.style.transition = 'transform .3s linear';
     setRotation();
 }
-upButton.addEventListener('click', (e) => {
+upButton.addEventListener('click', e => {
     e.preventDefault();
     currentXDeg += 5;
     setRotationWithAnim();
 });
-downButton.addEventListener('click', (e) => {
+downButton.addEventListener('click', e => {
     e.preventDefault();
     currentXDeg -= 5;
     setRotationWithAnim();
 });
-leftButton.addEventListener('click', (e) => {
+leftButton.addEventListener('click', e => {
     e.preventDefault();
     currentYDeg -= 5;
     setRotationWithAnim();
 });
-rightButton.addEventListener('click', (e) => {
+rightButton.addEventListener('click', e => {
     e.preventDefault();
     currentYDeg += 5;
     setRotationWithAnim();
 });
-centerButton.addEventListener('click', (e) => {
+centerButton.addEventListener('click', e => {
     e.preventDefault();
     currentXDeg = 1; currentYDeg = 1; currentZDeg = 0;
     setRotationWithAnim();
-})
+});
 
 let pos = { top: 0, left: 0, x: 0, y: 0 };
 const downHandler = (x, y) => {
@@ -66,28 +66,24 @@ const moveHandler = (x, y) => {
     setRotation();
 }
 
-const mouseDownHandler = (e) => {
+const mouseDownHandler = e => {
     downHandler(e.clientX, e.clientY);
     document.addEventListener('mousemove', mouseMoveHandler);
     document.addEventListener('mouseup', mouseUpHandler);
 };
-const mouseMoveHandler = (e) => {
-    moveHandler(e.clientX, e.clientY);
-};
+const mouseMoveHandler = e => moveHandler(e.clientX, e.clientY);
 const mouseUpHandler = () => {
     container.style.removeProperty('user-select');
     document.removeEventListener('mousemove', mouseMoveHandler);
     document.removeEventListener('mouseup', mouseUpHandler);
 };
 
-const touchDownHandler = (e) => {
+const touchDownHandler = e => {
     downHandler(Math.floor(e.touches[0].pageX), Math.floor(e.touches[0].pageY));
     document.addEventListener('touchmove', touchMoveHandler);
     document.addEventListener('touchend', touchUpHandler);
 };
-const touchMoveHandler = (e) => {
-    moveHandler(Math.floor(e.touches[0].pageX), Math.floor(e.touches[0].pageY));
-};
+const touchMoveHandler = e => moveHandler(Math.floor(e.touches[0].pageX), Math.floor(e.touches[0].pageY));
 const touchUpHandler = () => {
     container.style.removeProperty('user-select');
     document.removeEventListener('touchmove', touchMoveHandler);
@@ -98,13 +94,9 @@ container.addEventListener('mousedown', mouseDownHandler);
 container.addEventListener('touchstart', touchDownHandler);
 
 for (const square of squares) {
-    square.addEventListener('mouseover', (e) => {
-        for (const square of squares) {
-            square.classList.remove('square-hover');
-        }
+    square.addEventListener('mouseover', e => {
+        for (const square of squares) square.classList.remove('square-hover');
         e.target.classList.add('square-hover');
     });
-    square.addEventListener('mouseleave', (e) => {
-        e.target.classList.remove('square-hover');
-    });
+    square.addEventListener('mouseleave', e => e.target.classList.remove('square-hover'));
 }

@@ -6,8 +6,8 @@
 
 #content-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     color: rgb(206 208 210);
     text-align: center;
     padding: 0 10px;
@@ -28,7 +28,7 @@
 
 #canvas {
     border: 1px solid #fff;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, .8);
 }
 
 #space-button {
@@ -36,6 +36,6 @@
     margin-top: 5px;
     cursor: pointer;
     outline: none;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, .8);
     border-color: #fff;
 }

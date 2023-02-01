@@ -9,7 +9,7 @@ lang_obj.tr = {
     xox: 'XOX',
     resume: 'Özgeçmiş',
     settings: 'Ayarlar'
-}
+};
 lang_obj.en = {
     ...lang_obj.en,
     home: 'Home',

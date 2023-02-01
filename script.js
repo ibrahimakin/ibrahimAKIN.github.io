@@ -1,7 +1,7 @@
 let current = getLang();
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
     for (const button of document.getElementsByClassName('lang-button')) {
-        button.onclick = function (event) {
+        button.onclick = event => {
             let lang = event.target.getAttribute('lang-name');
             if (lang !== getLang() || lang !== current) {
                 current = lang;

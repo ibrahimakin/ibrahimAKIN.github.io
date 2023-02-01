@@ -5,11 +5,11 @@ class Topnav extends HTMLElement {
         this.innerHTML = `
             <div id="topnav" class="main">
                 <div>
-                    <a title="Home" href="/" class="filled home icon"></a>
+                    <a title="Home" class="filled home icon" href="/"></a>
                 </div>
                 <div></div>
                 <div class="menu">
-                    <a title="Project" class="filled project icon"></a>
+                    <a title="Project" class="filled project icon" href="#"></a>
                     <div class="expand">
                         <div>
                             <a title="Code Playground" class="filled code icon" href="/projects/code-playground"></a>
@@ -26,7 +26,7 @@ class Topnav extends HTMLElement {
                     </div>
                 </div>
                 <div class="menu">
-                    <a title="Games" class="filled games icon"></a>
+                    <a title="Games" class="filled games icon" href="#"></a>
                     <div class="expand">
                         <div>
                             <a title="Tetris" class="filled tetris icon" href="/games/tetris"></a>
@@ -52,13 +52,13 @@ class Topnav extends HTMLElement {
                     <a title="Blog" class="filled blog icon" href="/blog"></a>
                 </div>
                 <div class="menu">
-                    <a title="Settings" name="settings" class="filled settings icon"></a>
+                    <a title="Settings" class="filled settings icon" href="#"></a>
                     <div class="expand">
                         <div>
-                            <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" ${lang_support}></a>
+                            <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" href="#" ${lang_support}></a>
                         </div>
                         <div>
-                            <a title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></a>
+                            <a title="English" lang-name="en" class="filled en icon lang-button" href="#" ${lang_support}></a>
                         </div>
                     </div>
                 </div>
