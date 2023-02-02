@@ -9,21 +9,10 @@
 	--hue: 223;
 	--bg: hsl(var(--hue), 10%, 90%);
 	--fg: hsl(var(--hue), 10%, 10%);
-	font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
 }
 
-body {
-	background-color: var(--bg);
-	font: 1em/1.5 sans-serif;
-	color: var(--fg);
-	height: 100vh;
-	display: grid;
-	place-items: center;
-	transition: background-color 0.3s;
-}
-
-main {
-	padding: 1.5em 0;
+#topnav, #sidenav {
+    position: absolute;
 }
 
 .pl, .pl__worm {
@@ -36,6 +25,8 @@ main {
 	animation-timing-function: linear;
 	width: 8em;
 	height: 8em;
+	margin: auto;
+	font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
 }
 
 .pl__ring {

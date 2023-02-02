@@ -49,6 +49,10 @@
     width: 100%;
 }
 
+.lang-button {
+    cursor: pointer;
+}
+
 .lang-button[disabled] {
     pointer-events: none;
 }

@@ -16,7 +16,9 @@ function display(place, data, type) {
         b.onclick = handleClick;
         a.href = item.html_url;
         b.value = item.login;
+        img.alt = item.login;
         a.target = '_blank';
+        b.title = 'Search';
         a.prepend(img);
         li.appendChild(a);
         li.appendChild(b);

@@ -1,19 +1,19 @@
 window.addEventListener('load', () => {
-  var targetClassName = 'flex-wrap-anim';
-  var defaultDuration = '0.3s';
+  let targetClassName = 'flex-wrap-anim';
+  let defaultDuration = '0.3s';
 
-  var dummyList = [];
+  let dummyList = [];
   function addDummy(item, duration) {
-    var top = item.offsetTop;
-    var left = item.offsetLeft;
+    let top = item.offsetTop;
+    let left = item.offsetLeft;
     setTimeout(() => {
       item.style.position = 'absolute';
       item.style.top = top + 'px';
       item.style.left = left + 'px';
 
-      var dummyDiv = document.createElement('div');
+      let dummyDiv = document.createElement('div');
       dummyDiv.classList.add(targetClassName + '-dummy');
-      var rect = item.getBoundingClientRect();
+      let rect = item.getBoundingClientRect();
       dummyDiv.style.width = rect.width + 'px';
       dummyDiv.style.height = rect.height + 'px';
       dummyDiv.style.visibility = 'hidden';
@@ -24,22 +24,21 @@ window.addEventListener('load', () => {
     }, 0);
   }
 
-  var conts = document.getElementsByClassName(targetClassName);
-  for (var i = 0, max = conts.length; i < max; i++) {
-    var cont = conts[i];
+  let conts = document.getElementsByClassName(targetClassName);
+  for (let i = 0, max = conts.length; i < max; i++) {
+    let cont = conts[i];
     cont.style.position = 'relative';
-    var duration = cont.getAttribute('data-duration')
-      || defaultDuration;
-    var items = cont.getElementsByTagName('div');
-    for (var i = 0, max = items.length; i < max; i++) {
+    let duration = cont.getAttribute('data-duration') || defaultDuration;
+    let items = cont.getElementsByTagName('div');
+    for (let i = 0, max = items.length; i < max; i++) {
       addDummy(items[i], duration);
     }
   }
 
   window.addEventListener('resize', () => {
     dummyList.forEach(dummyDiv => {
-      var item = dummyDiv['__' + targetClassName + '_pair'];
-      var duration = dummyDiv['__' + targetClassName + '_duration'];
+      let item = dummyDiv['__' + targetClassName + '_pair'];
+      let duration = dummyDiv['__' + targetClassName + '_duration'];
       if (item.offsetTop != dummyDiv.offsetTop) {
         item.style.transition = 'all ' + duration;
         item.style.top = dummyDiv.offsetTop + 'px';
