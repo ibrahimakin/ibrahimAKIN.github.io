@@ -2,10 +2,10 @@ let smw = document.getElementById('sm-w');
 
 function moveSmiley(evt) {
     const a = 45;
-    const x = evt.offsetX;
-    const y = evt.offsetY;
-    const w = evt.target.clientWidth;
-    const h = evt.target.clientHeight;
+    const x = evt.pageX;
+    const y = evt.pageY;
+    const w = document.body.clientWidth;
+    const h = document.body.clientHeight;
     const angleX = (x - (w / 2)) / (w / 2) * a;
     const angleY = ((h / 2) - y) / (h / 2) * a;
 

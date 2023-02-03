@@ -21,53 +21,49 @@
   <script type="text/javascript" defer src="/script.js"></script>
 </head>
 <body>
-  <div id="docroot">
-    <div class="docapp">
-      <top-nav></top-nav>
-      <div id="main-container">
-        <div id="sidenav-mobile">
-          <side-nav></side-nav>
-        </div>
-        <div id="content-container">
-          <h2>HTML</h2>
-          <div class="highlite">
-            <div class="highlite_colors"></div>
-            <div class="highlite_editable" data-lang="html">
-              &lt;div style="padding: 1px 20px;"&gt;
-              &lt;div id="id01"&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
-              &lt;/div&gt;
-            </div>
-          </div>
-          <h2>JAVASCRIPT</h2>
-          <div class="highlite">
-            <div class="highlite_colors"></div>
-            <div class="highlite_editable" data-lang="js">
-              // Type some JavaScript here
-              console.log(`OK`);
-              document.getElementById('id01').style="color: red;";
-            </div>
-          </div>
-          <div id="run-section">
-            <button id="run-button" lang-tag="run">Run</button>
-            <div title="Not recommended">
-              <input type="checkbox" id="instant-run" name="instant_run">&nbsp;
-              <label for="instant-run" lang-tag="instant_run">Instant Run</label><br>
-            </div>
-          </div>
-          <h2 lang-tag="result">RESULT</h2>
-          <div id="code-result"></div>
+  <top-nav></top-nav>
+  <div id="main-container">
+    <div id="sidenav-mobile">
+      <side-nav></side-nav>
+    </div>
+    <div id="content-container">
+      <h2>HTML</h2>
+      <div class="highlite">
+        <div class="highlite_colors"></div>
+        <div class="highlite_editable" data-lang="html">
+          &lt;div style="padding: 1px 20px;"&gt;
+          &lt;div id="id01"&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;h2 class="head"&gt;Code Playground&lt;/h2&gt;&lt;/div&gt;
+          &lt;/div&gt;
         </div>
       </div>
+      <h2>JAVASCRIPT</h2>
+      <div class="highlite">
+        <div class="highlite_colors"></div>
+        <div class="highlite_editable" data-lang="js">
+          // Type some JavaScript here
+          console.log(`OK`);
+          document.getElementById('id01').style="color: red;";
+        </div>
+      </div>
+      <div id="run-section">
+        <button id="run-button" lang-tag="run">Run</button>
+        <div title="Not recommended">
+          <input type="checkbox" id="instant-run" name="instant_run">&nbsp;
+          <label for="instant-run" lang-tag="instant_run">Instant Run</label><br>
+        </div>
+      </div>
+      <h2 lang-tag="result">RESULT</h2>
+      <div id="code-result"></div>
     </div>
   </div>
 </body>

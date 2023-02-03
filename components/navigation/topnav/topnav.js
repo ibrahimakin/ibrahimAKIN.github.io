@@ -9,7 +9,7 @@ class Topnav extends HTMLElement {
                 </div>
                 <div></div>
                 <div class="menu">
-                    <a title="Project" class="filled project icon" href="#"></a>
+                    <div title="Project" class="filled project icon"></div>
                     <div class="expand">
                         <div>
                             <a title="Code Playground" class="filled code icon" href="/projects/code-playground"></a>
@@ -26,7 +26,7 @@ class Topnav extends HTMLElement {
                     </div>
                 </div>
                 <div class="menu">
-                    <a title="Games" class="filled games icon" href="#"></a>
+                    <div title="Games" class="filled games icon"></div>
                     <div class="expand">
                         <div>
                             <a title="Tetris" class="filled tetris icon" href="/games/tetris"></a>
@@ -52,13 +52,13 @@ class Topnav extends HTMLElement {
                     <a title="Blog" class="filled blog icon" href="/blog"></a>
                 </div>
                 <div class="menu">
-                    <a title="Settings" class="filled settings icon" href="#"></a>
+                    <div title="Settings" class="filled settings icon"></div>
                     <div class="expand">
                         <div>
-                            <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" href="#" ${lang_support}></a>
+                            <div title="Türkçe" lang-name="tr" class="filled tr icon lang-button" ${lang_support}></div>
                         </div>
                         <div>
-                            <a title="English" lang-name="en" class="filled en icon lang-button" href="#" ${lang_support}></a>
+                            <div title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></div>
                         </div>
                     </div>
                 </div>

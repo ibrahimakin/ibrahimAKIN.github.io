@@ -14,22 +14,19 @@ function readSVGFile(file, className) {
     });
     rawFile.send(null);
 }
-function refreshSVG() {
-    readSVGFile('/assets/icons/navbar/back.svg', 'back');
-    readSVGFile('/assets/icons/navbar/forward.svg', 'forward');
-}
 function initSVG() {
-    readSVGFile('/assets/icons/navbar/home-icon-silhouette.svg', 'home');
-    readSVGFile('/assets/icons/navbar/project-solid.svg', 'project');
-    readSVGFile('/assets/icons/navbar/games.svg', 'games');
-    readSVGFile('/assets/icons/navbar/resume-and-cv.svg', 'resume');
-    readSVGFile('/assets/icons/navbar/movies.svg', 'movies');
-    readSVGFile('/assets/icons/navbar/i-icon.svg', 'iicon');
-    readSVGFile('/assets/icons/navbar/bird.svg', 'bird');
-    readSVGFile('/assets/icons/navbar/snake.svg', 'snake');
-    readSVGFile('/assets/icons/navbar/tetris.svg', 'tetris');
-    readSVGFile('/assets/icons/navbar/settings.svg', 'settings');
-    readSVGFile('/assets/icons/navbar/tic-tac-toe.svg', 'tic-tac-toe');
-    refreshSVG()
+    readSVGFile('/assets/icons/navbar/home-icon-silhouette.svg', 'home-js');
+    readSVGFile('/assets/icons/navbar/project-solid.svg', 'project-js');
+    readSVGFile('/assets/icons/navbar/games.svg', 'games-js');
+    readSVGFile('/assets/icons/navbar/resume-and-cv.svg', 'resume-js');
+    readSVGFile('/assets/icons/navbar/movies.svg', 'movies-js');
+    readSVGFile('/assets/icons/navbar/i-icon.svg', 'iicon-js');
+    readSVGFile('/assets/icons/navbar/bird.svg', 'bird-js');
+    readSVGFile('/assets/icons/navbar/snake.svg', 'snake-js');
+    readSVGFile('/assets/icons/navbar/tetris.svg', 'tetris-js');
+    readSVGFile('/assets/icons/navbar/settings.svg', 'settings-js');
+    readSVGFile('/assets/icons/navbar/tic-tac-toe.svg', 'tic-tac-toe-js');
+    readSVGFile('/assets/icons/navbar/back.svg', 'back-js');
+    readSVGFile('/assets/icons/navbar/forward.svg', 'forward-js');
 }
 initSVG();

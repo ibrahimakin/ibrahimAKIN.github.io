@@ -1,22 +1,37 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000" />
+    <meta name="description" content="Sphere" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sphere</title>
-    <link href="sphere.css" type="text/css" rel="stylesheet" />
-    <script src="sphere.js" type="text/javascript" defer></script>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="sphere.css" />
+    <script type="text/javascript" defer src="/components/navigation/sidenav/sidenav.js"></script>
+    <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
+    <script type="text/javascript" defer src="sphere.js"></script>
 </head>
 <body>
-    <div id="app">
-        <div class="smiley">
-            <div id="sm-w" class="smiley-wrapper" style="transform: rotateX(0deg) rotateY(0deg);">
-                <div>
-                    <div class="eye eye-left"></div>
-                    <div class="eye eye-right"></div>
-                    <div class="blush blush-left"></div>
-                    <div class="blush blush-right"></div>
-                    <div class="mouth"></div>
+    <top-nav></top-nav>
+    <div id="main-container">
+        <div id="sidenav-mobile">
+            <side-nav></side-nav>
+        </div>
+        <div id="app">
+            <div class="smiley">
+                <div id="sm-w" class="smiley-wrapper" style="transform: rotateX(0deg) rotateY(0deg);">
+                    <div>
+                        <div class="eye eye-left"></div>
+                        <div class="eye eye-right"></div>
+                        <div class="blush blush-left"></div>
+                        <div class="blush blush-right"></div>
+                        <div class="mouth"></div>
+                    </div>
                 </div>
             </div>
         </div>

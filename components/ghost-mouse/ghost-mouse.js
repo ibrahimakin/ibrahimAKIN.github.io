@@ -18,7 +18,7 @@ let loader = new THREE.TextureLoader();
 let texture, rtTexture, rtTexture2;
 loader.setCrossOrigin('anonymous');
 loader.load(
-  'https://s3-us-west-2.amazonaws.com/s.cdpn.io/982762/noise.png',
+  '/assets/images/components/noise.png',
   tex => {
     texture = tex;
     texture.wrapS = THREE.RepeatWrapping;

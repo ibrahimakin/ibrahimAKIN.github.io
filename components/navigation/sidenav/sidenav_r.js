@@ -92,20 +92,20 @@ class Sidenav extends HTMLElement {
                         <span>Blog</span>
                     </div>
                     <div class="menu">
-                        <a title="Settings" name="settings" class="filled settings icon"></a>
-                        <input class="pin-menu" type="checkbox">
+                        <a aria-label="settings" class="filled settings icon" href="#"></a>
+                        <input title="Settings" class="pin-menu" type="checkbox">
                         <div class="expand">
                             <div>
-                                <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" ${lang_support}></a>
+                                <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" href="#" ${lang_support}></a>
                                 <div>
-                                    <a title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></a>
+                                    <a title="English" lang-name="en" class="filled en icon lang-button" href="#" ${lang_support}></a>
                                 </div>
                             </div>
                         </div>
                         <span lang-tag="settings">Settings</span>
                     </div>
                     <div>
-                        <input id="collapse" type="checkbox">
+                        <input id="collapse" aria-label="collapse" type="checkbox">
                         <div class="filled back icon"></div>
                     </div>
                 </div>

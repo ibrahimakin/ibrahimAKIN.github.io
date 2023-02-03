@@ -1,45 +1,60 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000" />
+    <meta name="description" content="Rotate Animation" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rotate Animation</title>
-    <link href="../rotate-animation.css" type="text/css" rel="stylesheet" />
-    <script src="../rotate-animation.js" type="text/javascript" defer></script>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="../rotate-animation.css" />
+    <script type="text/javascript" defer src="/components/navigation/sidenav/sidenav.js"></script>
+    <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
+    <script type="text/javascript" defer src="../rotate-animation.js"></script>
 </head>
 <body>
-    <div id="drag-n-rotate" class="content">
-        <div id="sq-c">
-            <div class="square sq-m">
-                <div class="square sq-tr-m sq0t">
-                    <div class="square sq-tr sq00">
-                        <div class="square sq-l sq00"></div>
-                        <div class="square sq-r"></div>
+    <top-nav></top-nav>
+    <div id="main-container">
+        <div id="sidenav-mobile">
+            <side-nav></side-nav>
+        </div>
+        <div id="drag-n-rotate" class="content">
+            <div id="sq-c">
+                <div class="square sq-m">
+                    <div class="square sq-tr-m sq0t">
+                        <div class="square sq-tr sq00">
+                            <div class="square sq-l sq00"></div>
+                            <div class="square sq-r"></div>
+                        </div>
+                        <div class="square sq-lr sq00"></div>
+                        <div class="square sq-rr"></div>
                     </div>
-                    <div class="square sq-lr sq00"></div>
-                    <div class="square sq-rr"></div>
-                </div>
-                <div class="square sq-l"></div>
-                <div class="square sq-r"></div>
-                <div class="square sq sq0t">
                     <div class="square sq-l"></div>
                     <div class="square sq-r"></div>
-                    <div class="square sq">
+                    <div class="square sq sq0t">
                         <div class="square sq-l"></div>
                         <div class="square sq-r"></div>
+                        <div class="square sq">
+                            <div class="square sq-l"></div>
+                            <div class="square sq-r"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="rotation-buttons">
-        <div><button id="up-button">&uarr;</button></div>
-        <div>
-            <button id="left-button">&larr;</button>
-            <button id="center-button">O</button>
-            <button id="right-button">&rarr;</button>
+        <div id="rotation-buttons">
+            <div><button id="up-button">&uarr;</button></div>
+            <div>
+                <button id="left-button">&larr;</button>
+                <button id="center-button">O</button>
+                <button id="right-button">&rarr;</button>
+            </div>
+            <div><button id="down-button">&darr;</button></div>
         </div>
-        <div><button id="down-button">&darr;</button></div>
     </div>
 </body>
 </html>

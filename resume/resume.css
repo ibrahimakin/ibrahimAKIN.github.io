@@ -1,30 +1,24 @@
 :root {
     --resume-clr: #007070;
     --resume-clr-hvr: #006060;
-    --resume-txt: #fff;
+    --resume-txt: #f5f5f5;
     --nav-clr: var(--resume-clr);
 }
 
 .filled {
-    background-color: #f5f5f5;
+    background-color: var(--resume-txt);
     border: 1px solid var(--bg-clr);
     border-radius: 0;
 }
 
-#resume-container {
-    display: flex;
-    justify-content: center;
-    font-size: 0.939em;
-    height: 100%;
-    line-height: 1.5;
-}
-
 #resume-page {
     display: flex;
-    background-color: #f5f5f5;
+    font-size: 0.939em;
+    line-height: 1.5;
+    margin: auto;
     width: 85%;
     max-width: 1125px;
-    overflow: auto;
+    background-color: var(--resume-txt);
     box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
 }
 
@@ -34,17 +28,34 @@
 
 .resume-lang-option {
     padding: 5px;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
     margin-bottom: 2px;
 }
 
 #resume-leftside {
     overflow: auto;
+    position: sticky;
+    scrollbar-width: thin;
+    height: 100vh;
+    top: 0;
     width: 35%;
     padding-left: 2%;
     padding-right: 2%;
+}
+
+#resume-leftside::-webkit-scrollbar {
+    width: 8px;
+}
+
+#resume-leftside::-webkit-scrollbar-thumb {
+    background-color: #d3d3d3;
+}
+
+#resume-leftside::-webkit-scrollbar-thumb:hover {
+    background-color: #c1c1c1;
+}
+
+#resume-leftside::-webkit-scrollbar-thumb:active {
+    background-color: #aaa;
 }
 
 #resume-leftside hr {
@@ -53,7 +64,6 @@
 }
 
 #resume-rightside {
-    overflow: auto;
     width: 65%;
 }
 
@@ -112,7 +122,7 @@
 }
 
 #left-profile-image, #right-profile-image {
-    background-image: url('../assets/images/resume/ibrahimAKIN.jpg');
+    background-image: url('/assets/images/resume/ibrahimAKIN.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,9 +139,9 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: #f5f5f5;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: var(--resume-txt);
 }
 
 #contact div {
@@ -156,38 +166,38 @@
 }
 
 #mail-icon {
-    -webkit-mask-image: url('../assets/icons/resume/email.svg');
-    mask-image: url('../assets/icons/resume/email.svg');
+    -webkit-mask-image: url('/assets/icons/resume/email.svg');
+    mask-image: url('/assets/icons/resume/email.svg');
 }
 
 #phone-icon {
-    -webkit-mask-image: url('../assets/icons/resume/smartphone.svg');
-    mask-image: url('../assets/icons/resume/smartphone.svg');
+    -webkit-mask-image: url('/assets/icons/resume/smartphone.svg');
+    mask-image: url('/assets/icons/resume/smartphone.svg');
 }
 
 #location-icon {
-    -webkit-mask-image: url('../assets/icons/resume/maps-and-flags.svg');
-    mask-image: url('../assets/icons/resume/maps-and-flags.svg');
+    -webkit-mask-image: url('/assets/icons/resume/maps-and-flags.svg');
+    mask-image: url('/assets/icons/resume/maps-and-flags.svg');
 }
 
 #www-icon {
-    -webkit-mask-image: url('../assets/icons/resume/www.svg');
-    mask-image: url('../assets/icons/resume/www.svg');
+    -webkit-mask-image: url('/assets/icons/resume/www.svg');
+    mask-image: url('/assets/icons/resume/www.svg');
 }
 
 #linkedin-icon {
-    -webkit-mask-image: url('../assets/icons/resume/linkedin.svg');
-    mask-image: url('../assets/icons/resume/linkedin.svg');
+    -webkit-mask-image: url('/assets/icons/resume/linkedin.svg');
+    mask-image: url('/assets/icons/resume/linkedin.svg');
 }
 
 #github-icon {
-    -webkit-mask-image: url('../assets/icons/resume/github.svg');
-    mask-image: url('../assets/icons/resume/github.svg');
+    -webkit-mask-image: url('/assets/icons/resume/github.svg');
+    mask-image: url('/assets/icons/resume/github.svg');
 }
 
 #stackoverflow-icon {
-    -webkit-mask-image: url('../assets/icons/resume/stack-overflow.svg');
-    mask-image: url('../assets/icons/resume/stack-overflow.svg');
+    -webkit-mask-image: url('/assets/icons/resume/stack-overflow.svg');
+    mask-image: url('/assets/icons/resume/stack-overflow.svg');
 }
 
 .private-info {
@@ -301,13 +311,14 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     #resume-page {
         flex-direction: column-reverse;
     }
 
     #resume-leftside {
         overflow: unset;
+        height: 100%;
         width: 100%;
     }
 

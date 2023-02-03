@@ -42,11 +42,6 @@
     padding: var(--sidenav-gap);
 }
 
-/* #sidenav {
-    padding: var(--sidenav-gap);
-    position: relative;
-} */
-
 #sidenav .expand {
     transition: left .1s linear, height 0s linear, opacity 0s linear;
     transition-delay: 0s, .1s, .1s;

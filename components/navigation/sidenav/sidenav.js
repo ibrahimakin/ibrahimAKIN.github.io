@@ -34,7 +34,7 @@ class Sidenav extends HTMLElement {
                     </div>
                     <div></div>
                     <div class="menu">
-                        <a aria-label="projects" class="filled project icon" href="#"></a>
+                        <div class="filled project icon"></div>
                         <input title="Projects" class="pin-menu" type="checkbox">
                         <div class="expand">
                             <div>
@@ -61,7 +61,7 @@ class Sidenav extends HTMLElement {
                         <span lang-tag="projects">Projects</span>
                     </div>
                     <div class="menu">
-                        <a aria-label="games" class="filled games icon" href="#"></a>
+                        <div class="filled games icon"></div>
                         <input title="Games" class="pin-menu" type="checkbox">
                         <div class="expand">
                             <div>
@@ -92,20 +92,20 @@ class Sidenav extends HTMLElement {
                         <span>Blog</span>
                     </div>
                     <div class="menu">
-                        <a aria-label="settings" class="filled settings icon" href="#"></a>
+                        <div class="filled settings icon"></div>
                         <input title="Settings" class="pin-menu" type="checkbox">
                         <div class="expand">
                             <div>
-                                <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" href="#" ${lang_support}></a>
+                                <div title="Türkçe" lang-name="tr" class="filled tr icon lang-button" ${lang_support}></div>
                             </div>
                             <div>
-                                <a title="English" lang-name="en" class="filled en icon lang-button" href="#" ${lang_support}></a>
+                                <div title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></div>
                             </div>
                         </div>
                         <span lang-tag="settings">Settings</span>
                     </div>
                     <div>
-                        <input id="collapse" aria-label="settings" type="checkbox">
+                        <input id="collapse" aria-label="collapse" type="checkbox">
                         <div class="filled back icon"></div>
                     </div>
                 </div>
