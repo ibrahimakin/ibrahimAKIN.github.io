@@ -1,12 +1,11 @@
+body {
+    background-color: #fff;
+}
+
 .filled {
     border: 2px outset #808080;
 }
 
-.filled:active {
+.filled:active, .pin-menu:active+.filled {
     border-style: inset;
-}
-
-body {
-    background-color: #fff;
-    font-family: inherit;
 }

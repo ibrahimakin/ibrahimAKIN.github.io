@@ -3,12 +3,6 @@
     --rotate-width: 120px;
 }
 
-*, *:before, *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 #topnav, #sidenav {
     position: absolute;
 }
