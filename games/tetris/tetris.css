@@ -3,6 +3,6 @@
     border: 8px outset #eee;
 }
 
-.filled:active, .pin-menu:active+.filled {
+.filled:active, #collapse:active+.filled, .pin-menu:active+.filled {
     border-style: inset;
 }
