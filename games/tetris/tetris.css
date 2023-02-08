@@ -1,8 +1,0 @@
-.filled {
-    border-radius: 0;
-    border: 8px outset #eee;
-}
-
-.filled:active, #collapse:active+.filled, .pin-menu:active+.filled {
-    border-style: inset;
-}
