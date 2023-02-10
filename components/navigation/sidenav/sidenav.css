@@ -103,7 +103,7 @@
     /* add ::before pseude elements for Firefox Browsers */
     -moz-appearance: initial;
     appearance: initial;
-    z-index: 1;
+    z-index: 2;
 }
 
 .expand::before {
@@ -125,14 +125,14 @@
     z-index: -1;
 }
 
-.pin-menu:checked+.expand {
+.pin-menu:checked~.expand {
     height: 100%;
     left: 100%;
     opacity: 1;
     z-index: 2;
 }
 
-.pin-menu:checked+.expand::before {
+.pin-menu:checked~.expand::before {
     display: inline;
 }
 
