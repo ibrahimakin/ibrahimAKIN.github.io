@@ -49,7 +49,7 @@
 .icon-8:hover, .icon-7:hover, .icon-6:hover,
 .icon-5:hover, .icon-4:hover, .icon-3:hover,
 .icon-2:hover, .icon-1:hover {
-  fill: #0e1a25;
+  fill: #000;
   border-radius: 100%;
   transform: scale(1.25);
   transition: background-color .5s, transform .5s ease-out;
@@ -150,3 +150,116 @@
 
 .icon-32 { fill: #d96e26; }
 .icon-32:hover { background-color: #d96e26; }
+
+.filled {
+  border: 1px solid #fff;
+  box-shadow: inset calc(var(--sidenav-width) - 2 * var(--sidenav-gap)) 0 0 0 #000;
+  transition: box-shadow .1s ease-out;
+}
+
+.expand .filled {
+  box-shadow: inset calc(2 * var(--sidenav-gap) - var(--sidenav-width)) 0 0 0 #000;
+}
+
+#collapse:hover+.filled,
+.pin-menu:hover+.filled,
+.main .filled:hover {
+  box-shadow: inset 0 0 0 0 #000;
+}
+
+.icon::before {
+  transition: transform .2s ease-out;
+}
+
+.expand::before {
+  background-color: #fff;
+}
+
+.main>div:nth-child(1)>.filled,
+.main>div:nth-child(1)>.icon::before {
+  background-color: #26d991;
+}
+.menu:nth-child(3)>.filled,
+.menu:nth-child(3)>.icon::before {
+  background-color: #b5d926;
+}
+.menu:nth-child(3)>.expand>div:nth-child(1)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(1)>.filled {
+  background-color: #d9aa26;
+}
+.menu:nth-child(3)>.expand>div:nth-child(2)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(2)>.filled {
+  background-color: #f94040;
+}
+.menu:nth-child(3)>.expand>div:nth-child(3)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(3)>.filled {
+  background-color: #ff7b0a;
+}
+.menu:nth-child(3)>.expand>div:nth-child(4)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(4)>.filled {
+  background-color: #26d94a;
+}
+.menu:nth-child(3)>.expand>div:nth-child(5)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(5)>.filled {
+  background-color: #39c5a4;
+}
+.menu:nth-child(4)>.filled,
+.menu:nth-child(4)>.icon::before {
+  background-color: #26d926;
+}
+.menu:nth-child(4)>.expand>div:nth-child(1)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(1)>.filled {
+  background-color: #26d9b5;
+}
+.menu:nth-child(4)>.expand>div:nth-child(2)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(2)>.filled {
+  background-color: #d9d326;
+}
+.menu:nth-child(4)>.expand>div:nth-child(3)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(3)>.filled {
+  background-color: #7c39ff;
+}
+.menu:nth-child(4)>.expand>div:nth-child(4)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(4)>.filled {
+  background-color: #d96e26;
+}
+.main>div:nth-child(5)>.filled,
+.main>div:nth-child(5)>.icon::before {
+  background-color: #2691d9;
+}
+.main>div:nth-child(6)>.filled,
+.main>div:nth-child(6)>.icon::before {
+  background-color: #d94a26;
+}
+.main>div:nth-child(7)>.filled,
+.main>div:nth-child(7)>.icon::before {
+  background-color: #6ed926;
+}
+.menu:nth-child(7)>.expand>div:nth-child(1)>.icon::before,
+.menu:nth-child(8)>.expand>div:nth-child(1)>.icon::before {
+  background-color: #2691d9;
+}
+.menu:nth-child(7)>.expand>div:nth-child(2)>.icon::before,
+.menu:nth-child(8)>.expand>div:nth-child(2)>.icon::before {
+  background-color: #2691d9;
+}
+.main>div:nth-child(8)>.filled,
+.main>div:nth-child(8)>.icon::before {
+  background-color: #2ead61;
+}
+
+.main>.menu>.expand .filled:hover.icon::before,
+.main .pin-menu:hover+.icon::before,
+.main .filled:hover.icon::before {
+  background-color: #000;
+  transform: scale(1.25) translateY(-5px);
+}
+
+#topnav .filled:hover.icon::before {
+  transform: scale(1.25);
+}
+
+#collapse:hover+.icon::before {
+  background-color: #000;
+  transform: scale(1.25);
+}

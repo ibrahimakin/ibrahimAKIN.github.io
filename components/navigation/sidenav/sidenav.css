@@ -55,6 +55,7 @@
 
 #sidenav .main div>span {
     overflow: hidden;
+    user-select: none;
     position: absolute;
     text-align: center;
     pointer-events: none;

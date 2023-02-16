@@ -49,6 +49,7 @@ h2 {
 .highlite {
     position: relative;
     background-color: hsl(220, 16%, 14%);
+    scrollbar-width: thin;
     overflow: auto;
 }
 

@@ -1,9 +1,0 @@
-:root {
-    --bg-clr: var(--movies-clr);
-    --nav-clr: var(--movies-clr);
-}
-
-.filled {
-    border: 1px solid var(--movies-clr);
-    border-radius: 0;
-}

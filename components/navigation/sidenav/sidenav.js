@@ -51,7 +51,7 @@ class Sidenav extends HTMLElement {
                             </div>
                             <div>
                                 <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
-                                <span lang-tag="movies">Movies</span>
+                                <span lang-tag="nav_movies">Movies</span>
                             </div>
                             <div>
                                 <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator"></a>

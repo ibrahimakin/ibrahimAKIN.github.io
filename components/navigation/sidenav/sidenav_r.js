@@ -48,7 +48,7 @@ class Sidenav extends HTMLElement {
                                         <span lang-tag="face_detector">Face Detector</span>
                                         <div>
                                             <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
-                                            <span lang-tag="movies">Movies</span>
+                                            <span lang-tag="nav_movies">Movies</span>
                                             <div>
                                                 <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator"></a>
                                                 <span lang-tag="lcd">LCD Character Generator</span>
