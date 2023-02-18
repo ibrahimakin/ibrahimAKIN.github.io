@@ -94,7 +94,7 @@ class Sidenav extends HTMLElement {
                     <div class="menu">
                         <div class="filled settings icon"></div>
                         <input title="Settings" class="pin-menu" type="checkbox">
-                        <div class="expand">
+                        <div class="expand more" style="--extra:1">
                             <div>
                                 <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" href="#" ${lang_support}></a>
                                 <div>

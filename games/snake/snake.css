@@ -1,3 +1,14 @@
+.filled {
+    border: 2px outset buttonborder;
+    border-radius: 0;
+}
+
+#collapse:active+.filled,
+.pin-menu:active+.filled,
+.filled:active {
+    border-style: inset;
+}
+
 #content-container {
     display: flex;
     justify-content: center;

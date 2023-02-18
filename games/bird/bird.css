@@ -1,7 +1,13 @@
 .filled {
     background-color: rgb(206 208 210);
-    border: 1px solid #fff;
+    border: 2px outset #fff;
     border-radius: 0;
+}
+
+#collapse:active+.filled,
+.pin-menu:active+.filled,
+.filled:active {
+    border-style: inset;
 }
 
 #content-container {
