@@ -55,10 +55,12 @@
 
 #sidenav .main div>span {
     overflow: hidden;
+    user-select: none;
     position: absolute;
     text-align: center;
     pointer-events: none;
     color: var(--nav-clr);
+    font-family: Times, serif;
     bottom: var(--sidenav-gap);
     width: calc(100% - 2 * var(--sidenav-gap));
     transition: opacity .15s linear;

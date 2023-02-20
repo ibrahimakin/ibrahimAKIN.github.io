@@ -48,7 +48,7 @@ class Sidenav extends HTMLElement {
                                         <span lang-tag="face_detector">Face Detector</span>
                                         <div>
                                             <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
-                                            <span lang-tag="movies">Movies</span>
+                                            <span lang-tag="nav_movies">Movies</span>
                                             <div>
                                                 <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator"></a>
                                                 <span lang-tag="lcd">LCD Character Generator</span>
@@ -94,7 +94,7 @@ class Sidenav extends HTMLElement {
                     <div class="menu">
                         <div class="filled settings icon"></div>
                         <input title="Settings" class="pin-menu" type="checkbox">
-                        <div class="expand">
+                        <div class="expand more" style="--extra:1">
                             <div>
                                 <a title="Türkçe" lang-name="tr" class="filled tr icon lang-button" href="#" ${lang_support}></a>
                                 <div>

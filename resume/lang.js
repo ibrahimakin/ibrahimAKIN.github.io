@@ -1,6 +1,6 @@
 const lang_obj = {
     tr: {
-        turkey: 'Türkiye',
+        turkiye: 'Türkiye',
         skills: 'YETENEKLER',
         software_development: 'Yazılım Geliştirme',
         interests: 'İLGİ ALANLARI',
@@ -60,7 +60,7 @@ const lang_obj = {
         project: 'Proje'
     },
     en: {
-        turkey: 'Turkey',
+        turkiye: 'Turkiye',
         skills: 'SKILLS',
         software_development: 'Software Development',
         interests: 'INTERESTS',

@@ -1,3 +1,18 @@
+#sidenav-mobile {
+    display: flex;
+}
+
+side-nav {
+    max-height: 630px;
+    height: 100%;
+    margin: auto 0;
+    position: relative;
+}
+
+#sidenav {
+    width: var(--sidenav-width);
+}
+
 #sidenav .expand {
     transition: unset;
     transition-delay: .2s;
@@ -7,6 +22,10 @@
     bottom: unset;
     margin-top: calc(-2 * var(--sidenav-gap));
     width: 100%;
+}
+
+.sub {
+    grid-template-rows: repeat(7, 1fr);
 }
 
 .expand>div div {

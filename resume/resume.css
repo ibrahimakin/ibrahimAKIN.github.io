@@ -11,6 +11,14 @@
     border-radius: 0;
 }
 
+#collapse:hover+.filled,
+.pin-menu:hover+.filled,
+.pin-menu:hover~span,
+.filled:hover+span,
+.filled:hover {
+    --nav-clr: var(--resume-clr-hvr);
+}
+
 #resume-page {
     display: flex;
     font-size: 0.939em;
