@@ -1,0 +1,61 @@
+#content-container {
+    color: #fff;
+}
+
+#content-container>div {
+    display: flex;
+    margin: auto;
+    max-width: 1440px;
+}
+
+#content-container>div:last-child {
+    flex-direction: column;
+}
+
+#content-container>div>div {
+    margin: auto;
+}
+
+#restxt {
+    position: absolute;
+    left: -100%;
+}
+
+#copy+div {
+    margin-bottom: 15px;
+    text-align: center;
+    opacity: 0;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+label {
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+
+label>input {
+    cursor: pointer;
+}
+
+textarea {
+    padding: 5px;
+    height: 200px;
+    width: 400px;
+    margin: 25px;
+}
+
+button {
+    display: block;
+    margin: 20px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}

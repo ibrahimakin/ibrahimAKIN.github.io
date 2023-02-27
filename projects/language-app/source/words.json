@@ -607,6 +607,12 @@
     "tr_s": ""
 }, {
     "type": "word",
+    "en": "intuitive",
+    "tr": "sezgisel",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
     "en": "cumbersome",
     "tr": "kullanışsız, elverişsiz",
     "en_s": "",
@@ -896,6 +902,24 @@
     "type": "word",
     "en": "lighthouse",
     "tr": "deniz feneri",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "resent",
+    "tr": "gücenmek",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "idiom",
+    "tr": "deyim",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "parade",
+    "tr": "geçit töreni",
     "en_s": "",
     "tr_s": ""
 }]
