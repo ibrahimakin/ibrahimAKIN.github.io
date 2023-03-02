@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#000" />
+    <meta name="description" content="Language Application" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Language App</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="manifest" href="../manifest.json" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="create.css" />
+    <script type="text/javascript" src="/components/navigation/sidenav/sidenav.js"></script>
+    <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
+    <script type="text/javascript" defer src="create.js"></script>
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <top-nav></top-nav>
+    <div id="main-container">
+        <div id="sidenav-mobile">
+            <side-nav></side-nav>
+        </div>
+        <div id="content-container">
+            <div>
+                <div>
+                    <label>
+                        <input name="type" type="radio" onchange="handleCheck(this)" value="sentence" checked>
+                        Sentence
+                    </label>
+                    <label>
+                        <input name="type" type="radio" onchange="handleCheck(this)" value="word">
+                        Word
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>En</div>
+                    <textarea id="en" autofocus></textarea>
+                </div>
+                <div>
+                    <button id="enb"> &gt; </button>
+                    <button id="trb"> &lt; </button>
+                </div>
+                <div>
+                    <div>Tr</div>
+                    <textarea id="tr"></textarea>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <td><label for="img">image</label></td>
+                    <td><input id="img"></td>
+                </tr>
+                <tr>
+                    <td><label for="quo">quotes</label></td>
+                    <td><input id="quo"></td>
+                </tr>
+                <tr id="definition" style="display:none">
+                    <td><label for="def">definition</label></td>
+                    <td><input id="def"></td>
+                </tr>
+            </table>
+            <div>
+                <div>Result</div>
+                <div>
+                    <button id="copy">copy</button>
+                    <div>copied</div>
+                </div>
+                <div>
+                    <pre id="result">
+, {
+    "type": "sentence",
+    "en": "",
+    "tr": "",
+    "en_s": "",
+    "tr_s": ""
+}</pre>
+                </div>
+                <textarea id="restxt"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

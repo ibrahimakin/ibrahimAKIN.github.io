@@ -8,7 +8,7 @@ const lang_obj = {
         game_over: 'Oyun Bitti',
         high_score: 'En Yuksek Skor',
         max_rows: 'Max Rows',
-        pause_game: 'Durdur',
+        pause_game: 'Duraklat',
         resume_game: 'Devam Et',
         home: 'Anasayfa',
         projects: 'Projeler',
