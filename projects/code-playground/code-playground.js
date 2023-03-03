@@ -43,15 +43,15 @@ instantRun.addEventListener('change', e => insantCompile = e.target.checked);
 		<h2>Code Playground</h2>
 	</div>
 	<div><h2 class="head">Code Playground</h2></div>
+	<div><h2>Code Playground</h2></div>
 	<div><h2 class="head">Code Playground</h2></div>
+	<div><h2>Code Playground</h2></div>
 	<div><h2 class="head">Code Playground</h2></div>
+	<div><h2>Code Playground</h2></div>
 	<div><h2 class="head">Code Playground</h2></div>
+	<div><h2>Code Playground</h2></div>
 	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2 class="head">Code Playground</h2></div>
+	<div><h2>Code Playground</h2></div>
 </div>
 `);
 
