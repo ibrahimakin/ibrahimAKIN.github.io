@@ -922,4 +922,50 @@
     "tr": "geçit töreni",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "word",
+    "en": "nudge",
+    "tr": "dürtmek",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/language-app/source/img/nudge.gif",
+    "def": "prod (someone) gently, typically with one's elbow, in order to draw their attention to something."
+}, {
+    "type": "word",
+    "en": "barter",
+    "tr": "takas",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "dash",
+    "tr": "hızlı koşma",
+    "en_s": "",
+    "tr_s": "",
+    "def": "run or travel somewhere in a great hurry."
+}, {
+    "type": "word",
+    "en": "bandit",
+    "tr": "haydut",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "crib",
+    "tr": "beşik",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/language-app/source/img/crib.jpg"
+}, {
+    "type": "word",
+    "en": "rack",
+    "tr": "raf",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "conduct",
+    "tr": "yönetmek",
+    "en_s": "",
+    "tr_s": ""
 }]
