@@ -786,7 +786,7 @@
 }, {
     "type": "word",
     "en": "conservative",
-    "tr": "tutucu",
+    "tr": "muhafazakâr",
     "en_s": "",
     "tr_s": ""
 }, {
@@ -968,4 +968,25 @@
     "tr": "yönetmek",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "word",
+    "en": "bankrupt",
+    "tr": "iflas etmiş",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/language-app/source/img/bankrupt.gif"
+}, {
+    "type": "word",
+    "en": "gossip",
+    "tr": "dedikodu",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/language-app/source/img/gossip.gif"
+}, {
+    "type": "word",
+    "en": "rumor",
+    "tr": "söylenti",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/language-app/source/img/rumor.gif"
 }]
