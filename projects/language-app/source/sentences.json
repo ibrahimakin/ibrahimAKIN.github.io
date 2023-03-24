@@ -1029,4 +1029,42 @@
     "tr": "Sesin kesiliyor.",
     "en_s": "",
     "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "How is the course handled?",
+    "tr": "Kurs nasıl işlenir?",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Do those shoes come in white?",
+    "tr": "Bu ayakkabıların beyazı var mı?",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/language-app/source/img/shoes.gif"
+}, {
+    "type": "sentence",
+    "en": "I didn't see that coming!",
+    "tr": "Bunun olacağını tahmin edemedim!",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "We've come here for lunch.",
+    "tr": "Öğle yemeği için buraya geldik.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "It gets your spirit down.",
+    "tr": "Bu moralinizi bozar.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Spill the tea.",
+    "tr": "Dedikoduyu ver.",
+    "en_s": "",
+    "tr_s": "",
+    "img": "/projects/language-app/source/img/tea.gif"
 }]

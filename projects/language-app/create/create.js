@@ -9,7 +9,7 @@ let img = '', quo = '', def = '';
 let type = 'sentence';
 
 function handleChange() {
-    let image = img.length && img.trim().length ? `,\n    "img": "${img}"` : '';
+    let image = img.length && img.trim().length ? `,\n    "img": "/projects/language-app/source/img/${img}"` : '';
     let quote = quo.length && quo.trim().length ? `,\n    "quotes": "${quo}"` : '';
     let defin = def.length && def.trim().length ? `,\n    "def": "${def}"` : '';
     result.innerText = `, {
