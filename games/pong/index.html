@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Pong Game</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="pong.css" />
+    <script type="text/javascript" src="/components/navigation/sidenav/sidenav.js"></script>
+    <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
+    <script type="text/javascript" defer src="/script.js"></script>
+</head>
+<body>
+    <top-nav></top-nav>
+    <div id="main-container">
+        <div id="sidenav-mobile">
+            <side-nav></side-nav>
+        </div>
+        <div id="content-container">
+            <div>
+                <div class="spinner" id='spinner'></div>
+                <div class="emscripten" id="status">Downloading...</div>
+                <div class="emscripten">
+                    <progress value="0" max="100" id="progress" hidden=1></progress>
+                </div>
+            </div>
+            <div id="canvas-container">
+                <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+            </div>
+            <textarea id="output" rows="8"></textarea>
+        </div>
+    </div>
+    <script type="text/javascript" src="pong.js"></script>
+    <script type="text/javascript" src="index.js" async></script>
+</body>
+</html>

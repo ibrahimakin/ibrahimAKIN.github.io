@@ -1,3 +1,6 @@
-#content-container{display:block;padding:1em}
+.filled{background-color:rgb(239,239,239);border-radius:0}
+#content-container{padding:1em}
+body{background-color:rgba(128,128,128,.5)}
 p{margin-block-start:1em;margin-block-end:1em}
 ul{margin-block-start:1em;margin-block-end:1em;padding-inline-start:40px}
+a{text-decoration:none}
