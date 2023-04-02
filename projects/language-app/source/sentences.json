@@ -1067,4 +1067,196 @@
     "en_s": "",
     "tr_s": "",
     "img": "/projects/language-app/source/img/tea.gif"
+}, {
+    "type": "sentence",
+    "en": "Let's break out fast.",
+    "tr": "Hadi orucumuzu açalım.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Save it!",
+    "tr": "Kendine sakla!",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Can you give me directions to Margaret Mitchell Square?",
+    "tr": "Margaret Mitchell Meydanı için bana yol tarifi verebilir misin?",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I've seen better days.",
+    "tr": "Daha iyi günlerim oldu.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I forgive you.",
+    "tr": "Seni affediyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I wonder why.",
+    "tr": "Acaba neden.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I'm getting nervous.",
+    "tr": "Gerginleşmeye başlıyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "This is so humiliating.",
+    "tr": "Bu çok küçük düşürücü.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "This is the last straw.",
+    "tr": "Bu bardağı taşıran son damlaydı.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "They were fasting for Ramadan.",
+    "tr": "Ramazan için oruç tutuyorlardı.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "It's a tough question.",
+    "tr": "Bu zor bir soru.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Turn to page 394.",
+    "tr": "Sayfa 394'ü açın.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "You have a point.",
+    "tr": "İyi bir noktaya değindin.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Do you have this in the next size up?",
+    "tr": "Bunun bir büyük bedeni var mı?",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Please don't make a scene.",
+    "tr": "Lütfen olay çıkarma.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Do you have them in my size?",
+    "tr": "Benim bedenimde var mı?",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I'm so sorry for your loss.",
+    "tr": "Başınız sağolsun.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "You are annoying me.",
+    "tr": "Beni sinir ediyorsun.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "It always puts me in a bad mood.",
+    "tr": "Benim her zaman moralimi bozuyor.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "It really hurt my feelings.",
+    "tr": "Duygularımı gerçekten incitti.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Hold the onions.",
+    "tr": "Soğanları çıkarın.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Have a good one.",
+    "tr": "İyi günler.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "She's blushing.",
+    "tr": "Yüzü kızarıyor.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Could I have a word?",
+    "tr": "Bir şey konuşabilir miyim?",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "My phone just went off.",
+    "tr": "Az önce telefonum çaldı.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I'd like to try it on.",
+    "tr": "Bunu denemek istiyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I'm going to lose my temper now.",
+    "tr": "Şimdi tepem atacak.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Money doesn't grow on trees.",
+    "tr": "Para ağaçta yetişmez.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "Don't be so hard on yourself.",
+    "tr": "Kendine bu kadar katı davranma.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I can't stand this place anymore.",
+    "tr": "Artık bu yere katlanamıyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "I'm trying to fit into this super tiny dress.",
+    "tr": "Bu daracık elbisenin içine sığmaya çalışıyorum.",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "sentence",
+    "en": "You crack me up.",
+    "tr": "Beni gülmekten öldüreceksin.",
+    "en_s": "",
+    "tr_s": ""
 }]
