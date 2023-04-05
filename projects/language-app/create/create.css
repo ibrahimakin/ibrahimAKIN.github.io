@@ -55,7 +55,7 @@ textarea {
 
 button {
     display: block;
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 5px 10px;
     cursor: pointer;
 }

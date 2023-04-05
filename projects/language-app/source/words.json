@@ -989,4 +989,90 @@
     "en_s": "",
     "tr_s": "",
     "img": "/projects/language-app/source/img/rumor.gif"
+}, {
+    "type": "word",
+    "en": "dairy",
+    "tr": "süt ve süt ürünleri",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "disinterested",
+    "tr": "önyargısız, tarafsız",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "apprehensive",
+    "tr": "endişeli",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "amusing",
+    "tr": "eğlenceli, komik",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "condolence",
+    "tr": "taziye",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "averse",
+    "tr": "isteksiz, karşı olan",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "transform",
+    "tr": "dönüştürmek",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "decent",
+    "tr": "düzgün, usturuplu",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "psyched",
+    "tr": "heyecanlı",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "analysis",
+    "tr": "analiz",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "holy",
+    "tr": "kutsal",
+    "en_s": "",
+    "tr_s": "",
+    "def": "dedicated or consecrated to God or a religious purpose; sacred."
+}, {
+    "type": "word",
+    "en": "dispute",
+    "tr": "anlaşmazlık",
+    "en_s": "",
+    "tr_s": "",
+    "def": "a disagreement, argument, or debate."
+}, {
+    "type": "word",
+    "en": "dearest",
+    "tr": "en sevilen",
+    "en_s": "",
+    "tr_s": ""
+}, {
+    "type": "word",
+    "en": "crack one up",
+    "tr": "gülmekten ölmek",
+    "en_s": "",
+    "tr_s": ""
 }]

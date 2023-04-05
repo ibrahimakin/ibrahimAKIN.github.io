@@ -28,6 +28,10 @@ function handleCheck(radio) {
     handleChange();
 }
 
+document.getElementById('tsl').addEventListener('click', () => {
+    window.open('https://translate.google.com/?sl=en&tl=tr&text=' + escape(en.value), '_blank');
+});
+
 document.getElementById('enb').addEventListener('click', () => {
     fetch('https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=tr&dt=bd&dt=t&dj=1&q=' + en_value)
         .then(res => res.json())
