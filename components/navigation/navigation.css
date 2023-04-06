@@ -151,6 +151,11 @@
     mask-image: url('/assets/icons/navbar/tic-tac-toe.svg');
 }
 
+.pong::before {
+    -webkit-mask-image: url('/assets/icons/navbar/ping-pong.svg');
+    mask-image: url('/assets/icons/navbar/ping-pong.svg');
+}
+
 .resume::before {
     -webkit-mask-image: url('/assets/icons/navbar/resume-and-cv.svg');
     mask-image: url('/assets/icons/navbar/resume-and-cv.svg');

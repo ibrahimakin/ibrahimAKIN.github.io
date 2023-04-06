@@ -10,21 +10,16 @@
     width: 60%;
 }
 
+#canvas {
+    border-radius: 5px;
+}
+
 .emscripten {
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-
-div.emscripten {
     text-align: center;
-}
-
-/* the canvas *must not* have any border or padding, or mouse coords will be wrong */
-canvas.emscripten {
-    border: 0px none;
-    background-color: black;
 }
 
 .spinner {
@@ -102,14 +97,6 @@ canvas.emscripten {
 #progress {
     height: 20px;
     width: 300px;
-}
-
-#controls {
-    display: inline-block;
-    float: right;
-    vertical-align: top;
-    margin-top: 30px;
-    margin-right: 20px;
 }
 
 #output {

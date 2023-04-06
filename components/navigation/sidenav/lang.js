@@ -7,6 +7,7 @@ lang_obj.tr = {
     face_detector: 'Yüz Tanıyıcı',
     games: 'Oyunlar',
     xox: 'XOX',
+    pong: 'Pin Pon',
     resume: 'Özgeçmiş',
     settings: 'Ayarlar'
 };
@@ -19,6 +20,7 @@ lang_obj.en = {
     face_detector: 'Face Detector',
     games: 'Games',
     xox: 'Tic Tac Toe',
+    pong: 'Ping Pong',
     resume: 'Resume',
     settings: 'Settings'
 };

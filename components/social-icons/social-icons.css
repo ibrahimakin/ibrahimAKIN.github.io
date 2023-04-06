@@ -223,6 +223,10 @@
 .menu:nth-child(4)>.expand>div:nth-child(4)>.filled {
   background-color: #d96e26;
 }
+.menu:nth-child(4)>.expand>div:nth-child(5)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(5)>.filled {
+  background-color: #ff3636;
+}
 .main>div:nth-child(5)>.filled,
 .main>div:nth-child(5)>.icon::before {
   background-color: #2691d9;

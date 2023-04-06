@@ -80,6 +80,10 @@ class Sidenav extends HTMLElement {
                                 <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe"></a>
                                 <span lang-tag="xox">Tic Tac Toe</span>
                             </div>
+                            <div>
+                                <a title="Ping Pong" class="filled pong icon" href="/games/pong"></a>
+                                <span lang-tag="pong">Ping Pong</span>
+                            </div>
                         </div>
                         <span lang-tag="games">Games</span>
                     </div>

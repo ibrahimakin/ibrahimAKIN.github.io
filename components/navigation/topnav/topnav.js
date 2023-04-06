@@ -40,6 +40,9 @@ class Topnav extends HTMLElement {
                         <div>
                             <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe"></a>
                         </div>
+                        <div>
+                            <a title="Ping Pong" class="filled pong icon" href="/games/pong"></a>
+                        </div>
                     </div>
                 </div>
                 <div>
