@@ -87,7 +87,10 @@ void loop()
     // Check for collisions with paddles
     if (SDL_HasIntersection(&ball, &leftPaddle) || SDL_HasIntersection(&ball, &rightPaddle))
     {
-        ballXVel = -(ballXVel + (ballXVel > 0 ? 1 : -1));
+        if (21 > ballXVel && ballXVel > -21)
+            ballXVel = -(ballXVel + (ballXVel > 0 ? 1 : -1));
+        else
+            ballXVel = -ballXVel;
     }
 
     // Check for game over
