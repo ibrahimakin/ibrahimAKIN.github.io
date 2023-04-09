@@ -24,13 +24,13 @@
         <div id="content-container">
             <div>
                 <div class="spinner" id="spinner"></div>
-                <div class="emscripten" id="status">Downloading...</div>
+                <div id="status">Downloading...</div>
                 <div class="emscripten">
                     <progress value="0" max="100" id="progress" hidden=1></progress>
                 </div>
             </div>
             <div id="canvas-container">
-                <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
+                <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1 width="800" height="600"></canvas>
             </div>
             <textarea id="output" rows="8"></textarea>
         </div>
