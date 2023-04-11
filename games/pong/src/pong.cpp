@@ -87,7 +87,10 @@ void loop()
     // Check for collisions with paddles
     if (SDL_HasIntersection(&ball, &leftPaddle) || SDL_HasIntersection(&ball, &rightPaddle))
     {
-        ballXVel = -(ballXVel + (ballXVel > 0 ? 1 : -1));
+        if (21 > ballXVel && ballXVel > -21)
+            ballXVel = -(ballXVel + (ballXVel > 0 ? 1 : -1));
+        else
+            ballXVel = -ballXVel;
     }
 
     // Check for game over
@@ -137,7 +140,7 @@ int main(int argc, char *argv[])
     }
 
     // Create window
-    window = SDL_CreateWindow("Pong", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
+    window = SDL_CreateWindow("Ping Pong", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
                               SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
     if (window == nullptr)
     {
