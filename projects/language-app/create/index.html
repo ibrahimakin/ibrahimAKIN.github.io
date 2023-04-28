@@ -42,6 +42,8 @@
                 <div>
                     <div>En</div>
                     <textarea id="en" autofocus></textarea>
+                    <div>Found.</div>
+                    <button id="enf">Find</button>
                 </div>
                 <div>
                     <button id="tsl"> &#8625; </button>
@@ -51,36 +53,38 @@
                 <div>
                     <div>Tr</div>
                     <textarea id="tr"></textarea>
+                    <div>Found.</div>
+                    <button id="trf">Find</button>
                 </div>
             </div>
             <table>
                 <tr>
                     <td><label for="img">image</label></td>
                     <td><input id="img"></td>
+                    <td><button id="imgd">X</button></td>
                 </tr>
-                <tr>
-                    <td><label for="quo">quotes</label></td>
+                <tr id="quote">
+                    <td><label for="quo">quote</label></td>
                     <td><input id="quo"></td>
+                    <td><button id="quod">X</button></td>
                 </tr>
                 <tr id="definition" style="display:none">
                     <td><label for="def">definition</label></td>
                     <td><input id="def"></td>
+                    <td><button id="defd">X</button></td>
                 </tr>
             </table>
             <div>
                 <div>Result</div>
                 <div>
-                    <button id="copy">copy</button>
-                    <div>copied</div>
+                    <button id="copy">Copy</button>
+                    <div>Copied.</div>
                 </div>
                 <div>
                     <pre id="result">
 , {
-    "type": "sentence",
     "en": "",
-    "tr": "",
-    "en_s": "",
-    "tr_s": ""
+    "tr": ""
 }</pre>
                 </div>
                 <textarea id="restxt"></textarea>

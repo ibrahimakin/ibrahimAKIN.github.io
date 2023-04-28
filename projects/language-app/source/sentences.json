@@ -1,1268 +1,676 @@
 [{
-    "type": "sentence",
     "en": "This is the village in which my father was born.",
-    "tr": "Bu benim babamın doğduğu köy.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu benim babamın doğduğu köy."
 }, {
-    "type": "sentence",
     "en": "Whom do we pay?",
-    "tr": "Biz kime öderiz?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Biz kime öderiz?"
 }, {
-    "type": "sentence",
     "en": "Nobody knows where she came from.",
-    "tr": "Kimse onun nereden geldiğini bilmiyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kimse onun nereden geldiğini bilmiyor."
 }, {
-    "type": "sentence",
     "en": "It is the city of which I told you.",
-    "tr": "O sana bahsettiğim şehir.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "O sana bahsettiğim şehir."
 }, {
-    "type": "sentence",
     "en": "We know whose it is.",
-    "tr": "Biz onun kimin olduğunu biliyoruz.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Biz onun kimin olduğunu biliyoruz."
 }, {
-    "type": "sentence",
     "en": "I know where I am.",
-    "tr": "Ben nerede olduğumu biliyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ben nerede olduğumu biliyorum."
 }, {
-    "type": "sentence",
     "en": "The man, whose son is here, is in the house as well.",
-    "tr": "Oğlu burada olan adam da evde.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Oğlu burada olan adam da evde."
 }, {
-    "type": "sentence",
     "en": "The child who is not born.",
-    "tr": "Doğmamış çocuk.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Doğmamış çocuk."
 }, {
-    "type": "sentence",
     "en": "I have a friend whose father is a teacher.",
-    "tr": "Babası öğretmen olan bir arkadaşım var.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Babası öğretmen olan bir arkadaşım var."
 }, {
-    "type": "sentence",
     "en": "What was she thinking of doing?",
-    "tr": "O ne yapmayı düşünüyordu?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "O ne yapmayı düşünüyordu?"
 }, {
-    "type": "sentence",
     "en": "I saw him running.",
-    "tr": "Onu koşarken gördüm.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Onu koşarken gördüm."
 }, {
-    "type": "sentence",
     "en": "The children entered running.",
-    "tr": "Çocuklar koşarak girdiler.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Çocuklar koşarak girdiler."
 }, {
-    "type": "sentence",
     "en": "You are getting big. / You are growing.",
-    "tr": "Sen büyüyorsun.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sen büyüyorsun."
 }, {
-    "type": "sentence",
     "en": "She is afraid of having to leave.",
-    "tr": "Gitmek zorunda olmaktan korkuyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Gitmek zorunda olmaktan korkuyor."
 }, {
-    "type": "sentence",
     "en": "I am getting tired.",
-    "tr": "Ben yoruluyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ben yoruluyorum."
 }, {
-    "type": "sentence",
     "en": "Are you having a baby?",
-    "tr": "Sizin bir bebeğiniz mi oluyor?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sizin bir bebeğiniz mi oluyor?"
 }, {
-    "type": "sentence",
     "en": "Any bed is better than not having a bed.",
-    "tr": "Herhangi bir yatak, bir yatağa sahip olmamaktan daha iyidir.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Herhangi bir yatak, bir yatağa sahip olmamaktan daha iyidir."
 }, {
-    "type": "sentence",
     "en": "He is talking of going to Spain this winter.",
-    "tr": "Bu kış İspanya'ya gitmekten bahsediyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu kış İspanya'ya gitmekten bahsediyor."
 }, {
-    "type": "sentence",
     "en": "Feed on them.",
-    "tr": "Onlarla beslen.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Onlarla beslen."
 }, {
-    "type": "sentence",
     "en": "You wrote what you were told.",
-    "tr": "Sana söyleneni yazdın.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sana söyleneni yazdın."
 }, {
-    "type": "sentence",
     "en": "A doctor found him and cured him.",
-    "tr": "Bir doktor onu buldu ve iyileştirdi.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bir doktor onu buldu ve iyileştirdi."
 }, {
-    "type": "sentence",
     "en": "How did I not think of that.",
-    "tr": "Bunu nasıl düşünemedim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bunu nasıl düşünemedim."
 }, {
-    "type": "sentence",
     "en": "Different strokes for different folks.",
-    "tr": "Zevkler ve renkler meselesi.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Zevkler ve renkler meselesi."
 }, {
-    "type": "sentence",
     "en": "I should have told the truth.",
-    "tr": "Doğruyu söylemeliydim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Doğruyu söylemeliydim."
 }, {
-    "type": "sentence",
     "en": "Lost track of time.",
-    "tr": "Zamanın nasıl geçtiğini anlayamamak.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Zamanın nasıl geçtiğini anlayamamak."
 }, {
-    "type": "sentence",
     "en": "Please don't make things up.",
-    "tr": "Lütfen bir şeyler uydurma.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Lütfen bir şeyler uydurma."
 }, {
-    "type": "sentence",
     "en": "I am stuffed.",
-    "tr": "Tıka basa doydum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Tıka basa doydum."
 }, {
-    "type": "sentence",
     "en": "I object.",
-    "tr": "İtiraz ediyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İtiraz ediyorum."
 }, {
-    "type": "sentence",
     "en": "Have you ever made a snowman?",
     "tr": "Hiç kardan adam yaptın mı?",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/snowman.gif"
 }, {
-    "type": "sentence",
     "en": "I'm under a lot of pressure.",
-    "tr": "Çok baskı altındayım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Çok baskı altındayım."
 }, {
-    "type": "sentence",
     "en": "Dig in!",
-    "tr": "Gömül! (yemeğe)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Gömül! (yemeğe)"
 }, {
-    "type": "sentence",
     "en": "Take your share.",
-    "tr": "Payına düşeni al.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Payına düşeni al."
 }, {
-    "type": "sentence",
     "en": "Can I have a second serving?",
-    "tr": "İkinci bir tabak alabilir miyim?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İkinci bir tabak alabilir miyim?"
 }, {
-    "type": "sentence",
     "en": "Let's go on a spending spree.",
-    "tr": "Hadi bir harcama çılgınlığı yapalım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Hadi bir harcama çılgınlığı yapalım."
 }, {
-    "type": "sentence",
     "en": "These are rip-offs.",
-    "tr": "Çok kazıklar.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Çok kazıklar."
 }, {
-    "type": "sentence",
     "en": "The food is going to get cold.",
-    "tr": "Yemek soğuyacak.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yemek soğuyacak."
 }, {
-    "type": "sentence",
     "en": "The manager came up with a new way for us to increase the sales.",
-    "tr": "Yönetici, satışları artırmamız için yeni bir yol buldu.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yönetici, satışları artırmamız için yeni bir yol buldu."
 }, {
-    "type": "sentence",
     "en": "I wonder what Liz has up his sleeve for my birthday celebration.",
-    "tr": "Doğum günü kutlamam için Liz'in ne planı var merak ediyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Doğum günü kutlamam için Liz'in ne planı var merak ediyorum."
 }, {
-    "type": "sentence",
     "en": "Do you have anything up your sleeve that can solve our problem?",
-    "tr": "Elinde sorunumuzu çözebilecek herhangi bir planın var mı?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Elinde sorunumuzu çözebilecek herhangi bir planın var mı?"
 }, {
-    "type": "sentence",
     "en": "I'm up to my eyeballs in work right now!",
-    "tr": "Şu an işimin başındayım!",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Şu an işimin başındayım!"
 }, {
-    "type": "sentence",
     "en": "He is very afraid of dogs.",
-    "tr": "O köpeklerden çok korkar.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "O köpeklerden çok korkar."
 }, {
-    "type": "sentence",
     "en": "You're making me blush.",
-    "tr": "Beni utandırıyorsun.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Beni utandırıyorsun."
 }, {
-    "type": "sentence",
     "en": "Thanks for inviting me, but can I take a rain check?",
-    "tr": "Davet ettiğin için teşekkürler, ama başka sefere gelsem olur mu?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Davet ettiğin için teşekkürler, ama başka sefere gelsem olur mu?"
 }, {
-    "type": "sentence",
     "en": "I'd like to book a room from July 23rd through 25th.",
-    "tr": "23'ünden 25 Temmuz'a bir oda rezervasyonu yaptırmak istiyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "23'ünden 25 Temmuz'a bir oda rezervasyonu yaptırmak istiyorum."
 }, {
-    "type": "sentence",
     "en": "Have the courage to follow your heart and intuition.",
     "tr": "Kalbinizi ve önsezilerinizi dinleyecek cesaretiniz olsun.",
-    "en_s": "",
-    "tr_s": "",
-    "quotes": "Steve Jobs"
+    "quo": "Steve Jobs"
 }, {
-    "type": "sentence",
     "en": "Don't beat yourself up!",
-    "tr": "Kendine bu kadar yüklenme!",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kendine bu kadar yüklenme!"
 }, {
-    "type": "sentence",
     "en": "I'm quite delighted.",
-    "tr": "Ben oldukça sevinçliyim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ben oldukça sevinçliyim."
 }, {
-    "type": "sentence",
     "en": "Fill me in.",
-    "tr": "Bana anlat.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bana anlat."
 }, {
-    "type": "sentence",
     "en": "It's unusual, isn't it?",
-    "tr": "Bu alışılmadık, değil mi?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu alışılmadık, değil mi?"
 }, {
-    "type": "sentence",
     "en": "I couldn't get comfortable.",
-    "tr": "Rahat edemedim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Rahat edemedim."
 }, {
-    "type": "sentence",
     "en": "I'm sick of this.",
-    "tr": "Bundan bıktım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bundan bıktım."
 }, {
-    "type": "sentence",
     "en": "They have him at the helm.",
-    "tr": "Dümende o var.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Dümende o var."
 }, {
-    "type": "sentence",
     "en": "We apologize for any inconvenience.",
-    "tr": "Verdiğimiz rahatsızlıktan dolayı özür dileriz.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Verdiğimiz rahatsızlıktan dolayı özür dileriz."
 }, {
-    "type": "sentence",
     "en": "One came off.",
-    "tr": "Biri çıktı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Biri çıktı."
 }, {
-    "type": "sentence",
     "en": "I'm through with nursing.",
-    "tr": "Hemşirelikten vazgeçtim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Hemşirelikten vazgeçtim."
 }, {
-    "type": "sentence",
     "en": "I am knackered.",
-    "tr": "Pestilim çıktı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Pestilim çıktı."
 }, {
-    "type": "sentence",
     "en": "We could have had it all.",
-    "tr": "Her şeye sahip olabilirdik.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Her şeye sahip olabilirdik."
 }, {
-    "type": "sentence",
     "en": "Go easy on me.",
-    "tr": "Bana yüklenme.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bana yüklenme."
 }, {
-    "type": "sentence",
     "en": "I was on the edge of my seat.",
-    "tr": "Koltuğumun ucundaydım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Koltuğumun ucundaydım."
 }, {
-    "type": "sentence",
     "en": "I wanted extra gravy on my mashed potatoes.",
-    "tr": "Patates püresinin üzerine fazladan sos istedim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Patates püresinin üzerine fazladan sos istedim."
 }, {
-    "type": "sentence",
     "en": "Mr. Reynolds is on the warpath this morning.",
-    "tr": "Bay Reynolds bu sabah burnundan soluyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bay Reynolds bu sabah burnundan soluyor."
 }, {
-    "type": "sentence",
     "en": "Somebody scratched his car in the parking lot.",
-    "tr": "Biri otoparkta arabasını çizmiş.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Biri otoparkta arabasını çizmiş."
 }, {
-    "type": "sentence",
     "en": "He might even forgive them if they own up to it.",
-    "tr": "Hatta eğer yaptığını kabul ederlerse onları affedebilir.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Hatta eğer yaptığını kabul ederlerse onları affedebilir."
 }, {
-    "type": "sentence",
     "en": "Do you fancy having a drink in the hotel lounge?",
-    "tr": "Otel lobisinde bir şeyler içmek ister misiniz?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Otel lobisinde bir şeyler içmek ister misiniz?"
 }, {
-    "type": "sentence",
     "en": "How long does it take by bus?",
-    "tr": "Otobüsle ne kadar sürer?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Otobüsle ne kadar sürer?"
 }, {
-    "type": "sentence",
     "en": "Go straight ahead.",
-    "tr": "Dümdüz git.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Dümdüz git."
 }, {
-    "type": "sentence",
     "en": "Hit me up anytime you are in the area.",
-    "tr": "Buralarda olduğun zaman bana haber ver.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Buralarda olduğun zaman bana haber ver."
 }, {
-    "type": "sentence",
     "en": "She's pretty gutted about this marriage.",
-    "tr": "Bu evlilik konusunda canı oldukça sıkkın.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu evlilik konusunda canı oldukça sıkkın."
 }, {
-    "type": "sentence",
     "en": "It's very disheartening.",
-    "tr": "Bu çok moral bozucu.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu çok moral bozucu."
 }, {
-    "type": "sentence",
     "en": "Where did the sun go all of a sudden?",
-    "tr": "Güneş bir anda nereye gitti?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Güneş bir anda nereye gitti?"
 }, {
-    "type": "sentence",
     "en": "Where did the sun go all of a sudden?",
-    "tr": "Güneş bir anda nereye gitti?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Güneş bir anda nereye gitti?"
 }, {
-    "type": "sentence",
     "en": "I can already feel some spots of rain.",
-    "tr": "Şimdiden bazı yağmur damlalarını hissedebiliyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Şimdiden bazı yağmur damlalarını hissedebiliyorum."
 }, {
-    "type": "sentence",
     "en": "I am having a hard time getting up in the morning.",
-    "tr": "Sabahları uyanmakta zorlanıyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sabahları uyanmakta zorlanıyorum."
 }, {
-    "type": "sentence",
     "en": "The best is yet to come.",
-    "tr": "En iyisi henüz gelmedi.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "En iyisi henüz gelmedi."
 }, {
-    "type": "sentence",
     "en": "It's pretty strange that we keep running into each other.",
-    "tr": "Birbirimizle karşılaşmaya devam etmemiz oldukça garip.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Birbirimizle karşılaşmaya devam etmemiz oldukça garip."
 }, {
-    "type": "sentence",
     "en": "I feel like lying around all day.",
-    "tr": "Canım bütün gün uzanmak istiyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Canım bütün gün uzanmak istiyor."
 }, {
-    "type": "sentence",
     "en": "Which bus goes to the train station?",
-    "tr": "Hangi otobüs tren istasyonuna gider?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Hangi otobüs tren istasyonuna gider?"
 }, {
-    "type": "sentence",
     "en": "It is important that she travels more.",
-    "tr": "Onun daha fazla seyahat etmesi önemli.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Onun daha fazla seyahat etmesi önemli."
 }, {
-    "type": "sentence",
     "en": "I'm going to heat up my pan.",
-    "tr": "Tavamı ısıtacağım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Tavamı ısıtacağım."
 }, {
-    "type": "sentence",
     "en": "I need to preheat the oven.",
-    "tr": "Fırını önceden ısıtmam gerekiyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Fırını önceden ısıtmam gerekiyor."
 }, {
-    "type": "sentence",
     "en": "Just add some seasoning!",
-    "tr": "Sadece biraz çeşni ekle!",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sadece biraz çeşni ekle!"
 }, {
-    "type": "sentence",
     "en": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
     "tr": "Büyük beyinler fikirleri; ortalama beyinler olayları; küçük beyinler insanları tartışır.",
-    "en_s": "",
-    "tr_s": "",
-    "quotes": "Eleanor Roosevelt"
+    "quo": "Eleanor Roosevelt"
 }, {
-    "type": "sentence",
     "en": "I have a lot on my mind.",
-    "tr": "Aklımda çok şey var.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Aklımda çok şey var."
 }, {
-    "type": "sentence",
     "en": "Peace at home, peace in the world.",
     "tr": "Yurtta sulh cihanda sulh.",
-    "en_s": "",
-    "tr_s": "",
-    "quotes": "Mustafa Kemal Atatürk"
+    "quo": "Mustafa Kemal Atatürk"
 }, {
-    "type": "sentence",
     "en": "You shouldn't have!",
-    "tr": "Zahmet etmeseydin!",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Zahmet etmeseydin!"
 }, {
-    "type": "sentence",
     "en": "Yesterday when we spoke on the phone, I was at my aunt's house.",
-    "tr": "Dün biz telefonda konuştuğumuzda, ben teyzemin evindeydim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Dün biz telefonda konuştuğumuzda, ben teyzemin evindeydim."
 }, {
-    "type": "sentence",
     "en": "It's dusk.",
-    "tr": "Hava kararıyor. (Alacakaranlık)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Hava kararıyor. (Alacakaranlık)"
 }, {
-    "type": "sentence",
     "en": "I have had a hat since you have had a hat.",
     "tr": "Senin bir şapkan olduğundan beri benim bir şapkam var.",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/hat.gif"
 }, {
-    "type": "sentence",
     "en": "Everyone is in favor of your idea.",
-    "tr": "Herkes senin fikrin lehinde.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Herkes senin fikrin lehinde."
 }, {
-    "type": "sentence",
     "en": "We do not know what attitude to take.",
-    "tr": "Biz hangi tavrı almamız gerektiğini bilmiyoruz.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Biz hangi tavrı almamız gerektiğini bilmiyoruz."
 }, {
-    "type": "sentence",
     "en": "That crisis turned out to be a big opportunity.",
-    "tr": "O krizin büyük bir fırsat olduğu ortaya çıktı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "O krizin büyük bir fırsat olduğu ortaya çıktı."
 }, {
-    "type": "sentence",
     "en": "I'll get back to you on that.",
-    "tr": "Bu konuda size geri döneceğim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu konuda size geri döneceğim."
 }, {
-    "type": "sentence",
     "en": "I fell head over heels in love with her.",
-    "tr": "Ona sırılsıklam aşık oldum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ona sırılsıklam aşık oldum."
 }, {
-    "type": "sentence",
     "en": "He seemed relieved at the news.",
-    "tr": "Haberi duyunca rahatlamış görünüyordu.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Haberi duyunca rahatlamış görünüyordu."
 }, {
-    "type": "sentence",
     "en": "They wanted rich soil for their garden.",
-    "tr": "Onlar bahçeleri için verimli toprak istedi.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Onlar bahçeleri için verimli toprak istedi."
 }, {
-    "type": "sentence",
     "en": "The hardest thing about changing yourself is changing how other people see you.",
-    "tr": "Kendini değiştirmenin en zor yanı, başkalarının seni nasıl gördüğünü değiştirmektir.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kendini değiştirmenin en zor yanı, başkalarının seni nasıl gördüğünü değiştirmektir."
 }, {
-    "type": "sentence",
     "en": "Do you commute to and from work by public transportation?",
-    "tr": "Toplu taşıma ile mi işe gidip geliyorsunuz?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Toplu taşıma ile mi işe gidip geliyorsunuz?"
 }, {
-    "type": "sentence",
     "en": "We are booked solid.",
-    "tr": "Tamamıyla doluyuz.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Tamamıyla doluyuz."
 }, {
-    "type": "sentence",
     "en": "I'm psyched to go there.",
-    "tr": "Oraya gitmek için can atıyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Oraya gitmek için can atıyorum."
 }, {
-    "type": "sentence",
     "en": "It was really anticlimactic.",
-    "tr": "Gerçekten hayal kırıklığına uğrattı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Gerçekten hayal kırıklığına uğrattı."
 }, {
-    "type": "sentence",
     "en": "They asked me point blank.",
-    "tr": "Bana açıkça sordular.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bana açıkça sordular."
 }, {
-    "type": "sentence",
     "en": "I didn't even have Wi-Fi back in my day.",
-    "tr": "Benim zamanımda Wi-Fi bile yoktu.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Benim zamanımda Wi-Fi bile yoktu."
 }, {
-    "type": "sentence",
     "en": "I mean, you had it coming.",
-    "tr": "Yani, bunu hak etmiştin.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yani, bunu hak etmiştin."
 }, {
-    "type": "sentence",
     "en": "Such as hemming, and uh, hawing and uh...",
-    "tr": "Kem küm etmek ve ah...",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kem küm etmek ve ah..."
 }, {
-    "type": "sentence",
     "en": "He would never neglect to take care of his child.",
-    "tr": "Çocuklarıyla ilgilenmeyi asla ihmal etmez.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Çocuklarıyla ilgilenmeyi asla ihmal etmez."
 }, {
-    "type": "sentence",
     "en": "That's a bummer about the film festival being canceled.",
-    "tr": "Bu, film festivalinin iptal edilmesi ne üzücü.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu, film festivalinin iptal edilmesi ne üzücü."
 }, {
-    "type": "sentence",
     "en": "I don't mean to rain on your parade, but this lottery ticket has expired.",
-    "tr": "Hevesini kırmak istemem ama bu piyango biletinin süresi dolmuş.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Hevesini kırmak istemem ama bu piyango biletinin süresi dolmuş."
 }, {
-    "type": "sentence",
     "en": "I'm sure my cell phone will show up at the police station.",
-    "tr": "Eminim telefonum polis karakolundan çıkacak.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Eminim telefonum polis karakolundan çıkacak."
 }, {
-    "type": "sentence",
     "en": "I am of to the store to get some items.",
-    "tr": "Bir şeyler almaya markete gidiyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bir şeyler almaya markete gidiyorum."
 }, {
-    "type": "sentence",
     "en": "Keep us informed when the game is over.",
-    "tr": "Oyun bittiğinde bize haber ver.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Oyun bittiğinde bize haber ver."
 }, {
-    "type": "sentence",
     "en": "I always show up to class on time.",
-    "tr": "Sınıfa her zaman vaktinde gelirim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sınıfa her zaman vaktinde gelirim."
 }, {
-    "type": "sentence",
     "en": "I had to knock jogging on the head after my knee injury.",
-    "tr": "Dizimdeki sakatlıktan sonra koşu yapmayı bırakmak zorunda kaldım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Dizimdeki sakatlıktan sonra koşu yapmayı bırakmak zorunda kaldım."
 }, {
-    "type": "sentence",
     "en": "Can I tag along to the luncheon? Of course! The more the merrier.",
-    "tr": "Öğle yemeği davetine ben de katılabilir miyim? Elbette! Ne kadar çok kişi o kadar iyi.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Öğle yemeği davetine ben de katılabilir miyim? Elbette! Ne kadar çok kişi o kadar iyi."
 }, {
-    "type": "sentence",
     "en": "She stabbed me in the back.",
-    "tr": "Beni sırtımdan bıçakladı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Beni sırtımdan bıçakladı."
 }, {
-    "type": "sentence",
     "en": "Why did Sonya rat you out?",
-    "tr": "Sonya neden seni ispiyonladı?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sonya neden seni ispiyonladı?"
 }, {
-    "type": "sentence",
     "en": "I have a cold.",
-    "tr": "Nezle oldum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Nezle oldum."
 }, {
-    "type": "sentence",
     "en": "You're on the mend.",
-    "tr": "İyileşmek üzeresin.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İyileşmek üzeresin."
 }, {
-    "type": "sentence",
     "en": "Let's check the forecast.",
-    "tr": "Hava tahminini kontrol edelim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Hava tahminini kontrol edelim."
 }, {
-    "type": "sentence",
     "en": "The breeze is so nice.",
-    "tr": "Esinti çok güzel.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Esinti çok güzel."
 }, {
-    "type": "sentence",
     "en": "Let me sleep on it.",
-    "tr": "Sabah ola hayrola.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sabah ola hayrola."
 }, {
-    "type": "sentence",
     "en": "A fork fell off the table.",
-    "tr": "Bir çatal masadan düştü.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bir çatal masadan düştü."
 }, {
-    "type": "sentence",
     "en": "I used to have short hair.",
-    "tr": "Eskiden kısa saçlarım vardı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Eskiden kısa saçlarım vardı."
 }, {
-    "type": "sentence",
     "en": "But my hair got longer.",
-    "tr": "Ama saçlarım uzadı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ama saçlarım uzadı."
 }, {
-    "type": "sentence",
     "en": "I used to detest taking naps.",
-    "tr": "Eskiden kısa uyku uyumaktan nefret ederdim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Eskiden kısa uyku uyumaktan nefret ederdim."
 }, {
-    "type": "sentence",
     "en": "It threw me off.",
-    "tr": "Beni şaşırttı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Beni şaşırttı."
 }, {
-    "type": "sentence",
     "en": "So typical of you.",
-    "tr": "Tipik sen.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Tipik sen."
 }, {
-    "type": "sentence",
     "en": "Anyone could have seen it coming.",
-    "tr": "Herkes bunun olacağını görebilirdi.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Herkes bunun olacağını görebilirdi."
 }, {
-    "type": "sentence",
     "en": "I won't be silenced.",
-    "tr": "Susturulmayacağım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Susturulmayacağım."
 }, {
-    "type": "sentence",
     "en": "It's complimentary.",
-    "tr": "İkramımız.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İkramımız."
 }, {
-    "type": "sentence",
     "en": "I was getting kind of hangry.",
-    "tr": "Biraz acıkmaya ve sinirlenmeye başladım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Biraz acıkmaya ve sinirlenmeye başladım."
 }, {
-    "type": "sentence",
     "en": "I have a pretty severe cat allergy.",
-    "tr": "Oldukça şiddetli bir kedi alerjim var.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Oldukça şiddetli bir kedi alerjim var."
 }, {
-    "type": "sentence",
     "en": "I feel pretty chuffed.",
-    "tr": "Oldukça mutlu hissediyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Oldukça mutlu hissediyorum."
 }, {
-    "type": "sentence",
     "en": "Get some rest.",
-    "tr": "Biraz dinlen.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Biraz dinlen."
 }, {
-    "type": "sentence",
     "en": "Surprised to see me?",
-    "tr": "Beni gördüğüne şaşırdın mı?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Beni gördüğüne şaşırdın mı?"
 }, {
-    "type": "sentence",
     "en": "No offense.",
-    "tr": "Alınma.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Alınma."
 }, {
-    "type": "sentence",
     "en": "Did you guys pick up on that?",
-    "tr": "Bunu fark ettiniz mi?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bunu fark ettiniz mi?"
 }, {
-    "type": "sentence",
     "en": "You are on your own.",
-    "tr": "Kendi başınasın.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kendi başınasın."
 }, {
-    "type": "sentence",
     "en": "I'll let you off the hook on that.",
-    "tr": "Bu konudan sıyrılmana izin vereceğim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu konudan sıyrılmana izin vereceğim."
 }, {
-    "type": "sentence",
     "en": "She's driving me nuts.",
-    "tr": "Beni deli ediyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Beni deli ediyor."
 }, {
-    "type": "sentence",
     "en": "It costs a fortune.",
-    "tr": "Bir servete mal oluyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bir servete mal oluyor."
 }, {
-    "type": "sentence",
     "en": "I'm a bit jet lagged.",
-    "tr": "Biraz jet lag oldum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Biraz jet lag oldum."
 }, {
-    "type": "sentence",
     "en": "65 million years ago, a comet hit this planet with the power of a million Hiroshima bombs.",
-    "tr": "65 milyon yıl önce, bir kuyruklu yıldız, bir milyon Hiroşima bombası gücüyle bu gezegene çarptı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "65 milyon yıl önce, bir kuyruklu yıldız, bir milyon Hiroşima bombası gücüyle bu gezegene çarptı."
 }, {
-    "type": "sentence",
     "en": "Spartan girls lived at home with their mothers as they attended school. Their curriculum included the arts, music, dance, reading and writing.",
-    "tr": "Spartalı kızlar okula devam ettikleri sürede anneleriyle birlikte evde yaşardı. Müfredatlarında sanat, müzik, dans, okuma ve yazma vardı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Spartalı kızlar okula devam ettikleri sürede anneleriyle birlikte evde yaşardı. Müfredatlarında sanat, müzik, dans, okuma ve yazma vardı."
 }, {
-    "type": "sentence",
     "en": "We must show them that we are men of parts.",
-    "tr": "On parmağımızda on marifet olduğunu onlara göstermeliyiz.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "On parmağımızda on marifet olduğunu onlara göstermeliyiz."
 }, {
-    "type": "sentence",
     "en": "This is something that makes my blood boil.",
-    "tr": "Bu kanımı beynime sıçratan bir şey.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu kanımı beynime sıçratan bir şey."
 }, {
-    "type": "sentence",
     "en": "How have you been?",
-    "tr": "Görüşmeyeli nasılsın?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Görüşmeyeli nasılsın?"
 }, {
-    "type": "sentence",
     "en": "I put my name on the examination paper.",
-    "tr": "Adımı sınav kağıdına yazdım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Adımı sınav kağıdına yazdım."
 }, {
-    "type": "sentence",
     "en": "I will give you five dollars for it.",
-    "tr": "Bunun için sana beş dolar vereceğim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bunun için sana beş dolar vereceğim."
 }, {
-    "type": "sentence",
     "en": "I promise I'll give it back.",
-    "tr": "Geri vereceğime söz veriyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Geri vereceğime söz veriyorum."
 }, {
-    "type": "sentence",
     "en": "I neither walk nor run.",
-    "tr": "Ben ne yürürüm ne de koşarım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ben ne yürürüm ne de koşarım."
 }, {
-    "type": "sentence",
     "en": "Whose is the turtle?",
-    "tr": "Kaplumbağa kimin?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kaplumbağa kimin?"
 }, {
-    "type": "sentence",
     "en": "Do you know how many hours I work a day?",
-    "tr": "Günde kaç saat çalıştığımı biliyor musun?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Günde kaç saat çalıştığımı biliyor musun?"
 }, {
-    "type": "sentence",
     "en": "Can I try a size 6?",
-    "tr": "6 numarayı deneyebilir miyim?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "6 numarayı deneyebilir miyim?"
 }, {
-    "type": "sentence",
     "en": "Are we done?",
-    "tr": "Bitti mi?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bitti mi?"
 }, {
-    "type": "sentence",
     "en": "It's the right time.",
-    "tr": "Şu an doğru zaman.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Şu an doğru zaman."
 }, {
-    "type": "sentence",
     "en": "My new years resolution is to do good deed daily.",
-    "tr": "Yeni yıl kararım her gün bir iyilik yapmak.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yeni yıl kararım her gün bir iyilik yapmak."
 }, {
-    "type": "sentence",
     "en": "Where do I buy a ticket?",
-    "tr": "Bileti nereden alacağım?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bileti nereden alacağım?"
 }, {
-    "type": "sentence",
     "en": "You want to go to the bathroom?",
-    "tr": "Banyoya gitmek ister misin?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Banyoya gitmek ister misin?"
 }, {
-    "type": "sentence",
     "en": "I'm up.",
-    "tr": "Uyandım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Uyandım."
 }, {
-    "type": "sentence",
     "en": "How in the red are you?",
-    "tr": "Ne kadar borçtasın?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ne kadar borçtasın?"
 }, {
-    "type": "sentence",
     "en": "I'll be rooting for you.",
-    "tr": "Sana destek olacağım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sana destek olacağım."
 }, {
-    "type": "sentence",
     "en": "Where there is smoke, there is fire.",
-    "tr": "Ateş olmayan yerden duman çıkmaz.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ateş olmayan yerden duman çıkmaz."
 }, {
-    "type": "sentence",
     "en": "I give up.",
-    "tr": "Pes ediyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Pes ediyorum."
 }, {
-    "type": "sentence",
     "en": "You can't legally work that many hours.",
-    "tr": "Yasal olarak o kadar saat çalışamazsın.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yasal olarak o kadar saat çalışamazsın."
 }, {
-    "type": "sentence",
     "en": "I resented you.",
-    "tr": "Sana içerledim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sana içerledim."
 }, {
-    "type": "sentence",
     "en": "I had a sore throat.",
-    "tr": "Boğaz ağrım vardı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Boğaz ağrım vardı."
 }, {
-    "type": "sentence",
     "en": "Present, sir.",
-    "tr": "Buradayım, efendim.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Buradayım, efendim."
 }, {
-    "type": "sentence",
     "en": "I feel angry with you.",
-    "tr": "Sana kızgınım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sana kızgınım."
 }, {
-    "type": "sentence",
     "en": "That was bravado.",
-    "tr": "Bu bir cesaret gösterisiydi.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu bir cesaret gösterisiydi."
 }, {
-    "type": "sentence",
     "en": "Sorry to bust your bubble.",
-    "tr": "Balonunu patlattığım için üzgünüm.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Balonunu patlattığım için üzgünüm."
 }, {
-    "type": "sentence",
     "en": "You're breaking up.",
-    "tr": "Sesin kesiliyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sesin kesiliyor."
 }, {
-    "type": "sentence",
     "en": "How is the course handled?",
-    "tr": "Kurs nasıl işlenir?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kurs nasıl işlenir?"
 }, {
-    "type": "sentence",
     "en": "Do those shoes come in white?",
     "tr": "Bu ayakkabıların beyazı var mı?",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/shoes.gif"
 }, {
-    "type": "sentence",
     "en": "I didn't see that coming!",
-    "tr": "Bunun olacağını tahmin edemedim!",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bunun olacağını tahmin edemedim!"
 }, {
-    "type": "sentence",
     "en": "We've come here for lunch.",
-    "tr": "Öğle yemeği için buraya geldik.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Öğle yemeği için buraya geldik."
 }, {
-    "type": "sentence",
     "en": "It gets your spirit down.",
-    "tr": "Bu moralinizi bozar.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu moralinizi bozar."
 }, {
-    "type": "sentence",
     "en": "Spill the tea.",
     "tr": "Dedikoduyu ver.",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/tea.gif"
 }, {
-    "type": "sentence",
     "en": "Let's break out fast.",
-    "tr": "Hadi orucumuzu açalım.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Hadi orucumuzu açalım."
 }, {
-    "type": "sentence",
     "en": "Save it!",
-    "tr": "Kendine sakla!",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kendine sakla!"
 }, {
-    "type": "sentence",
     "en": "Can you give me directions to Margaret Mitchell Square?",
-    "tr": "Margaret Mitchell Meydanı için bana yol tarifi verebilir misin?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Margaret Mitchell Meydanı için bana yol tarifi verebilir misin?"
 }, {
-    "type": "sentence",
     "en": "I've seen better days.",
-    "tr": "Daha iyi günlerim oldu.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Daha iyi günlerim oldu."
 }, {
-    "type": "sentence",
     "en": "I forgive you.",
-    "tr": "Seni affediyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Seni affediyorum."
 }, {
-    "type": "sentence",
     "en": "I wonder why.",
-    "tr": "Acaba neden.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Acaba neden."
 }, {
-    "type": "sentence",
     "en": "I'm getting nervous.",
-    "tr": "Gerginleşmeye başlıyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Gerginleşmeye başlıyorum."
 }, {
-    "type": "sentence",
     "en": "This is so humiliating.",
-    "tr": "Bu çok küçük düşürücü.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu çok küçük düşürücü."
 }, {
-    "type": "sentence",
     "en": "This is the last straw.",
-    "tr": "Bu bardağı taşıran son damlaydı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu bardağı taşıran son damlaydı."
 }, {
-    "type": "sentence",
     "en": "They were fasting for Ramadan.",
-    "tr": "Ramazan için oruç tutuyorlardı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ramazan için oruç tutuyorlardı."
 }, {
-    "type": "sentence",
     "en": "It's a tough question.",
-    "tr": "Bu zor bir soru.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu zor bir soru."
 }, {
-    "type": "sentence",
     "en": "Turn to page 394.",
-    "tr": "Sayfa 394'ü açın.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sayfa 394'ü açın."
 }, {
-    "type": "sentence",
     "en": "You have a point.",
-    "tr": "İyi bir noktaya değindin.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İyi bir noktaya değindin."
 }, {
-    "type": "sentence",
     "en": "Do you have this in the next size up?",
-    "tr": "Bunun bir büyük bedeni var mı?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bunun bir büyük bedeni var mı?"
 }, {
-    "type": "sentence",
     "en": "Please don't make a scene.",
-    "tr": "Lütfen olay çıkarma.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Lütfen olay çıkarma."
 }, {
-    "type": "sentence",
     "en": "Do you have them in my size?",
-    "tr": "Benim bedenimde var mı?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Benim bedenimde var mı?"
 }, {
-    "type": "sentence",
     "en": "I'm so sorry for your loss.",
-    "tr": "Başınız sağolsun.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Başınız sağolsun."
 }, {
-    "type": "sentence",
     "en": "You are annoying me.",
-    "tr": "Beni sinir ediyorsun.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Beni sinir ediyorsun."
 }, {
-    "type": "sentence",
     "en": "It always puts me in a bad mood.",
-    "tr": "Benim her zaman moralimi bozuyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Her zaman moralimi bozuyor."
 }, {
-    "type": "sentence",
     "en": "It really hurt my feelings.",
-    "tr": "Duygularımı gerçekten incitti.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Duygularımı gerçekten incitti."
 }, {
-    "type": "sentence",
     "en": "Hold the onions.",
-    "tr": "Soğanları çıkarın.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Soğanları çıkarın."
 }, {
-    "type": "sentence",
     "en": "Have a good one.",
-    "tr": "İyi günler.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İyi günler."
 }, {
-    "type": "sentence",
     "en": "She's blushing.",
-    "tr": "Yüzü kızarıyor.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yüzü kızarıyor."
 }, {
-    "type": "sentence",
     "en": "Could I have a word?",
-    "tr": "Bir şey konuşabilir miyim?",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bir şey konuşabilir miyim?"
 }, {
-    "type": "sentence",
     "en": "My phone just went off.",
-    "tr": "Az önce telefonum çaldı.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Az önce telefonum çaldı."
 }, {
-    "type": "sentence",
     "en": "I'd like to try it on.",
-    "tr": "Bunu denemek istiyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bunu denemek istiyorum."
 }, {
-    "type": "sentence",
     "en": "I'm going to lose my temper now.",
-    "tr": "Şimdi tepem atacak.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Şimdi tepem atacak."
 }, {
-    "type": "sentence",
     "en": "Money doesn't grow on trees.",
-    "tr": "Para ağaçta yetişmez.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Para ağaçta yetişmez."
 }, {
-    "type": "sentence",
     "en": "Don't be so hard on yourself.",
-    "tr": "Kendine bu kadar katı davranma.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kendine bu kadar katı davranma."
 }, {
-    "type": "sentence",
     "en": "I can't stand this place anymore.",
-    "tr": "Artık bu yere katlanamıyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Artık bu yere katlanamıyorum."
 }, {
-    "type": "sentence",
     "en": "I'm trying to fit into this super tiny dress.",
-    "tr": "Bu daracık elbisenin içine sığmaya çalışıyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bu daracık elbisenin içine sığmaya çalışıyorum."
 }, {
-    "type": "sentence",
     "en": "You crack me up.",
-    "tr": "Beni gülmekten öldüreceksin.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Beni gülmekten öldüreceksin."
 }, {
-    "type": "sentence",
     "en": "I wish you all the best of luck.",
-    "tr": "Sana iyi şanslar diliyorum.",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sana iyi şanslar diliyorum."
+}, {
+    "en": "Where your fear is, there is your task.",
+    "tr": "Korkun neredeyse, görevin oradadır.",
+    "quo": "Carl Gustav Jung"
+}, {
+    "en": "To ask the right question is already half the solution of a problem.",
+    "tr": "Doğru soruyu sormak zaten bir sorunun çözümünün yarısıdır.",
+    "quo": "Carl Gustav Jung"
+}, {
+    "en": "I'm gonna pound you into the pavement.",
+    "tr": "Seni kaldırıma vuracağım."
+}, {
+    "en": "Cutting you some slack.",
+    "tr": "Sana biraz müsamaha gösteriyorum."
+}, {
+    "en": "It's so serene.",
+    "tr": "Çok huzurlu."
+}, {
+    "en": "Can you give me a lift?",
+    "tr": "Beni bırakabilir misin?"
+}, {
+    "en": "Regular coffee will do.",
+    "tr": "Normal kahve de olur."
+}, {
+    "en": "Yeah, this will do.",
+    "tr": "Evet, bu iş görür."
+}, {
+    "en": "I don't want to do my hair.",
+    "tr": "Saçımı yapmak istemiyorum."
+}, {
+    "en": "Do not miss this amazing chance!",
+    "tr": "Bu harika şansı kaçırmayın!"
+}, {
+    "en": "No more giving up, no more frustration!",
+    "tr": "Artık pes etmek yok, hayal kırıklığı yok!"
+}, {
+    "en": "Overly attached.",
+    "tr": "Aşırı bağlı."
 }]
