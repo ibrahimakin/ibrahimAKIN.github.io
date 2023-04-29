@@ -19,6 +19,7 @@
 #restxt {
     position: absolute;
     left: -100%;
+    opacity: 0;
 }
 
 #copy+div {
@@ -29,6 +30,14 @@
 
 table {
     margin: auto;
+}
+
+td:nth-child(2) {
+    width: 400px;
+}
+
+td>input {
+    width: 100%;
 }
 
 input {
@@ -51,6 +60,11 @@ textarea {
     height: 200px;
     width: 400px;
     margin: 25px;
+}
+
+textarea+div {
+    text-align: center;
+    visibility: hidden;
 }
 
 button {

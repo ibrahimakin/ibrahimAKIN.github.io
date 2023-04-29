@@ -1,1156 +1,910 @@
 [{
-    "type": "word",
     "en": "Brass",
-    "tr": "Prinçten Yapılmış",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Prinçten Yapılmış"
 }, {
-    "type": "word",
     "en": "January",
-    "tr": "Ocak   (1)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ocak   (1)"
 }, {
-    "type": "word",
     "en": "February",
-    "tr": "Şubat   (2)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Şubat   (2)"
 }, {
-    "type": "word",
     "en": "March",
-    "tr": "Mart   (3)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Mart   (3)"
 }, {
-    "type": "word",
     "en": "April",
-    "tr": "Nisan   (4)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Nisan   (4)"
 }, {
-    "type": "word",
     "en": "May",
-    "tr": "Mayıs   (5)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Mayıs   (5)"
 }, {
-    "type": "word",
     "en": "June",
-    "tr": "Haziran   (6)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Haziran   (6)"
 }, {
-    "type": "word",
     "en": "July",
-    "tr": "Temmuz   (7)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Temmuz   (7)"
 }, {
-    "type": "word",
     "en": "August",
-    "tr": "Ağustos   (8)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ağustos   (8)"
 }, {
-    "type": "word",
     "en": "September",
-    "tr": "Eylül   (9)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Eylül   (9)"
 }, {
-    "type": "word",
     "en": "October",
-    "tr": "Ekim   (10)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ekim   (10)"
 }, {
-    "type": "word",
     "en": "November",
-    "tr": "Kasım   (11)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kasım   (11)"
 }, {
-    "type": "word",
     "en": "December",
-    "tr": "Aralık   (12)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Aralık   (12)"
 }, {
-    "type": "word",
     "en": "Monday",
-    "tr": "Pazartesi   (1)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Pazartesi   (1)"
 }, {
-    "type": "word",
     "en": "Tuesday",
-    "tr": "Salı   (2)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Salı   (2)"
 }, {
-    "type": "word",
     "en": "Wednesday",
-    "tr": "Çarşamba   (3)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Çarşamba   (3)"
 }, {
-    "type": "word",
     "en": "Thursday",
-    "tr": "Perşembe   (4)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Perşembe   (4)"
 }, {
-    "type": "word",
     "en": "Friday",
-    "tr": "Cuma   (5)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Cuma   (5)"
 }, {
-    "type": "word",
     "en": "Saturday",
-    "tr": "Cumartesi   (6)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Cumartesi   (6)"
 }, {
-    "type": "word",
     "en": "Sunday",
-    "tr": "Pazar   (7)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Pazar   (7)"
 }, {
-    "type": "word",
     "en": "Aisle",
     "tr": "Koridor",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/aisle.jpg"
 }, {
-    "type": "word",
     "en": "Nephew",
-    "tr": "Yeğen (Erkek)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yeğen (Erkek)"
 }, {
-    "type": "word",
     "en": "Neiece",
-    "tr": "Yeğen (Kız)",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yeğen (Kız)"
 }, {
-    "type": "word",
     "en": "Draft",
-    "tr": "Taslak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Taslak"
 }, {
-    "type": "word",
     "en": "Skulking",
-    "tr": "Sinsi / Korkak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sinsi / Korkak"
 }, {
-    "type": "word",
     "en": "to frighten",
-    "tr": "Korkutmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Korkutmak"
 }, {
-    "type": "word",
     "en": "to toss",
-    "tr": "Atmak / Fırlatmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Atmak / Fırlatmak"
 }, {
-    "type": "word",
     "en": "Lung",
-    "tr": "Akciğer / Ciğer",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Akciğer / Ciğer"
 }, {
-    "type": "word",
     "en": "Lettuce, Iceberg",
     "tr": "Marul  (Göbek Marul)",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/lettuceiceberg.gif"
 }, {
-    "type": "word",
     "en": "Peach",
     "tr": "Şeftali",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/peach.jpg"
 }, {
-    "type": "word",
     "en": "Apricot",
     "tr": "Kayısı",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/apricot.jpg"
 }, {
-    "type": "word",
     "en": "Pomegranate",
     "tr": "Nar",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/pomegranate.jpg"
 }, {
-    "type": "word",
     "en": "to worship",
-    "tr": "Tapmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Tapmak"
 }, {
-    "type": "word",
     "en": "to wipe out",
     "tr": "Silip yoketmek",
     "en_s": "a nuclear wipeout.",
     "tr_s": "",
     "def": "an instance of complete destruction."
 }, {
-    "type": "word",
     "en": "to cure",
-    "tr": "İyileştirmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İyileştirmek"
 }, {
-    "type": "word",
     "en": "Honey Badger / Ratel",
     "tr": "Bal Porsuğu",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/ratel.jpg"
 }, {
-    "type": "word",
     "en": "Walnut",
     "tr": "Ceviz",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/walnut.jpg"
 }, {
-    "type": "word",
     "en": "Subconscious",
-    "tr": "Bilinçaltı",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bilinçaltı"
 }, {
-    "type": "word",
     "en": "Colossal",
-    "tr": "Devasa",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Devasa"
 }, {
-    "type": "word",
     "en": "Tedious",
-    "tr": "Sıkıcı",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sıkıcı"
 }, {
-    "type": "word",
     "en": "Obnoxious",
-    "tr": "İğrenç",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İğrenç"
 }, {
-    "type": "word",
     "en": "Stringing",
-    "tr": "İp çekmek / Kandırmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İp çekmek / Kandırmak"
 }, {
-    "type": "word",
     "en": "Ravenous",
-    "tr": "Son derece aç",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Son derece aç"
 }, {
-    "type": "word",
     "en": "Appetite",
-    "tr": "İştah",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İştah"
 }, {
-    "type": "word",
     "en": "to dedicate",
-    "tr": "Adamak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "adamak"
 }, {
-    "type": "word",
     "en": "to influence",
-    "tr": "Etkilemek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Etkilemek"
 }, {
-    "type": "word",
     "en": "to defect",
-    "tr": "Döneklik etmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "döneklik etmek"
 }, {
-    "type": "word",
     "en": "to hesitate",
-    "tr": "Tereddüt etmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "tereddüt etmek"
 }, {
-    "type": "word",
     "en": "to consist of",
-    "tr": "Meydana gelmek / Oluşmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Meydana gelmek / Oluşmak"
 }, {
-    "type": "word",
     "en": "to call off",
-    "tr": "İptal etmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İptal etmek"
 }, {
-    "type": "word",
     "en": "to wither up / to fade",
-    "tr": "Solmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Solmak"
 }, {
-    "type": "word",
     "en": "to preserve",
     "tr": "Korumak",
-    "en_s": "",
-    "tr_s": "",
     "def": "maintain (something) in its original or existing state."
 }, {
-    "type": "word",
     "en": "Zealously",
-    "tr": "Şevkle",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Şevkle"
 }, {
-    "type": "word",
     "en": "Peasant",
-    "tr": "Köylü",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Köylü"
 }, {
-    "type": "word",
     "en": "Pleasant",
-    "tr": "Güzel / Hoş",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Güzel / Hoş"
 }, {
-    "type": "word",
     "en": "Temptation",
-    "tr": "Kışkırtma / Ayartma",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kışkırtma / Ayartma"
 }, {
-    "type": "word",
     "en": "Flawed",
-    "tr": "Kusurlu",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kusurlu"
 }, {
-    "type": "word",
     "en": "Inevitable",
-    "tr": "Kaçınılmaz",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kaçınılmaz"
 }, {
-    "type": "word",
     "en": "Devotion",
-    "tr": "Özveri",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Özveri"
 }, {
-    "type": "word",
     "en": "Apart",
-    "tr": "Ayrı",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Ayrı"
 }, {
-    "type": "word",
     "en": "Fascination",
-    "tr": "Büyüleyici",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Büyüleyici"
 }, {
-    "type": "word",
     "en": "Revelation",
-    "tr": "Vahiy, İlham",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Vahiy, İlham"
 }, {
-    "type": "word",
     "en": "Ranch",
-    "tr": "Çiftlik",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Çiftlik"
 }, {
-    "type": "word",
     "en": "Salvation",
-    "tr": "Kurtuluş",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kurtuluş"
 }, {
-    "type": "word",
     "en": "Desperate",
-    "tr": "Umutsuz",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Umutsuz"
 }, {
-    "type": "word",
     "en": "Nonetheless",
-    "tr": "Her şeye rağmen",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Her şeye rağmen"
 }, {
-    "type": "word",
     "en": "Nevertheless",
-    "tr": "Yine de",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yine de"
 }, {
-    "type": "word",
     "en": "to resurrect",
-    "tr": "Diriltmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Diriltmek"
 }, {
-    "type": "word",
     "en": "to rejoice",
-    "tr": "Sevinmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Sevinmek"
 }, {
-    "type": "word",
     "en": "Lucked out",
-    "tr": "Şans eseri",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Şans eseri"
 }, {
-    "type": "word",
     "en": "For good",
-    "tr": "Temelli olarak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Temelli olarak"
 }, {
-    "type": "word",
     "en": "Menial",
-    "tr": "Vasıf gerektirmeyen",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Vasıf gerektirmeyen"
 }, {
-    "type": "word",
     "en": "Purchasing Power",
-    "tr": "Alım Gücü",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Alım Gücü"
 }, {
-    "type": "word",
     "en": "Ice Cap",
     "tr": "Buz Örtüsü",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/ice_cap.jpg"
 }, {
-    "type": "word",
     "en": "to loosen",
-    "tr": "Gevşetmek / Çözmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Gevşetmek / Çözmek"
 }, {
-    "type": "word",
     "en": "Flimflam",
-    "tr": "Boş lâf / Dolandırmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Boş lâf / Dolandırmak"
 }, {
-    "type": "word",
     "en": "Manner",
-    "tr": "Tavır",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Tavır"
 }, {
-    "type": "word",
     "en": "Underneath",
-    "tr": "Altında",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Altında"
 }, {
-    "type": "word",
     "en": "Artifact",
-    "tr": "Eser",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Eser"
 }, {
-    "type": "word",
     "en": "Pursuit",
-    "tr": "Kovalama / Uğraşı",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Kovalama / Uğraşı"
 }, {
-    "type": "word",
     "en": "Incantation",
-    "tr": "Büyü",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Büyü"
 }, {
-    "type": "word",
     "en": "Cashpoint",
     "tr": "ATM (Automatic Teller Machine)",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/cashpoint.jpg"
 }, {
-    "type": "word",
     "en": "Pharmacy",
     "tr": "Eczane",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/pharmacy.jpg"
 }, {
-    "type": "word",
     "en": "Chickpea",
     "tr": "Nohut",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/chickpea.jpg"
 }, {
-    "type": "word",
     "en": "Stray",
-    "tr": "Başıboş",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Başıboş"
 }, {
-    "type": "word",
     "en": "though",
-    "tr": "yine de, rağmen",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "yine de, rağmen"
 }, {
-    "type": "word",
     "en": "Flea market",
-    "tr": "Bit pazarı",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Bit pazarı"
 }, {
-    "type": "word",
     "en": "Thrift store",
-    "tr": "İkinci el mağazası",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İkinci el mağazası"
 }, {
-    "type": "word",
     "en": "make a profit",
-    "tr": "kar yapmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kar yapmak"
 }, {
-    "type": "word",
     "en": "compatible",
-    "tr": "uyumlu",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "uyumlu"
 }, {
-    "type": "word",
     "en": "complain",
-    "tr": "şikayet etmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "şikayet etmek"
 }, {
-    "type": "word",
     "en": "to recap",
-    "tr": "özetlemek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "özetlemek"
 }, {
-    "type": "word",
     "en": "to revise",
-    "tr": "revize etmek / gözden geçirmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "revize etmek / gözden geçirmek"
 }, {
-    "type": "word",
     "en": "to discuss",
-    "tr": "tartışmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "tartışmak"
 }, {
-    "type": "word",
     "en": "comprehend",
-    "tr": "anlamak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "anlamak"
 }, {
-    "type": "word",
     "en": "Cheerio",
-    "tr": "Görüşürüz",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Görüşürüz"
 }, {
-    "type": "word",
     "en": "persuade",
-    "tr": "ikna etmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "ikna etmek"
 }, {
-    "type": "word",
     "en": "chores",
-    "tr": "ev işleri",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "ev işleri"
 }, {
-    "type": "word",
     "en": "intuition",
-    "tr": "sezgi",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "sezgi"
 }, {
-    "type": "word",
     "en": "intuitive",
-    "tr": "sezgisel",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "sezgisel"
 }, {
-    "type": "word",
     "en": "cumbersome",
-    "tr": "kullanışsız, elverişsiz",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kullanışsız, elverişsiz"
 }, {
-    "type": "word",
     "en": "dispute",
-    "tr": "anlaşmazlık, tartışma",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "anlaşmazlık, tartışma"
 }, {
-    "type": "word",
     "en": "brick-and-mortar store",
-    "tr": "fiziksel mağaza",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "fiziksel mağaza"
 }, {
-    "type": "word",
     "en": "delight",
-    "tr": "zevk / sevinç",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "zevk / sevinç"
 }, {
-    "type": "word",
     "en": "anticlimactic",
     "tr": "hayal kırıklığı",
-    "en_s": "",
-    "tr_s": "",
     "def": "causing disappointment at the end of an exciting or impressive series of events."
 }, {
-    "type": "word",
     "en": "helm",
     "tr": "dümen",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/helm.jpeg"
 }, {
-    "type": "word",
     "en": "inconvenience",
-    "tr": "rahatsızlık",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "rahatsızlık"
 }, {
-    "type": "word",
     "en": "knackered",
-    "tr": "çok yorgun",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "çok yorgun"
 }, {
-    "type": "word",
     "en": "parking lot",
-    "tr": "park yeri",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "park yeri"
 }, {
-    "type": "word",
     "en": "own up to",
-    "tr": "kabul etmek, üstlenmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kabul etmek, üstlenmek"
 }, {
-    "type": "word",
     "en": "ring a bell",
-    "tr": "bir şey çağrıştırmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "bir şey çağrıştırmak"
 }, {
-    "type": "word",
     "en": "to dishearten",
-    "tr": "cesaretini kırmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "cesaretini kırmak"
 }, {
-    "type": "word",
     "en": "to shrug off",
-    "tr": "omuz silkmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "omuz silkmek"
 }, {
-    "type": "word",
     "en": "all of a sudden",
-    "tr": "birdenbire",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "birdenbire"
 }, {
-    "type": "word",
     "en": "Toddler",
-    "tr": "Yürümeye başlayan çocuk",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Yürümeye başlayan çocuk"
 }, {
-    "type": "word",
     "en": "Dough",
-    "tr": "Hamur",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Hamur"
 }, {
-    "type": "word",
     "en": "shattered",
-    "tr": "paramparça",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "paramparça"
 }, {
-    "type": "word",
     "en": "Cinnamon",
     "tr": "Tarçın",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/cinnamon.jpg"
 }, {
-    "type": "word",
     "en": "Good deed",
-    "tr": "İyilik, iyi işler",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "İyilik, iyi işler"
 }, {
-    "type": "word",
     "en": "Attitude",
-    "tr": "Tavır / Davranış",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "Tavır / Davranış"
 }, {
-    "type": "word",
     "en": "hesitant",
-    "tr": "tereddütlü",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "tereddütlü"
 }, {
-    "type": "word",
     "en": "ferocity",
-    "tr": "gaddarlık",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "gaddarlık"
 }, {
-    "type": "word",
     "en": "grudge",
-    "tr": "kin",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kin"
 }, {
-    "type": "word",
     "en": "stubborn",
-    "tr": "inatçı",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "inatçı"
 }, {
-    "type": "word",
     "en": "brag",
-    "tr": "övünmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "övünmek"
 }, {
-    "type": "word",
     "en": "soil",
     "tr": "toprak",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/soil.jpg"
 }, {
-    "type": "word",
     "en": "call in sick",
-    "tr": "mazeret bildirmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "mazeret bildirmek"
 }, {
-    "type": "word",
     "en": "commute",
-    "tr": "işe gidip gelmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "işe gidip gelmek"
 }, {
-    "type": "word",
     "en": "conservative",
-    "tr": "muhafazakâr",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "muhafazakâr"
 }, {
-    "type": "word",
     "en": "stay calm",
-    "tr": "sakin kal",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "sakin kal"
 }, {
-    "type": "word",
     "en": "tough",
-    "tr": "zor, çetin",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "zor, çetin"
 }, {
-    "type": "word",
     "en": "be carried away",
-    "tr": "kendini kaptırmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kendini kaptırmak"
 }, {
-    "type": "word",
     "en": "piss off",
-    "tr": "gıcık olmak, sinir olmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "gıcık olmak, sinir olmak"
 }, {
-    "type": "word",
     "en": "breeze",
-    "tr": "esinti",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "esinti"
 }, {
-    "type": "word",
     "en": "forecast",
-    "tr": "tahmin",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "tahmin"
 }, {
-    "type": "word",
     "en": "detest",
-    "tr": "tiksinmek, nefret etmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "tiksinmek, nefret etmek"
 }, {
-    "type": "word",
     "en": "collective",
-    "tr": "kolektif, toplu",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kolektif, toplu"
 }, {
-    "type": "word",
     "en": "fatal",
-    "tr": "ölümcül, vahim",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "ölümcül, vahim"
 }, {
-    "type": "word",
     "en": "anticipate",
-    "tr": "ummak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "ummak"
 }, {
-    "type": "word",
     "en": "comet",
-    "tr": "kuyruklu yıldız",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kuyruklu yıldız"
 }, {
-    "type": "word",
     "en": "attend",
-    "tr": "katılmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "katılmak"
 }, {
-    "type": "word",
     "en": "curriculum",
-    "tr": "müfredat",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "müfredat"
 }, {
-    "type": "word",
     "en": "ingenuity",
-    "tr": "marifet",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "marifet"
 }, {
-    "type": "word",
     "en": "boil",
     "tr": "kaynatmak",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/boil.gif"
 }, {
-    "type": "word",
     "en": "fine grained",
-    "tr": "ince taneli",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "ince taneli"
 }, {
-    "type": "word",
     "en": "coarse grained",
-    "tr": "kaba taneli",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kaba taneli"
 }, {
-    "type": "word",
     "en": "dispose",
-    "tr": "elden çıkarmak",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "elden çıkarmak"
 }, {
-    "type": "word",
     "en": "lighthouse",
-    "tr": "deniz feneri",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "deniz feneri"
 }, {
-    "type": "word",
     "en": "resent",
-    "tr": "gücenmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "gücenmek"
 }, {
-    "type": "word",
     "en": "idiom",
-    "tr": "deyim",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "deyim"
 }, {
-    "type": "word",
     "en": "parade",
-    "tr": "geçit töreni",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "geçit töreni"
 }, {
-    "type": "word",
     "en": "nudge",
     "tr": "dürtmek",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/nudge.gif",
     "def": "prod (someone) gently, typically with one's elbow, in order to draw their attention to something."
 }, {
-    "type": "word",
     "en": "barter",
-    "tr": "takas",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "takas"
 }, {
-    "type": "word",
     "en": "dash",
     "tr": "hızlı koşma",
-    "en_s": "",
-    "tr_s": "",
     "def": "run or travel somewhere in a great hurry."
 }, {
-    "type": "word",
     "en": "bandit",
-    "tr": "haydut",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "haydut"
 }, {
-    "type": "word",
     "en": "crib",
     "tr": "beşik",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/crib.jpg"
 }, {
-    "type": "word",
     "en": "rack",
-    "tr": "raf",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "raf"
 }, {
-    "type": "word",
     "en": "conduct",
-    "tr": "yönetmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "yönetmek"
 }, {
-    "type": "word",
     "en": "bankrupt",
     "tr": "iflas etmiş",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/bankrupt.gif"
 }, {
-    "type": "word",
     "en": "gossip",
     "tr": "dedikodu",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/gossip.gif"
 }, {
-    "type": "word",
     "en": "rumor",
     "tr": "söylenti",
-    "en_s": "",
-    "tr_s": "",
     "img": "/projects/language-app/source/img/rumor.gif"
 }, {
-    "type": "word",
     "en": "dairy",
-    "tr": "süt ve süt ürünleri",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "süt ve süt ürünleri"
 }, {
-    "type": "word",
     "en": "disinterested",
-    "tr": "önyargısız, tarafsız",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "önyargısız, tarafsız"
 }, {
-    "type": "word",
     "en": "apprehensive",
-    "tr": "endişeli",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "endişeli"
 }, {
-    "type": "word",
     "en": "amusing",
-    "tr": "eğlenceli, komik",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "eğlenceli, komik"
 }, {
-    "type": "word",
     "en": "condolence",
-    "tr": "taziye",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "taziye"
 }, {
-    "type": "word",
     "en": "averse",
-    "tr": "isteksiz, karşı olan",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "isteksiz, karşı olan"
 }, {
-    "type": "word",
     "en": "transform",
-    "tr": "dönüştürmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "dönüştürmek"
 }, {
-    "type": "word",
     "en": "decent",
-    "tr": "düzgün, usturuplu",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "düzgün, usturuplu"
 }, {
-    "type": "word",
     "en": "psyched",
-    "tr": "heyecanlı",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "heyecanlı"
 }, {
-    "type": "word",
     "en": "analysis",
-    "tr": "analiz",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "analiz"
 }, {
-    "type": "word",
     "en": "holy",
     "tr": "kutsal",
-    "en_s": "",
-    "tr_s": "",
     "def": "dedicated or consecrated to God or a religious purpose; sacred."
 }, {
-    "type": "word",
     "en": "dispute",
     "tr": "anlaşmazlık",
-    "en_s": "",
-    "tr_s": "",
     "def": "a disagreement, argument, or debate."
 }, {
-    "type": "word",
     "en": "dearest",
-    "tr": "en sevilen",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "en sevilen"
 }, {
-    "type": "word",
     "en": "crack one up",
-    "tr": "gülmekten ölmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "gülmekten ölmek"
 }, {
-    "type": "word",
     "en": "inference",
-    "tr": "çıkarım",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "çıkarım"
 }, {
-    "type": "word",
     "en": "affect",
-    "tr": "etkilemek, tesir etmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "etkilemek, tesir etmek"
 }, {
-    "type": "word",
     "en": "effect",
-    "tr": "etki",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "etki"
 }, {
-    "type": "word",
     "en": "intrepid",
-    "tr": "cesur",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "cesur"
 }, {
-    "type": "word",
     "en": "timid",
-    "tr": "ürkek, çekingen",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "ürkek, çekingen"
 }, {
-    "type": "word",
     "en": "capricious",
-    "tr": "kaprisli, yanardöner",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kaprisli, yanardöner"
 }, {
-    "type": "word",
     "en": "edible",
-    "tr": "yenilebilir",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "yenilebilir"
 }, {
-    "type": "word",
     "en": "gullible",
-    "tr": "saf, kolay aldatılabilir, enayi",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "saf, kolay aldatılabilir, enayi"
 }, {
-    "type": "word",
     "en": "captivate",
-    "tr": "cezbetmek",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "cezbetmek"
 }, {
-    "type": "word",
     "en": "bliss",
-    "tr": "büyük mutluluk",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "büyük mutluluk"
 }, {
-    "type": "word",
     "en": "constraint",
-    "tr": "kısıtlama",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kısıtlama"
 }, {
-    "type": "word",
     "en": "certainly",
-    "tr": "kesinlikle",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "kesinlikle"
 }, {
-    "type": "word",
     "en": "currently",
-    "tr": "şu anda",
-    "en_s": "",
-    "tr_s": ""
+    "tr": "şu anda"
+}, {
+    "en": "evade",
+    "tr": "kaçmak",
+    "img": "/projects/language-app/source/img/evade.gif"
+}, {
+    "en": "behold",
+    "tr": "seyretmek"
+}, {
+    "en": "velocity",
+    "tr": "hız",
+    "def": "the speed of something in a given direction."
+}, {
+    "en": "emit",
+    "tr": "yaymak",
+    "def": "produce and discharge (something, especially gas or radiation)."
+}, {
+    "en": "confidential",
+    "tr": "gizli, özel"
+}, {
+    "en": "classified",
+    "tr": "sınıflandırılmış, gizli",
+    "img": "/projects/language-app/source/img/classified.gif"
+}, {
+    "en": "irrelevant",
+    "tr": "alakasız, konu dışı"
+}, {
+    "en": "stimulation",
+    "tr": "uyarım, stimülasyon",
+    "def": "encouragement of something to make it develop or become more active."
+}, {
+    "en": "rival",
+    "tr": "rakip"
+}, {
+    "en": "pink slip",
+    "tr": "ihtarname",
+    "def": "a document given to a person saying that they do not have a job any more"
+}, {
+    "en": "impound",
+    "tr": "haciz",
+    "def": "seize and take legal custody of (something, especially a vehicle, goods, or documents) because of an infringement of a law or regulation."
+}, {
+    "en": "pavement",
+    "tr": "kaldırım"
+}, {
+    "en": "pound",
+    "tr": "yumruklamak"
+}, {
+    "en": "slack",
+    "tr": "gevşek",
+    "def": "not taut or held tightly in position; loose."
+}, {
+    "en": "taut",
+    "tr": "gergin"
+}, {
+    "en": "memorial",
+    "tr": "anıt"
+}, {
+    "en": "memorable",
+    "tr": "akılda kalıcı"
+}, {
+    "en": "monument",
+    "tr": "abide",
+    "img": "/projects/language-app/source/img/monument.jpg"
+}, {
+    "en": "termination",
+    "tr": "sonlandırma"
+}, {
+    "en": "loathe",
+    "tr": "tiksinmek, iğrenmek",
+    "def": "feel intense dislike or disgust for."
+}, {
+    "en": "augment",
+    "tr": "arttırmak, çoğaltmak"
+}, {
+    "en": "breakthrough",
+    "tr": "dönüm noktası, çığır açan buluş",
+    "def": "a sudden, dramatic, and important discovery or development."
+}, {
+    "en": "leap",
+    "tr": "sıçramak",
+    "def": "jump or spring a long way, to a great height, or with great force."
+}, {
+    "en": "invention",
+    "tr": "buluş"
+}, {
+    "en": "inventor",
+    "tr": "mucit"
+}, {
+    "en": "supply",
+    "tr": "arz, tedarik",
+    "def": "make (something needed or wanted) available to someone; provide."
+}, {
+    "en": "envelope",
+    "tr": "mektup, zarf"
+}, {
+    "en": "grocery",
+    "tr": "bakkal"
+}, {
+    "en": "purse",
+    "tr": "el çantası"
+}, {
+    "en": "complementary",
+    "tr": "tamamlayıcı"
+}, {
+    "en": "complimentary",
+    "tr": "övgü olarak verilen"
+}, {
+    "en": "roam",
+    "tr": "dolaşmak",
+    "def": "move about or travel aimlessly or unsystematically, especially over a wide area."
+}, {
+    "en": "ramming",
+    "tr": "toslamak",
+    "def": "roughly force (something) into place."
+}, {
+    "en": "infraction",
+    "tr": "kural ihlali"
+}, {
+    "en": "circumstance",
+    "tr": "durum, hal"
+}, {
+    "en": "conclusion",
+    "tr": "sonuç"
+}, {
+    "en": "psychiatrist",
+    "tr": "psikiyatrist"
+}, {
+    "en": "region",
+    "tr": "bölge"
+}, {
+    "en": "serene",
+    "tr": "huzurlu"
+}, {
+    "en": "meticulous",
+    "tr": "çok titiz, çok dikkatli"
+}, {
+    "en": "intention",
+    "tr": "niyet, maksat"
+}, {
+    "en": "tension",
+    "tr": "tansiyon, gerilim"
+}, {
+    "en": "intense",
+    "tr": "yoğun"
+}, {
+    "en": "estimate",
+    "tr": "tahmin etmek, kestirmek"
+}, {
+    "en": "contempt",
+    "tr": "aşağılama, küçümseme"
+}, {
+    "en": "ignite",
+    "tr": "tutuşturmak, ateşlemek"
+}, {
+    "en": "appreciate",
+    "tr": "takdir etmek"
+}, {
+    "en": "stimulate",
+    "tr": "uyarmak, canlandırmak"
+}, {
+    "en": "conceited",
+    "tr": "burnu havada, kendini beğenmiş"
+}, {
+    "en": "arrogant",
+    "tr": "kibirli"
+}, {
+    "en": "frustration",
+    "tr": "hüsran"
+}, {
+    "en": "anxious",
+    "tr": "endişeli"
+}, {
+    "en": "absent",
+    "tr": "mevcut olmayan"
+}, {
+    "en": "clueless",
+    "tr": "bilgisiz"
+}, {
+    "en": "ignorant",
+    "tr": "cahil"
+}, {
+    "en": "currency",
+    "tr": "döviz, para birimi"
+}, {
+    "en": "predator",
+    "tr": "avcı"
+}, {
+    "en": "prime",
+    "tr": "asal, ilk, en baş, en önemli"
+}, {
+    "en": "ancient",
+    "tr": "antik"
+}, {
+    "en": "snooze",
+    "tr": "uyumak, kestirmek"
+}, {
+    "en": "fragrant",
+    "tr": "(hoş) koku",
+    "def": "having a pleasant or sweet smell."
+}, {
+    "en": "belittle",
+    "tr": "küçümsemek"
+}, {
+    "en": "absurd",
+    "tr": "absürt"
+}, {
+    "en": "evaluate",
+    "tr": "değerlendirmek"
+}, {
+    "en": "compilation",
+    "tr": "derleme"
+}, {
+    "en": "expect",
+    "tr": "ummak, beklemek"
+}, {
+    "en": "privilege",
+    "tr": "ayrıcalık"
+}, {
+    "en": "rig",
+    "tr": "kendi çıkarına göre ayarlamak"
+}, {
+    "en": "recruit",
+    "tr": "işe almak"
+}, {
+    "en": "convict",
+    "tr": "suçlu bulmak"
+}, {
+    "en": "punctual",
+    "tr": "dakik"
+}, {
+    "en": "tolerate",
+    "tr": "tahammül etmek"
+}, {
+    "en": "indulge",
+    "tr": "şımartmak"
+}, {
+    "en": "insult",
+    "tr": "aşağılamak"
+}, {
+    "en": "compromise",
+    "tr": "ödün verip anlaşmak",
+    "def": "an agreement or a settlement of a dispute that is reached by each side making concessions."
+}, {
+    "en": "already",
+    "tr": "çoktan, şimdiden"
+}, {
+    "en": "humiliate",
+    "tr": "küçük düşürmek"
+}, {
+    "en": "analogy",
+    "tr": "analoji, mukayese",
+    "def": "a comparison between two things, typically for the purpose of explanation or clarification."
+}, {
+    "en": "inhabit",
+    "tr": "yaşamak, ikamet etmek"
+}, {
+    "en": "spiky",
+    "tr": "dikenli"
+}, {
+    "en": "mutual",
+    "tr": "karşılıklı"
+}, {
+    "en": "naive",
+    "tr": "saf, toy"
+}, {
+    "en": "audacity",
+    "tr": "yüreklilik"
+}, {
+    "en": "to hatch",
+    "tr": "yumurtadan çıkmak",
+    "img": "/projects/language-app/source/img/to_hatch.gif"
+}, {
+    "en": "acquire",
+    "tr": "elde etmek"
+}, {
+    "en": "nauseous",
+    "tr": "mide bulandırıcı"
+}, {
+    "en": "maintain",
+    "tr": "sürdürmek"
+}, {
+    "en": "deceitful",
+    "tr": "aldatıcı, düzenbaz"
+}, {
+    "en": "ingenious",
+    "tr": "pratik zekalı, çok becerikli"
+}, {
+    "en": "colloquial",
+    "tr": "konuşma dili"
+}, {
+    "en": "miscellaneous",
+    "tr": "çeşitli",
+    "def": "(of items or people gathered or considered together) of various types or from different sources."
+}, {
+    "en": "aftermath",
+    "tr": "akıbet, bilanço",
+    "def": "the consequences or aftereffects of a significant unpleasant event."
+}, {
+    "en": "captive",
+    "tr": "kısıtlanmış, hapsedilmiş"
+}, {
+    "en": "confined",
+    "tr": "sınırlanmış"
+}, {
+    "en": "resemble",
+    "tr": "benzemek, andırmak"
+}, {
+    "en": "tangy",
+    "tr": "keskin (tat/koku)"
+}, {
+    "en": "presumptuous",
+    "tr": "küstah, haddini bilmez"
+}, {
+    "en": "nomination",
+    "tr": "aday gösterme",
+    "img": "/projects/language-app/source/img/nomination.png"
 }]
