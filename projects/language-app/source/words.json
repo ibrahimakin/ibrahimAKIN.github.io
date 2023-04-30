@@ -907,4 +907,44 @@
     "en": "nomination",
     "tr": "aday gösterme",
     "img": "/projects/language-app/source/img/nomination.png"
+}, {
+    "en": "despite",
+    "tr": "aksine, rağmen"
+}, {
+    "en": "causal",
+    "tr": "nedensel"
+}, {
+    "en": "peckish",
+    "tr": "biraz acıkmış"
+}, {
+    "en": "intercept",
+    "tr": "engel olmak",
+    "def": "obstruct (someone or something) so as to prevent them from continuing to a destination."
+}, {
+    "en": "finite",
+    "tr": "sonlu"
+}, {
+    "en": "anonymous",
+    "tr": "anonim"
+}, {
+    "en": "emulate",
+    "tr": "özenmek, imrenmek",
+    "def": "match or surpass (a person or achievement), typically by imitation."
+}, {
+    "en": "detect",
+    "tr": "tespit etmek"
+}, {
+    "en": "pupil",
+    "tr": "öğrenci"
+}, {
+    "en": "whimsical",
+    "tr": "garip fikirleri olan",
+    "def": "playfully quaint or fanciful, especially in an appealing and amusing way."
+}, {
+    "en": "exceptional",
+    "tr": "fevkalade, müstesna"
+}, {
+    "en": "exaggerate",
+    "tr": "abartmak",
+    "def": "represent (something) as being larger, better, or worse than it really is."
 }]

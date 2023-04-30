@@ -16,7 +16,7 @@ const int BALL_SIZE = 20;
 const int BALL_SPEED = 5;
 const int PADDLE_SPEED = 10;
 int ballXVel, ballYVel, lScore = 0, rScore = 0, delay = 10;
-std::string font = "assets/FreeSans.ttf";
+std::string font = "/assets/fonts/games/pong/FreeSans.ttf";
 SDL_Rect leftPaddle, rightPaddle, ball;
 SDL_Renderer *renderer;
 SDL_Window *window;

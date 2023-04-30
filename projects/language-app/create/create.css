@@ -16,7 +16,7 @@
     margin: auto;
 }
 
-#restxt {
+label[for="restxt"], #restxt {
     position: absolute;
     left: -100%;
     opacity: 0;
@@ -30,6 +30,10 @@
 
 table {
     margin: auto;
+}
+
+td:first-child {
+    width: 103px;
 }
 
 td:nth-child(2) {
@@ -49,6 +53,11 @@ label {
     display: inline-block;
     margin: 20px;
     cursor: pointer;
+}
+
+label[for="tr"], label[for="en"] {
+    display: block;
+    margin: 0;
 }
 
 label>input {

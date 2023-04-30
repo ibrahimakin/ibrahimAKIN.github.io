@@ -39,26 +39,26 @@ instantRun.addEventListener('change', e => insantCompile = e.target.checked);
 (async $ => {
     $('textarea.language-html.fill').forEach(t => t.value = `
 <div style="padding: 1px 20px;">
-	<div id="id01">
-		<h2>Code Playground</h2>
-	</div>
-	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2>Code Playground</h2></div>
-	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2>Code Playground</h2></div>
-	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2>Code Playground</h2></div>
-	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2>Code Playground</h2></div>
-	<div><h2 class="head">Code Playground</h2></div>
-	<div><h2>Code Playground</h2></div>
+    <div id="id01">
+        <h2>Code Playground</h2>
+    </div>
+    <div><h2 class="head">Code Playground</h2></div>
+    <div><h2>Code Playground</h2></div>
+    <div><h2 class="head">Code Playground</h2></div>
+    <div><h2>Code Playground</h2></div>
+    <div><h2 class="head">Code Playground</h2></div>
+    <div><h2>Code Playground</h2></div>
+    <div><h2 class="head">Code Playground</h2></div>
+    <div><h2>Code Playground</h2></div>
+    <div><h2 class="head">Code Playground</h2></div>
+    <div><h2>Code Playground</h2></div>
 </div>
 `);
 
     $('textarea.language-css.fill').forEach(t => {
         t.value = `
 .head {
-	color: gray;
+    color: gray;
 }
 `;
         t.dispatchEvent(new InputEvent('input'));

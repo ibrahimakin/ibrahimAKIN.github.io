@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let lang = event.target.getAttribute('lang-name');
             if (lang !== getLang() || lang !== current) {
                 current = lang;
-                try { localStorage.setItem('lang', JSON.stringify(lang)); } catch (e) { }
+                try { localStorage.setItem('lang', lang); } catch (e) { }
                 for (const element of document.querySelectorAll('[lang-tag]')) {
                     element.textContent = lang_obj[lang][element.getAttribute('lang-tag')];
                 }
@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function getLang() {
-    let localLang;
-    try { localLang = localStorage.getItem('lang'); }
+    let lang;
+    try { lang = localStorage.getItem('lang'); }
     catch (e) { }
-    return localLang ? JSON.parse(localLang) : 'en';
+    return lang in lang_obj ? lang : 'en';
 }

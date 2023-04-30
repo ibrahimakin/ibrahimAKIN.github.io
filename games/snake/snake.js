@@ -5,7 +5,7 @@ class SnakeGame {
         document.getElementById('snake-play').addEventListener('click', this.handlePlayClick.bind(this));
         document.getElementById('snake-pause').addEventListener('click', this.handlePauseClick.bind(this));
         document.addEventListener('keydown', this.onKeyPress.bind(this));
-        this.best = localStorage.getItem('snakeHighScore');
+        this.best = parseInt(localStorage.getItem('snake_high_score'));
         if (!this.best) this.best = 0;
     }
 
@@ -26,7 +26,7 @@ class SnakeGame {
         this.appleX = this.appleY = 5;
         this.tailSize = 5;
         this.trail = [];
-        this.gridSize = /* this.tileCount = */ 20; // canvas 400x400 kare iken tileCount = 20
+        this.gridSize = 20;
         this.tileCountX = 40;
         this.tileCountY = 25;
         this.velocityX = this.velocityY = 0;
@@ -80,7 +80,7 @@ class SnakeGame {
             this.tailSize++;
             if (this.tailSize - 5 > this.best) {
                 this.best = this.tailSize - 5;
-                localStorage.setItem('snakeHighScore', this.best);
+                localStorage.setItem('snake_high_score', this.best);
             }
             this.appleX = Math.floor(Math.random() * this.tileCountX);
             this.appleY = Math.floor(Math.random() * this.tileCountY);
