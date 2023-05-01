@@ -27,6 +27,7 @@
 
 #score-container {
     display: flex;
+    width: 115px;
     flex-direction: column;
     justify-content: center;
     padding-left: 10px;

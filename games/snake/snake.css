@@ -21,6 +21,10 @@
     flex-direction: column;
 }
 
+#canvas-container+div {
+    width: 78px;
+}
+
 #game {
     background-color: #000;
     border: 1px solid #fff;
