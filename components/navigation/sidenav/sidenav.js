@@ -38,7 +38,7 @@ class Sidenav extends HTMLElement {
                         <div class="filled project icon"></div>
                         <div class="expand">
                             <div>
-                                <a title="Language App" class="filled smile icon" href="/projects/language-app"></a>
+                                <a title="Language App" class="filled smile-n icon" href="/projects/language-app"></a>
                                 <span>Language App</span>
                             </div>
                             <div>

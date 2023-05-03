@@ -1,5 +1,5 @@
-#ifndef DYNAMICTEXT_HPP
-#define DYNAMICTEXT_HPP
+#ifndef TEXT_HPP
+#define TEXT_HPP
 /*
     Text objects can change, but they are more expensive
     to use, because the textures are constantly recreated each frame.

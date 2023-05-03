@@ -106,7 +106,7 @@
     mask-image: url('/assets/icons/navbar/project-solid.svg');
 }
 
-.smile::before {
+.smile-n::before {
     -webkit-mask-image: url('/assets/icons/navbar/smile.svg');
     mask-image: url('/assets/icons/navbar/smile.svg');
 }
