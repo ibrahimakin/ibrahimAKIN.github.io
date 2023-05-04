@@ -9,10 +9,12 @@
     border-style: inset;
 }
 
-#content-container {
+#root {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
+    width: 100%;
 }
 
 #canvas-container {
@@ -30,7 +32,7 @@
     border: 1px solid #fff;
 }
 
-#content-container button {
+#root button {
     background-color: #fff;
     color: #000;
     font-size: 1rem;

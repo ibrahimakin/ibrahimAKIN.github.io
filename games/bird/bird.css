@@ -10,13 +10,15 @@
     border-style: inset;
 }
 
-#content-container {
+#root {
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(206 208 210);
     text-align: center;
     padding: 0 10px;
+    overflow: auto;
+    width: 100%;
 }
 
 #canvas-container {

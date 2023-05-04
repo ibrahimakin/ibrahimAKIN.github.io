@@ -999,4 +999,38 @@
 }, {
     "en": "incarceration",
     "tr": "hapsetme"
+}, {
+    "en": "uphold",
+    "tr": "desteklemek",
+    "def": "confirm or support (something which has been questioned)."
+}, {
+    "en": "compensation",
+    "tr": "tazminat"
+}, {
+    "en": "intervene",
+    "tr": "araya girmek",
+    "def": "come between so as to prevent or alter a result or course of events."
+}, {
+    "en": "fervent",
+    "tr": "hararetli",
+    "def": "having or displaying a passionate intensity."
+}, {
+    "en": "liberation",
+    "tr": "özgürlük, kurtuluş",
+    "def": "the act of setting someone free from imprisonment, slavery, or oppression; release."
+}, {
+    "en": "empirical",
+    "tr": "deneysel, ampirik",
+    "def": "based on, concerned with, or verifiable by observation or experience rather than theory or pure logic."
+}, {
+    "en": "swell",
+    "tr": "kabarma, şişme"
+}, {
+    "en": "swollen",
+    "tr": "şişmiş"
+}, {
+    "en": "bundle",
+    "tr": "paket, demet",
+    "img": "/projects/language-app/source/img/bundle.jpg",
+    "def": "a collection of things or quantity of material tied or wrapped up together."
 }]

@@ -1,4 +1,7 @@
-#menu-content-container {
+#root {
+    width: 100%;
+}
+#menu-root {
     display: flex;
     height: 100%;
 }
@@ -145,6 +148,9 @@
 
 .background {
     position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
 }
 #stars1 {
     width: 1px;

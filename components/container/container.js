@@ -4,15 +4,10 @@ class Container extends HTMLElement {
         this.innerHTML = `
             <top-nav></top-nav>
             <div id="main-container">
-                <div id="sidenav-mobile">
-                    <side-nav></side-nav>
-                </div>
-                <div id="content-container">
-                    ${this.innerHTML}
-                </div>
+                <side-nav></side-nav>
+                ${this.innerHTML}
             </div>
         `;
-        this.style.height = '100%';
     }
 };
 window.customElements.define('root-container', Container);

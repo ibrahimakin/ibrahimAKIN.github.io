@@ -1,10 +1,12 @@
-#content-container {
+#root {
     display: flex;
     flex-direction: column;
     position: relative;
+    overflow: auto;
+    width: 100%;
 }
 
-#content-container>div:first-child {
+#root>div:first-child {
     position: absolute;
     width: 100%;
 }

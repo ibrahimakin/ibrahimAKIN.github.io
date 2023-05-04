@@ -3,14 +3,23 @@
     --sidenav-gap: 10px;
 }
 
+side-nav {
+    min-width: calc(var(--sidenav-width) * 3);
+    transition: min-width .1s linear;
+    z-index: 3;
+}
+
+side-nav.collapsed {
+    min-width: var(--sidenav-width);
+}
+
 #sidenav {
+    position: fixed;
     display: flex;
     height: 100%;
     justify-content: center;
     width: calc(var(--sidenav-width) * 3);
     transition: width .1s linear;
-    position: relative;
-    z-index: 3;
 }
 
 #sidenav.collapsed {
