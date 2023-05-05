@@ -1,15 +1,10 @@
 #face-detector {
     display: flex;
     width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: center;
 }
 
-#topnav, #sidenav, canvas {
+top-nav, side-nav, canvas {
     position: absolute;
-}
-
-#main-container {
-    overflow: hidden;
 }

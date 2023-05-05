@@ -1,6 +1,11 @@
-#content-container {
+#topnav {
+    background-color: var(--bg-clr);
+}
+
+#root {
     display: grid;
     color: #fff;
+    width: 100%;
 }
 
 form {
@@ -75,4 +80,10 @@ img {
 
 p {
     text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    form {
+        top: var(--topnav-height);
+    }
 }

@@ -3,14 +3,16 @@
 }
 
 top-nav {
-    z-index: 3;
+    display: block;
 }
 
 #topnav {
     display: none;
     grid-template-columns: repeat(8, 1fr);
     height: var(--topnav-height);
+    position: fixed;
     width: 100%;
+    z-index: 3;
 }
 
 #topnav .menu:hover>.expand {

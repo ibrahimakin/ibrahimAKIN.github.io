@@ -61,7 +61,7 @@
 }, {
     "en": "Aisle",
     "tr": "Koridor",
-    "img": "/projects/language-app/source/img/aisle.jpg"
+    "img": "/assets/images/projects/language-app/aisle.jpg"
 }, {
     "en": "Nephew",
     "tr": "Yeğen (Erkek)"
@@ -86,19 +86,19 @@
 }, {
     "en": "Lettuce, Iceberg",
     "tr": "Marul  (Göbek Marul)",
-    "img": "/projects/language-app/source/img/lettuceiceberg.gif"
+    "img": "/assets/images/projects/language-app/lettuceiceberg.gif"
 }, {
     "en": "Peach",
     "tr": "Şeftali",
-    "img": "/projects/language-app/source/img/peach.jpg"
+    "img": "/assets/images/projects/language-app/peach.jpg"
 }, {
     "en": "Apricot",
     "tr": "Kayısı",
-    "img": "/projects/language-app/source/img/apricot.jpg"
+    "img": "/assets/images/projects/language-app/apricot.jpg"
 }, {
     "en": "Pomegranate",
     "tr": "Nar",
-    "img": "/projects/language-app/source/img/pomegranate.jpg"
+    "img": "/assets/images/projects/language-app/pomegranate.jpg"
 }, {
     "en": "to worship",
     "tr": "Tapmak"
@@ -114,11 +114,11 @@
 }, {
     "en": "Honey Badger / Ratel",
     "tr": "Bal Porsuğu",
-    "img": "/projects/language-app/source/img/ratel.jpg"
+    "img": "/assets/images/projects/language-app/ratel.jpg"
 }, {
     "en": "Walnut",
     "tr": "Ceviz",
-    "img": "/projects/language-app/source/img/walnut.jpg"
+    "img": "/assets/images/projects/language-app/walnut.jpg"
 }, {
     "en": "Subconscious",
     "tr": "Bilinçaltı"
@@ -231,7 +231,7 @@
 }, {
     "en": "Ice Cap",
     "tr": "Buz Örtüsü",
-    "img": "/projects/language-app/source/img/ice_cap.jpg"
+    "img": "/assets/images/projects/language-app/ice_cap.jpg"
 }, {
     "en": "to loosen",
     "tr": "Gevşetmek / Çözmek"
@@ -256,15 +256,15 @@
 }, {
     "en": "Cashpoint",
     "tr": "ATM (Automatic Teller Machine)",
-    "img": "/projects/language-app/source/img/cashpoint.jpg"
+    "img": "/assets/images/projects/language-app/cashpoint.jpg"
 }, {
     "en": "Pharmacy",
     "tr": "Eczane",
-    "img": "/projects/language-app/source/img/pharmacy.jpg"
+    "img": "/assets/images/projects/language-app/pharmacy.jpg"
 }, {
     "en": "Chickpea",
     "tr": "Nohut",
-    "img": "/projects/language-app/source/img/chickpea.jpg"
+    "img": "/assets/images/projects/language-app/chickpea.jpg"
 }, {
     "en": "Stray",
     "tr": "Başıboş"
@@ -332,7 +332,7 @@
 }, {
     "en": "helm",
     "tr": "dümen",
-    "img": "/projects/language-app/source/img/helm.jpeg"
+    "img": "/assets/images/projects/language-app/helm.jpeg"
 }, {
     "en": "inconvenience",
     "tr": "rahatsızlık"
@@ -369,7 +369,7 @@
 }, {
     "en": "Cinnamon",
     "tr": "Tarçın",
-    "img": "/projects/language-app/source/img/cinnamon.jpg"
+    "img": "/assets/images/projects/language-app/cinnamon.jpg"
 }, {
     "en": "Good deed",
     "tr": "İyilik, iyi işler"
@@ -394,7 +394,7 @@
 }, {
     "en": "soil",
     "tr": "toprak",
-    "img": "/projects/language-app/source/img/soil.jpg"
+    "img": "/assets/images/projects/language-app/soil.jpg"
 }, {
     "en": "call in sick",
     "tr": "mazeret bildirmek"
@@ -449,7 +449,7 @@
 }, {
     "en": "boil",
     "tr": "kaynatmak",
-    "img": "/projects/language-app/source/img/boil.gif"
+    "img": "/assets/images/projects/language-app/boil.gif"
 }, {
     "en": "fine grained",
     "tr": "ince taneli"
@@ -474,7 +474,7 @@
 }, {
     "en": "nudge",
     "tr": "dürtmek",
-    "img": "/projects/language-app/source/img/nudge.gif",
+    "img": "/assets/images/projects/language-app/nudge.gif",
     "def": "prod (someone) gently, typically with one's elbow, in order to draw their attention to something."
 }, {
     "en": "barter",
@@ -489,7 +489,7 @@
 }, {
     "en": "crib",
     "tr": "beşik",
-    "img": "/projects/language-app/source/img/crib.jpg"
+    "img": "/assets/images/projects/language-app/crib.jpg"
 }, {
     "en": "rack",
     "tr": "raf"
@@ -499,15 +499,15 @@
 }, {
     "en": "bankrupt",
     "tr": "iflas etmiş",
-    "img": "/projects/language-app/source/img/bankrupt.gif"
+    "img": "/assets/images/projects/language-app/bankrupt.gif"
 }, {
     "en": "gossip",
     "tr": "dedikodu",
-    "img": "/projects/language-app/source/img/gossip.gif"
+    "img": "/assets/images/projects/language-app/gossip.gif"
 }, {
     "en": "rumor",
     "tr": "söylenti",
-    "img": "/projects/language-app/source/img/rumor.gif"
+    "img": "/assets/images/projects/language-app/rumor.gif"
 }, {
     "en": "dairy",
     "tr": "süt ve süt ürünleri"
@@ -594,7 +594,7 @@
 }, {
     "en": "evade",
     "tr": "kaçmak",
-    "img": "/projects/language-app/source/img/evade.gif"
+    "img": "/assets/images/projects/language-app/evade.gif"
 }, {
     "en": "behold",
     "tr": "seyretmek"
@@ -612,7 +612,7 @@
 }, {
     "en": "classified",
     "tr": "sınıflandırılmış, gizli",
-    "img": "/projects/language-app/source/img/classified.gif"
+    "img": "/assets/images/projects/language-app/classified.gif"
 }, {
     "en": "irrelevant",
     "tr": "alakasız, konu dışı"
@@ -653,7 +653,7 @@
 }, {
     "en": "monument",
     "tr": "abide",
-    "img": "/projects/language-app/source/img/monument.jpg"
+    "img": "/assets/images/projects/language-app/monument.jpg"
 }, {
     "en": "termination",
     "tr": "sonlandırma"
@@ -861,7 +861,7 @@
 }, {
     "en": "to hatch",
     "tr": "yumurtadan çıkmak",
-    "img": "/projects/language-app/source/img/to_hatch.gif"
+    "img": "/assets/images/projects/language-app/to_hatch.gif"
 }, {
     "en": "acquire",
     "tr": "elde etmek"
@@ -906,7 +906,7 @@
 }, {
     "en": "nomination",
     "tr": "aday gösterme",
-    "img": "/projects/language-app/source/img/nomination.png"
+    "img": "/assets/images/projects/language-app/nomination.png"
 }, {
     "en": "despite",
     "tr": "aksine, rağmen"
@@ -947,4 +947,90 @@
     "en": "exaggerate",
     "tr": "abartmak",
     "def": "represent (something) as being larger, better, or worse than it really is."
+}, {
+    "en": "advent",
+    "tr": "geliş, vuku",
+    "def": "the arrival of a notable person, thing, or event."
+}, {
+    "en": "dedication",
+    "tr": "özveri"
+}, {
+    "en": "concord",
+    "tr": "uyum, anlaşma",
+    "def": "agreement or harmony between people or groups."
+}, {
+    "en": "substantial",
+    "tr": "azımsanmayacak (sayı/miktar)",
+    "def": "of considerable importance, size, or worth."
+}, {
+    "en": "legislative",
+    "tr": "yasama",
+    "def": "having the power to make laws."
+}, {
+    "en": "diagnose",
+    "tr": "teşhis koymak",
+    "img": "/assets/images/projects/language-app/diagnose.jpeg",
+    "def": "identify the nature of (an illness or other problem) by examination of the symptoms."
+}, {
+    "en": "grim",
+    "tr": "acımasız"
+}, {
+    "en": "reaper",
+    "tr": "orakçı"
+}, {
+    "en": "grim reaper",
+    "tr": "azrail"
+}, {
+    "en": "competent",
+    "tr": "yetkili, işin ehli"
+}, {
+    "en": "presume",
+    "tr": "varsaymak"
+}, {
+    "en": "scrutiny",
+    "tr": "dikkatli inceleme",
+    "def": "critical observation or examination."
+}, {
+    "en": "prominent",
+    "tr": "öne çıkan"
+}, {
+    "en": "simultaneously",
+    "tr": "eşzamanlı"
+}, {
+    "en": "incarceration",
+    "tr": "hapsetme"
+}, {
+    "en": "uphold",
+    "tr": "desteklemek",
+    "def": "confirm or support (something which has been questioned)."
+}, {
+    "en": "compensation",
+    "tr": "tazminat"
+}, {
+    "en": "intervene",
+    "tr": "araya girmek",
+    "def": "come between so as to prevent or alter a result or course of events."
+}, {
+    "en": "fervent",
+    "tr": "hararetli",
+    "def": "having or displaying a passionate intensity."
+}, {
+    "en": "liberation",
+    "tr": "özgürlük, kurtuluş",
+    "def": "the act of setting someone free from imprisonment, slavery, or oppression; release."
+}, {
+    "en": "empirical",
+    "tr": "deneysel, ampirik",
+    "def": "based on, concerned with, or verifiable by observation or experience rather than theory or pure logic."
+}, {
+    "en": "swell",
+    "tr": "kabarma, şişme"
+}, {
+    "en": "swollen",
+    "tr": "şişmiş"
+}, {
+    "en": "bundle",
+    "tr": "paket, demet",
+    "img": "/projects/language-app/source/img/bundle.jpg",
+    "def": "a collection of things or quantity of material tied or wrapped up together."
 }]

@@ -7,18 +7,19 @@ body {
     background-color: rgba(128, 128, 128, .5);
 }
 
-#content-container {
+#root {
     display: flex;
+    width: 100%;
 }
 
-#content-container>div {
+#root>div {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 100%;
 }
 
-#content-container>div>div {
+#root>div>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

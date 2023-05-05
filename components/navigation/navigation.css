@@ -61,20 +61,20 @@
     opacity: .5;
 }
 
-@media screen and (max-width: 700px) {
-    #sidenav {
-        position: absolute;
+@media screen and (max-width: 450px) {
+    top-nav {
+        height: var(--topnav-height);
     }
+}
 
-    #sidenav-mobile {
+@media screen and (max-width: 700px) {
+    side-nav {
         min-width: var(--sidenav-width);
     }
 }
 
 @media screen and (max-width: 450px) {
-
-    #sidenav-mobile,
-    #sidenav {
+    side-nav {
         display: none;
     }
 
@@ -106,7 +106,7 @@
     mask-image: url('/assets/icons/navbar/project-solid.svg');
 }
 
-.smile::before {
+.smile-n::before {
     -webkit-mask-image: url('/assets/icons/navbar/smile.svg');
     mask-image: url('/assets/icons/navbar/smile.svg');
 }

@@ -1,5 +1,9 @@
-#topnav, #sidenav {
+top-nav, side-nav {
     position: absolute;
+}
+
+#root {
+    width: 100%;
 }
 
 #content {

@@ -1,16 +1,15 @@
-#topnav, #sidenav {
+top-nav, side-nav {
     position: absolute;
 }
 
-#app {
+#root {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.smiley {
+.smile {
     --size: 10rem;
     background-color: #ede32b;
     width: var(--size);
@@ -24,7 +23,7 @@
     transition: transform 256ms ease-out;
 }
 
-.smiley:after {
+.smile:after {
     content: "";
     background-color: #ffffff;
     width: 20%;
@@ -36,7 +35,7 @@
     filter: blur(0.4rem);
 }
 
-.smiley-wrapper {
+.smile-wrapper {
     width: 100%;
     height: 100%;
     position: relative;
@@ -44,7 +43,7 @@
     transition: transform 128ms ease-out;
 }
 
-.smiley-wrapper>div {
+.smile-wrapper>div {
     width: 100%;
     height: 100%;
     transform-style: preserve-3d;

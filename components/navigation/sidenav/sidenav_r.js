@@ -38,7 +38,7 @@ class Sidenav extends HTMLElement {
                         <input title="Projects" class="pin-menu" type="checkbox">
                         <div class="expand">
                             <div>
-                                <a title="Language App" class="filled smile icon" href="/projects/language-app"></a>
+                                <a title="Language App" class="filled smile-n icon" href="/projects/language-app"></a>
                                 <span>Language App</span>
                                 <div>
                                     <a title="Code Playground" class="filled code icon" href="/projects/code-playground"></a>

@@ -5,7 +5,7 @@
 #include <emscripten.h>
 #endif
 #include "text/Text.hpp"
-//
+
 // Game constants
 const int SCREEN_WIDTH = 800;
 const int SCREEN_HEIGHT = 600;

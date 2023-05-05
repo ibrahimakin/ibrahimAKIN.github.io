@@ -85,7 +85,7 @@
 }, {
     "en": "Have you ever made a snowman?",
     "tr": "Hiç kardan adam yaptın mı?",
-    "img": "/projects/language-app/source/img/snowman.gif"
+    "img": "/assets/images/projects/language-app/snowman.gif"
 }, {
     "en": "I'm under a lot of pressure.",
     "tr": "Çok baskı altındayım."
@@ -266,7 +266,7 @@
 }, {
     "en": "I have had a hat since you have had a hat.",
     "tr": "Senin bir şapkan olduğundan beri benim bir şapkam var.",
-    "img": "/projects/language-app/source/img/hat.gif"
+    "img": "/assets/images/projects/language-app/hat.gif"
 }, {
     "en": "Everyone is in favor of your idea.",
     "tr": "Herkes senin fikrin lehinde."
@@ -522,7 +522,7 @@
 }, {
     "en": "Do those shoes come in white?",
     "tr": "Bu ayakkabıların beyazı var mı?",
-    "img": "/projects/language-app/source/img/shoes.gif"
+    "img": "/assets/images/projects/language-app/shoes.gif"
 }, {
     "en": "I didn't see that coming!",
     "tr": "Bunun olacağını tahmin edemedim!"
@@ -535,7 +535,7 @@
 }, {
     "en": "Spill the tea.",
     "tr": "Dedikoduyu ver.",
-    "img": "/projects/language-app/source/img/tea.gif"
+    "img": "/assets/images/projects/language-app/tea.gif"
 }, {
     "en": "Let's break out fast.",
     "tr": "Hadi orucumuzu açalım."
@@ -673,4 +673,18 @@
 }, {
     "en": "Overly attached.",
     "tr": "Aşırı bağlı."
+}, {
+    "en": "That which does not kill us makes us stronger.",
+    "tr": "Bizi öldürmeyen şey güçlendirir.",
+    "quo": "Friedrich Nietzsche"
+}, {
+    "en": "I'll level with you.",
+    "tr": "Seninle açık konuşacağım."
+}, {
+    "en": "The further a society drifts from the truth, the more it will hate those that speak it.",
+    "tr": "Bir toplum gerçeklerden ne kadar uzaklaşırsa, onu söyleyenlerden o kadar nefret eder.",
+    "quo": "Selwyn Duke"
+}, {
+    "en": "And to think the whole reason we met is 'cause my little bro is a swollen bundle of allergies.",
+    "tr": "Ve düşününce tanışmamızın tek sebebinin küçük kardeşimin şişmiş bir alerji yığını olması."
 }]

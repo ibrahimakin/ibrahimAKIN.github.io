@@ -3,7 +3,11 @@
     --rotate-width: 120px;
 }
 
-#topnav, #sidenav {
+body {
+    overflow: hidden;
+}
+
+top-nav, side-nav {
     position: absolute;
 }
 
@@ -29,7 +33,6 @@
     align-items: center;
     width: 100%;
     cursor: move;
-    overflow: scroll;
     perspective: 500px;
 }
 

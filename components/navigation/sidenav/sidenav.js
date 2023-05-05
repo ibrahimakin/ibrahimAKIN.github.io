@@ -2,6 +2,7 @@ class Sidenav extends HTMLElement {
     constructor() { super(); }
     handleCollapseChange() {
         document.getElementById('sidenav').classList.toggle('collapsed');
+        document.querySelector('side-nav').classList.toggle('collapsed');
     }
     handleExpandChange(e, pins) {
         for (const pin of pins) if (e.target !== pin) pin.checked = false;
@@ -9,12 +10,15 @@ class Sidenav extends HTMLElement {
     handleMediaQuery(x) {
         const collapse = document.getElementById('collapse');
         const sidenav = document.getElementById('sidenav');
+        const sidenav_cont = document.querySelector('side-nav');
         const collapsed = typeof sidenav_colapsed !== 'undefined';
         if ((collapsed || x.matches) && !collapse.checked) {       // If media query matches
+            sidenav_cont.classList.add('collapsed');
             sidenav.classList.add('collapsed');
             collapse.checked = true;
         }
         else if ((!collapsed && !x.matches) && collapse.checked) {
+            sidenav_cont.classList.remove('collapsed');
             sidenav.classList.remove('collapsed');
             collapse.checked = false;
         }
@@ -38,7 +42,7 @@ class Sidenav extends HTMLElement {
                         <div class="filled project icon"></div>
                         <div class="expand">
                             <div>
-                                <a title="Language App" class="filled smile icon" href="/projects/language-app"></a>
+                                <a title="Language App" class="filled smile-n icon" href="/projects/language-app"></a>
                                 <span>Language App</span>
                             </div>
                             <div>

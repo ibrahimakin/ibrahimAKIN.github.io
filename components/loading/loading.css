@@ -4,7 +4,7 @@
     --fg: hsl(var(--hue), 10%, 10%);
 }
 
-#topnav, #sidenav {
+top-nav, side-nav {
     position: absolute;
 }
 

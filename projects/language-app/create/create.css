@@ -1,18 +1,18 @@
-#content-container {
+#root {
     color: #fff;
 }
 
-#content-container>div {
+#root>div {
     display: flex;
     margin: auto;
     max-width: 1440px;
 }
 
-#content-container>div:last-child {
+#root>div:last-child {
     flex-direction: column;
 }
 
-#content-container>div>div {
+#root>div>div {
     margin: auto;
 }
 

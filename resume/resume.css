@@ -5,6 +5,10 @@
     --nav-clr: var(--resume-clr);
 }
 
+#topnav {
+    background-color: var(--resume-clr);
+}
+
 .filled {
     background-color: var(--resume-txt);
     border: 1px solid var(--bg-clr);
@@ -17,6 +21,10 @@
 .filled:hover+span,
 .filled:hover {
     --nav-clr: var(--resume-clr-hvr);
+}
+
+#root {
+    margin: auto;
 }
 
 #resume-page {
@@ -347,5 +355,11 @@
 @media screen and (max-height: 400px) {
     #resume-summary, #contact {
         position: relative;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #resume-summary, #contact {
+        top: var(--topnav-height);
     }
 }

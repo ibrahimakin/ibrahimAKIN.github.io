@@ -10,22 +10,13 @@
 
 html, body {
     height: 100%;
-    overflow: hidden;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     background-color: var(--bg-clr);
 }
 
 #main-container {
     display: flex;
-    height: 100%;
-    overflow: auto;
-}
-
-#content-container {
-    width: 100%;
-    overflow: auto;
+    min-height: 100%;
 }
