@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    overflow: auto;
     width: 100%;
 }
 
@@ -13,8 +12,6 @@
 
 #canvas-container {
     margin: auto;
-    display: flex;
-    flex-direction: column;
     width: 60%;
 }
 
@@ -22,6 +19,7 @@
     background-color: #000;
     border: 2px solid #fff;
     border-radius: 10px;
+    width: 100%;
 }
 
 .emscripten {

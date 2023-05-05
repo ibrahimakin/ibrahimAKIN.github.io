@@ -17,14 +17,11 @@
     color: rgb(206 208 210);
     text-align: center;
     padding: 0 10px;
-    overflow: auto;
     width: 100%;
 }
 
 #canvas-container {
     width: 80%;
-    display: flex;
-    flex-direction: column;
 }
 
 #score-container {
@@ -38,6 +35,7 @@
 #canvas {
     border: 1px solid #fff;
     background-color: rgba(255, 255, 255, .8);
+    width: 100%;
 }
 
 #space-button {
