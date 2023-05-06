@@ -9,8 +9,17 @@
     max-width: 1440px;
 }
 
+#root>div:nth-child(2) {
+    margin-bottom: 30px;
+}
+
 #root>div:last-child {
     flex-direction: column;
+}
+
+#root>div:last-child>div:nth-child(2) {
+    display: flex;
+    align-items: center;
 }
 
 #root>div>div {
@@ -20,11 +29,15 @@
 label[for="restxt"], #restxt {
     position: absolute;
     left: -100%;
+    top: 0;
     opacity: 0;
 }
 
+#copy {
+    margin: 20px;
+}
+
 #copy+div {
-    margin-bottom: 15px;
     text-align: center;
     opacity: 0;
 }
@@ -34,10 +47,11 @@ table {
 }
 
 td:first-child {
+    text-align: center;
     width: 103px;
 }
 
-td:nth-child(2) {
+td:nth-child(3) {
     width: 400px;
 }
 
@@ -47,18 +61,15 @@ td>input {
 
 input {
     padding: 5px;
-    margin-left: 5px;
 }
 
 label {
-    display: inline-block;
-    margin: 20px;
     cursor: pointer;
 }
 
-label[for="tr"], label[for="en"] {
-    display: block;
-    margin: 0;
+label:has(input) {
+    display: inline-block;
+    margin: 20px;
 }
 
 label>input {
@@ -72,14 +83,24 @@ textarea {
     margin: 25px;
 }
 
-textarea+div {
-    text-align: center;
-    visibility: hidden;
-}
-
 button {
     display: block;
     margin: 20px auto;
     padding: 5px 10px;
     cursor: pointer;
+}
+
+.langs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.langs>div {
+    text-align: center;
+    visibility: hidden;
+}
+
+.langs>button {
+    margin: 0;
 }

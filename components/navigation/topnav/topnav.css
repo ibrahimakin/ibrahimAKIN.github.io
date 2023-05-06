@@ -13,6 +13,7 @@ top-nav {
     position: fixed;
     width: 100%;
     z-index: 3;
+    top: 0;
 }
 
 #topnav .menu:hover>.expand {
@@ -22,9 +23,15 @@ top-nav {
 }
 
 #topnav.main>div {
-    padding: calc(var(--sidenav-gap) / 3);
+    padding: calc(var(--nav-gap) / 3);
 }
 
 #topnav .expand>div {
-    padding: calc(var(--sidenav-gap) / 3);
+    padding: calc(var(--nav-gap) / 3);
+}
+
+@media screen and (max-width: 450px) {
+    top-nav {
+        height: var(--topnav-height);
+    }
 }

@@ -1031,12 +1031,12 @@
 }, {
     "en": "bundle",
     "tr": "paket, demet",
-    "img": "/projects/language-app/source/img/bundle.jpg",
+    "img": "/assets/images/projects/language-app/bundle.jpg",
     "def": "a collection of things or quantity of material tied or wrapped up together."
 }, {
     "en": "foretell",
     "tr": "kehanette bulunmak",
-    "img": "/projects/language-app/source/img/foretell.gif",
+    "img": "/assets/images/projects/language-app/foretell.gif",
     "def": "predict (the future or a future event)."
 }, {
     "en": "intermediate",
@@ -1073,4 +1073,31 @@
     "en": "savory",
     "tr": "tuzlu (lezzetli)",
     "def": "(of food) belonging to the category that is salty or spicy rather than sweet."
+}, {
+    "en": "adhere",
+    "tr": "yapışmak, bağlı kalmak",
+    "def": "stick fast to (a surface or substance).",
+    "pos": "verb"
+}, {
+    "en": "imminent",
+    "tr": "eli kulağında, olması muhtemel",
+    "def": "about to happen.",
+    "pos": "adjective"
+}, {
+    "en": "adverb",
+    "tr": "zarf"
+}, {
+    "en": "exemplary",
+    "tr": "örnek gösterilen",
+    "def": "serving as a desirable model; representing the best of its kind.",
+    "pos": "adjective"
+}, {
+    "en": "vital",
+    "tr": "hayati",
+    "def": "absolutely necessary or important; essential.",
+    "pos": "adjective"
+}, {
+    "en": "rebuke",
+    "tr": "azarlamak",
+    "pos": "verb"
 }]

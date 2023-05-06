@@ -18,7 +18,7 @@ side-nav {
 
 #sidenav .expand>div div>span {
     bottom: unset;
-    margin-top: calc(-2 * var(--sidenav-gap));
+    margin-top: calc(-2 * var(--nav-gap));
     width: 100%;
 }
 
@@ -29,7 +29,7 @@ side-nav {
 .expand>div div {
     perspective: 1000px;
     position: relative;
-    padding-top: calc(2 * var(--sidenav-gap));
+    padding-top: calc(2 * var(--nav-gap));
     transition: transform .2s linear;
     transform-style: preserve-3d;
     transform: rotateX(-50deg);

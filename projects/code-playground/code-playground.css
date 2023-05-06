@@ -12,6 +12,7 @@
     color: #fff;
     padding: 16px;
     width: 100%;
+    overflow: auto;
 }
 
 #run-section {
