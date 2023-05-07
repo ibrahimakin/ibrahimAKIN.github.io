@@ -1,3 +1,4 @@
+const sidenav_width = 1000;
 const lang_obj = {
     tr: {
         turkiye: 'Türkiye',

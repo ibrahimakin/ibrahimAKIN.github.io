@@ -1100,4 +1100,34 @@
     "en": "rebuke",
     "tr": "azarlamak",
     "pos": "verb"
+}, {
+    "en": "considerable",
+    "tr": "hatırı sayılır",
+    "def": "notably large in size, amount, or extent.",
+    "pos": "adjective"
+}, {
+    "en": "flourish",
+    "tr": "yıldızı parlamak",
+    "def": "(of a person, animal, or other living organism) grow or develop in a healthy or vigorous way, especially as the result of a particularly favorable environment.",
+    "pos": "verb"
+}, {
+    "en": "regulation",
+    "tr": "düzenleme, yasa",
+    "def": "a rule or directive made and maintained by an authority.",
+    "pos": "noun"
+}, {
+    "en": "rationale",
+    "tr": "mantık",
+    "def": "a set of reasons or a logical basis for a course of action or a particular belief.",
+    "pos": "noun"
+}, {
+    "en": "divine",
+    "tr": "ilahi",
+    "def": "of, from, or like God or a god.",
+    "pos": "adjective"
+}, {
+    "en": "literally",
+    "tr": "gerçek anlamıyla",
+    "def": "in a literal manner or sense; exactly.",
+    "pos": "adverb"
 }]

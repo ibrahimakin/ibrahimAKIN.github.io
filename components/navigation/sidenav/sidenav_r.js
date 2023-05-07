@@ -1,14 +1,14 @@
 class Sidenav extends HTMLElement {
     constructor() { super(); }
-    handleCollapseChange() {
-        document.getElementById('sidenav').classList.toggle('collapsed');
+    handleCollapse() {
+        document.querySelector('side-nav').classList.toggle('collapsed');
     }
-    handleExpandChange(e, pins) {
+    handleExpand(e, pins) {
         for (const pin of pins) if (e.target !== pin) pin.checked = false;
     }
     handleMediaQuery(x) {
         const collapse = document.getElementById('collapse');
-        const sidenav = document.getElementById('sidenav');
+        const sidenav = document.querySelector('side-nav');
         const collapsed = typeof sidenav_colapsed !== 'undefined';
         if ((collapsed || x.matches) && !collapse.checked) {       // If media query matches
             sidenav.classList.add('collapsed');
@@ -115,10 +115,10 @@ class Sidenav extends HTMLElement {
                 </div>
             </div>
         `;
-        document.getElementById('collapse').addEventListener('change', this.handleCollapseChange);
+        document.getElementById('collapse').addEventListener('change', this.handleCollapse);
         const pins = document.getElementsByClassName('pin-menu');
-        for (const pin of pins) pin.addEventListener('change', e => this.handleExpandChange(e, pins));
-        let x = window.matchMedia('(max-width: 750px)');
+        for (const pin of pins) pin.addEventListener('change', e => this.handleExpand(e, pins));
+        const x = window.matchMedia('(max-width: 750px)');
         x.addEventListener('change', this.handleMediaQuery);       // Attach listener function on state changes
         this.handleMediaQuery(x);                                  // Call listener function at run time
     }

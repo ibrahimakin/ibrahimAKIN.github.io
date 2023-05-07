@@ -120,14 +120,14 @@ document.getElementById('tsl').addEventListener('click', () =>
 );
 
 en.addEventListener('input', e => {
+    e.target.nextElementSibling.firstElementChild.removeAttribute('style');
     en_value = e.target.value;
-    e.target.nextElementSibling.removeAttribute('style');
     handleChange();
 });
 
 tr.addEventListener('input', e => {
+    e.target.nextElementSibling.firstElementChild.removeAttribute('style');
     tr_value = e.target.value;
-    e.target.nextElementSibling.removeAttribute('style');
     handleChange();
 });
 
