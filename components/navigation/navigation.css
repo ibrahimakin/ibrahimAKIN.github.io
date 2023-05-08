@@ -67,8 +67,8 @@
         display: none;
     }
 
-    #topnav {
-        display: grid;
+    top-nav {
+        display: block;
     }
 }
 

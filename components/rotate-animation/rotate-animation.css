@@ -7,8 +7,9 @@ body {
     overflow: hidden;
 }
 
-top-nav, side-nav {
-    position: absolute;
+top-nav, side-nav, side-nav.collapsed {
+    height: 0;
+    width: 0;
 }
 
 #rotation-buttons {

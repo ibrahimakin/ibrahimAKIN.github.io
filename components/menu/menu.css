@@ -1,7 +1,4 @@
 #root {
-    width: 100%;
-}
-#menu-root {
     display: flex;
     height: 100%;
 }
@@ -132,7 +129,6 @@
     bottom:0;
     width:100%;
     height:100%;
-    display:block;
 }
 .stars {
     background: #000 url('/assets/images/menu/stars.png') repeat top center;

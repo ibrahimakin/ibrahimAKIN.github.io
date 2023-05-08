@@ -21,40 +21,38 @@
 </head>
 <body>
     <top-nav></top-nav>
-    <div id="main-container">
-        <side-nav></side-nav>
-        <div id="root">
-            <form onsubmit="handleSubmit(event)">
-                <input type="search" placeholder="username" autofocus required>
-                <button onclick="newtab = false" title="Search"></button>
-                <button onclick="newtab = true" title="Open in New Tab"></button>
-            </form>
-            <table style="display: none;">
-                <tr><th colspan="2">Difference</th></tr>
+    <side-nav></side-nav>
+    <div id="root">
+        <form onsubmit="handleSubmit(event)">
+            <input type="search" placeholder="username" autofocus required>
+            <button onclick="newtab = false" title="Search"></button>
+            <button onclick="newtab = true" title="Open in New Tab"></button>
+        </form>
+        <table style="display: none;">
+            <tr><th colspan="2">Difference</th></tr>
+            <tr>
+                <th>Followers <span id="c_dif_followers"></span></th>
+                <th>Following <span id="c_dif_following"></span></th>
+            </tr>
+            <tbody>
                 <tr>
-                    <th>Followers <span id="c_dif_followers"></span></th>
-                    <th>Following <span id="c_dif_following"></span></th>
+                    <td><ul id="dif_followers"></ul></td>
+                    <td><ul id="dif_following"></ul></td>
                 </tr>
-                <tbody>
-                    <tr>
-                        <td><ul id="dif_followers"></ul></td>
-                        <td><ul id="dif_following"></ul></td>
-                    </tr>
-                </tbody>
-                <tr><th colspan="2">All</th></tr>
+            </tbody>
+            <tr><th colspan="2">All</th></tr>
+            <tr>
+                <th>Followers <span id="c_all_followers"></span></th>
+                <th>Following <span id="c_all_following"></span></th>
+            </tr>
+            <tbody>
                 <tr>
-                    <th>Followers <span id="c_all_followers"></span></th>
-                    <th>Following <span id="c_all_following"></span></th>
+                    <td><ul id="all_followers"></ul></td>
+                    <td><ul id="all_following"></ul></td>
                 </tr>
-                <tbody>
-                    <tr>
-                        <td><ul id="all_followers"></ul></td>
-                        <td><ul id="all_following"></ul></td>
-                    </tr>
-                </tbody>
-            </table>
-            <p style="display: none;"></p>
-        </div>
+            </tbody>
+        </table>
+        <p style="display: none;"></p>
     </div>
 </body>
 </html>

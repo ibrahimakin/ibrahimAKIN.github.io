@@ -3,10 +3,8 @@ class Container extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <top-nav></top-nav>
-            <div id="main-container">
-                <side-nav></side-nav>
-                ${this.innerHTML}
-            </div>
+            <side-nav></side-nav>
+            ${this.innerHTML}
         `;
     }
 };

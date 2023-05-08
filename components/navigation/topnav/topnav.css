@@ -3,17 +3,17 @@
 }
 
 top-nav {
-    display: block;
+    display: none;
+    height: var(--topnav-height);
 }
 
 #topnav {
-    display: none;
+    display: grid;
     grid-template-columns: repeat(8, 1fr);
     height: var(--topnav-height);
     position: fixed;
     width: 100%;
     z-index: 3;
-    top: 0;
 }
 
 #topnav .menu:hover>.expand {
@@ -28,10 +28,4 @@ top-nav {
 
 #topnav .expand>div {
     padding: calc(var(--nav-gap) / 3);
-}
-
-@media screen and (max-width: 450px) {
-    top-nav {
-        height: var(--topnav-height);
-    }
 }

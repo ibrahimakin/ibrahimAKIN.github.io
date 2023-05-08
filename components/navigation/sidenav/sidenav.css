@@ -3,22 +3,22 @@
 }
 
 side-nav {
-    min-width: calc(var(--sidenav-width) * 3);
-    transition: min-width .1s linear;
-    z-index: 3;
+    width: calc(var(--sidenav-width) * 3);
+    transition: width .1s linear;
 }
 
 side-nav.collapsed {
-    min-width: var(--sidenav-width);
+    width: var(--sidenav-width);
 }
 
 #sidenav {
-    position: fixed;
     display: flex;
-    height: 100%;
     justify-content: center;
     width: calc(var(--sidenav-width) * 3);
     transition: width .1s linear;
+    position: fixed;
+    height: 100%;
+    z-index: 3;
 }
 
 side-nav.collapsed>#sidenav {
@@ -40,7 +40,7 @@ side-nav.collapsed>#sidenav {
 
 .sub {
     display: grid;
-    min-width: var(--sidenav-width);
+    width: var(--sidenav-width);
     transition: transform .1s linear;
     grid-template-rows: repeat(8, 1fr);
     height: 100%;
@@ -148,6 +148,6 @@ side-nav.collapsed>#sidenav {
 
 @media screen and (max-width: 750px) {
     side-nav {
-        min-width: var(--sidenav-width);
+        width: var(--sidenav-width);
     }
 }

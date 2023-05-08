@@ -9,7 +9,6 @@ body {
 
 #root {
     display: flex;
-    width: 100%;
 }
 
 #root>div {

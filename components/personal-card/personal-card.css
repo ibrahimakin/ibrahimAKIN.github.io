@@ -1,9 +1,6 @@
-top-nav, side-nav {
-    position: absolute;
-}
-
-#root {
-    width: 100%;
+top-nav, side-nav, side-nav.collapsed {
+    height: 0;
+    width: 0;
 }
 
 #content {

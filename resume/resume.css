@@ -33,7 +33,7 @@
     line-height: 1.5;
     margin: auto;
     width: 85%;
-    max-width: 1125px;
+    max-width: 1000px;
     background-color: var(--resume-txt);
     box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
 }

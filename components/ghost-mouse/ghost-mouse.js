@@ -18,116 +18,116 @@ let loader = new THREE.TextureLoader();
 let texture, rtTexture, rtTexture2;
 loader.setCrossOrigin('anonymous');
 loader.load(
-  '/assets/images/components/noise.png',
-  tex => {
-    texture = tex;
-    texture.wrapS = THREE.RepeatWrapping;
-    texture.wrapT = THREE.RepeatWrapping;
-    texture.minFilter = THREE.LinearFilter;
-    init();
-    animate();
-  }
+    '/assets/images/components/noise.png',
+    tex => {
+        texture = tex;
+        texture.wrapS = THREE.RepeatWrapping;
+        texture.wrapT = THREE.RepeatWrapping;
+        texture.minFilter = THREE.LinearFilter;
+        init();
+        animate();
+    }
 );
 
 function init() {
-  container = document.getElementById('container');
+    container = document.getElementById('container');
 
-  camera = new THREE.Camera();
-  camera.position.z = 1;
+    camera = new THREE.Camera();
+    camera.position.z = 1;
 
-  scene = new THREE.Scene();
+    scene = new THREE.Scene();
 
-  let geometry = new THREE.PlaneBufferGeometry(2, 2);
+    let geometry = new THREE.PlaneBufferGeometry(2, 2);
 
-  rtTexture = new THREE.WebGLRenderTarget(window.innerWidth * .2, window.innerHeight * .2);
-  rtTexture2 = new THREE.WebGLRenderTarget(window.innerWidth * .2, window.innerHeight * .2);
+    rtTexture = new THREE.WebGLRenderTarget(window.innerWidth * .2, window.innerHeight * .2);
+    rtTexture2 = new THREE.WebGLRenderTarget(window.innerWidth * .2, window.innerHeight * .2);
 
-  uniforms = {
-    u_time: { type: 'f', value: 1.0 },
-    u_resolution: { type: 'v2', value: new THREE.Vector2() },
-    u_noise: { type: 't', value: texture },
-    u_buffer: { type: 't', value: rtTexture.texture },
-    u_mouse: { type: 'v2', value: new THREE.Vector2() },
-    u_renderpass: { type: 'b', value: false }
-  };
+    uniforms = {
+        u_time: { type: 'f', value: 1.0 },
+        u_resolution: { type: 'v2', value: new THREE.Vector2() },
+        u_noise: { type: 't', value: texture },
+        u_buffer: { type: 't', value: rtTexture.texture },
+        u_mouse: { type: 'v2', value: new THREE.Vector2() },
+        u_renderpass: { type: 'b', value: false }
+    };
 
-  let material = new THREE.ShaderMaterial({
-    uniforms: uniforms,
-    vertexShader: document.getElementById('vertexShader').textContent,
-    fragmentShader: document.getElementById('fragmentShader').textContent
-  });
+    let material = new THREE.ShaderMaterial({
+        uniforms: uniforms,
+        vertexShader: document.getElementById('vertexShader').textContent,
+        fragmentShader: document.getElementById('fragmentShader').textContent
+    });
 
-  material.extensions.derivatives = true;
+    material.extensions.derivatives = true;
 
-  let mesh = new THREE.Mesh(geometry, material);
-  scene.add(mesh);
+    let mesh = new THREE.Mesh(geometry, material);
+    scene.add(mesh);
 
-  renderer = new THREE.WebGLRenderer();
-  renderer.setPixelRatio(window.devicePixelRatio);
+    renderer = new THREE.WebGLRenderer();
+    renderer.setPixelRatio(window.devicePixelRatio);
 
-  container.appendChild(renderer.domElement);
+    container.appendChild(renderer.domElement);
 
-  onWindowResize();
-  window.addEventListener('resize', onWindowResize, false);
+    onWindowResize();
+    window.addEventListener('resize', onWindowResize, false);
 
-  document.addEventListener('pointermove', e => {
-    let ratio = window.innerHeight / window.innerWidth;
-    newmouse.x = (e.pageX - window.innerWidth / 2) / window.innerWidth / ratio;
-    newmouse.y = (e.pageY - window.innerHeight / 2) / window.innerHeight * -1;
+    document.addEventListener('pointermove', e => {
+        let ratio = window.innerHeight / window.innerWidth;
+        newmouse.x = (e.pageX - window.innerWidth / 2) / window.innerWidth / ratio;
+        newmouse.y = (e.pageY - window.innerHeight / 2) / window.innerHeight * -1;
 
-    e.preventDefault();
-  });
+        e.preventDefault();
+    });
 }
 
 function onWindowResize() {
-  renderer.setSize(window.innerWidth, window.innerHeight);
-  uniforms.u_resolution.value.x = renderer.domElement.width;
-  uniforms.u_resolution.value.y = renderer.domElement.height;
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    uniforms.u_resolution.value.x = renderer.domElement.width;
+    uniforms.u_resolution.value.y = renderer.domElement.height;
 
-  rtTexture = new THREE.WebGLRenderTarget(window.innerWidth * .2, window.innerHeight * .2);
-  rtTexture2 = new THREE.WebGLRenderTarget(window.innerWidth * .2, window.innerHeight * .2);
+    rtTexture = new THREE.WebGLRenderTarget(window.innerWidth * .2, window.innerHeight * .2);
+    rtTexture2 = new THREE.WebGLRenderTarget(window.innerWidth * .2, window.innerHeight * .2);
 }
 
 function animate(delta) {
-  requestAnimationFrame(animate);
-  render(delta);
+    requestAnimationFrame(animate);
+    render(delta);
 }
 
 let then = 0;
 function renderTexture() {
-  // let ov = uniforms.u_buff.value;
+    // let ov = uniforms.u_buff.value;
 
-  let odims = uniforms.u_resolution.value.clone();
-  uniforms.u_resolution.value.x = window.innerWidth * .2;
-  uniforms.u_resolution.value.y = window.innerHeight * .2;
+    let odims = uniforms.u_resolution.value.clone();
+    uniforms.u_resolution.value.x = window.innerWidth * .2;
+    uniforms.u_resolution.value.y = window.innerHeight * .2;
 
-  uniforms.u_buffer.value = rtTexture2.texture;
+    uniforms.u_buffer.value = rtTexture2.texture;
 
-  uniforms.u_renderpass.value = true;
+    uniforms.u_renderpass.value = true;
 
-  // rtTexture = rtTexture2;
-  // rtTexture2 = buffer;
+    // rtTexture = rtTexture2;
+    // rtTexture2 = buffer;
 
-  window.rtTexture = rtTexture;
-  renderer.setRenderTarget(rtTexture);
-  renderer.render(scene, camera, rtTexture, true);
+    window.rtTexture = rtTexture;
+    renderer.setRenderTarget(rtTexture);
+    renderer.render(scene, camera, rtTexture, true);
 
-  let buffer = rtTexture;
-  rtTexture = rtTexture2;
-  rtTexture2 = buffer;
+    let buffer = rtTexture;
+    rtTexture = rtTexture2;
+    rtTexture2 = buffer;
 
-  // uniforms.u_buff.value = ov;
+    // uniforms.u_buff.value = ov;
 
-  uniforms.u_buffer.value = rtTexture.texture;
-  uniforms.u_resolution.value = odims;
-  uniforms.u_renderpass.value = false;
+    uniforms.u_buffer.value = rtTexture.texture;
+    uniforms.u_resolution.value = odims;
+    uniforms.u_renderpass.value = false;
 }
 
 function render(delta) {
-  uniforms.u_mouse.value.x += (newmouse.x - uniforms.u_mouse.value.x) * divisor;
-  uniforms.u_mouse.value.y += (newmouse.y - uniforms.u_mouse.value.y) * divisor;
+    uniforms.u_mouse.value.x += (newmouse.x - uniforms.u_mouse.value.x) * divisor;
+    uniforms.u_mouse.value.y += (newmouse.y - uniforms.u_mouse.value.y) * divisor;
 
-  uniforms.u_time.value = delta * 0.0005;
-  renderer.render(scene, camera);
-  renderTexture();
+    uniforms.u_time.value = delta * 0.0005;
+    renderer.render(scene, camera);
+    renderTexture();
 }
