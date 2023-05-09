@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 100%;
 }
 
 #root>div:first-child {
@@ -10,7 +9,7 @@
     width: 100%;
 }
 
-#canvas-container {
+#container {
     margin: auto;
     width: 60%;
 }
@@ -100,7 +99,8 @@
 
 #progress {
     height: 20px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
 }
 
 #output {

@@ -22,7 +22,7 @@
 }
 .card-item:hover {
     transform: scale(1.2);
-    box-shadow: 0px 5px 60px 0.1px #000;
+    box-shadow: 0px 5px 60px .1px #000;
     z-index: 1;
 }
 .card-item a {
@@ -37,7 +37,7 @@
     overflow: hidden;
 }
 .card-item:hover a {
-    box-shadow: inset 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0 0 10px 0 rgba(255, 255, 255, .5);
 }
 .card-item:hover .card-img {
     transform: scale(1.2);
@@ -122,13 +122,11 @@
     to {background-position:10000px 0;}
 }
 .stars, .clouds {
-    position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    width:100%;
-    height:100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 .stars {
     background: #000 url('/assets/images/menu/stars.png') repeat top center;
@@ -143,10 +141,7 @@
 }
 
 .background {
-    position: absolute;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
+    position: fixed;
 }
 #stars1 {
     width: 1px;

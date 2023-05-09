@@ -1,6 +1,6 @@
 class SnakeGame {
     constructor() {
-        this.canvas = document.getElementById('game');
+        this.canvas = document.getElementById('canvas');
         this.context = this.canvas.getContext('2d');
         document.getElementById('snake-play').addEventListener('click', this.handlePlayClick.bind(this));
         document.getElementById('snake-pause').addEventListener('click', this.handlePauseClick.bind(this));

@@ -32,9 +32,8 @@ top-nav, side-nav, side-nav.collapsed {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    cursor: move;
     perspective: 500px;
+    cursor: move;
 }
 
 #sq-c {

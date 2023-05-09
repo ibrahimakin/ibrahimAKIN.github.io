@@ -3,6 +3,11 @@ top-nav, side-nav, side-nav.collapsed {
     width: 0;
 }
 
+#particles-js {
+    position: fixed;
+    height: 100%;
+}
+
 #content {
     font-family: 'Poppins', sans-serif;
     height: 100%;

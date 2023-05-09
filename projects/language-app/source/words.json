@@ -1130,4 +1130,68 @@
     "tr": "gerçek anlamıyla",
     "def": "in a literal manner or sense; exactly.",
     "pos": "adverb"
+}, {
+    "en": "decease",
+    "tr": "vefat, ölüm",
+    "def": "death.",
+    "pos": "noun"
+}, {
+    "en": "extensive",
+    "tr": "yaygın, geniş kapsamlı",
+    "def": "covering or affecting a large area.",
+    "pos": "adjective"
+}, {
+    "en": "bystander",
+    "tr": "görgü tanığı",
+    "def": "a person who is present at an event or incident but does not take part.",
+    "pos": "noun"
+}, {
+    "en": "autonomous",
+    "tr": "özerk",
+    "def": "(of a country or region) having the freedom to govern itself or control its own affairs.",
+    "pos": "adjective"
+}, {
+    "en": "incident",
+    "tr": "olay",
+    "def": "an event or occurrence.",
+    "pos": "noun"
+}, {
+    "en": "grimace",
+    "tr": "yüz ekşitme",
+    "def": "an ugly, twisted expression on a person's face, typically expressing disgust, pain, or wry amusement.",
+    "pos": "noun"
+}, {
+    "en": "sip",
+    "tr": "yudumlamak",
+    "def": "drink (something) by taking small mouthfuls.",
+    "pos": "verb"
+}, {
+    "en": "adapt",
+    "tr": "adapte etmek",
+    "pos": "verb"
+}, {
+    "en": "principal",
+    "tr": "en önemli, asıl",
+    "def": "first in order of importance; main.",
+    "pos": "adjective"
+}, {
+    "en": "assent",
+    "tr": "onay, kabul",
+    "def": "the expression of approval or agreement.",
+    "pos": "noun"
+}, {
+    "en": "collapse",
+    "tr": "çökmek, yığılmak",
+    "def": "(of a structure) fall down or in; give way.",
+    "pos": "verb"
+}, {
+    "en": "infer",
+    "tr": "anlam çıkarmak",
+    "def": "deduce or conclude (information) from evidence and reasoning rather than from explicit statements.",
+    "pos": "verb"
+}, {
+    "en": "extravagant",
+    "tr": "savurgan",
+    "def": "lacking restraint in spending money or using resources.",
+    "pos": "adjective"
 }]

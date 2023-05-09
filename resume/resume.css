@@ -23,10 +23,6 @@
     --nav-clr: var(--resume-clr-hvr);
 }
 
-#root {
-    margin: auto;
-}
-
 #resume-page {
     display: flex;
     font-size: 0.939em;

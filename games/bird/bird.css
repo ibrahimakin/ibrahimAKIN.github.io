@@ -19,11 +19,11 @@
     padding: 0 10px;
 }
 
-#canvas-container {
+#container {
     width: 80%;
 }
 
-#score-container {
+#scores {
     display: flex;
     width: 115px;
     flex-direction: column;
@@ -37,7 +37,7 @@
     width: 100%;
 }
 
-#space-button {
+#space {
     padding: 5px 50px;
     margin-top: 5px;
     cursor: pointer;

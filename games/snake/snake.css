@@ -15,15 +15,15 @@
     align-items: center;
 }
 
-#canvas-container {
+#container {
     width: 80%;
 }
 
-#canvas-container+div {
+#container+div {
     width: 78px;
 }
 
-#game {
+#canvas {
     background-color: #000;
     border: 1px solid #fff;
     width: 100%;
