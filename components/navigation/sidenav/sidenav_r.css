@@ -2,11 +2,12 @@ side-nav {
     display: flex;
     align-items: center;
     width: var(--sidenav-width);
+    height: 100vh;
 }
 
 #sidenav {
     width: var(--sidenav-width);
-    max-height: 650px;
+    max-height: 630px;
 }
 
 #sidenav .expand {

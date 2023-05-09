@@ -1,5 +1,4 @@
 class Topnav extends HTMLElement {
-    constructor() { super(); }
     connectedCallback() {
         const lang_support = typeof lang_obj === 'undefined' ? 'disabled' : '';
         this.innerHTML = `

@@ -359,3 +359,9 @@
         top: var(--topnav-height);
     }
 }
+
+@media screen and (max-width: 1000px) {
+    side-nav {
+        width: var(--sidenav-width);
+    }
+}

@@ -6,6 +6,7 @@ top-nav, side-nav, side-nav.collapsed {
 #particles-js {
     position: fixed;
     height: 100%;
+    width: 100%;
 }
 
 #content {
