@@ -1,14 +1,13 @@
 side-nav {
     display: flex;
-    height: 100vh;
     align-items: center;
-    min-width: var(--sidenav-width);
+    width: var(--sidenav-width);
+    height: 100vh;
 }
 
 #sidenav {
-    height: 100%;
-    max-height: 650px;
     width: var(--sidenav-width);
+    max-height: 630px;
 }
 
 #sidenav .expand {
@@ -18,7 +17,7 @@ side-nav {
 
 #sidenav .expand>div div>span {
     bottom: unset;
-    margin-top: calc(-2 * var(--sidenav-gap));
+    margin-top: calc(-2 * var(--nav-gap));
     width: 100%;
 }
 
@@ -29,7 +28,7 @@ side-nav {
 .expand>div div {
     perspective: 1000px;
     position: relative;
-    padding-top: calc(2 * var(--sidenav-gap));
+    padding-top: calc(2 * var(--nav-gap));
     transition: transform .2s linear;
     transform-style: preserve-3d;
     transform: rotateX(-50deg);

@@ -1031,6 +1031,167 @@
 }, {
     "en": "bundle",
     "tr": "paket, demet",
-    "img": "/projects/language-app/source/img/bundle.jpg",
+    "img": "/assets/images/projects/language-app/bundle.jpg",
     "def": "a collection of things or quantity of material tied or wrapped up together."
+}, {
+    "en": "foretell",
+    "tr": "kehanette bulunmak",
+    "img": "/assets/images/projects/language-app/foretell.gif",
+    "def": "predict (the future or a future event)."
+}, {
+    "en": "intermediate",
+    "tr": "orta seviye"
+}, {
+    "en": "priceless",
+    "tr": "paha biçilemez"
+}, {
+    "en": "prudent",
+    "tr": "ihtiyatlı, tedbirli",
+    "def": "acting with or showing care and thought for the future."
+}, {
+    "en": "prevail",
+    "tr": "galip gelmek, yaygın olmak",
+    "def": "prove more powerful than opposing forces; be victorious."
+}, {
+    "en": "amendment",
+    "tr": "değiştirme (kuralı/tasarıyı)",
+    "def": " a minor change or addition designed to improve a text, piece of legislation, etc."
+}, {
+    "en": "robust",
+    "tr": "güçlü, sağlıklı",
+    "def": "strong and healthy; vigorous."
+}, {
+    "en": "eventually",
+    "tr": "en sonunda"
+}, {
+    "en": "immense",
+    "tr": "uçsuz bucaksız"
+}, {
+    "en": "splurge",
+    "tr": "savurganlık"
+}, {
+    "en": "savory",
+    "tr": "tuzlu (lezzetli)",
+    "def": "(of food) belonging to the category that is salty or spicy rather than sweet."
+}, {
+    "en": "adhere",
+    "tr": "yapışmak, bağlı kalmak",
+    "def": "stick fast to (a surface or substance).",
+    "pos": "verb"
+}, {
+    "en": "imminent",
+    "tr": "eli kulağında, olması muhtemel",
+    "def": "about to happen.",
+    "pos": "adjective"
+}, {
+    "en": "adverb",
+    "tr": "zarf"
+}, {
+    "en": "exemplary",
+    "tr": "örnek gösterilen",
+    "def": "serving as a desirable model; representing the best of its kind.",
+    "pos": "adjective"
+}, {
+    "en": "vital",
+    "tr": "hayati",
+    "def": "absolutely necessary or important; essential.",
+    "pos": "adjective"
+}, {
+    "en": "rebuke",
+    "tr": "azarlamak",
+    "pos": "verb"
+}, {
+    "en": "considerable",
+    "tr": "hatırı sayılır",
+    "def": "notably large in size, amount, or extent.",
+    "pos": "adjective"
+}, {
+    "en": "flourish",
+    "tr": "yıldızı parlamak",
+    "def": "(of a person, animal, or other living organism) grow or develop in a healthy or vigorous way, especially as the result of a particularly favorable environment.",
+    "pos": "verb"
+}, {
+    "en": "regulation",
+    "tr": "düzenleme, yasa",
+    "def": "a rule or directive made and maintained by an authority.",
+    "pos": "noun"
+}, {
+    "en": "rationale",
+    "tr": "mantık",
+    "def": "a set of reasons or a logical basis for a course of action or a particular belief.",
+    "pos": "noun"
+}, {
+    "en": "divine",
+    "tr": "ilahi",
+    "def": "of, from, or like God or a god.",
+    "pos": "adjective"
+}, {
+    "en": "literally",
+    "tr": "gerçek anlamıyla",
+    "def": "in a literal manner or sense; exactly.",
+    "pos": "adverb"
+}, {
+    "en": "decease",
+    "tr": "vefat, ölüm",
+    "def": "death.",
+    "pos": "noun"
+}, {
+    "en": "extensive",
+    "tr": "yaygın, geniş kapsamlı",
+    "def": "covering or affecting a large area.",
+    "pos": "adjective"
+}, {
+    "en": "bystander",
+    "tr": "görgü tanığı",
+    "def": "a person who is present at an event or incident but does not take part.",
+    "pos": "noun"
+}, {
+    "en": "autonomous",
+    "tr": "özerk",
+    "def": "(of a country or region) having the freedom to govern itself or control its own affairs.",
+    "pos": "adjective"
+}, {
+    "en": "incident",
+    "tr": "olay",
+    "def": "an event or occurrence.",
+    "pos": "noun"
+}, {
+    "en": "grimace",
+    "tr": "yüz ekşitme",
+    "def": "an ugly, twisted expression on a person's face, typically expressing disgust, pain, or wry amusement.",
+    "pos": "noun"
+}, {
+    "en": "sip",
+    "tr": "yudumlamak",
+    "def": "drink (something) by taking small mouthfuls.",
+    "pos": "verb"
+}, {
+    "en": "adapt",
+    "tr": "adapte etmek",
+    "pos": "verb"
+}, {
+    "en": "principal",
+    "tr": "en önemli, asıl",
+    "def": "first in order of importance; main.",
+    "pos": "adjective"
+}, {
+    "en": "assent",
+    "tr": "onay, kabul",
+    "def": "the expression of approval or agreement.",
+    "pos": "noun"
+}, {
+    "en": "collapse",
+    "tr": "çökmek, yığılmak",
+    "def": "(of a structure) fall down or in; give way.",
+    "pos": "verb"
+}, {
+    "en": "infer",
+    "tr": "anlam çıkarmak",
+    "def": "deduce or conclude (information) from evidence and reasoning rather than from explicit statements.",
+    "pos": "verb"
+}, {
+    "en": "extravagant",
+    "tr": "savurgan",
+    "def": "lacking restraint in spending money or using resources.",
+    "pos": "adjective"
 }]

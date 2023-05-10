@@ -9,7 +9,6 @@ body {
 
 #root {
     display: flex;
-    width: 100%;
 }
 
 #root>div {
@@ -50,7 +49,7 @@ button {
 }
 
 table {
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 table:last-child th {

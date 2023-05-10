@@ -24,25 +24,23 @@
 </head>
 <body>
     <top-nav></top-nav>
-    <div id="main-container">
-        <side-nav></side-nav>
-        <div id="root">
-            <h2>HTML</h2>
-            <textarea class="prism-live line-numbers editor fill language-html" aria-label="editor" style="--max-height:30em"></textarea>
-            <h2>CSS</h2>
-            <textarea class="prism-live line-numbers editor fill language-css" aria-label="editor" style="--max-height:30em"></textarea>
-            <h2>JAVASCRIPT</h2>
-            <textarea class="prism-live line-numbers editor fill language-js" aria-label="editor" style="--max-height:30em"></textarea>
-            <div id="run-section">
-                <button id="run-button" lang-tag="run">Run</button>
-                <div title="Not recommended">
-                    <input type="checkbox" id="instant-run" name="instant_run">&nbsp;
-                    <label for="instant-run" lang-tag="instant_run">Instant Run</label><br>
-                </div>
+    <side-nav></side-nav>
+    <div id="root">
+        <h2>HTML</h2>
+        <textarea class="prism-live line-numbers editor fill language-html" aria-label="editor" style="--max-height:30em"></textarea>
+        <h2>CSS</h2>
+        <textarea class="prism-live line-numbers editor fill language-css" aria-label="editor" style="--max-height:30em"></textarea>
+        <h2>JAVASCRIPT</h2>
+        <textarea class="prism-live line-numbers editor fill language-js" aria-label="editor" style="--max-height:30em"></textarea>
+        <div id="run-section">
+            <button id="run-button" lang-tag="run">Run</button>
+            <div title="Not recommended">
+                <input type="checkbox" id="instant-run" name="instant_run">&nbsp;
+                <label for="instant-run" lang-tag="instant_run">Instant Run</label><br>
             </div>
-            <h2 lang-tag="result">RESULT</h2>
-            <div id="code-result"></div>
         </div>
+        <h2 lang-tag="result">RESULT</h2>
+        <div id="code-result"></div>
     </div>
     <script src="src/js/bliss.shy.min.js"></script>
     <script src="src/js/prism.js"></script>

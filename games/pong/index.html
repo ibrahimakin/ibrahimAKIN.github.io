@@ -20,21 +20,19 @@
 </head>
 <body>
     <top-nav></top-nav>
-    <div id="main-container">
-        <side-nav></side-nav>
-        <div id="root">
-            <div>
-                <div class="spinner" id="spinner"></div>
-                <div id="status">Downloading...</div>
-                <div class="emscripten">
-                    <progress value="0" max="100" id="progress" hidden=1></progress>
-                </div>
+    <side-nav></side-nav>
+    <div id="root">
+        <div>
+            <div class="spinner" id="spinner"></div>
+            <div id="status">Downloading...</div>
+            <div class="emscripten">
+                <progress value="0" max="100" id="progress" hidden=1></progress>
             </div>
-            <div id="canvas-container">
-                <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1 width="800" height="600"></canvas>
-            </div>
-            <textarea id="output" rows="8"></textarea>
         </div>
+        <div id="container">
+            <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1 width="800" height="600"></canvas>
+        </div>
+        <textarea id="output" rows="8"></textarea>
     </div>
     <script type="text/javascript" src="pong.js"></script>
     <script type="text/javascript" src="index.js" async></script>

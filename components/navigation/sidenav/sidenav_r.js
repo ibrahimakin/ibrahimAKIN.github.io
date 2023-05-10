@@ -1,32 +1,11 @@
 class Sidenav extends HTMLElement {
-    constructor() { super(); }
-    handleCollapseChange() {
-        document.getElementById('sidenav').classList.toggle('collapsed');
-    }
-    handleExpandChange(e, pins) {
+    handleExpand(e, pins) {
         for (const pin of pins) if (e.target !== pin) pin.checked = false;
-    }
-    handleMediaQuery(x) {
-        const collapse = document.getElementById('collapse');
-        const sidenav = document.getElementById('sidenav');
-        const collapsed = typeof sidenav_colapsed !== 'undefined';
-        if ((collapsed || x.matches) && !collapse.checked) {       // If media query matches
-            sidenav.classList.add('collapsed');
-            collapse.checked = true;
-        }
-        else if ((!collapsed && !x.matches) && collapse.checked) {
-            sidenav.classList.remove('collapsed');
-            collapse.checked = false;
-        }
     }
     connectedCallback() {
         const lang_support = typeof lang_obj === 'undefined' ? 'disabled' : '';
         this.innerHTML = `
             <div id="sidenav">
-                <div class="sub">
-                    <div class="grid-3"><div class="filled"></div></div>
-                    <div class="grid-8"><div class="filled"></div></div>
-                </div>
                 <div class="main sub">
                     <div>
                         <a title="Home" class="filled home icon" href="/"></a>
@@ -63,7 +42,7 @@ class Sidenav extends HTMLElement {
                     <div class="menu">
                         <div class="filled games icon"></div>
                         <input title="Games" class="pin-menu" type="checkbox">
-                        <div class="expand">
+                        <div class="expand more" style="--extra:1">
                             <div>
                                 <a title="Tetris" class="filled tetris icon" href="/games/tetris"></a>
                                 <span>Tetris</span>
@@ -76,6 +55,10 @@ class Sidenav extends HTMLElement {
                                         <div>
                                             <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe"></a>
                                             <span lang-tag="xox">Tic Tac Toe</span>
+                                            <div>
+                                                <a title="Ping Pong" class="filled pong icon" href="/games/pong"></a>
+                                                <span lang-tag="pong">Ping Pong</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -104,23 +87,11 @@ class Sidenav extends HTMLElement {
                         </div>
                         <span lang-tag="settings">Settings</span>
                     </div>
-                    <div>
-                        <input id="collapse" aria-label="collapse" type="checkbox">
-                        <div class="filled back icon"></div>
-                    </div>
-                </div>
-                <div class="sub">
-                    <div class="grid-3"><div class="filled"></div></div>
-                    <div class="grid-8"><div class="filled"></div></div>
                 </div>
             </div>
         `;
-        document.getElementById('collapse').addEventListener('change', this.handleCollapseChange);
         const pins = document.getElementsByClassName('pin-menu');
-        for (const pin of pins) pin.addEventListener('change', e => this.handleExpandChange(e, pins));
-        let x = window.matchMedia('(max-width: 750px)');
-        x.addEventListener('change', this.handleMediaQuery);       // Attach listener function on state changes
-        this.handleMediaQuery(x);                                  // Call listener function at run time
+        for (const pin of pins) pin.addEventListener('change', e => this.handleExpand(e, pins));
     }
 }
 customElements.define('side-nav', Sidenav);

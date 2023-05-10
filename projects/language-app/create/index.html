@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="theme-color" content="#000" />
+    <meta name="theme-color" content="#0a141d" />
     <meta name="description" content="Language Application" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Language App</title>
@@ -21,75 +21,95 @@
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <top-nav></top-nav>
-    <div id="main-container">
-        <div id="sidenav-mobile">
-            <side-nav></side-nav>
+    <side-nav></side-nav>
+    <div id="root">
+        <div>
+            <div>
+                <label>
+                    <input name="type" type="radio" onchange="handleCheck(this)" value="sentence" checked>
+                    Sentence
+                </label>
+                <label>
+                    <input name="type" type="radio" onchange="handleCheck(this)" value="word">
+                    Word
+                </label>
+            </div>
         </div>
-        <div id="root">
+        <div>
             <div>
-                <div>
-                    <label>
-                        <input name="type" type="radio" onchange="handleCheck(this)" value="sentence" checked>
-                        Sentence
-                    </label>
-                    <label>
-                        <input name="type" type="radio" onchange="handleCheck(this)" value="word">
-                        Word
-                    </label>
-                </div>
-            </div>
-            <div>
-                <div>
+                <div class="langs">
                     <label for="en">En</label>
-                    <textarea id="en" autofocus></textarea>
-                    <div>Found.</div>
-                    <button id="enf">Find</button>
+                    <button onclick="handleDelete('en')">X</button>
                 </div>
-                <div>
-                    <button id="tsl"> &#8625; </button>
-                    <button id="enb"> &gt; </button>
-                    <button id="trb"> &lt; </button>
-                </div>
-                <div>
-                    <label for="tr">Tr</label>
-                    <textarea id="tr"></textarea>
-                    <div>Found.</div>
-                    <button id="trf">Find</button>
+                <textarea id="en" autofocus></textarea>
+                <div class="langs">
+                    <div>Not found.</div>
+                    <button id="enf" onclick="handleFind(this.previousElementSibling)">Find</button>
                 </div>
             </div>
-            <table>
-                <tr>
-                    <td><label for="img">image</label></td>
-                    <td><input id="img"></td>
-                    <td><button id="imgd">X</button></td>
-                </tr>
-                <tr id="quote">
-                    <td><label for="quo">quote</label></td>
-                    <td><input id="quo"></td>
-                    <td><button id="quod">X</button></td>
-                </tr>
-                <tr id="definition" style="display:none">
-                    <td><label for="def">definition</label></td>
-                    <td><input id="def"></td>
-                    <td><button id="defd">X</button></td>
-                </tr>
-            </table>
             <div>
-                <div>Result</div>
-                <div>
-                    <button id="copy">Copy</button>
-                    <div>Copied.</div>
+                <button id="tsl"> &#8625; </button>
+                <button onclick="handleTranslate()"> &gt; </button>
+                <button onclick="handleTranslate(null, 'en')"> &lt; </button>
+            </div>
+            <div>
+                <div class="langs">
+                    <label for="tr">Tr</label>
+                    <button onclick="handleDelete('tr')">X</button>
                 </div>
-                <div>
-                    <pre id="result">
+                <textarea id="tr"></textarea>
+                <div class="langs">
+                    <div>Not found.</div>
+                    <button id="trf" onclick="handleFind(this.previousElementSibling, true)">Find</button>
+                </div>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <td><label for="img">image</label></td>
+                <td>
+                    <button id="imgb" onclick="handleAutoFill('img')" style="visibility:hidden">
+                        &gt;
+                    </button>
+                </td>
+                <td><input id="img"></td>
+                <td><button onclick="handleDelete('img')">X</button></td>
+            </tr>
+            <tr id="quote">
+                <td><label for="quo">quote</label></td>
+                <td></td>
+                <td><input id="quo"></td>
+                <td><button onclick="handleDelete('quo')">X</button></td>
+            </tr>
+            <tr id="definition" style="display:none">
+                <td><label for="def">definition</label></td>
+                <td><button onclick="handleAutoFill('def')">&gt;</button></td>
+                <td><input id="def"></td>
+                <td><button onclick="handleDelete('def')">X</button></td>
+            </tr>
+            <tr id="type" style="display:none">
+                <td><label for="typ">type</label></td>
+                <td><button onclick="handleAutoFill('typ')">&gt;</button></td>
+                <td><input id="typ"></td>
+                <td><button onclick="handleDelete('typ')">X</button></td>
+            </tr>
+        </table>
+        <div>
+            <div>Result</div>
+            <div>
+                <button onclick="handleClear()">Clear</button>
+                <button id="copy">Copy</button>
+                <div>Copied.</div>
+            </div>
+            <div>
+                <pre id="result">
 , {
     "en": "",
     "tr": ""
 }</pre>
-                </div>
-                <label for="restxt">result</label>
-                <textarea id="restxt"></textarea>
             </div>
+            <label for="restxt">result</label>
+            <textarea id="restxt"></textarea>
         </div>
     </div>
 </body>

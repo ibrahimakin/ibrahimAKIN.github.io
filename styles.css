@@ -13,10 +13,14 @@ html, body {
 }
 
 body {
+    display: grid;
     background-color: var(--bg-clr);
+    grid-template-columns: auto minmax(0, 1fr);
 }
 
-#main-container {
-    display: flex;
-    min-height: 100%;
+@media screen and (max-width: 450px) {
+    body {
+        grid-template-columns: minmax(0, auto);
+        grid-template-rows: auto 1fr;
+    }
 }

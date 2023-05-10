@@ -13,23 +13,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: auto;
-    width: 100%;
 }
 
-#canvas-container {
+#container {
     width: 80%;
-    display: flex;
-    flex-direction: column;
 }
 
-#canvas-container+div {
+#container+div {
     width: 78px;
 }
 
-#game {
+#canvas {
     background-color: #000;
     border: 1px solid #fff;
+    width: 100%;
 }
 
 #root button {

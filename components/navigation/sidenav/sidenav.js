@@ -1,26 +1,16 @@
 class Sidenav extends HTMLElement {
-    constructor() { super(); }
-    handleCollapseChange() {
-        document.getElementById('sidenav').classList.toggle('collapsed');
-        document.querySelector('side-nav').classList.toggle('collapsed');
-    }
-    handleExpandChange(e, pins) {
+    handleExpand(e, pins) {
         for (const pin of pins) if (e.target !== pin) pin.checked = false;
     }
     handleMediaQuery(x) {
-        const collapse = document.getElementById('collapse');
-        const sidenav = document.getElementById('sidenav');
-        const sidenav_cont = document.querySelector('side-nav');
         const collapsed = typeof sidenav_colapsed !== 'undefined';
-        if ((collapsed || x.matches) && !collapse.checked) {       // If media query matches
-            sidenav_cont.classList.add('collapsed');
-            sidenav.classList.add('collapsed');
-            collapse.checked = true;
+        if ((collapsed || x.matches) && !collapse.checked) {              // If media query matches
+            this.classList.add('collapsed');
+            this.collapse.checked = true;
         }
         else if ((!collapsed && !x.matches) && collapse.checked) {
-            sidenav_cont.classList.remove('collapsed');
-            sidenav.classList.remove('collapsed');
-            collapse.checked = false;
+            this.removeAttribute('class');
+            this.collapse.checked = false;
         }
     }
     connectedCallback() {
@@ -123,12 +113,14 @@ class Sidenav extends HTMLElement {
                 </div>
             </div>
         `;
-        document.getElementById('collapse').addEventListener('change', this.handleCollapseChange);
-        const pins = document.getElementsByClassName('pin-menu');
-        for (const pin of pins) pin.addEventListener('change', e => this.handleExpandChange(e, pins));
-        let x = window.matchMedia('(max-width: 750px)');
-        x.addEventListener('change', this.handleMediaQuery);       // Attach listener function on state changes
-        this.handleMediaQuery(x);                                  // Call listener function at run time
+        this.collapse = this.querySelector('#collapse');
+        this.collapse.addEventListener('change', () => this.classList.toggle('collapsed'));
+        const pins = this.getElementsByClassName('pin-menu');
+        for (const pin of pins) pin.addEventListener('change', e => this.handleExpand(e, pins));
+        const width = typeof sidenav_width !== 'undefined' ? sidenav_width : '750';
+        const x = window.matchMedia(`(max-width: ${width}px)`);
+        x.addEventListener('change', this.handleMediaQuery.bind(this));   // Attach listener function on state changes
+        this.handleMediaQuery(x);                                         // Call listener function at run time
     }
 }
 customElements.define('side-nav', Sidenav);

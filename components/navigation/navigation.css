@@ -1,5 +1,6 @@
 :root {
     --nav-clr: #000;
+    --nav-gap: 10px;
 }
 
 .main input, .main a {
@@ -62,24 +63,18 @@
 }
 
 @media screen and (max-width: 450px) {
-    top-nav {
-        height: var(--topnav-height);
-    }
-}
-
-@media screen and (max-width: 700px) {
-    side-nav {
-        min-width: var(--sidenav-width);
-    }
-}
-
-@media screen and (max-width: 450px) {
     side-nav {
         display: none;
     }
 
-    #topnav {
-        display: grid;
+    top-nav {
+        display: block;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    :root {
+        --nav-gap: 4px;
     }
 }
 

@@ -68,7 +68,7 @@ class Pipe {
 
 window.onload = () => {
     document.addEventListener('keydown', onKeyDown);
-    document.getElementById('space-button').onclick = () => onKeyDown({ code: 'Space' });
+    document.getElementById('space').onclick = () => onKeyDown({ code: 'Space' });
     c.addEventListener('touchstart', () => onKeyDown({ code: 'Space' }), { passive: false });
     for (const button of document.getElementsByClassName('lang-button')) {
         button.addEventListener('click', () => {

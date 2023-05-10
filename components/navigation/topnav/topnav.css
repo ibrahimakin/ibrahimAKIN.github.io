@@ -3,11 +3,12 @@
 }
 
 top-nav {
-    display: block;
+    display: none;
+    height: var(--topnav-height);
 }
 
 #topnav {
-    display: none;
+    display: grid;
     grid-template-columns: repeat(8, 1fr);
     height: var(--topnav-height);
     position: fixed;
@@ -22,9 +23,9 @@ top-nav {
 }
 
 #topnav.main>div {
-    padding: calc(var(--sidenav-gap) / 3);
+    padding: calc(var(--nav-gap) / 3);
 }
 
 #topnav .expand>div {
-    padding: calc(var(--sidenav-gap) / 3);
+    padding: calc(var(--nav-gap) / 3);
 }

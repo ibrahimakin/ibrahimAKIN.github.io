@@ -1,28 +1,27 @@
 :root {
     --sidenav-width: 90px;
-    --sidenav-gap: 10px;
 }
 
 side-nav {
-    min-width: calc(var(--sidenav-width) * 3);
-    transition: min-width .1s linear;
-    z-index: 3;
-}
-
-side-nav.collapsed {
-    min-width: var(--sidenav-width);
-}
-
-#sidenav {
-    position: fixed;
-    display: flex;
-    height: 100%;
-    justify-content: center;
     width: calc(var(--sidenav-width) * 3);
     transition: width .1s linear;
 }
 
-#sidenav.collapsed {
+side-nav.collapsed {
+    width: var(--sidenav-width);
+}
+
+#sidenav {
+    display: flex;
+    justify-content: center;
+    width: calc(var(--sidenav-width) * 3);
+    transition: width .1s linear;
+    position: fixed;
+    height: 100%;
+    z-index: 3;
+}
+
+side-nav.collapsed>#sidenav {
     width: var(--sidenav-width);
 }
 
@@ -41,14 +40,14 @@ side-nav.collapsed {
 
 .sub {
     display: grid;
-    min-width: var(--sidenav-width);
+    width: var(--sidenav-width);
     transition: transform .1s linear;
     grid-template-rows: repeat(8, 1fr);
     height: 100%;
 }
 
 .sub>div, .expand>div {
-    padding: var(--sidenav-gap);
+    padding: var(--nav-gap);
 }
 
 #sidenav .expand {
@@ -70,8 +69,8 @@ side-nav.collapsed {
     pointer-events: none;
     color: var(--nav-clr);
     font-family: Times, serif;
-    bottom: var(--sidenav-gap);
-    width: calc(100% - 2 * var(--sidenav-gap));
+    bottom: var(--nav-gap);
+    width: calc(100% - 2 * var(--nav-gap));
     transition: opacity .15s linear;
     height: 20px;
     z-index: 1;
@@ -86,8 +85,8 @@ side-nav.collapsed {
 #collapse {
     opacity: 0;
     position: absolute;
-    height: calc(100% - var(--sidenav-gap) * 2);
-    width: calc(100% - var(--sidenav-gap) * 2);
+    height: calc(100% - var(--nav-gap) * 2);
+    width: calc(100% - var(--nav-gap) * 2);
     z-index: 2;
 }
 
@@ -125,7 +124,7 @@ side-nav.collapsed {
     -webkit-mask-image: url('/assets/icons/navbar/pin.svg');
     mask-image: url('/assets/icons/navbar/pin.svg');
     transform: rotateZ(-45deg);
-    margin: var(--sidenav-gap);
+    margin: var(--nav-gap);
     height: 20px;
     width: 20px;
     z-index: 2;
@@ -147,8 +146,8 @@ side-nav.collapsed {
     display: inline;
 }
 
-@media screen and (max-height: 400px) {
-    :root {
-        --sidenav-gap: 4px;
+@media screen and (max-width: 750px) {
+    side-nav {
+        width: var(--sidenav-width);
     }
 }

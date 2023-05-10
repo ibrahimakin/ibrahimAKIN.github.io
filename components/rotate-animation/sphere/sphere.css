@@ -1,9 +1,9 @@
-top-nav, side-nav {
-    position: absolute;
+top-nav, side-nav, side-nav.collapsed {
+    height: 0;
+    width: 0;
 }
 
 #root {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    overflow: auto;
-    width: 100%;
 }
 
 #root>div:first-child {
@@ -11,10 +9,8 @@
     width: 100%;
 }
 
-#canvas-container {
+#container {
     margin: auto;
-    display: flex;
-    flex-direction: column;
     width: 60%;
 }
 
@@ -22,6 +18,7 @@
     background-color: #000;
     border: 2px solid #fff;
     border-radius: 10px;
+    width: 100%;
 }
 
 .emscripten {
@@ -102,7 +99,8 @@
 
 #progress {
     height: 20px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
 }
 
 #output {

@@ -23,17 +23,13 @@
     --nav-clr: var(--resume-clr-hvr);
 }
 
-#root {
-    margin: auto;
-}
-
 #resume-page {
     display: flex;
     font-size: 0.939em;
     line-height: 1.5;
     margin: auto;
     width: 85%;
-    max-width: 1125px;
+    max-width: 1000px;
     background-color: var(--resume-txt);
     box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
 }
@@ -320,7 +316,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1250px) {
     #resume-page {
         width: 100%;
     }
@@ -361,5 +357,11 @@
 @media screen and (max-width: 450px) {
     #resume-summary, #contact {
         top: var(--topnav-height);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    side-nav {
+        width: var(--sidenav-width);
     }
 }

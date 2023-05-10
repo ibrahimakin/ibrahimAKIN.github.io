@@ -23,15 +23,3 @@ function readLess(e) {
         moreText.style.display = 'none';
     }
 }
-
-function responsiveResume(x, onStart) {
-    let e = document.getElementById('resume-rightside');
-    if (x.matches) {
-        if (onStart) e.scrollIntoView({ behavior: 'smooth' });
-        else e.scrollIntoView();
-    }
-}
-
-let x = window.matchMedia('(max-width: 600px)');
-responsiveResume(x);                            // Call listener function at run time
-x.addEventListener('change', responsiveResume); // Attach listener function on state changes
