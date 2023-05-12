@@ -8,13 +8,11 @@ const img_e = document.getElementById('img');
 const quo_e = document.getElementById('quo');
 const def_e = document.getElementById('def');
 const imgb = document.getElementById('imgb');
-const en = document.getElementById('en');
-const tr = document.getElementById('tr');
+const tr_e = document.getElementById('tr');
+const en_e = document.getElementById('en');
 
-let en_value = '', tr_value = '';
-let img = '', quo = '', def = '', typ = '';
-let variant = 'sentence';
-let words, sentences;
+let tr = '', en = '', img = '', quo = '', def = '', typ = '';
+let variant = 'sentence', sentences, words;
 
 fetch('../source/sentences.json').then(res => res.ok ? res.text() : null).then(data => sentences = data);
 fetch('../source/words.json').then(res => res.ok ? res.text() : null).then(data => words = data);
@@ -24,10 +22,7 @@ function handleChange() {
     let quote = quo.trim().length ? `,\n    "quo": "${quo}"` : '';
     let defin = def.trim().length ? `,\n    "def": "${def}"` : '';
     let pos = typ.trim().length ? `,\n    "pos": "${typ}"` : '';
-    result.innerText = `, {
-    "en": "${en_value}",
-    "tr": "${tr_value}"${image}${quote}${defin}${pos}
-}`;
+    result.innerText = `, {\n    "en": "${en}",\n    "tr": "${tr}"${image}${quote}${defin}${pos}\n}`;
 }
 
 function handleCheck(radio) {
@@ -48,12 +43,14 @@ function handleCheck(radio) {
         imgb.style.visibility = 'hidden';
         type_e.style.display = 'none';
     }
+    hideInfo(tr_e);
+    hideInfo(en_e);
     handleChange();
 }
 
 function handleFind(text, lang) {
     text.style.visibility = 'visible';
-    let value = lang ? tr_value : en_value;
+    let value = lang ? tr : en;
     if (variant === 'word') {
         if (!words) {
             text.innerText = 'Cannot get words.';
@@ -81,7 +78,7 @@ function handleFind(text, lang) {
 }
 
 function handleTranslate(key, tl = 'tr') {
-    const q = tl === 'en' ? tr_value : en_value;
+    const q = tl === 'en' ? tr : en;
     if (q.trim().length) {
         fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${tl}${key ? '&dt=md' : ''}&dt=t&dj=1&q=${q}`)
             .then(res => res.json()).then(data => {
@@ -97,14 +94,8 @@ function handleTranslate(key, tl = 'tr') {
                     else {
                         let translation = '';
                         for (let sentence of data.sentences) translation += sentence.trans;
-                        if (tl === 'en') {
-                            en.value = translation;
-                            en_value = translation;
-                        }
-                        else {
-                            tr.value = translation;
-                            tr_value = translation;
-                        }
+                        if (tl === 'en') { en_e.value = translation; en = translation; }
+                        else { tr_e.value = translation; tr = translation; }
                     }
                     handleChange();
                 }
@@ -116,20 +107,12 @@ function handleTranslate(key, tl = 'tr') {
 }
 
 document.getElementById('tsl').addEventListener('click', () =>
-    window.open('https://translate.google.com/?sl=en&tl=tr&text=' + escape(en.value), '_blank')
+    window.open('https://translate.google.com/?sl=en&tl=tr&text=' + escape(en), '_blank')
 );
 
-en.addEventListener('input', e => {
-    e.target.nextElementSibling.firstElementChild.removeAttribute('style');
-    en_value = e.target.value;
-    handleChange();
-});
+en_e.addEventListener('input', e => { en = e.target.value; hideInfo(e.target); handleChange(); });
 
-tr.addEventListener('input', e => {
-    e.target.nextElementSibling.firstElementChild.removeAttribute('style');
-    tr_value = e.target.value;
-    handleChange();
-});
+tr_e.addEventListener('input', e => { tr = e.target.value; hideInfo(e.target); handleChange(); });
 
 img_e.addEventListener('input', e => { img = e.target.value; handleChange(); });
 
@@ -139,12 +122,11 @@ def_e.addEventListener('input', e => { def = e.target.value; handleChange(); });
 
 typ_e.addEventListener('input', e => { typ = e.target.value; handleChange(); });
 
+function hideInfo(e) { e.nextElementSibling.firstElementChild.removeAttribute('style'); }
+
 function handleAutoFill(key) {
     switch (key) {
-        case 'img':
-            img = en_value.trim().replaceAll(' ', '_');
-            img_e.value = img;
-            break;
+        case 'img': img = en.trim().replaceAll(' ', '_'); img_e.value = img; break;
         case 'def': handleTranslate('def'); break;
         case 'typ': handleTranslate('pos'); break;
     }
@@ -153,12 +135,12 @@ function handleAutoFill(key) {
 
 function handleDelete(key) {
     switch (key) {
+        case 'tr': tr_e.value = ''; tr = ''; hideInfo(tr_e); break;
+        case 'en': en_e.value = ''; en = ''; hideInfo(en_e); break;
         case 'img': img_e.value = ''; img = ''; break;
         case 'quo': quo_e.value = ''; quo = ''; break;
         case 'def': def_e.value = ''; def = ''; break;
         case 'typ': typ_e.value = ''; typ = ''; break;
-        case 'tr': tr.value = ''; tr_value = ''; break;
-        case 'en': en.value = ''; en_value = ''; break;
     }
     handleChange();
 }
@@ -168,8 +150,10 @@ function handleClear() {
     quo_e.value = ''; quo = '';
     def_e.value = ''; def = '';
     typ_e.value = ''; typ = '';
-    tr.value = ''; tr_value = '';
-    en.value = ''; en_value = '';
+    tr_e.value = ''; tr = '';
+    en_e.value = ''; en = '';
+    hideInfo(tr_e);
+    hideInfo(en_e);
     handleChange();
 }
 

@@ -44,7 +44,7 @@
                 <textarea id="en" autofocus></textarea>
                 <div class="langs">
                     <div>Not found.</div>
-                    <button id="enf" onclick="handleFind(this.previousElementSibling)">Find</button>
+                    <button onclick="handleFind(this.previousElementSibling)">Find</button>
                 </div>
             </div>
             <div>
@@ -60,7 +60,7 @@
                 <textarea id="tr"></textarea>
                 <div class="langs">
                     <div>Not found.</div>
-                    <button id="trf" onclick="handleFind(this.previousElementSibling, true)">Find</button>
+                    <button onclick="handleFind(this.previousElementSibling, true)">Find</button>
                 </div>
             </div>
         </div>
@@ -102,11 +102,7 @@
                 <div>Copied.</div>
             </div>
             <div>
-                <pre id="result">
-, {
-    "en": "",
-    "tr": ""
-}</pre>
+                <pre id="result">, {<br>    "en": "",<br>    "tr": ""<br>}</pre>
             </div>
             <label for="restxt">result</label>
             <textarea id="restxt"></textarea>

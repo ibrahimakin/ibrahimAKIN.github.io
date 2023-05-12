@@ -1194,4 +1194,48 @@
     "tr": "savurgan",
     "def": "lacking restraint in spending money or using resources.",
     "pos": "adjective"
+}, {
+    "en": "submission",
+    "tr": "teslim olma",
+    "def": "the action or fact of accepting or yielding to a superior force or to the will or authority of another person.",
+    "pos": "noun"
+}, {
+    "en": "overestimate",
+    "tr": "abartmak",
+    "def": "estimate (something) to be better, larger, or more important than it really is.",
+    "pos": "verb"
+}, {
+    "en": "accommodation",
+    "tr": "konaklama",
+    "pos": "noun"
+}, {
+    "en": "deduce",
+    "tr": "sonuç çıkarmak",
+    "def": "arrive at (a fact or a conclusion) by reasoning; draw as a logical conclusion.",
+    "pos": "verb"
+}, {
+    "en": "impose",
+    "tr": "empoze etmek",
+    "def": "force (something unwelcome or unfamiliar) to be accepted or put in place.",
+    "pos": "verb"
+}, {
+    "en": "stare",
+    "tr": "dik dik bakmak",
+    "def": "look fixedly or vacantly at someone or something with one's eyes wide open.",
+    "pos": "verb"
+}, {
+    "en": "bust",
+    "tr": "kırmak",
+    "def": "break, split, or burst (something).",
+    "pos": "noun"
+}, {
+    "en": "flounder",
+    "tr": "bata çıka ilerlemek",
+    "def": "struggle or stagger helplessly or clumsily in water or mud.",
+    "pos": "verb"
+}, {
+    "en": "syllable",
+    "tr": "hece",
+    "def": "a unit of pronunciation having one vowel sound, with or without surrounding consonants, forming the whole or a part of a word; e.g., there are two syllables in water and three in inferno.",
+    "pos": "noun"
 }]

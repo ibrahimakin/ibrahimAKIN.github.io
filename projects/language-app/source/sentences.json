@@ -537,7 +537,7 @@
     "tr": "Dedikoduyu ver.",
     "img": "/assets/images/projects/language-app/tea.gif"
 }, {
-    "en": "Let's break out fast.",
+    "en": "Let's break our fast.",
     "tr": "Hadi orucumuzu açalım."
 }, {
     "en": "Save it!",
@@ -690,4 +690,7 @@
 }, {
     "en": "part of speech",
     "tr": "sözcük türü"
+}, {
+    "en": "We are made of starstuff.",
+    "tr": "Biz yıldız malzemesinden yapıldık."
 }]
