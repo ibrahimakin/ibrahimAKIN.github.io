@@ -16,6 +16,7 @@ body {
     display: grid;
     background-color: var(--bg-clr);
     grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: 1fr;
 }
 
 @media screen and (max-width: 450px) {

@@ -1,7 +1,4 @@
 [{
-    "en": "Brass",
-    "tr": "Prinçten Yapılmış"
-}, {
     "en": "January",
     "tr": "Ocak   (1)"
 }, {
@@ -59,93 +56,96 @@
     "en": "Sunday",
     "tr": "Pazar   (7)"
 }, {
-    "en": "Aisle",
-    "tr": "Koridor",
+    "en": "nephew",
+    "tr": "yeğen (erkek)"
+}, {
+    "en": "neiece",
+    "tr": "yeğen (kız)"
+}, {
+    "en": "draft",
+    "tr": "taslak"
+}, {
+    "en": "brass",
+    "tr": "prinçten yapılmış"
+}, {
+    "en": "aisle",
+    "tr": "koridor",
     "img": "/assets/images/projects/language-app/aisle.jpg"
 }, {
-    "en": "Nephew",
-    "tr": "Yeğen (Erkek)"
-}, {
-    "en": "Neiece",
-    "tr": "Yeğen (Kız)"
-}, {
-    "en": "Draft",
-    "tr": "Taslak"
-}, {
-    "en": "Skulking",
-    "tr": "Sinsi / Korkak"
+    "en": "skulking",
+    "tr": "sinsi, korkak"
 }, {
     "en": "to frighten",
-    "tr": "Korkutmak"
+    "tr": "korkutmak"
 }, {
     "en": "to toss",
-    "tr": "Atmak / Fırlatmak"
+    "tr": "atmak, fırlatmak"
 }, {
-    "en": "Lung",
-    "tr": "Akciğer / Ciğer"
+    "en": "lung",
+    "tr": "akciğer, ciğer"
 }, {
-    "en": "Lettuce, Iceberg",
-    "tr": "Marul  (Göbek Marul)",
+    "en": "lettuce, iceberg",
+    "tr": "marul, göbek marul",
     "img": "/assets/images/projects/language-app/lettuceiceberg.gif"
 }, {
-    "en": "Peach",
-    "tr": "Şeftali",
+    "en": "peach",
+    "tr": "şeftali",
     "img": "/assets/images/projects/language-app/peach.jpg"
 }, {
-    "en": "Apricot",
-    "tr": "Kayısı",
+    "en": "apricot",
+    "tr": "kayısı",
     "img": "/assets/images/projects/language-app/apricot.jpg"
 }, {
-    "en": "Pomegranate",
-    "tr": "Nar",
+    "en": "pomegranate",
+    "tr": "nar",
     "img": "/assets/images/projects/language-app/pomegranate.jpg"
 }, {
     "en": "to worship",
-    "tr": "Tapmak"
+    "tr": "tapmak"
 }, {
     "en": "to wipe out",
-    "tr": "Silip yoketmek",
+    "tr": "silip yoketmek",
     "en_s": "a nuclear wipeout.",
     "tr_s": "",
     "def": "an instance of complete destruction."
 }, {
     "en": "to cure",
-    "tr": "İyileştirmek"
+    "tr": "iyileştirmek"
 }, {
-    "en": "Honey Badger / Ratel",
-    "tr": "Bal Porsuğu",
+    "en": "honey badger, ratel",
+    "tr": "bal porsuğu",
     "img": "/assets/images/projects/language-app/ratel.jpg"
 }, {
-    "en": "Walnut",
-    "tr": "Ceviz",
+    "en": "walnut",
+    "tr": "ceviz",
     "img": "/assets/images/projects/language-app/walnut.jpg"
 }, {
-    "en": "Subconscious",
-    "tr": "Bilinçaltı"
+    "en": "subconscious",
+    "tr": "bilinçaltı"
 }, {
-    "en": "Colossal",
-    "tr": "Devasa"
+    "en": "colossal",
+    "tr": "devasa"
 }, {
-    "en": "Tedious",
-    "tr": "Sıkıcı"
+    "en": "tedious",
+    "tr": "sıkıcı"
 }, {
-    "en": "Obnoxious",
-    "tr": "İğrenç"
+    "en": "obnoxious",
+    "tr": "iğrenç"
 }, {
-    "en": "Stringing",
-    "tr": "İp çekmek / Kandırmak"
+    "en": "stringing",
+    "tr": "ip çekmek, kandırmak"
 }, {
-    "en": "Ravenous",
-    "tr": "Son derece aç"
+    "en": "ravenous",
+    "tr": "son derece aç"
 }, {
-    "en": "Appetite",
-    "tr": "İştah"
+    "en": "appetite",
+    "tr": "iştah"
 }, {
     "en": "to dedicate",
     "tr": "adamak"
 }, {
     "en": "to influence",
-    "tr": "Etkilemek"
+    "tr": "etkilemek"
 }, {
     "en": "to defect",
     "tr": "döneklik etmek"
@@ -154,129 +154,129 @@
     "tr": "tereddüt etmek"
 }, {
     "en": "to consist of",
-    "tr": "Meydana gelmek / Oluşmak"
+    "tr": "meydana gelmek, oluşmak"
 }, {
     "en": "to call off",
-    "tr": "İptal etmek"
+    "tr": "iptal etmek"
 }, {
-    "en": "to wither up / to fade",
-    "tr": "Solmak"
+    "en": "to wither up, to fade",
+    "tr": "solmak"
 }, {
     "en": "to preserve",
-    "tr": "Korumak",
+    "tr": "korumak",
     "def": "maintain (something) in its original or existing state."
 }, {
-    "en": "Zealously",
-    "tr": "Şevkle"
+    "en": "zealously",
+    "tr": "şevkle"
 }, {
-    "en": "Peasant",
-    "tr": "Köylü"
+    "en": "peasant",
+    "tr": "köylü"
 }, {
-    "en": "Pleasant",
-    "tr": "Güzel / Hoş"
+    "en": "pleasant",
+    "tr": "güzel, hoş"
 }, {
-    "en": "Temptation",
-    "tr": "Kışkırtma / Ayartma"
+    "en": "temptation",
+    "tr": "kışkırtma, ayartma"
 }, {
-    "en": "Flawed",
-    "tr": "Kusurlu"
+    "en": "flawed",
+    "tr": "kusurlu"
 }, {
-    "en": "Inevitable",
-    "tr": "Kaçınılmaz"
+    "en": "inevitable",
+    "tr": "kaçınılmaz"
 }, {
-    "en": "Devotion",
-    "tr": "Özveri"
+    "en": "devotion",
+    "tr": "özveri"
 }, {
-    "en": "Apart",
-    "tr": "Ayrı"
+    "en": "apart",
+    "tr": "ayrı"
 }, {
-    "en": "Fascination",
-    "tr": "Büyüleyici"
+    "en": "fascination",
+    "tr": "büyüleyici"
 }, {
-    "en": "Revelation",
-    "tr": "Vahiy, İlham"
+    "en": "revelation",
+    "tr": "vahiy, ilham"
 }, {
-    "en": "Ranch",
-    "tr": "Çiftlik"
+    "en": "ranch",
+    "tr": "çiftlik"
 }, {
-    "en": "Salvation",
-    "tr": "Kurtuluş"
+    "en": "salvation",
+    "tr": "kurtuluş"
 }, {
-    "en": "Desperate",
-    "tr": "Umutsuz"
+    "en": "desperate",
+    "tr": "umutsuz"
 }, {
-    "en": "Nonetheless",
-    "tr": "Her şeye rağmen"
+    "en": "nonetheless",
+    "tr": "her şeye rağmen"
 }, {
-    "en": "Nevertheless",
-    "tr": "Yine de"
+    "en": "nevertheless",
+    "tr": "yine de"
 }, {
     "en": "to resurrect",
-    "tr": "Diriltmek"
+    "tr": "diriltmek"
 }, {
     "en": "to rejoice",
-    "tr": "Sevinmek"
+    "tr": "sevinmek"
 }, {
-    "en": "Lucked out",
-    "tr": "Şans eseri"
+    "en": "lucked out",
+    "tr": "şans eseri"
 }, {
-    "en": "For good",
-    "tr": "Temelli olarak"
+    "en": "for good",
+    "tr": "temelli olarak"
 }, {
-    "en": "Menial",
-    "tr": "Vasıf gerektirmeyen"
+    "en": "menial",
+    "tr": "vasıf gerektirmeyen"
 }, {
-    "en": "Purchasing Power",
-    "tr": "Alım Gücü"
+    "en": "purchasing power",
+    "tr": "alım Gücü"
 }, {
-    "en": "Ice Cap",
-    "tr": "Buz Örtüsü",
+    "en": "ice cap",
+    "tr": "buz örtüsü",
     "img": "/assets/images/projects/language-app/ice_cap.jpg"
 }, {
     "en": "to loosen",
-    "tr": "Gevşetmek / Çözmek"
+    "tr": "gevşetmek, çözmek"
 }, {
-    "en": "Flimflam",
-    "tr": "Boş lâf / Dolandırmak"
+    "en": "flimflam",
+    "tr": "boş lâf, dolandırmak"
 }, {
-    "en": "Manner",
-    "tr": "Tavır"
+    "en": "manner",
+    "tr": "tavır"
 }, {
-    "en": "Underneath",
-    "tr": "Altında"
+    "en": "underneath",
+    "tr": "altında"
 }, {
-    "en": "Artifact",
-    "tr": "Eser"
+    "en": "artifact",
+    "tr": "eser"
 }, {
-    "en": "Pursuit",
-    "tr": "Kovalama / Uğraşı"
+    "en": "pursuit",
+    "tr": "kovalama, uğraşı"
 }, {
-    "en": "Incantation",
-    "tr": "Büyü"
+    "en": "incantation",
+    "tr": "büyü"
 }, {
-    "en": "Cashpoint",
+    "en": "cashpoint",
     "tr": "ATM (Automatic Teller Machine)",
     "img": "/assets/images/projects/language-app/cashpoint.jpg"
 }, {
-    "en": "Pharmacy",
-    "tr": "Eczane",
+    "en": "pharmacy",
+    "tr": "eczane",
     "img": "/assets/images/projects/language-app/pharmacy.jpg"
 }, {
-    "en": "Chickpea",
-    "tr": "Nohut",
+    "en": "chickpea",
+    "tr": "nohut",
     "img": "/assets/images/projects/language-app/chickpea.jpg"
 }, {
-    "en": "Stray",
-    "tr": "Başıboş"
+    "en": "stray",
+    "tr": "başıboş"
 }, {
     "en": "though",
     "tr": "yine de, rağmen"
 }, {
-    "en": "Flea market",
-    "tr": "Bit pazarı"
+    "en": "flea market",
+    "tr": "bit pazarı"
 }, {
-    "en": "Thrift store",
-    "tr": "İkinci el mağazası"
+    "en": "thrift store",
+    "tr": "ikinci el mağazası"
 }, {
     "en": "make a profit",
     "tr": "kar yapmak"
@@ -291,7 +291,7 @@
     "tr": "özetlemek"
 }, {
     "en": "to revise",
-    "tr": "revize etmek / gözden geçirmek"
+    "tr": "revize etmek, gözden geçirmek"
 }, {
     "en": "to discuss",
     "tr": "tartışmak"
@@ -299,8 +299,8 @@
     "en": "comprehend",
     "tr": "anlamak"
 }, {
-    "en": "Cheerio",
-    "tr": "Görüşürüz"
+    "en": "cheerio",
+    "tr": "görüşürüz"
 }, {
     "en": "persuade",
     "tr": "ikna etmek"
@@ -323,8 +323,19 @@
     "en": "brick-and-mortar store",
     "tr": "fiziksel mağaza"
 }, {
+    "en": "brick",
+    "tr": "tuğla",
+    "img": "/assets/images/projects/language-app/brick.jpg",
+    "def": "a small rectangular block typically made of fired or sun-dried clay, used in building.",
+    "pos": "noun"
+}, {
+    "en": "mortar",
+    "tr": "harç",
+    "def": "a mixture of lime with cement, sand, and water, used in building to bond bricks or stones.",
+    "pos": "noun"
+}, {
     "en": "delight",
-    "tr": "zevk / sevinç"
+    "tr": "zevk, sevinç"
 }, {
     "en": "anticlimactic",
     "tr": "hayal kırıklığı",
@@ -358,24 +369,24 @@
     "en": "all of a sudden",
     "tr": "birdenbire"
 }, {
-    "en": "Toddler",
-    "tr": "Yürümeye başlayan çocuk"
+    "en": "toddler",
+    "tr": "yürümeye başlayan çocuk"
 }, {
-    "en": "Dough",
-    "tr": "Hamur"
+    "en": "dough",
+    "tr": "hamur"
 }, {
     "en": "shattered",
     "tr": "paramparça"
 }, {
-    "en": "Cinnamon",
-    "tr": "Tarçın",
+    "en": "cinnamon",
+    "tr": "tarçın",
     "img": "/assets/images/projects/language-app/cinnamon.jpg"
 }, {
-    "en": "Good deed",
-    "tr": "İyilik, iyi işler"
+    "en": "good deed",
+    "tr": "iyilik, iyi işler"
 }, {
-    "en": "Attitude",
-    "tr": "Tavır / Davranış"
+    "en": "attitude",
+    "tr": "tavır, davranış"
 }, {
     "en": "hesitant",
     "tr": "tereddütlü"
@@ -738,6 +749,16 @@
 }, {
     "en": "estimate",
     "tr": "tahmin etmek, kestirmek"
+}, {
+    "en": "underestimate",
+    "tr": "küçümsemek",
+    "def": "estimate (something) to be smaller or less important than it actually is.",
+    "pos": "verb"
+}, {
+    "en": "overestimate",
+    "tr": "abartmak",
+    "def": "estimate (something) to be better, larger, or more important than it really is.",
+    "pos": "verb"
 }, {
     "en": "contempt",
     "tr": "aşağılama, küçümseme"
@@ -1200,11 +1221,6 @@
     "def": "the action or fact of accepting or yielding to a superior force or to the will or authority of another person.",
     "pos": "noun"
 }, {
-    "en": "overestimate",
-    "tr": "abartmak",
-    "def": "estimate (something) to be better, larger, or more important than it really is.",
-    "pos": "verb"
-}, {
     "en": "accommodation",
     "tr": "konaklama",
     "pos": "noun"
@@ -1238,4 +1254,79 @@
     "tr": "hece",
     "def": "a unit of pronunciation having one vowel sound, with or without surrounding consonants, forming the whole or a part of a word; e.g., there are two syllables in water and three in inferno.",
     "pos": "noun"
+}, {
+    "en": "elapse",
+    "tr": "geçmek",
+    "def": "(of time) pass or go by.",
+    "pos": "verb"
+}, {
+    "en": "adopt",
+    "tr": "evlat edinmek",
+    "def": "legally take (another's child) and bring it up as one's own.",
+    "pos": "verb"
+}, {
+    "en": "weather",
+    "tr": "hava durumu",
+    "def": "the state of the atmosphere at a place and time as regards heat, dryness, sunshine, wind, rain, etc.",
+    "pos": "noun"
+}, {
+    "en": "through",
+    "tr": "başından sonuna kadar",
+    "def": "moving in one side and out of the other side of (an opening, channel, or location).",
+    "pos": "preposition"
+}, {
+    "en": "endorse",
+    "tr": "onaylamak, desteklemek",
+    "def": "declare one's public approval or support of.",
+    "pos": "verb"
+}, {
+    "en": "perception",
+    "tr": "algılama",
+    "def": "the ability to see, hear, or become aware of something through the senses.",
+    "pos": "noun"
+}, {
+    "en": "fasten",
+    "tr": "bağlamak, tutturmak",
+    "img": "/assets/images/projects/language-app/fasten.png",
+    "def": "close or do up securely.",
+    "pos": "verb"
+}, {
+    "en": "sabotage",
+    "tr": "sabote etmek",
+    "def": "deliberately destroy, damage, or obstruct (something), especially for political or military advantage.",
+    "pos": "verb"
+}, {
+    "en": "arson",
+    "tr": "kundakçılık",
+    "def": "the criminal act of deliberately setting fire to property.",
+    "pos": "noun"
+}, {
+    "en": "import",
+    "tr": "içe aktarmak, ithalat",
+    "def": "bring (goods or services) into a country from abroad for sale.",
+    "pos": "verb"
+}, {
+    "en": "assertive",
+    "tr": "iddialı",
+    "def": "having or showing a confident and forceful personality.",
+    "pos": "adjective"
+}, {
+    "en": "abide",
+    "tr": "uymak, katlanmak",
+    "def": "accept or act in accordance with (a rule, decision, or recommendation).",
+    "pos": "verb"
+}, {
+    "en": "abuse",
+    "tr": "suistimal etmek",
+    "def": "use (something) to bad effect or for a bad purpose; misuse.",
+    "pos": "verb"
+}, {
+    "en": "current",
+    "tr": "elektrik akımı",
+    "pos": "noun"
+}, {
+    "en": "relieve",
+    "tr": "rahatlatmak",
+    "def": "cause (pain, distress, or difficulty) to become less severe or serious.",
+    "pos": "verb"
 }]
