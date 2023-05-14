@@ -103,7 +103,8 @@
     color: #000;
 }
 
-#resume-rightside h3 a {
+#resume-rightside li>a,
+#resume-rightside h3>a {
     text-decoration: none;
 }
 
@@ -138,13 +139,13 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 129px;
-    margin-top: 20px;
+    margin: 25px 0 15px 0;
+    height: 130px;
 }
 
 #right-profile-image {
-    margin-top: 0;
     display: none;
+    margin: 0;
 }
 
 #contact {
@@ -260,8 +261,6 @@
 }
 
 .edu-period {
-    display: flex;
-    justify-content: space-between;
     color: var(--resume-clr);
     font-style: italic;
 }
@@ -312,8 +311,16 @@
     justify-content: space-between;
 }
 
-#skills, #interests, #languages {
+#projects li, #skills, #interests, #languages {
     margin-bottom: 20px;
+}
+
+#projects h3[id]::before {
+    content: '';
+    display: block;
+    height: 220px;
+    margin-top: -220px;
+    visibility: hidden;
 }
 
 @media screen and (max-width: 1250px) {
