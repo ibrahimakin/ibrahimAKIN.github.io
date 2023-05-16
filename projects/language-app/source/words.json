@@ -317,9 +317,6 @@
     "en": "cumbersome",
     "tr": "kullanışsız, elverişsiz"
 }, {
-    "en": "dispute",
-    "tr": "anlaşmazlık, tartışma"
-}, {
     "en": "brick-and-mortar store",
     "tr": "fiziksel mağaza"
 }, {
@@ -555,8 +552,9 @@
     "def": "dedicated or consecrated to God or a religious purpose; sacred."
 }, {
     "en": "dispute",
-    "tr": "anlaşmazlık",
-    "def": "a disagreement, argument, or debate."
+    "tr": "anlaşmazlık, tartışma",
+    "def": "a disagreement, argument, or debate.",
+    "pos": "verb"
 }, {
     "en": "dearest",
     "tr": "en sevilen"
@@ -1328,5 +1326,40 @@
     "en": "relieve",
     "tr": "rahatlatmak",
     "def": "cause (pain, distress, or difficulty) to become less severe or serious.",
+    "pos": "verb"
+}, {
+    "en": "scent",
+    "tr": "güzel koku",
+    "def": "a distinctive smell, especially one that is pleasant.",
+    "pos": "noun"
+}, {
+    "en": "wrap",
+    "tr": "paketlemek, dürüm",
+    "def": "cover or enclose (someone or something) in paper or soft material.",
+    "pos": "verb"
+}, {
+    "en": "reception",
+    "tr": "resepsiyon, karşılama",
+    "def": "the action or process of receiving something sent, given, or inflicted.",
+    "pos": "noun"
+}, {
+    "en": "heal",
+    "tr": "iyileşmek, şifa bulmak",
+    "def": "(of a person or treatment) cause (a wound, injury, or person) to become sound or healthy again.",
+    "pos": "verb"
+}, {
+    "en": "plane",
+    "tr": "uçak",
+    "img": "/assets/images/projects/language-app/plane.jpg",
+    "pos": "noun"
+}, {
+    "en": "retention",
+    "tr": "tutma, muhafaza",
+    "def": "the continued possession, use, or control of something.",
+    "pos": "noun"
+}, {
+    "en": "wonder",
+    "tr": "merak etmek",
+    "def": "desire or be curious to know something.",
     "pos": "verb"
 }]

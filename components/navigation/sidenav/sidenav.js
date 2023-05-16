@@ -3,12 +3,11 @@ class Sidenav extends HTMLElement {
         for (const pin of pins) if (e.target !== pin) pin.checked = false;
     }
     handleMediaQuery(x) {
-        const collapsed = typeof sidenav_colapsed !== 'undefined';
-        if ((collapsed || x.matches) && !collapse.checked) {              // If media query matches
+        if ((this.attributes.collapsed || x.matches) && !collapse.checked) {
             this.classList.add('collapsed');
             this.collapse.checked = true;
         }
-        else if ((!collapsed && !x.matches) && collapse.checked) {
+        else if ((!this.attributes.collapsed && !x.matches) && collapse.checked) {
             this.removeAttribute('class');
             this.collapse.checked = false;
         }
@@ -119,8 +118,8 @@ class Sidenav extends HTMLElement {
         for (const pin of pins) pin.addEventListener('change', e => this.handleExpand(e, pins));
         const width = typeof sidenav_width !== 'undefined' ? sidenav_width : '750';
         const x = window.matchMedia(`(max-width: ${width}px)`);
-        x.addEventListener('change', this.handleMediaQuery.bind(this));   // Attach listener function on state changes
-        this.handleMediaQuery(x);                                         // Call listener function at run time
+        x.addEventListener('change', this.handleMediaQuery.bind(this));
+        this.handleMediaQuery(x);
     }
 }
 customElements.define('side-nav', Sidenav);

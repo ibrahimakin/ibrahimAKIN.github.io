@@ -23,7 +23,7 @@
     --nav-clr: var(--resume-clr-hvr);
 }
 
-#resume-page {
+#root {
     display: flex;
     font-size: 0.939em;
     line-height: 1.5;
@@ -34,7 +34,7 @@
     box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
 }
 
-#resume-page h2 {
+#root h2 {
     color: var(--resume-clr);
 }
 
@@ -43,48 +43,46 @@
     margin-bottom: 2px;
 }
 
-#resume-leftside {
+#resume-left {
     overflow: auto;
     position: sticky;
     scrollbar-width: thin;
     height: 100vh;
     top: 0;
     width: 35%;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 
-#resume-leftside::-webkit-scrollbar {
+#resume-left::-webkit-scrollbar {
     width: 8px;
 }
 
-#resume-leftside::-webkit-scrollbar-thumb {
+#resume-left::-webkit-scrollbar-thumb {
     background-color: #d3d3d3;
 }
 
-#resume-leftside::-webkit-scrollbar-thumb:hover {
+#resume-left::-webkit-scrollbar-thumb:hover {
     background-color: #c1c1c1;
 }
 
-#resume-leftside::-webkit-scrollbar-thumb:active {
+#resume-left::-webkit-scrollbar-thumb:active {
     background-color: #aaa;
 }
 
-#resume-leftside hr {
+#resume-left hr {
     margin-bottom: 5px;
     border-color: var(--resume-clr);
 }
 
-#resume-rightside {
+#resume-right {
     width: 65%;
 }
 
-.resume-padding {
+.padding {
     padding-left: 2%;
     padding-right: 2%;
 }
 
-#resume-rightside li {
+#resume-right li {
     margin-left: 18px;
 }
 
@@ -94,17 +92,16 @@
     color: var(--resume-clr);
 }
 
-#resume-rightside hr {
+#resume-right hr {
     margin-bottom: 10px;
     border-color: var(--resume-clr);
 }
 
-#resume-rightside a {
+#resume-right a {
     color: #000;
 }
 
-#resume-rightside li>a,
-#resume-rightside h3>a {
+#resume-right li>a, #resume-right h3>a {
     text-decoration: none;
 }
 
@@ -256,10 +253,6 @@
     margin-top: 10px;
 }
 
-.education {
-    margin-bottom: 20px;
-}
-
 .edu-period {
     color: var(--resume-clr);
     font-style: italic;
@@ -279,14 +272,10 @@
     font-style: italic;
 }
 
-#read-more-courses, #read-less-courses {
+#show-more, #show-less {
     cursor: pointer;
     text-decoration: underline;
     white-space: nowrap;
-}
-
-.work-experience {
-    margin-bottom: 20px;
 }
 
 .certificate {
@@ -296,7 +285,7 @@
     margin-bottom: 20px;
 }
 
-.certificate a {
+.certificate>a, .cert-period>a {
     white-space: nowrap;
 }
 
@@ -311,7 +300,7 @@
     justify-content: space-between;
 }
 
-#projects li, #skills, #interests, #languages {
+#projects li, #skills, #interests, .mb {
     margin-bottom: 20px;
 }
 
@@ -324,23 +313,23 @@
 }
 
 @media screen and (max-width: 1250px) {
-    #resume-page {
+    #root {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 750px) {
-    #resume-page {
+    #root {
         flex-direction: column-reverse;
     }
 
-    #resume-leftside {
+    #resume-left {
         overflow: unset;
         height: 100%;
         width: 100%;
     }
 
-    #resume-rightside {
+    #resume-right {
         overflow: unset;
         width: 100%;
     }
