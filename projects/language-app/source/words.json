@@ -1362,4 +1362,33 @@
     "tr": "merak etmek",
     "def": "desire or be curious to know something.",
     "pos": "verb"
+}, {
+    "en": "numerate",
+    "tr": "temel aritmetik",
+    "def": "having a good basic knowledge of arithmetic; able to understand and work with numbers.",
+    "pos": "adjective"
+}, {
+    "en": "allusion",
+    "tr": "kinaye",
+    "def": "an expression designed to call something to mind without mentioning it explicitly; an indirect or passing reference.",
+    "pos": "noun"
+}, {
+    "en": "sale",
+    "tr": "satış",
+    "def": "the exchange of a commodity for money; the action of selling something.",
+    "pos": "noun"
+}, {
+    "en": "access",
+    "tr": "erişmek",
+    "def": "approach or enter (a place).",
+    "pos": "verb"
+}, {
+    "en": "check",
+    "tr": "hesap",
+    "pos": "noun"
+}, {
+    "en": "pair",
+    "tr": "çift",
+    "def": "a set of two things used together or regarded as a unit.",
+    "pos": "noun"
 }]

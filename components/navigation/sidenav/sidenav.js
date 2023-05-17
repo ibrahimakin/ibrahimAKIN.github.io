@@ -22,12 +22,12 @@ class Sidenav extends HTMLElement {
                 </div>
                 <div class="main sub">
                     <div>
-                        <a title="Home" class="filled home icon" href="/"></a>
+                        <a title="Home" class="filled home icon" href="/" lang-tag="home"></a>
                         <span lang-tag="home">Home</span>
                     </div>
                     <div></div>
                     <div class="menu">
-                        <input title="Projects" class="pin-menu" type="checkbox">
+                        <input title="Projects" class="pin-menu" type="checkbox" lang-tag="projects">
                         <div class="filled project icon"></div>
                         <div class="expand">
                             <div>
@@ -39,22 +39,22 @@ class Sidenav extends HTMLElement {
                                 <span>Code Playground</span>
                             </div>
                             <div>
-                                <a title="Face Detector" class="filled face icon" href="/projects/face-detector"></a>
+                                <a title="Face Detector" class="filled face icon" href="/projects/face-detector" lang-tag="face_detector"></a>
                                 <span lang-tag="face_detector">Face Detector</span>
                             </div>
                             <div>
-                                <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
+                                <a title="Movies" class="filled movies icon" href="/projects/movies" lang-tag="nav_movies"></a>
                                 <span lang-tag="nav_movies">Movies</span>
                             </div>
                             <div>
-                                <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator"></a>
+                                <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator" lang-tag="lcd"></a>
                                 <span lang-tag="lcd">LCD Character Generator</span>
                             </div>
                         </div>
                         <span lang-tag="projects">Projects</span>
                     </div>
                     <div class="menu">
-                        <input title="Games" class="pin-menu" type="checkbox">
+                        <input title="Games" class="pin-menu" type="checkbox" lang-tag="games">
                         <div class="filled games icon"></div>
                         <div class="expand">
                             <div>
@@ -70,18 +70,18 @@ class Sidenav extends HTMLElement {
                                 <span>Bird</span>
                             </div>
                             <div>
-                                <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe"></a>
+                                <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe" lang-tag="xox"></a>
                                 <span lang-tag="xox">Tic Tac Toe</span>
                             </div>
                             <div>
-                                <a title="Ping Pong" class="filled pong icon" href="/games/pong"></a>
+                                <a title="Ping Pong" class="filled pong icon" href="/games/pong" lang-tag="pong"></a>
                                 <span lang-tag="pong">Ping Pong</span>
                             </div>
                         </div>
                         <span lang-tag="games">Games</span>
                     </div>
                     <div>
-                        <a title="Resume" class="filled resume icon" href="/resume"></a>
+                        <a title="Resume" class="filled resume icon" href="/resume" lang-tag="resume"></a>
                         <span lang-tag="resume">Resume</span>
                     </div>
                     <div>
@@ -89,7 +89,7 @@ class Sidenav extends HTMLElement {
                         <span>Blog</span>
                     </div>
                     <div class="menu">
-                        <input title="Settings" class="pin-menu" type="checkbox">
+                        <input title="Settings" class="pin-menu" type="checkbox" lang-tag="settings">
                         <div class="filled settings icon"></div>
                         <div class="expand">
                             <div>
