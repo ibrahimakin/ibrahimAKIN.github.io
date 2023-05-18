@@ -593,7 +593,9 @@
     "tr": "büyük mutluluk"
 }, {
     "en": "constraint",
-    "tr": "kısıtlama"
+    "tr": "kısıtlama",
+    "def": "a limitation or restriction.",
+    "pos": "noun"
 }, {
     "en": "certainly",
     "tr": "kesinlikle"
@@ -1391,4 +1393,24 @@
     "tr": "çift",
     "def": "a set of two things used together or regarded as a unit.",
     "pos": "noun"
+}, {
+    "en": "piece",
+    "tr": "parça",
+    "def": "a portion of an object or of material, produced by cutting, tearing, or breaking the whole.",
+    "pos": "noun"
+}, {
+    "en": "intimate",
+    "tr": "samimi, sıkı fıkı",
+    "def": "closely acquainted; familiar, close.",
+    "pos": "adjective"
+}, {
+    "en": "sincere",
+    "tr": "içten, samimi, dürüst",
+    "def": "free from pretense or deceit; proceeding from genuine feelings.",
+    "pos": "adjective"
+}, {
+    "en": "overdue",
+    "tr": "vadesi geçmiş",
+    "def": "not having arrived, happened, or been done by the expected time.",
+    "pos": "adjective"
 }]

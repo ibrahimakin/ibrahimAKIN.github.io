@@ -22,8 +22,8 @@ class Sidenav extends HTMLElement {
                 </div>
                 <div class="main sub">
                     <div>
-                        <a title="Home" class="filled home icon" href="/" lang-tag="home"></a>
-                        <span lang-tag="home">Home</span>
+                        <a title="Home" class="filled home icon" href="/" lang-tag="nav_home"></a>
+                        <span lang-tag="nav_home">Home</span>
                     </div>
                     <div></div>
                     <div class="menu">

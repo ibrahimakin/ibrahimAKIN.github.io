@@ -25,7 +25,7 @@ side-nav {
     grid-template-rows: repeat(7, 1fr);
 }
 
-.expand>div div {
+.expand>div div:not([title]) {
     perspective: 1000px;
     position: relative;
     padding-top: calc(2 * var(--nav-gap));

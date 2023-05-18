@@ -1,6 +1,6 @@
 lang_obj.tr = {
     ...lang_obj.tr,
-    home: 'Anasayfa',
+    nav_home: 'Anasayfa',
     projects: 'Projeler',
     lcd: 'LCD Karakter Hesaplayıcı',
     nav_movies: 'Filmler',
@@ -13,7 +13,7 @@ lang_obj.tr = {
 };
 lang_obj.en = {
     ...lang_obj.en,
-    home: 'Home',
+    nav_home: 'Home',
     projects: 'Projects',
     lcd: 'LCD Character Generator',
     nav_movies: 'Movies',
