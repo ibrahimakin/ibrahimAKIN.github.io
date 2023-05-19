@@ -3,12 +3,11 @@ class Sidenav extends HTMLElement {
         for (const pin of pins) if (e.target !== pin) pin.checked = false;
     }
     handleMediaQuery(x) {
-        const collapsed = typeof sidenav_colapsed !== 'undefined';
-        if ((collapsed || x.matches) && !collapse.checked) {              // If media query matches
+        if ((this.attributes.collapsed || x.matches) && !collapse.checked) {
             this.classList.add('collapsed');
             this.collapse.checked = true;
         }
-        else if ((!collapsed && !x.matches) && collapse.checked) {
+        else if ((!this.attributes.collapsed && !x.matches) && collapse.checked) {
             this.removeAttribute('class');
             this.collapse.checked = false;
         }
@@ -23,12 +22,12 @@ class Sidenav extends HTMLElement {
                 </div>
                 <div class="main sub">
                     <div>
-                        <a title="Home" class="filled home icon" href="/"></a>
-                        <span lang-tag="home">Home</span>
+                        <a title="Home" class="filled home icon" href="/" lang-tag="nav_home"></a>
+                        <span lang-tag="nav_home">Home</span>
                     </div>
                     <div></div>
                     <div class="menu">
-                        <input title="Projects" class="pin-menu" type="checkbox">
+                        <input title="Projects" class="pin-menu" type="checkbox" lang-tag="projects">
                         <div class="filled project icon"></div>
                         <div class="expand">
                             <div>
@@ -40,22 +39,22 @@ class Sidenav extends HTMLElement {
                                 <span>Code Playground</span>
                             </div>
                             <div>
-                                <a title="Face Detector" class="filled face icon" href="/projects/face-detector"></a>
+                                <a title="Face Detector" class="filled face icon" href="/projects/face-detector" lang-tag="face_detector"></a>
                                 <span lang-tag="face_detector">Face Detector</span>
                             </div>
                             <div>
-                                <a title="Movies" class="filled movies icon" href="/projects/movies"></a>
+                                <a title="Movies" class="filled movies icon" href="/projects/movies" lang-tag="nav_movies"></a>
                                 <span lang-tag="nav_movies">Movies</span>
                             </div>
                             <div>
-                                <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator"></a>
+                                <a title="LCD Character Generator" class="filled iicon icon" href="/projects/lcd-character-generator" lang-tag="lcd"></a>
                                 <span lang-tag="lcd">LCD Character Generator</span>
                             </div>
                         </div>
                         <span lang-tag="projects">Projects</span>
                     </div>
                     <div class="menu">
-                        <input title="Games" class="pin-menu" type="checkbox">
+                        <input title="Games" class="pin-menu" type="checkbox" lang-tag="games">
                         <div class="filled games icon"></div>
                         <div class="expand">
                             <div>
@@ -71,18 +70,18 @@ class Sidenav extends HTMLElement {
                                 <span>Bird</span>
                             </div>
                             <div>
-                                <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe"></a>
+                                <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe" lang-tag="xox"></a>
                                 <span lang-tag="xox">Tic Tac Toe</span>
                             </div>
                             <div>
-                                <a title="Ping Pong" class="filled pong icon" href="/games/pong"></a>
+                                <a title="Ping Pong" class="filled pong icon" href="/games/pong" lang-tag="pong"></a>
                                 <span lang-tag="pong">Ping Pong</span>
                             </div>
                         </div>
                         <span lang-tag="games">Games</span>
                     </div>
                     <div>
-                        <a title="Resume" class="filled resume icon" href="/resume"></a>
+                        <a title="Resume" class="filled resume icon" href="/resume" lang-tag="resume"></a>
                         <span lang-tag="resume">Resume</span>
                     </div>
                     <div>
@@ -90,7 +89,7 @@ class Sidenav extends HTMLElement {
                         <span>Blog</span>
                     </div>
                     <div class="menu">
-                        <input title="Settings" class="pin-menu" type="checkbox">
+                        <input title="Settings" class="pin-menu" type="checkbox" lang-tag="settings">
                         <div class="filled settings icon"></div>
                         <div class="expand">
                             <div>
@@ -119,8 +118,8 @@ class Sidenav extends HTMLElement {
         for (const pin of pins) pin.addEventListener('change', e => this.handleExpand(e, pins));
         const width = typeof sidenav_width !== 'undefined' ? sidenav_width : '750';
         const x = window.matchMedia(`(max-width: ${width}px)`);
-        x.addEventListener('change', this.handleMediaQuery.bind(this));   // Attach listener function on state changes
-        this.handleMediaQuery(x);                                         // Call listener function at run time
+        x.addEventListener('change', this.handleMediaQuery.bind(this));
+        this.handleMediaQuery(x);
     }
 }
 customElements.define('side-nav', Sidenav);

@@ -317,9 +317,6 @@
     "en": "cumbersome",
     "tr": "kullanışsız, elverişsiz"
 }, {
-    "en": "dispute",
-    "tr": "anlaşmazlık, tartışma"
-}, {
     "en": "brick-and-mortar store",
     "tr": "fiziksel mağaza"
 }, {
@@ -555,8 +552,9 @@
     "def": "dedicated or consecrated to God or a religious purpose; sacred."
 }, {
     "en": "dispute",
-    "tr": "anlaşmazlık",
-    "def": "a disagreement, argument, or debate."
+    "tr": "anlaşmazlık, tartışma",
+    "def": "a disagreement, argument, or debate.",
+    "pos": "verb"
 }, {
     "en": "dearest",
     "tr": "en sevilen"
@@ -595,7 +593,9 @@
     "tr": "büyük mutluluk"
 }, {
     "en": "constraint",
-    "tr": "kısıtlama"
+    "tr": "kısıtlama",
+    "def": "a limitation or restriction.",
+    "pos": "noun"
 }, {
     "en": "certainly",
     "tr": "kesinlikle"
@@ -1329,4 +1329,88 @@
     "tr": "rahatlatmak",
     "def": "cause (pain, distress, or difficulty) to become less severe or serious.",
     "pos": "verb"
+}, {
+    "en": "scent",
+    "tr": "güzel koku",
+    "def": "a distinctive smell, especially one that is pleasant.",
+    "pos": "noun"
+}, {
+    "en": "wrap",
+    "tr": "paketlemek, dürüm",
+    "def": "cover or enclose (someone or something) in paper or soft material.",
+    "pos": "verb"
+}, {
+    "en": "reception",
+    "tr": "resepsiyon, karşılama",
+    "def": "the action or process of receiving something sent, given, or inflicted.",
+    "pos": "noun"
+}, {
+    "en": "heal",
+    "tr": "iyileşmek, şifa bulmak",
+    "def": "(of a person or treatment) cause (a wound, injury, or person) to become sound or healthy again.",
+    "pos": "verb"
+}, {
+    "en": "plane",
+    "tr": "uçak",
+    "img": "/assets/images/projects/language-app/plane.jpg",
+    "pos": "noun"
+}, {
+    "en": "retention",
+    "tr": "tutma, muhafaza",
+    "def": "the continued possession, use, or control of something.",
+    "pos": "noun"
+}, {
+    "en": "wonder",
+    "tr": "merak etmek",
+    "def": "desire or be curious to know something.",
+    "pos": "verb"
+}, {
+    "en": "numerate",
+    "tr": "temel aritmetik",
+    "def": "having a good basic knowledge of arithmetic; able to understand and work with numbers.",
+    "pos": "adjective"
+}, {
+    "en": "allusion",
+    "tr": "kinaye",
+    "def": "an expression designed to call something to mind without mentioning it explicitly; an indirect or passing reference.",
+    "pos": "noun"
+}, {
+    "en": "sale",
+    "tr": "satış",
+    "def": "the exchange of a commodity for money; the action of selling something.",
+    "pos": "noun"
+}, {
+    "en": "access",
+    "tr": "erişmek",
+    "def": "approach or enter (a place).",
+    "pos": "verb"
+}, {
+    "en": "check",
+    "tr": "hesap",
+    "pos": "noun"
+}, {
+    "en": "pair",
+    "tr": "çift",
+    "def": "a set of two things used together or regarded as a unit.",
+    "pos": "noun"
+}, {
+    "en": "piece",
+    "tr": "parça",
+    "def": "a portion of an object or of material, produced by cutting, tearing, or breaking the whole.",
+    "pos": "noun"
+}, {
+    "en": "intimate",
+    "tr": "samimi, sıkı fıkı",
+    "def": "closely acquainted; familiar, close.",
+    "pos": "adjective"
+}, {
+    "en": "sincere",
+    "tr": "içten, samimi, dürüst",
+    "def": "free from pretense or deceit; proceeding from genuine feelings.",
+    "pos": "adjective"
+}, {
+    "en": "overdue",
+    "tr": "vadesi geçmiş",
+    "def": "not having arrived, happened, or been done by the expected time.",
+    "pos": "adjective"
 }]

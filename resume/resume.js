@@ -1,25 +1,19 @@
-function readMore(e) {
-    let dots = document.getElementById('more-courses-dots');
-    let moreText = document.getElementById('more-courses');
-    let btnLess = document.getElementById('read-less-courses');
-
-    if (dots.style.display !== 'none') {
-        dots.style.display = 'none';
-        e.target.style.display = 'none';
-        btnLess.style.display = 'inline';
-        moreText.style.display = 'inline';
-    }
+function showMore(e) {
+    let dots = document.getElementById('dots');
+    let text = document.getElementById('more-courses');
+    let less = e.nextElementSibling;
+    less.style.display = 'inline';
+    text.style.display = 'inline';
+    dots.style.display = 'none';
+    e.style.display = 'none';
 }
 
-function readLess(e) {
-    let dots = document.getElementById('more-courses-dots');
-    let moreText = document.getElementById('more-courses');
-    let btnMore = document.getElementById('read-more-courses');
-
-    if (dots.style.display === 'none') {
-        dots.style.display = 'inline';
-        e.target.style.display = 'none';
-        btnMore.style.display = 'inline';
-        moreText.style.display = 'none';
-    }
+function showLess(e) {
+    let dots = document.getElementById('dots');
+    let text = document.getElementById('more-courses');
+    let more = e.previousElementSibling;
+    dots.style.display = 'inline';
+    more.style.display = 'inline';
+    text.style.display = 'none';
+    e.style.display = 'none';
 }

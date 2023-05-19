@@ -1,0 +1,42 @@
+const lang_obj = {
+    tr: {
+        welcome: 'Hoşgeldiniz!',
+        start: 'Oyuna Başla',
+        correct: 'Doğru',
+        wrong: 'Yanlış',
+        go: 'Başlangıca git.',
+        no: 'Hayır',
+        yes: 'Evet',
+        sentence: 'Doğru cümleyi seçin.',
+        word: 'Doğru kelimeyi seçin.',
+        choose: 'Çiftleri Seçin',
+        match: 'Kelimeleri anlamları ile eşleştirin.',
+        sort: 'Cümleyi oluşturmak için kelimeleri sıralayın.',
+        next: 'Sonraki',
+        check: 'Kontrol Et',
+        loading: 'Yükleniyor',
+        back: 'Geri',
+        to_start: 'Başlangıç',
+        forward: 'İleri'
+    },
+    en: {
+        welcome: 'Welcome!',
+        start: 'Start Game',
+        correct: 'Correct',
+        wrong: 'Wrong',
+        go: 'Go to start?',
+        no: 'No',
+        yes: 'Yes',
+        sentence: 'Choose the correct sentence.',
+        word: 'Choose the correct word.',
+        choose: 'Choose Pairs',
+        match: 'Match the words with their meanings.',
+        sort: 'Sort the words to form the sentence.',
+        next: 'Next',
+        check: 'Check',
+        loading: 'Loading',
+        back: 'Back',
+        to_start: 'Start',
+        forward: 'Forward'
+    }
+};

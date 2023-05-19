@@ -7,7 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 current = lang;
                 try { localStorage.setItem('lang', lang); } catch (e) { }
                 for (const element of document.querySelectorAll('[lang-tag]')) {
-                    element.textContent = lang_obj[lang][element.getAttribute('lang-tag')];
+                    let value = lang_obj[lang][element.getAttribute('lang-tag')];
+                    if (element.placeholder) element.placeholder = value;
+                    else if (element.title.length) element.title = value;
+                    else element.textContent = value;
                 }
                 // document.documentElement.setAttribute('lang', lang);
             }
@@ -15,7 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (current !== 'en') {
         for (const element of document.querySelectorAll('[lang-tag]')) {
-            element.textContent = lang_obj[current][element.getAttribute('lang-tag')];
+            let value = lang_obj[current][element.getAttribute('lang-tag')];
+            if (element.placeholder) element.placeholder = value;
+            else if (element.title.length) element.title = value;
+            else element.textContent = value;
         }
         // document.documentElement.setAttribute('lang', lang); // Gets a reference to the root node of the document.
     }

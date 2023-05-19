@@ -24,8 +24,8 @@
 <body>
     <top-nav></top-nav>
     <side-nav></side-nav>
-    <div id="resume-page">
-        <div id="resume-leftside">
+    <div id="root">
+        <div id="resume-left" class="padding">
             <div id="left-profile-image"></div>
             <div id="contact">
                 <div>
@@ -96,7 +96,7 @@
                 <div lang-tag="autonomous_system">Autonomous Systems</div>
                 <div lang-tag="game_development">Game Development</div>
             </div>
-            <div id="languages">
+            <div class="mb">
                 <h2 lang-tag="languages">LANGUAGES</h2>
                 <hr>
                 <div class="language">
@@ -109,8 +109,8 @@
                 </div>
             </div>
         </div>
-        <div id="resume-rightside">
-            <div id="resume-summary" class="resume-padding">
+        <div id="resume-right">
+            <div id="resume-summary" class="padding">
                 <div id="right-profile-image"></div>&nbsp;
                 <div>
                     <h1>ibrahim AKIN</h1>
@@ -118,11 +118,11 @@
                     <p lang-tag="prsnl_desc">The best adjective that describes me is curious. I always want to learn new things and search them to discover.</p>
                 </div>
             </div>
-            <div class="resume-padding">
+            <div class="padding">
                 <div id="educations">
                     <h2 lang-tag="education">EDUCATION</h2>
                     <hr>
-                    <div class="education">
+                    <div class="mb">
                         <h2 lang-tag="computer_engineering">Computer Engineering</h2>
                         <h3><a lang-tag="comu" href="https://global.comu.edu.tr/" target="_blank">Canakkale 18th March University</a></h3>
                         <div class="edu-period">08/2016 - 12/2020</div>
@@ -134,7 +134,7 @@
                                         <span lang-tag="less_courses">
                                             Mobile Programming, Image Processing,
                                             Computer Networks, Object Oriented Analysis And
-                                            Design</span><span id="more-courses-dots">...</span><span id="more-courses" lang-tag="more_courses" style="display: none;">,
+                                            Design</span><span id="dots">...</span><span id="more-courses" lang-tag="more_courses" style="display: none;">,
                                             Algorithm and Programming, Linear Algebra, Structural Programming, Data Structures,
                                             Object Oriented Programming, Discrete Mathematics, Differantial Equations, Analog Electronics,
                                             Propbability and Statistics, Numerical Methods, Web Page Design and Programming, Computer Organization,
@@ -144,8 +144,8 @@
                                             Formal Languages and Automata Theory, Introduction to Cloud Computing, Computer Architecture,
                                             Analysis Of Algorithms, Embedded System Design, Access to the Internet of Things, Software Testing Techniques
                                         </span>
-                                        <span id="read-more-courses" onclick="readMore(event)" lang-tag="read_more">read more</span>
-                                        <span id="read-less-courses" onclick="readLess(event)" lang-tag="read_less" style="display: none;">read less</span>
+                                        <span id="show-more" onclick="showMore(this)" lang-tag="show_more">show more</span>
+                                        <span id="show-less" onclick="showLess(this)" lang-tag="show_less" style="display: none;">show less</span>
                                     </li>
                                 </ul>
                             </div>
@@ -157,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="education">
+                    <div class="mb">
                         <h2 lang-tag="management_i_s">Management Information Systems</h2>
                         <h3><a lang-tag="anatolian_university" href="https://www.anadolu.edu.tr/en" target="_blank">Anadolu University</a></h3>
                         <div class="edu-period">09/2016 - 09/2020</div>
@@ -166,13 +166,13 @@
                 <div id="work-experiences">
                     <h2 lang-tag="work_experience">WORK EXPERIENCE</h2>
                     <hr>
-                    <div class="work-experience">
+                    <div class="mb">
                         <h2 lang-tag="software_engineer">Software Engineer</h2>
                         <h3><a href="https://vestel.co.uk/" target="_blank">Vestel</a></h3>
                         <div class="edu-period">04/2022 - <span lang-tag="present">Present</span></div>
                         <p lang-tag="vestel_desc">I'm working on embedded TV software.</p>
                     </div>
-                    <div class="work-experience">
+                    <div class="mb">
                         <h2 lang-tag="fullstack_developer">Full Stack Developer</h2>
                         <h3><a href="https://ithero.com.tr/" target="_blank"><span lang-tag="ithero">IT HERO Information Technology & Services</span>&nbsp;<span lang-tag="inc">Inc.</span></a></h3>
                         <div class="edu-period">10/2020 - 04/2022</div>
@@ -187,13 +187,13 @@
                             <a href="https://autommate.com/" target="_blank" lang-tag="see_project">See project</a>
                         </div>
                     </div>
-                    <div class="work-experience">
+                    <div class="mb">
                         <h2 lang-tag="technical_support">Technical Support</h2>
                         <h3><a lang-tag="comu" href="https://global.comu.edu.tr/" target="_blank">Canakkale 18th March University</a></h3>
                         <div class="edu-period">10/2019 - 01/2020</div>
                         <p lang-tag="ts_desc">Part-time working student at Canakkale 18th March University Online Education Center.</p>
                     </div>
-                    <div class="work-experience">
+                    <div class="mb">
                         <h2 lang-tag="ce_intern">Computer Engineering Internship</h2>
                         <h3><a href="https://nara.com.tr/" target="_blank">Nara EdTech <span lang-tag="inc">Inc.</span></a></h3>
                         <div class="edu-period">01/2019 - 03/2019</div>
@@ -203,12 +203,12 @@
                             <li><a href="#piko">Piko Island Game</a></li>
                         </ul>
                     </div>
-                    <div class="work-experience">
+                    <div class="mb">
                         <h2 lang-tag="cashier">Cashier</h2>
                         <h3><a href="https://corporate.lcwaikiki.com/" target="_blank">LC Waikiki</a></h3>
                         <div class="edu-period">07/2018 - 09/2018</div>
                     </div>
-                    <div class="work-experience">
+                    <div class="mb">
                         <h2 lang-tag="sales_consultant">Sales Consultant</h2>
                         <h3><a href="https://corporate.lcwaikiki.com/" target="_blank">LC Waikiki</a></h3>
                         <div class="edu-period">06/2017 - 08/2017</div>
