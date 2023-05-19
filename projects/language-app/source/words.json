@@ -227,7 +227,7 @@
     "tr": "vasıf gerektirmeyen"
 }, {
     "en": "purchasing power",
-    "tr": "alım Gücü"
+    "tr": "alım gücü"
 }, {
     "en": "ice cap",
     "tr": "buz örtüsü",
@@ -1412,5 +1412,40 @@
     "en": "overdue",
     "tr": "vadesi geçmiş",
     "def": "not having arrived, happened, or been done by the expected time.",
+    "pos": "adjective"
+}, {
+    "en": "flank",
+    "tr": "yan",
+    "def": "the side of a person's or animal's body between the ribs and the hip.",
+    "pos": "noun"
+}, {
+    "en": "plank",
+    "tr": "tahta, kalas",
+    "def": "a long, thin, flat piece of timber, used especially in building and flooring.",
+    "pos": "noun"
+}, {
+    "en": "roll",
+    "tr": "yuvarlamak",
+    "def": "move or cause to move in a particular direction by turning over and over on an axis.",
+    "pos": "verb"
+}, {
+    "en": "ad, advertisement",
+    "tr": "ilan, reklam",
+    "def": "an advertisement.",
+    "pos": "noun"
+}, {
+    "en": "plunk",
+    "tr": "gümlemek, düşmek",
+    "def": "play a keyboard or plucked stringed instrument, especially in an inexpressive or unskilled way.",
+    "pos": "verb"
+}, {
+    "en": "deprave",
+    "tr": "ahlaksızlaştırmak, ayartmak",
+    "def": "make (someone) immoral or wicked.",
+    "pos": "verb"
+}, {
+    "en": "depraved",
+    "tr": "ahlakı bozuk",
+    "def": "morally corrupt; wicked.",
     "pos": "adjective"
 }]

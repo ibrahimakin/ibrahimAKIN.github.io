@@ -2,7 +2,6 @@ side-nav {
     display: flex;
     align-items: center;
     width: var(--sidenav-width);
-    height: 100vh;
 }
 
 #sidenav {
@@ -21,18 +20,27 @@ side-nav {
     width: 100%;
 }
 
+#sidenav .main .expand div>span {
+    opacity: 0;
+}
+
+#sidenav .main a:hover+span {
+    opacity: 1;
+}
+
 .sub {
     grid-template-rows: repeat(7, 1fr);
 }
 
 .expand>div div:not([title]) {
     perspective: 1000px;
-    position: relative;
     padding-top: calc(2 * var(--nav-gap));
     transition: transform .2s linear;
     transform-style: preserve-3d;
-    transform: rotateX(-50deg);
+    transform: rotateX(-49deg);
     transform-origin: top;
+    box-sizing: content-box;
+    height: 100%;
 }
 
 .menu:hover>.expand>div div,

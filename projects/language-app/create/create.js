@@ -37,7 +37,9 @@ function handleCheck(radio) {
     }
     else {
         def = '';
+        typ = '';
         def_e.value = '';
+        typ_e.value = '';
         definition.style.display = 'none';
         quote_e.removeAttribute('style');
         imgb.style.visibility = 'hidden';
