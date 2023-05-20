@@ -1,23 +1,14 @@
 side-nav {
-    display: flex;
-    align-items: center;
     width: var(--sidenav-width);
 }
 
 #sidenav {
     width: var(--sidenav-width);
+    align-items: center;
+}
+
+#sidenav>.main {
     max-height: 630px;
-}
-
-#sidenav .expand {
-    transition: unset;
-    transition-delay: .2s;
-}
-
-#sidenav .expand>div div>span {
-    bottom: unset;
-    margin-top: calc(-2 * var(--nav-gap));
-    width: 100%;
 }
 
 #sidenav .main .expand div>span {
@@ -32,18 +23,35 @@ side-nav {
     grid-template-rows: repeat(7, 1fr);
 }
 
-.expand>div div:not([title]) {
+.expand {
     perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.expand>div div:not([title]) {
+    position: relative;
+    perspective: 1000px;
+    padding: var(--nav-gap);
     padding-top: calc(2 * var(--nav-gap));
+    left: calc(-1 * var(--nav-gap));
     transition: transform .2s linear;
     transform-style: preserve-3d;
-    transform: rotateX(-49deg);
+    transform: rotateX(-41deg);
     transform-origin: top;
     box-sizing: content-box;
     height: 100%;
+    width: 100%;
 }
 
+.expand>div.up {
+    transition: transform .2s linear;
+    transform: rotateX(93deg);
+    transform-origin: bottom;
+}
+
+.menu:hover>.expand>div.up,
 .menu:hover>.expand>div div,
+.pin-menu:checked+.expand>div.up,
 .pin-menu:checked+.expand>div div {
     transform: rotateX(0);
 }

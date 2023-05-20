@@ -1448,4 +1448,24 @@
     "tr": "ahlakı bozuk",
     "def": "morally corrupt; wicked.",
     "pos": "adjective"
+}, {
+    "en": "feeble",
+    "tr": "cılız",
+    "def": "lacking physical strength, especially as a result of age or illness.",
+    "pos": "adjective"
+}, {
+    "en": "occupation",
+    "tr": "uğraşı, meslek",
+    "def": "a job or profession.",
+    "pos": "noun"
+}, {
+    "en": "faint, pass out",
+    "tr": "bayılmak",
+    "def": "lose consciousness for a short time because of a temporarily insufficient supply of oxygen to the brain.",
+    "pos": "verb"
+}, {
+    "en": "tray",
+    "tr": "tepsi",
+    "def": "a flat, shallow container with a raised rim, typically used for carrying food and drink, or for holding small items.",
+    "pos": "noun"
 }]

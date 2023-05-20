@@ -43,22 +43,22 @@ class Sidenav extends HTMLElement {
                         <div class="filled games icon"></div>
                         <input title="Games" class="pin-menu" type="checkbox" lang-tag="games">
                         <div class="expand more" style="--extra:1">
-                            <div>
+                            <div class="up">
                                 <a title="Tetris" class="filled tetris icon" href="/games/tetris"></a>
                                 <span>Tetris</span>
+                            </div>
+                            <div>
+                                <a title="Snake" class="filled snake icon" href="/games/snake"></a>
+                                <span>Snake</span>
                                 <div>
-                                    <a title="Snake" class="filled snake icon" href="/games/snake"></a>
-                                    <span>Snake</span>
+                                    <a title="Bird" class="filled bird icon" href="/games/bird"></a>
+                                    <span>Bird</span>
                                     <div>
-                                        <a title="Bird" class="filled bird icon" href="/games/bird"></a>
-                                        <span>Bird</span>
+                                        <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe" lang-tag="xox"></a>
+                                        <span lang-tag="xox">Tic Tac Toe</span>
                                         <div>
-                                            <a title="Tic Tac Toe" class="filled tic-tac-toe icon" href="/games/tic-tac-toe" lang-tag="xox"></a>
-                                            <span lang-tag="xox">Tic Tac Toe</span>
-                                            <div>
-                                                <a title="Ping Pong" class="filled pong icon" href="/games/pong" lang-tag="pong"></a>
-                                                <span lang-tag="pong">Ping Pong</span>
-                                            </div>
+                                            <a title="Ping Pong" class="filled pong icon" href="/games/pong" lang-tag="pong"></a>
+                                            <span lang-tag="pong">Ping Pong</span>
                                         </div>
                                     </div>
                                 </div>
@@ -78,11 +78,11 @@ class Sidenav extends HTMLElement {
                         <div class="filled settings icon"></div>
                         <input title="Settings" class="pin-menu" type="checkbox" lang-tag="settings">
                         <div class="expand more" style="--extra:1">
-                            <div>
+                            <div class="up">
                                 <div title="Türkçe" lang-name="tr" class="filled tr icon lang-button" ${lang_support}></div>
-                                <div>
-                                    <div title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></div>
-                                </div>
+                            </div>
+                            <div>
+                                <div title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></div>
                             </div>
                         </div>
                         <span lang-tag="settings">Settings</span>
