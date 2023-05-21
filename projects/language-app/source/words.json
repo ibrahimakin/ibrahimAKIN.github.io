@@ -1468,4 +1468,69 @@
     "tr": "tepsi",
     "def": "a flat, shallow container with a raised rim, typically used for carrying food and drink, or for holding small items.",
     "pos": "noun"
+}, {
+    "en": "vicious",
+    "tr": "kötü, gaddar",
+    "def": "deliberately cruel or violent.",
+    "pos": "adjective"
+}, {
+    "en": "blackmail",
+    "tr": "şantaj",
+    "def": "the action, treated as a criminal offense, of demanding payment or another benefit from someone in return for not revealing compromising or damaging information about them.",
+    "pos": "noun"
+}, {
+    "en": "compensate",
+    "tr": "telafi etmek, tazmin etmek",
+    "def": "give (someone) something, typically money, in recognition of loss, suffering, or injury incurred; recompense.",
+    "pos": "verb"
+}, {
+    "en": "coincidence",
+    "tr": "tesadüf",
+    "def": "a remarkable concurrence of events or circumstances without apparent causal connection.",
+    "pos": "noun"
+}, {
+    "en": "concurrence",
+    "tr": "fikir birliği, uyuşma",
+    "def": "the fact of two or more events or circumstances happening or existing at the same time.",
+    "pos": "noun"
+}, {
+    "en": "remarkable",
+    "tr": "dikkat çekici",
+    "def": "worthy of attention; striking.",
+    "pos": "adjective"
+}, {
+    "en": "careful",
+    "tr": "dikkatli",
+    "def": "making sure of avoiding potential danger, mishap, or harm; cautious.",
+    "pos": "adjective"
+}, {
+    "en": "reciprocate",
+    "tr": "misillemede bulunmak",
+    "def": "respond to (a gesture or action) by making a corresponding one.",
+    "pos": "verb"
+}, {
+    "en": "dubious",
+    "tr": "şüpheli",
+    "def": "hesitating or doubting.",
+    "pos": "adjective"
+}, {
+    "en": "invest",
+    "tr": "yatırım yapmak",
+    "def": "expend money with the expectation of achieving a profit or material result by putting it into financial plans, shares, or property, or by using it to develop a commercial venture.",
+    "pos": "verb"
+}, {
+    "en": "require",
+    "tr": "gerekmek",
+    "def": "need for a particular purpose.",
+    "pos": "verb"
+}, {
+    "en": "hardship",
+    "tr": "zorluk, cefa, yoksulluk",
+    "def": "severe suffering or privation.",
+    "pos": "noun"
+}, {
+    "en": "deflate",
+    "tr": "söndürmek, havasını boşaltmak",
+    "def": "let air or gas out of (a tire, balloon, or similar object).",
+    "pos": "verb"
 }]

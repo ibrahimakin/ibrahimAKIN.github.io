@@ -23,20 +23,22 @@ side-nav {
     grid-template-rows: repeat(7, 1fr);
 }
 
-.expand {
-    perspective: 1000px;
+#sidenav .expand {
+    transition-delay: .2s, .3s, .3s;
     transform-style: preserve-3d;
+    perspective: 300px;
+    height: 100%;
 }
 
 .expand>div div:not([title]) {
     position: relative;
-    perspective: 1000px;
+    perspective: 300px;
     padding: var(--nav-gap);
     padding-top: calc(2 * var(--nav-gap));
     left: calc(-1 * var(--nav-gap));
     transition: transform .2s linear;
     transform-style: preserve-3d;
-    transform: rotateX(-41deg);
+    transform: rotateX(-90deg);
     transform-origin: top;
     box-sizing: content-box;
     height: 100%;
@@ -45,7 +47,7 @@ side-nav {
 
 .expand>div.up {
     transition: transform .2s linear;
-    transform: rotateX(93deg);
+    transform: rotateX(170deg);
     transform-origin: bottom;
 }
 
@@ -53,5 +55,6 @@ side-nav {
 .menu:hover>.expand>div div,
 .pin-menu:checked+.expand>div.up,
 .pin-menu:checked+.expand>div div {
+    transition-delay: .1s;
     transform: rotateX(0);
 }
