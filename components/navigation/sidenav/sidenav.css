@@ -58,7 +58,6 @@ side-nav.collapsed>#sidenav {
 #sidenav .menu:hover>.expand {
     transition-delay: 0s;
     left: 100%;
-    opacity: 1;
 }
 
 #sidenav .main div>span {

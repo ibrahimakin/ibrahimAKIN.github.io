@@ -10,7 +10,7 @@ const lang_obj = {
         sign_out_t: 'Çıkış',
         sign_out: 'ÇIKIŞ',
         welcome: 'HOŞGELDİNİZ!',
-        html: 'HTML, CSS, JavaScript ve daha fazlasını, programlamayla ilgili her şeyi içeren haftalık blog makaleleri. Gönderileri kaçırmamak için bugün kaydolun!',
+        html: 'HTML, CSS, JavaScript ve daha fazlası, programlamayla ilgili her şeyi içeren haftalık blog makaleleri. Gönderileri kaçırmamak için bugün kaydolun!',
         view: 'GÖRÜNTÜLE',
         view_more: 'Son Gönderiler',
         never_miss: 'GÖNDERİLERİ KAÇIRMAYIN. ÜCRETSİZ KAYDOLUN!',
@@ -40,7 +40,7 @@ const lang_obj = {
         error: 'Hata:',
         ensure: 'Lütfen Blog Başlığı ve Gönderisinin doldurulduğundan emin olun.',
         ensure_cover: 'Lütfen bir kapak fotoğrafı yüklediğinizden emin olun.',
-        saved: 'Değişiklikler kaydedildi.',
+        saved: 'Değişiklikler kaydedildi!',
         title: 'Blog Başlığı Girin',
         upload: 'Kapak Fotoğrafı Yükle',
         preview_photo: 'Fotoğrafı Önizle',
@@ -55,7 +55,10 @@ const lang_obj = {
         enter: 'Yönetici yapmak için kullanıcı e-postasını girin',
         submit: 'GÖNDER',
         account_settings: 'Hesap Ayarları',
-        copyright: 'Copyright 2023 Tüm Hakları Saklıdır',
+        exists: 'Hesabınız varsa, bir e-posta alacaksınız.',
+        close: 'KAPAT',
+        fill: 'Lütfen tüm alanları doldurunuz!',
+        copyright: 'Copyright 2023 Tüm Hakları Saklıdır'
     },
     en: {
         home: 'HOME',
@@ -98,7 +101,7 @@ const lang_obj = {
         error: 'Error:',
         ensure: 'Please ensure Blog Title & Blog Post has been filled.',
         ensure_cover: 'Please ensure you uploaded a cover photo.',
-        saved: 'Changes Saved.',
+        saved: 'Changes were saved!',
         title: 'Enter Blog Title',
         upload: 'Upload Cover Photo',
         preview_photo: 'Preview Photo',
@@ -113,6 +116,9 @@ const lang_obj = {
         enter: 'Enter the user email to make them an admin',
         submit: 'SUBMIT',
         account_settings: 'Account Settings',
-        copyright: 'Copyright 2023 All Rights Reserved',
+        exists: 'If your account exists, you will receive an email.',
+        close: 'CLOSE',
+        fill: 'Please fill out all the fields!',
+        copyright: 'Copyright 2023 All Rights Reserved'
     }
 };

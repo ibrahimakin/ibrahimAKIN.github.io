@@ -227,7 +227,7 @@
     "tr": "vasıf gerektirmeyen"
 }, {
     "en": "purchasing power",
-    "tr": "alım Gücü"
+    "tr": "alım gücü"
 }, {
     "en": "ice cap",
     "tr": "buz örtüsü",
@@ -1413,4 +1413,124 @@
     "tr": "vadesi geçmiş",
     "def": "not having arrived, happened, or been done by the expected time.",
     "pos": "adjective"
+}, {
+    "en": "flank",
+    "tr": "yan",
+    "def": "the side of a person's or animal's body between the ribs and the hip.",
+    "pos": "noun"
+}, {
+    "en": "plank",
+    "tr": "tahta, kalas",
+    "def": "a long, thin, flat piece of timber, used especially in building and flooring.",
+    "pos": "noun"
+}, {
+    "en": "roll",
+    "tr": "yuvarlamak",
+    "def": "move or cause to move in a particular direction by turning over and over on an axis.",
+    "pos": "verb"
+}, {
+    "en": "ad, advertisement",
+    "tr": "ilan, reklam",
+    "def": "an advertisement.",
+    "pos": "noun"
+}, {
+    "en": "plunk",
+    "tr": "gümlemek, düşmek",
+    "def": "play a keyboard or plucked stringed instrument, especially in an inexpressive or unskilled way.",
+    "pos": "verb"
+}, {
+    "en": "deprave",
+    "tr": "ahlaksızlaştırmak, ayartmak",
+    "def": "make (someone) immoral or wicked.",
+    "pos": "verb"
+}, {
+    "en": "depraved",
+    "tr": "ahlakı bozuk",
+    "def": "morally corrupt; wicked.",
+    "pos": "adjective"
+}, {
+    "en": "feeble",
+    "tr": "cılız",
+    "def": "lacking physical strength, especially as a result of age or illness.",
+    "pos": "adjective"
+}, {
+    "en": "occupation",
+    "tr": "uğraşı, meslek",
+    "def": "a job or profession.",
+    "pos": "noun"
+}, {
+    "en": "faint, pass out",
+    "tr": "bayılmak",
+    "def": "lose consciousness for a short time because of a temporarily insufficient supply of oxygen to the brain.",
+    "pos": "verb"
+}, {
+    "en": "tray",
+    "tr": "tepsi",
+    "def": "a flat, shallow container with a raised rim, typically used for carrying food and drink, or for holding small items.",
+    "pos": "noun"
+}, {
+    "en": "vicious",
+    "tr": "kötü, gaddar",
+    "def": "deliberately cruel or violent.",
+    "pos": "adjective"
+}, {
+    "en": "blackmail",
+    "tr": "şantaj",
+    "def": "the action, treated as a criminal offense, of demanding payment or another benefit from someone in return for not revealing compromising or damaging information about them.",
+    "pos": "noun"
+}, {
+    "en": "compensate",
+    "tr": "telafi etmek, tazmin etmek",
+    "def": "give (someone) something, typically money, in recognition of loss, suffering, or injury incurred; recompense.",
+    "pos": "verb"
+}, {
+    "en": "coincidence",
+    "tr": "tesadüf",
+    "def": "a remarkable concurrence of events or circumstances without apparent causal connection.",
+    "pos": "noun"
+}, {
+    "en": "concurrence",
+    "tr": "fikir birliği, uyuşma",
+    "def": "the fact of two or more events or circumstances happening or existing at the same time.",
+    "pos": "noun"
+}, {
+    "en": "remarkable",
+    "tr": "dikkat çekici",
+    "def": "worthy of attention; striking.",
+    "pos": "adjective"
+}, {
+    "en": "careful",
+    "tr": "dikkatli",
+    "def": "making sure of avoiding potential danger, mishap, or harm; cautious.",
+    "pos": "adjective"
+}, {
+    "en": "reciprocate",
+    "tr": "misillemede bulunmak",
+    "def": "respond to (a gesture or action) by making a corresponding one.",
+    "pos": "verb"
+}, {
+    "en": "dubious",
+    "tr": "şüpheli",
+    "def": "hesitating or doubting.",
+    "pos": "adjective"
+}, {
+    "en": "invest",
+    "tr": "yatırım yapmak",
+    "def": "expend money with the expectation of achieving a profit or material result by putting it into financial plans, shares, or property, or by using it to develop a commercial venture.",
+    "pos": "verb"
+}, {
+    "en": "require",
+    "tr": "gerekmek",
+    "def": "need for a particular purpose.",
+    "pos": "verb"
+}, {
+    "en": "hardship",
+    "tr": "zorluk, cefa, yoksulluk",
+    "def": "severe suffering or privation.",
+    "pos": "noun"
+}, {
+    "en": "deflate",
+    "tr": "söndürmek, havasını boşaltmak",
+    "def": "let air or gas out of (a tire, balloon, or similar object).",
+    "pos": "verb"
 }]

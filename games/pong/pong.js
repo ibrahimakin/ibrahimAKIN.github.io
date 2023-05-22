@@ -15,7 +15,6 @@ var Module = {
             //text = text.replace(/</g, "&lt;");
             //text = text.replace(/>/g, "&gt;");
             //text = text.replace('\n', '<br>', 'g');
-            console.log(text);
             if (element) {
                 element.value += text + "\n";
                 element.scrollTop = element.scrollHeight; // focus on bottom
