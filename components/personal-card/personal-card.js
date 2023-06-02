@@ -1,12 +1,5 @@
 class PersonalCard extends HTMLElement {
     constructor() { super(); }
-    handleOrientation(event, card) {
-        let beta = event['beta'] % 360;
-        let alpha = event['gamma'] % 360;
-        if ((45 < beta && beta < 135) && (-45 < alpha && alpha < 45)) {
-            card.style.transform = `rotateY(${-alpha}deg) rotateX(${beta - 90}deg)`;
-        }
-    }
     connectedCallback() {
         this.innerHTML = `
             <div id="content">
@@ -47,8 +40,6 @@ class PersonalCard extends HTMLElement {
         const description = document.querySelector('.info h2');
         const about = document.querySelector('.info p');
         const links = document.querySelector('.links');
-
-        window.addEventListener('deviceorientation', e => this.handleOrientation(e, card));
 
         // Moving Animation Event
         container.addEventListener('mousemove', e => {

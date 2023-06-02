@@ -336,7 +336,8 @@
 }, {
     "en": "anticlimactic",
     "tr": "hayal kırıklığı",
-    "def": "causing disappointment at the end of an exciting or impressive series of events."
+    "def": "causing disappointment at the end of an exciting or impressive series of events.",
+    "pos": "adjective"
 }, {
     "en": "helm",
     "tr": "dümen",
@@ -837,7 +838,9 @@
     "tr": "işe almak"
 }, {
     "en": "convict",
-    "tr": "suçlu bulmak"
+    "tr": "suçlu bulmak",
+    "def": "declare (someone) to be guilty of a criminal offense by the verdict of a jury or the decision of a judge in a court of law.",
+    "pos": "verb"
 }, {
     "en": "punctual",
     "tr": "dakik"
@@ -885,7 +888,9 @@
     "img": "/assets/images/projects/language-app/to_hatch.gif"
 }, {
     "en": "acquire",
-    "tr": "elde etmek"
+    "tr": "elde etmek",
+    "def": "buy or obtain (an asset or object) for oneself.",
+    "pos": "verb"
 }, {
     "en": "nauseous",
     "tr": "mide bulandırıcı"
@@ -1533,4 +1538,219 @@
     "tr": "söndürmek, havasını boşaltmak",
     "def": "let air or gas out of (a tire, balloon, or similar object).",
     "pos": "verb"
+}, {
+    "en": "pre-empt",
+    "tr": "önceden engellemek",
+    "def": "take action in order to prevent (an anticipated event) from happening; forestall.",
+    "pos": "verb"
+}, {
+    "en": "charity",
+    "tr": "hayır kurumu",
+    "def": "an organization set up to provide help and raise money for those in need.",
+    "pos": "noun"
+}, {
+    "en": "peek",
+    "tr": "dikiz, gözetleme",
+    "def": "look quickly, typically in a furtive manner.",
+    "pos": "verb"
+}, {
+    "en": "outcast",
+    "tr": "dışlanmış",
+    "def": "a person who has been rejected by society or a social group.",
+    "pos": "noun"
+}, {
+    "en": "outlaw",
+    "tr": "haydut, kanun kaçağı",
+    "def": "a person who has broken the law, especially one who remains at large or is a fugitive.",
+    "pos": "noun"
+}, {
+    "en": "gratitude",
+    "tr": "minnettarlık",
+    "def": "the quality of being thankful; readiness to show appreciation for and to return kindness.",
+    "pos": "noun"
+}, {
+    "en": "steal",
+    "tr": "çalmak",
+    "def": "take (another person's property) without permission or legal right and without intending to return it.",
+    "pos": "verb"
+}, {
+    "en": "terrify",
+    "tr": "çok korkutmak, ödünü patlatmak",
+    "def": "cause to feel extreme fear.",
+    "pos": "verb"
+}, {
+    "en": "alter",
+    "tr": "değiştirmek",
+    "def": "change or cause to change in character or composition, typically in a comparatively small but significant way.",
+    "pos": "verb"
+}, {
+    "en": "controversial",
+    "tr": "tartışmalı",
+    "def": "giving rise or likely to give rise to public disagreement.",
+    "pos": "adjective"
+}, {
+    "en": "inferior",
+    "tr": "ast, aşağı kalite",
+    "def": "lower in rank, status, or quality.",
+    "pos": "adjective"
+}, {
+    "en": "sustain",
+    "tr": "güç vermek",
+    "def": "strengthen or support physically or mentally.",
+    "pos": "verb"
+}, {
+    "en": "solemn",
+    "tr": "ağırbaşlı, resmi",
+    "def": "formal and dignified.",
+    "pos": "adjective"
+}, {
+    "en": "expose",
+    "tr": "ortaya çıkarmak",
+    "def": "make (something) visible by uncovering it.",
+    "pos": "verb"
+}, {
+    "en": "context",
+    "tr": "bağlam",
+    "def": "the circumstances that form the setting for an event, statement, or idea, and in terms of which it can be fully understood and assessed.",
+    "pos": "noun"
+}, {
+    "en": "fertility",
+    "tr": "verimlilik, bereketlilik",
+    "def": "the quality of being fertile; productiveness.",
+    "pos": "noun"
+}, {
+    "en": "rational",
+    "tr": "rasyonel, mantıklı",
+    "def": "based on or in accordance with reason or logic.",
+    "pos": "adjective"
+}, {
+    "en": "embarrassing",
+    "tr": "utanç verici",
+    "def": "causing embarrassment.",
+    "pos": "adjective"
+}, {
+    "en": "illicit",
+    "tr": "yasadışı",
+    "def": "forbidden by law, rules, or custom.",
+    "pos": "adjective"
+}, {
+    "en": "precise",
+    "tr": "kesin",
+    "def": "marked by exactness and accuracy of expression or detail.",
+    "pos": "adjective"
+}, {
+    "en": "emphasize",
+    "tr": "vurgulamak",
+    "def": "give special importance or prominence to (something) in speaking or writing.",
+    "pos": "verb"
+}, {
+    "en": "excessive",
+    "tr": "haddinden fazle, aşırı",
+    "def": "more than is necessary, normal, or desirable; immoderate.",
+    "pos": "adjective"
+}, {
+    "en": "aggravate",
+    "tr": "ciddileştirmek",
+    "def": "make (a problem, injury, or offense) worse or more serious.",
+    "pos": "verb"
+}, {
+    "en": "familiar",
+    "tr": "tanıdık, aşina",
+    "def": "well known from long or close association.",
+    "pos": "adjective"
+}, {
+    "en": "origin",
+    "tr": "menşei, başlangıç noktası",
+    "def": "the point or place where something begins, arises, or is derived.",
+    "pos": "noun"
+}, {
+    "en": "constitution",
+    "tr": "anayasa",
+    "def": "a body of fundamental principles or established precedents according to which a state or other organization is acknowledged to be governed.",
+    "pos": "noun"
+}, {
+    "en": "achieve",
+    "tr": "başarmak",
+    "def": "successfully bring about or reach (a desired objective, level, or result) by effort, skill, or courage.",
+    "pos": "verb"
+}, {
+    "en": "situation",
+    "tr": "durum",
+    "def": "a set of circumstances in which one finds oneself; a state of affairs.",
+    "pos": "noun"
+}, {
+    "en": "zealous",
+    "tr": "hevesli, gayretli",
+    "def": "having or showing zeal.",
+    "pos": "adjective"
+}, {
+    "en": "thought",
+    "tr": "düşünce",
+    "def": "an idea or opinion produced by thinking, or occurring suddenly in the mind.",
+    "pos": "noun"
+}, {
+    "en": "foreign",
+    "tr": "yabancı",
+    "def": "of, from, in, or characteristic of a country or language other than one's own.",
+    "pos": "adjective"
+}, {
+    "en": "sensible",
+    "tr": "aklı başında",
+    "def": "(of a statement or course of action) chosen in accordance with wisdom or prudence; likely to be of benefit.",
+    "pos": "adjective"
+}, {
+    "en": "archive",
+    "tr": "arşiv",
+    "def": "a collection of historical documents or records providing information about a place, institution, or group of people.",
+    "pos": "noun"
+}, {
+    "en": "disappoint",
+    "tr": "hayal kırıklığına uğratmak",
+    "def": "fail to fulfill the hopes or expectations of (someone).",
+    "pos": "verb"
+}, {
+    "en": "almost",
+    "tr": "neredeyse",
+    "def": "not quite; very nearly.",
+    "pos": "adverb"
+}, {
+    "en": "confirm",
+    "tr": "doğrulamak",
+    "def": "establish the truth or correctness of (something previously believed, suspected, or feared to be the case).",
+    "pos": "verb"
+}, {
+    "en": "transport",
+    "tr": "taşımak, ulaştırmak",
+    "def": "take or carry (people or goods) from one place to another by means of a vehicle, aircraft, or ship.",
+    "pos": "verb"
+}, {
+    "en": "foreword",
+    "tr": "önsöz",
+    "def": "a short introduction to a book, typically by a person other than the author.",
+    "pos": "noun"
+}, {
+    "en": "equipment",
+    "tr": "teçhizat, ekipman",
+    "def": "the necessary items for a particular purpose.",
+    "pos": "noun"
+}, {
+    "en": "pronunciation",
+    "tr": "telaffuz",
+    "def": "the way in which a word is pronounced.",
+    "pos": "noun"
+}, {
+    "en": "flesh",
+    "tr": "et, ten",
+    "def": "the soft substance consisting of muscle and fat that is found between the skin and bones of an animal or a human.",
+    "pos": "noun"
+}, {
+    "en": "comfortable",
+    "tr": "konforlu, rahat",
+    "def": "(especially of clothes or furnishings) providing physical ease and relaxation.",
+    "pos": "adjective"
+}, {
+    "en": "receipt",
+    "tr": "fiş",
+    "def": "the action of receiving something or the fact of its being received.",
+    "pos": "noun"
 }]
