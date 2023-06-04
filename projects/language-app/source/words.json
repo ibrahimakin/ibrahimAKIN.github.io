@@ -1753,4 +1753,112 @@
     "tr": "fiş",
     "def": "the action of receiving something or the fact of its being received.",
     "pos": "noun"
+}, {
+    "en": "sandal",
+    "tr": "sandalet",
+    "def": "a light shoe with either an openwork upper or straps attaching the sole to the foot.",
+    "pos": "noun"
+}, {
+    "en": "tomorrow",
+    "tr": "yarın"
+}, {
+    "en": "independence",
+    "tr": "bağımsızlık",
+    "def": "the fact or state of being independent.",
+    "pos": "noun"
+}, {
+    "en": "grateful",
+    "tr": "minnettar",
+    "def": "feeling or showing an appreciation of kindness; thankful.",
+    "pos": "adjective"
+}, {
+    "en": "existence",
+    "tr": "varoluş",
+    "def": "the fact or state of living or having objective reality.",
+    "pos": "noun"
+}, {
+    "en": "imitate",
+    "tr": "taklit etmek",
+    "def": "take or follow as a model.",
+    "pos": "verb"
+}, {
+    "en": "criticize",
+    "tr": "eleştirmek",
+    "def": "indicate the faults of (someone or something) in a disapproving way.",
+    "pos": "verb"
+}, {
+    "en": "sensitive",
+    "tr": "alıngan, hassas",
+    "def": "quick to detect or respond to slight changes, signals, or influences.",
+    "pos": "adjective"
+}, {
+    "en": "plague",
+    "tr": "veba",
+    "def": "a contagious bacterial disease characterized by fever and delirium, typically with the formation of buboes ( bubonic plague ) and sometimes infection of the lungs ( pneumonic plague ).",
+    "pos": "noun"
+}, {
+    "en": "testimony",
+    "tr": "tanıklık",
+    "def": "a formal written or spoken statement, especially one given in a court of law.",
+    "pos": "noun"
+}, {
+    "en": "undermine",
+    "tr": "baltalamak, altını kazmak",
+    "def": "erode the base or foundation of (a rock formation).",
+    "pos": "verb"
+}, {
+    "en": "valueless",
+    "tr": "değersiz",
+    "def": "having no value; worthless.",
+    "pos": "adjective"
+}, {
+    "en": "neutral",
+    "tr": "nötr, tarafsız",
+    "def": "not helping or supporting either side in a conflict, disagreement, etc.; impartial.",
+    "pos": "adjective"
+}, {
+    "en": "rhythm",
+    "tr": "ritim",
+    "def": "a strong, regular, repeated pattern of movement or sound.",
+    "pos": "noun"
+}, {
+    "en": "weird",
+    "tr": "tuhaf, garip",
+    "def": "suggesting something supernatural; uncanny.",
+    "pos": "adjective"
+}, {
+    "en": "lend",
+    "tr": "ödünç vermek",
+    "def": "grant to (someone) the use of (something) on the understanding that it shall be returned.",
+    "pos": "verb"
+}, {
+    "en": "consciously",
+    "tr": "bilinçli olarak",
+    "def": "in a deliberate and intentional way.",
+    "pos": "adverb"
+}, {
+    "en": "affluent",
+    "tr": "varlıklı, refah içinde",
+    "def": "(especially of a group or area) having a great deal of money; wealthy.",
+    "pos": "adjective"
+}, {
+    "en": "heritage",
+    "tr": "miras",
+    "def": "property that is or may be inherited; an inheritance.",
+    "pos": "noun"
+}, {
+    "en": "withhold",
+    "tr": "alıkoymak, vermemek",
+    "def": "refuse to give (something that is due to or is desired by another).",
+    "pos": "verb"
+}, {
+    "en": "evacuate",
+    "tr": "tahliye etmek",
+    "def": "remove (someone) from a place of danger to a safer place.",
+    "pos": "verb"
+}, {
+    "en": "credulous",
+    "tr": "saf, her şeye inanan",
+    "def": "having or showing too great a readiness to believe things.",
+    "pos": "adjective"
 }]
