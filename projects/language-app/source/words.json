@@ -1861,4 +1861,49 @@
     "tr": "saf, her şeye inanan",
     "def": "having or showing too great a readiness to believe things.",
     "pos": "adjective"
+}, {
+    "en": "opportunity",
+    "tr": "fırsat",
+    "def": "a set of circumstances that makes it possible to do something.",
+    "pos": "noun"
+}, {
+    "en": "vocation",
+    "tr": "kabiliyet, meslek",
+    "def": "a strong feeling of suitability for a particular career or occupation.",
+    "pos": "noun"
+}, {
+    "en": "clout",
+    "tr": "güç, prestij, nüfuz",
+    "def": "a heavy blow with the hand or a hard object.",
+    "pos": "noun"
+}, {
+    "en": "elaborate",
+    "tr": "özenle hazılanmış",
+    "def": "involving many carefully arranged parts or details; detailed and complicated in design and planning.",
+    "pos": "adjective"
+}, {
+    "en": "deliberate",
+    "tr": "kasti, planlı",
+    "def": "done consciously and intentionally.",
+    "pos": "adjective"
+}, {
+    "en": "successive",
+    "tr": "ardışık",
+    "def": "following one another or following others.",
+    "pos": "adjective"
+}, {
+    "en": "eliminate",
+    "tr": "elemek",
+    "def": "completely remove or get rid of (something).",
+    "pos": "verb"
+}, {
+    "en": "formally",
+    "tr": "usulen, resmen",
+    "def": "in accordance with the rules of convention or etiquette.",
+    "pos": "adverb"
+}, {
+    "en": "momentary",
+    "tr": "çok az süren, anlık",
+    "def": "lasting for a very short time; brief.",
+    "pos": "adjective"
 }]
