@@ -399,7 +399,9 @@
     "tr": "inatçı"
 }, {
     "en": "brag",
-    "tr": "övünmek"
+    "tr": "övünmek",
+    "def": "say something in a boastful manner.",
+    "pos": "verb"
 }, {
     "en": "soil",
     "tr": "toprak",
@@ -627,7 +629,9 @@
     "img": "/assets/images/projects/language-app/classified.gif"
 }, {
     "en": "irrelevant",
-    "tr": "alakasız, konu dışı"
+    "tr": "alakasız, konu dışı",
+    "def": "not connected with or relevant to something.",
+    "pos": "adjective"
 }, {
     "en": "stimulation",
     "tr": "uyarım, stimülasyon",
@@ -1906,4 +1910,110 @@
     "tr": "çok az süren, anlık",
     "def": "lasting for a very short time; brief.",
     "pos": "adjective"
+}, {
+    "en": "absence",
+    "tr": "yokluk",
+    "def": "the state of being away from a place or person.",
+    "pos": "noun"
+}, {
+    "en": "stationary",
+    "tr": "hareketsiz",
+    "def": "not moving or not intended to be moved.",
+    "pos": "adjective"
+}, {
+    "en": "hospitality",
+    "tr": "misafirperverlik",
+    "def": "the friendly and generous reception and entertainment of guests, visitors, or strangers.",
+    "pos": "noun"
+}, {
+    "en": "intriguing",
+    "tr": "merak uyandıran",
+    "def": "arousing one's curiosity or interest; fascinating.",
+    "pos": "adjective"
+}, {
+    "en": "inherent",
+    "tr": "özünde olan",
+    "def": "existing in something as a permanent, essential, or characteristic attribute.",
+    "pos": "adjective"
+}, {
+    "en": "accommodate",
+    "tr": "kalacak yer vermek",
+    "def": "(of physical space, especially a building) provide lodging or sufficient space for.",
+    "pos": "verb"
+}, {
+    "en": "sew",
+    "tr": "dikmek",
+    "def": "join, fasten, or repair (something) by making stitches with a needle and thread or a sewing machine.",
+    "pos": "verb"
+}, {
+    "en": "intricate",
+    "tr": "karmakarmaşık",
+    "def": "very complicated or detailed.",
+    "pos": "adjective"
+}, {
+    "en": "leisure, spare time",
+    "tr": "boş vakit",
+    "def": "free time.",
+    "pos": "noun"
+}, {
+    "en": "idle",
+    "tr": "boşta",
+    "def": "(of a person) avoiding work; lazy.",
+    "pos": "adjective"
+}, {
+    "en": "appeal",
+    "tr": "cazibe",
+    "def": "the quality of being attractive or interesting.",
+    "pos": "noun"
+}, {
+    "en": "distribute",
+    "tr": "dağıtmak, pay etmek",
+    "def": "give shares of (something); deal out.",
+    "pos": "verb"
+}, {
+    "en": "alleviate",
+    "tr": "hafifletmek, kısmen gidermek",
+    "def": "make (suffering, deficiency, or a problem) less severe.",
+    "pos": "verb"
+}, {
+    "en": "boast",
+    "tr": "böbürlenmek",
+    "def": "talk with excessive pride and self-satisfaction about one's achievements, possessions, or abilities.",
+    "pos": "verb"
+}, {
+    "en": "maintenance",
+    "tr": "bakım",
+    "def": "the process of maintaining or preserving someone or something, or the state of being maintained.",
+    "pos": "noun"
+}, {
+    "en": "constant",
+    "tr": "sürekli, değişmez",
+    "def": "occurring continuously over a period of time.",
+    "pos": "adjective"
+}, {
+    "en": "boastful",
+    "tr": "övünen",
+    "def": "showing excessive pride and self-satisfaction in one's achievements, possessions, or abilities.",
+    "pos": "adjective"
+}, {
+    "en": "cottage",
+    "tr": "kır evi",
+    "img": "/assets/images/projects/language-app/cottage.jpg",
+    "def": "a small simple house, typically one near a lake or beach.",
+    "pos": "noun"
+}, {
+    "en": "receive",
+    "tr": "almak",
+    "def": "be given, presented with, or paid (something).",
+    "pos": "verb"
+}, {
+    "en": "thorough",
+    "tr": "kapsamlı",
+    "def": "complete with regard to every detail; not superficial or partial.",
+    "pos": "adjective"
+}, {
+    "en": "contemplate",
+    "tr": "düşünüp taşınmak",
+    "def": "look thoughtfully for a long time at.",
+    "pos": "verb"
 }]

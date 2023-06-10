@@ -128,7 +128,7 @@ function hideInfo(e) { e.nextElementSibling.firstElementChild.removeAttribute('s
 
 function handleAutoFill(key) {
     switch (key) {
-        case 'img': img = en.trim().replaceAll(' ', '_'); img_e.value = img; break;
+        case 'img': img = en.trim().replaceAll(' ', '_'); img_e.value = img; img_e.focus(); break;
         case 'def': handleTranslate('def'); break;
         case 'typ': handleTranslate('pos'); break;
     }
@@ -137,12 +137,12 @@ function handleAutoFill(key) {
 
 function handleDelete(key) {
     switch (key) {
-        case 'tr': tr_e.value = ''; tr = ''; hideInfo(tr_e); break;
-        case 'en': en_e.value = ''; en = ''; hideInfo(en_e); break;
-        case 'img': img_e.value = ''; img = ''; break;
-        case 'quo': quo_e.value = ''; quo = ''; break;
-        case 'def': def_e.value = ''; def = ''; break;
-        case 'typ': typ_e.value = ''; typ = ''; break;
+        case 'tr': tr_e.value = ''; tr = ''; hideInfo(tr_e); tr_e.focus(); break;
+        case 'en': en_e.value = ''; en = ''; hideInfo(en_e); en_e.focus(); break;
+        case 'img': img_e.value = ''; img = ''; img_e.focus(); break;
+        case 'quo': quo_e.value = ''; quo = ''; quo_e.focus(); break;
+        case 'def': def_e.value = ''; def = ''; def_e.focus(); break;
+        case 'typ': typ_e.value = ''; typ = ''; typ_e.focus(); break;
     }
     handleChange();
 }
@@ -157,6 +157,7 @@ function handleClear() {
     hideInfo(tr_e);
     hideInfo(en_e);
     handleChange();
+    en_e.focus();
 }
 
 document.getElementById('copy').addEventListener('click', e => {
