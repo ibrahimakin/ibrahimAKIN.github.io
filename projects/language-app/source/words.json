@@ -906,7 +906,9 @@
     "tr": "aldatıcı, düzenbaz"
 }, {
     "en": "ingenious",
-    "tr": "pratik zekalı, çok becerikli"
+    "tr": "pratik zekalı, çok becerikli",
+    "def": "(of a person) clever, original, and inventive.",
+    "pos": "adjective"
 }, {
     "en": "colloquial",
     "tr": "konuşma dili"
@@ -2016,4 +2018,94 @@
     "tr": "düşünüp taşınmak",
     "def": "look thoughtfully for a long time at.",
     "pos": "verb"
+}, {
+    "en": "relevant",
+    "tr": "ilgili",
+    "def": "closely connected or appropriate to what is being done or considered.",
+    "pos": "adjective"
+}, {
+    "en": "climate",
+    "tr": "iklim",
+    "def": "the weather conditions prevailing in an area in general or over a long period.",
+    "pos": "noun"
+}, {
+    "en": "abundant",
+    "tr": "bol, çok",
+    "def": "existing or available in large quantities; plentiful.",
+    "pos": "adjective"
+}, {
+    "en": "distinct",
+    "tr": "başka, farklı",
+    "def": "recognizably different in nature from something else of a similar type.",
+    "pos": "adjective"
+}, {
+    "en": "prescribe",
+    "tr": "reçete yazmak",
+    "def": "(of a medical practitioner) advise and authorize the use of (a medicine or treatment) for someone, especially in writing.",
+    "pos": "verb"
+}, {
+    "en": "redundant",
+    "tr": "gereksiz",
+    "def": "not or no longer needed or useful; superfluous.",
+    "pos": "adjective"
+}, {
+    "en": "district",
+    "tr": "semt",
+    "def": "an area of a country or city, especially one regarded as a distinct unit because of a particular characteristic.",
+    "pos": "noun"
+}, {
+    "en": "examine",
+    "tr": "sorgulamak, incelemek",
+    "def": "inspect (someone or something) in detail to determine their nature or condition; investigate thoroughly.",
+    "pos": "verb"
+}, {
+    "en": "conform",
+    "tr": "(topluma) uymak",
+    "def": "comply with rules, standards, or laws.",
+    "pos": "verb"
+}, {
+    "en": "scratch",
+    "tr": "kaşımak, kazımak",
+    "def": "score or mark the surface of (something) with a sharp or pointed object.",
+    "pos": "verb"
+}, {
+    "en": "cooperate",
+    "tr": "işbirliği yapmak",
+    "def": "work jointly toward the same end.",
+    "pos": "verb"
+}, {
+    "en": "corporate",
+    "tr": "kurumsal",
+    "def": "relating to a corporation, especially a large company or group.",
+    "pos": "adjective"
+}, {
+    "en": "release",
+    "tr": "serbest bırakmak",
+    "def": "allow or enable to escape from confinement; set free.",
+    "pos": "verb"
+}, {
+    "en": "entrepreneur",
+    "tr": "girişimci",
+    "def": "a person who organizes and operates a business or businesses, taking on greater than normal financial risks in order to do so.",
+    "pos": "noun"
+}, {
+    "en": "recommend",
+    "tr": "tavsiye etmek",
+    "def": "put forward (someone or something) with approval as being suitable for a particular purpose or role.",
+    "pos": "verb"
+}, {
+    "en": "apparently",
+    "tr": "görünüşe göre",
+    "def": "as far as one knows or can see.",
+    "pos": "adverb"
+}, {
+    "en": "glimpse",
+    "tr": "anlık bakış",
+    "def": "a momentary or partial view.",
+    "pos": "noun"
+}, {
+    "en": "captivity",
+    "tr": "tutsaklık",
+    "def": "the condition of being imprisoned or confined.",
+    "pos": "noun"
 }]
