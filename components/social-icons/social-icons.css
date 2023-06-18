@@ -183,22 +183,32 @@
 .menu:nth-child(3)>.icon::before {
   background-color: #b5d926;
 }
+.menu:nth-child(3)>.expand>div>.icon::before,
+.menu:nth-child(3)>.expand>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(1)>.icon::before,
 .menu:nth-child(3)>.expand>div:nth-child(1)>.filled {
   background-color: #d9aa26;
 }
+.menu:nth-child(3)>.expand>div>div>.icon::before,
+.menu:nth-child(3)>.expand>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(2)>.icon::before,
 .menu:nth-child(3)>.expand>div:nth-child(2)>.filled {
   background-color: #f94040;
 }
+.menu:nth-child(3)>.expand>div>div>div>.icon::before,
+.menu:nth-child(3)>.expand>div>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(3)>.icon::before,
 .menu:nth-child(3)>.expand>div:nth-child(3)>.filled {
   background-color: #ff7b0a;
 }
+.menu:nth-child(3)>.expand>div>div>div>div>.icon::before,
+.menu:nth-child(3)>.expand>div>div>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(4)>.icon::before,
 .menu:nth-child(3)>.expand>div:nth-child(4)>.filled {
   background-color: #26d94a;
 }
+.menu:nth-child(3)>.expand>div>div>div>div>div>.icon::before,
+.menu:nth-child(3)>.expand>div>div>div>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(5)>.icon::before,
 .menu:nth-child(3)>.expand>div:nth-child(5)>.filled {
   background-color: #39c5a4;
@@ -215,14 +225,20 @@
 .menu:nth-child(4)>.expand>div:nth-child(2)>.filled {
   background-color: #d9d326;
 }
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>.filled,
 .menu:nth-child(4)>.expand>div:nth-child(3)>.icon::before,
 .menu:nth-child(4)>.expand>div:nth-child(3)>.filled {
   background-color: #7c39ff;
 }
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>.filled,
 .menu:nth-child(4)>.expand>div:nth-child(4)>.icon::before,
 .menu:nth-child(4)>.expand>div:nth-child(4)>.filled {
   background-color: #d96e26;
 }
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>.filled,
 .menu:nth-child(4)>.expand>div:nth-child(5)>.icon::before,
 .menu:nth-child(4)>.expand>div:nth-child(5)>.filled {
   background-color: #ff3636;

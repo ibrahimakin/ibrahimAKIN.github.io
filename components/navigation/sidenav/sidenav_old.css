@@ -1,0 +1,152 @@
+:root {
+    --sidenav-width: 90px;
+}
+
+side-nav {
+    width: calc(var(--sidenav-width) * 3);
+    transition: width .1s linear;
+}
+
+side-nav.collapsed {
+    width: var(--sidenav-width);
+}
+
+#sidenav {
+    display: flex;
+    justify-content: center;
+    width: calc(var(--sidenav-width) * 3);
+    transition: width .1s linear;
+    position: fixed;
+    height: 100%;
+    z-index: 3;
+}
+
+side-nav.collapsed>#sidenav {
+    width: var(--sidenav-width);
+}
+
+#sidenav>.sub:first-child,
+#sidenav>.sub:last-child {
+    position: absolute;
+}
+
+#sidenav>.sub:first-child {
+    left: 0;
+}
+
+#sidenav>.sub:last-child {
+    right: 0;
+}
+
+.sub {
+    display: grid;
+    width: var(--sidenav-width);
+    transition: transform .1s linear;
+    grid-template-rows: repeat(8, 1fr);
+    height: 100%;
+}
+
+.sub>div, .expand>div {
+    padding: var(--nav-gap);
+}
+
+#sidenav .expand {
+    transition: left .1s linear, height 0s linear, opacity 0s linear;
+    transition-delay: 0s, .1s, .1s;
+}
+
+#sidenav .menu:hover>.expand {
+    transition-delay: 0s;
+    left: 100%;
+}
+
+#sidenav .main div>span {
+    overflow: hidden;
+    user-select: none;
+    position: absolute;
+    text-align: center;
+    pointer-events: none;
+    color: var(--nav-clr);
+    font-family: Times, serif;
+    bottom: var(--nav-gap);
+    width: calc(100% - 2 * var(--nav-gap));
+    transition: opacity .15s linear;
+    height: 20px;
+    z-index: 1;
+    opacity: 0;
+}
+
+#sidenav .main div:hover>span,
+#sidenav .pin-menu:checked~span {
+    opacity: 1;
+}
+
+#collapse {
+    opacity: 0;
+    position: absolute;
+    height: calc(100% - var(--nav-gap) * 2);
+    width: calc(100% - var(--nav-gap) * 2);
+    z-index: 2;
+}
+
+#collapse:checked+.back::before {
+    -webkit-mask-image: url('/assets/icons/navbar/forward.svg');
+    mask-image: url('/assets/icons/navbar/forward.svg');
+}
+
+.grid-3 {
+    grid-row: 3;
+}
+
+.grid-8 {
+    grid-row: 8;
+}
+
+.pin-menu {
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    top: 0;
+    /* add ::before pseude elements for Firefox Browsers */
+    -moz-appearance: initial;
+    appearance: initial;
+    z-index: 2;
+}
+
+.expand::before {
+    content: '';
+    display: none;
+    position: absolute;
+    background-color: var(--nav-clr);
+    -webkit-mask-image: url('/assets/icons/navbar/pin.svg');
+    mask-image: url('/assets/icons/navbar/pin.svg');
+    transform: rotateZ(-45deg);
+    margin: var(--nav-gap);
+    height: 20px;
+    width: 20px;
+    z-index: 2;
+}
+
+.expand.more {
+    top: calc(var(--extra) * -100%);
+    z-index: -1;
+}
+
+.pin-menu:checked~.expand {
+    height: 100%;
+    left: 100%;
+    opacity: 1;
+    z-index: 2;
+}
+
+.pin-menu:checked~.expand::before {
+    display: inline;
+}
+
+@media screen and (max-width: 750px) {
+    side-nav {
+        width: var(--sidenav-width);
+    }
+}
