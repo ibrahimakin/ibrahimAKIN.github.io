@@ -11,6 +11,9 @@ class Topnav extends HTMLElement {
                     <div onclick title="Projects" class="filled project icon" lang-tag="projects"></div>
                     <div class="expand">
                         <div>
+                            <a title="Language App" class="filled smile-n icon" href="/projects/language-app"></a>
+                        </div>
+                        <div>
                             <a title="Code Playground" class="filled code icon" href="/projects/code-playground"></a>
                         </div>
                         <div>
@@ -43,9 +46,6 @@ class Topnav extends HTMLElement {
                             <a title="Ping Pong" class="filled pong icon" href="/games/pong" lang-tag="pong"></a>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <a title="Language App" class="filled smile-n icon" href="/projects/language-app"></a>
                 </div>
                 <div>
                     <a title="Resume" class="filled resume icon" href="/resume" lang-tag="resume"></a>

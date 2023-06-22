@@ -13,6 +13,7 @@ body {
 
 #root>div {
     display: flex;
+    max-width: 1250px;
     flex-direction: column;
     margin: auto;
     width: 100%;

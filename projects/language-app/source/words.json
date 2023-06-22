@@ -2108,4 +2108,153 @@
     "tr": "tutsaklık",
     "def": "the condition of being imprisoned or confined.",
     "pos": "noun"
+}, {
+    "en": "punctuation",
+    "tr": "noktalama",
+    "def": "the marks, such as period, comma, and parentheses, used in writing to separate sentences and their elements and to clarify meaning.",
+    "pos": "noun"
+}, {
+    "en": "woodpecker",
+    "tr": "ağaçkakan",
+    "pos": "noun"
+}, {
+    "en": "truly",
+    "tr": "sahiden",
+    "def": "in a truthful way.",
+    "pos": "adverb"
+}, {
+    "en": "overlook",
+    "tr": "gözden kaçırmak",
+    "def": "fail to notice (something).",
+    "pos": "verb"
+}, {
+    "en": "neighbor",
+    "tr": "komşu",
+    "def": "a person living near or next door to the speaker or person referred to.",
+    "pos": "noun"
+}, {
+    "en": "neighborhood",
+    "tr": "mahalle",
+    "def": "a district, especially one forming a community within a town or city.",
+    "pos": "noun"
+}, {
+    "en": "committee",
+    "tr": "kurul, komite",
+    "def": "a group of people appointed for a specific function, typically consisting of members of a larger group.",
+    "pos": "noun"
+}, {
+    "en": "perseverance",
+    "tr": "sebat, azim",
+    "def": "persistence in doing something despite difficulty or delay in achieving success.",
+    "pos": "noun"
+}, {
+    "en": "cemetery",
+    "tr": "mezarlık",
+    "def": "a burial ground; a graveyard.",
+    "pos": "noun"
+}, {
+    "en": "basically",
+    "tr": "temelde, aslında",
+    "def": "in the most essential respects; fundamentally.",
+    "pos": "adverb"
+}, {
+    "en": "oppress",
+    "tr": "zulmetmek",
+    "def": "keep (someone) in subservience and hardship, especially by the unjust exercise of authority.",
+    "pos": "verb"
+}, {
+    "en": "decline",
+    "tr": "reddetmek, geri çevirmek",
+    "def": "politely refuse (an invitation or offer).",
+    "pos": "verb"
+}, {
+    "en": "grammar",
+    "tr": "dil bilgisi",
+    "def": "the whole system and structure of a language or of languages in general, usually taken as consisting of syntax and morphology (including inflections) and sometimes also phonology and semantics.",
+    "pos": "noun"
+}, {
+    "en": "embarrass",
+    "tr": "utandırmak, mahcup etmek",
+    "def": "cause (someone) to feel awkward, self-conscious, or ashamed.",
+    "pos": "verb"
+}, {
+    "en": "seize",
+    "tr": "ele geçirmek",
+    "def": "take hold of suddenly and forcibly.",
+    "pos": "verb"
+}, {
+    "en": "prison",
+    "tr": "hapishane",
+    "def": "a building in which people are legally held as a punishment for a crime they have committed or while awaiting trial.",
+    "pos": "noun"
+}, {
+    "en": "doubt",
+    "tr": "şüphe",
+    "def": "a feeling of uncertainty or lack of conviction.",
+    "pos": "noun"
+}, {
+    "en": "skeptical",
+    "tr": "şüpheci",
+    "def": "not easily convinced; having doubts or reservations.",
+    "pos": "adjective"
+}, {
+    "en": "curiosity",
+    "tr": "merak",
+    "def": "a strong desire to know or learn something.",
+    "pos": "noun"
+}, {
+    "en": "vicious",
+    "tr": "çok kötü, kötü niyetli",
+    "def": "deliberately cruel or violent.",
+    "pos": "adjective"
+}, {
+    "en": "occurrence",
+    "tr": "vuku, oluş, vaka",
+    "def": "an incident or event.",
+    "pos": "noun"
+}, {
+    "en": "disappear",
+    "tr": "ortadan kaybolmak",
+    "def": "cease to be visible.",
+    "pos": "verb"
+}, {
+    "en": "acknowledge",
+    "tr": "doğruluğunu kabul etmek",
+    "def": "accept or admit the existence or truth of.",
+    "pos": "verb"
+}, {
+    "en": "religion",
+    "tr": "din",
+    "def": "the belief in and worship of a superhuman controlling power, especially a personal God or gods.",
+    "pos": "noun"
+}, {
+    "en": "refugee",
+    "tr": "mülteci",
+    "def": "a person who has been forced to leave their country in order to escape war, persecution, or natural disaster.",
+    "pos": "noun"
+}, {
+    "en": "shelter",
+    "tr": "barınak",
+    "def": "a place giving temporary protection from bad weather or danger.",
+    "pos": "noun"
+}, {
+    "en": "quantity",
+    "tr": "miktar",
+    "def": "the amount or number of a material or immaterial thing not usually estimated by spatial measurement.",
+    "pos": "noun"
+}, {
+    "en": "appearance",
+    "tr": "görünüş",
+    "def": "the way that someone or something looks.",
+    "pos": "noun"
+}, {
+    "en": "fundamental",
+    "tr": "temel, esas",
+    "def": "forming a necessary base or core; of central importance.",
+    "pos": "adjective"
+}, {
+    "en": "consent",
+    "tr": "onay",
+    "def": "permission for something to happen or agreement to do something.",
+    "pos": "noun"
 }]
