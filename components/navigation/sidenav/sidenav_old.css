@@ -41,7 +41,6 @@ side-nav.collapsed>#sidenav {
 .sub {
     display: grid;
     width: var(--sidenav-width);
-    transition: transform .1s linear;
     grid-template-rows: repeat(8, 1fr);
     height: 100%;
 }

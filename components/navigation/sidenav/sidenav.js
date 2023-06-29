@@ -1,7 +1,4 @@
 class Sidenav extends HTMLElement {
-    handleExpand(e, pins) {
-        for (const pin of pins) if (e.target !== pin) pin.checked = false;
-    }
     connectedCallback() {
         const lang_support = typeof lang_obj === 'undefined' ? 'disabled' : '';
         this.innerHTML = `
@@ -90,8 +87,10 @@ class Sidenav extends HTMLElement {
                 </div>
             </div>
         `;
-        const pins = document.getElementsByClassName('pin-menu');
-        for (const pin of pins) pin.addEventListener('change', e => this.handleExpand(e, pins));
+        const pins = this.getElementsByClassName('pin-menu');
+        for (const pin of pins) pin.addEventListener('change', e => {
+            for (const p of pins) if (e.target !== p) p.checked = false;
+        });
     }
 }
 customElements.define('side-nav', Sidenav);

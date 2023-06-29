@@ -92,6 +92,9 @@
 .tic-tac-toe-img {
     background-image: url('/assets/images/games/tic-tac-toe.png');
 }
+.pong-img {
+    background-image: url('/assets/images/games/pong.png');
+}
 .english-img {
     background-image: url('/assets/images/projects/language-app.png');
 }
