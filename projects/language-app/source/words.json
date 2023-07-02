@@ -778,7 +778,9 @@
     "tr": "uyarmak, canlandırmak"
 }, {
     "en": "conceited",
-    "tr": "burnu havada, kendini beğenmiş"
+    "tr": "burnu havada, kendini beğenmiş",
+    "def": "excessively proud of oneself; vain.",
+    "pos": "adjective"
 }, {
     "en": "arrogant",
     "tr": "kibirli"
@@ -2257,4 +2259,255 @@
     "tr": "onay",
     "def": "permission for something to happen or agreement to do something.",
     "pos": "noun"
+}, {
+    "en": "conscience",
+    "tr": "vicdan",
+    "def": "an inner feeling or voice viewed as acting as a guide to the rightness or wrongness of one's behavior.",
+    "pos": "noun"
+}, {
+    "en": "pensive",
+    "tr": "dalgın, düşünceli",
+    "def": "engaged in, involving, or reflecting deep or serious thought.",
+    "pos": "adjective"
+}, {
+    "en": "intact",
+    "tr": "bozulmamış, el değmemiş",
+    "def": "not damaged or impaired in any way; complete.",
+    "pos": "adjective"
+}, {
+    "en": "impending",
+    "tr": "eli kulağında, olmak üzere",
+    "def": "(of an event regarded as threatening or significant) about to happen; forthcoming.",
+    "pos": "adjective"
+}, {
+    "en": "terrain",
+    "tr": "arazi",
+    "def": "a stretch of land, especially with regard to its physical features.",
+    "pos": "noun"
+}, {
+    "en": "translucent",
+    "tr": "yarı saydam",
+    "def": "(of a substance) allowing light, but not detailed shapes, to pass through; semitransparent.",
+    "pos": "adjective"
+}, {
+    "en": "extinct",
+    "tr": "soyu tükenmiş",
+    "def": "(of a species, family, or other group of animals or plants) having no living members; no longer in existence.",
+    "pos": "adjective"
+}, {
+    "en": "interfere",
+    "tr": "müdahale etmek",
+    "def": "take part or intervene in an activity without invitation or necessity.",
+    "pos": "verb"
+}, {
+    "en": "sufficient",
+    "tr": "yeterli",
+    "def": "enough; adequate.",
+    "pos": "adjective"
+}, {
+    "en": "resident",
+    "tr": "ikamet eden kişi",
+    "def": "a person who lives somewhere permanently or on a long-term basis.",
+    "pos": "noun"
+}, {
+    "en": "contribute",
+    "tr": "katkı yapmak",
+    "def": "give (something, especially money) in order to help achieve or provide something.",
+    "pos": "verb"
+}, {
+    "en": "plead",
+    "tr": "istirham etmek",
+    "def": "make an emotional appeal.",
+    "pos": "verb"
+}, {
+    "en": "accurate",
+    "tr": "doğru, kesin",
+    "def": "(of information, measurements, statistics, etc.) correct in all details; exact.",
+    "pos": "adjective"
+}, {
+    "en": "implore",
+    "tr": "yalvarmak",
+    "def": "beg someone earnestly or desperately to do something.",
+    "pos": "verb"
+}, {
+    "en": "prosperous",
+    "tr": "ongun, zengin",
+    "def": "successful in material terms; flourishing financially.",
+    "pos": "adjective"
+}, {
+    "en": "rural",
+    "tr": "kırsal",
+    "def": "in, relating to, or characteristic of the countryside rather than the town.",
+    "pos": "adjective"
+}, {
+    "en": "provoke",
+    "tr": "provoke etmek, kışkırtmak",
+    "def": "stimulate or give rise to (a reaction or emotion, typically a strong or unwelcome one) in someone.",
+    "pos": "verb"
+}, {
+    "en": "eloquent",
+    "tr": "güzel konuşan",
+    "def": "fluent or persuasive in speaking or writing.",
+    "pos": "adjective"
+}, {
+    "en": "vulnerable",
+    "tr": "hassas, savunmasız",
+    "def": "susceptible to physical or emotional attack or harm.",
+    "pos": "adjective"
+}, {
+    "en": "outrageous",
+    "tr": "acayip, aşırı",
+    "def": "shockingly bad or excessive.",
+    "pos": "adjective"
+}, {
+    "en": "anniversary",
+    "tr": "yıl dönümü",
+    "def": "the date on which an event took place in a previous year.",
+    "pos": "noun"
+}, {
+    "en": "scissors",
+    "tr": "makas",
+    "img": "/assets/images/projects/language-app/scissors.jpg",
+    "def": "an instrument used for cutting cloth, paper, and other thin material, consisting of two blades laid one on top of the other and fastened in the middle so as to allow them to be opened and closed by a thumb and finger inserted through rings on the end of their handles.",
+    "pos": "noun"
+}, {
+    "en": "frank",
+    "tr": "açık sözlü",
+    "def": "open, honest, and direct in speech or writing, especially when dealing with unpalatable matters.",
+    "pos": "adjective"
+}, {
+    "en": "satisfactory",
+    "tr": "tatmin edici",
+    "def": "fulfilling expectations or needs; acceptable, though not outstanding or perfect.",
+    "pos": "adjective"
+}, {
+    "en": "sovereignty",
+    "tr": "egemenlik",
+    "def": "supreme power or authority.",
+    "pos": "noun"
+}, {
+    "en": "fortunate",
+    "tr": "şanslı, kısmeti açık",
+    "def": "favored by or involving good luck or fortune; lucky.",
+    "pos": "adjective"
+}, {
+    "en": "subsequent",
+    "tr": "sonraki, müteakip",
+    "def": "coming after something in time; following.",
+    "pos": "adjective"
+}, {
+    "en": "solidarity",
+    "tr": "dayanışma",
+    "def": "unity or agreement of feeling or action, especially among individuals with a common interest; mutual support within a group.",
+    "pos": "noun"
+}, {
+    "en": "attribute",
+    "tr": "dayandırmak, yormak",
+    "def": "regard something as being caused by (someone or something).",
+    "pos": "verb"
+}, {
+    "en": "dreadful",
+    "tr": "ürkünç, rezalet",
+    "def": "causing or involving great suffering, fear, or unhappiness; extremely bad or serious.",
+    "pos": "adjective"
+}, {
+    "en": "imperative",
+    "tr": "mecburi, zorunlu",
+    "def": "of vital importance; crucial.",
+    "pos": "adjective"
+}, {
+    "en": "instruction",
+    "tr": "talimat",
+    "def": "a direction or order.",
+    "pos": "noun"
+}, {
+    "en": "precede",
+    "tr": "önce olmak",
+    "def": "come before (something) in time.",
+    "pos": "verb"
+}, {
+    "en": "scorching",
+    "tr": "kavurucu",
+    "def": "very hot.",
+    "pos": "adjective"
+}, {
+    "en": "desolate",
+    "tr": "ıssız, tenha",
+    "def": "(of a place) deserted of people and in a state of bleak and dismal emptiness.",
+    "pos": "adjective"
+}, {
+    "en": "hilarious",
+    "tr": "gülünç, komik",
+    "def": "extremely amusing.",
+    "pos": "adjective"
+}, {
+    "en": "candidate",
+    "tr": "aday, üye",
+    "def": "a person who applies for a job or is nominated for election.",
+    "pos": "noun"
+}, {
+    "en": "engage",
+    "tr": "kişinin bir şeyle ilgilenmesini sağlamak",
+    "def": "occupy, attract, or involve (someone's interest or attention).",
+    "pos": "verb"
+}, {
+    "en": "proceed",
+    "tr": "ilerlemek, devam etmek",
+    "def": "begin or continue a course of action.",
+    "pos": "verb"
+}, {
+    "en": "unprecedented",
+    "tr": "benzeri görülmemiş",
+    "def": "never done or known before.",
+    "pos": "adjective"
+}, {
+    "en": "expenditure",
+    "tr": "masraf, gider",
+    "def": "the action of spending funds.",
+    "pos": "noun"
+}, {
+    "en": "portable",
+    "tr": "taşınabilir",
+    "def": "able to be easily carried or moved, especially because being of a lighter and smaller version than usual.",
+    "pos": "adjective"
+}, {
+    "en": "adolescent",
+    "tr": "ergen",
+    "def": "(of a young person) in the process of developing from a child into an adult.",
+    "pos": "adjective"
+}, {
+    "en": "breezy",
+    "tr": "esintili",
+    "def": "pleasantly windy.",
+    "pos": "adjective"
+}, {
+    "en": "carnivore",
+    "tr": "etobur",
+    "def": "an animal that feeds on flesh.",
+    "pos": "noun"
+}, {
+    "en": "herbivorous",
+    "tr": "otçul",
+    "def": "(of an animal) feeding on plants.",
+    "pos": "adjective"
+}, {
+    "en": "omnivore",
+    "tr": "hepçil",
+    "def": "an animal or person that eats food of both plant and animal origin.",
+    "pos": "noun"
+}, {
+    "en": "lethal",
+    "tr": "öldürücü",
+    "def": "sufficient to cause death.",
+    "pos": "adjective"
+}, {
+    "en": "establishment",
+    "tr": "kuruluş, kurum",
+    "def": "the action of establishing something or being established.",
+    "pos": "noun"
+}, {
+    "en": "benevolent",
+    "tr": "hayırsever",
+    "def": "well meaning and kindly.",
+    "pos": "adjective"
 }]

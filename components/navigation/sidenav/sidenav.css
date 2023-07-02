@@ -9,8 +9,6 @@ side-nav {
 #sidenav {
     display: flex;
     justify-content: center;
-    width: var(--sidenav-width);
-    transition: width .1s linear;
     align-items: center;
     position: fixed;
     height: 100%;
@@ -21,7 +19,6 @@ side-nav {
     display: grid;
     max-height: 630px;
     width: var(--sidenav-width);
-    transition: transform .1s linear;
     grid-template-rows: repeat(7, 1fr);
     height: 100%;
 }
