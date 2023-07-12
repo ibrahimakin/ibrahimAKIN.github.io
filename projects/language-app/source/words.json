@@ -124,10 +124,14 @@
     "tr": "bilinçaltı"
 }, {
     "en": "colossal",
-    "tr": "devasa"
+    "tr": "devasa",
+    "def": "extremely large.",
+    "pos": "adjective"
 }, {
     "en": "tedious",
-    "tr": "sıkıcı"
+    "tr": "sıkıcı",
+    "def": "too long, slow, or dull; tiresome or monotonous.",
+    "pos": "adjective"
 }, {
     "en": "obnoxious",
     "tr": "iğrenç"
@@ -1652,6 +1656,11 @@
     "def": "give special importance or prominence to (something) in speaking or writing.",
     "pos": "verb"
 }, {
+    "en": "excess",
+    "tr": "fazlalık, aşırılık",
+    "def": "an amount of something that is more than necessary, permitted, or desirable.",
+    "pos": "noun"
+}, {
     "en": "excessive",
     "tr": "haddinden fazle, aşırı",
     "def": "more than is necessary, normal, or desirable; immoderate.",
@@ -1904,6 +1913,11 @@
     "tr": "elemek",
     "def": "completely remove or get rid of (something).",
     "pos": "verb"
+}, {
+    "en": "formal",
+    "tr": "resmi",
+    "def": "done in accordance with rules of convention or etiquette; suitable for or constituting an official or important situation or occasion.",
+    "pos": "adjective"
 }, {
     "en": "formally",
     "tr": "usulen, resmen",
@@ -2510,4 +2524,308 @@
     "tr": "hayırsever",
     "def": "well meaning and kindly.",
     "pos": "adjective"
+}, {
+    "en": "catchy",
+    "tr": "akılda kalıcı",
+    "def": "(of a tune or phrase) instantly appealing and memorable.",
+    "pos": "adjective"
+}, {
+    "en": "dividend",
+    "tr": "kâr payı",
+    "def": "a sum of money paid regularly (typically quarterly) by a company to its shareholders out of its profits (or reserves).",
+    "pos": "noun"
+}, {
+    "en": "agility",
+    "tr": "çeviklik",
+    "def": "ability to move quickly and easily.",
+    "pos": "noun"
+}, {
+    "en": "condone",
+    "tr": "göz yummak",
+    "def": "accept and allow (behavior that is considered morally wrong or offensive) to continue.",
+    "pos": "verb"
+}, {
+    "en": "declare",
+    "tr": "beyan etmek",
+    "def": "say something in a solemn and emphatic manner.",
+    "pos": "verb"
+}, {
+    "en": "premonition",
+    "tr": "önsezi",
+    "def": "a strong feeling that something is about to happen, especially something unpleasant.",
+    "pos": "noun"
+}, {
+    "en": "to zone out",
+    "tr": "dalıp gitmek",
+    "pos": "verb"
+}, {
+    "en": "hasten",
+    "tr": "acele etmek",
+    "def": "be quick to do something.",
+    "pos": "verb"
+}, {
+    "en": "improbable",
+    "tr": "olasılık dışı",
+    "def": "not likely to be true or to happen.",
+    "pos": "adjective"
+}, {
+    "en": "consistent",
+    "tr": "tutarlı",
+    "def": "acting or done in the same way over time, especially so as to be fair or accurate.",
+    "pos": "adjective"
+}, {
+    "en": "somber",
+    "tr": "kasvetli",
+    "def": "dark or dull in color or tone; gloomy.",
+    "pos": "adjective"
+}, {
+    "en": "consensus",
+    "tr": "fikir birliği",
+    "def": "a general agreement.",
+    "pos": "noun"
+}, {
+    "en": "retain",
+    "tr": "sürdürmek",
+    "def": "continue to have (something); keep possession of.",
+    "pos": "verb"
+}, {
+    "en": "cease",
+    "tr": "son vermek",
+    "def": "bring or come to an end.",
+    "pos": "verb"
+}, {
+    "en": "deviation",
+    "tr": "sapma",
+    "def": "the action of departing from an established course or accepted standard.",
+    "pos": "noun"
+}, {
+    "en": "conventional",
+    "tr": "geleneksel, basmakalıp",
+    "def": "based on or in accordance with what is generally done or believed.",
+    "pos": "adjective"
+}, {
+    "en": "tyrannical",
+    "tr": "acımasız, gaddarca",
+    "def": "exercising power in a cruel or arbitrary way.",
+    "pos": "adjective"
+}, {
+    "en": "phenomenon",
+    "tr": "fenomen, olgu",
+    "def": "a fact or situation that is observed to exist or happen, especially one whose cause or explanation is in question.",
+    "pos": "noun"
+}, {
+    "en": "versatile",
+    "tr": "çok yönlü",
+    "def": "able to adapt or be adapted to many different functions or activities.",
+    "pos": "adjective"
+}, {
+    "en": "sulk",
+    "tr": "somurtmak",
+    "def": "be silent, morose, and bad-tempered out of annoyance or disappointment.",
+    "pos": "verb"
+}, {
+    "en": "omit",
+    "tr": "dahil etmemek",
+    "def": "leave out or exclude (someone or something), either intentionally or forgetfully.",
+    "pos": "verb"
+}, {
+    "en": "sanction",
+    "tr": "yaptırım",
+    "def": "a threatened penalty for disobeying a law or rule.",
+    "pos": "noun"
+}, {
+    "en": "scrumptious",
+    "tr": "lezzetli",
+    "def": "(of food) extremely tasty; delicious.",
+    "pos": "adjective"
+}, {
+    "en": "undergraduate",
+    "tr": "lisans öğrencisi",
+    "def": "a student at a college or university who has not yet earned a bachelor's or equivalent degree.",
+    "pos": "noun"
+}, {
+    "en": "hierarchy",
+    "tr": "hiyerarşi",
+    "def": "a system or organization in which people or groups are ranked one above the other according to status or authority.",
+    "pos": "noun"
+}, {
+    "en": "chilly",
+    "tr": "soğuk, serin",
+    "def": "uncomfortably cool or cold.",
+    "pos": "adjective"
+}, {
+    "en": "accreditation",
+    "tr": "akreditasyon",
+    "def": "the action or process of officially recognizing someone as having a particular status or being qualified to perform a particular activity.",
+    "pos": "noun"
+}, {
+    "en": "rare",
+    "tr": "nadir",
+    "def": "(of an event, situation, or condition) not occurring very often.",
+    "pos": "adjective"
+}, {
+    "en": "luminous",
+    "tr": "aydınlık, fosforlu",
+    "def": "full of or shedding light; bright or shining, especially in the dark.",
+    "pos": "adjective"
+}, {
+    "en": "eccentric",
+    "tr": "eksantrik",
+    "def": "(of a person or their behavior) unconventional and slightly strange.",
+    "pos": "adjective"
+}, {
+    "en": "imposing",
+    "tr": "heybetli",
+    "def": "grand and impressive in appearance.",
+    "pos": "adjective"
+}, {
+    "en": "tranquil",
+    "tr": "sükunetli, huzur dolu",
+    "def": "free from disturbance; calm.",
+    "pos": "adjective"
+}, {
+    "en": "sullen",
+    "tr": "somurtkan, suratsız",
+    "def": "bad-tempered and sulky; gloomy.",
+    "pos": "adjective"
+}, {
+    "en": "portray",
+    "tr": "tasvir etmek",
+    "def": "depict (someone or something) in a work of art or literature.",
+    "pos": "verb"
+}, {
+    "en": "noteworthy",
+    "tr": "kayda değer",
+    "def": "interesting, significant, or unusual.",
+    "pos": "adjective"
+}, {
+    "en": "cautious",
+    "tr": "ihtiyatlı, tedbirli",
+    "def": "(of a person) careful to avoid potential problems or dangers.",
+    "pos": "adjective"
+}, {
+    "en": "enormous",
+    "tr": "kocaman",
+    "def": "very large in size, quantity, or extent.",
+    "pos": "adjective"
+}, {
+    "en": "frequent",
+    "tr": "sık",
+    "def": "occurring or done on many occasions, in many cases, or in quick succession.",
+    "pos": "adjective"
+}, {
+    "en": "industrious",
+    "tr": "çalışkan",
+    "def": "diligent and hard-working.",
+    "pos": "adjective"
+}, {
+    "en": "lean",
+    "tr": "yağsız",
+    "def": "(of a person or animal) thin, especially healthily so; having no superfluous fat.",
+    "pos": "adjective"
+}, {
+    "en": "brief",
+    "tr": "kısa bilgi",
+    "def": "of short duration.",
+    "pos": "adjective"
+}, {
+    "en": "bold",
+    "tr": "gözü pek",
+    "def": "(of a person, action, or idea) showing an ability to take risks; confident and courageous.",
+    "pos": "adjective"
+}, {
+    "en": "accept",
+    "tr": "kabul etmek",
+    "def": "consent to receive (a thing offered).",
+    "pos": "verb"
+}, {
+    "en": "trivial",
+    "tr": "ıvır zıvır, önemsiz",
+    "def": "of little value or importance.",
+    "pos": "adjective"
+}, {
+    "en": "reluctant",
+    "tr": "gönülsüz",
+    "def": "unwilling and hesitant; disinclined.",
+    "pos": "adjective"
+}, {
+    "en": "pungent",
+    "tr": "keskin kokulu",
+    "def": "having a sharply strong taste or smell.",
+    "pos": "adjective"
+}, {
+    "en": "scarce",
+    "tr": "kıt, seyrek",
+    "def": "(especially of food, money, or some other resource) insufficient for the demand.",
+    "pos": "adjective"
+}, {
+    "en": "ample",
+    "tr": "bol",
+    "def": "enough or more than enough; plentiful.",
+    "pos": "adjective"
+}, {
+    "en": "drought",
+    "tr": "kuraklık",
+    "def": "a prolonged period of abnormally low rainfall, leading to a shortage of water.",
+    "pos": "noun"
+}, {
+    "en": "humane",
+    "tr": "insancıl",
+    "def": "having or showing compassion or benevolence.",
+    "pos": "adjective"
+}, {
+    "en": "despise",
+    "tr": "hor görmek",
+    "def": "feel contempt or a deep repugnance for.",
+    "pos": "verb"
+}, {
+    "en": "deficient",
+    "tr": "yetersiz",
+    "def": "not having enough of a specified quality or ingredient.",
+    "pos": "adjective"
+}, {
+    "en": "fatigue",
+    "tr": "tükenmişlik",
+    "def": "extreme tiredness resulting from mental or physical exertion or illness.",
+    "pos": "noun"
+}, {
+    "en": "uneasy",
+    "tr": "huzursuz, tedirgin",
+    "def": "causing or feeling anxiety; troubled or uncomfortable.",
+    "pos": "adjective"
+}, {
+    "en": "vibrant",
+    "tr": "canlı",
+    "def": "full of energy and enthusiasm.",
+    "pos": "adjective"
+}, {
+    "en": "countenance",
+    "tr": "yüz, çehre",
+    "def": "a person's face or facial expression.",
+    "pos": "noun"
+}, {
+    "en": "fraudulent",
+    "tr": "hileli, dolandırıcı",
+    "def": "obtained, done by, or involving deception, especially criminal deception.",
+    "pos": "adjective"
+}, {
+    "en": "procrastinate",
+    "tr": "ertelemek",
+    "def": "delay or postpone action; put off doing something.",
+    "pos": "verb"
+}, {
+    "en": "precarious",
+    "tr": "tehlikeli",
+    "def": "not securely held or in position; dangerously likely to fall or collapse.",
+    "pos": "adjective"
+}, {
+    "en": "villainous",
+    "tr": "rezil, iğrenç",
+    "def": "relating to, constituting, or guilty of wicked or criminal behavior.",
+    "pos": "adjective"
+}, {
+    "en": "metabolism",
+    "tr": "metabolizma",
+    "def": "the chemical processes that occur within a living organism in order to maintain life.",
+    "pos": "noun"
 }]
