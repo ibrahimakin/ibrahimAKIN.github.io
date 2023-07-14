@@ -143,7 +143,9 @@
     "tr": "son derece aç"
 }, {
     "en": "appetite",
-    "tr": "iştah"
+    "tr": "iştah",
+    "def": "a natural desire to satisfy a bodily need, especially for food.",
+    "pos": "noun"
 }, {
     "en": "to dedicate",
     "tr": "adamak"
@@ -2828,4 +2830,59 @@
     "tr": "metabolizma",
     "def": "the chemical processes that occur within a living organism in order to maintain life.",
     "pos": "noun"
+}, {
+    "en": "vicinity",
+    "tr": "yakın yer, civar",
+    "def": "the area near or surrounding a particular place.",
+    "pos": "noun"
+}, {
+    "en": "aspiration",
+    "tr": "arzu, istek",
+    "def": "a hope or ambition of achieving something.",
+    "pos": "noun"
+}, {
+    "en": "viable",
+    "tr": "uygulanabilir",
+    "def": "capable of working successfully; feasible.",
+    "pos": "adjective"
+}, {
+    "en": "sanitary",
+    "tr": "sıhhi, temiz",
+    "def": "relating to the conditions that affect hygiene and health, especially the supply of sewage facilities and clean drinking water.",
+    "pos": "adjective"
+}, {
+    "en": "nimble",
+    "tr": "çevik, tez",
+    "def": "quick and light in movement or action; agile.",
+    "pos": "adjective"
+}, {
+    "en": "wholesome",
+    "tr": "sağlığa yararlı",
+    "def": "conducive to or suggestive of good health and physical well-being.",
+    "pos": "adjective"
+}, {
+    "en": "culinary",
+    "tr": "yemek pişirme ile ilgili",
+    "def": "of or for cooking.",
+    "pos": "adjective"
+}, {
+    "en": "speculate",
+    "tr": "spekülasyon yapmak",
+    "def": "form a theory or conjecture about a subject without firm evidence.",
+    "pos": "verb"
+}, {
+    "en": "insipid",
+    "tr": "tatsız, yavan",
+    "def": "lacking flavor.",
+    "pos": "adjective"
+}, {
+    "en": "indigenous",
+    "tr": "yerli",
+    "def": "originating or occurring naturally in a particular place; native.",
+    "pos": "adjective"
+}, {
+    "en": "arbitrary",
+    "tr": "keyfi",
+    "def": "based on random choice or personal whim, rather than any reason or system.",
+    "pos": "adjective"
 }]
