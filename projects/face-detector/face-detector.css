@@ -1,14 +1,26 @@
-#face-detector {
+top-nav, side-nav {
+    height: 0;
+    width: 0;
+}
+
+#root {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-top-nav, side-nav, side-nav.collapsed {
-    height: 0;
-    width: 0;
+#root>div {
+    position: relative;
+}
+
+video {
+    max-width: 800px;
+    width: 100%;
 }
 
 canvas {
     position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
 }
