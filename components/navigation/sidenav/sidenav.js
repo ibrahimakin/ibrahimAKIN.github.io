@@ -88,9 +88,13 @@ class Sidenav extends HTMLElement {
             </div>
         `;
         const pins = this.getElementsByClassName('pin-menu');
-        for (const pin of pins) pin.addEventListener('change', e => {
-            for (const p of pins) if (e.target !== p) p.checked = false;
-        });
+        for (const pin of pins) {
+            pin.addEventListener('touchstart', () => this.touch = true);
+            pin.addEventListener('change', e => {
+                for (const p of pins) if (this.touch || e.target !== p) p.checked = false;
+                delete this.touch;
+            });
+        }
     }
 }
 customElements.define('side-nav', Sidenav);

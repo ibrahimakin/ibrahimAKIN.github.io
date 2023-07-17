@@ -25,143 +25,141 @@
     <side-nav></side-nav>
     <div id="root">
         <div>
-            <div>
-                <table id="lcd">
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <th>LCD</th>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>16</td>
-                        <td>8</td>
-                        <td>4</td>
-                        <td>2</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td id="1">0</td>
-                        <td><button class="btn-b" id="1_16" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="1_8" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="1_4" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="1_2" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="1_1" onclick="onClick(this)"></button></td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td id="2">0</td>
-                        <td><button class="btn-b" id="2_16" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="2_8" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="2_4" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="2_2" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="2_1" onclick="onClick(this)"></button></td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <td id="3">0</td>
-                        <td><button class="btn-b" id="3_16" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="3_8" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="3_4" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="3_2" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="3_1" onclick="onClick(this)"></button></td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td id="4">0</td>
-                        <td><button class="btn-b" id="4_16" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="4_8" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="4_4" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="4_2" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="4_1" onclick="onClick(this)"></button></td>
-                        <td>4</td>
-                    </tr>
-                    <tr>
-                        <td id="5">0</td>
-                        <td><button class="btn-b" id="5_16" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="5_8" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="5_4" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="5_2" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="5_1" onclick="onClick(this)"></button></td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td id="6">0</td>
-                        <td><button class="btn-b" id="6_16" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="6_8" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="6_4" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="6_2" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="6_1" onclick="onClick(this)"></button></td>
-                        <td>6</td>
-                    </tr>
-                    <tr>
-                        <td id="7">0</td>
-                        <td><button class="btn-b" id="7_16" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="7_8" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="7_4" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="7_2" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="7_1" onclick="onClick(this)"></button></td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td id="8">0</td>
-                        <td><button class="btn-b" id="8_16" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="8_8" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="8_4" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="8_2" onclick="onClick(this)"></button></td>
-                        <td><button class="btn-b" id="8_1" onclick="onClick(this)"></button></td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td colspan="7"><br />LCDOUT $fe, $40, <label id="11">0</label>, <label id="22">0</label>, <label id="33">0</label>, <label id="44">0</label>, <label id="55">0</label>, <label id="66">0</label>, <label id="77">0</label>, <label id="88">0</label></td>
-                    </tr>
-                    <tr>
-                        <td colspan="3"><br /><button lang-tag="clear" onclick="onClear()">Clear</button></td>
-                    </tr>
-                </table>
-                <table>
+            <table id="lcd">
+                <tr>
                     <td></td>
-                    <th>Display</th>
-                    <tr>
-                        <td></td>
-                        <td><button class="btn-h" name="na" id="ina" value="1" onclick="onClick(this,true)">a</button></td>
-                    </tr>
-                    <tr>
-                        <td><button class="btn-v" name="f" id="if" value="32" onclick="onClick(this,true)">f</button></td>
-                        <td></td>
-                        <td><button class="btn-v" name="b" id="ib" value="2" onclick="onClick(this,true)">b</button></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><button class="btn-h" name="g" id="ig" value="64" onclick="onClick(this,true)">g</button></td>
-                    </tr>
-                    <tr>
-                        <td><button class="btn-v" name="e" id="ie" value="16" onclick="onClick(this,true)">e</button></td>
-                        <td></td>
-                        <td><button class="btn-v" name="c" id="ic" value="4" onclick="onClick(this,true)">c</button></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><button class="btn-h" name="d" id="id" value="8" onclick="onClick(this,true)">d</button></td>
-                        <td></td>
-                        <td><button title="dot point" name="dp" id="idp" value="128" onclick="onClick(this,true)">dp</button></td>
-                    </tr>
-                    <tr>
-                        <td colspan="3"><br />% <label id="dp">0</label> <label id="g">0</label> <label id="f">0</label> <label id="e">0</label> <label id="d">0</label> <label id="c">0</label> <label id="b">0</label> <label id="na">0</label> = <label id="dr">0</label></td>
-                    </tr>
-                    <tr>
-                        <td colspan="3"><br /><button lang-tag="clear" onclick="onClear(true)">Clear</button></td>
-                    </tr>
-                </table>
-            </div>
-            <div>
-                <a class="link" href="https://github.com/ibrahimAKIN" target="_blank">github.com/ibrahimAKIN</a>
-                <a class="link-img" title="Google Play" href="https://play.google.com/store/apps/details?id=com.iAKIN.lcdcharactergenerator" target="_blank"></a>
-                <a class="link-img" title="Huawei AppGallery" href="https://appgallery.huawei.com/#/app/C104418477" target="_blank"></a>
-                <a class="link-img" title="Xiaomi GetApps" href="https://global.app.mi.com/details?id=com.iAKIN.lcdcharactergenerator" target="_blank"></a>
-                <a class="link" href="privacy-policy" lang-tag="privacy">Privacy Policy</a>
-            </div>
+                    <td></td>
+                    <td></td>
+                    <th>LCD</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>16</td>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td id="1">0</td>
+                    <td><button onclick="onClick(this)" aria-label="1x16"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="1x8"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="1x4"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="1x2"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="1x1"></button></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td id="2">0</td>
+                    <td><button onclick="onClick(this)" aria-label="2x16"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="2x8"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="2x4"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="2x2"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="2x1"></button></td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td id="3">0</td>
+                    <td><button onclick="onClick(this)" aria-label="3x16"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="3x8"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="3x4"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="3x2"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="3x1"></button></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td id="4">0</td>
+                    <td><button onclick="onClick(this)" aria-label="4x16"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="4x8"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="4x4"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="4x2"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="4x1"></button></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td id="5">0</td>
+                    <td><button onclick="onClick(this)" aria-label="5x16"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="5x8"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="5x4"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="5x2"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="5x1"></button></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td id="6">0</td>
+                    <td><button onclick="onClick(this)" aria-label="6x16"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="6x8"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="6x4"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="6x2"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="6x1"></button></td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td id="7">0</td>
+                    <td><button onclick="onClick(this)" aria-label="7x16"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="7x8"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="7x4"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="7x2"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="7x1"></button></td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td id="8">0</td>
+                    <td><button onclick="onClick(this)" aria-label="8x16"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="8x8"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="8x4"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="8x2"></button></td>
+                    <td><button onclick="onClick(this)" aria-label="8x1"></button></td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td colspan="7"><br />LCDOUT $fe, $40, <label id="11">0</label>, <label id="22">0</label>, <label id="33">0</label>, <label id="44">0</label>, <label id="55">0</label>, <label id="66">0</label>, <label id="77">0</label>, <label id="88">0</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><br /><button lang-tag="clear" onclick="onClear()">Clear</button></td>
+                </tr>
+            </table>
+            <table>
+                <td></td>
+                <th>Display</th>
+                <tr>
+                    <td></td>
+                    <td><button onclick="onClick(this,true)" class="btn-h" name="na" id="ina" value="1">a</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="onClick(this,true)" class="btn-v" name="f" id="if" value="32">f</button></td>
+                    <td></td>
+                    <td><button onclick="onClick(this,true)" class="btn-v" name="b" id="ib" value="2">b</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button onclick="onClick(this,true)" class="btn-h" name="g" id="ig" value="64">g</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="onClick(this,true)" class="btn-v" name="e" id="ie" value="16">e</button></td>
+                    <td></td>
+                    <td><button onclick="onClick(this,true)" class="btn-v" name="c" id="ic" value="4">c</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button onclick="onClick(this,true)" class="btn-h" name="d" id="id" value="8">d</button></td>
+                    <td></td>
+                    <td><button onclick="onClick(this,true)" title="dot point" name="dp" id="idp" value="128">dp</button></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><br />% <label id="dp">0</label> <label id="g">0</label> <label id="f">0</label> <label id="e">0</label> <label id="d">0</label> <label id="c">0</label> <label id="b">0</label> <label id="na">0</label> = <label id="dr">0</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><br /><button lang-tag="clear" onclick="onClear(true)">Clear</button></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <a class="link" href="https://github.com/ibrahimAKIN" target="_blank">github.com/ibrahimAKIN</a>
+            <a class="link-img" title="Google Play" href="https://play.google.com/store/apps/details?id=com.iAKIN.lcdcharactergenerator" target="_blank"></a>
+            <a class="link-img" title="Huawei AppGallery" href="https://appgallery.huawei.com/#/app/C104418477" target="_blank"></a>
+            <a class="link-img" title="Xiaomi GetApps" href="https://global.app.mi.com/details?id=com.iAKIN.lcdcharactergenerator" target="_blank"></a>
+            <a class="link" href="privacy-policy" lang-tag="privacy">Privacy Policy</a>
         </div>
     </div>
 </body>

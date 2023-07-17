@@ -8,18 +8,12 @@ body {
 }
 
 #root {
-    display: flex;
-}
-
-#root>div {
-    display: flex;
     max-width: 1250px;
-    flex-direction: column;
     margin: auto;
     width: 100%;
 }
 
-#root>div>div {
+#root>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -31,7 +25,7 @@ button {
     padding: 5px;
 }
 
-.btn-b {
+#lcd button:not([lang-tag]) {
     padding: 25px 25px;
     margin: 4px 2px;
 }
@@ -45,7 +39,7 @@ button {
     padding: 4px 60px;
 }
 
-.btn-b, .btn-v, .btn-h, #idp {
+button:not([lang-tag]) {
     border: none;
 }
 
