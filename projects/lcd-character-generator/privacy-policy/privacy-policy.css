@@ -1,6 +1,26 @@
-.filled{background-color:rgb(239,239,239);border-radius:0}
-#root{padding:1em;max-width:1100px;justify-self:center}
-body{background-color:rgba(128,128,128,.5)}
-p{margin-block-start:1em;margin-block-end:1em}
-ul{margin-block-start:1em;margin-block-end:1em;padding-inline-start:40px}
-a{text-decoration:none}
+.filled {
+    background-color: rgb(239, 239, 239);
+    border-radius: 0;
+}
+
+body {
+    background-color: rgba(128, 128, 128, .5);
+}
+
+#root {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1em;
+}
+
+p, ul {
+    margin-block: 1em;
+}
+
+ul {
+    padding-inline-start: 40px;
+}
+
+a {
+    text-decoration: none;
+}

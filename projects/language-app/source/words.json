@@ -2885,4 +2885,84 @@
     "tr": "keyfi",
     "def": "based on random choice or personal whim, rather than any reason or system.",
     "pos": "adjective"
+}, {
+    "en": "tempest",
+    "tr": "fırtına",
+    "def": "a violent windy storm.",
+    "pos": "noun"
+}, {
+    "en": "coherent",
+    "tr": "tutarlı",
+    "def": "(of an argument, theory, or policy) logical and consistent.",
+    "pos": "adjective"
+}, {
+    "en": "articulate",
+    "tr": "açıkça ifade etmek",
+    "def": "(of a person or a person's words) having or showing the ability to speak fluently and coherently.",
+    "pos": "verb"
+}, {
+    "en": "quench",
+    "tr": "susuzluğu gidermek",
+    "def": "satisfy (one's thirst) by drinking.",
+    "pos": "verb"
+}, {
+    "en": "hectic",
+    "tr": "çok meşgul",
+    "def": "full of incessant or frantic activity.",
+    "pos": "adjective"
+}, {
+    "en": "maxim",
+    "tr": "özdeyiş",
+    "def": "a short, pithy statement expressing a general truth or rule of conduct.",
+    "pos": "noun"
+}, {
+    "en": "brawny",
+    "tr": "kaslı, kuvvetli",
+    "def": "physically strong; muscular.",
+    "pos": "adjective"
+}, {
+    "en": "hostile",
+    "tr": "düşmanca, muhalif",
+    "def": "unfriendly; antagonistic.",
+    "pos": "adjective"
+}, {
+    "en": "delirium",
+    "tr": "hezeyan, sayıklama",
+    "def": "an acutely disturbed state of mind that occurs in fever, intoxication, and other disorders and is characterized by restlessness, illusions, and incoherence of thought and speech.",
+    "pos": "noun"
+}, {
+    "en": "rectify",
+    "tr": "düzeltmek, doğrultmak",
+    "def": "put right; correct.",
+    "pos": "verb"
+}, {
+    "en": "blatant",
+    "tr": "arsız, utanmaz",
+    "def": "(of bad behavior) done openly and unashamedly.",
+    "pos": "adjective"
+}, {
+    "en": "arguable",
+    "tr": "tartışılabilir",
+    "def": "able to be argued or asserted.",
+    "pos": "adjective"
+}, {
+    "en": "scapegoat",
+    "tr": "günah keçisi",
+    "def": "a person who is blamed for the wrongdoings, mistakes, or faults of others, especially for reasons of expediency.",
+    "pos": "noun"
+}, {
+    "en": "arduous",
+    "tr": "zahmetli",
+    "def": "involving or requiring strenuous effort; difficult and tiring.",
+    "pos": "adjective"
+}, {
+    "en": "illiterate",
+    "tr": "okuma yazma bilmeyen",
+    "def": "unable to read or write.",
+    "pos": "adjective"
+}, {
+    "en": "ostentatious",
+    "tr": "gösterişli",
+    "def": "characterized by vulgar or pretentious display; designed to impress or attract notice.",
+    "pos": "adjective"
 }]

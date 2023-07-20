@@ -20,8 +20,8 @@ function onClick(elmnt, dsply) {
         display.innerHTML = result;
     }
     else {
-        let txt = elmnt.id;
-        let arr = txt.split('_');
+        let txt = elmnt.ariaLabel;
+        let arr = txt.split('x');
         if (elmnt.style.backgroundColor != 'black') {
             sum[arr[0]] = sum[arr[0]] + +arr[1];
             elmnt.style.backgroundColor = 'black';
@@ -43,19 +43,16 @@ function onClear(dsply) {
         display.innerHTML = 0;
         for (let i = 0; i < 8; i++) {
             document.getElementById('i' + arr[i]).removeAttribute('style');
-            document.getElementById('i' + arr[i]).style.color = 'black';
             document.getElementById(arr[i]).innerHTML = 0;
         }
     }
     else {
-        let i, j;
-        for (i = 1; i < 9; i++) {
-            for (j = 1; j < 17; j = j * 2) {
-                document.getElementById(i + '_' + j).style.backgroundColor = '';
-                document.getElementById(i + '' + i).innerHTML = 0;
-                document.getElementById(i).innerHTML = 0;
-                sum[i] = 0;
-            }
+        const buttons = document.querySelectorAll('#lcd button:not([lang-tag])');
+        for (const button of buttons) button.removeAttribute('style');
+        for (let i = 1; i < 9; i++) {
+            document.getElementById(i + '' + i).innerHTML = 0;
+            document.getElementById(i).innerHTML = 0;
+            sum[i] = 0;
         }
     }
 }

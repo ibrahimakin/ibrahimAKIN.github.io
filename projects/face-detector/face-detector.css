@@ -13,14 +13,12 @@ top-nav, side-nav {
     position: relative;
 }
 
-video {
-    max-width: 800px;
+video, canvas {
     width: 100%;
 }
 
 canvas {
     position: absolute;
     height: 100%;
-    width: 100%;
     left: 0;
 }
