@@ -12,7 +12,7 @@ Promise.all([
 
 video.addEventListener('play', () => {
     const canvas = faceapi.createCanvasFromMedia(video);
-    document.querySelector('#root>div').append(canvas);
+    document.getElementById('root').append(canvas);
     const boxSize = { width: video.getBoundingClientRect().width, height: video.getBoundingClientRect().height };
     faceapi.matchDimensions(canvas, boxSize);
 
