@@ -2965,4 +2965,114 @@
     "tr": "gösterişli",
     "def": "characterized by vulgar or pretentious display; designed to impress or attract notice.",
     "pos": "adjective"
+}, {
+    "en": "synthetic",
+    "tr": "sentetik",
+    "def": "(of a substance) made by chemical synthesis, especially to imitate a natural product.",
+    "pos": "adjective"
+}, {
+    "en": "bellicose",
+    "tr": "kavgacı",
+    "def": "demonstrating aggression and willingness to fight.",
+    "pos": "adjective"
+}, {
+    "en": "crude",
+    "tr": "ham",
+    "def": "in a natural or raw state; not yet processed or refined.",
+    "pos": "adjective"
+}, {
+    "en": "mischief",
+    "tr": "haylazlık",
+    "def": "playful misbehavior or troublemaking, especially in children.",
+    "pos": "noun"
+}, {
+    "en": "accident",
+    "tr": "kaza",
+    "def": "an unfortunate incident that happens unexpectedly and unintentionally, typically resulting in damage or injury.",
+    "pos": "noun"
+}, {
+    "en": "canary",
+    "tr": "kanarya",
+    "def": "a mainly African finch with a melodious song, typically having yellowish-green plumage. One kind is popular as a pet bird and has been bred in a variety of colors, especially bright yellow.",
+    "pos": "noun"
+}, {
+    "en": "volume",
+    "tr": "hacim",
+    "def": "a book forming part of a work or series.",
+    "pos": "noun"
+}, {
+    "en": "comparison",
+    "tr": "karşılaştırma",
+    "def": "a consideration or estimate of the similarities or dissimilarities between two things or people.",
+    "pos": "noun"
+}, {
+    "en": "camouflage",
+    "tr": "kamuflaj",
+    "def": "the disguising of military personnel, equipment, and installations by painting or covering them to make them blend in with their surroundings.",
+    "pos": "noun"
+}, {
+    "en": "hypothetical",
+    "tr": "varsayımsal",
+    "def": "of, based on, or serving as a hypothesis.",
+    "pos": "adjective"
+}, {
+    "en": "aloof",
+    "tr": "soğuk, mesafeli",
+    "def": "not friendly or forthcoming; cool and distant.",
+    "pos": "adjective"
+}, {
+    "en": "devour",
+    "tr": "yemeği silip süpürmek",
+    "def": "eat (food or prey) hungrily or quickly.",
+    "pos": "verb"
+}, {
+    "en": "argument",
+    "tr": "tartışma",
+    "def": "an exchange of diverging or opposite views, typically a heated or angry one.",
+    "pos": "noun"
+}, {
+    "en": "desperately",
+    "tr": "umutsuzca",
+    "def": "in a way that shows despair.",
+    "pos": "adverb"
+}, {
+    "en": "awful",
+    "tr": "berbat",
+    "def": "very bad or unpleasant.",
+    "pos": "adjective"
+}, {
+    "en": "verbose",
+    "tr": "gereksiz sözlerle dolu",
+    "def": "using or expressed in more words than are needed.",
+    "pos": "adjective"
+}, {
+    "en": "forbid",
+    "tr": "yasaklamak",
+    "def": "refuse to allow (something).",
+    "pos": "verb"
+}, {
+    "en": "hideous",
+    "tr": "iğrenç, gudubet",
+    "def": "ugly or disgusting to look at.",
+    "pos": "adjective"
+}, {
+    "en": "annual",
+    "tr": "yıllık",
+    "def": "occurring once every year.",
+    "pos": "adjective"
+}, {
+    "en": "disaster",
+    "tr": "felaket",
+    "def": "a sudden event, such as an accident or a natural catastrophe, that causes great damage or loss of life.",
+    "pos": "noun"
+}, {
+    "en": "disease",
+    "tr": "hastalık",
+    "def": "a disorder of structure or function in a human, animal, or plant, especially one that produces specific signs or symptoms or that affects a specific location and is not simply a direct result of physical injury.",
+    "pos": "noun"
+}, {
+    "en": "fulfill",
+    "tr": "yerine getirmek",
+    "def": "bring to completion or reality; achieve or realize (something desired, promised, or predicted).",
+    "pos": "verb"
 }]

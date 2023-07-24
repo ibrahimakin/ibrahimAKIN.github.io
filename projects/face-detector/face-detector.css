@@ -4,12 +4,7 @@ top-nav, side-nav {
 }
 
 #root {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#root>div {
+    margin: auto;
     position: relative;
 }
 
