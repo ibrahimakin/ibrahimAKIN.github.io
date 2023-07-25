@@ -2112,6 +2112,11 @@
     "def": "put forward (someone or something) with approval as being suitable for a particular purpose or role.",
     "pos": "verb"
 }, {
+    "en": "apparent",
+    "tr": "görünen, bariz",
+    "def": "clearly visible or understood; obvious.",
+    "pos": "adjective"
+}, {
     "en": "apparently",
     "tr": "görünüşe göre",
     "def": "as far as one knows or can see.",
@@ -3075,4 +3080,79 @@
     "tr": "yerine getirmek",
     "def": "bring to completion or reality; achieve or realize (something desired, promised, or predicted).",
     "pos": "verb"
+}, {
+    "en": "committed",
+    "tr": "kendini adamış",
+    "def": "feeling dedication and loyalty to a cause, activity, or job; wholeheartedly dedicated.",
+    "pos": "adjective"
+}, {
+    "en": "colleague",
+    "tr": "iş arkadaşı",
+    "def": "a person with whom one works in a profession or business.",
+    "pos": "noun"
+}, {
+    "en": "pressure",
+    "tr": "baskı",
+    "def": "continuous physical force exerted on or against an object by something in contact with it.",
+    "pos": "noun"
+}, {
+    "en": "recipe",
+    "tr": "yemek tarifi",
+    "def": "a set of instructions for preparing a particular dish, including a list of the ingredients required.",
+    "pos": "noun"
+}, {
+    "en": "fascinating",
+    "tr": "büyüleyici",
+    "def": "extremely interesting.",
+    "pos": "adjective"
+}, {
+    "en": "expertise",
+    "tr": "uzmanlık",
+    "def": "expert skill or knowledge in a particular field.",
+    "pos": "noun"
+}, {
+    "en": "miserable",
+    "tr": "acınası, perişan",
+    "def": "(of a person) wretchedly unhappy or uncomfortable.",
+    "pos": "adjective"
+}, {
+    "en": "suspicious",
+    "tr": "kuşkulu, şüpheli",
+    "def": "having or showing a cautious distrust of someone or something.",
+    "pos": "adjective"
+}, {
+    "en": "nuisance",
+    "tr": "sıkıntı",
+    "def": "a person, thing, or circumstance causing inconvenience or annoyance.",
+    "pos": "noun"
+}, {
+    "en": "preparation",
+    "tr": "hazırlık",
+    "def": "the action or process of making ready or being made ready for use or consideration.",
+    "pos": "noun"
+}, {
+    "en": "hygiene",
+    "tr": "hijyen",
+    "def": "conditions or practices conducive to maintaining health and preventing disease, especially through cleanliness.",
+    "pos": "noun"
+}, {
+    "en": "courtesy",
+    "tr": "kibarlık, nezaket",
+    "def": "the showing of politeness in one's attitude and behavior toward others.",
+    "pos": "noun"
+}, {
+    "en": "leverage",
+    "tr": "kaldıraç, nüfuz",
+    "def": "the exertion of force by means of a lever or an object used in the manner of a lever.",
+    "pos": "noun"
+}, {
+    "en": "phenomenal",
+    "tr": "olağanüstü",
+    "def": "very remarkable; extraordinary.",
+    "pos": "adjective"
+}, {
+    "en": "drowsy",
+    "tr": "uykulu, uyku bastırmış",
+    "def": "sleepy and lethargic; half asleep.",
+    "pos": "adjective"
 }]
