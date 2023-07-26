@@ -13,20 +13,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 0;
 }
 
-#container {
-    width: 80%;
-}
-
-#container+div {
-    width: 78px;
-}
-
-#canvas {
-    background-color: #000;
+canvas {
     border: 1px solid #fff;
-    width: 100%;
+    background-color: #000;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+#root>div:last-child {
+    width: 78px;
 }
 
 #root button {

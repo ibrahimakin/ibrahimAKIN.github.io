@@ -3155,4 +3155,19 @@
     "tr": "uykulu, uyku bastırmış",
     "def": "sleepy and lethargic; half asleep.",
     "pos": "adjective"
+}, {
+    "en": "explosion",
+    "tr": "patlama",
+    "def": "a violent and destructive shattering or blowing apart of something, as is caused by a bomb.",
+    "pos": "noun"
+}, {
+    "en": "accelerate",
+    "tr": "hızlanmak",
+    "def": "(of a vehicle or other physical object) begin to move more quickly.",
+    "pos": "verb"
+}, {
+    "en": "accessible",
+    "tr": "erişilebilir",
+    "def": "(of a place) able to be reached or entered.",
+    "pos": "adjective"
 }]
