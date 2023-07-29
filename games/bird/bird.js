@@ -9,7 +9,7 @@ let highScore = 0;
 
 const score = document.getElementById('score');
 const high_score = document.getElementById('high-score');
-const c = document.getElementById('canvas');
+const c = document.querySelector('canvas');
 const ctx = c.getContext('2d');
 
 class Bird {
@@ -67,9 +67,11 @@ class Pipe {
 }
 
 window.onload = () => {
+    const space_button = document.getElementById('space');
+    c.addEventListener('touchstart', onKeyDown);
     document.addEventListener('keydown', onKeyDown);
-    document.getElementById('space').onclick = () => onKeyDown({ code: 'Space' });
-    c.addEventListener('touchstart', () => onKeyDown({ code: 'Space' }), { passive: false });
+    space_button.addEventListener('mousedown', onKeyDown);
+    space_button.addEventListener('touchstart', onKeyDown);
     for (const button of document.getElementsByClassName('lang-button')) {
         button.addEventListener('click', () => {
             if (gameOver) {
@@ -101,7 +103,9 @@ window.onload = () => {
     }
 
     function onKeyDown(e) {
-        if (e.code === 'Space') {
+        e.preventDefault();
+        e.stopPropagation();
+        if (e.code === 'Space' || ['mousedown', 'touchstart'].includes(e.type)) {
             birds[0].jump();
             if (isStart) {
                 isStart = false;

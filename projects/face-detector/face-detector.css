@@ -12,8 +12,14 @@ video, canvas {
     width: 100%;
 }
 
+video {
+    display: block;
+    max-height: 100vh;
+}
+
 canvas {
     position: absolute;
     height: 100%;
     left: 0;
+    top: 0;
 }
