@@ -1,9 +1,3 @@
-top-nav, side-nav {
-    height: 0;
-    width: 0;
-}
-
 #container {
     position: fixed;
-    touch-action: none;
 }

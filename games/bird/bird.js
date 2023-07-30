@@ -103,9 +103,9 @@ window.onload = () => {
     }
 
     function onKeyDown(e) {
-        e.preventDefault();
-        e.stopPropagation();
         if (e.code === 'Space' || ['mousedown', 'touchstart'].includes(e.type)) {
+            e.preventDefault();
+            e.stopPropagation();
             birds[0].jump();
             if (isStart) {
                 isStart = false;

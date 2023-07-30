@@ -13,8 +13,8 @@ Promise.all([
 video.addEventListener('play', () => {
     const canvas = faceapi.createCanvasFromMedia(video);
     document.getElementById('root').append(canvas);
-    const boxSize = { width: video.getBoundingClientRect().width, height: video.getBoundingClientRect().height };
-    faceapi.matchDimensions(canvas, boxSize);
+    const box_size = { width: video.videoWidth, height: video.videoHeight };
+    faceapi.matchDimensions(canvas, box_size);
 
     setInterval(async () => {
         const detections = await faceapi
@@ -23,10 +23,10 @@ video.addEventListener('play', () => {
             .withFaceExpressions();
 
         canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height);
-        const resizedDetections = faceapi.resizeResults(detections, boxSize);
+        const resized_detections = faceapi.resizeResults(detections, box_size);
 
-        faceapi.draw.drawDetections(canvas, resizedDetections);
-        faceapi.draw.drawFaceLandmarks(canvas, resizedDetections);
-        faceapi.draw.drawFaceExpressions(canvas, resizedDetections);
+        faceapi.draw.drawDetections(canvas, resized_detections);
+        faceapi.draw.drawFaceLandmarks(canvas, resized_detections);
+        faceapi.draw.drawFaceExpressions(canvas, resized_detections);
     }, 100);
 });

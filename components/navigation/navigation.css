@@ -68,7 +68,7 @@
     }
 
     top-nav {
-        display: block;
+        display: unset;
     }
 }
 
