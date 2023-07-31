@@ -1,4 +1,3 @@
-const sidenav_width = 1000;
 const lang_obj = {
     tr: {
         turkiye: 'Türkiye',
@@ -20,7 +19,7 @@ const lang_obj = {
         turkish: 'Türkçe',
         nbp: 'Yerli veya ikinci dil yetkinliği',
         software_engineer: 'Yazılım Mühendisi',
-        prsnl_desc: 'Beni en iyi tanımlayan sıfat meraktır. Yeni teknolojiler keşfetmek ve öğrenmek için sık sık araştırma yapmaktan keyif alırım.',
+        prsnl_desc: 'Beni en iyi tanımlayan özellik öğrenme isteğidir. Yeni teknolojiler keşfetmek ve öğrenmek için araştırma yapmaktan keyif alırım.',
         education: 'EĞİTİM',
         computer_engineering: 'Bilgisayar Mühendisliği',
         comu: 'Çanakkale Onsekiz Mart Üniversitesi',

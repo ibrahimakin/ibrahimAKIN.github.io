@@ -1,3 +1,4 @@
+const lang_obj = {};
 const video = document.querySelector('video');
 
 Promise.all([

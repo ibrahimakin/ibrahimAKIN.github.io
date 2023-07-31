@@ -96,7 +96,7 @@ side-nav {
     opacity: 0;
 }
 
-.main a:hover+span,
+.main .filled:hover+span,
 .main .menu:hover>span,
 .pin-menu:checked~span {
     opacity: 1;

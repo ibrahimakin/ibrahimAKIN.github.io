@@ -15,10 +15,14 @@ class PersonalCard extends HTMLElement {
                         </div>
                         <div class="info">
                             <h1 class="title">ibrahim AKIN</h1>
-                            <h2>Software Developer</h2>
-                            <p>The best adjective that describes me is curious. I always want to learn new things
-                                and search them to discover.<br/><br/>
-                                Feel free to say hello through any of the social links below.
+                            <h2 lang-tag="profession">Software Engineer</h2>
+                            <p>
+                                <span lang-tag="description">
+                                    The best adjective that describes me is curious. I always want to learn new things and search them to discover.
+                                </span><br/><br/>
+                                <span lang-tag="contact">
+                                    Feel free to say hello through any of the social links below.
+                                </span>
                             </p>
                             <div class="links">
                                 <social-icons></social-icons>

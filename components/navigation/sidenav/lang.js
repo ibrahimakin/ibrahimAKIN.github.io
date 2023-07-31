@@ -4,7 +4,7 @@ lang_obj.tr = {
     projects: 'Projeler',
     lcd: 'LCD Karakter Hesaplayıcı',
     nav_movies: 'Filmler',
-    face_detector: 'Yüz Tanıyıcı',
+    face_detector: 'Yüz Algılayıcı',
     games: 'Oyunlar',
     xox: 'XOX',
     pong: 'Pin Pon',

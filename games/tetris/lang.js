@@ -16,6 +16,7 @@ const lang_obj = {
         nav_movies: 'Filmler',
         face_detector: 'Yuz Taniyici',
         games: 'Oyunlar',
+        pong: 'Pin Pon',
         xox: 'XOX',
         resume: 'Ozgecmis',
         settings: 'Ayarlar'
@@ -37,6 +38,7 @@ const lang_obj = {
         nav_movies: 'Movies',
         face_detector: 'Face Detector',
         games: 'Games',
+        pong: 'Ping Pong',
         xox: 'Tic Tac Toe',
         resume: 'Resume',
         settings: 'Settings'
