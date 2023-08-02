@@ -3238,4 +3238,64 @@
     "tr": "azaltmak",
     "def": "make or become less.",
     "pos": "verb"
+}, {
+    "en": "respective",
+    "tr": "şahsi, ayrı ayrı",
+    "def": "belonging or relating separately to each of two or more people or things.",
+    "pos": "adjective"
+}, {
+    "en": "incompetent",
+    "tr": "beceriksiz",
+    "def": "not having or showing the necessary skills to do something successfully.",
+    "pos": "adjective"
+}, {
+    "en": "convince",
+    "tr": "ikna etmek",
+    "def": "cause (someone) to believe firmly in the truth of something.",
+    "pos": "verb"
+}, {
+    "en": "rehearse",
+    "tr": "prova yapmak",
+    "def": "practice (a play, piece of music, or other work) for later public performance.",
+    "pos": "verb"
+}, {
+    "en": "deceive",
+    "tr": "kandırmak, aldatmak",
+    "def": "(of a person) cause (someone) to believe something that is not true, typically in order to gain some personal advantage.",
+    "pos": "verb"
+}, {
+    "en": "obtain",
+    "tr": "elde etmek",
+    "def": "get, acquire, or secure (something).",
+    "pos": "verb"
+}, {
+    "en": "objection",
+    "tr": "itiraz",
+    "def": "an expression or feeling of disapproval or opposition; a reason for disagreeing.",
+    "pos": "noun"
+}, {
+    "en": "cohesive",
+    "tr": "birleşmiş, yapışmış",
+    "def": "characterized by or causing cohesion.",
+    "pos": "adjective"
+}, {
+    "en": "obstruct",
+    "tr": "engellemek",
+    "def": "block (an opening, path, road, etc.); be or get in the way of.",
+    "pos": "verb"
+}, {
+    "en": "subtle",
+    "tr": "hemen göze çarpmayan",
+    "def": "(especially of a change or distinction) so delicate or precise as to be difficult to analyze or describe.",
+    "pos": "adjective"
+}, {
+    "en": "chuckle",
+    "tr": "kıkırdamak",
+    "def": "laugh quietly or inwardly.",
+    "pos": "verb"
+}, {
+    "en": "aptitude",
+    "tr": "doğuştan yetenek",
+    "def": "a natural ability to do something.",
+    "pos": "noun"
 }]

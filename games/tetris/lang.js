@@ -19,7 +19,8 @@ const lang_obj = {
         pong: 'Pin Pon',
         xox: 'XOX',
         resume: 'Ozgecmis',
-        settings: 'Ayarlar'
+        settings: 'Ayarlar',
+        turkish: 'Turkce'
     },
     en: {
         score: 'Score',
@@ -41,6 +42,7 @@ const lang_obj = {
         pong: 'Ping Pong',
         xox: 'Tic Tac Toe',
         resume: 'Resume',
-        settings: 'Settings'
+        settings: 'Settings',
+        turkish: 'Turkce'
     }
 };

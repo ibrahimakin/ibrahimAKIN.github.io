@@ -9,7 +9,8 @@ lang_obj.tr = {
     xox: 'XOX',
     pong: 'Pin Pon',
     resume: 'Özgeçmiş',
-    settings: 'Ayarlar'
+    settings: 'Ayarlar',
+    turkish: 'Türkçe'
 };
 lang_obj.en = {
     ...lang_obj.en,
@@ -22,5 +23,6 @@ lang_obj.en = {
     xox: 'Tic Tac Toe',
     pong: 'Ping Pong',
     resume: 'Resume',
-    settings: 'Settings'
+    settings: 'Settings',
+    turkish: 'Türkçe'
 };
