@@ -16,6 +16,7 @@ top-nav {
     z-index: 3;
 }
 
+#topnav .menu:focus-within>.expand,
 #topnav .menu:hover>.expand {
     left: 0;
     top: 100%;

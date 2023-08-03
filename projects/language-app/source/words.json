@@ -3298,4 +3298,20 @@
     "tr": "doğuştan yetenek",
     "def": "a natural ability to do something.",
     "pos": "noun"
+}, {
+    "en": "budget",
+    "tr": "bütçe",
+    "def": "an estimate of income and expenditure for a set period of time.",
+    "pos": "noun"
+}, {
+    "en": "photosynthesis",
+    "tr": "fotosentez",
+    "img": "/assets/images/projects/language-app/photosynthesis.png",
+    "def": "the process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water. Photosynthesis in plants generally involves the green pigment chlorophyll and generates oxygen as a byproduct.",
+    "pos": "noun"
+}, {
+    "en": "embellish",
+    "tr": "süsleyerek güzelleştirmek",
+    "def": "make (something) more attractive by the addition of decorative details or features.",
+    "pos": "verb"
 }]

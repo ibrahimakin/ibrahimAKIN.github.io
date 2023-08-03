@@ -1,11 +1,11 @@
 let current = getLang();
 document.addEventListener('DOMContentLoaded', () => {
     for (const button of document.getElementsByClassName('lang-button')) {
-        button.onclick = event => {
-            let lang = event.target.getAttribute('lang-name');
+        button.onclick = e => {
+            let lang = e.target.getAttribute('lang-name');
             if (lang !== getLang() || lang !== current) {
                 current = lang;
-                try { localStorage.setItem('lang', lang); } catch (e) { }
+                try { localStorage.setItem('lang', lang); } catch (err) { }
                 for (const element of document.querySelectorAll('[lang-tag]')) {
                     let value = lang_obj[lang][element.getAttribute('lang-tag')];
                     if (element.placeholder) element.placeholder = value;
@@ -14,7 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 // document.documentElement.setAttribute('lang', lang);
             }
+            e.target.blur();
         };
+        button.onkeypress = e => { if (e.key === 'Enter') button.click() }
     }
     if (current !== 'en') {
         for (const element of document.querySelectorAll('[lang-tag]')) {

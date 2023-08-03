@@ -10,7 +10,7 @@ class Sidenav extends HTMLElement {
                     </div>
                     <div></div>
                     <div class="menu">
-                        <input title="Projects" class="pin-menu" type="checkbox" lang-tag="projects">
+                        <input title="Projects" class="pin-menu" type="checkbox" lang-tag="projects" tabindex="-1">
                         <div class="filled project icon"></div>
                         <div class="expand">
                             <div>
@@ -37,7 +37,7 @@ class Sidenav extends HTMLElement {
                         <span lang-tag="projects">Projects</span>
                     </div>
                     <div class="menu">
-                        <input title="Games" class="pin-menu" type="checkbox" lang-tag="games">
+                        <input title="Games" class="pin-menu" type="checkbox" lang-tag="games" tabindex="-1">
                         <div class="filled games icon"></div>
                         <div class="expand more" style="--extra:1">
                             <div class="up">
@@ -72,15 +72,15 @@ class Sidenav extends HTMLElement {
                         <span>Blog</span>
                     </div>
                     <div class="menu">
-                        <input title="Settings" class="pin-menu" type="checkbox" lang-tag="settings">
+                        <input title="Settings" class="pin-menu" type="checkbox" lang-tag="settings" tabindex="-1">
                         <div class="filled settings icon"></div>
                         <div class="expand more" style="--extra:1">
                             <div class="up">
-                                <div title="Türkçe" lang-name="tr" class="filled tr icon lang-button" ${lang_support}></div>
+                                <div title="Türkçe" lang-name="tr" class="filled tr icon lang-button" tabindex="0" ${lang_support}></div>
                                 <span>${!lang_support ? lang_obj['tr']['turkish'] : 'Türkçe'}</span>
                             </div>
                             <div>
-                                <div title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></div>
+                                <div title="English" lang-name="en" class="filled en icon lang-button" tabindex="0" ${lang_support}></div>
                                 <span>English</span>
                             </div>
                         </div>
@@ -95,6 +95,7 @@ class Sidenav extends HTMLElement {
             pin.addEventListener('change', e => {
                 for (const p of pins) if (this.touch || e.target !== p) p.checked = false;
                 delete this.touch;
+                e.target.blur();
             });
         }
     }

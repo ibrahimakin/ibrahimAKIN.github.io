@@ -35,6 +35,7 @@ side-nav {
     height: 100%;
 }
 
+#sidenav .menu:focus-within>.expand,
 #sidenav .menu:hover>.expand {
     transition-delay: 0s;
     left: 100%;
@@ -115,6 +116,7 @@ side-nav {
     z-index: 2;
 }
 
+.menu:focus-within>.expand,
 .pin-menu:checked~.expand {
     height: 100%;
     left: 100%;
@@ -128,6 +130,8 @@ side-nav {
 
 .menu:hover>.expand>div.up,
 .menu:hover>.expand>div div,
+.menu:focus-within>.expand>div.up,
+.menu:focus-within>.expand>div div,
 .pin-menu:checked~.expand>div.up,
 .pin-menu:checked~.expand>div div {
     transition-delay: .1s;
