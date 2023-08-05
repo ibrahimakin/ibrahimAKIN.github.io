@@ -168,9 +168,10 @@
     "en": "to wither up, to fade",
     "tr": "solmak"
 }, {
-    "en": "to preserve",
+    "en": "preserve",
     "tr": "korumak",
-    "def": "maintain (something) in its original or existing state."
+    "def": "maintain (something) in its original or existing state.",
+    "pos": "verb"
 }, {
     "en": "zealously",
     "tr": "şevkle"
@@ -417,7 +418,9 @@
     "tr": "mazeret bildirmek"
 }, {
     "en": "commute",
-    "tr": "işe gidip gelmek"
+    "tr": "işe gidip gelmek",
+    "def": "travel some distance between one's home and place of work on a regular basis.",
+    "pos": "verb"
 }, {
     "en": "conservative",
     "tr": "muhafazakâr"
@@ -3170,4 +3173,145 @@
     "tr": "erişilebilir",
     "def": "(of a place) able to be reached or entered.",
     "pos": "adjective"
+}, {
+    "en": "confide",
+    "tr": "sır vermek",
+    "def": "tell someone about a secret or private matter while trusting them not to repeat it to others.",
+    "pos": "verb"
+}, {
+    "en": "abolish",
+    "tr": "feshetmek",
+    "def": "formally put an end to (a system, practice, or institution).",
+    "pos": "verb"
+}, {
+    "en": "resistant",
+    "tr": "dirençli",
+    "def": "offering resistance to something or someone.",
+    "pos": "adjective"
+}, {
+    "en": "banish",
+    "tr": "sürgün etmek",
+    "def": "send (someone) away from a country or place as an official punishment.",
+    "pos": "verb"
+}, {
+    "en": "defuse",
+    "tr": "yatıştırmak",
+    "def": "remove the fuse from (an explosive device) in order to prevent it from exploding.",
+    "pos": "verb"
+}, {
+    "en": "sluggish",
+    "tr": "miskin, halsiz",
+    "def": "slow-moving or inactive.",
+    "pos": "adjective"
+}, {
+    "en": "torture",
+    "tr": "işkence",
+    "def": "the action or practice of inflicting severe pain or suffering on someone as a punishment or in order to force them to do or say something.",
+    "pos": "noun"
+}, {
+    "en": "compulsive",
+    "tr": "zorlayıcı",
+    "def": "resulting from or relating to an irresistible urge, especially one that is against one's conscious wishes.",
+    "pos": "adjective"
+}, {
+    "en": "impartial",
+    "tr": "tarafsız",
+    "def": "treating all rivals or disputants equally; fair and just.",
+    "pos": "adjective"
+}, {
+    "en": "sophisticated",
+    "tr": "komplike",
+    "def": "having, revealing, or proceeding from a great deal of worldly experience and knowledge of fashion and culture.",
+    "pos": "adjective"
+}, {
+    "en": "biased",
+    "tr": "önyargılı",
+    "def": "unfairly prejudiced for or against someone or something.",
+    "pos": "adjective"
+}, {
+    "en": "manifest",
+    "tr": "belirgin, apaçık",
+    "def": "clear or obvious to the eye or mind.",
+    "pos": "adjective"
+}, {
+    "en": "diminish",
+    "tr": "azaltmak",
+    "def": "make or become less.",
+    "pos": "verb"
+}, {
+    "en": "respective",
+    "tr": "şahsi, ayrı ayrı",
+    "def": "belonging or relating separately to each of two or more people or things.",
+    "pos": "adjective"
+}, {
+    "en": "incompetent",
+    "tr": "beceriksiz",
+    "def": "not having or showing the necessary skills to do something successfully.",
+    "pos": "adjective"
+}, {
+    "en": "convince",
+    "tr": "ikna etmek",
+    "def": "cause (someone) to believe firmly in the truth of something.",
+    "pos": "verb"
+}, {
+    "en": "rehearse",
+    "tr": "prova yapmak",
+    "def": "practice (a play, piece of music, or other work) for later public performance.",
+    "pos": "verb"
+}, {
+    "en": "deceive",
+    "tr": "kandırmak, aldatmak",
+    "def": "(of a person) cause (someone) to believe something that is not true, typically in order to gain some personal advantage.",
+    "pos": "verb"
+}, {
+    "en": "obtain",
+    "tr": "elde etmek",
+    "def": "get, acquire, or secure (something).",
+    "pos": "verb"
+}, {
+    "en": "objection",
+    "tr": "itiraz",
+    "def": "an expression or feeling of disapproval or opposition; a reason for disagreeing.",
+    "pos": "noun"
+}, {
+    "en": "cohesive",
+    "tr": "birleşmiş, yapışmış",
+    "def": "characterized by or causing cohesion.",
+    "pos": "adjective"
+}, {
+    "en": "obstruct",
+    "tr": "engellemek",
+    "def": "block (an opening, path, road, etc.); be or get in the way of.",
+    "pos": "verb"
+}, {
+    "en": "subtle",
+    "tr": "hemen göze çarpmayan",
+    "def": "(especially of a change or distinction) so delicate or precise as to be difficult to analyze or describe.",
+    "pos": "adjective"
+}, {
+    "en": "chuckle",
+    "tr": "kıkırdamak",
+    "def": "laugh quietly or inwardly.",
+    "pos": "verb"
+}, {
+    "en": "aptitude",
+    "tr": "doğuştan yetenek",
+    "def": "a natural ability to do something.",
+    "pos": "noun"
+}, {
+    "en": "budget",
+    "tr": "bütçe",
+    "def": "an estimate of income and expenditure for a set period of time.",
+    "pos": "noun"
+}, {
+    "en": "photosynthesis",
+    "tr": "fotosentez",
+    "img": "/assets/images/projects/language-app/photosynthesis.png",
+    "def": "the process by which green plants and some other organisms use sunlight to synthesize foods from carbon dioxide and water. Photosynthesis in plants generally involves the green pigment chlorophyll and generates oxygen as a byproduct.",
+    "pos": "noun"
+}, {
+    "en": "embellish",
+    "tr": "süsleyerek güzelleştirmek",
+    "def": "make (something) more attractive by the addition of decorative details or features.",
+    "pos": "verb"
 }]

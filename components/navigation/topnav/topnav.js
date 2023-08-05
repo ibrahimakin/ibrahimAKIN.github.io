@@ -57,10 +57,10 @@ class Topnav extends HTMLElement {
                     <div onclick title="Settings" class="filled settings icon" lang-tag="settings"></div>
                     <div class="expand">
                         <div>
-                            <div title="Türkçe" lang-name="tr" class="filled tr icon lang-button" ${lang_support}></div>
+                            <div title="Türkçe" lang-name="tr" class="filled tr icon lang-button" tabindex="0" ${lang_support}></div>
                         </div>
                         <div>
-                            <div title="English" lang-name="en" class="filled en icon lang-button" ${lang_support}></div>
+                            <div title="English" lang-name="en" class="filled en icon lang-button" tabindex="0" ${lang_support}></div>
                         </div>
                     </div>
                 </div>

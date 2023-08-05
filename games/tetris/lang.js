@@ -1,24 +1,26 @@
 const lang_obj = {
     tr: {
         score: 'Skor',
-        rows: 'Rows',
+        rows: 'Satir',
         level: 'Seviye',
         start_game: 'Basla',
         reset_game: 'Sifirla',
         game_over: 'Oyun Bitti',
         high_score: 'En Yuksek Skor',
-        max_rows: 'Max Rows',
+        max_rows: 'Maks. Satir',
         pause_game: 'Duraklat',
         resume_game: 'Devam Et',
-        home: 'Anasayfa',
+        nav_home: 'Anasayfa',
         projects: 'Projeler',
         lcd: 'LCD Karakter Hesaplayici',
         nav_movies: 'Filmler',
         face_detector: 'Yuz Taniyici',
         games: 'Oyunlar',
+        pong: 'Pin Pon',
         xox: 'XOX',
         resume: 'Ozgecmis',
-        settings: 'Ayarlar'
+        settings: 'Ayarlar',
+        turkish: 'Turkce'
     },
     en: {
         score: 'Score',
@@ -31,14 +33,16 @@ const lang_obj = {
         max_rows: 'Max Rows',
         pause_game: 'Pause',
         resume_game: 'Resume',
-        home: 'Home',
+        nav_home: 'Home',
         projects: 'Projects',
         lcd: 'LCD Character Generator',
         nav_movies: 'Movies',
         face_detector: 'Face Detector',
         games: 'Games',
+        pong: 'Ping Pong',
         xox: 'Tic Tac Toe',
         resume: 'Resume',
-        settings: 'Settings'
+        settings: 'Settings',
+        turkish: 'Turkce'
     }
 };

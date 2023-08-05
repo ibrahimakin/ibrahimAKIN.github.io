@@ -1,4 +1,3 @@
-const sidenav_width = 1000;
 const lang_obj = {
     tr: {
         turkiye: 'Türkiye',
@@ -20,7 +19,7 @@ const lang_obj = {
         turkish: 'Türkçe',
         nbp: 'Yerli veya ikinci dil yetkinliği',
         software_engineer: 'Yazılım Mühendisi',
-        prsnl_desc: 'Beni en iyi tanımlayan sıfat meraktır. Yeni teknolojiler keşfetmek ve öğrenmek için sık sık araştırma yapmaktan keyif alırım.',
+        prsnl_desc: 'Beni en iyi tanımlayan özellik öğrenme isteğidir. Yeni teknolojiler keşfetmek ve öğrenmek için araştırma yapmaktan keyif alırım.',
         education: 'EĞİTİM',
         computer_engineering: 'Bilgisayar Mühendisliği',
         comu: 'Çanakkale Onsekiz Mart Üniversitesi',
@@ -34,7 +33,7 @@ const lang_obj = {
         anatolian_university: 'Anadolu Üniversitesi',
         present: 'Devam Ediyor',
         work_experience: 'İŞ DENEYİMİ',
-        vestel_desc: 'Gömülü TV yazılımları üzerine çalışmaktayım.',
+        vestel_desc: 'Linux tabanlı gömülü TV yazılımları üzerine çalışmaktayım.',
         fullstack_developer: 'Yazılım Geliştirici',
         ithero: 'IT HERO Bilgi Teknolojileri ve Tic.',
         ithero_desc: 'Autommate robotik süreç otomasyonu projesi üzerinde yazılım geliştirici olarak çalıştım.',
@@ -109,7 +108,7 @@ const lang_obj = {
         anatolian_university: 'Anadolu University',
         present: 'Present',
         work_experience: 'WORK EXPERIENCE',
-        vestel_desc: 'I\'m working on embedded TV software.',
+        vestel_desc: 'I\'m working on Linux-based embedded TV software.',
         fullstack_developer: 'Full Stack Developer',
         ithero: 'IT HERO Information Technology & Services',
         ithero_desc: 'I worked on Autommate robotic process automation project as a full stack developer.',
