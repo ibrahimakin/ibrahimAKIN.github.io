@@ -11,6 +11,7 @@ body {
     max-width: 1250px;
     margin: auto;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #root>div {
@@ -43,7 +44,11 @@ button:not([lang-tag]) {
     border: none;
 }
 
-table {
+#lcd {
+    padding: 0 14px;
+}
+
+#lcd+table {
     padding: 0 20px;
 }
 
@@ -61,6 +66,10 @@ table:last-child th {
 
 #lcd tr:nth-child(2)>td:first-child {
     padding: 10px;
+}
+
+.output {
+    position: absolute;
 }
 
 .link {
