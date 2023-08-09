@@ -474,6 +474,11 @@
     "en": "fine grained",
     "tr": "ince taneli"
 }, {
+    "en": "coarse",
+    "tr": "kaba",
+    "def": "rough or loose in texture or grain.",
+    "pos": "adjective"
+}, {
     "en": "coarse grained",
     "tr": "kaba taneli"
 }, {
@@ -1261,6 +1266,11 @@
     "tr": "dik dik bakmak",
     "def": "look fixedly or vacantly at someone or something with one's eyes wide open.",
     "pos": "verb"
+}, {
+    "en": "stair",
+    "tr": "basamak",
+    "def": "a set of steps leading from one floor of a building to another, typically inside the building.",
+    "pos": "noun"
 }, {
     "en": "bust",
     "tr": "kırmak",
@@ -3314,4 +3324,74 @@
     "tr": "süsleyerek güzelleştirmek",
     "def": "make (something) more attractive by the addition of decorative details or features.",
     "pos": "verb"
+}, {
+    "en": "insolent",
+    "tr": "küstah",
+    "def": "showing a rude and arrogant lack of respect.",
+    "pos": "adjective"
+}, {
+    "en": "elude",
+    "tr": "sıyrılmak",
+    "def": "evade or escape from (a danger, enemy, or pursuer), typically in a skillful or cunning way.",
+    "pos": "verb"
+}, {
+    "en": "impulse",
+    "tr": "dürtü",
+    "def": "a sudden strong and unreflective urge or desire to act.",
+    "pos": "noun"
+}, {
+    "en": "reminisce",
+    "tr": "anılarını anlatmak",
+    "def": "indulge in enjoyable recollection of past events.",
+    "pos": "verb"
+}, {
+    "en": "condemn",
+    "tr": "kınamak",
+    "def": "express complete disapproval of, typically in public; censure.",
+    "pos": "verb"
+}, {
+    "en": "deem",
+    "tr": "saymak, farz etmek",
+    "def": "regard or consider in a specified way.",
+    "pos": "verb"
+}, {
+    "en": "pursue",
+    "tr": "izlemek, kovalamak",
+    "def": "follow (someone or something) in order to catch or attack them.",
+    "pos": "verb"
+}, {
+    "en": "pry",
+    "tr": "burnunu sokmak",
+    "def": "inquire too closely into a person's private affairs.",
+    "pos": "verb"
+}, {
+    "en": "counsel",
+    "tr": "nasihat",
+    "def": "advice, especially that given formally.",
+    "pos": "noun"
+}, {
+    "en": "proposition",
+    "tr": "önerme, teklif",
+    "def": "a statement or assertion that expresses a judgment or opinion.",
+    "pos": "noun"
+}, {
+    "en": "immanent",
+    "tr": "doğasında olan",
+    "def": "existing or operating within; inherent.",
+    "pos": "adjective"
+}, {
+    "en": "grove",
+    "tr": "koru",
+    "def": "a small wood, orchard, or group of trees.",
+    "pos": "noun"
+}, {
+    "en": "tenet",
+    "tr": "ilke, öğreti",
+    "def": "a principle or belief, especially one of the main principles of a religion or philosophy.",
+    "pos": "noun"
+}, {
+    "en": "latter",
+    "tr": "sonra gelen",
+    "def": "situated or occurring nearer to the end of something than to the beginning.",
+    "pos": "adjective"
 }]

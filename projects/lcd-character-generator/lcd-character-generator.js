@@ -20,19 +20,19 @@ function onClick(elmnt, dsply) {
         display.innerHTML = result;
     }
     else {
-        let txt = elmnt.ariaLabel;
+        let txt = elmnt.getAttribute('aria-label');
         let arr = txt.split('x');
         if (elmnt.style.backgroundColor != 'black') {
-            sum[arr[0]] = sum[arr[0]] + +arr[1];
+            sum[arr[1]] = sum[arr[1]] + +arr[0];
             elmnt.style.backgroundColor = 'black';
-            document.getElementById(arr[0]).innerHTML = sum[+arr[0]];
-            document.getElementById(arr[0] + arr[0]).innerHTML = sum[+arr[0]];
+            document.getElementById(arr[1]).innerHTML = sum[+arr[1]];
+            document.getElementById(arr[1] + arr[1]).innerHTML = sum[+arr[1]];
         }
         else {
-            sum[arr[0]] = sum[arr[0]] - +arr[1];
+            sum[arr[1]] = sum[arr[1]] - +arr[0];
             elmnt.removeAttribute('style');
-            document.getElementById(arr[0]).innerHTML = sum[+arr[0]];
-            document.getElementById(arr[0] + arr[0]).innerHTML = sum[+arr[0]];
+            document.getElementById(arr[1]).innerHTML = sum[+arr[1]];
+            document.getElementById(arr[1] + arr[1]).innerHTML = sum[+arr[1]];
         }
     }
 }
