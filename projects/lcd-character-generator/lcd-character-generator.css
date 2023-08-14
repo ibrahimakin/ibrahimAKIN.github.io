@@ -97,3 +97,8 @@ table:last-child th {
     background-image: url('/assets/images/projects/lcd/xiaomi-getapps-badge.svg');
     background-size: 84%;
 }
+
+.link:last-child {
+    text-align: center;
+    width: 114px;
+}

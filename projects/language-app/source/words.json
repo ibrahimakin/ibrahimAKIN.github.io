@@ -580,7 +580,9 @@
     "tr": "gülmekten ölmek"
 }, {
     "en": "inference",
-    "tr": "çıkarım"
+    "tr": "çıkarım",
+    "def": "a conclusion reached on the basis of evidence and reasoning.",
+    "pos": "noun"
 }, {
     "en": "affect",
     "tr": "etkilemek, tesir etmek"
@@ -952,9 +954,16 @@
     "en": "presumptuous",
     "tr": "küstah, haddini bilmez"
 }, {
+    "en": "nominate",
+    "tr": "aday göstermek",
+    "def": "propose or formally enter as a candidate for election or for an honor or award.",
+    "pos": "verb"
+}, {
     "en": "nomination",
     "tr": "aday gösterme",
-    "img": "/assets/images/projects/language-app/nomination.png"
+    "img": "/assets/images/projects/language-app/nomination.png",
+    "def": "the action of nominating or state of being nominated.",
+    "pos": "noun"
 }, {
     "en": "despite",
     "tr": "aksine, rağmen"
@@ -3393,5 +3402,110 @@
     "en": "latter",
     "tr": "sonra gelen",
     "def": "situated or occurring nearer to the end of something than to the beginning.",
+    "pos": "adjective"
+}, {
+    "en": "grant",
+    "tr": "onaylamak, hibe",
+    "def": "agree to give or allow (something requested) to.",
+    "pos": "verb"
+}, {
+    "en": "consequent",
+    "tr": "netice, sonuç",
+    "def": "following as a result or effect.",
+    "pos": "adjective"
+}, {
+    "en": "proximate",
+    "tr": "en yakın",
+    "def": "(especially of the cause of something) closest in relationship; immediate.",
+    "pos": "adjective"
+}, {
+    "en": "eternal",
+    "tr": "sonsuz, ebedi",
+    "def": "lasting or existing forever; without end or beginning.",
+    "pos": "adjective"
+}, {
+    "en": "redeem",
+    "tr": "tazmin etmek",
+    "def": "compensate for the faults or bad aspects of (something).",
+    "pos": "verb"
+}, {
+    "en": "magnitude",
+    "tr": "büyüklük",
+    "def": "the great size or extent of something.",
+    "pos": "noun"
+}, {
+    "en": "leather",
+    "tr": "deri",
+    "def": "a material made from the skin of an animal by tanning or a similar process.",
+    "pos": "noun"
+}, {
+    "en": "accompany",
+    "tr": "eşlik etmek",
+    "def": "go somewhere with (someone) as a companion or escort.",
+    "pos": "verb"
+}, {
+    "en": "palpable",
+    "tr": "hissedilir",
+    "def": "(of a feeling or atmosphere) so intense as to seem almost tangible.",
+    "pos": "adjective"
+}, {
+    "en": "confinement",
+    "tr": "kapatılma, hapsedilme",
+    "def": "the action of confining or state of being confined.",
+    "pos": "noun"
+}, {
+    "en": "humiliation",
+    "tr": "aşağılama",
+    "def": "the action of humiliating someone or the state of being humiliated.",
+    "pos": "noun"
+}, {
+    "en": "jeopardize",
+    "tr": "tehlikeye atmak",
+    "def": "put (someone or something) into a situation in which there is a danger of loss, harm, or failure.",
+    "pos": "verb"
+}, {
+    "en": "refractory",
+    "tr": "dik başlı, karşı koyan",
+    "def": "stubborn or unmanageable.",
+    "pos": "adjective"
+}, {
+    "en": "diligent",
+    "tr": "gayretli",
+    "def": "having or showing care and conscientiousness in one's work or duties.",
+    "pos": "adjective"
+}, {
+    "en": "inauguration",
+    "tr": "göreve başlama töreni",
+    "def": "the beginning or introduction of a system, policy, or period.",
+    "pos": "noun"
+}, {
+    "en": "investigator",
+    "tr": "dedektif, müfettiş",
+    "def": "a person who carries out a formal inquiry or investigation.",
+    "pos": "noun"
+}, {
+    "en": "nomadic",
+    "tr": "göçebe",
+    "def": "living the life of a nomad; wandering.",
+    "pos": "adjective"
+}, {
+    "en": "reconcile",
+    "tr": "uzlaştırmak",
+    "def": "restore friendly relations between.",
+    "pos": "verb"
+}, {
+    "en": "proficient",
+    "tr": "yetkin, usta",
+    "def": "competent or skilled in doing or using something.",
+    "pos": "adjective"
+}, {
+    "en": "accrue",
+    "tr": "birikmek, büyümek",
+    "def": "(of sums of money or benefits) be received by someone in regular or increasing amounts over time.",
+    "pos": "verb"
+}, {
+    "en": "palatable",
+    "tr": "lezzetli",
+    "def": "(of food or drink) pleasant to taste.",
     "pos": "adjective"
 }]
