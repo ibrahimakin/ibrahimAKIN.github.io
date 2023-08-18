@@ -77,7 +77,7 @@ class Sidenav extends HTMLElement {
                         <div class="expand more" style="--extra:1">
                             <div class="up">
                                 <div title="Türkçe" lang-name="tr" class="filled tr icon lang-button" tabindex="0" ${lang_support}></div>
-                                <span>${!lang_support ? lang_obj['tr']['turkish'] : 'Türkçe'}</span>
+                                <span>${!lang_support ? lang_obj['tr']['nav_turkish'] : 'Türkçe'}</span>
                             </div>
                             <div>
                                 <div title="English" lang-name="en" class="filled en icon lang-button" tabindex="0" ${lang_support}></div>

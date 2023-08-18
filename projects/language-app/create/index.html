@@ -26,11 +26,11 @@
         <div>
             <div>
                 <label>
-                    <input name="type" type="radio" onchange="handleCheck(this)" value="sentence" checked>
+                    <input name="type" type="radio" onchange="handleCheck(this)" value="sentence">
                     Sentence
                 </label>
                 <label>
-                    <input name="type" type="radio" onchange="handleCheck(this)" value="word">
+                    <input name="type" type="radio" onchange="handleCheck(this)" value="word" checked>
                     Word
                 </label>
             </div>
@@ -68,26 +68,26 @@
             <tr>
                 <td><label for="img">image</label></td>
                 <td>
-                    <button id="imgb" onclick="handleAutoFill('img')" style="visibility:hidden">
+                    <button id="imgb" onclick="handleAutoFill('img')">
                         &gt;
                     </button>
                 </td>
                 <td><input id="img"></td>
                 <td><button onclick="handleDelete('img')">X</button></td>
             </tr>
-            <tr id="quote">
+            <tr id="quote" style="display: none;">
                 <td><label for="quo">quote</label></td>
                 <td></td>
                 <td><input id="quo"></td>
                 <td><button onclick="handleDelete('quo')">X</button></td>
             </tr>
-            <tr id="definition" style="display:none">
+            <tr id="definition">
                 <td><label for="def">definition</label></td>
                 <td><button onclick="handleAutoFill('def')">&gt;</button></td>
                 <td><input id="def"></td>
                 <td><button onclick="handleDelete('def')">X</button></td>
             </tr>
-            <tr id="type" style="display:none">
+            <tr id="type">
                 <td><label for="typ">type</label></td>
                 <td><button onclick="handleAutoFill('typ')">&gt;</button></td>
                 <td><input id="typ"></td>
