@@ -103,3 +103,4 @@ const particles_config = {
     },
     retina_detect: true
 };
+particlesJS('particles-js', particles_config);

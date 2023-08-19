@@ -20,7 +20,7 @@ const lang_obj = {
         xox: 'XOX',
         resume: 'Ozgecmis',
         settings: 'Ayarlar',
-        turkish: 'Turkce'
+        nav_turkish: 'Turkce'
     },
     en: {
         score: 'Score',
@@ -43,6 +43,6 @@ const lang_obj = {
         xox: 'Tic Tac Toe',
         resume: 'Resume',
         settings: 'Settings',
-        turkish: 'Turkce'
+        nav_turkish: 'Turkce'
     }
 };
