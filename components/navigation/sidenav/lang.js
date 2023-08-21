@@ -1,5 +1,4 @@
 lang_obj.tr = {
-    ...lang_obj.tr,
     nav_home: 'Anasayfa',
     projects: 'Projeler',
     lcd: 'LCD Karakter Hesaplayıcı',
@@ -10,10 +9,10 @@ lang_obj.tr = {
     pong: 'Pin Pon',
     resume: 'Özgeçmiş',
     settings: 'Ayarlar',
-    nav_turkish: 'Türkçe'
+    nav_turkish: 'Türkçe',
+    ...lang_obj.tr
 };
 lang_obj.en = {
-    ...lang_obj.en,
     nav_home: 'Home',
     projects: 'Projects',
     lcd: 'LCD Character Generator',
@@ -24,5 +23,5 @@ lang_obj.en = {
     pong: 'Ping Pong',
     resume: 'Resume',
     settings: 'Settings',
-    nav_turkish: 'Türkçe'
+    ...lang_obj.en
 };

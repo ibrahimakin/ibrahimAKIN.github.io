@@ -588,7 +588,9 @@
     "tr": "etkilemek, tesir etmek"
 }, {
     "en": "effect",
-    "tr": "etki"
+    "tr": "etki",
+    "def": "a change which is a result or consequence of an action or other cause.",
+    "pos": "noun"
 }, {
     "en": "intrepid",
     "tr": "cesur"
@@ -1032,7 +1034,9 @@
     "def": "identify the nature of (an illness or other problem) by examination of the symptoms."
 }, {
     "en": "grim",
-    "tr": "acımasız"
+    "tr": "acımasız",
+    "def": "forbidding or uninviting.",
+    "pos": "adjective"
 }, {
     "en": "reaper",
     "tr": "orakçı"
@@ -3536,6 +3540,11 @@
     "def": "belonging naturally; essential.",
     "pos": "adjective"
 }, {
+    "en": "overt",
+    "tr": "açık olarak yapılan",
+    "def": "done or shown openly; plainly or readily apparent, not secret or hidden.",
+    "pos": "adjective"
+}, {
     "en": "covert",
     "tr": "örtülü, saklı",
     "def": "not openly acknowledged or displayed.",
@@ -3604,5 +3613,45 @@
     "en": "delicate",
     "tr": "narin",
     "def": "very fine in texture or structure; of intricate workmanship or quality.",
+    "pos": "adjective"
+}, {
+    "en": "fathom",
+    "tr": "derinine inmek",
+    "def": "a unit of length equal to six feet (approximately 1.8 m), chiefly used in reference to the depth of water.",
+    "pos": "noun"
+}, {
+    "en": "groom",
+    "tr": "damat, tımar etmek",
+    "def": "brush and clean the coat of (a horse, dog, or other animal).",
+    "pos": "verb"
+}, {
+    "en": "bride",
+    "tr": "gelin",
+    "def": "a woman on her wedding day or just before and after the event.",
+    "pos": "noun"
+}, {
+    "en": "adverse",
+    "tr": "olumsuz, aksi",
+    "def": "preventing success or development; harmful; unfavorable.",
+    "pos": "adjective"
+}, {
+    "en": "brake",
+    "tr": "fren",
+    "def": "a device for slowing or stopping a moving vehicle, typically by applying pressure to the wheels.",
+    "pos": "noun"
+}, {
+    "en": "tidy",
+    "tr": "düzenli, derli toplu",
+    "def": "arranged neatly and in order.",
+    "pos": "adjective"
+}, {
+    "en": "percipient",
+    "tr": "çabuk kavrayan",
+    "def": "(of a person) having a good understanding of things; perceptive.",
+    "pos": "adjective"
+}, {
+    "en": "subordinate",
+    "tr": "daha az önemli olan",
+    "def": "lower in rank or position.",
     "pos": "adjective"
 }]
