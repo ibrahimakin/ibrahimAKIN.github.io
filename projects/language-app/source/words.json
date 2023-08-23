@@ -588,7 +588,9 @@
     "tr": "etkilemek, tesir etmek"
 }, {
     "en": "effect",
-    "tr": "etki"
+    "tr": "etki",
+    "def": "a change which is a result or consequence of an action or other cause.",
+    "pos": "noun"
 }, {
     "en": "intrepid",
     "tr": "cesur"
@@ -865,7 +867,9 @@
     "pos": "verb"
 }, {
     "en": "punctual",
-    "tr": "dakik"
+    "tr": "dakik",
+    "def": "happening or doing something at the agreed or proper time; on time.",
+    "pos": "adjective"
 }, {
     "en": "tolerate",
     "tr": "tahammül etmek"
@@ -1030,7 +1034,9 @@
     "def": "identify the nature of (an illness or other problem) by examination of the symptoms."
 }, {
     "en": "grim",
-    "tr": "acımasız"
+    "tr": "acımasız",
+    "def": "forbidding or uninviting.",
+    "pos": "adjective"
 }, {
     "en": "reaper",
     "tr": "orakçı"
@@ -1686,7 +1692,7 @@
     "pos": "noun"
 }, {
     "en": "excessive",
-    "tr": "haddinden fazle, aşırı",
+    "tr": "haddinden fazla, aşırı",
     "def": "more than is necessary, normal, or desirable; immoderate.",
     "pos": "adjective"
 }, {
@@ -3507,5 +3513,145 @@
     "en": "palatable",
     "tr": "lezzetli",
     "def": "(of food or drink) pleasant to taste.",
+    "pos": "adjective"
+}, {
+    "en": "nonchalant",
+    "tr": "soğukkanlı",
+    "def": "(of a person or manner) feeling or appearing casually calm and relaxed; not displaying anxiety, interest, or enthusiasm.",
+    "pos": "adjective"
+}, {
+    "en": "affinity",
+    "tr": "sempati",
+    "def": "a spontaneous or natural liking or sympathy for someone or something.",
+    "pos": "noun"
+}, {
+    "en": "torment",
+    "tr": "eziyet, ıstırap",
+    "def": "severe physical or mental suffering.",
+    "pos": "noun"
+}, {
+    "en": "advise",
+    "tr": "öğüt vermek",
+    "def": "offer suggestions about the best course of action to someone.",
+    "pos": "verb"
+}, {
+    "en": "intrinsic",
+    "tr": "içsel",
+    "def": "belonging naturally; essential.",
+    "pos": "adjective"
+}, {
+    "en": "overt",
+    "tr": "açık olarak yapılan",
+    "def": "done or shown openly; plainly or readily apparent, not secret or hidden.",
+    "pos": "adjective"
+}, {
+    "en": "covert",
+    "tr": "örtülü, saklı",
+    "def": "not openly acknowledged or displayed.",
+    "pos": "adjective"
+}, {
+    "en": "distinguish",
+    "tr": "ayırt etmek",
+    "def": "recognize or treat (someone or something) as different.",
+    "pos": "verb"
+}, {
+    "en": "appease",
+    "tr": "yatıştırmak",
+    "def": "pacify or placate (someone) by acceding to their demands.",
+    "pos": "verb"
+}, {
+    "en": "complexion",
+    "tr": "ten rengi",
+    "def": "the natural color, texture, and appearance of a person's skin, especially of the face.",
+    "pos": "noun"
+}, {
+    "en": "ordinance",
+    "tr": "kararname",
+    "def": "an authoritative order; a decree.",
+    "pos": "noun"
+}, {
+    "en": "rationalize",
+    "tr": "rasyonalize etmek",
+    "def": "attempt to explain or justify (one's own or another's behavior or attitude) with logical, plausible reasons, even if these are not true or appropriate.",
+    "pos": "verb"
+}, {
+    "en": "evident",
+    "tr": "belli, aşikar",
+    "def": "plain or obvious; clearly seen or understood.",
+    "pos": "adjective"
+}, {
+    "en": "pray",
+    "tr": "dua etmek",
+    "def": "address a solemn request or expression of thanks to a deity or other object of worship.",
+    "pos": "verb"
+}, {
+    "en": "prey",
+    "tr": "av, kurban",
+    "def": "an animal that is hunted and killed by another for food.",
+    "pos": "noun"
+}, {
+    "en": "heaven",
+    "tr": "cennet",
+    "def": "a place regarded in various religions as the abode of God (or the gods) and the angels, and of the good after death, often traditionally depicted as being above the sky.",
+    "pos": "noun"
+}, {
+    "en": "haven",
+    "tr": "sığınak",
+    "def": "a place of safety or refuge.",
+    "pos": "noun"
+}, {
+    "en": "exult",
+    "tr": "çok sevinmek",
+    "def": "feel or show triumphant elation or jubilation.",
+    "pos": "verb"
+}, {
+    "en": "temperate",
+    "tr": "ılıman",
+    "def": "relating to or denoting a region or climate characterized by mild temperatures.",
+    "pos": "adjective"
+}, {
+    "en": "delicate",
+    "tr": "narin",
+    "def": "very fine in texture or structure; of intricate workmanship or quality.",
+    "pos": "adjective"
+}, {
+    "en": "fathom",
+    "tr": "derinine inmek",
+    "def": "a unit of length equal to six feet (approximately 1.8 m), chiefly used in reference to the depth of water.",
+    "pos": "noun"
+}, {
+    "en": "groom",
+    "tr": "damat, tımar etmek",
+    "def": "brush and clean the coat of (a horse, dog, or other animal).",
+    "pos": "verb"
+}, {
+    "en": "bride",
+    "tr": "gelin",
+    "def": "a woman on her wedding day or just before and after the event.",
+    "pos": "noun"
+}, {
+    "en": "adverse",
+    "tr": "olumsuz, aksi",
+    "def": "preventing success or development; harmful; unfavorable.",
+    "pos": "adjective"
+}, {
+    "en": "brake",
+    "tr": "fren",
+    "def": "a device for slowing or stopping a moving vehicle, typically by applying pressure to the wheels.",
+    "pos": "noun"
+}, {
+    "en": "tidy",
+    "tr": "düzenli, derli toplu",
+    "def": "arranged neatly and in order.",
+    "pos": "adjective"
+}, {
+    "en": "percipient",
+    "tr": "çabuk kavrayan",
+    "def": "(of a person) having a good understanding of things; perceptive.",
+    "pos": "adjective"
+}, {
+    "en": "subordinate",
+    "tr": "daha az önemli olan",
+    "def": "lower in rank or position.",
     "pos": "adjective"
 }]

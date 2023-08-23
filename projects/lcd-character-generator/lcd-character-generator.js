@@ -1,4 +1,3 @@
-const display = document.getElementById('dr');
 let arr = ['na', 'b', 'c', 'd', 'e', 'f', 'g', 'dp'];
 let sum = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 let result = 0;
@@ -17,7 +16,7 @@ function onClick(elmnt, dsply) {
             document.getElementById(elmnt.name).innerHTML = 0;
             result -= value;
         }
-        display.innerHTML = result;
+        document.getElementById('dr').innerHTML = result;
     }
     else {
         let txt = elmnt.getAttribute('aria-label');
@@ -40,7 +39,7 @@ function onClick(elmnt, dsply) {
 function onClear(dsply) {
     if (dsply) {
         result = 0;
-        display.innerHTML = 0;
+        document.getElementById('dr').innerHTML = 0;
         for (let i = 0; i < 8; i++) {
             document.getElementById('i' + arr[i]).removeAttribute('style');
             document.getElementById(arr[i]).innerHTML = 0;

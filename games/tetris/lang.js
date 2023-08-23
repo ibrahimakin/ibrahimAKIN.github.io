@@ -10,17 +10,9 @@ const lang_obj = {
         max_rows: 'Maks. Satir',
         pause_game: 'Duraklat',
         resume_game: 'Devam Et',
-        nav_home: 'Anasayfa',
-        projects: 'Projeler',
-        lcd: 'LCD Karakter Hesaplayici',
-        nav_movies: 'Filmler',
-        face_detector: 'Yuz Taniyici',
-        games: 'Oyunlar',
-        pong: 'Pin Pon',
-        xox: 'XOX',
+        face_detector: 'Yuz Algılayıcı',
         resume: 'Ozgecmis',
-        settings: 'Ayarlar',
-        turkish: 'Turkce'
+        nav_turkish: 'Turkce'
     },
     en: {
         score: 'Score',
@@ -32,17 +24,6 @@ const lang_obj = {
         high_score: 'High Score',
         max_rows: 'Max Rows',
         pause_game: 'Pause',
-        resume_game: 'Resume',
-        nav_home: 'Home',
-        projects: 'Projects',
-        lcd: 'LCD Character Generator',
-        nav_movies: 'Movies',
-        face_detector: 'Face Detector',
-        games: 'Games',
-        pong: 'Ping Pong',
-        xox: 'Tic Tac Toe',
-        resume: 'Resume',
-        settings: 'Settings',
-        turkish: 'Turkce'
+        resume_game: 'Resume'
     }
 };

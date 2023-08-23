@@ -12,7 +12,7 @@ const tr_e = document.getElementById('tr');
 const en_e = document.getElementById('en');
 
 let tr = '', en = '', img = '', quo = '', def = '', typ = '';
-let variant = 'sentence', sentences, words;
+let variant = 'word', sentences, words;
 
 fetch('../source/sentences.json').then(res => res.ok ? res.text() : null).then(data => sentences = data);
 fetch('../source/words.json').then(res => res.ok ? res.text() : null).then(data => words = data);
