@@ -3,55 +3,43 @@
     --nav-gap: 10px;
 }
 
-.main input, .main a {
+.main {
+    display: grid;
+}
+
+.main input, .lang-button {
     cursor: pointer;
 }
 
-.main {
-    z-index: 1;
-}
-
-.main>div, .expand>div {
+.main>div, .expand>div, .filled {
     position: relative;
 }
 
-.main>div a {
+.main>div a, .filled::before {
     display: block;
 }
 
-.main>div .filled {
-    position: relative;
-    z-index: 1;
-}
-
-.main>.menu:hover>.expand {
-    height: 100%;
+.menu:focus-within>.expand, .menu:hover>.expand {
     opacity: 1;
 }
 
 .expand {
-    height: 0;
     width: 100%;
     position: absolute;
     opacity: 0;
-    z-index: 0;
     left: 0;
     top: 0;
 }
 
-.expand>div {
+.expand>div, .filled, .filled::before {
     height: 100%;
 }
 
 .filled {
     background-color: #fff;
     border-radius: 5px;
-    height: 100%;
     width: 100%;
-}
-
-.lang-button {
-    cursor: pointer;
+    z-index: 1;
 }
 
 .lang-button[disabled] {
@@ -79,10 +67,8 @@
     }
 }
 
-.icon::before {
+.filled::before {
     content: '';
-    display: block;
-    height: 100%;
     background-color: var(--nav-clr);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: 50%;

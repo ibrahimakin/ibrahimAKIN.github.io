@@ -233,6 +233,11 @@
     "en": "menial",
     "tr": "vasıf gerektirmeyen"
 }, {
+    "en": "purchase",
+    "tr": "satın almak",
+    "def": "acquire (something) by paying for it; buy.",
+    "pos": "verb"
+}, {
     "en": "purchasing power",
     "tr": "alım gücü"
 }, {
@@ -255,8 +260,25 @@
     "en": "artifact",
     "tr": "eser"
 }, {
+    "en": "chase",
+    "tr": "takip etmek",
+    "def": "pursue in order to catch or catch up with.",
+    "pos": "verb"
+}, {
+    "en": "pursue",
+    "tr": "izlemek, kovalamak",
+    "def": "follow (someone or something) in order to catch or attack them.",
+    "pos": "verb"
+}, {
     "en": "pursuit",
-    "tr": "kovalama, uğraşı"
+    "tr": "kovalama, uğraşı",
+    "def": "the action of following or pursuing someone or something.",
+    "pos": "noun"
+}, {
+    "en": "persuade",
+    "tr": "ikna etmek",
+    "def": "cause (someone) to do something through reasoning or argument.",
+    "pos": "verb"
 }, {
     "en": "incantation",
     "tr": "büyü"
@@ -308,9 +330,6 @@
 }, {
     "en": "cheerio",
     "tr": "görüşürüz"
-}, {
-    "en": "persuade",
-    "tr": "ikna etmek"
 }, {
     "en": "chores",
     "tr": "ev işleri"
@@ -453,7 +472,9 @@
     "tr": "ölümcül, vahim"
 }, {
     "en": "anticipate",
-    "tr": "ummak"
+    "tr": "ummak",
+    "def": "regard as probable; expect or predict.",
+    "pos": "verb"
 }, {
     "en": "comet",
     "tr": "kuyruklu yıldız"
@@ -828,7 +849,9 @@
     "tr": "asal, ilk, en baş, en önemli"
 }, {
     "en": "ancient",
-    "tr": "antik"
+    "tr": "antik",
+    "def": "belonging to the very distant past and no longer in existence.",
+    "pos": "adjective"
 }, {
     "en": "snooze",
     "tr": "uyumak, kestirmek"
@@ -3370,11 +3393,6 @@
     "def": "regard or consider in a specified way.",
     "pos": "verb"
 }, {
-    "en": "pursue",
-    "tr": "izlemek, kovalamak",
-    "def": "follow (someone or something) in order to catch or attack them.",
-    "pos": "verb"
-}, {
     "en": "pry",
     "tr": "burnunu sokmak",
     "def": "inquire too closely into a person's private affairs.",
@@ -3654,4 +3672,123 @@
     "tr": "daha az önemli olan",
     "def": "lower in rank or position.",
     "pos": "adjective"
+}, {
+    "en": "implicit",
+    "tr": "örtülü",
+    "def": "implied though not plainly expressed.",
+    "pos": "adjective"
+}, {
+    "en": "intimidate",
+    "tr": "gözünü korkutmak",
+    "def": "frighten or overawe (someone), especially in order to make them do what one wants.",
+    "pos": "verb"
+}, {
+    "en": "clever",
+    "tr": "zeki",
+    "def": "quick to understand, learn, and devise or apply ideas; intelligent.",
+    "pos": "adjective"
+}, {
+    "en": "melancholy",
+    "tr": "melankoli",
+    "def": "a feeling of pensive sadness, typically with no obvious cause.",
+    "pos": "noun"
+}, {
+    "en": "attentive",
+    "tr": "dikkatli, özenli",
+    "def": "paying close attention to something.",
+    "pos": "adjective"
+}, {
+    "en": "scrupulous",
+    "tr": "dikkatli, titiz",
+    "def": "(of a person or process) diligent, thorough, and extremely attentive to details.",
+    "pos": "adjective"
+}, {
+    "en": "considerate",
+    "tr": "düşünceli",
+    "def": "careful not to cause inconvenience or hurt to others.",
+    "pos": "adjective"
+}, {
+    "en": "desire",
+    "tr": "arzu",
+    "def": "a strong feeling of wanting to have something or wishing for something to happen.",
+    "pos": "noun"
+}, {
+    "en": "equitable",
+    "tr": "adil",
+    "def": "fair and impartial.",
+    "pos": "adjective"
+}, {
+    "en": "affair",
+    "tr": "mesele",
+    "def": "an event or sequence of events of a specified kind or that has previously been referred to.",
+    "pos": "noun"
+}, {
+    "en": "bizarre",
+    "tr": "tuhaf, garip",
+    "def": "very strange or unusual, especially so as to cause interest or amusement.",
+    "pos": "adjective"
+}, {
+    "en": "attempt",
+    "tr": "teşebbüste bulunmak",
+    "def": "make an effort to achieve or complete (something, typically a difficult task or action).",
+    "pos": "verb"
+}, {
+    "en": "affiliate",
+    "tr": "bağlı kurum",
+    "def": "officially attach or connect (a subsidiary group or a person) to an organization.",
+    "pos": "noun"
+}, {
+    "en": "assist",
+    "tr": "yardım etmek",
+    "def": "help (someone), typically by doing a share of the work.",
+    "pos": "verb"
+}, {
+    "en": "respond",
+    "tr": "yanıtlamak",
+    "def": "say something in reply.",
+    "pos": "verb"
+}, {
+    "en": "superlative",
+    "tr": "en üstün",
+    "def": "of the highest quality or degree.",
+    "pos": "adjective"
+}, {
+    "en": "mandatory",
+    "tr": "zorunlu",
+    "def": "required by law or rules; compulsory.",
+    "pos": "adjective"
+}, {
+    "en": "gather",
+    "tr": "toplanmak",
+    "def": "come together; assemble or accumulate.",
+    "pos": "verb"
+}, {
+    "en": "ridiculous",
+    "tr": "saçma, gülünç",
+    "def": "deserving or inviting derision or mockery; absurd.",
+    "pos": "adjective"
+}, {
+    "en": "ability",
+    "tr": "beceri, hüner",
+    "def": "possession of the means or skill to do something.",
+    "pos": "noun"
+}, {
+    "en": "arrange",
+    "tr": "düzenlemek",
+    "def": "put (things) in a neat, attractive, or required order.",
+    "pos": "verb"
+}, {
+    "en": "enquire",
+    "tr": "soru sormak",
+    "def": "ask for information from someone.",
+    "pos": "verb"
+}, {
+    "en": "surrender",
+    "tr": "teslim olmak",
+    "def": "cease resistance to an enemy or opponent and submit to their authority.",
+    "pos": "verb"
+}, {
+    "en": "give in",
+    "tr": "teslim olmak, pes etmek",
+    "pos": "verb"
 }]

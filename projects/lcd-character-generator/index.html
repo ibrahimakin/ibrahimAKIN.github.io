@@ -34,14 +34,14 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td>16</td>
-                    <td>8</td>
-                    <td>4</td>
-                    <td>2</td>
-                    <td>1</td>
+                    <td scope="col">16</td>
+                    <td scope="col">8</td>
+                    <td scope="col">4</td>
+                    <td scope="col">2</td>
+                    <td scope="col">1</td>
                 </tr>
                 <tr>
-                    <td id="1">0</td>
+                    <td id="1" scope="row">0</td>
                     <td><button onclick="onClick(this)" aria-label="16x1"></button></td>
                     <td><button onclick="onClick(this)" aria-label="8x1"></button></td>
                     <td><button onclick="onClick(this)" aria-label="4x1"></button></td>
@@ -50,7 +50,7 @@
                     <td>&nbsp;1</td>
                 </tr>
                 <tr>
-                    <td id="2">0</td>
+                    <td id="2" scope="row">0</td>
                     <td><button onclick="onClick(this)" aria-label="16x2"></button></td>
                     <td><button onclick="onClick(this)" aria-label="8x2"></button></td>
                     <td><button onclick="onClick(this)" aria-label="4x2"></button></td>
@@ -59,7 +59,7 @@
                     <td>&nbsp;2</td>
                 </tr>
                 <tr>
-                    <td id="3">0</td>
+                    <td id="3" scope="row">0</td>
                     <td><button onclick="onClick(this)" aria-label="16x3"></button></td>
                     <td><button onclick="onClick(this)" aria-label="8x3"></button></td>
                     <td><button onclick="onClick(this)" aria-label="4x3"></button></td>
@@ -68,7 +68,7 @@
                     <td>&nbsp;3</td>
                 </tr>
                 <tr>
-                    <td id="4">0</td>
+                    <td id="4" scope="row">0</td>
                     <td><button onclick="onClick(this)" aria-label="16x4"></button></td>
                     <td><button onclick="onClick(this)" aria-label="8x4"></button></td>
                     <td><button onclick="onClick(this)" aria-label="4x4"></button></td>
@@ -77,7 +77,7 @@
                     <td>&nbsp;4</td>
                 </tr>
                 <tr>
-                    <td id="5">0</td>
+                    <td id="5" scope="row">0</td>
                     <td><button onclick="onClick(this)" aria-label="16x5"></button></td>
                     <td><button onclick="onClick(this)" aria-label="8x5"></button></td>
                     <td><button onclick="onClick(this)" aria-label="4x5"></button></td>
@@ -86,7 +86,7 @@
                     <td>&nbsp;5</td>
                 </tr>
                 <tr>
-                    <td id="6">0</td>
+                    <td id="6" scope="row">0</td>
                     <td><button onclick="onClick(this)" aria-label="16x6"></button></td>
                     <td><button onclick="onClick(this)" aria-label="8x6"></button></td>
                     <td><button onclick="onClick(this)" aria-label="4x6"></button></td>
@@ -95,7 +95,7 @@
                     <td>&nbsp;6</td>
                 </tr>
                 <tr>
-                    <td id="7">0</td>
+                    <td id="7" scope="row">0</td>
                     <td><button onclick="onClick(this)" aria-label="16x7"></button></td>
                     <td><button onclick="onClick(this)" aria-label="8x7"></button></td>
                     <td><button onclick="onClick(this)" aria-label="4x7"></button></td>
@@ -104,7 +104,7 @@
                     <td>&nbsp;7</td>
                 </tr>
                 <tr>
-                    <td id="8">0</td>
+                    <td id="8" scope="row">0</td>
                     <td><button onclick="onClick(this)" aria-label="16x8"></button></td>
                     <td><button onclick="onClick(this)" aria-label="8x8"></button></td>
                     <td><button onclick="onClick(this)" aria-label="4x8"></button></td>
@@ -113,11 +113,11 @@
                     <td>&nbsp;8</td>
                 </tr>
                 <tr>
-                    <td class="output"><br>LCDOUT $fe, $40, <span id="11">0</span>, <span id="22">0</span>, <span id="33">0</span>, <span id="44">0</span>, <span id="55">0</span>, <span id="66">0</span>, <span id="77">0</span>, <span id="88">0</span></td>
+                    <td class="output" scope="row"><br>LCDOUT $fe, $40, <span id="11">0</span>, <span id="22">0</span>, <span id="33">0</span>, <span id="44">0</span>, <span id="55">0</span>, <span id="66">0</span>, <span id="77">0</span>, <span id="88">0</span></td>
                     <td><br><br></td>
                 </tr>
                 <tr>
-                    <td colspan="3"><br><button lang-tag="clear" onclick="onClear()">Clear</button></td>
+                    <td colspan="3" scope="row"><br><button lang-tag="clear" onclick="onClear()">Clear</button></td>
                 </tr>
             </table>
             <table>

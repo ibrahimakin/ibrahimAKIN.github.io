@@ -167,7 +167,7 @@
     box-shadow: inset 0 0 0 0 #000;
 }
 
-.icon::before {
+.filled::before {
     transition: transform .2s ease-out;
 }
 
@@ -176,112 +176,112 @@
 }
 
 .main>div:nth-child(1)>.filled,
-.main>div:nth-child(1)>.icon::before {
+.main>div:nth-child(1)>.filled::before {
     background-color: #26d991;
 }
 .menu:nth-child(3)>.filled,
-.menu:nth-child(3)>.icon::before {
+.menu:nth-child(3)>.filled::before {
     background-color: #b5d926;
 }
-.menu:nth-child(3)>.expand>div>.icon::before,
+.menu:nth-child(3)>.expand>div>.filled::before,
 .menu:nth-child(3)>.expand>div>.filled,
-.menu:nth-child(3)>.expand>div:nth-child(1)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(1)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(1)>.filled {
     background-color: #d9aa26;
 }
-.menu:nth-child(3)>.expand>div>div>.icon::before,
+.menu:nth-child(3)>.expand>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>.filled,
-.menu:nth-child(3)>.expand>div:nth-child(2)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(2)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(2)>.filled {
     background-color: #f94040;
 }
-.menu:nth-child(3)>.expand>div>div>div>.icon::before,
+.menu:nth-child(3)>.expand>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>.filled,
-.menu:nth-child(3)>.expand>div:nth-child(3)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(3)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(3)>.filled {
     background-color: #ff7b0a;
 }
-.menu:nth-child(3)>.expand>div>div>div>div>.icon::before,
+.menu:nth-child(3)>.expand>div>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>div>.filled,
-.menu:nth-child(3)>.expand>div:nth-child(4)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(4)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(4)>.filled {
     background-color: #26d94a;
 }
-.menu:nth-child(3)>.expand>div>div>div>div>div>.icon::before,
+.menu:nth-child(3)>.expand>div>div>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>div>div>.filled,
-.menu:nth-child(3)>.expand>div:nth-child(5)>.icon::before,
+.menu:nth-child(3)>.expand>div:nth-child(5)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(5)>.filled {
     background-color: #39c5a4;
 }
 .menu:nth-child(4)>.filled,
-.menu:nth-child(4)>.icon::before {
+.menu:nth-child(4)>.filled::before {
     background-color: #26d926;
 }
-.menu:nth-child(4)>.expand>div:nth-child(1)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(1)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(1)>.filled {
     background-color: #26d9b5;
 }
-.menu:nth-child(4)>.expand>div:nth-child(2)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(2)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>.filled {
     background-color: #d9d326;
 }
-.menu:nth-child(4)>.expand>div:nth-child(2)>div>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>.filled,
-.menu:nth-child(4)>.expand>div:nth-child(3)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(3)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(3)>.filled {
     background-color: #7c39ff;
 }
-.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>.filled,
-.menu:nth-child(4)>.expand>div:nth-child(4)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(4)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(4)>.filled {
     background-color: #d96e26;
 }
-.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>.filled,
-.menu:nth-child(4)>.expand>div:nth-child(5)>.icon::before,
+.menu:nth-child(4)>.expand>div:nth-child(5)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(5)>.filled {
     background-color: #ff3636;
 }
 .main>div:nth-child(5)>.filled,
-.main>div:nth-child(5)>.icon::before {
+.main>div:nth-child(5)>.filled::before {
     background-color: #2691d9;
 }
 .main>div:nth-child(6)>.filled,
-.main>div:nth-child(6)>.icon::before {
+.main>div:nth-child(6)>.filled::before {
     background-color: #d94a26;
 }
 .main>div:nth-child(7)>.filled,
-.main>div:nth-child(7)>.icon::before {
+.main>div:nth-child(7)>.filled::before {
     background-color: #6ed926;
 }
-.menu:nth-child(7)>.expand>div:nth-child(1)>.icon::before,
+.menu:nth-child(7)>.expand>div:nth-child(1)>.filled::before,
 .menu:nth-child(7)>.expand>div:nth-child(1)>.filled {
     background-color: #fff;
 }
-.menu:nth-child(7)>.expand>div:nth-child(2)>.icon::before,
+.menu:nth-child(7)>.expand>div:nth-child(2)>.filled::before,
 .menu:nth-child(7)>.expand>div:nth-child(2)>.filled {
     background-color: #239bfe;
 }
-.menu:nth-child(7)>.expand>div:nth-child(1)>.icon:hover::before {
+.menu:nth-child(7)>.expand>div:nth-child(1)>.filled:hover::before {
     background-color: #d60000;
 }
 .menu:nth-child(7)>.expand>div:nth-child(1)>span {
     color: #d60000;
 }
 
-.main>.menu>.expand .filled:hover.icon::before,
-.main .pin-menu:hover+.icon::before,
-.main .filled:hover.icon::before {
+.main>.menu>.expand .filled:hover.filled::before,
+.main .pin-menu:hover+.filled::before,
+.main .filled:hover.filled::before {
     background-color: #000;
     transform: scale(1.25) translateY(-5px);
 }
 
-#topnav .filled:hover.icon::before {
+#topnav .filled:hover.filled::before {
     transform: scale(1.25);
 }
 
-#collapse:hover+.icon::before {
+#collapse:hover+.filled::before {
     background-color: #000;
     transform: scale(1.25);
 }
