@@ -8,7 +8,6 @@ top-nav {
 }
 
 #topnav {
-    display: grid;
     grid-template-columns: repeat(7, 1fr);
     height: var(--topnav-height);
     position: fixed;
@@ -18,15 +17,14 @@ top-nav {
 
 #topnav .menu:focus-within>.expand,
 #topnav .menu:hover>.expand {
-    left: 0;
+    height: 100%;
     top: 100%;
-    z-index: 1;
 }
 
-#topnav.main>div {
+#topnav>div, #topnav .expand>div {
     padding: calc(var(--nav-gap) / 3);
 }
 
-#topnav .expand>div {
-    padding: calc(var(--nav-gap) / 3);
+#topnav .expand {
+    height: 0;
 }

@@ -52,11 +52,18 @@ side-nav.collapsed>#sidenav {
 #sidenav .expand {
     transition: left .1s linear, height 0s linear, opacity 0s linear;
     transition-delay: 0s, .1s, .1s;
+    z-index: 0;
+    height: 0;
 }
 
 #sidenav .menu:hover>.expand {
     transition-delay: 0s;
+    height: 100%;
     left: 100%;
+}
+
+#sidenav .main {
+    z-index: 2;
 }
 
 #sidenav .main div>span {
@@ -91,6 +98,10 @@ side-nav.collapsed>#sidenav {
 #collapse:checked+.back::before {
     -webkit-mask-image: url('/assets/icons/navbar/forward.svg');
     mask-image: url('/assets/icons/navbar/forward.svg');
+}
+
+.grid-3 .filled::before, .grid-8 .filled::before {
+    display: none;
 }
 
 .grid-3 {
@@ -133,7 +144,7 @@ side-nav.collapsed>#sidenav {
     z-index: -1;
 }
 
-.pin-menu:checked~.expand {
+#sidenav .pin-menu:checked~.expand {
     height: 100%;
     left: 100%;
     opacity: 1;

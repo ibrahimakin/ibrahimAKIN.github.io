@@ -16,14 +16,13 @@ side-nav {
 }
 
 #sidenav>.main {
-    display: grid;
     max-height: 630px;
     width: var(--sidenav-width);
     grid-template-rows: repeat(7, 1fr);
     height: 100%;
 }
 
-.main>div, .expand>div {
+#sidenav>.main>div, #sidenav .expand>div {
     padding: var(--nav-gap);
 }
 
@@ -41,6 +40,10 @@ side-nav {
     left: 100%;
 }
 
+#sidenav .menu:focus-within>.expand {
+    z-index: 3;
+}
+
 .expand::before {
     content: '';
     display: none;
@@ -56,28 +59,27 @@ side-nav {
 }
 
 .expand.more {
-    top: calc(var(--extra) * -100%);
     z-index: -1;
+    top: -100%;
 }
 
 .expand>div div:not([title]) {
-    position: relative;
+    position: absolute;
     perspective: 300px;
     padding: var(--nav-gap);
-    padding-top: calc(2 * var(--nav-gap));
-    left: calc(-1 * var(--nav-gap));
     transition: transform .2s linear;
     transform-style: preserve-3d;
     transform: rotateX(-90deg);
     transform-origin: top;
-    box-sizing: content-box;
     height: 100%;
     width: 100%;
+    top: 100%;
+    left: 0;
 }
 
-.expand>div.up {
+.expand>.up {
     transition: transform .2s linear;
-    transform: rotateX(170deg);
+    transform: rotateX(180deg);
     transform-origin: bottom;
 }
 
@@ -116,9 +118,7 @@ side-nav {
     z-index: 2;
 }
 
-.menu:focus-within>.expand,
 .pin-menu:checked~.expand {
-    height: 100%;
     left: 100%;
     opacity: 1;
     z-index: 2;
