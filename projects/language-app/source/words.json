@@ -419,7 +419,9 @@
     "tr": "gaddarlık"
 }, {
     "en": "grudge",
-    "tr": "kin"
+    "tr": "kin, garez",
+    "def": "a persistent feeling of ill will or resentment resulting from a past insult or injury.",
+    "pos": "noun"
 }, {
     "en": "stubborn",
     "tr": "inatçı"
@@ -747,8 +749,15 @@
     "en": "purse",
     "tr": "el çantası"
 }, {
+    "en": "complement",
+    "tr": "tamamlayıcı",
+    "def": "a thing that completes or brings to perfection.",
+    "pos": "noun"
+}, {
     "en": "complementary",
-    "tr": "tamamlayıcı"
+    "tr": "tamamlayıcı",
+    "def": "combining in such a way as to enhance or emphasize the qualities of each other or another.",
+    "pos": "adjective"
 }, {
     "en": "complimentary",
     "tr": "övgü olarak verilen"
@@ -996,7 +1005,9 @@
     "tr": "aksine, rağmen"
 }, {
     "en": "causal",
-    "tr": "nedensel"
+    "tr": "nedensel",
+    "def": "relating to or acting as a cause.",
+    "pos": "adjective"
 }, {
     "en": "peckish",
     "tr": "biraz acıkmış"
@@ -3232,6 +3243,11 @@
     "def": "formally put an end to (a system, practice, or institution).",
     "pos": "verb"
 }, {
+    "en": "resist",
+    "tr": "direnmek",
+    "def": "withstand the action or effect of.",
+    "pos": "verb"
+}, {
     "en": "resistant",
     "tr": "dirençli",
     "def": "offering resistance to something or someone.",
@@ -3791,4 +3807,162 @@
     "en": "give in",
     "tr": "teslim olmak, pes etmek",
     "pos": "verb"
+}, {
+    "en": "site",
+    "tr": "yer, alan",
+    "def": "an area of ground on which a town, building, or monument is constructed.",
+    "pos": "noun"
+}, {
+    "en": "assume",
+    "tr": "farz etmek",
+    "def": "suppose to be the case, without proof.",
+    "pos": "verb"
+}, {
+    "en": "proclaim",
+    "tr": "ilan etmek",
+    "def": "announce officially or publicly.",
+    "pos": "verb"
+}, {
+    "en": "queue",
+    "tr": "kuyruk, sıra",
+    "def": "a list of data items, commands, etc., stored so as to be retrievable in a definite order, usually the order of insertion.",
+    "pos": "noun"
+}, {
+    "en": "vast",
+    "tr": "muazzam, çok",
+    "def": "of very great extent or quantity; immense.",
+    "pos": "adjective"
+}, {
+    "en": "contradiction",
+    "tr": "çelişki",
+    "def": "a combination of statements, ideas, or features of a situation that are opposed to one another.",
+    "pos": "noun"
+}, {
+    "en": "surge",
+    "tr": "aniden yükselme",
+    "def": "a sudden powerful forward or upward movement, especially by a crowd or by a natural force such as the waves or tide.",
+    "pos": "noun"
+}, {
+    "en": "forego",
+    "tr": "vazgeçmek",
+    "pos": "verb"
+}, {
+    "en": "capitol",
+    "tr": "hükümet binası"
+}, {
+    "en": "transverse",
+    "tr": "çapraz, enine",
+    "def": "situated or extending across something.",
+    "pos": "adjective"
+}, {
+    "en": "exorcize",
+    "tr": "kötü ruhları kovmak"
+}, {
+    "en": "desert",
+    "tr": "çöl",
+    "def": "abandon (a person, cause, or organization) in a way considered disloyal or treacherous.",
+    "pos": "verb"
+}, {
+    "en": "empathy",
+    "tr": "empati",
+    "def": "the ability to understand and share the feelings of another.",
+    "pos": "noun"
+}, {
+    "en": "breath",
+    "tr": "nefes",
+    "def": "the air taken into or expelled from the lungs.",
+    "pos": "noun"
+}, {
+    "en": "tale",
+    "tr": "masal",
+    "def": "a fictitious or true narrative or story, especially one that is imaginatively recounted.",
+    "pos": "noun"
+}, {
+    "en": "converge",
+    "tr": "yakınlaşmak",
+    "def": "(of lines) tend to meet at a point.",
+    "pos": "verb"
+}, {
+    "en": "torturous",
+    "tr": "acı veren",
+    "def": "characterized by, involving, or causing excruciating pain or suffering.",
+    "pos": "adjective"
+}, {
+    "en": "flavory",
+    "tr": "lezzetli"
+}, {
+    "en": "effuse",
+    "tr": "dışa akıtmak, sızdırmak",
+    "def": "give off (a liquid, light, smell, or quality).",
+    "pos": "verb"
+}, {
+    "en": "uninterested",
+    "tr": "ilgisiz",
+    "def": "not interested in or concerned about something or someone.",
+    "pos": "adjective"
+}, {
+    "en": "susceptible",
+    "tr": "kolay etkilenen",
+    "def": "likely or liable to be influenced or harmed by a particular thing.",
+    "pos": "adjective"
+}, {
+    "en": "principle",
+    "tr": "prensip, ilke",
+    "def": "a fundamental truth or proposition that serves as the foundation for a system of belief or behavior or for a chain of reasoning.",
+    "pos": "noun"
+}, {
+    "en": "wealthy",
+    "tr": "zengin, varlıklı",
+    "def": "having a great deal of money, resources, or assets; rich.",
+    "pos": "adjective"
+}, {
+    "en": "abrupt",
+    "tr": "ani",
+    "def": "sudden and unexpected.",
+    "pos": "adjective"
+}, {
+    "en": "corrupt",
+    "tr": "yozlaşmış, yolsuz",
+    "def": "having or showing a willingness to act dishonestly in return for money or personal gain.",
+    "pos": "adjective"
+}, {
+    "en": "suite",
+    "tr": "süit oda",
+    "def": "a set of rooms designated for one person's or family's use or for a particular purpose.",
+    "pos": "noun"
+}, {
+    "en": "ascent",
+    "tr": "yükseliş, tırmanış",
+    "def": "a climb or walk to the summit of a mountain or hill.",
+    "pos": "noun"
+}, {
+    "en": "descent",
+    "tr": "iniş, düşme",
+    "def": "an action of moving downward, dropping, or falling.",
+    "pos": "noun"
+}, {
+    "en": "cynical",
+    "tr": "alaycı",
+    "def": "believing that people are motivated by self-interest; distrustful of human sincerity or integrity.",
+    "pos": "adjective"
+}, {
+    "en": "phase",
+    "tr": "aşama, evre",
+    "def": "a distinct period or stage in a series of events or a process of change or development.",
+    "pos": "noun"
+}, {
+    "en": "founder",
+    "tr": "kurucu",
+    "def": "a person who manufactures articles of cast metal; the owner or operator of a foundry.",
+    "pos": "noun"
+}, {
+    "en": "aggregate",
+    "tr": "yığışım, tutar",
+    "def": "a whole formed by combining several (typically disparate) elements.",
+    "pos": "noun"
+}, {
+    "en": "currant",
+    "tr": "kuş üzümü",
+    "def": "a small dried fruit made from a seedless variety of grape originally grown in the eastern Mediterranean region, now widely produced in California, and much used in cooking.",
+    "pos": "noun"
 }]
