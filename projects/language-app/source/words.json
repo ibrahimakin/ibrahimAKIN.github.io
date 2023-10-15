@@ -100,6 +100,12 @@
     "tr": "nar",
     "img": "/assets/images/projects/language-app/pomegranate.jpg"
 }, {
+    "en": "pear",
+    "tr": "armut",
+    "img": "/assets/images/projects/language-app/pear.jpg",
+    "def": "a yellowish- or brownish-green edible fruit that is typically narrow at the stalk and wider toward the base, with sweet, slightly gritty flesh.",
+    "pos": "noun"
+}, {
     "en": "to worship",
     "tr": "tapmak"
 }, {
@@ -3964,5 +3970,76 @@
     "en": "currant",
     "tr": "kuş üzümü",
     "def": "a small dried fruit made from a seedless variety of grape originally grown in the eastern Mediterranean region, now widely produced in California, and much used in cooking.",
+    "pos": "noun"
+}, {
+    "en": "individual",
+    "tr": "birey",
+    "def": "single; separate.",
+    "pos": "adjective"
+}, {
+    "en": "allure",
+    "tr": "cazibe, albeni",
+    "def": "the quality of being powerfully and mysteriously attractive or fascinating.",
+    "pos": "noun"
+}, {
+    "en": "slight",
+    "tr": "hafif derecede",
+    "def": "small in degree; inconsiderable.",
+    "pos": "adjective"
+}, {
+    "en": "involve",
+    "tr": "içermek",
+    "def": "(of a situation or event) include (something) as a necessary part or result.",
+    "pos": "verb"
+}, {
+    "en": "amplify",
+    "tr": "büyütmek, sesi arttırmak",
+    "def": "increase the volume of (sound), especially using an amplifier.",
+    "pos": "verb"
+}, {
+    "en": "fidget",
+    "tr": "kıpırdanmak",
+    "def": "make small movements, especially of the hands and feet, through nervousness or impatience.",
+    "pos": "verb"
+}, {
+    "en": "cite",
+    "tr": "alıntı yapmak",
+    "def": "quote (a passage, book, or author) as evidence for or justification of an argument or statement, especially in a scholarly work.",
+    "pos": "verb"
+}, {
+    "en": "rebuttal",
+    "tr": "delillerle çürütme",
+    "def": "a refutation or contradiction.",
+    "pos": "noun"
+}, {
+    "en": "eminent",
+    "tr": "ünlü kişi",
+    "def": "(of a person) famous and respected within a particular sphere or profession.",
+    "pos": "adjective"
+}, {
+    "en": "ferry",
+    "tr": "feribot",
+    "img": "/assets/images/projects/language-app/ferry.gif",
+    "def": "a boat or ship for conveying passengers and goods, especially over a relatively short distance and as a regular service.",
+    "pos": "noun"
+}, {
+    "en": "ultimate",
+    "tr": "nihai, en üst düzey",
+    "def": "the best achievable or imaginable of its kind.",
+    "pos": "adjective"
+}, {
+    "en": "inception",
+    "tr": "başlangıç",
+    "def": "the establishment or starting point of an institution or activity.",
+    "pos": "noun"
+}, {
+    "en": "hare",
+    "tr": "yabani tavşan",
+    "def": "a fast-running, long-eared mammal that resembles a large rabbit, having long hind legs and occurring typically in grassland or open woodland.",
+    "pos": "noun"
+}, {
+    "en": "dye",
+    "tr": "boya",
+    "def": "a natural or synthetic substance used to add a color to or change the color of something.",
     "pos": "noun"
 }]
