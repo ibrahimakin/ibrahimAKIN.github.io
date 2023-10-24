@@ -882,7 +882,9 @@
     "tr": "absürt"
 }, {
     "en": "evaluate",
-    "tr": "değerlendirmek"
+    "tr": "değerlendirmek",
+    "def": "form an idea of the amount, number, or value of; assess.",
+    "pos": "verb"
 }, {
     "en": "compilation",
     "tr": "derleme"
@@ -916,7 +918,9 @@
     "tr": "şımartmak"
 }, {
     "en": "insult",
-    "tr": "aşağılamak"
+    "tr": "aşağılamak",
+    "def": "speak to or treat with disrespect or scornful abuse.",
+    "pos": "verb"
 }, {
     "en": "compromise",
     "tr": "ödün verip anlaşmak",
@@ -1929,6 +1933,11 @@
     "def": "(especially of a group or area) having a great deal of money; wealthy.",
     "pos": "adjective"
 }, {
+    "en": "inheritance",
+    "tr": "miras",
+    "def": "a thing that is inherited.",
+    "pos": "noun"
+}, {
     "en": "heritage",
     "tr": "miras",
     "def": "property that is or may be inherited; an inheritance.",
@@ -1952,6 +1961,11 @@
     "en": "opportunity",
     "tr": "fırsat",
     "def": "a set of circumstances that makes it possible to do something.",
+    "pos": "noun"
+}, {
+    "en": "vacation",
+    "tr": "tatil",
+    "def": "the action of leaving something one previously occupied.",
     "pos": "noun"
 }, {
     "en": "vocation",
@@ -2008,6 +2022,10 @@
     "tr": "hareketsiz",
     "def": "not moving or not intended to be moved.",
     "pos": "adjective"
+}, {
+    "en": "stationery",
+    "tr": "kırtasiye",
+    "pos": "noun"
 }, {
     "en": "hospitality",
     "tr": "misafirperverlik",
@@ -2299,15 +2317,30 @@
     "def": "deliberately cruel or violent.",
     "pos": "adjective"
 }, {
+    "en": "occur",
+    "tr": "meydana gelmek",
+    "def": "happen; take place.",
+    "pos": "verb"
+}, {
     "en": "occurrence",
     "tr": "vuku, oluş, vaka",
     "def": "an incident or event.",
     "pos": "noun"
 }, {
+    "en": "appear",
+    "tr": "belirmek",
+    "def": "come into sight; become visible or noticeable, typically without visible agent or apparent cause.",
+    "pos": "verb"
+}, {
     "en": "disappear",
     "tr": "ortadan kaybolmak",
     "def": "cease to be visible.",
     "pos": "verb"
+}, {
+    "en": "appearance",
+    "tr": "görünüş",
+    "def": "the way that someone or something looks.",
+    "pos": "noun"
 }, {
     "en": "acknowledge",
     "tr": "doğruluğunu kabul etmek",
@@ -2332,11 +2365,6 @@
     "en": "quantity",
     "tr": "miktar",
     "def": "the amount or number of a material or immaterial thing not usually estimated by spatial measurement.",
-    "pos": "noun"
-}, {
-    "en": "appearance",
-    "tr": "görünüş",
-    "def": "the way that someone or something looks.",
     "pos": "noun"
 }, {
     "en": "fundamental",
@@ -2510,10 +2538,20 @@
     "def": "a direction or order.",
     "pos": "noun"
 }, {
+    "en": "recede",
+    "tr": "geri çekilmek",
+    "def": "go or move back or further away from a previous position.",
+    "pos": "verb"
+}, {
     "en": "precede",
     "tr": "önce olmak",
     "def": "come before (something) in time.",
     "pos": "verb"
+}, {
+    "en": "unprecedented",
+    "tr": "benzeri görülmemiş",
+    "def": "never done or known before.",
+    "pos": "adjective"
 }, {
     "en": "scorching",
     "tr": "kavurucu",
@@ -2544,11 +2582,6 @@
     "tr": "ilerlemek, devam etmek",
     "def": "begin or continue a course of action.",
     "pos": "verb"
-}, {
-    "en": "unprecedented",
-    "tr": "benzeri görülmemiş",
-    "def": "never done or known before.",
-    "pos": "adjective"
 }, {
     "en": "expenditure",
     "tr": "masraf, gider",
@@ -3576,7 +3609,7 @@
     "pos": "verb"
 }, {
     "en": "intrinsic",
-    "tr": "içsel",
+    "tr": "özünde olan",
     "def": "belonging naturally; essential.",
     "pos": "adjective"
 }, {
@@ -4041,5 +4074,260 @@
     "en": "dye",
     "tr": "boya",
     "def": "a natural or synthetic substance used to add a color to or change the color of something.",
+    "pos": "noun"
+}, {
+    "en": "desolation",
+    "tr": "ıssızlık",
+    "def": "a state of complete emptiness or destruction.",
+    "pos": "noun"
+}, {
+    "en": "barren",
+    "tr": "çorak",
+    "def": "(of land) too poor to produce much or any vegetation.",
+    "pos": "adjective"
+}, {
+    "en": "astray",
+    "tr": "yoldan çıkmış",
+    "def": "away from the correct path or direction.",
+    "pos": "adverb"
+}, {
+    "en": "ransom",
+    "tr": "fidye",
+    "def": "a sum of money or other payment demanded or paid for the release of a prisoner.",
+    "pos": "noun"
+}, {
+    "en": "proscribe",
+    "tr": "yasaklamak",
+    "def": "forbid, especially by law.",
+    "pos": "verb"
+}, {
+    "en": "illuminate",
+    "tr": "ışıklandırmak",
+    "def": "make (something) visible or bright by shining light on it; light up.",
+    "pos": "verb"
+}, {
+    "en": "borrow",
+    "tr": "ödünç almak",
+    "def": "take and use (something that belongs to someone else) with the intention of returning it.",
+    "pos": "verb"
+}, {
+    "en": "sow",
+    "tr": "(tohum) saçmak",
+    "def": "plant (seed) by scattering it on or in the earth.",
+    "pos": "verb"
+}, {
+    "en": "altar",
+    "tr": "sunak",
+    "def": "the table in a Christian church at which the bread and wine are consecrated in communion services.",
+    "pos": "noun"
+}, {
+    "en": "elevate",
+    "tr": "yükseltmek",
+    "def": "raise or lift (something) up to a higher position.",
+    "pos": "verb"
+}, {
+    "en": "overdo",
+    "tr": "fazla abartmak",
+    "def": "do, use, or carry to excess; exaggerate.",
+    "pos": "verb"
+}, {
+    "en": "concise",
+    "tr": "az ama öz",
+    "def": "giving a lot of information clearly and in a few words; brief but comprehensive.",
+    "pos": "adjective"
+}, {
+    "en": "weigh",
+    "tr": "tartmak",
+    "def": "find out how heavy (someone or something) is, typically using scales.",
+    "pos": "verb"
+}, {
+    "en": "imply",
+    "tr": "ima etmek",
+    "def": "strongly suggest the truth or existence of (something not expressly stated).",
+    "pos": "verb"
+}, {
+    "en": "fatality",
+    "tr": "ölüm (kaza sonucu)",
+    "def": "an occurrence of death by accident, in war, or from disease.",
+    "pos": "noun"
+}, {
+    "en": "interior",
+    "tr": "iç, dahili",
+    "def": "situated within or inside; relating to the inside; inner.",
+    "pos": "adjective"
+}, {
+    "en": "occupant",
+    "tr": "oturan",
+    "def": "a person who resides or is present in a house, vehicle, seat, place, etc., at a given time.",
+    "pos": "noun"
+}, {
+    "en": "neural",
+    "tr": "sinirsel",
+    "def": "relating to a nerve or the nervous system.",
+    "pos": "adjective"
+}, {
+    "en": "despicable",
+    "tr": "aşağılık",
+    "def": "deserving hatred and contempt.",
+    "pos": "adjective"
+}, {
+    "en": "formerly",
+    "tr": "önceden",
+    "def": "in the past; in earlier times.",
+    "pos": "adverb"
+}, {
+    "en": "momentous",
+    "tr": "çok önemli",
+    "def": "(of a decision, event, or change) of great importance or significance, especially in its bearing on the future.",
+    "pos": "adjective"
+}, {
+    "en": "drag",
+    "tr": "sürüklemek",
+    "def": "pull (someone or something) along forcefully, roughly, or with difficulty.",
+    "pos": "verb"
+}, {
+    "en": "instinct",
+    "tr": "içgüdü",
+    "def": "an innate, typically fixed pattern of behavior in animals in response to certain stimuli.",
+    "pos": "noun"
+}, {
+    "en": "ware",
+    "tr": "eşya",
+    "def": "pottery, typically that of a specified type.",
+    "pos": "noun"
+}, {
+    "en": "definite",
+    "tr": "kesin",
+    "def": "clearly stated or decided; not vague or doubtful.",
+    "pos": "adjective"
+}, {
+    "en": "wander",
+    "tr": "başıboş dolaşmak",
+    "def": "walk or move in a leisurely, casual, or aimless way.",
+    "pos": "verb"
+}, {
+    "en": "pane",
+    "tr": "pencere camı",
+    "def": "a single sheet of glass in a window or door.",
+    "pos": "noun"
+}, {
+    "en": "decompose",
+    "tr": "çürümek, ayrışmak",
+    "def": "(with reference to a dead body or other organic matter) make or become rotten; decay or cause to decay.",
+    "pos": "verb"
+}, {
+    "en": "discrete",
+    "tr": "ayrık, münferit",
+    "def": "individually separate and distinct.",
+    "pos": "adjective"
+}, {
+    "en": "cheek",
+    "tr": "yanak",
+    "def": "either side of the face below the eye.",
+    "pos": "noun"
+}, {
+    "en": "relive",
+    "tr": "yeniden yaşamak",
+    "def": "live through (an experience or feeling, especially an unpleasant one) again in one's imagination or memory.",
+    "pos": "verb"
+}, {
+    "en": "transpire",
+    "tr": "meydana gelmek",
+    "def": "occur; happen.",
+    "pos": "verb"
+}, {
+    "en": "infatuate",
+    "tr": "aklını başından almak",
+    "def": "be inspired with an intense but short-lived passion or admiration for.",
+    "pos": "verb"
+}, {
+    "en": "plain",
+    "tr": "düz, sade",
+    "def": "not decorated or elaborate; simple or ordinary in character.",
+    "pos": "adjective"
+}, {
+    "en": "sail",
+    "tr": "denize açılmak",
+    "def": "travel in a boat with sails, especially as a sport or recreation.",
+    "pos": "verb"
+}, {
+    "en": "steel",
+    "tr": "çelik",
+    "def": "a hard, strong, gray or bluish-gray alloy of iron with carbon and usually other elements, used extensively as a structural and fabricating material.",
+    "pos": "noun"
+}, {
+    "en": "aboard",
+    "tr": "içinde (gemi, uçak, tren vb.)",
+    "def": "on or into (a ship, aircraft, train, or other vehicle).",
+    "pos": "preposition"
+}, {
+    "en": "heel",
+    "tr": "topuk",
+    "def": "the back part of the human foot below the ankle.",
+    "pos": "noun"
+}, {
+    "en": "peak",
+    "tr": "zirve",
+    "def": "the pointed top of a mountain.",
+    "pos": "noun"
+}, {
+    "en": "inquire",
+    "tr": "sormak, bilgi almak",
+    "def": "ask for information from someone.",
+    "pos": "verb"
+}, {
+    "en": "deflect",
+    "tr": "saptırmak",
+    "def": "cause (something) to change direction by interposing something; turn aside from a straight course.",
+    "pos": "verb"
+}, {
+    "en": "reveal",
+    "tr": "ortaya çıkarmak",
+    "def": "make (previously unknown or secret information) known to others.",
+    "pos": "verb"
+}, {
+    "en": "hostility",
+    "tr": "düşmanlık",
+    "def": "hostile behavior; unfriendliness or opposition.",
+    "pos": "noun"
+}, {
+    "en": "boost",
+    "tr": "yükseltme, destekleme",
+    "def": "help or encourage (something) to increase or improve.",
+    "pos": "verb"
+}, {
+    "en": "credible",
+    "tr": "inandırıcı, güvenilir",
+    "def": "able to be believed; convincing.",
+    "pos": "adjective"
+}, {
+    "en": "identity",
+    "tr": "kimlik",
+    "def": "the fact of being who or what a person or thing is.",
+    "pos": "noun"
+}, {
+    "en": "offend",
+    "tr": "gücendirmek",
+    "def": "cause to feel upset, annoyed, or resentful.",
+    "pos": "verb"
+}, {
+    "en": "introvert",
+    "tr": "içe dönük",
+    "def": "a shy, reticent person.",
+    "pos": "noun"
+}, {
+    "en": "reticent",
+    "tr": "suskun",
+    "def": "not revealing one's thoughts or feelings readily.",
+    "pos": "adjective"
+}, {
+    "en": "specialize",
+    "tr": "uzmanlaşmak",
+    "def": "concentrate on and become expert in a particular subject or skill.",
+    "pos": "verb"
+}, {
+    "en": "particle",
+    "tr": "parçacık",
+    "def": "a minute portion of matter.",
     "pos": "noun"
 }]
