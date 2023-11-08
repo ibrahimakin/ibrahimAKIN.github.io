@@ -1088,8 +1088,18 @@
     "en": "grim reaper",
     "tr": "azrail"
 }, {
+    "en": "compete",
+    "tr": "rekabet etmek",
+    "def": "strive to gain or win something by defeating or establishing superiority over others who are trying to do the same.",
+    "pos": "verb"
+}, {
     "en": "competent",
     "tr": "yetkili, işin ehli"
+}, {
+    "en": "incompetent",
+    "tr": "beceriksiz",
+    "def": "not having or showing the necessary skills to do something successfully.",
+    "pos": "adjective"
 }, {
     "en": "presume",
     "tr": "varsaymak"
@@ -3347,11 +3357,6 @@
     "def": "belonging or relating separately to each of two or more people or things.",
     "pos": "adjective"
 }, {
-    "en": "incompetent",
-    "tr": "beceriksiz",
-    "def": "not having or showing the necessary skills to do something successfully.",
-    "pos": "adjective"
-}, {
     "en": "convince",
     "tr": "ikna etmek",
     "def": "cause (someone) to believe firmly in the truth of something.",
@@ -3623,6 +3628,16 @@
     "def": "not openly acknowledged or displayed.",
     "pos": "adjective"
 }, {
+    "en": "realize",
+    "tr": "fark etmek",
+    "def": "become fully aware of (something) as a fact; understand clearly.",
+    "pos": "verb"
+}, {
+    "en": "recognize",
+    "tr": "tanımak",
+    "def": "identify (someone or something) from having encountered them before; know again.",
+    "pos": "verb"
+}, {
     "en": "distinguish",
     "tr": "ayırt etmek",
     "def": "recognize or treat (someone or something) as different.",
@@ -3855,6 +3870,11 @@
     "en": "assume",
     "tr": "farz etmek",
     "def": "suppose to be the case, without proof.",
+    "pos": "verb"
+}, {
+    "en": "claim",
+    "tr": "talep etmek, iddia etmek",
+    "def": "state or assert that something is the case, typically without providing evidence or proof.",
     "pos": "verb"
 }, {
     "en": "proclaim",
@@ -4330,4 +4350,119 @@
     "tr": "parçacık",
     "def": "a minute portion of matter.",
     "pos": "noun"
+}, {
+    "en": "grate",
+    "tr": "rendelemek",
+    "def": "reduce (something, especially food) to small shreds by rubbing it on a grater.",
+    "pos": "verb"
+}, {
+    "en": "flatter",
+    "tr": "pohpohlamak, yağ çekmek",
+    "def": "lavish insincere praise and compliments upon (someone), especially to further one's own interests.",
+    "pos": "verb"
+}, {
+    "en": "invaluable",
+    "tr": "paha biçilmez",
+    "def": "extremely useful; indispensable.",
+    "pos": "adjective"
+}, {
+    "en": "loyal",
+    "tr": "sadık",
+    "def": "giving or showing firm and constant support or allegiance to a person or institution.",
+    "pos": "adjective"
+}, {
+    "en": "ensure",
+    "tr": "emin olmak",
+    "def": "make certain that (something) shall occur or be the case.",
+    "pos": "verb"
+}, {
+    "en": "durability",
+    "tr": "dayanıklılık",
+    "def": "the ability to withstand wear, pressure, or damage.",
+    "pos": "noun"
+}, {
+    "en": "insist",
+    "tr": "ısrar etmek",
+    "def": "demand something forcefully, not accepting refusal.",
+    "pos": "verb"
+}, {
+    "en": "patiently",
+    "tr": "sabırla",
+    "def": "in a way that shows tolerance of delays, problems, or suffering without becoming annoyed or anxious.",
+    "pos": "adverb"
+}, {
+    "en": "expedition",
+    "tr": "sefer",
+    "def": "a journey or voyage undertaken by a group of people with a particular purpose, especially that of exploration, scientific research, or war.",
+    "pos": "noun"
+}, {
+    "en": "abstain",
+    "tr": "çekimser kalmak",
+    "def": "restrain oneself from doing or enjoying something.",
+    "pos": "verb"
+}, {
+    "en": "assess",
+    "tr": "değer biçmek",
+    "def": "evaluate or estimate the nature, ability, or quality of.",
+    "pos": "verb"
+}, {
+    "en": "conversation",
+    "tr": "diyalog",
+    "def": "a talk, especially an informal one, between two or more people, in which news and ideas are exchanged.",
+    "pos": "noun"
+}, {
+    "en": "pest",
+    "tr": "haşere",
+    "def": "a destructive insect or other animal that attacks crops, food, livestock, etc.",
+    "pos": "noun"
+}, {
+    "en": "temporary",
+    "tr": "geçici",
+    "def": "lasting for only a limited period of time; not permanent.",
+    "pos": "adjective"
+}, {
+    "en": "observe",
+    "tr": "gözlemlemek",
+    "def": "notice or perceive (something) and register it as being significant.",
+    "pos": "verb"
+}, {
+    "en": "absolute",
+    "tr": "mutlak",
+    "def": "not qualified or diminished in any way; total.",
+    "pos": "adjective"
+}, {
+    "en": "accountant",
+    "tr": "muhasebeci",
+    "def": "a person whose job is to keep, inspect, and analyse financial accounts.",
+    "pos": "noun"
+}, {
+    "en": "commitment",
+    "tr": "bağlılık",
+    "def": "the state or quality of being dedicated to a cause, activity, etc.",
+    "pos": "noun"
+}, {
+    "en": "adore",
+    "tr": "hayranlık duymak",
+    "def": "love and respect (someone) deeply.",
+    "pos": "verb"
+}, {
+    "en": "furious",
+    "tr": "çok öfkeli",
+    "def": "extremely angry.",
+    "pos": "adjective"
+}, {
+    "en": "passionate",
+    "tr": "tutkulu",
+    "def": "showing or caused by strong feelings or a strong belief.",
+    "pos": "adjective"
+}, {
+    "en": "compassionate",
+    "tr": "merhametli, şefkatli",
+    "def": "feeling or showing sympathy and concern for others.",
+    "pos": "adjective"
+}, {
+    "en": "recent",
+    "tr": "son",
+    "def": "having happened, begun, or been done not long ago or not long before; belonging to a past period of time comparatively close to the present.",
+    "pos": "adjective"
 }]
