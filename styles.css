@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-html, body {
+html {
     height: 100%;
 }
 
@@ -17,6 +17,7 @@ body {
     background-color: var(--bg-clr);
     grid-template-columns: auto minmax(0, 1fr);
     grid-template-rows: 1fr;
+    min-height: 100%;
 }
 
 @media screen and (max-width: 450px) {
