@@ -57,16 +57,20 @@
     "tr": "Pazar   (7)"
 }, {
     "en": "nephew",
-    "tr": "yeğen (erkek)"
+    "tr": "yeğen (erkek)",
+    "def": "a son of one's brother or sister, or of one's brother-in-law or sister-in-law.",
+    "pos": "noun"
 }, {
-    "en": "neiece",
-    "tr": "yeğen (kız)"
+    "en": "niece",
+    "tr": "yeğen (kız)",
+    "def": "a daughter of one's brother or sister, or of one's brother-in-law or sister-in-law.",
+    "pos": "noun"
 }, {
     "en": "draft",
     "tr": "taslak"
 }, {
     "en": "brass",
-    "tr": "prinçten yapılmış"
+    "tr": "pirinçten yapılmış"
 }, {
     "en": "aisle",
     "tr": "koridor",
@@ -178,6 +182,11 @@
     "tr": "korumak",
     "def": "maintain (something) in its original or existing state.",
     "pos": "verb"
+}, {
+    "en": "conservation",
+    "tr": "koruma",
+    "def": "prevention of wasteful use of a resource.",
+    "pos": "noun"
 }, {
     "en": "zealously",
     "tr": "şevkle"
@@ -500,6 +509,11 @@
     "tr": "kaynatmak",
     "img": "/assets/images/projects/language-app/boil.gif"
 }, {
+    "en": "grain",
+    "tr": "tahıl",
+    "def": "wheat or any other cultivated cereal crop used as food.",
+    "pos": "noun"
+}, {
     "en": "fine grained",
     "tr": "ince taneli"
 }, {
@@ -510,6 +524,11 @@
 }, {
     "en": "coarse grained",
     "tr": "kaba taneli"
+}, {
+    "en": "course",
+    "tr": "kurs, ders",
+    "def": "the route or direction followed by a ship, aircraft, road, or river.",
+    "pos": "noun"
 }, {
     "en": "dispose",
     "tr": "elden çıkarmak"
@@ -647,8 +666,15 @@
     "def": "a limitation or restriction.",
     "pos": "noun"
 }, {
+    "en": "definitely",
+    "tr": "kesinlikle",
+    "def": "without doubt (used for emphasis).",
+    "pos": "adverb"
+}, {
     "en": "certainly",
-    "tr": "kesinlikle"
+    "tr": "kesinlikle",
+    "def": "undoubtedly; definitely; surely.",
+    "pos": "adverb"
 }, {
     "en": "currently",
     "tr": "şu anda"
@@ -735,6 +761,11 @@
     "en": "leap",
     "tr": "sıçramak",
     "def": "jump or spring a long way, to a great height, or with great force."
+}, {
+    "en": "invent",
+    "tr": "icat etmek",
+    "def": "create or design (something that has not existed before); be the originator of.",
+    "pos": "verb"
 }, {
     "en": "invention",
     "tr": "buluş"
@@ -1046,8 +1077,15 @@
     "tr": "garip fikirleri olan",
     "def": "playfully quaint or fanciful, especially in an appealing and amusing way."
 }, {
+    "en": "exception",
+    "tr": "istisna",
+    "def": "a person or thing that is excluded from a general statement or does not follow a rule.",
+    "pos": "noun"
+}, {
     "en": "exceptional",
-    "tr": "fevkalade, müstesna"
+    "tr": "fevkalade, müstesna",
+    "def": "unusual; not typical.",
+    "pos": "adjective"
 }, {
     "en": "exaggerate",
     "tr": "abartmak",
@@ -1863,6 +1901,11 @@
     "en": "tomorrow",
     "tr": "yarın"
 }, {
+    "en": "independent",
+    "tr": "bağımsız",
+    "def": "free from outside control; not depending on another's authority.",
+    "pos": "adjective"
+}, {
     "en": "independence",
     "tr": "bağımsızlık",
     "def": "the fact or state of being independent.",
@@ -2373,7 +2416,7 @@
     "pos": "noun"
 }, {
     "en": "quantity",
-    "tr": "miktar",
+    "tr": "miktar, nicelik",
     "def": "the amount or number of a material or immaterial thing not usually estimated by spatial measurement.",
     "pos": "noun"
 }, {
@@ -3733,6 +3776,11 @@
     "def": "arranged neatly and in order.",
     "pos": "adjective"
 }, {
+    "en": "perceptive",
+    "tr": "sezigileri kuvvetli",
+    "def": "having or showing sensitive insight.",
+    "pos": "adjective"
+}, {
     "en": "percipient",
     "tr": "çabuk kavrayan",
     "def": "(of a person) having a good understanding of things; perceptive.",
@@ -4456,6 +4504,17 @@
     "def": "showing or caused by strong feelings or a strong belief.",
     "pos": "adjective"
 }, {
+    "en": "compass",
+    "tr": "pusula",
+    "img": "/assets/images/projects/language-app/compass.gif",
+    "def": "an instrument containing a magnetized pointer which shows the direction of magnetic north and bearings from it.",
+    "pos": "noun"
+}, {
+    "en": "compassion",
+    "tr": "merhamet",
+    "def": "sympathetic pity and concern for the sufferings or misfortunes of others.",
+    "pos": "noun"
+}, {
     "en": "compassionate",
     "tr": "merhametli, şefkatli",
     "def": "feeling or showing sympathy and concern for others.",
@@ -4465,4 +4524,214 @@
     "tr": "son",
     "def": "having happened, begun, or been done not long ago or not long before; belonging to a past period of time comparatively close to the present.",
     "pos": "adjective"
+}, {
+    "en": "absorb",
+    "tr": "emmek, soğurmak",
+    "def": "take in or soak up (energy or a liquid or other substance) by chemical or physical action.",
+    "pos": "verb"
+}, {
+    "en": "prefer",
+    "tr": "tercih etmek",
+    "def": "like (one thing or person) better than another or others; tend to choose.",
+    "pos": "verb"
+}, {
+    "en": "preference",
+    "tr": "tercih",
+    "def": "a greater liking for one alternative over another or others.",
+    "pos": "noun"
+}, {
+    "en": "retrieve",
+    "tr": "geri almak",
+    "def": "get or bring (something) back; regain possession of.",
+    "pos": "verb"
+}, {
+    "en": "excerpt",
+    "tr": "alıntı",
+    "def": "a short extract from a film, broadcast, or piece of music or writing.",
+    "pos": "noun"
+}, {
+    "en": "adoption",
+    "tr": "benimseme, evlat edinme",
+    "def": "the action or fact of legally taking another's child and bringing it up as one's own, or the fact of being adopted.",
+    "pos": "noun"
+}, {
+    "en": "abode",
+    "tr": "mesken",
+    "def": "a place of residence; a house or home.",
+    "pos": "noun"
+}, {
+    "en": "censor",
+    "tr": "sansür",
+    "def": "an official who examines material that is about to be released, such as books, movies, news, and art, and suppresses any parts that are considered obscene, politically unacceptable, or a threat to security.",
+    "pos": "noun"
+}, {
+    "en": "gorgeous",
+    "tr": "muhteşem, görkemli",
+    "def": "beautiful; very attractive.",
+    "pos": "adjective"
+}, {
+    "en": "medieval",
+    "tr": "ortaçağa ait",
+    "def": "relating to the Middle Ages.",
+    "pos": "adjective"
+}, {
+    "en": "detention",
+    "tr": "gözaltı",
+    "def": "the action of detaining someone or the state of being detained in official custody, especially as a political prisoner.",
+    "pos": "noun"
+}, {
+    "en": "suddenly",
+    "tr": "aniden, ansızın",
+    "def": "quickly and unexpectedly.",
+    "pos": "adverb"
+}, {
+    "en": "instantly",
+    "tr": "aniden, anında",
+    "def": "at once; immediately.",
+    "pos": "adverb"
+}, {
+    "en": "benefit",
+    "tr": "fayda",
+    "def": "an advantage or profit gained from something.",
+    "pos": "noun"
+}, {
+    "en": "adorn",
+    "tr": "süslemek",
+    "def": "make more beautiful or attractive.",
+    "pos": "verb"
+}, {
+    "en": "across",
+    "tr": "karşısında",
+    "def": "from one side to the other of (a place, area, etc.).",
+    "pos": "preposition"
+}, {
+    "en": "millennium",
+    "tr": "bin yıllık dönem",
+    "def": "a period of a thousand years, especially when calculated from the traditional date of the birth of Christ.",
+    "pos": "noun"
+}, {
+    "en": "accent",
+    "tr": "aksan, vurgu",
+    "def": "a distinctive mode of pronunciation of a language, especially one associated with a particular nation, locality, or social class.",
+    "pos": "noun"
+}, {
+    "en": "transplant",
+    "tr": "nakil",
+    "def": "move or transfer (something) to another place or situation, typically with some effort or upheaval.",
+    "pos": "verb"
+}, {
+    "en": "contraction",
+    "tr": "daralma, büzülme",
+    "def": "the process of becoming smaller.",
+    "pos": "noun"
+}, {
+    "en": "royal",
+    "tr": "kraliyet, asil",
+    "def": "having the status of a king or queen or a member of their family.",
+    "pos": "adjective"
+}, {
+    "en": "disability",
+    "tr": "sakatlık, engellilik hali",
+    "def": "a physical or mental condition that limits a person's movements, senses, or activities.",
+    "pos": "noun"
+}, {
+    "en": "measure",
+    "tr": "ölçmek",
+    "def": "ascertain the size, amount, or degree of (something) by using an instrument or device marked in standard units or by comparing it with an object of known size.",
+    "pos": "verb"
+}, {
+    "en": "obsolete",
+    "tr": "eski, kullanılmayan",
+    "def": "no longer produced or used; out of date.",
+    "pos": "adjective"
+}, {
+    "en": "fearless",
+    "tr": "korkusuz",
+    "def": "lacking fear.",
+    "pos": "adjective"
+}, {
+    "en": "accuse",
+    "tr": "suçlamak",
+    "def": "charge (someone) with an offense or crime.",
+    "pos": "verb"
+}, {
+    "en": "humor",
+    "tr": "mizah",
+    "def": "the quality of being amusing or comic, especially as expressed in literature or speech.",
+    "pos": "noun"
+}, {
+    "en": "indolent",
+    "tr": "tembel",
+    "def": "wanting to avoid activity or exertion; lazy.",
+    "pos": "adjective"
+}, {
+    "en": "stretch",
+    "tr": "uzatmak, germek",
+    "def": "(of something soft or elastic) be made or be capable of being made longer or wider without tearing or breaking.",
+    "pos": "verb"
+}, {
+    "en": "addiction",
+    "tr": "bağımlılık",
+    "def": "the fact or condition of being addicted to a particular substance, thing, or activity.",
+    "pos": "noun"
+}, {
+    "en": "property",
+    "tr": "mülk",
+    "def": "a thing or things belonging to someone; possessions collectively.",
+    "pos": "noun"
+}, {
+    "en": "efficient",
+    "tr": "verimli",
+    "def": "(especially of a system or machine) achieving maximum productivity with minimum wasted effort or expense.",
+    "pos": "adjective"
+}, {
+    "en": "productivity",
+    "tr": "verimlilik, üretkenlik",
+    "def": "the state or quality of producing something, especially crops.",
+    "pos": "noun"
+}, {
+    "en": "cryptic",
+    "tr": "örtülü, şifreli",
+    "def": "having a meaning that is mysterious or obscure.",
+    "pos": "adjective"
+}, {
+    "en": "indefinitely",
+    "tr": "süresiz olarak",
+    "def": "for an unlimited or unspecified period of time.",
+    "pos": "adverb"
+}, {
+    "en": "diverge",
+    "tr": "sapmak, ayrılmak",
+    "def": "(of a road, route, or line) separate from another route, especially a main one, and go in a different direction.",
+    "pos": "verb"
+}, {
+    "en": "magnificent",
+    "tr": "muhteşem, görkemli",
+    "def": "impressively beautiful, elaborate, or extravagant; striking.",
+    "pos": "adjective"
+}, {
+    "en": "enthusiasm",
+    "tr": "heves, coşku",
+    "def": "intense and eager enjoyment, interest, or approval.",
+    "pos": "noun"
+}, {
+    "en": "aggravation",
+    "tr": "kotüleşme, fenalaşma",
+    "def": "an intensification of a negative quality or aspect.",
+    "pos": "noun"
+}, {
+    "en": "deterioration",
+    "tr": "kötüye gitme",
+    "def": "the process of becoming progressively worse.",
+    "pos": "noun"
+}, {
+    "en": "flatten",
+    "tr": "düzleştirmek",
+    "def": "make or become flat or flatter.",
+    "pos": "verb"
+}, {
+    "en": "announcement",
+    "tr": "duyuru",
+    "def": "a public and typically formal statement about a fact, occurrence, or intention.",
+    "pos": "noun"
 }]
