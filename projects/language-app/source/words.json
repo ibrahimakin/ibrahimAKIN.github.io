@@ -1031,6 +1031,11 @@
     "en": "presumptuous",
     "tr": "küstah, haddini bilmez"
 }, {
+    "en": "propose",
+    "tr": "teklif etmek, önermek",
+    "def": "put forward (an idea or plan) for consideration or discussion by others.",
+    "pos": "verb"
+}, {
     "en": "nominate",
     "tr": "aday göstermek",
     "def": "propose or formally enter as a candidate for election or for an honor or award.",
@@ -1463,6 +1468,11 @@
     "en": "current",
     "tr": "elektrik akımı",
     "pos": "noun"
+}, {
+    "en": "severe",
+    "tr": "şiddetli",
+    "def": "(of something bad or undesirable) very great; intense.",
+    "pos": "adjective"
 }, {
     "en": "relieve",
     "tr": "rahatlatmak",
@@ -4734,4 +4744,44 @@
     "tr": "duyuru",
     "def": "a public and typically formal statement about a fact, occurrence, or intention.",
     "pos": "noun"
+}, {
+    "en": "abbreviation",
+    "tr": "kısaltma",
+    "def": "a shortened form of a word or phrase.",
+    "pos": "noun"
+}, {
+    "en": "devise",
+    "tr": "tasarlamak, icat etmek",
+    "def": "plan or invent (a complex procedure, system, or mechanism) by careful thought.",
+    "pos": "verb"
+}, {
+    "en": "gross",
+    "tr": "iğrenç",
+    "def": "(especially of wrongdoing) very obvious and unacceptable; blatant.",
+    "pos": "adjective"
+}, {
+    "en": "bald",
+    "tr": "kel",
+    "def": "having a scalp wholly or partly lacking hair.",
+    "pos": "adjective"
+}, {
+    "en": "prospective",
+    "tr": "muhtemel",
+    "def": "(of a person) expected or expecting to be something particular in the future.",
+    "pos": "adjective"
+}, {
+    "en": "vague",
+    "tr": "üstü kapalı, anlaşılması güç",
+    "def": "of uncertain, indefinite, or unclear character or meaning.",
+    "pos": "adjective"
+}, {
+    "en": "vogue",
+    "tr": "moda",
+    "def": "the prevailing fashion or style at a particular time.",
+    "pos": "noun"
+}, {
+    "en": "prevailing",
+    "tr": "hakim",
+    "def": "existing at a particular time; current.",
+    "pos": "adjective"
 }]

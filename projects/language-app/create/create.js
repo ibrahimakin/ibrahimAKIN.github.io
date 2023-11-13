@@ -54,7 +54,6 @@ function handleCheck(radio) {
 function handleFind(text, lang) {
     text.style.visibility = 'visible';
     let value = lang ? tr : en;
-    find = lang ? 'tr' : 'en';
     if (!source[variant]) {
         text.innerText = `Cannot get ${variant}.`;
         setTimeout(() => text.removeAttribute('style'), 1000);
@@ -64,6 +63,7 @@ function handleFind(text, lang) {
         const arr = source[variant].match(re);
         text.innerText = `Found in ${variant}. ${arr.length}`;
         ul.innerHTML = '';
+        find = lang ? 'tr' : 'en';
         for (const iter of arr) {
             const res = iter.replaceAll(value, `<b>${value}</b>`);
             const pre = document.createElement('pre');
