@@ -3,19 +3,20 @@ const restxt = document.getElementById('restxt');
 const definition = document.getElementById('definition');
 const quote_e = document.getElementById('quote');
 const type_e = document.getElementById('type');
-const typ_e = document.getElementById('typ');               // part of speech - pos
+const typ_e = document.getElementById('typ');                               // part of speech - pos
 const img_e = document.getElementById('img');
 const quo_e = document.getElementById('quo');
 const def_e = document.getElementById('def');
 const imgb = document.getElementById('imgb');
 const tr_e = document.getElementById('tr');
 const en_e = document.getElementById('en');
+const ul = document.querySelector('ul');
 
-let tr = '', en = '', img = '', quo = '', def = '', typ = '';
-let variant = 'word', sentences, words;
+let tr = '', en = '', img = '', quo = '', def = '', typ = '', find = '', variant = 'words';
+const source = { sentences: '', words: '' };
 
-fetch('../source/sentences.json').then(res => res.ok ? res.text() : null).then(data => sentences = data);
-fetch('../source/words.json').then(res => res.ok ? res.text() : null).then(data => words = data);
+fetch('../source/sentences.json').then(res => res.ok ? res.text() : null).then(data => source.sentences = data);
+fetch('../source/words.json').then(res => res.ok ? res.text() : null).then(data => source.words = data);
 
 function handleChange() {
     let image = img.trim().length ? `,\n    "img": "/assets/images/projects/language-app/${img}"` : '';
@@ -27,7 +28,7 @@ function handleChange() {
 
 function handleCheck(radio) {
     variant = radio.value;
-    if (variant === 'word') {
+    if (variant === 'words') {
         quo = '';
         quo_e.value = '';
         imgb.removeAttribute('style');
@@ -45,37 +46,36 @@ function handleCheck(radio) {
         imgb.style.visibility = 'hidden';
         type_e.style.display = 'none';
     }
-    hideInfo(tr_e);
-    hideInfo(en_e);
+    hideInfo(tr_e, 'tr');
+    hideInfo(en_e, 'en');
     handleChange();
 }
 
 function handleFind(text, lang) {
     text.style.visibility = 'visible';
     let value = lang ? tr : en;
-    if (variant === 'word') {
-        if (!words) {
-            text.innerText = 'Cannot get words.';
-            setTimeout(() => text.removeAttribute('style'), 1000);
-        }
-        else if (value.trim().length && words.includes(value))
-            text.innerText = 'Found in words.';
-        else {
-            text.innerText = 'Not found in words.';
-            if (!value.trim().length) setTimeout(() => text.removeAttribute('style'), 1000);
+    if (!source[variant]) {
+        text.innerText = `Cannot get ${variant}.`;
+        setTimeout(() => text.removeAttribute('style'), 1000);
+    }
+    else if (value.trim().length && source[variant].includes(value)) {
+        const re = new RegExp(`\{[^\{]*?${value}(.|\n)*?\}`, 'gm');         // gm -> global, multiline
+        const arr = source[variant].match(re);
+        text.innerText = `Found in ${variant}. ${arr.length}`;
+        ul.innerHTML = '';
+        find = lang ? 'tr' : 'en';
+        for (const iter of arr) {
+            const res = iter.replaceAll(value, `<b>${value}</b>`);
+            const pre = document.createElement('pre');
+            const li = document.createElement('li');
+            pre.innerHTML = res;
+            li.append(pre);
+            ul.append(li);
         }
     }
     else {
-        if (!sentences) {
-            text.innerText = 'Cannot get sentences.';
-            setTimeout(() => text.removeAttribute('style'), 1000);
-        }
-        else if (value.trim().length && sentences.includes(value))
-            text.innerText = 'Found in sentences.';
-        else {
-            text.innerText = 'Not found in sentences.';
-            if (!value.trim().length) setTimeout(() => text.removeAttribute('style'), 1000);
-        }
+        text.innerText = `Not found in ${variant}.`;
+        if (!value.trim().length) setTimeout(() => text.removeAttribute('style'), 1000);
     }
 }
 
@@ -96,8 +96,16 @@ function handleTranslate(key, tl = 'tr') {
                     else {
                         let translation = '';
                         for (let sentence of data.sentences) translation += sentence.trans;
-                        if (tl === 'en') { en_e.value = translation; en = translation; }
-                        else { tr_e.value = translation; tr = translation; }
+                        if (tl === 'en') {
+                            if (translation !== en) {
+                                en_e.value = translation; en = translation;
+                                hideInfo(en_e, tl);
+                            }
+                        }
+                        else if (translation !== tr) {
+                            tr_e.value = translation; tr = translation;
+                            hideInfo(tr_e, tl);
+                        }
                     }
                     handleChange();
                 }
@@ -112,9 +120,9 @@ document.getElementById('tsl').addEventListener('click', () =>
     window.open('https://translate.google.com/?sl=en&tl=tr&text=' + escape(en), '_blank')
 );
 
-en_e.addEventListener('input', e => { en = e.target.value; hideInfo(e.target); handleChange(); });
+en_e.addEventListener('input', e => { en = e.target.value; hideInfo(e.target, 'en'); handleChange(); });
 
-tr_e.addEventListener('input', e => { tr = e.target.value; hideInfo(e.target); handleChange(); });
+tr_e.addEventListener('input', e => { tr = e.target.value; hideInfo(e.target, 'tr'); handleChange(); });
 
 img_e.addEventListener('input', e => { img = e.target.value; handleChange(); });
 
@@ -124,7 +132,10 @@ def_e.addEventListener('input', e => { def = e.target.value; handleChange(); });
 
 typ_e.addEventListener('input', e => { typ = e.target.value; handleChange(); });
 
-function hideInfo(e) { e.nextElementSibling.firstElementChild.removeAttribute('style'); }
+function hideInfo(e, tl) {
+    e.nextElementSibling.firstElementChild.removeAttribute('style');
+    if (find == tl) ul.innerHTML = '';
+}
 
 function handleAutoFill(key) {
     switch (key) {
@@ -137,8 +148,8 @@ function handleAutoFill(key) {
 
 function handleDelete(key) {
     switch (key) {
-        case 'tr': tr_e.value = ''; tr = ''; hideInfo(tr_e); tr_e.focus(); break;
-        case 'en': en_e.value = ''; en = ''; hideInfo(en_e); en_e.focus(); break;
+        case 'tr': tr_e.value = ''; tr = ''; hideInfo(tr_e, key); tr_e.focus(); break;
+        case 'en': en_e.value = ''; en = ''; hideInfo(en_e, key); en_e.focus(); break;
         case 'img': img_e.value = ''; img = ''; img_e.focus(); break;
         case 'quo': quo_e.value = ''; quo = ''; quo_e.focus(); break;
         case 'def': def_e.value = ''; def = ''; def_e.focus(); break;
@@ -154,8 +165,8 @@ function handleClear() {
     typ_e.value = ''; typ = '';
     tr_e.value = ''; tr = '';
     en_e.value = ''; en = '';
-    hideInfo(tr_e);
-    hideInfo(en_e);
+    hideInfo(tr_e, 'tr');
+    hideInfo(en_e, 'en');
     handleChange();
     en_e.focus();
 }
