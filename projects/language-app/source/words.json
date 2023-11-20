@@ -430,8 +430,15 @@
     "en": "hesitant",
     "tr": "tereddütlü"
 }, {
+    "en": "ferocious",
+    "tr": "şiddetli, gaddar",
+    "def": "savagely fierce, cruel, or violent.",
+    "pos": "adjective"
+}, {
     "en": "ferocity",
-    "tr": "gaddarlık"
+    "tr": "gaddarlık",
+    "def": "the state or quality of being ferocious.",
+    "pos": "noun"
 }, {
     "en": "grudge",
     "tr": "kin, garez",
@@ -3511,6 +3518,11 @@
     "def": "inquire too closely into a person's private affairs.",
     "pos": "verb"
 }, {
+    "en": "advice",
+    "tr": "tavsiye",
+    "def": "guidance or recommendations offered with regard to prudent future action.",
+    "pos": "noun"
+}, {
     "en": "counsel",
     "tr": "nasihat",
     "def": "advice, especially that given formally.",
@@ -4784,4 +4796,9 @@
     "tr": "hakim",
     "def": "existing at a particular time; current.",
     "pos": "adjective"
+}, {
+    "en": "authority",
+    "tr": "yetki",
+    "def": "the power or right to give orders, make decisions, and enforce obedience.",
+    "pos": "noun"
 }]
