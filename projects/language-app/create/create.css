@@ -5,6 +5,9 @@
 #root>div {
     display: flex;
     margin: auto;
+}
+
+#root>div:nth-child(2) {
     max-width: 1440px;
 }
 
@@ -76,7 +79,7 @@ label {
     cursor: pointer;
 }
 
-label:has(input) {
+label:not([for]) {
     display: inline-block;
     margin: 20px;
 }
