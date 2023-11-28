@@ -207,7 +207,9 @@
     "tr": "kaçınılmaz"
 }, {
     "en": "devotion",
-    "tr": "özveri"
+    "tr": "özveri",
+    "def": "love, loyalty, or enthusiasm for a person, activity, or cause.",
+    "pos": "noun"
 }, {
     "en": "apart",
     "tr": "ayrı"
@@ -428,7 +430,14 @@
     "tr": "tavır, davranış"
 }, {
     "en": "hesitant",
-    "tr": "tereddütlü"
+    "tr": "tereddütlü",
+    "def": "tentative, unsure, or slow in acting or speaking.",
+    "pos": "adjective"
+}, {
+    "en": "cruel",
+    "tr": "zalim, acımasız",
+    "def": "willfully causing pain or suffering to others, or feeling no concern about it.",
+    "pos": "adjective"
 }, {
     "en": "ferocious",
     "tr": "şiddetli, gaddar",
@@ -702,7 +711,9 @@
     "def": "produce and discharge (something, especially gas or radiation)."
 }, {
     "en": "confidential",
-    "tr": "gizli, özel"
+    "tr": "gizli, özel",
+    "def": "intended to be kept secret.",
+    "pos": "adjective"
 }, {
     "en": "classified",
     "tr": "sınıflandırılmış, gizli",
@@ -803,6 +814,11 @@
     "def": "combining in such a way as to enhance or emphasize the qualities of each other or another.",
     "pos": "adjective"
 }, {
+    "en": "compliment",
+    "tr": "iltifat",
+    "def": "a polite expression of praise or admiration.",
+    "pos": "noun"
+}, {
     "en": "complimentary",
     "tr": "övgü olarak verilen"
 }, {
@@ -864,7 +880,9 @@
     "tr": "tutuşturmak, ateşlemek"
 }, {
     "en": "appreciate",
-    "tr": "takdir etmek"
+    "tr": "takdir etmek",
+    "def": "recognize the full worth of.",
+    "pos": "verb"
 }, {
     "en": "stimulate",
     "tr": "uyarmak, canlandırmak"
@@ -1297,6 +1315,11 @@
     "tr": "gerçek anlamıyla",
     "def": "in a literal manner or sense; exactly.",
     "pos": "adverb"
+}, {
+    "en": "cease",
+    "tr": "son vermek",
+    "def": "bring or come to an end.",
+    "pos": "verb"
 }, {
     "en": "decease",
     "tr": "vefat, ölüm",
@@ -2767,11 +2790,6 @@
     "def": "continue to have (something); keep possession of.",
     "pos": "verb"
 }, {
-    "en": "cease",
-    "tr": "son vermek",
-    "def": "bring or come to an end.",
-    "pos": "verb"
-}, {
     "en": "deviation",
     "tr": "sapma",
     "def": "the action of departing from an established course or accepted standard.",
@@ -3763,6 +3781,11 @@
     "def": "relating to or denoting a region or climate characterized by mild temperatures.",
     "pos": "adjective"
 }, {
+    "en": "temperature",
+    "tr": "sıcaklık",
+    "def": "the degree or intensity of heat present in a substance or object, especially as expressed according to a comparative scale and shown by a thermometer or perceived by touch.",
+    "pos": "noun"
+}, {
     "en": "delicate",
     "tr": "narin",
     "def": "very fine in texture or structure; of intricate workmanship or quality.",
@@ -3813,6 +3836,11 @@
     "def": "lower in rank or position.",
     "pos": "adjective"
 }, {
+    "en": "explicit",
+    "tr": "açık",
+    "def": "stated clearly and in detail, leaving no room for confusion or doubt.",
+    "pos": "adjective"
+}, {
     "en": "implicit",
     "tr": "örtülü",
     "def": "implied though not plainly expressed.",
@@ -3822,6 +3850,11 @@
     "tr": "gözünü korkutmak",
     "def": "frighten or overawe (someone), especially in order to make them do what one wants.",
     "pos": "verb"
+}, {
+    "en": "intimidated",
+    "tr": "gözü korkmuş",
+    "def": "frighten or overawe (someone), especially in order to make them do what one wants.",
+    "pos": "adjective"
 }, {
     "en": "clever",
     "tr": "zeki",
@@ -4441,6 +4474,11 @@
     "def": "giving or showing firm and constant support or allegiance to a person or institution.",
     "pos": "adjective"
 }, {
+    "en": "loyalty",
+    "tr": "bağlılık",
+    "def": "the quality of being loyal.",
+    "pos": "noun"
+}, {
     "en": "ensure",
     "tr": "emin olmak",
     "def": "make certain that (something) shall occur or be the case.",
@@ -4489,6 +4527,11 @@
     "en": "temporary",
     "tr": "geçici",
     "def": "lasting for only a limited period of time; not permanent.",
+    "pos": "adjective"
+}, {
+    "en": "tentative",
+    "tr": "deneme olarak yapılan",
+    "def": "not certain or fixed; provisional.",
     "pos": "adjective"
 }, {
     "en": "observe",
@@ -4801,4 +4844,209 @@
     "tr": "yetki",
     "def": "the power or right to give orders, make decisions, and enforce obedience.",
     "pos": "noun"
+}, {
+    "en": "succession",
+    "tr": "birbirini izleme",
+    "def": "a number of people or things sharing a specified characteristic and following one after the other.",
+    "pos": "noun"
+}, {
+    "en": "ragged",
+    "tr": "yırtık pırtık",
+    "def": "(of cloth or clothes) old and torn.",
+    "pos": "adjective"
+}, {
+    "en": "convene",
+    "tr": "toplanmak",
+    "def": "come or bring together for a meeting or activity; assemble.",
+    "pos": "verb"
+}, {
+    "en": "mitigate",
+    "tr": "hafifletmek",
+    "def": "make less severe, serious, or painful.",
+    "pos": "verb"
+}, {
+    "en": "companion",
+    "tr": "arkadaş",
+    "def": "a person or animal with whom one spends a lot of time or with whom one travels.",
+    "pos": "noun"
+}, {
+    "en": "struggle",
+    "tr": "çabalamak",
+    "def": "make forceful or violent efforts to get free of restraint or constriction.",
+    "pos": "verb"
+}, {
+    "en": "lately",
+    "tr": "son zamanlarda",
+    "def": "recently; not long ago.",
+    "pos": "adverb"
+}, {
+    "en": "personable",
+    "tr": "yakışıklı",
+    "def": "(of a person) having a pleasant appearance and manner.",
+    "pos": "adjective"
+}, {
+    "en": "strenuous",
+    "tr": "yorucu",
+    "def": "requiring or using great exertion.",
+    "pos": "adjective"
+}, {
+    "en": "assure",
+    "tr": "garanti etmek",
+    "def": "tell someone something positively or confidently to dispel any doubts they may have.",
+    "pos": "verb"
+}, {
+    "en": "concede",
+    "tr": "teslim olmak",
+    "def": "admit that something is true or valid after first denying or resisting it.",
+    "pos": "verb"
+}, {
+    "en": "poignant",
+    "tr": "dokunaklı",
+    "def": "evoking a keen sense of sadness or regret.",
+    "pos": "adjective"
+}, {
+    "en": "tenacious",
+    "tr": "vazgeçmeyen, inatçı",
+    "def": "tending to keep a firm hold of something; clinging or adhering closely.",
+    "pos": "adjective"
+}, {
+    "en": "bombard",
+    "tr": "bombardıman",
+    "def": "attack (a place or person) continuously with bombs, shells, or other missiles.",
+    "pos": "verb"
+}, {
+    "en": "strength",
+    "tr": "kuvvet",
+    "def": "the quality or state of being physically strong.",
+    "pos": "noun"
+}, {
+    "en": "barely",
+    "tr": "zar zor",
+    "def": "only just; almost not.",
+    "pos": "adverb"
+}, {
+    "en": "surreal",
+    "tr": "gerçeküstü",
+    "def": "having the qualities of surrealism; bizarre.",
+    "pos": "adjective"
+}, {
+    "en": "terrific",
+    "tr": "müthiş",
+    "def": "of great size, amount, or intensity.",
+    "pos": "adjective"
+}, {
+    "en": "indigestion",
+    "tr": "hazımsızlık",
+    "def": "pain or discomfort in the stomach associated with difficulty in digesting food.",
+    "pos": "noun"
+}, {
+    "en": "pundit",
+    "tr": "uzman",
+    "def": "an expert in a particular subject or field who is frequently called on to give opinions about it to the public.",
+    "pos": "noun"
+}, {
+    "en": "ensue",
+    "tr": "sonucu olmak",
+    "def": "happen or occur afterward or as a result.",
+    "pos": "verb"
+}, {
+    "en": "unanimous",
+    "tr": "oybirliğiyle alınmış",
+    "def": "(of two or more people) fully in agreement.",
+    "pos": "adjective"
+}, {
+    "en": "admission",
+    "tr": "kabul, giriş",
+    "def": "a statement acknowledging the truth of something.",
+    "pos": "noun"
+}, {
+    "en": "auspicious",
+    "tr": "uğurlu",
+    "def": "conducive to success; favorable.",
+    "pos": "adjective"
+}, {
+    "en": "affliction",
+    "tr": "ızdırap",
+    "def": "something that causes pain or suffering.",
+    "pos": "noun"
+}, {
+    "en": "capable",
+    "tr": "yetenekli",
+    "def": "having the ability, fitness, or quality necessary to do or achieve a specified thing.",
+    "pos": "adjective"
+}, {
+    "en": "indignation",
+    "tr": "öfke",
+    "def": "anger or annoyance provoked by what is perceived as unfair treatment.",
+    "pos": "noun"
+}, {
+    "en": "broad",
+    "tr": "geniş",
+    "def": "having an ample distance from side to side; wide.",
+    "pos": "adjective"
+}, {
+    "en": "reinforce",
+    "tr": "pekiştirmek",
+    "def": "strengthen or support (an object or substance), especially with additional material.",
+    "pos": "verb"
+}, {
+    "en": "propitious",
+    "tr": "elverişli",
+    "def": "giving or indicating a good chance of success; favorable.",
+    "pos": "adjective"
+}, {
+    "en": "authentic",
+    "tr": "otantik",
+    "def": "of undisputed origin; genuine.",
+    "pos": "adjective"
+}, {
+    "en": "presence",
+    "tr": "mevcudiyet",
+    "def": "the state or fact of existing, occurring, or being present in a place or thing.",
+    "pos": "noun"
+}, {
+    "en": "statement",
+    "tr": "ifade, beyan",
+    "def": "a definite or clear expression of something in speech or writing.",
+    "pos": "noun"
+}, {
+    "en": "discretion",
+    "tr": "takdir yetkisi",
+    "def": "the quality of behaving or speaking in such a way as to avoid causing offense or revealing private information.",
+    "pos": "noun"
+}, {
+    "en": "immaculate",
+    "tr": "tertemiz",
+    "def": "(especially of a person or their clothes) perfectly clean, neat, or tidy.",
+    "pos": "adjective"
+}, {
+    "en": "acclaim",
+    "tr": "alkışlarla karşılamak",
+    "def": "praise enthusiastically and publicly.",
+    "pos": "verb"
+}, {
+    "en": "inexplicable",
+    "tr": "açıklanamaz",
+    "def": "unable to be explained or accounted for.",
+    "pos": "adjective"
+}, {
+    "en": "massive",
+    "tr": "iri, çok büyük",
+    "def": "large and heavy or solid.",
+    "pos": "adjective"
+}, {
+    "en": "wise",
+    "tr": "bilge",
+    "def": "having or showing experience, knowledge, and good judgment.",
+    "pos": "adjective"
+}, {
+    "en": "emerge",
+    "tr": "meydana gelmek",
+    "def": "move out of or away from something and come into view.",
+    "pos": "verb"
+}, {
+    "en": "splendid",
+    "tr": "görkemli",
+    "def": "magnificent; very impressive.",
+    "pos": "adjective"
 }]
