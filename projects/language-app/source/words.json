@@ -336,8 +336,10 @@
     "en": "to recap",
     "tr": "özetlemek"
 }, {
-    "en": "to revise",
-    "tr": "revize etmek, gözden geçirmek"
+    "en": "revise",
+    "tr": "revize etmek, gözden geçirmek",
+    "def": "re-examine and make alterations to (written or printed matter).",
+    "pos": "verb"
 }, {
     "en": "to discuss",
     "tr": "tartışmak"
@@ -584,7 +586,9 @@
     "tr": "raf"
 }, {
     "en": "conduct",
-    "tr": "yönetmek"
+    "tr": "yürütmek, idare etmek",
+    "def": "the manner in which a person behaves, especially on a particular occasion or in a particular context.",
+    "pos": "noun"
 }, {
     "en": "bankrupt",
     "tr": "iflas etmiş",
@@ -2773,6 +2777,11 @@
     "en": "consistent",
     "tr": "tutarlı",
     "def": "acting or done in the same way over time, especially so as to be fair or accurate.",
+    "pos": "adjective"
+}, {
+    "en": "gloomy",
+    "tr": "kasvetli",
+    "def": "dark or poorly lit, especially so as to appear depressing or frightening.",
     "pos": "adjective"
 }, {
     "en": "somber",
@@ -5048,5 +5057,90 @@
     "en": "splendid",
     "tr": "görkemli",
     "def": "magnificent; very impressive.",
+    "pos": "adjective"
+}, {
+    "en": "spontaneous",
+    "tr": "düşünmeden yapılan",
+    "def": "performed or occurring as a result of a sudden inner impulse or inclination and without premeditation or external stimulus.",
+    "pos": "adjective"
+}, {
+    "en": "pole",
+    "tr": "direk",
+    "def": "a long, slender, rounded piece of wood or metal, typically used with one end placed in the ground as a support for something.",
+    "pos": "noun"
+}, {
+    "en": "comparable",
+    "tr": "karşılaştırılabilir",
+    "def": "(of a person or thing) able to be likened to another; similar.",
+    "pos": "adjective"
+}, {
+    "en": "twirl",
+    "tr": "döndürmek",
+    "def": "spin quickly and lightly around, especially repeatedly.",
+    "pos": "verb"
+}, {
+    "en": "twist",
+    "tr": "bükmek",
+    "def": "form into a bent, curling, or distorted shape.",
+    "pos": "verb"
+}, {
+    "en": "narrow",
+    "tr": "dar",
+    "def": "(especially of something that is considerably longer or higher than it is wide) of small width.",
+    "pos": "adjective"
+}, {
+    "en": "admire",
+    "tr": "hayran olmak",
+    "def": "regard (an object, quality, or person) with respect or warm approval.",
+    "pos": "verb"
+}, {
+    "en": "leak",
+    "tr": "sızmak, akmak",
+    "def": "(of a container or covering) accidentally lose or admit contents, especially liquid or gas, through a hole or crack.",
+    "pos": "verb"
+}, {
+    "en": "faith",
+    "tr": "inanç",
+    "def": "complete trust or confidence in someone or something.",
+    "pos": "noun"
+}, {
+    "en": "reasonable",
+    "tr": "mantıklı",
+    "def": "(of a person) having sound judgment; fair and sensible.",
+    "pos": "adjective"
+}, {
+    "en": "adamant",
+    "tr": "kararlı",
+    "def": "refusing to be persuaded or to change one's mind.",
+    "pos": "adjective"
+}, {
+    "en": "consistency",
+    "tr": "tutarlılık",
+    "def": "conformity in the application of something, typically that which is necessary for the sake of logic, accuracy, or fairness.",
+    "pos": "noun"
+}, {
+    "en": "deduction",
+    "tr": "çıkarım, sonuç",
+    "def": "the action of deducting or subtracting something.",
+    "pos": "noun"
+}, {
+    "en": "messy",
+    "tr": "dağınık",
+    "def": "untidy or dirty.",
+    "pos": "adjective"
+}, {
+    "en": "disappointed",
+    "tr": "hayal kırıklığına uğramış",
+    "def": "(of a person) sad or displeased because someone or something has failed to fulfill one's hopes or expectations.",
+    "pos": "adjective"
+}, {
+    "en": "loan",
+    "tr": "borç",
+    "def": "a thing that is borrowed, especially a sum of money that is expected to be paid back with interest.",
+    "pos": "noun"
+}, {
+    "en": "nosy",
+    "tr": "meraklı",
+    "def": "showing too much curiosity about other people's affairs.",
     "pos": "adjective"
 }]
