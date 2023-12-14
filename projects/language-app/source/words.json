@@ -131,7 +131,9 @@
     "img": "/assets/images/projects/language-app/walnut.jpg"
 }, {
     "en": "subconscious",
-    "tr": "bilinçaltı"
+    "tr": "bilinçaltı",
+    "def": "of or concerning the part of the mind of which one is not fully aware but which influences one's actions and feelings.",
+    "pos": "adjective"
 }, {
     "en": "colossal",
     "tr": "devasa",
@@ -354,7 +356,9 @@
     "tr": "ev işleri"
 }, {
     "en": "intuition",
-    "tr": "sezgi"
+    "tr": "sezgi",
+    "def": "the ability to understand something immediately, without the need for conscious reasoning.",
+    "pos": "noun"
 }, {
     "en": "intuitive",
     "tr": "sezgisel"
@@ -1841,6 +1845,16 @@
     "tr": "tanıdık, aşina",
     "def": "well known from long or close association.",
     "pos": "adjective"
+}, {
+    "en": "inception",
+    "tr": "başlangıç",
+    "def": "the establishment or starting point of an institution or activity.",
+    "pos": "noun"
+}, {
+    "en": "commencement",
+    "tr": "başlangıç",
+    "def": "a beginning or start.",
+    "pos": "noun"
 }, {
     "en": "origin",
     "tr": "menşei, başlangıç noktası",
@@ -3435,7 +3449,7 @@
     "pos": "adjective"
 }, {
     "en": "diminish",
-    "tr": "azaltmak",
+    "tr": "azaltmak, eksiltmek",
     "def": "make or become less.",
     "pos": "verb"
 }, {
@@ -4192,11 +4206,6 @@
     "tr": "nihai, en üst düzey",
     "def": "the best achievable or imaginable of its kind.",
     "pos": "adjective"
-}, {
-    "en": "inception",
-    "tr": "başlangıç",
-    "def": "the establishment or starting point of an institution or activity.",
-    "pos": "noun"
 }, {
     "en": "hare",
     "tr": "yabani tavşan",
@@ -5142,5 +5151,10 @@
     "en": "nosy",
     "tr": "meraklı",
     "def": "showing too much curiosity about other people's affairs.",
+    "pos": "adjective"
+}, {
+    "en": "feline",
+    "tr": "kedi",
+    "def": "relating to or affecting cats or other members of the cat family.",
     "pos": "adjective"
 }]
