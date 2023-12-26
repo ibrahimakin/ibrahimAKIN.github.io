@@ -5198,4 +5198,9 @@
     "img": "/assets/images/projects/language-app/skyscraper.jpg",
     "def": "a very tall building of many stories.",
     "pos": "noun"
+}, {
+    "en": "confer",
+    "tr": "müzakere etmek",
+    "def": "grant or bestow (a title, degree, benefit, or right).",
+    "pos": "verb"
 }]
