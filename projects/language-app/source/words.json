@@ -131,7 +131,9 @@
     "img": "/assets/images/projects/language-app/walnut.jpg"
 }, {
     "en": "subconscious",
-    "tr": "bilinçaltı"
+    "tr": "bilinçaltı",
+    "def": "of or concerning the part of the mind of which one is not fully aware but which influences one's actions and feelings.",
+    "pos": "adjective"
 }, {
     "en": "colossal",
     "tr": "devasa",
@@ -354,7 +356,9 @@
     "tr": "ev işleri"
 }, {
     "en": "intuition",
-    "tr": "sezgi"
+    "tr": "sezgi",
+    "def": "the ability to understand something immediately, without the need for conscious reasoning.",
+    "pos": "noun"
 }, {
     "en": "intuitive",
     "tr": "sezgisel"
@@ -1841,6 +1845,16 @@
     "tr": "tanıdık, aşina",
     "def": "well known from long or close association.",
     "pos": "adjective"
+}, {
+    "en": "inception",
+    "tr": "başlangıç",
+    "def": "the establishment or starting point of an institution or activity.",
+    "pos": "noun"
+}, {
+    "en": "commencement",
+    "tr": "başlangıç",
+    "def": "a beginning or start.",
+    "pos": "noun"
 }, {
     "en": "origin",
     "tr": "menşei, başlangıç noktası",
@@ -3435,7 +3449,7 @@
     "pos": "adjective"
 }, {
     "en": "diminish",
-    "tr": "azaltmak",
+    "tr": "azaltmak, eksiltmek",
     "def": "make or become less.",
     "pos": "verb"
 }, {
@@ -4192,11 +4206,6 @@
     "tr": "nihai, en üst düzey",
     "def": "the best achievable or imaginable of its kind.",
     "pos": "adjective"
-}, {
-    "en": "inception",
-    "tr": "başlangıç",
-    "def": "the establishment or starting point of an institution or activity.",
-    "pos": "noun"
 }, {
     "en": "hare",
     "tr": "yabani tavşan",
@@ -5143,4 +5152,65 @@
     "tr": "meraklı",
     "def": "showing too much curiosity about other people's affairs.",
     "pos": "adjective"
+}, {
+    "en": "feline",
+    "tr": "kedi",
+    "def": "relating to or affecting cats or other members of the cat family.",
+    "pos": "adjective"
+}, {
+    "en": "reckon",
+    "tr": "tahmin etmek",
+    "def": "establish by counting or calculation; calculate.",
+    "pos": "verb"
+}, {
+    "en": "oasis",
+    "tr": "vaha",
+    "def": "a fertile spot in a desert, where water is found.",
+    "pos": "noun"
+}, {
+    "en": "summit",
+    "tr": "zirve, dağ zirvesi",
+    "def": "the highest point of a hill or mountain.",
+    "pos": "noun"
+}, {
+    "en": "supposedly",
+    "tr": "sözde",
+    "def": "according to what is generally assumed or believed (often used to indicate that the speaker doubts the truth of the statement).",
+    "pos": "adverb"
+}, {
+    "en": "raw",
+    "tr": "çiğ",
+    "def": "(of food) uncooked.",
+    "pos": "adjective"
+}, {
+    "en": "resolve",
+    "tr": "çözmek",
+    "def": "settle or find a solution to (a problem, dispute, or contentious matter).",
+    "pos": "verb"
+}, {
+    "en": "implement",
+    "tr": "uygulamak",
+    "def": "a tool, utensil, or other piece of equipment, especially as used for a particular purpose.",
+    "pos": "noun"
+}, {
+    "en": "skyscraper",
+    "tr": "gökdelen",
+    "img": "/assets/images/projects/language-app/skyscraper.jpg",
+    "def": "a very tall building of many stories.",
+    "pos": "noun"
+}, {
+    "en": "confer",
+    "tr": "müzakere etmek",
+    "def": "grant or bestow (a title, degree, benefit, or right).",
+    "pos": "verb"
+}, {
+    "en": "propriety",
+    "tr": "görgü kurallarına uygunluk",
+    "def": "the state or quality of conforming to conventionally accepted standards of behavior or morals.",
+    "pos": "noun"
+}, {
+    "en": "affection",
+    "tr": "alaka, düşkünlük",
+    "def": "a gentle feeling of fondness or liking.",
+    "pos": "noun"
 }]
