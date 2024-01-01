@@ -9,7 +9,7 @@ class Sidenav extends HTMLElement {
                         <span lang-tag="nav_home">Home</span>
                     </div>
                     <div></div>
-                    <div class="menu">
+                    <div class="menu hvr">
                         <input title="Projects" class="pin-menu" type="checkbox" lang-tag="projects" tabindex="-1">
                         <div class="filled project"></div>
                         <span lang-tag="projects">Projects</span>
@@ -36,7 +36,7 @@ class Sidenav extends HTMLElement {
                             </div>
                         </div>
                     </div>
-                    <div class="menu">
+                    <div class="menu hvr">
                         <input title="Games" class="pin-menu" type="checkbox" lang-tag="games" tabindex="-1">
                         <div class="filled games"></div>
                         <span lang-tag="games">Games</span>
@@ -71,7 +71,7 @@ class Sidenav extends HTMLElement {
                         <a title="Blog" class="filled blog" href="/blog"></a>
                         <span>Blog</span>
                     </div>
-                    <div class="menu">
+                    <div class="menu hvr">
                         <input title="Settings" class="pin-menu" type="checkbox" lang-tag="settings" tabindex="-1">
                         <div class="filled settings"></div>
                         <span lang-tag="settings">Settings</span>
@@ -91,11 +91,25 @@ class Sidenav extends HTMLElement {
         `;
         const pins = this.getElementsByClassName('pin-menu');
         for (const pin of pins) {
-            pin.addEventListener('touchstart', () => this.touch = true);
+            pin.addEventListener('touchstart', e => {
+                if (e.target.open || e.target.checked) {
+                    e.target.parentElement.classList.remove('hvr');
+                    delete e.target.open;
+                }
+                else {
+                    e.target.parentElement.classList.add('hvr');
+                    e.target.open = true;
+                }
+                e.target.touch = true;
+            });
             pin.addEventListener('change', e => {
-                for (const p of pins) if (this.touch || e.target !== p) p.checked = false;
-                delete this.touch;
+                for (const p of pins) if (e.target.touch || e.target !== p) p.checked = false;
                 e.target.blur();
+            });
+            pin.parentElement.addEventListener('mouseleave', e => {
+                delete e.target.firstElementChild.touch;
+                delete e.target.firstElementChild.open;
+                e.target.classList.add('hvr');
             });
         }
     }

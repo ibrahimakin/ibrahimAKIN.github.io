@@ -162,8 +162,9 @@
 }
 
 #collapse:hover+.filled,
-.pin-menu:hover+.filled,
-.main .filled:hover {
+.menu.hvr>.pin-menu:hover+.filled,
+.main .menu.hvr .filled:hover,
+.main :not(.menu) .filled:hover {
     box-shadow: inset 0 0 0 0 #000;
 }
 
@@ -271,13 +272,15 @@
 }
 
 .main>.menu>.expand .filled:hover.filled::before,
-.main .pin-menu:hover+.filled::before,
-.main .filled:hover.filled::before {
+.main .menu.hvr>.pin-menu:hover+.filled::before,
+.main .menu.hvr>.filled:hover.filled::before,
+.main :not(.menu)>.filled:hover.filled::before {
     background-color: #000;
     transform: scale(1.25) translateY(-5px);
 }
 
-#topnav .filled:hover.filled::before {
+#topnav .menu.hvr>.filled:hover.filled::before,
+#topnav :not(.menu) .filled:hover.filled::before {
     transform: scale(1.25);
 }
 

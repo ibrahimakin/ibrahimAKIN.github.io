@@ -7,7 +7,7 @@ class Topnav extends HTMLElement {
                     <a title="Home" class="filled home" href="/" lang-tag="nav_home"></a>
                 </div>
                 <div></div>
-                <div class="menu">
+                <div class="menu hvr">
                     <div title="Projects" class="filled project" lang-tag="projects"></div>
                     <div class="expand">
                         <div>
@@ -27,7 +27,7 @@ class Topnav extends HTMLElement {
                         </div>
                     </div>
                 </div>
-                <div class="menu">
+                <div class="menu hvr">
                     <div title="Games" class="filled games" lang-tag="games"></div>
                     <div class="expand">
                         <div>
@@ -53,7 +53,7 @@ class Topnav extends HTMLElement {
                 <div>
                     <a title="Blog" class="filled blog" href="/blog"></a>
                 </div>
-                <div class="menu">
+                <div class="menu hvr">
                     <div title="Settings" class="filled settings" lang-tag="settings"></div>
                     <div class="expand">
                         <div>
@@ -66,6 +66,23 @@ class Topnav extends HTMLElement {
                 </div>
             </div>
         `;
+        const pins = this.getElementsByClassName('menu');
+        for (const pin of pins) {
+            pin.addEventListener('touchstart', e => {
+                if (e.target.getAttribute('open')) {
+                    e.target.parentElement.classList.remove('hvr');
+                    e.target.removeAttribute('open');
+                }
+                else {
+                    e.target.parentElement.classList.add('hvr');
+                    e.target.setAttribute('open', true);
+                }
+            });
+            pin.addEventListener('mouseleave', e => {
+                e.target.firstElementChild.removeAttribute('open');
+                e.target.classList.add('hvr');
+            });
+        }
     }
 }
 customElements.define('top-nav', Topnav);

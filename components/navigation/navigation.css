@@ -19,10 +19,6 @@
     display: block;
 }
 
-.menu:focus-within>.expand, .menu:hover>.expand {
-    opacity: 1;
-}
-
 .expand {
     width: 100%;
     position: absolute;
