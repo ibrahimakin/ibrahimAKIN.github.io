@@ -16,8 +16,9 @@ top-nav {
 }
 
 #topnav .menu:focus-within>.expand,
-#topnav .menu:hover>.expand {
+#topnav .menu.hvr:hover>.expand {
     height: 100%;
+    opacity: 1;
     top: 100%;
 }
 

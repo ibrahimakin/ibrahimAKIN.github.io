@@ -35,8 +35,9 @@ side-nav {
 }
 
 #sidenav .menu:focus-within>.expand,
-#sidenav .menu:hover>.expand {
+#sidenav .menu.hvr:hover>.expand {
     transition-delay: 0s;
+    opacity: 1;
     left: 100%;
 }
 
@@ -100,7 +101,7 @@ side-nav {
 }
 
 .main .filled:hover+span,
-.main .menu:hover>span,
+.main .menu.hvr:hover>span,
 .pin-menu:checked~span {
     opacity: 1;
 }
@@ -128,8 +129,8 @@ side-nav {
     display: inline;
 }
 
-.menu:hover>.expand>div.up,
-.menu:hover>.expand>div div,
+.menu.hvr:hover>.expand>div.up,
+.menu.hvr:hover>.expand>div div,
 .menu:focus-within>.expand>div.up,
 .menu:focus-within>.expand>div div,
 .pin-menu:checked~.expand>div.up,
