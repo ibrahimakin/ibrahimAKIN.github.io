@@ -16,10 +16,11 @@
 }
 
 #collapse:hover+.filled,
-.pin-menu:hover+.filled,
+.menu.hvr>.pin-menu:hover+.filled,
+:not(.menu)>.filled:hover,
+.menu.hvr>.filled:hover,
 .pin-menu:hover~span,
-.filled:hover+span,
-.filled:hover {
+.filled:hover+span {
     --nav-clr: var(--resume-clr-hvr);
 }
 

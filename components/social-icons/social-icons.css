@@ -152,6 +152,7 @@
 .icon-32:hover { background-color: #d96e26; }
 
 .filled {
+    border-radius: 10px;
     border: 1px solid #fff;
     box-shadow: inset calc(var(--sidenav-width) - 2 * var(--nav-gap)) 0 0 0 #000;
     transition: box-shadow .1s ease-out;
