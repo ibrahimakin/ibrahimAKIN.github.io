@@ -69,17 +69,17 @@ class Topnav extends HTMLElement {
         const pins = this.getElementsByClassName('menu');
         for (const pin of pins) {
             pin.addEventListener('touchstart', e => {
-                if (e.target.getAttribute('open')) {
+                if (e.target.open) {
                     e.target.parentElement.classList.remove('hvr');
-                    e.target.removeAttribute('open');
+                    delete e.target.open;
                 }
                 else {
                     e.target.parentElement.classList.add('hvr');
-                    e.target.setAttribute('open', true);
+                    e.target.open = true;
                 }
             });
             pin.addEventListener('mouseleave', e => {
-                e.target.firstElementChild.removeAttribute('open');
+                delete e.target.firstElementChild.open;
                 e.target.classList.add('hvr');
             });
         }
