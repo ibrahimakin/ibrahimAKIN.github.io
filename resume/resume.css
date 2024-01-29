@@ -351,3 +351,23 @@
         border-color: var(--resume-clr);
     }
 }
+
+@media print {
+    #root {
+        box-shadow: none;
+        max-width: unset;
+    }
+
+    #resume-left {
+        padding-right: 1%;
+        height: 100%;
+    }
+
+    #resume-right>div {
+        padding-left: 1%;
+    }
+
+    .padding {
+        padding: 0;
+    }
+}
