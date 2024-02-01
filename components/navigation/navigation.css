@@ -63,6 +63,12 @@
     }
 }
 
+@media print {
+    top-nav, side-nav {
+        display: none;
+    }
+}
+
 .filled::before {
     content: '';
     background-color: var(--nav-clr);
