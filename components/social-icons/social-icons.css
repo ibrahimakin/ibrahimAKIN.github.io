@@ -1,20 +1,3 @@
-.ir {
-    display: block;
-    overflow: visible;
-    position: relative;
-    padding: 0 0 100%;
-    width: 100%;
-    height: 0;
-}
-
-.ir>* {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-}
-
 .soc {
     display: block;
     font-size: 10px;
@@ -38,17 +21,7 @@
     width: 5em;
 }
 
-.icon-32:hover, .icon-31:hover, .icon-30:hover,
-.icon-29:hover, .icon-28:hover, .icon-27:hover,
-.icon-26:hover, .icon-25:hover, .icon-24:hover,
-.icon-23:hover, .icon-22:hover, .icon-21:hover,
-.icon-20:hover, .icon-19:hover, .icon-18:hover,
-.icon-17:hover, .icon-16:hover, .icon-15:hover,
-.icon-14:hover, .icon-13:hover, .icon-12:hover,
-.icon-11:hover, .icon-10:hover, .icon-9:hover,
-.icon-8:hover, .icon-7:hover, .icon-6:hover,
-.icon-5:hover, .icon-4:hover, .icon-3:hover,
-.icon-2:hover, .icon-1:hover {
+.soc a:hover {
     fill: #000;
     border-radius: 100%;
     transform: scale(1.25);
