@@ -98,6 +98,11 @@ table:last-child th {
     background-size: 84%;
 }
 
+.link-img:nth-child(5) {
+    background-image: url('/assets/images/projects/lcd/windows-badge.png');
+    background-size: 90%;
+}
+
 .link:last-child {
     text-align: center;
     width: 114px;
