@@ -138,3 +138,10 @@ side-nav {
     transition-delay: .1s;
     transform: rotateX(0);
 }
+
+@media screen and (max-height: 450px) {
+    .main div>span {
+        font-size: 12px;
+        height: 16px;
+    }
+}
