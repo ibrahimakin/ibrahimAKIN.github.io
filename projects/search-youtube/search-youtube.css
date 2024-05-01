@@ -1,0 +1,10 @@
+top-nav, side-nav {
+    height: 0;
+    width: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+}

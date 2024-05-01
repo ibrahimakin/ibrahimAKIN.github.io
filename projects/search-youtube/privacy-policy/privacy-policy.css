@@ -1,0 +1,22 @@
+body {
+    color: #fff;
+}
+
+#root {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1em;
+}
+
+p, ul {
+    margin-block: 1em;
+}
+
+ul {
+    padding-inline-start: 40px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
