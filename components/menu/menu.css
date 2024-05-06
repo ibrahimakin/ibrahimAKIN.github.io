@@ -57,6 +57,11 @@
     background-repeat: no-repeat;
     transition: transform 100ms linear;
 }
+.search.card-img,
+.face.card-img {
+    background-color: #fff;
+}
+.search.card-img::before,
 .face.card-img::before {
     content: '';
     display: block;
