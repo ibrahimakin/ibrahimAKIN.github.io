@@ -3,8 +3,18 @@ top-nav, side-nav {
     width: 0;
 }
 
-a {
+body>div {
+    margin: auto;
+    text-align: center;
+}
+
+body>div>a {
+    display: block;
     color: #fff;
     text-decoration: none;
-    margin: auto;
+    margin: 20px;
+}
+
+svg {
+    user-select: none;
 }
