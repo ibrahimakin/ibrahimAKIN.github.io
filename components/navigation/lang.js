@@ -1,7 +1,6 @@
 lang_obj.tr = {
     nav_home: 'Anasayfa',
     projects: 'Projeler',
-    search_youtube: 'YouTube Ara',
     lcd: 'LCD Karakter Hesaplayıcı',
     nav_movies: 'Filmler',
     face_detector: 'Yüz Algılayıcı',
@@ -16,7 +15,6 @@ lang_obj.tr = {
 lang_obj.en = {
     nav_home: 'Home',
     projects: 'Projects',
-    search_youtube: 'Search YouTube',
     lcd: 'LCD Character Generator',
     nav_movies: 'Movies',
     face_detector: 'Face Detector',

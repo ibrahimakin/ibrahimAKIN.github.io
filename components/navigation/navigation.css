@@ -90,6 +90,11 @@
     mask-image: url('/assets/icons/navbar/project-solid.svg');
 }
 
+.search::before {
+    -webkit-mask-image: url('/assets/icons/navbar/search.svg');
+    mask-image: url('/assets/icons/navbar/search.svg');
+}
+
 .smile-n::before {
     -webkit-mask-image: url('/assets/icons/navbar/smile.svg');
     mask-image: url('/assets/icons/navbar/smile.svg');

@@ -11,6 +11,9 @@ class Topnav extends HTMLElement {
                     <div title="Projects" class="filled project" lang-tag="projects"></div>
                     <div class="expand">
                         <div>
+                            <a title="Search YouTube" class="filled search" href="/projects/search-youtube"></a>
+                        </div>
+                        <div>
                             <a title="Language App" class="filled smile-n" href="/projects/language-app"></a>
                         </div>
                         <div>
