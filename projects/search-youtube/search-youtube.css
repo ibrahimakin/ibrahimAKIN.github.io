@@ -12,7 +12,27 @@ body>div>a {
     display: block;
     color: #fff;
     text-decoration: none;
-    margin: 20px;
+    margin: 40px 0;
+}
+
+.link::before {
+    content: '';
+    position: absolute;
+    margin: -12px 0 0 -50px;
+    height: 40px;
+    width: 40px;
+}
+
+.link:nth-child(2)::before {
+    background-image: url('/assets/images/projects/search-youtube/chrome.svg');
+}
+
+.link:nth-child(3)::before {
+    background-image: url('/assets/images/projects/search-youtube/firefox.svg');
+}
+
+.link:nth-child(4)::before {
+    background-image: url('/assets/images/projects/search-youtube/edge.svg');
 }
 
 svg {

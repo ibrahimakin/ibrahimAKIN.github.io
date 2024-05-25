@@ -65,6 +65,7 @@ top-nav, side-nav {
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url('/assets/images/home/iakin_bg.png');
+    background-color: #c5c2bd;
     border: 1px solid #fff;
     border-radius: 50%;
     transition: transform .75s ease-out;

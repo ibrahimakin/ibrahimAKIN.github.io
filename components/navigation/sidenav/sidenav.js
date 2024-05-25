@@ -13,7 +13,11 @@ class Sidenav extends HTMLElement {
                         <input title="Projects" class="pin-menu" type="checkbox" lang-tag="projects" tabindex="-1">
                         <div class="filled project"></div>
                         <span lang-tag="projects">Projects</span>
-                        <div class="expand">
+                        <div class="expand more">
+                            <div class="up">
+                                <a title="Search YouTube" class="filled search" href="/projects/search-youtube"></a>
+                                <span>Search YouTube</span>
+                            </div>
                             <div>
                                 <a title="Language App" class="filled smile-n" href="/projects/language-app"></a>
                                 <span>Language App</span>
