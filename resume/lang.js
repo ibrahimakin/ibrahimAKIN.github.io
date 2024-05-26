@@ -63,7 +63,7 @@ const lang_obj = {
         final_project: 'Final Projesi',
         project: 'Proje',
         r_projects: 'PROJELER',
-        search: 'Search YouTube, YouTube ana sayfasını atlayarak aramalarınızı daha hızlı bulmanıza yardımcı olan bir tarayıcı uzantısıdır. YouTube\'da hızlı bir şekilde arama yapmak için metni seçip sağ tıklayabilir veya uzantı açılır penceresini açabilirsiniz. Ayrıca YouTube Shorts\'u normal videolar olarak açabilirsiniz.',
+        search: 'Search YouTube, YouTube ana sayfasını atlayarak aramalarınızı daha hızlı bulmanıza yardımcı olan bir tarayıcı uzantısıdır. YouTube\'da hızlı bir şekilde arama yapmak için metni seçip sağ tıklayabilir veya uzantı penceresini açabilirsiniz. Ayrıca YouTube Shorts\'u normal video olarak açabilirsiniz.',
         available: 'Şu anda mevcut:',
         store: 'Mağazası',
         add_ons: 'Eklentileri',
