@@ -1,14 +1,31 @@
-top-nav, side-nav {
-    height: 0;
-    width: 0;
-}
-
 body>div {
     margin: auto;
     text-align: center;
+    color: #fff;
 }
 
-body>div>a {
+body>div>div {
+    display: flex;
+    align-items: center;
+}
+
+body>div>div>p,
+body>div>div>div {
+    max-width: 410px;
+    width: 100%;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 32px;
+}
+
+hr {
+    height: 190px;
+    margin: 0 20px;
+}
+
+body>div a {
     display: block;
     color: #fff;
     text-decoration: none;
@@ -23,18 +40,31 @@ body>div>a {
     width: 40px;
 }
 
-.link:nth-child(2)::before {
+.link:nth-child(1)::before {
     background-image: url('/assets/images/projects/search-youtube/chrome.svg');
 }
 
-.link:nth-child(3)::before {
+.link:nth-child(2)::before {
     background-image: url('/assets/images/projects/search-youtube/firefox.svg');
 }
 
-.link:nth-child(4)::before {
+.link:nth-child(3)::before {
     background-image: url('/assets/images/projects/search-youtube/edge.svg');
 }
 
 svg {
     user-select: none;
+}
+
+@media screen and (max-width: 770px) {
+    body>div>div {
+        flex-direction: column;
+    }
+
+    hr {
+        width: 100%;
+        height: 2px;
+        max-width: 290px;
+        margin: 20px 0;
+    }
 }
