@@ -105,7 +105,7 @@ class Sidenav extends HTMLElement {
                     e.target.open = true;
                 }
                 e.target.touch = true;
-            });
+            }, { passive: true });
             pin.addEventListener('change', e => {
                 for (const p of pins) if (e.target.touch || e.target !== p) p.checked = false;
                 e.target.blur();
