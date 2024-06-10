@@ -80,7 +80,7 @@ class Topnav extends HTMLElement {
                     e.target.parentElement.classList.add('hvr');
                     e.target.open = true;
                 }
-            });
+            }, { passive: true });
             pin.addEventListener('mouseleave', e => {
                 delete e.target.firstElementChild.open;
                 e.target.classList.add('hvr');
