@@ -15,25 +15,28 @@
     <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
     <link rel="stylesheet" type="text/css" href="github-followers.css" />
+    <script type="text/javascript" src="lang.js"></script>
+    <script type="text/javascript" src="/components/navigation/lang.js"></script>
     <script type="text/javascript" src="/components/navigation/sidenav/sidenav.js"></script>
     <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
     <script type="text/javascript" defer src="github-followers.js"></script>
+    <script type="text/javascript" defer src="/script.js"></script>
 </head>
 <body>
     <top-nav></top-nav>
     <side-nav></side-nav>
     <div id="root">
         <form onsubmit="handleSubmit(event)">
-            <input type="search" placeholder="username" autofocus required>
-            <button onclick="newtab = false" title="Search"></button>
-            <button onclick="newtab = true" title="Open in New Tab"></button>
+            <input type="search" placeholder="username" lang-tag="username" autofocus required>
+            <button onclick="newtab = false" title="Search" lang-tag="search"></button>
+            <button onclick="newtab = true" title="Open in New Tab" lang-tag="newtab"></button>
         </form>
         <table style="display: none;">
             <thead>
-                <tr><th colspan="2">Difference</th></tr>
+                <tr><th colspan="2" lang-tag="diff">Difference</th></tr>
                 <tr>
-                    <th>Followers <span id="c_dif_followers"></span></th>
-                    <th>Following <span id="c_dif_following"></span></th>
+                    <th><span lang-tag="followers">Followers</span> <span id="c_dif_followers"></span></th>
+                    <th><span lang-tag="following">Following</span> <span id="c_dif_following"></span></th>
                 </tr>
             </thead>
             <tbody>
@@ -43,10 +46,10 @@
                 </tr>
             </tbody>
             <thead>
-                <tr><th colspan="2">All</th></tr>
+                <tr><th colspan="2" lang-tag="all">All</th></tr>
                 <tr>
-                    <th>Followers <span id="c_all_followers"></span></th>
-                    <th>Following <span id="c_all_following"></span></th>
+                    <th><span lang-tag="followers">Followers</span> <span id="c_all_followers"></span></th>
+                    <th><span lang-tag="following">Following</span> <span id="c_all_following"></span></th>
                 </tr>
             </thead>
             <tbody>
