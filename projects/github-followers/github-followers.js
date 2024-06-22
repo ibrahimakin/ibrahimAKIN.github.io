@@ -1,8 +1,7 @@
 const input = document.querySelector('input[type=search]');
 const table = document.getElementsByTagName('table')[0];
 const p = document.getElementsByTagName('p')[0];
-let newtab = false;
-let current = '';
+let newtab = false, cur = '';   // current user
 
 function display(place, data, type) {
     let ul = document.getElementById(type + '_' + place);
@@ -18,7 +17,8 @@ function display(place, data, type) {
         b.value = item.login;
         img.alt = item.login;
         a.target = '_blank';
-        b.title = 'Search';
+        b.title = lang_obj[current]['search'];
+        b.setAttribute('lang-tag', 'search');
         a.prepend(img);
         li.appendChild(a);
         li.appendChild(b);
@@ -93,11 +93,11 @@ async function fetchData(user) {
 }
 
 function setURL(user) {
-    if (current != user) {
+    if (cur != user) {
         let url = new URL(window.location);
         url.searchParams.set('user', user);
         window.history.pushState({}, '', url);
-        current = user;
+        cur = user;
     }
 }
 
@@ -109,7 +109,7 @@ function loadPage() {
     if (value) {
         input.value = value;
         fetchData(value);
-        current = value;
+        cur = value;
     }
 }
 

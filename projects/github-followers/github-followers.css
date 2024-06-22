@@ -26,6 +26,10 @@ input {
     color: #fff;
 }
 
+input::-webkit-search-cancel-button {
+    cursor: pointer;
+}
+
 form>button {
     height: 30px;
     width: 30px;
