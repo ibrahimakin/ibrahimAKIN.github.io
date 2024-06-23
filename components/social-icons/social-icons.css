@@ -162,30 +162,36 @@
 .menu:nth-child(3)>.expand>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(1)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(1)>.filled {
-    background-color: #d9aa26;
+    background-color: #f00;
 }
 .menu:nth-child(3)>.expand>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(2)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(2)>.filled {
+    background-color: #d9aa26;
+}
+.menu:nth-child(3)>.expand>div>div>.filled::before,
+.menu:nth-child(3)>.expand>div>div>.filled,
+.menu:nth-child(3)>.expand>div:nth-child(3)>.filled::before,
+.menu:nth-child(3)>.expand>div:nth-child(3)>.filled {
     background-color: #f94040;
 }
 .menu:nth-child(3)>.expand>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>.filled,
-.menu:nth-child(3)>.expand>div:nth-child(3)>.filled::before,
-.menu:nth-child(3)>.expand>div:nth-child(3)>.filled {
+.menu:nth-child(3)>.expand>div:nth-child(4)>.filled::before,
+.menu:nth-child(3)>.expand>div:nth-child(4)>.filled {
     background-color: #ff7b0a;
 }
 .menu:nth-child(3)>.expand>div>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>div>.filled,
-.menu:nth-child(3)>.expand>div:nth-child(4)>.filled::before,
-.menu:nth-child(3)>.expand>div:nth-child(4)>.filled {
+.menu:nth-child(3)>.expand>div:nth-child(5)>.filled::before,
+.menu:nth-child(3)>.expand>div:nth-child(5)>.filled {
     background-color: #26d94a;
 }
 .menu:nth-child(3)>.expand>div>div>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>div>div>.filled,
-.menu:nth-child(3)>.expand>div:nth-child(5)>.filled::before,
-.menu:nth-child(3)>.expand>div:nth-child(5)>.filled {
+.menu:nth-child(3)>.expand>div:nth-child(6)>.filled::before,
+.menu:nth-child(3)>.expand>div:nth-child(6)>.filled {
     background-color: #39c5a4;
 }
 .menu:nth-child(4)>.filled,

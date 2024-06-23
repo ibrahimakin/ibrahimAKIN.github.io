@@ -1,6 +1,6 @@
 :root {
     --resume-clr: #007070;
-    --resume-clr-hvr: #006060;
+    --resume-hvr: #006060;
     --resume-txt: #f5f5f5;
     --nav-clr: var(--resume-clr);
 }
@@ -21,7 +21,7 @@
 .menu.hvr>.filled:hover,
 .pin-menu:hover~span,
 .filled:hover+span {
-    --nav-clr: var(--resume-clr-hvr);
+    --nav-clr: var(--resume-hvr);
 }
 
 #root {
@@ -228,7 +228,7 @@
 }
 
 #skills>div:hover {
-    background-color: var(--resume-clr-hvr);
+    background-color: var(--resume-hvr);
 }
 
 #interests>div {
@@ -241,8 +241,8 @@
 }
 
 #interests>div:hover {
-    border-color: var(--resume-clr-hvr);
-    color: var(--resume-clr-hvr);
+    border-color: var(--resume-hvr);
+    color: var(--resume-hvr);
 }
 
 .language {
