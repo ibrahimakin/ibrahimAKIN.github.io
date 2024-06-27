@@ -1,0 +1,34 @@
+body>div {
+    margin: auto;
+}
+
+form {
+    margin: auto;
+    color: #fff;
+}
+
+label, button {
+    cursor: pointer;
+}
+
+input, button {
+    padding: 5px;
+    border-radius: 8px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 8px;
+}
+
+p {
+    margin: 20px 0 0 3px;
+    height: 1em;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#0a141d" />
+    <meta name="description" content="Gift Balance" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Gift Balance</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
+    <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="gift-balance.css" />
+    <script type="text/javascript">const lang_obj = {};</script>
+    <script type="text/javascript" src="/components/navigation/lang.js"></script>
+    <script type="text/javascript" src="/components/navigation/sidenav/sidenav.js"></script>
+    <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
+    <script type="text/javascript" defer src="crypto-js-4.2.0.min.js" integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" defer src="gift-balance.js"></script>
+    <script type="text/javascript" defer src="/script.js"></script>
+</head>
+<body>
+    <top-nav></top-nav>
+    <side-nav></side-nav>
+    <div>
+        <form>
+            <label>
+                &nbsp;Card No<br />
+                <input type="text" pattern="\d{16}" minlength="16" maxlength="16" autofocus required />
+            </label><br /><br />
+            <label>
+                &nbsp;Pin<br />
+                <input type="text" pattern="\d{4}" minlength="4" maxlength="4" required />
+            </label><br /><br />
+            <button>Check</button>
+            <p></p>
+        </form>
+        <form class="hidden">
+            <label>
+                &nbsp;Phone<br />
+                <input type="tel" minlength="10" maxlength="10" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" required />
+            </label><br />
+            <button>Send</button>
+        </form>
+        <form class="hidden">
+            <label>
+                &nbsp;SMS Code<br />
+                <input type="text" pattern="\d{6}" minlength="6" maxlength="6" required />
+            </label><br />
+            <button>Send</button>
+        </form>
+    </div>
+</body>
