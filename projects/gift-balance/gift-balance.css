@@ -1,10 +1,7 @@
 body>div {
     margin: auto;
-}
-
-form {
-    margin: auto;
     color: #fff;
+    font-size: large;
 }
 
 label, button {
@@ -18,14 +15,20 @@ input, button {
 
 input {
     margin-top: 5px;
+    font-size: medium;
+    width: 100%;
 }
 
 button {
     margin-top: 8px;
 }
 
+button:disabled {
+    cursor: default;
+}
+
 p {
-    margin: 20px 0 0 3px;
+    margin: 20px 0 0 2px;
     height: 1em;
 }
 

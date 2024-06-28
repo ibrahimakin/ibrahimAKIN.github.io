@@ -32,9 +32,13 @@ if (phone) {
 async function asyncWrapper(e, callback) {
     e.preventDefault();
     if (loading) return;
+    const t = e.target;
+    const b = t[t.length - 1];
+    b.disabled = true;
     loading = true;
     await callback(e);
     loading = false;
+    b.disabled = false;
 }
 
 async function checkBalance(cardNo, pinNo) {
@@ -43,10 +47,13 @@ async function checkBalance(cardNo, pinNo) {
         { method: 'POST', body: JSON.stringify({ cardNo, pin, service: 'ECOM' }), headers: { Authorization: 'Bearer ' + accessToken } })
         .then(res => res.json());
     if (res.balance >= 0) {
-        document.forms[0][2].nextElementSibling.innerText = res.balanceStr;
+        document.forms[0].lastElementChild.innerText = res.balanceStr;
         localStorage.setItem('gift_balance', res.balanceStr);
         localStorage.setItem('gift_card', cardNo);
         localStorage.setItem('gift_pin', pinNo);
+    }
+    else if (res.title) {
+        document.forms[0].lastElementChild.innerText = res.title;
     }
     return res;
 }
@@ -83,7 +90,7 @@ document.forms[0].addEventListener('submit', e => asyncWrapper(e, async e => {
     const pin = e.target[1].value;
     const cardNo = e.target[0].value;
     let res = await checkBalance(cardNo, pin);
-    if (!(res.balance >= 0)) {
+    if (res.details) {
         res = await refreshTokens();
         if (res.accessToken) {
             await checkBalance(cardNo, pin);
