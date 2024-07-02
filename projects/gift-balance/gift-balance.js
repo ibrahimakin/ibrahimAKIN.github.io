@@ -22,7 +22,12 @@ if (lastPin) {
 }
 
 if (balance) {
-    document.forms[0][2].nextElementSibling.innerText = 'Last Balance: ' + balance;
+    const p = document.forms[0].lastElementChild;
+    p.lastChild.setAttribute('lang-tag', 'last');
+    p.lastChild.innerText = lang_obj[current]['last'];
+    const span = document.createElement('span');
+    span.innerText = balance;
+    p.append(span);
 }
 
 if (phone) {

@@ -15,7 +15,7 @@ function display(place, data, type) {
         b.onclick = handleClick;
         a.href = item.html_url;
         b.value = item.login;
-        img.alt = item.login;
+        img.alt = 'avatar';
         a.target = '_blank';
         b.title = lang_obj[current]['search'];
         b.setAttribute('lang-tag', 'search');
