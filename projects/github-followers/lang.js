@@ -6,7 +6,7 @@ const lang_obj = {
         diff: 'Fark',
         all: 'Tümü',
         followers: 'Takipçiler',
-        following: 'Takipler'
+        following: 'Takip Edilenler'
     },
     en: {
         search: 'Search',
