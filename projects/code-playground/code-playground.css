@@ -36,8 +36,12 @@
     background-color: var(--bg-clr);
 }
 
-#code-result {
+iframe {
     background-color: #fff;
+    height: 250px;
+    width: 100%;
+    border: 0;
+    resize: both;
 }
 
 h2 {
@@ -50,10 +54,7 @@ h2 {
     background-color: hsl(220, 16%, 14%);
 }
 
-#root>div:first-of-type {
-    min-height: 378px;
-}
-
+#root>div:nth-of-type(1),
 #root>div:nth-of-type(2),
 #root>div:nth-of-type(3) {
     min-height: 126px;
