@@ -27,6 +27,7 @@
     <top-nav></top-nav>
     <side-nav></side-nav>
     <div>
+        <select><option value="A101">A101</option></select><br /><br />
         <form>
             <label>
                 &nbsp;<span lang-tag="card">Card No</span><br />
@@ -43,14 +44,14 @@
             <label>
                 &nbsp;<span lang-tag="phone">Phone</span><br />
                 <input type="tel" minlength="10" maxlength="10" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" required />
-            </label><br />
+            </label><br /><br />
             <button lang-tag="send">Send</button>
         </form>
         <form class="hidden">
             <label>
                 &nbsp;<span lang-tag="sms">SMS Code</span><br />
                 <input type="text" pattern="\d{6}" minlength="6" maxlength="6" required />
-            </label><br />
+            </label><br /><br />
             <button lang-tag="send">Send</button>
         </form>
     </div>
