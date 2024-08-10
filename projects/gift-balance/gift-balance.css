@@ -25,10 +25,23 @@ input {
 
 button {
     margin-top: 8px;
+    position: relative;
 }
 
 button:disabled {
     cursor: default;
+}
+
+button:disabled::before {
+    content: '⌒';
+    color: #fff;
+    font-weight: 900;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    animation: loading 1s linear infinite;
+    left: 0;
+    top: 0;
 }
 
 p {
@@ -38,4 +51,14 @@ p {
 
 .hidden {
     display: none;
+}
+
+@keyframes loading {
+    from {
+        transform: rotateZ(0);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
 }
