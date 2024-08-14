@@ -54,10 +54,6 @@ p {
 }
 
 @keyframes loading {
-    from {
-        transform: rotateZ(0);
-    }
-
     to {
         transform: rotateZ(360deg);
     }
