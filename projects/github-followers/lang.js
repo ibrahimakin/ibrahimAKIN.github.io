@@ -5,6 +5,7 @@ const lang_obj = {
         username: 'kullanıcı adı',
         diff: 'Fark',
         all: 'Tümü',
+        block: 'Engel',
         followers: 'Takipçiler',
         following: 'Takip Edilenler'
     },
@@ -14,6 +15,7 @@ const lang_obj = {
         username: 'username',
         diff: 'Difference',
         all: 'All',
+        block: 'Block',
         followers: 'Followers',
         following: 'Following'
     }

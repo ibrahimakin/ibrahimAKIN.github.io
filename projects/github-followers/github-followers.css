@@ -78,9 +78,18 @@ button {
     height: 18px;
     cursor: pointer;
     margin-left: 10px;
+    background-color: #fff;
+}
+
+button[lang-tag='search'] {
     -webkit-mask-image: url('/assets/icons/projects/github-followers/search.svg');
     mask-image: url('/assets/icons/projects/github-followers/search.svg');
-    background-color: #fff;
+}
+
+button[lang-tag='block'] {
+    background-color: transparent;
+    color: #fff;
+    border: none;
 }
 
 img {
