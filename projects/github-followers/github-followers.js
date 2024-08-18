@@ -1,33 +1,42 @@
+const blocked = localStorage.getItem('github_blocked')?.split(',') || [];
 const input = document.querySelector('input[type=search]');
 const table = document.getElementsByTagName('table')[0];
 const p = document.getElementsByTagName('p')[0];
 let newtab = false, cur = '';   // current user
 
 function display(place, data, type) {
-    let ul = document.getElementById(type + '_' + place);
+    const ul = document.getElementById(type + '_' + place);
     for (const item of data) {
-        let b = document.createElement('button');
-        let img = document.createElement('img');
-        let li = document.createElement('li');
-        let a = document.createElement('a');
+        const b = document.createElement('button');
+        const c = document.createElement('button');
+        const img = document.createElement('img');
+        const li = document.createElement('li');
+        const a = document.createElement('a');
         img.src = item.avatar_url;
         a.innerText = item.login;
-        b.onclick = handleClick;
+        b.onclick = handleSearch;
+        c.onclick = handleBlock;
         a.href = item.html_url;
         b.value = item.login;
+        c.value = item.login;
         img.alt = 'avatar';
         a.target = '_blank';
         b.title = lang_obj[current]['search'];
         b.setAttribute('lang-tag', 'search');
+        c.title = lang_obj[current]['block'];
+        c.setAttribute('lang-tag', 'block');
+        if (blocked.includes(item.login)) c.style.color = '#f00';
+        c.innerText = '⨯';
         a.prepend(img);
         li.appendChild(a);
         li.appendChild(b);
+        li.appendChild(c);
         ul.appendChild(li);
     }
 }
 
 function counts(place, data, type) {
-    let span = document.getElementById('c_' + type + '_' + place);
+    const span = document.getElementById('c_' + type + '_' + place);
     span.innerText = ` (${data})`;
 }
 
@@ -53,7 +62,7 @@ function clear() {
 }
 
 async function fetchData(user) {
-    let res = { followers: [], following: [] };
+    const res = { followers: [], following: [] };
     for (const key in res) {
         let url = `https://api.github.com/users/${user}/${key}?per_page=100&page=`;
         let data = [{}];
@@ -83,7 +92,7 @@ async function fetchData(user) {
     // using the compare function to determine equality.
     const compare = (left, right) => left.filter(a => !right.some(b => a.login === b.login));
 
-    let result = { followers: [], following: [] };
+    const result = { followers: [], following: [] };
     result.followers = compare(res.followers, res.following);
     result.following = compare(res.following, res.followers);
     for (const key in result) {
@@ -94,7 +103,7 @@ async function fetchData(user) {
 
 function setURL(user) {
     if (cur != user) {
-        let url = new URL(window.location);
+        const url = new URL(window.location);
         url.searchParams.set('user', user);
         window.history.pushState({}, '', url);
         cur = user;
@@ -102,10 +111,10 @@ function setURL(user) {
 }
 
 function loadPage() {
-    let params = new Proxy(new URLSearchParams(window.location.search), {
+    const params = new Proxy(new URLSearchParams(window.location.search), {
         get: (search, prop) => search.get(prop)
     });
-    let value = params.user;
+    const value = params.user;
     if (value) {
         input.value = value;
         fetchData(value);
@@ -113,17 +122,32 @@ function loadPage() {
     }
 }
 
-function handleClick(e) {
+function handleSearch(e) {
     newtab = false;
-    let value = e.target.value;
+    const value = e.target.value;
     input.value = value;
     fetchData(value);
     setURL(value);
 }
 
+function handleBlock(e) {
+    const value = e.target.value;
+    const index = blocked.indexOf(value);
+    if (index > -1) {
+        e.target.removeAttribute('style');
+        blocked.splice(index, 1);
+    }
+    else {
+        e.target.style.color = '#f00';
+        blocked.push(value);
+    }
+    if (blocked.length < 1) localStorage.removeItem('github_blocked');
+    else localStorage.setItem('github_blocked', blocked);
+}
+
 function handleSubmit(e) {
     e.preventDefault();
-    let value = e.target[0].value;
+    const value = e.target[0].value;
     if (!newtab) setURL(value);
     fetchData(value);
 }
