@@ -27,6 +27,7 @@ function display(place, data, type) {
         c.setAttribute('lang-tag', 'block');
         if (blocked.includes(item.login)) c.style.color = '#f00';
         c.innerText = '⨯';
+        b.innerText = '.';
         a.prepend(img);
         li.appendChild(a);
         li.appendChild(b);
