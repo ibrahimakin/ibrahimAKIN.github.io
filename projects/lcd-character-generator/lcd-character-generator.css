@@ -87,6 +87,7 @@ table:last-child th {
 
 .link-img:nth-child(2) {
     background-image: url('/assets/images/projects/lcd/google-play-badge.png');
+    background-size: 98%;
 }
 
 .link-img:nth-child(3) {
@@ -95,15 +96,58 @@ table:last-child th {
 
 .link-img:nth-child(4) {
     background-image: url('/assets/images/projects/lcd/xiaomi-getapps-badge.svg');
-    background-size: 84%;
+    background-size: 83%;
 }
 
-.link-img:nth-child(5) {
+.confirm>.link-img {
     background-image: url('/assets/images/projects/lcd/windows-badge.png');
     background-size: 90%;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .link:last-child {
     text-align: center;
     width: 114px;
+}
+
+.confirm>div:last-child {
+    visibility: collapse;
+    font-weight: 600;
+    position: absolute;
+    padding: 22px 5px 5px 5px;
+    background-color: #bfbfbf;
+    border: 2px solid;
+    border-radius: 8px;
+    transition-delay: .1s;
+    margin-top: -30px;
+}
+
+.confirm:focus-within>div:last-child {
+    visibility: unset;
+}
+
+.confirm a,
+.confirm button {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;
+}
+
+.confirm a:active,
+.confirm button:active {
+    transform: scale(.9);
+}
+
+.confirm a {
+    float: right;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+.confirm button {
+    background: none;
+    padding: 0;
 }
