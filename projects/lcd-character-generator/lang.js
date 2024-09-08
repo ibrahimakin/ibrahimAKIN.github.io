@@ -1,10 +1,16 @@
 const lang_obj = {
     tr: {
-        privacy: 'Gizlilik Politikası',
-        clear: 'Temizle'
+        clear: 'Temizle',
+        windows: 'Windows için İndirin',
+        cancel: 'İptal',
+        download: 'İndir',
+        privacy: 'Gizlilik Politikası'
     },
     en: {
-        privacy: 'Privacy Policy',
-        clear: 'Clear'
+        clear: 'Clear',
+        windows: 'Download for Windows',
+        cancel: 'Cancel',
+        download: 'Download',
+        privacy: 'Privacy Policy'
     }
 };
