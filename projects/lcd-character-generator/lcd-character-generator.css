@@ -77,8 +77,8 @@ table:last-child th {
     margin: 20px;
 }
 
-.link-img {
-    background-size: contain;
+.link-img,
+.link-img::before {
     background-position: center;
     background-repeat: no-repeat;
     width: 155px;
@@ -92,6 +92,7 @@ table:last-child th {
 
 .link-img:nth-child(3) {
     background-image: url('/assets/images/projects/lcd/huawei-app-gallery-badge.png');
+    background-size: contain;
 }
 
 .link-img:nth-child(4) {
@@ -99,7 +100,9 @@ table:last-child th {
     background-size: 83%;
 }
 
-.confirm>.link-img {
+.link-img.confirm::before {
+    content: '';
+    display: block;
     background-image: url('/assets/images/projects/lcd/windows-badge.png');
     background-size: 90%;
     position: relative;
@@ -112,7 +115,7 @@ table:last-child th {
     width: 114px;
 }
 
-.confirm>div:last-child {
+.confirm>div {
     visibility: collapse;
     font-weight: 600;
     position: absolute;
@@ -124,7 +127,7 @@ table:last-child th {
     margin-top: -30px;
 }
 
-.confirm:focus-within>div:last-child {
+.confirm:focus-within>div {
     visibility: unset;
 }
 
@@ -149,5 +152,6 @@ table:last-child th {
 
 .confirm button {
     background: none;
+    border: none;
     padding: 0;
 }
