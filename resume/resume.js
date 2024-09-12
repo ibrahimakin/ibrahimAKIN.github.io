@@ -17,3 +17,15 @@ function showLess(e) {
     text.style.display = 'none';
     e.style.display = 'none';
 }
+
+let target, timeout;
+for (const el of document.querySelectorAll('a[href^="#"]')) {
+    el.addEventListener('click', e => {
+        clearTimeout(timeout);
+        if (target) target.removeAttribute('class');
+        const id = e.currentTarget.getAttribute('href');
+        target = document.querySelector(id);
+        target.classList.add('focus');
+        timeout = setTimeout(() => target.removeAttribute('class'), 2100);
+    });
+}
