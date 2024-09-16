@@ -101,6 +101,7 @@
     color: #000;
 }
 
+#resume-right div>a:first-child,
 #resume-right li>a, #resume-right h3>a {
     text-decoration: none;
 }
@@ -115,7 +116,8 @@
     color: var(--resume-txt);
     margin-top: 20px;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    z-index: 1;
 }
 
 #profession {
@@ -132,12 +134,34 @@
 }
 
 #left-profile-image, #right-profile-image {
-    background-image: url('/assets/images/resume/ibrahimAKIN.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     margin: 25px 0 15px 0;
     height: 130px;
+}
+
+#left-profile-image {
+    background-image: url('/assets/images/resume/ibrahimAKIN.png');
+}
+
+#right-profile-image {
+    background-image: url('/assets/images/resume/ibrahimAKINbg.png');
+}
+
+#left-profile-image::after {
+    content: '';
+    display: block;
+    background-color: var(--resume-clr);
+    box-shadow: inset -25px 10px 45px #000000aa;
+    mask-image: url('/assets/images/resume/tshirt.png');
+    mask-repeat: no-repeat;
+    mask-position: bottom;
+    mask-size: contain;
+    height: 130px;
+    width: 100px;
+    margin: auto;
+    opacity: .7;
 }
 
 #right-profile-image {
@@ -278,13 +302,12 @@
     white-space: nowrap;
 }
 
-.certificate {
+li>div, .certificate {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
-.certificate>a, .cert-period>a {
+li>div>a:last-child, .cert-period>a {
     white-space: nowrap;
 }
 
@@ -299,7 +322,7 @@
     text-align: right;
 }
 
-#projects li, #skills, #interests, .mb {
+#projects li, #skills, #interests, .certificate, .mb {
     margin-bottom: 20px;
 }
 
@@ -316,6 +339,7 @@
 }
 
 .focus {
+    width: fit-content;
     color: var(--resume-clr);
     position: relative;
 }
