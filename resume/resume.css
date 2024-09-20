@@ -97,10 +97,11 @@
     border-color: var(--resume-clr);
 }
 
-#resume-right a {
-    color: #000;
+a {
+    color: inherit;
 }
 
+#contact a,
 #resume-right div>a:first-child,
 #resume-right li>a, #resume-right h3>a {
     text-decoration: none;
@@ -180,11 +181,6 @@
 #contact div {
     padding: 4px 0;
     font-weight: 500;
-}
-
-#contact a {
-    text-decoration: none;
-    color: #000;
 }
 
 .contact-icon {
