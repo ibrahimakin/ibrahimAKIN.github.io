@@ -155,6 +155,10 @@ a {
     display: block;
     background-color: var(--resume-clr);
     box-shadow: inset -25px 10px 45px #000000aa;
+    -webkit-mask-image: url('/assets/images/resume/tshirt.png');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: bottom;
+    -webkit-mask-size: contain;
     mask-image: url('/assets/images/resume/tshirt.png');
     mask-repeat: no-repeat;
     mask-position: bottom;
