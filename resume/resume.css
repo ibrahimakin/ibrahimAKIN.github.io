@@ -97,10 +97,11 @@
     border-color: var(--resume-clr);
 }
 
-#resume-right a {
-    color: #000;
+a {
+    color: inherit;
 }
 
+#contact a,
 #resume-right div>a:first-child,
 #resume-right li>a, #resume-right h3>a {
     text-decoration: none;
@@ -154,6 +155,10 @@
     display: block;
     background-color: var(--resume-clr);
     box-shadow: inset -25px 10px 45px #000000aa;
+    -webkit-mask-image: url('/assets/images/resume/tshirt.png');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: bottom;
+    -webkit-mask-size: contain;
     mask-image: url('/assets/images/resume/tshirt.png');
     mask-repeat: no-repeat;
     mask-position: bottom;
@@ -180,11 +185,6 @@
 #contact div {
     padding: 4px 0;
     font-weight: 500;
-}
-
-#contact a {
-    text-decoration: none;
-    color: #000;
 }
 
 .contact-icon {
