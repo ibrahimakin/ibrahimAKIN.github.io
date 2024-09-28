@@ -96,8 +96,8 @@ side-nav.collapsed>#sidenav {
 }
 
 #collapse:checked+.back::before {
-    -webkit-mask-image: url('/assets/icons/navbar/forward.svg');
-    mask-image: url('/assets/icons/navbar/forward.svg');
+    -webkit-mask-image: url('/assets/icons/navigation/forward.svg');
+    mask-image: url('/assets/icons/navigation/forward.svg');
 }
 
 .grid-3 .filled::before, .grid-8 .filled::before {
@@ -130,8 +130,8 @@ side-nav.collapsed>#sidenav {
     display: none;
     position: absolute;
     background-color: var(--nav-clr);
-    -webkit-mask-image: url('/assets/icons/navbar/pin.svg');
-    mask-image: url('/assets/icons/navbar/pin.svg');
+    -webkit-mask-image: url('/assets/icons/navigation/pin.svg');
+    mask-image: url('/assets/icons/navigation/pin.svg');
     transform: rotateZ(-45deg);
     margin: var(--nav-gap);
     height: 20px;

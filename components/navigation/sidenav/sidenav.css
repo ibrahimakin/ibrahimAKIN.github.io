@@ -50,8 +50,8 @@ side-nav {
     display: none;
     position: absolute;
     background-color: var(--nav-clr);
-    -webkit-mask-image: url('/assets/icons/navbar/pin.svg');
-    mask-image: url('/assets/icons/navbar/pin.svg');
+    -webkit-mask-image: url('/assets/icons/navigation/pin.svg');
+    mask-image: url('/assets/icons/navigation/pin.svg');
     transform: rotateZ(-45deg);
     margin: var(--nav-gap);
     height: 20px;
