@@ -1,10 +1,20 @@
+:root {
+    --nav-clr: #fff;
+    --bg-clr: #444;
+    --on-clr: #e9ff2e;
+}
+
 .filled {
-    background-color: #efefef;
+    background-color: var(--bg-clr);
     border-radius: 0;
 }
 
 body {
     background-color: #bfbfbf;
+}
+
+body, a {
+    color: var(--bg-clr);
 }
 
 #root {
@@ -22,6 +32,8 @@ body {
 }
 
 button {
+    color: var(--nav-clr);
+    background-color: var(--bg-clr);
     cursor: pointer;
     padding: 5px;
 }
@@ -42,6 +54,12 @@ button {
 
 button:not([lang-tag]) {
     border: none;
+}
+
+#root>div button.on {
+    color: #000;
+    background-color: var(--on-clr);
+    box-shadow: 0 0 10px 1px var(--on-clr);
 }
 
 #lcd {
@@ -77,34 +95,51 @@ table:last-child th {
     margin: 20px;
 }
 
-.link-img,
-.link-img::before {
-    background-position: center;
+.link-img {
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 43px;
+    color: var(--nav-clr);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-clr);
     background-repeat: no-repeat;
-    width: 155px;
-    height: 60px;
+    background-size: auto 65%;
+    background-position: 9px;
+    white-space: nowrap;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.link-img>div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.link-img>div:first-child {
+    margin: 6px 0 1px;
+    font-size: 8px;
+}
+
+.link-img>div:last-child {
+    font-size: 16.5px;
 }
 
 .link-img:nth-child(2) {
-    background-image: url('/assets/images/projects/lcd/google-play-badge.png');
-    background-size: 98%;
+    background-image: url('/assets/images/projects/lcd/google-play.png');
 }
 
 .link-img:nth-child(3) {
-    background-image: url('/assets/images/projects/lcd/huawei-app-gallery-badge.png');
-    background-size: contain;
+    background-image: url('/assets/images/projects/lcd/huawei-appgallery.png');
 }
 
 .link-img:nth-child(4) {
-    background-image: url('/assets/images/projects/lcd/xiaomi-getapps-badge.svg');
-    background-size: 83%;
+    background-image: url('/assets/images/projects/lcd/xiaomi-getapps.png');
 }
 
-.link-img.confirm::before {
-    content: '';
-    display: block;
-    background-image: url('/assets/images/projects/lcd/windows-badge.png');
-    background-size: 90%;
+.confirm>.link-img {
+    background-image: url('/assets/images/projects/lcd/windows.png');
     position: relative;
     cursor: pointer;
     z-index: 1;
@@ -115,19 +150,18 @@ table:last-child th {
     width: 114px;
 }
 
-.confirm>div {
+.confirm>div:last-child {
     visibility: collapse;
     font-weight: 600;
     position: absolute;
     padding: 22px 5px 5px 5px;
     background-color: #bfbfbf;
-    border: 2px solid;
-    border-radius: 8px;
+    border: 2px solid var(--bg-clr);
     transition-delay: .1s;
     margin-top: -30px;
 }
 
-.confirm:focus-within>div {
+.confirm:focus-within>div:last-child {
     visibility: unset;
 }
 
@@ -147,10 +181,10 @@ table:last-child th {
     float: right;
     text-decoration: none;
     font-weight: 600;
-    color: #000;
 }
 
 .confirm button {
+    color: var(--bg-clr);
     background: none;
     border: none;
     padding: 0;
