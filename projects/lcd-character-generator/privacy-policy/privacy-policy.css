@@ -1,5 +1,9 @@
+:root {
+    --nav-clr: #fff;
+}
+
 .filled {
-    background-color: #efefef;
+    background-color: #444;
     border-radius: 0;
 }
 
@@ -22,5 +26,6 @@ ul {
 }
 
 a {
+    color: #000;
     text-decoration: none;
 }
