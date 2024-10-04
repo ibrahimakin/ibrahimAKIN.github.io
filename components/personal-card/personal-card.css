@@ -10,7 +10,7 @@ top-nav, side-nav {
 }
 
 #content {
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial;
     height: 100%;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ top-nav, side-nav {
 }
 
 .info {
-    padding: 0 14%;
+    padding: 0 12%;
     transform-style: preserve-3d;
 }
 
@@ -84,8 +84,8 @@ top-nav, side-nav {
 }
 
 .info h2 {
-    font-size: 1.3em;
-    padding: 20px 0;
+    font-size: 1.5em;
+    margin: 20px 0;
     font-weight: lighter;
     transition: transform .75s ease-out;
     color: rgb(223, 223, 223);
@@ -93,8 +93,8 @@ top-nav, side-nav {
 }
 
 .info p {
-    font-size: 1.2em;
-    line-height: 17px;
+    font-size: 1.3em;
+    line-height: 18px;
     color: #fff;
     transition: transform .75s ease-out;
     text-shadow: 2px 2px 4px #000;
@@ -102,6 +102,7 @@ top-nav, side-nav {
 
 .links {
     transition: transform .75s ease-out;
+    padding: 0 1%;
 }
 
 @media screen and (max-width: 700px) {
