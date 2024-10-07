@@ -18,7 +18,7 @@ class PersonalCard extends HTMLElement {
                             <h2 lang-tag="profession">Software Engineer</h2>
                             <p>
                                 <span lang-tag="description">
-                                    The best adjective that describes me is curious. I always want to learn new things and search them to discover.
+                                    The best adjective to describe me is 'curious'. I have a strong desire to learn new things and explore them to gain deeper insights.
                                 </span><br/><br/>
                                 <span lang-tag="contact">
                                     Feel free to say hello through any of the social links below.
