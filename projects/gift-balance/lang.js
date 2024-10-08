@@ -1,6 +1,8 @@
 const lang_obj = {
     tr: {
         card: 'Kart No',
+        show: 'göster',
+        hide: 'gizle',
         check: 'Kontrol Et',
         phone: 'Tel',
         sms: 'SMS Kodu',
@@ -9,6 +11,8 @@ const lang_obj = {
     },
     en: {
         card: 'Card No',
+        show: 'show',
+        hide: 'hide',
         check: 'Check',
         phone: 'Phone',
         sms: 'SMS Code',

@@ -131,3 +131,18 @@ document.forms[2].addEventListener('submit', e => asyncWrapper(e, async e => {
         }
     }
 }));
+
+document.forms[0][2].addEventListener('change', e => {
+    const t = e.target;
+    const p = t.parentElement.parentElement;
+    const i = p.children[2];
+    if (t.checked) {
+        p.classList.add('show');
+        i.type = 'text';
+    }
+    else {
+        p.removeAttribute('class');
+        i.type = 'password';
+    }
+    i.focus();
+});
