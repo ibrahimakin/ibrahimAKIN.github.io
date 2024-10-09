@@ -8,11 +8,11 @@ body>div {
     font-size: large;
 }
 
-select, label, button {
+select, button, label>span {
     cursor: pointer;
 }
 
-select, input, button {
+select, button, input {
     padding: 5px;
     border-radius: 8px;
 }
@@ -49,8 +49,32 @@ p {
     height: 1em;
 }
 
-.hidden {
+form:first-of-type>label {
+    display: inline-block;
+    position: relative;
+}
+
+#pin>label {
+    position: absolute;
+    font-size: smaller;
+    color: #000;
+    bottom: 7px;
+    right: 6px;
+}
+
+#pin>label>span {
+    user-select: none;
+}
+
+.hidden,
+#pin span:last-child,
+#pin.show span:nth-child(2),
+#pin>input:placeholder-shown+label {
     display: none;
+}
+
+#pin.show span:last-child {
+    display: unset;
 }
 
 @keyframes loading {
