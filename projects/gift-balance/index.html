@@ -27,15 +27,16 @@
     <top-nav></top-nav>
     <side-nav></side-nav>
     <div>
-        <select><option value="A101">A101</option></select><br /><br />
+        <select aria-label="select"><option value="A101">A101</option></select><br /><br />
         <form>
             <label>
                 &nbsp;<span lang-tag="card">Card No</span><br />
                 <input type="text" pattern="\d{16}" minlength="16" maxlength="16" autofocus required />
             </label><br /><br />
-            <label>
-                &nbsp;Pin<br />
-                <input type="text" pattern="\d{4}" minlength="4" maxlength="4" required />
+            <label id="pin">
+                &nbsp;<span>Pin</span><br />
+                <input type="password" pattern="\d{4}" minlength="4" maxlength="4" placeholder="" required />
+                <label><input type="checkbox" class="hidden" /><span lang-tag="show">show</span><span lang-tag="hide">hide</span></label>
             </label><br /><br />
             <button lang-tag="check">Check</button>
             <p><span></span></p>
