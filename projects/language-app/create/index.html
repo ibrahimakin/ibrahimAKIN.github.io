@@ -14,9 +14,12 @@
     <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
     <link rel="stylesheet" type="text/css" href="create.css" />
+    <script type="text/javascript" src="lang.js"></script>
+    <script type="text/javascript" src="/components/navigation/lang.js"></script>
     <script type="text/javascript" src="/components/navigation/sidenav/sidenav.js"></script>
     <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
     <script type="text/javascript" defer src="create.js"></script>
+    <script type="text/javascript" defer src="/script.js"></script>
 </head>
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -27,11 +30,11 @@
             <div>
                 <label>
                     <input name="type" type="radio" onchange="handleCheck(this)" value="sentences">
-                    Sentence
+                    <span lang-tag="sentence">Sentence</span>
                 </label>
                 <label>
                     <input name="type" type="radio" onchange="handleCheck(this)" value="words" checked>
-                    Word
+                    <span lang-tag="word">Word</span>
                 </label>
             </div>
         </div>
@@ -43,8 +46,8 @@
                 </div>
                 <textarea id="en" autofocus></textarea>
                 <div class="langs">
-                    <div>Not found.</div>
-                    <button onclick="handleFind(this.previousElementSibling)">Find</button>
+                    <div></div>
+                    <button onclick="handleFind(this.previousElementSibling)" lang-tag="find">Find</button>
                 </div>
             </div>
             <div>
@@ -59,14 +62,14 @@
                 </div>
                 <textarea id="tr"></textarea>
                 <div class="langs">
-                    <div>Not found.</div>
-                    <button onclick="handleFind(this.previousElementSibling, true)">Find</button>
+                    <div></div>
+                    <button onclick="handleFind(this.previousElementSibling, true)" lang-tag="find">Find</button>
                 </div>
             </div>
         </div>
         <table>
             <tr>
-                <td><label for="img">image</label></td>
+                <td><label for="img" lang-tag="image">image</label></td>
                 <td>
                     <button id="imgb" onclick="handleAutoFill('img')">
                         &gt;
@@ -76,30 +79,30 @@
                 <td><button onclick="handleDelete('img')">X</button></td>
             </tr>
             <tr id="quote" style="display: none;">
-                <td><label for="quo">quote</label></td>
+                <td><label for="quo" lang-tag="quote">quote</label></td>
                 <td></td>
                 <td><input id="quo"></td>
                 <td><button onclick="handleDelete('quo')">X</button></td>
             </tr>
             <tr id="definition">
-                <td><label for="def">definition</label></td>
+                <td><label for="def" lang-tag="definition">definition</label></td>
                 <td><button onclick="handleAutoFill('def')">&gt;</button></td>
                 <td><input id="def"></td>
                 <td><button onclick="handleDelete('def')">X</button></td>
             </tr>
             <tr id="type">
-                <td><label for="typ">type</label></td>
+                <td><label for="typ" title="PoS (Part-of-Speech)" lang-tag="pos"><span lang-tag="type">type</span></label></td>
                 <td><button onclick="handleAutoFill('typ')">&gt;</button></td>
                 <td><input id="typ"></td>
                 <td><button onclick="handleDelete('typ')">X</button></td>
             </tr>
         </table>
         <div>
-            <div>Result</div>
+            <div lang-tag="result">Result</div>
             <div>
-                <button onclick="handleClear()">Clear</button>
-                <button id="copy">Copy</button>
-                <div>Copied.</div>
+                <button onclick="handleClear()" lang-tag="clear">Clear</button>
+                <button id="copy" lang-tag="copy">Copy</button>
+                <div lang-tag="copied">Copied.</div>
             </div>
             <div>
                 <pre id="result">, {<br>    "en": "",<br>    "tr": ""<br>}</pre>
