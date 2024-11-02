@@ -3,7 +3,7 @@ const restxt = document.getElementById('restxt');
 const definition = document.getElementById('definition');
 const quote_e = document.getElementById('quote');
 const type_e = document.getElementById('type');
-const typ_e = document.getElementById('typ');                               // part of speech - pos
+const typ_e = document.getElementById('typ');                               // pos -> part of speech
 const img_e = document.getElementById('img');
 const quo_e = document.getElementById('quo');
 const def_e = document.getElementById('def');
@@ -19,10 +19,10 @@ fetch('../source/sentences.json').then(res => res.ok ? res.text() : null).then(d
 fetch('../source/words.json').then(res => res.ok ? res.text() : null).then(data => source.words = data);
 
 function handleChange() {
-    let image = img.trim().length ? `,\n    "img": "/assets/images/projects/language-app/${img}"` : '';
-    let quote = quo.trim().length ? `,\n    "quo": "${quo}"` : '';
-    let defin = def.trim().length ? `,\n    "def": "${def}"` : '';
-    let pos = typ.trim().length ? `,\n    "pos": "${typ}"` : '';
+    const image = img.trim().length ? `,\n    "img": "/assets/images/projects/language-app/${img}"` : '';
+    const quote = quo.trim().length ? `,\n    "quo": "${quo}"` : '';
+    const defin = def.trim().length ? `,\n    "def": "${def}"` : '';
+    const pos = typ.trim().length ? `,\n    "pos": "${typ}"` : '';
     result.innerText = `, {\n    "en": "${en}",\n    "tr": "${tr}"${image}${quote}${defin}${pos}\n}`;
 }
 
@@ -53,15 +53,22 @@ function handleCheck(radio) {
 
 function handleFind(text, lang) {
     text.style.visibility = 'visible';
-    let value = lang ? tr : en;
+    const value = lang ? tr : en;
     if (!source[variant]) {
-        text.innerText = `Cannot get ${variant}.`;
+        text.setAttribute('lang-tag', `not_get_${variant}`);
+        text.textContent = lang_obj[current][`not_get_${variant}`];
         setTimeout(() => text.removeAttribute('style'), 1000);
     }
     else if (value.trim().length && source[variant].includes(value)) {
         const re = new RegExp(`\{[^\{]*?${value}(.|\n)*?\}`, 'gm');         // gm -> global, multiline
         const arr = source[variant].match(re);
-        text.innerText = `Found in ${variant}. ${arr.length}`;
+        text.textContent = '';
+        text.removeAttribute('lang-tag');
+        const span = document.createElement('span');
+        span.setAttribute('lang-tag', `found_${variant}`);
+        span.textContent = lang_obj[current][`found_${variant}`];
+        text.append(span);
+        text.append(" ", arr.length);
         ul.innerHTML = '';
         find = lang ? 'tr' : 'en';
         for (const iter of arr) {
@@ -74,7 +81,8 @@ function handleFind(text, lang) {
         }
     }
     else {
-        text.innerText = `Not found in ${variant}.`;
+        text.setAttribute('lang-tag', `not_found_${variant}`);
+        text.textContent = lang_obj[current][`not_found_${variant}`];
         if (!value.trim().length) setTimeout(() => text.removeAttribute('style'), 1000);
     }
 }
