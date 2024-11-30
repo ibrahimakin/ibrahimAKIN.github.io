@@ -9,9 +9,50 @@ class PersonalCard extends HTMLElement {
                             <div class="background"></div>
                             <div class="glow"></div>
                         </div>
-                        <div class="photo">
-                            <div class="circle"></div>
-                            <div class="img"></div>
+                        <div>
+                            <div class="circle">
+                                <div class="logo">
+                                    <div class="i">
+                                        <div class="box">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <svg width="15" height="18" viewBox="0 0 50 60" xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="50" height="60" />
+                                            </svg>
+                                        </div>
+                                        <div class="box">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <svg width="15" height="60" viewBox="0 0 50 200" xmlns="http://www.w3.org/2000/svg">
+                                                <rect width="50" height="200" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="a">
+                                        <div class="box">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <svg width="15" height="75" viewBox="0 0 50 250" xmlns="http://www.w3.org/2000/svg">
+                                                <polygon points="0,250 0,50 50,0 50,250" />
+                                            </svg>
+                                        </div>
+                                        <div class="box">
+                                            <div></div>
+                                            <div></div>
+                                            <div></div>
+                                            <svg width="40" height="15" viewBox="0 0 160 60" xmlns="http://www.w3.org/2000/svg">
+                                                <polygon points="0,60 30,0 160,0 160,60" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="info">
                             <h1 class="title">ibrahim AKIN</h1>
@@ -38,8 +79,8 @@ class PersonalCard extends HTMLElement {
 
         // Items
         const background = document.querySelector('.effects .background');
-        const circle = document.querySelector('.photo .circle');
-        const photo = document.querySelector('.photo .img');
+        const circle = document.querySelector('.circle');
+        const logo = document.querySelector('.logo');
         const title = document.querySelector('.title');
         const description = document.querySelector('.info h2');
         const about = document.querySelector('.info p');
@@ -58,8 +99,8 @@ class PersonalCard extends HTMLElement {
             card.style.removeProperty('transition');
             background.style.removeProperty('transition');
             // Popout
-            circle.style.transform = 'translateZ(55px)';
-            photo.style.transform = 'translateZ(75px)';
+            circle.style.transform = 'translateZ(35px)';
+            logo.style.transform = 'translateZ(50px)';
             title.style.transform = 'translateZ(75px)';
             description.style.transform = 'translateZ(60px)';
             about.style.transform = 'translateZ(55px)';
@@ -72,7 +113,7 @@ class PersonalCard extends HTMLElement {
             card.style.transform = `rotateY(0deg) rotateX(0deg)`;
             // Popback
             circle.style.transform = 'translateZ(0px)';
-            photo.style.transform = 'translateZ(0px)';
+            logo.style.transform = 'translateZ(0px)';
             title.style.transform = 'translateZ(0px)';
             description.style.transform = 'translateZ(0px)';
             about.style.transform = 'translateZ(0px)';

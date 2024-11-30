@@ -1,3 +1,7 @@
+:root {
+    --logo-depth: 20px;
+}
+
 top-nav, side-nav {
     height: 0;
     width: 0;
@@ -37,25 +41,12 @@ top-nav, side-nav {
     transform-style: preserve-3d;
 }
 
-.photo {
+.effects+div {
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     transform-style: preserve-3d;
-}
-
-.img {
-    width: 10em;
-    height: 10em;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('/assets/images/home/iakin_fg.png');
-}
-
-.photo .img {
-    z-index: 2;
-    transition: transform .75s ease-out;
 }
 
 .circle {
@@ -64,11 +55,112 @@ top-nav, side-nav {
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/assets/images/home/iakin_bg.png');
-    background-color: #c5c2bd;
+    transform-style: preserve-3d;
     border: 1px solid #fff;
     border-radius: 50%;
     transition: transform .75s ease-out;
+}
+
+.logo {
+    left: 26px;
+    transition: transform .75s ease-out;
+}
+
+.logo,
+.logo>div {
+    position: absolute;
+    transform-style: preserve-3d;
+}
+
+.logo svg {
+    fill: #fff;
+}
+
+.i {
+    transform: rotateZ(25deg);
+}
+
+.i>div:last-child {
+    margin-top: 10px;
+}
+
+.box {
+    display: flex;
+    transform-style: preserve-3d;
+}
+
+.box>div {
+    background-color: #e30a1799;
+    border: 1px solid #fff;
+    position: absolute;
+}
+
+.box>div:nth-child(odd) {
+    width: 100%;
+    height: var(--logo-depth);
+}
+
+.box>div:nth-child(even) {
+    width: var(--logo-depth);
+    height: 100%;
+}
+
+.box>div:nth-child(1) {
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+
+.box>div:nth-child(2) {
+    left: 0;
+    transform: rotateY(90deg);
+    transform-origin: left;
+}
+
+.box>div:nth-child(3) {
+    bottom: 0;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+
+.box>div:nth-child(4) {
+    right: 0;
+    transform: rotateY(-90deg);
+    transform-origin: right;
+}
+
+.a {
+    transform: translateX(35px) translateY(10px) rotateZ(-21deg);
+}
+
+.a>.box:last-child {
+    position: absolute;
+    transform: rotateZ(20deg);
+    top: 35px;
+    right: 2px;
+}
+
+.a>.box:first-child>div:nth-child(1) {
+    right: 0;
+    width: 140%;
+    transform: rotateX(-90deg) rotateY(46deg);
+    transform-origin: top right;
+}
+
+.a>.box:first-child>div:nth-child(2) {
+    bottom: 0;
+    height: 80%;
+}
+
+.a>.box:last-child>div:nth-child(1) {
+    right: 0;
+    width: 82%;
+}
+
+.a>.box:last-child>div:nth-child(2) {
+    bottom: 0;
+    height: 109%;
+    transform: rotateY(90deg) rotateX(-26deg);
+    transform-origin: bottom left;
 }
 
 .info {
