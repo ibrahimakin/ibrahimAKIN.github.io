@@ -66,8 +66,7 @@ top-nav, side-nav {
     transition: transform .75s ease-out;
 }
 
-.logo,
-.logo>div {
+.logo, .logo>div {
     position: absolute;
     transform-style: preserve-3d;
 }
@@ -209,8 +208,8 @@ top-nav, side-nav {
     left: -100%;
     background-repeat: repeat-x;
     background-size: contain;
-    width: 300%;
-    height: 125%;
+    width: 320%;
+    height: 120%;
     opacity: 0;
     background-image: url('/assets/images/home/universe.jpeg');
     transition: opacity .5s cubic-bezier(.645, .045, .355, 1);
