@@ -17,7 +17,7 @@ const lang_obj = {
         result: 'Sonuç',
         clear: 'Temizle',
         copy: 'Kopyala',
-        copied: 'Kopyalandı.',
+        copied: 'Kopyalandı.'
     },
     en: {
         sentence: 'Sentence',
@@ -37,6 +37,6 @@ const lang_obj = {
         result: 'Result',
         clear: 'Clear',
         copy: 'Copy',
-        copied: 'Copied.',
+        copied: 'Copied.'
     }
 }
