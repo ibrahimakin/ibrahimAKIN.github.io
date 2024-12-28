@@ -15,6 +15,7 @@ body>div {
     margin: auto;
     text-align: center;
     max-width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #extension {
@@ -134,7 +135,7 @@ button {
     background-color: var(--light-btn);
     border-left: 1px solid var(--light-bdr);
     border-radius: 0 20px 20px 0;
-    padding-right: 8px;
+    padding: 0 8px 0 4px;
     width: 70px;
     min-width: 50px;
     position: sticky;
@@ -185,10 +186,6 @@ input[type=search] {
 .dark input {
     background-color: var(--dark-bg);
     color: var(--dark-clr);
-}
-
-input::placeholder {
-    font-size: 16px;
 }
 
 input::-webkit-search-cancel-button {
