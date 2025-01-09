@@ -147,7 +147,7 @@ const lang_obj = {
         project: 'Project',
         projects: 'Projects',
         r_projects: 'PROJECTS',
-        search: 'Search YouTube is a browser extension that helps you find your searches faster by bypassing the YouTube home page. You can select text and right-click, or open the extension popup to quickly search on YouTube. Additionally, you can open YouTube Shorts as regular videos.',
+        search: 'Search YouTube is a browser extension that helps you find your searches faster by bypassing the YouTube home page. Users can select text and right-click, or open the extension popup to search on YouTube quickly. Additionally, users can open YouTube Shorts as regular videos.',
         available: 'Currently available on:',
         store: 'Store',
         add_ons: 'Add-ons',
