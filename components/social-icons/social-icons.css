@@ -245,10 +245,10 @@
     background-color: #239bfe;
 }
 .menu:nth-child(7)>.expand>div:nth-child(1)>.filled:hover::before {
-    background-color: #d60000;
+    background-color: #e30a17;
 }
 .menu:nth-child(7)>.expand>div:nth-child(1)>span {
-    color: #d60000;
+    color: #e30a17;
 }
 
 .main>.menu>.expand .filled:hover.filled::before,
