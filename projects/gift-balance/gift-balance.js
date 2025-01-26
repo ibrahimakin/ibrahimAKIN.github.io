@@ -1,6 +1,7 @@
 const URL = 'https://api.a101prod.retter.io/dbmk89vnr/';
 let accessToken = localStorage.getItem('gift_access_token');
 let refreshToken = localStorage.getItem('gift_refresh_token');
+let balanceStr = localStorage.getItem('gift_balance_str');
 let balance = localStorage.getItem('gift_balance');
 let lastCard = localStorage.getItem('gift_card');
 let lastPin = localStorage.getItem('gift_pin');
@@ -21,12 +22,12 @@ if (lastPin) {
     document.forms[0][1].value = lastPin;
 }
 
-if (balance) {
-    const p = document.forms[0].lastElementChild;
+if (balanceStr) {
+    const p = document.forms[0].children[7];
     p.lastChild.setAttribute('lang-tag', 'last');
     p.lastChild.innerText = lang_obj[current]['last'];
     const span = document.createElement('span');
-    span.innerText = balance;
+    span.innerText = balanceStr;
     p.append(span);
 }
 
@@ -51,14 +52,33 @@ async function checkBalance(cardNo, pinNo) {
     const res = await fetch(URL + 'CALL/User/checkGiftCardBalance/qRob2mtm6SHFbgGGBTlJNW7l',
         { method: 'POST', body: JSON.stringify({ cardNo, pin, service: 'ECOM' }), headers: { Authorization: 'Bearer ' + accessToken } })
         .then(res => res.json());
+    const p = document.forms[0].children;
+    p[8].innerText = '';
+    p[9].innerText = '';
     if (res.balance >= 0) {
-        document.forms[0].lastElementChild.innerText = res.balanceStr;
-        localStorage.setItem('gift_balance', res.balanceStr);
+        const diff = res.balance - balance;
+        if (diff && balance > 0) {
+            p[7].innerText = balanceStr;
+            p[8].removeAttribute('style');
+            if (diff > 0) {
+                p[8].style.color = '#0f0';
+                p[8].innerText = '+';
+            }
+            p[8].innerText += (diff / 100).toFixed(2);
+            p[9].innerText = res.balanceStr;
+        }
+        else {
+            p[7].innerText = res.balanceStr;
+        }
+        balanceStr = res.balanceStr;
+        balance = res.balance;
+        localStorage.setItem('gift_balance_str', balanceStr);
+        localStorage.setItem('gift_balance', balance);
         localStorage.setItem('gift_card', cardNo);
         localStorage.setItem('gift_pin', pinNo);
     }
-    else if (res.title) {
-        document.forms[0].lastElementChild.innerText = res.title;
+    else if (res.message) {
+        p[7].innerText = res.message;
     }
     return res;
 }
