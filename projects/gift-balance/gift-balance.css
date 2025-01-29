@@ -45,8 +45,29 @@ button:disabled::before {
 }
 
 p {
-    margin: 20px 0 0 2px;
+    text-align: right;
+    margin: 20px 4px 0 2px;
     height: 1em;
+}
+
+p:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+p:first-of-type>span:first-child {
+    text-align: left;
+    margin-right: auto;
+}
+
+p:nth-of-type(2) {
+    color: #f00;
+    font-weight: bold;
+}
+
+p:last-of-type {
+    color: #adff2f;
 }
 
 form:first-of-type>label {
