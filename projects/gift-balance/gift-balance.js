@@ -77,8 +77,8 @@ async function checkBalance(cardNo, pinNo) {
         localStorage.setItem('gift_card', cardNo);
         localStorage.setItem('gift_pin', pinNo);
     }
-    else if (res.message) {
-        p[7].innerText = res.message;
+    else if (res.title) {
+        p[7].innerText = res.title;
     }
     return res;
 }
