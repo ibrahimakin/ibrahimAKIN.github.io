@@ -99,12 +99,12 @@
 
 a {
     color: inherit;
+    text-underline-offset: 4px;
+    text-decoration: none;
 }
 
-#contact a,
-#resume-right div>a:first-child,
-#resume-right li>a, #resume-right h3>a {
-    text-decoration: none;
+#resume-right a:hover {
+    text-decoration: underline;
 }
 
 #resume-summary {
@@ -299,6 +299,7 @@ a {
 
 #show-more, #show-less {
     cursor: pointer;
+    text-underline-offset: 2px;
     text-decoration: underline;
     white-space: nowrap;
 }
