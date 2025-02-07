@@ -124,8 +124,9 @@ form {
 }
 
 form>label {
+    position: relative;
     display: flex;
-    padding-left: 12px;
+    left: 12px;
 }
 
 button {
@@ -177,7 +178,7 @@ svg {
 input[type=search] {
     min-width: 320px;
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
     font-size: 16px;
     outline: none;
     border: none;
