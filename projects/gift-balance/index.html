@@ -29,6 +29,11 @@
     <div>
         <select aria-label="select"><option value="A101">A101</option></select><br /><br />
         <form>
+            <div class="select hidden">
+                <div class="selected" lang-tag="cards">Cards</div>
+                <div class="options"></div>
+            </div>
+            <br />
             <label>
                 &nbsp;<span lang-tag="card">Card No</span><br />
                 <input type="text" pattern="\d{16}" minlength="16" maxlength="16" autofocus required />
@@ -39,7 +44,7 @@
                 <label><input type="checkbox" class="hidden" /><span lang-tag="show">show</span><span lang-tag="hide">hide</span></label>
             </label><br /><br />
             <button lang-tag="check">Check</button>
-            <p><span></span></p>
+            <p></p>
             <p></p>
             <p></p>
         </form>

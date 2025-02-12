@@ -1,5 +1,6 @@
 const lang_obj = {
     tr: {
+        cards: 'Kartlar',
         card: 'Kart No',
         show: 'göster',
         hide: 'gizle',
@@ -10,6 +11,7 @@ const lang_obj = {
         last: 'Son Bakiye: '
     },
     en: {
+        cards: 'Cards',
         card: 'Card No',
         show: 'show',
         hide: 'hide',
