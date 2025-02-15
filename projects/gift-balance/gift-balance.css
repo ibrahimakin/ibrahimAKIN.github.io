@@ -121,6 +121,12 @@ form:first-of-type>label {
     padding: 5px;
 }
 
+.selected::after {
+    content: '\025BE';
+    margin-right: 5px;
+    float: right;
+}
+
 .options {
     display: none;
     position: absolute;
