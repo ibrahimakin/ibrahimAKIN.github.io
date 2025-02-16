@@ -70,7 +70,7 @@ function fillSelect() {
             fillForm();
         });
         const del = document.createElement('div');
-        del.innerText = 'X';
+        del.innerText = '✕';
         del.addEventListener('click', e => {
             e.stopPropagation();
             cards.splice(i, 1);
@@ -222,6 +222,25 @@ document.forms[2].addEventListener('submit', e => asyncWrapper(e, async e => {
         }
     }
 }));
+
+document.forms[0][0].addEventListener('input', e => {
+    const value = e.target.value;
+    if (value.trim().length === 16) {
+        const i = cards.findIndex(n => n.cardNo === value);
+        if (i > -1) {
+            if (index === i) {
+                selected.innerText = lastCard;
+            }
+            else {
+                index = i;
+                fillForm();
+            }
+            return;
+        }
+    }
+    selected.innerText = lang_obj[current]['cards'];
+    selected.setAttribute('lang-tag', 'cards');
+});
 
 document.forms[0][2].parentElement.addEventListener('touchstart', e => {
     const t = e.currentTarget.previousElementSibling;
