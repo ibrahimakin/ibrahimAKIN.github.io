@@ -8,7 +8,7 @@ body>div {
     font-size: large;
 }
 
-select, button, label>span {
+select, button, label>span, .select {
     cursor: pointer;
 }
 
@@ -110,60 +110,76 @@ form:first-of-type>label {
 
 .select {
     position: relative;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background: #fff;
     color: #000;
 }
 
+.selected, .option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selected, .options {
+    border: 2px inset #999;
+    border-radius: 8px;
+}
+
 .selected {
-    padding: 5px;
+    background: #fff;
+    padding: 4px 0 4px 2px;
 }
 
 .selected::after {
     content: '\025BE';
-    margin-right: 5px;
-    float: right;
+    width: 29px;
+    text-align: center;
+}
+
+.selected:focus-visible {
+    outline: 1px auto #000;
+}
+
+.select:focus-within>.options {
+    display: block;
+}
+
+.selected>div[lang-tag] {
+    padding-left: 3px;
+}
+
+.selected>div:nth-child(2) {
+    padding-left: 3px;
 }
 
 .options {
     display: none;
     position: absolute;
-    top: 100%;
-    left: -1px;
-    width: calc(100% + 2px);
+    width: 100%;
     background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
     z-index: 1;
 }
 
 .option {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-bottom: 1px solid #eee;
-    cursor: pointer;
-}
-
-.option:last-child {
-    border-bottom: none;
+    padding-left: 2px;
 }
 
 .option:hover {
-    background: #f0f0f0;
+    background: #aaa5;
 }
 
 .option>div:first-child {
-    padding: 5px 0 5px 5px;
+    padding: 5px 0 5px 3px;
 }
 
 .option>div:last-child {
-    padding: 15px 8px;
+    width: 29px;
+    text-align: center;
+    padding: 15px 0;
 }
 
 .option>div:last-child:hover {
-    background: #a0a0a0;
+    background: #aaaa;
 }
