@@ -1,6 +1,5 @@
 const URL = 'https://api.a101prod.retter.io/dbmk89vnr/';
 const select = document.forms[0].firstElementChild;
-const options = select.lastElementChild;
 const cards = JSON.parse(localStorage.getItem('gift_cards')) || [];
 let accessToken = localStorage.getItem('gift_access_token');
 let refreshToken = localStorage.getItem('gift_refresh_token');
@@ -258,7 +257,7 @@ document.forms[0][2].parentElement.addEventListener('touchstart', e => {
     if (document.activeElement === t || document.activeElement === document.forms[0][0]) {
         t.setAttribute('focused', true);
     }
-});
+}, { passive: true });
 
 document.forms[0][2].addEventListener('change', e => {
     const t = e.target;
