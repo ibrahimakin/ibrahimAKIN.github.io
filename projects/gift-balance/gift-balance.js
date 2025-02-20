@@ -1,12 +1,10 @@
 const URL = 'https://api.a101prod.retter.io/dbmk89vnr/';
 const select = document.forms[0].firstElementChild;
-const selected = select.firstElementChild;
-const options = select.lastElementChild;
 const cards = JSON.parse(localStorage.getItem('gift_cards')) || [];
 let accessToken = localStorage.getItem('gift_access_token');
 let refreshToken = localStorage.getItem('gift_refresh_token');
 let phone = localStorage.getItem('gift_phone');
-let index = localStorage.getItem('gift_index') || 0;
+let index = localStorage.getItem('gift_index');
 let balanceStr, balance, lastCard, lastPin, loading = false;
 
 if (!accessToken) {
@@ -19,9 +17,23 @@ if (phone) {
     document.forms[1][0].value = phone;
 }
 
-function fillForm() {
-    if (cards.length > 0) {
-        index = index > 0 ? index : 0;
+function setSelected(i) {
+    const p = select.firstElementChild.children;
+    if (i >= 0 && cards[i]) {
+        p[0].innerText = index + 1;
+        p[1].innerText = cards[i].cardNo;
+        p[0].removeAttribute('lang-tag');
+    }
+    else {
+        p[0].innerText = lang_obj[current]['cards'];
+        p[0].setAttribute('lang-tag', 'cards');
+        p[1].innerText = '';
+    }
+}
+
+function fillForm(i) {
+    if (cards.length > 0 && cards.length > i) {
+        index = i > 0 ? parseInt(i) : 0;
         balanceStr = cards[index].balanceStr;
         balance = cards[index].balance;
         lastCard = cards[index].cardNo;
@@ -30,8 +42,7 @@ function fillForm() {
 
     if (lastCard) {
         document.forms[0][0].value = lastCard;
-        selected.removeAttribute('lang-tag');
-        selected.innerText = lastCard;
+        setSelected(index);
     }
 
     if (lastPin) {
@@ -51,34 +62,33 @@ function fillForm() {
     }
 }
 
+function handleSelect(e, i) {
+    e.stopPropagation();
+    localStorage.setItem('gift_index', i);
+    e.currentTarget.blur();
+    fillForm(i);
+}
+
 function fillSelect() {
+    const options = select.lastElementChild;
     options.innerHTML = '';
     if (cards.length > 0) {
         select.classList.remove('hidden');
     }
     for (let i = 0; i < cards.length; i++) {
         const option = document.createElement('div');
-        option.innerHTML = `<div><div>${cards[i].cardNo}</div><div>${cards[i].balanceStr}</div></div>`;
+        option.innerHTML = `${i + 1}<div><div>${cards[i].cardNo}</div><div>${cards[i].balanceStr}</div></div>`;
         option.classList.add('option');
-        option.addEventListener('click', e => {
-            e.stopPropagation();
-            selected.innerText = cards[i].cardNo;
-            selected.removeAttribute('lang-tag');
-            localStorage.setItem('gift_index', i);
-            options.style.display = 'none';
-            index = i;
-            fillForm();
-        });
+        option.addEventListener('click', e => handleSelect(e, i));
+        option.addEventListener('keypress', e => e.key === 'Enter' && handleSelect(e, i));
         const del = document.createElement('div');
-        del.innerText = 'X';
+        del.innerText = '✕';
         del.addEventListener('click', e => {
             e.stopPropagation();
             cards.splice(i, 1);
             if (i === index) {
-                selected.innerText = lang_obj[current]['cards'];
-                selected.setAttribute('lang-tag', 'cards');
-                index = index - 1;
-                localStorage.setItem('gift_index', index);
+                setSelected();
+                localStorage.setItem('gift_index', --index);
             }
             if (cards.length > 0) {
                 localStorage.setItem('gift_cards', JSON.stringify(cards));
@@ -86,9 +96,11 @@ function fillSelect() {
             else {
                 localStorage.removeItem('gift_cards');
                 localStorage.removeItem('gift_index');
+                select.classList.add('hidden');
             }
             fillSelect();
         });
+        option.tabIndex = 0;
         option.append(del);
         options.appendChild(option);
     }
@@ -132,8 +144,6 @@ async function checkBalance(cardNo, pinNo) {
         balanceStr = res.balanceStr;
         balance = res.balance;
         lastCard = cardNo;
-        selected.innerText = lastCard;
-        selected.removeAttribute('lang-tag');
         const i = cards.findIndex(i => i.cardNo === cardNo);
         if (cards[i]) {
             cards[i].balanceStr = balanceStr;
@@ -144,6 +154,7 @@ async function checkBalance(cardNo, pinNo) {
             index = cards.length;
             cards.push({ cardNo, pinNo, balanceStr, balance });
         }
+        setSelected(index);
         fillSelect();
         localStorage.setItem('gift_cards', JSON.stringify(cards));
         localStorage.setItem('gift_index', index);
@@ -223,13 +234,30 @@ document.forms[2].addEventListener('submit', e => asyncWrapper(e, async e => {
     }
 }));
 
+document.forms[0][0].addEventListener('input', e => {
+    const value = e.target.value;
+    if (value.trim().length === 16) {
+        const i = cards.findIndex(n => n.cardNo === value);
+        if (i > -1) {
+            if (index === i) {
+                setSelected(i);
+            }
+            else {
+                fillForm(i);
+            }
+            return;
+        }
+    }
+    setSelected();
+});
+
 document.forms[0][2].parentElement.addEventListener('touchstart', e => {
     const t = e.currentTarget.previousElementSibling;
     t.setAttribute('focused', '');
     if (document.activeElement === t || document.activeElement === document.forms[0][0]) {
         t.setAttribute('focused', true);
     }
-});
+}, { passive: true });
 
 document.forms[0][2].addEventListener('change', e => {
     const t = e.target;
@@ -254,15 +282,5 @@ document.forms[0][2].addEventListener('change', e => {
     }
 });
 
-select.addEventListener('click', () => {
-    options.style.display = options.style.display === 'block' ? 'none' : 'block';
-});
-
-document.addEventListener('click', e => {
-    if (!select.contains(e.target)) {
-        options.style.display = 'none';
-    }
-});
-
+fillForm(index);
 fillSelect();
-fillForm();
