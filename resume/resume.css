@@ -328,14 +328,6 @@ li>div>a:last-child, .cert-period>a {
     margin-bottom: 20px;
 }
 
-#projects h3[id]::before {
-    content: '';
-    display: block;
-    height: 220px;
-    margin-top: -220px;
-    visibility: hidden;
-}
-
 #projects h3[id] {
     transition: color 1s linear;
 }
@@ -344,6 +336,14 @@ li>div>a:last-child, .cert-period>a {
     width: fit-content;
     color: var(--resume-clr);
     position: relative;
+}
+
+.focus::before {
+    content: '';
+    display: block;
+    height: 220px;
+    margin-top: -220px;
+    visibility: hidden;
 }
 
 .focus::after {
@@ -412,6 +412,13 @@ li>div>a:last-child, .cert-period>a {
 
     #left-profile-image {
         display: none;
+    }
+
+    @media screen and (max-height: 700px) {
+        #resume-right #resume-summary {
+            position: relative;
+            top: unset;
+        }
     }
 }
 

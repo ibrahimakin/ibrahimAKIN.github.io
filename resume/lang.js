@@ -124,7 +124,7 @@ const lang_obj = {
         see_project: 'see project',
         technical_support: 'Technical Support',
         ts_desc: 'Part-time working student at Canakkale Onsekiz Mart University Online Education Center.',
-        ce_intern: 'Computer Engineering Internship',
+        ce_intern: 'Software Internship',
         inc: 'Inc.',
         cei_desc: 'Educational technologies, application and game development.',
         achievements: 'Achievements',
