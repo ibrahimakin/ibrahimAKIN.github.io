@@ -88,6 +88,7 @@ form:first-of-type>label {
 }
 
 .hidden,
+.hidden+br,
 #pin span:last-child,
 #pin.show span:nth-child(2),
 #pin>input:placeholder-shown+label {
@@ -104,16 +105,12 @@ form:first-of-type>label {
     }
 }
 
-.hidden+br {
-    display: none;
-}
-
 .select {
     position: relative;
     color: #000;
 }
 
-.selected, .option {
+.selected, .options>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,16 +128,8 @@ form:first-of-type>label {
 
 .selected::after {
     content: '\025BE';
-    width: 29px;
     text-align: center;
-}
-
-.selected:focus-visible {
-    outline: 1px auto #000;
-}
-
-.select:focus-within>.options {
-    display: block;
+    width: 29px;
 }
 
 .selected>div[lang-tag] {
@@ -151,14 +140,35 @@ form:first-of-type>label {
     padding-left: 3px;
 }
 
-.options {
-    display: none;
+.select>div:last-child, .options {
     position: absolute;
     width: 100%;
+}
+
+.select>div:last-child {
+    display: none;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+.selected:focus-visible {
+    outline: 1px auto #000;
+}
+
+.select:focus-within>div:last-child {
+    display: block;
+}
+
+.select:focus-within>.selected::after {
+    content: '\025B4';
+}
+
+.options {
     background: #fff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    z-index: 1;
+    top: 100%;
 }
 
 .option {
@@ -175,11 +185,15 @@ form:first-of-type>label {
 }
 
 .option>div:last-child {
-    width: 29px;
     text-align: center;
     padding: 15px 0;
+    width: 29px;
 }
 
 .option>div:last-child:hover {
     background: #aaaa;
+}
+
+.options>div:not([class]) {
+    padding: 5px 8px;
 }
