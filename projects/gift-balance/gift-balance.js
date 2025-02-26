@@ -70,12 +70,17 @@ function handleSelect(e, i) {
 }
 
 function fillSelect() {
-    const options = select.lastElementChild;
+    const options = select.lastElementChild.firstElementChild;
+    let total = 0, show = false;
     options.innerHTML = '';
     if (cards.length > 0) {
         select.classList.remove('hidden');
     }
     for (let i = 0; i < cards.length; i++) {
+        total += cards[i].balance;
+        if (total > cards[i].balance && cards[i].balance > 0) {
+            show = true;
+        }
         const option = document.createElement('div');
         option.innerHTML = `${i + 1}<div><div>${cards[i].cardNo}</div><div>${cards[i].balanceStr}</div></div>`;
         option.classList.add('option');
@@ -103,6 +108,11 @@ function fillSelect() {
         option.tabIndex = 0;
         option.append(del);
         options.appendChild(option);
+    }
+    if (show) {
+        const t = document.createElement('div');
+        t.innerHTML = `<div lang-tag="total">${lang_obj[current]['total']}</div><div>₺${(total / 100).toFixed(2)}</div>`;
+        options.append(t);
     }
 }
 
