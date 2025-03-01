@@ -1,6 +1,7 @@
 const lang_obj = {
     tr: {
         turkiye: 'Türkiye',
+        hidden: 'güvenlik nedeniyle gizli',
         skills: 'YETENEKLER',
         interests: 'İLGİ ALANLARI',
         frontend_development: 'Frontend Geliştirme',
@@ -83,6 +84,7 @@ const lang_obj = {
     },
     en: {
         turkiye: 'Turkiye',
+        hidden: 'hidden for security reasons',
         skills: 'SKILLS',
         interests: 'INTERESTS',
         frontend_development: 'Frontend Development',
