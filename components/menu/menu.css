@@ -100,7 +100,10 @@
 .pong-img {
     background-image: url('/assets/images/games/pong.png');
 }
-.english-img {
+.gift-img {
+    background-image: url('/assets/images/projects/gift-balance.png');
+}
+.language-img {
     background-image: url('/assets/images/projects/language-app.png');
 }
 .code-img {
