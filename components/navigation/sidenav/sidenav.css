@@ -91,11 +91,12 @@ side-nav {
     text-align: center;
     pointer-events: none;
     color: var(--nav-clr);
-    font-family: Times, serif;
+    font-family: sans-serif;
     bottom: var(--nav-gap);
     width: calc(100% - 2 * var(--nav-gap));
     transition: opacity .15s linear;
-    height: 20px;
+    font-size: 14px;
+    height: 18px;
     z-index: 1;
     opacity: 0;
 }
@@ -141,7 +142,7 @@ side-nav {
 
 @media screen and (max-height: 450px) {
     .main div>span {
-        font-size: 12px;
-        height: 16px;
+        font-size: 10px;
+        height: 13px;
     }
 }
