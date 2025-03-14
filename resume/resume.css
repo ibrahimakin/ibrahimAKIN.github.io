@@ -32,6 +32,7 @@
     max-width: 1000px;
     background-color: var(--resume-txt);
     box-shadow: 0px 0px 30px 1px rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #root h2 {
@@ -127,7 +128,6 @@ a {
 }
 
 #resume-summary p {
-    font-size: .987em;
     margin-top: 10px;
 }
 
