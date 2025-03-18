@@ -36,6 +36,7 @@ button {
     background-color: var(--bg-clr);
     cursor: pointer;
     padding: 5px;
+    border-color: #000;
 }
 
 #lcd button:not([lang-tag]) {
