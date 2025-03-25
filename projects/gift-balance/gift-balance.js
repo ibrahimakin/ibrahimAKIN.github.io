@@ -34,7 +34,7 @@ function setSelected(i) {
 function fillForm(i) {
     if (cards.length > 0 && cards.length > i) {
         index = i > 0 ? parseInt(i) : 0;
-        balanceStr = cards[index].balanceStr;
+        balanceStr = '₺' + (cards[index].balance / 100).toLocaleString('tr', { minimumFractionDigits: 2 });
         balance = cards[index].balance;
         lastCard = cards[index].cardNo;
         lastPin = cards[index].pinNo;
@@ -82,7 +82,8 @@ function fillSelect() {
             show = true;
         }
         const option = document.createElement('div');
-        option.innerHTML = `${i + 1}<div><div>${cards[i].cardNo}</div><div>${cards[i].balanceStr}</div></div>`;
+        const bstr = (cards[i].balance / 100).toLocaleString('tr', { minimumFractionDigits: 2 });
+        option.innerHTML = `${i + 1}<div><div>${cards[i].cardNo}</div><div>₺${bstr}</div></div>`;
         option.classList.add('option');
         option.addEventListener('click', e => handleSelect(e, i));
         option.addEventListener('keypress', e => e.key === 'Enter' && handleSelect(e, i));
@@ -111,7 +112,8 @@ function fillSelect() {
     }
     if (show) {
         const t = document.createElement('div');
-        t.innerHTML = `<div lang-tag="total">${lang_obj[current]['total']}</div><div>₺${(total / 100).toFixed(2)}</div>`;
+        const tstr = (total / 100).toLocaleString('tr', { minimumFractionDigits: 2 });
+        t.innerHTML = `<div lang-tag="total">${lang_obj[current]['total']}</div><div>₺${tstr}</div>`;
         options.append(t);
     }
 }
@@ -145,7 +147,7 @@ async function checkBalance(cardNo, pinNo) {
                 p[10].style.color = '#0f0';
                 p[10].innerText = '+';
             }
-            p[10].innerText += (diff / 100).toFixed(2);
+            p[10].innerText += (diff / 100).toLocaleString('tr', { minimumFractionDigits: 2 });
             p[11].innerText = res.balanceStr;
         }
         else {
@@ -156,13 +158,12 @@ async function checkBalance(cardNo, pinNo) {
         lastCard = cardNo;
         const i = cards.findIndex(i => i.cardNo === cardNo);
         if (cards[i]) {
-            cards[i].balanceStr = balanceStr;
             cards[i].balance = balance;
             index = i;
         }
         else {
             index = cards.length;
-            cards.push({ cardNo, pinNo, balanceStr, balance });
+            cards.push({ cardNo, pinNo, balance });
         }
         setSelected(index);
         fillSelect();
