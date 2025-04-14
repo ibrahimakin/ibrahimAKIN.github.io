@@ -1,0 +1,14 @@
+top-nav, side-nav {
+    height: 0;
+    width: 0;
+}
+
+body {
+    color: #fff;
+}
+
+#log {
+    display: none;
+    border: 1px solid #ccc;
+    overflow: auto;
+}
