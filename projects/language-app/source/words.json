@@ -628,7 +628,9 @@
     "tr": "dönüştürmek"
 }, {
     "en": "decent",
-    "tr": "düzgün, usturuplu"
+    "tr": "düzgün, usturuplu",
+    "def": "conforming with generally accepted standards of respectable or moral behavior.",
+    "pos": "adjective"
 }, {
     "en": "psyched",
     "tr": "heyecanlı"
