@@ -11,7 +11,7 @@ class Sidenav extends HTMLElement {
                     <div></div>
                     <div class="menu hvr">
                         <input title="Projects" class="pin-menu" type="checkbox" lang-tag="projects" tabindex="-1">
-                        <div class="filled project"></div>
+                        <div class="filled project" tabindex="0"></div>
                         <span lang-tag="projects">Projects</span>
                         <div class="expand more">
                             <div class="up">
@@ -42,7 +42,7 @@ class Sidenav extends HTMLElement {
                     </div>
                     <div class="menu hvr">
                         <input title="Games" class="pin-menu" type="checkbox" lang-tag="games" tabindex="-1">
-                        <div class="filled games"></div>
+                        <div class="filled games" tabindex="0"></div>
                         <span lang-tag="games">Games</span>
                         <div class="expand more">
                             <div class="up">
@@ -77,7 +77,7 @@ class Sidenav extends HTMLElement {
                     </div>
                     <div class="menu hvr">
                         <input title="Settings" class="pin-menu" type="checkbox" lang-tag="settings" tabindex="-1">
-                        <div class="filled settings"></div>
+                        <div class="filled settings" tabindex="0"></div>
                         <span lang-tag="settings">Settings</span>
                         <div class="expand more">
                             <div class="up">
