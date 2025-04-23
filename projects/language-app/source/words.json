@@ -1953,6 +1953,11 @@
     "def": "the action of receiving something or the fact of its being received.",
     "pos": "noun"
 }, {
+    "en": "recipe",
+    "tr": "yemek tarifi",
+    "def": "a set of instructions for preparing a particular dish, including a list of the ingredients required.",
+    "pos": "noun"
+}, {
     "en": "sandal",
     "tr": "sandalet",
     "def": "a light shoe with either an openwork upper or straps attaching the sole to the foot.",
@@ -3308,11 +3313,6 @@
     "en": "pressure",
     "tr": "baskı",
     "def": "continuous physical force exerted on or against an object by something in contact with it.",
-    "pos": "noun"
-}, {
-    "en": "recipe",
-    "tr": "yemek tarifi",
-    "def": "a set of instructions for preparing a particular dish, including a list of the ingredients required.",
     "pos": "noun"
 }, {
     "en": "fascinating",
