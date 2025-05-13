@@ -20,7 +20,7 @@ if (phone) {
 function setSelected(i) {
     const p = select.firstElementChild.children;
     if (i >= 0 && cards[i]) {
-        p[0].innerText = index + 1;
+        p[0].innerText = cards.length > 1 ? index + 1 : '';
         p[1].innerText = cards[i].cardNo;
         p[0].removeAttribute('lang-tag');
     }
@@ -83,7 +83,7 @@ function fillSelect() {
         }
         const option = document.createElement('div');
         const bstr = (cards[i].balance / 100).toLocaleString('tr', { minimumFractionDigits: 2 });
-        option.innerHTML = `${i + 1}<div><div>${cards[i].cardNo}</div><div>₺${bstr}</div></div>`;
+        option.innerHTML = `${cards.length > 1 ? i + 1 : ''}<div><div>${cards[i].cardNo}</div><div>₺${bstr}</div></div>`;
         option.classList.add('option');
         option.addEventListener('click', e => handleSelect(e, i));
         option.addEventListener('keypress', e => e.key === 'Enter' && handleSelect(e, i));
@@ -95,6 +95,13 @@ function fillSelect() {
             if (i === index) {
                 setSelected();
                 localStorage.setItem('gift_index', --index);
+            }
+            else if (i < index) {
+                setSelected(--index);
+                localStorage.setItem('gift_index', index);
+            }
+            else if (cards.length < 2) {
+                setSelected(0);
             }
             if (cards.length > 0) {
                 localStorage.setItem('gift_cards', JSON.stringify(cards));
