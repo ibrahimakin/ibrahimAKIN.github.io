@@ -836,4 +836,7 @@
 }, {
     "en": "The screen is blank.",
     "tr": "Ekran boş."
+}, {
+    "en": "The screen is frozen.",
+    "tr": "Ekran dondu."
 }]
