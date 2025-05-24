@@ -5,7 +5,7 @@ let accessToken = localStorage.getItem('gift_access_token');
 let refreshToken = localStorage.getItem('gift_refresh_token');
 let phone = localStorage.getItem('gift_phone');
 let index = localStorage.getItem('gift_index');
-let balanceStr, balance, lastCard, lastPin, loading = false;
+let balanceStr, balance, lastCard, lastPin, lastIndex, loading;
 
 if (!accessToken) {
     document.forms[0].classList.add('hidden');
@@ -29,6 +29,7 @@ function setSelected(i) {
         p[0].setAttribute('lang-tag', 'cards');
         p[1].innerText = '';
     }
+    lastIndex = i;
 }
 
 function fillForm(i) {
@@ -96,11 +97,11 @@ function fillSelect() {
                 setSelected();
                 localStorage.setItem('gift_index', --index);
             }
-            else if (i < index) {
+            else if (i < index && lastIndex >= 0) {
                 setSelected(--index);
                 localStorage.setItem('gift_index', index);
             }
-            else if (cards.length < 2) {
+            else if (cards.length < 2 && lastIndex >= 0) {
                 setSelected(0);
             }
             if (cards.length > 0) {
@@ -256,7 +257,7 @@ document.forms[0][0].addEventListener('input', e => {
     const value = e.target.value;
     if (value.trim().length === 16) {
         const i = cards.findIndex(n => n.cardNo === value);
-        if (i > -1) {
+        if (i >= 0) {
             if (index === i) {
                 setSelected(i);
             }
