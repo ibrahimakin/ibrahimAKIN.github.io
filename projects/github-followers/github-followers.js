@@ -1,10 +1,13 @@
 const blocked = localStorage.getItem('github_blocked')?.split(',') || [];
+const blocked_e = document.forms[0].nextElementSibling;
+const blocked_t = document.getElementById('blocked');
 const input = document.querySelector('input[type=search]');
 const table = document.getElementsByTagName('table')[0];
 const p = document.getElementsByTagName('p')[0];
+const checkbox = document.forms[0][3];
 let newtab = false, cur = '';   // current user
 
-function display(place, data, type) {
+function display(place, data, type, pre) {
     const ul = document.getElementById(type + '_' + place);
     for (const item of data) {
         const b = document.createElement('button');
@@ -32,7 +35,8 @@ function display(place, data, type) {
         li.appendChild(a);
         li.appendChild(b);
         li.appendChild(c);
-        ul.appendChild(li);
+        if (pre) ul.prepend(li);
+        else ul.appendChild(li);
     }
 }
 
@@ -64,11 +68,12 @@ function clear() {
 
 async function fetchData(user) {
     const res = { followers: [], following: [] };
+    const blocked_following = [];
     for (const key in res) {
         let url = `https://api.github.com/users/${user}/${key}?per_page=100&page=`;
-        let data = [{}];
-        for (let i = 1; data.length > 0; i++) {
-            data = await (await fetch(url + i)).json();
+        let data = [{}], i = 0;
+        do {
+            data = await (await fetch(url + ++i)).json();
             if (!Array.isArray(data)) {
                 p.innerText = data.message;
                 play(0);
@@ -83,8 +88,15 @@ async function fetchData(user) {
                 clear();
                 play(1);
             }
+            if (key === Object.keys(res)[1]) {
+                blocked_following.push(...data.filter(j => blocked.includes(j.login)));
+            }
             display(key, data, 'all');
             res[key].push(...data);
+        } while (data.length === 100);
+        if (key === Object.keys(res)[1] && blocked_following.length > 0) {
+            display(key, blocked_following, 'all', true);
+            res[key].unshift(...blocked_following);
         }
         counts(key, res[key].length, 'all');
     }
@@ -144,6 +156,7 @@ function handleBlock(e) {
     }
     if (blocked.length < 1) localStorage.removeItem('github_blocked');
     else localStorage.setItem('github_blocked', blocked);
+    blocked_t.value = blocked;
 }
 
 function handleSubmit(e) {
@@ -152,6 +165,31 @@ function handleSubmit(e) {
     if (!newtab) setURL(value);
     fetchData(value);
 }
+
+function handleChange() {
+    if (checkbox.checked) {
+        if (blocked.length > 0) blocked_t.value = blocked;
+        blocked_e.style.display = 'flex';
+    }
+    else {
+        blocked_e.removeAttribute('style');
+    }
+}
+
+function handleClick(e, t) {
+    if (t) {
+        blocked_t.select();
+        document.execCommand('copy');
+    }
+    else {
+        localStorage.setItem('github_blocked', blocked_t.value);
+    }
+    const txt = e.nextElementSibling;
+    txt.style.visibility = 'unset';
+    setTimeout(() => txt.removeAttribute('style'), 1000);
+}
+
+window.addEventListener('load', handleChange);
 
 window.addEventListener('popstate', loadPage);
 
