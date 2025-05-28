@@ -30,7 +30,21 @@
             <input type="search" placeholder="username" lang-tag="username" autofocus required>
             <button onclick="newtab = false" title="Search" lang-tag="search"></button>
             <button onclick="newtab = true" title="Open in New Tab" lang-tag="newtab"></button>
+            <label title="Show Blocked List" lang-tag="blocked"><input onchange="handleChange()" type="checkbox"><span>⨯</span></label>
         </form>
+        <div>
+            <div>
+                <br>
+                <button onclick="handleClick(this, true)" lang-tag="copy">Copy</button>
+                <span lang-tag="copied">Copied</span>
+            </div>
+            <textarea id="blocked"></textarea>
+            <div>
+                <br>
+                <button onclick="handleClick(this)" lang-tag="save">Save</button>
+                <span lang-tag="saved">Saved</span>
+            </div>
+        </div>
         <table style="display: none;">
             <thead>
                 <tr><th colspan="2" lang-tag="diff">Difference</th></tr>
