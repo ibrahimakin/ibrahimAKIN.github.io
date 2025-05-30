@@ -181,6 +181,9 @@ async function checkBalance(cardNo, pinNo) {
     else if (res.title) {
         p[9].innerText = res.title;
     }
+    else if (p[9].children.length < 2) {
+        p[9].innerText = balanceStr;
+    }
     return res;
 }
 
