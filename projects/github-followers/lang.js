@@ -7,7 +7,12 @@ const lang_obj = {
         all: 'Tümü',
         block: 'Engel',
         followers: 'Takipçiler',
-        following: 'Takip Edilenler'
+        following: 'Takip Edilenler',
+        copy: 'Kopyala',
+        copied: 'Kopyalandı',
+        blocked: 'Engellenenler Listesini Göster',
+        save: 'Kaydet',
+        saved: 'Kaydedildi'
     },
     en: {
         search: 'Search',
@@ -17,6 +22,11 @@ const lang_obj = {
         all: 'All',
         block: 'Block',
         followers: 'Followers',
-        following: 'Following'
+        following: 'Following',
+        copy: 'Copy',
+        copied: 'Copied',
+        blocked: 'Show Blocked List',
+        save: 'Save',
+        saved: 'Saved'
     }
 };
