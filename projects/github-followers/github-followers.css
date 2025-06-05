@@ -59,7 +59,7 @@ input:checked+span {
 form+div {
     display: none;
     align-items: center;
-    margin: auto;
+    margin: 2px auto;
 }
 
 textarea {

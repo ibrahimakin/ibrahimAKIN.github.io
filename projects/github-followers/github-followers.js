@@ -1,10 +1,10 @@
-const blocked = localStorage.getItem('github_blocked')?.split(',') || [];
 const blocked_e = document.forms[0].nextElementSibling;
 const blocked_t = document.getElementById('blocked');
 const input = document.querySelector('input[type=search]');
 const table = document.getElementsByTagName('table')[0];
 const p = document.getElementsByTagName('p')[0];
 const checkbox = document.forms[0][3];
+let blocked = localStorage.getItem('github_blocked')?.split(',') || [];
 let newtab = false, cur = '';   // current user
 
 function display(place, data, type, pre) {
@@ -71,7 +71,7 @@ async function fetchData(user) {
     const blocked_following = [];
     for (const key in res) {
         let url = `https://api.github.com/users/${user}/${key}?per_page=100&page=`;
-        let data = [{}], i = 0;
+        let data = [], len = 0, i = 0;
         do {
             data = await (await fetch(url + ++i)).json();
             if (!Array.isArray(data)) {
@@ -88,12 +88,17 @@ async function fetchData(user) {
                 clear();
                 play(1);
             }
+            len = data.length;
             if (key === Object.keys(res)[1]) {
-                blocked_following.push(...data.filter(j => blocked.includes(j.login)));
+                for (let j = 0; j < data.length; j++) {
+                    if (blocked.includes(data[j].login)) {
+                        blocked_following.push(data.splice(j, 1)[0]);
+                    }
+                }
             }
             display(key, data, 'all');
             res[key].push(...data);
-        } while (data.length === 100);
+        } while (len === 100);
         if (key === Object.keys(res)[1] && blocked_following.length > 0) {
             display(key, blocked_following, 'all', true);
             res[key].unshift(...blocked_following);
@@ -183,6 +188,7 @@ function handleClick(e, t) {
     }
     else {
         localStorage.setItem('github_blocked', blocked_t.value);
+        blocked = blocked_t.value.split(',');
     }
     const txt = e.nextElementSibling;
     txt.style.visibility = 'unset';
