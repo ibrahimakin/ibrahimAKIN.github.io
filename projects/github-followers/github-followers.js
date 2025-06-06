@@ -12,6 +12,7 @@ function display(place, data, type, pre) {
     for (const item of data) {
         const b = document.createElement('button');
         const c = document.createElement('button');
+        const d = document.createElement('div');
         const img = document.createElement('img');
         const li = document.createElement('li');
         const a = document.createElement('a');
@@ -32,9 +33,10 @@ function display(place, data, type, pre) {
         c.innerText = '⨯';
         b.innerText = '.';
         a.prepend(img);
+        d.appendChild(b);
+        d.appendChild(c);
         li.appendChild(a);
-        li.appendChild(b);
-        li.appendChild(c);
+        li.appendChild(d);
         if (pre) ul.prepend(li);
         else ul.appendChild(li);
     }
