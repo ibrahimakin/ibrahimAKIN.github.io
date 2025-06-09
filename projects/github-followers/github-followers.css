@@ -107,6 +107,10 @@ ul {
     margin-left: 20px;
 }
 
+li>div {
+    display: inline-block;
+}
+
 a {
     color: #c9d1d9;
     text-decoration: none;
@@ -155,5 +159,36 @@ p {
 
     thead {
         top: calc(var(--topnav-height) + 55px);
+    }
+
+    textarea {
+        width: unset;
+    }
+
+    a {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    table button:first-child {
+        margin-left: 0;
+    }
+
+    img {
+        margin: 10px auto;
+    }
+
+    ul {
+        margin-left: 0;
+    }
+
+    li {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li>div {
+        display: block;
+        margin: 10px 0;
     }
 }
