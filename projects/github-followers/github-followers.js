@@ -161,6 +161,7 @@ function handleBlock(e) {
         e.target.style.color = '#f00';
         blocked.push(value);
     }
+    blocked_e.setAttribute('count', blocked.length);
     if (blocked.length < 1) localStorage.removeItem('github_blocked');
     else localStorage.setItem('github_blocked', blocked);
     blocked_t.value = blocked;
@@ -189,13 +190,23 @@ function handleClick(e, t) {
         document.execCommand('copy');
     }
     else {
-        localStorage.setItem('github_blocked', blocked_t.value);
-        blocked = blocked_t.value.split(',');
+        const value = blocked_t.value;
+        if (value.trim()) {
+            localStorage.setItem('github_blocked', value);
+            blocked = value.split(',');
+        }
+        else {
+            localStorage.removeItem('github_blocked');
+            blocked = [];
+        }
+        blocked_e.setAttribute('count', blocked.length);
     }
     const txt = e.nextElementSibling;
     txt.style.visibility = 'unset';
     setTimeout(() => txt.removeAttribute('style'), 1000);
 }
+
+blocked_e.setAttribute('count', blocked.length);
 
 window.addEventListener('load', handleChange);
 
