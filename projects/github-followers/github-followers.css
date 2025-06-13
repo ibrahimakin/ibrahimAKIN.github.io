@@ -60,6 +60,16 @@ form+div {
     display: none;
     align-items: center;
     margin: 2px auto;
+    position: relative;
+}
+
+form+div::before {
+    content: attr(count);
+    font-weight: bold;
+    font-size: 20px;
+    top: 6px;
+    left: 14px;
+    position: absolute;
 }
 
 textarea {
