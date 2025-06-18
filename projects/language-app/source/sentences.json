@@ -839,4 +839,7 @@
 }, {
     "en": "The screen is frozen.",
     "tr": "Ekran dondu."
+}, {
+    "en": "You are frozen.",
+    "tr": "Dondun."
 }]
