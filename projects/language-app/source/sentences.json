@@ -842,4 +842,7 @@
 }, {
     "en": "You are frozen.",
     "tr": "Dondun."
+}, {
+    "en": "The image and sound are out of sync.",
+    "tr": "Görüntü ve ses senkronize değil."
 }]
