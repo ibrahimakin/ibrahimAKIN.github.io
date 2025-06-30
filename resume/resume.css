@@ -1,6 +1,5 @@
 :root {
     --resume-clr: #007070;
-    --resume-hvr: #006060;
     --resume-txt: #f5f5f5;
     --nav-clr: var(--resume-clr);
 }
@@ -15,15 +14,6 @@
     border-radius: 0;
 }
 
-#collapse:hover+.filled,
-.menu.hvr>.pin-menu:hover+.filled,
-:not(.menu)>.filled:hover,
-.menu.hvr>.filled:hover,
-.pin-menu:hover~span,
-.filled:hover+span {
-    --nav-clr: var(--resume-hvr);
-}
-
 #root {
     display: flex;
     font-size: 0.939em;
@@ -35,8 +25,37 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-#root h2 {
+h2 {
     color: var(--resume-clr);
+}
+
+hr {
+    border-color: var(--resume-clr);
+    transition-property: border-color;
+}
+
+a {
+    color: inherit;
+    text-underline-offset: 4px;
+    text-decoration: none;
+}
+
+#topnav, #topnav div>span, #sidenav div>span,
+.filled::before, .expand::before, #resume-summary,
+h2, hr, ::marker, #left-profile-image::after, .contact-icon,
+#skills>div, .edu-period, .sec-title {
+    transition-timing-function: linear;
+    transition-duration: .5s;
+}
+
+#topnav, .filled::before, .expand::before, #resume-summary,
+#left-profile-image::after, .contact-icon, #skills>div {
+    transition-property: background-color;
+}
+
+#topnav div>span, #sidenav div>span,
+h2, ::marker, .edu-period, .sec-title {
+    transition-property: color;
 }
 
 #resume-left .lang-button {
@@ -56,7 +75,6 @@
 
 #resume-left hr {
     margin-bottom: 5px;
-    border-color: var(--resume-clr);
 }
 
 #resume-right {
@@ -80,13 +98,6 @@
 
 #resume-right hr {
     margin-bottom: 10px;
-    border-color: var(--resume-clr);
-}
-
-a {
-    color: inherit;
-    text-underline-offset: 4px;
-    text-decoration: none;
 }
 
 #resume-right a:hover {
@@ -237,10 +248,6 @@ a {
     cursor: default;
 }
 
-#skills>div:hover {
-    background-color: var(--resume-hvr);
-}
-
 #interests>div {
     display: inline-block;
     border: 1px solid #808080;
@@ -251,8 +258,8 @@ a {
 }
 
 #interests>div:hover {
-    border-color: var(--resume-hvr);
-    color: var(--resume-hvr);
+    border-color: var(--resume-clr);
+    color: var(--resume-clr);
 }
 
 .language {

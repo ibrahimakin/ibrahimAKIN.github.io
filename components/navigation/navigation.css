@@ -46,6 +46,20 @@
     opacity: .5;
 }
 
+.color {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.color.filled::before {
+    content: none;
+}
+
+.color>button {
+    cursor: pointer;
+    background-color: var(--color);
+}
+
 @media screen and (max-width: 450px) {
     side-nav {
         display: none;
@@ -59,7 +73,7 @@
 @media screen and (max-height: 450px) {
     :root {
         --sidenav-width: 60px;
-        --nav-gap: 4px;
+        --nav-gap: 3px;
     }
 }
 

@@ -1,6 +1,7 @@
 class Topnav extends HTMLElement {
     connectedCallback() {
         const lang_support = typeof lang_obj === 'undefined' ? 'disabled' : '';
+        const color = typeof colors === 'undefined' ? null : colors.pop();
         this.innerHTML = `
             <div id="topnav" class="main">
                 <div>
@@ -65,6 +66,17 @@ class Topnav extends HTMLElement {
                         <div>
                             <div title="English" lang-name="en" class="filled en lang-button" tabindex="0" ${lang_support}></div>
                         </div>
+                        ${color ?
+                            `<div>
+                                <div title="Colors" lang-tag="colors" class="filled color">
+                                    ${(() => {
+                                        let result = '';
+                                        for (const i of colors) result += `<button value="${i}" style="--color:${i}"></button>`;
+                                        return result;
+                                    })()}
+                                </div>
+                            </div>` : ''
+                        }
                     </div>
                 </div>
             </div>
@@ -85,6 +97,11 @@ class Topnav extends HTMLElement {
                 delete e.target.firstElementChild.open;
                 e.target.classList.add('hvr');
             });
+        }
+        if (color) {
+            for (const b of this.getElementsByClassName('color')[0].children) {
+                b.addEventListener('click', e => document.querySelector(':root').style.setProperty(color, e.target.value));
+            }
         }
     }
 }

@@ -29,3 +29,7 @@ top-nav {
 #topnav .expand {
     height: 0;
 }
+
+#topnav .color {
+    padding: 0;
+}
