@@ -45,6 +45,10 @@ side-nav {
     z-index: 3;
 }
 
+#sidenav .color {
+    padding: 3px;
+}
+
 .expand::before {
     content: '';
     display: none;
@@ -79,9 +83,22 @@ side-nav {
 }
 
 .expand>.up {
+    perspective: 300px;
+    transform-style: preserve-3d;
+}
+
+div.expand div.up {
     transition: transform .2s linear;
     transform: rotateX(180deg);
     transform-origin: bottom;
+}
+
+.expand>.up:has(>.up) {
+    transition-delay: .07s;
+}
+
+.expand .up>.up {
+    top: -100%;
 }
 
 .main div>span {
@@ -140,9 +157,19 @@ side-nav {
     transform: rotateX(0);
 }
 
+.menu.hvr:hover>.expand .up>.up,
+.menu:focus-within>.expand .up>.up,
+.pin-menu:checked~.expand .up>.up {
+    transition-delay: .15s;
+}
+
 @media screen and (max-height: 450px) {
     .main div>span {
         font-size: 10px;
         height: 13px;
+    }
+
+    #sidenav .color {
+        padding: 0;
     }
 }

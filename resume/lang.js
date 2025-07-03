@@ -166,3 +166,4 @@ const lang_obj = {
         lcdd: 'LCD / Display character calculation for PicBasic on Android / Windows / Web.'
     }
 };
+const colors = ['#007070', '#002C70', '#2E0070', '#700043', '#70001C', '#7B3C07', '#707000', '#207000', '#000', '--resume-clr'];

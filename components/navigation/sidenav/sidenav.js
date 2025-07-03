@@ -1,6 +1,7 @@
 class Sidenav extends HTMLElement {
     connectedCallback() {
         const lang_support = typeof lang_obj === 'undefined' ? 'disabled' : '';
+        const color = typeof colors === 'undefined' ? null : colors.pop();
         this.innerHTML = `
             <div id="sidenav">
                 <div class="main">
@@ -81,6 +82,17 @@ class Sidenav extends HTMLElement {
                         <span lang-tag="settings">Settings</span>
                         <div class="expand more">
                             <div class="up">
+                                ${color ?
+                                    `<div class="up">
+                                        <div title="Colors" lang-tag="colors" class="filled color">
+                                            ${(() => {
+                                                let result = '';
+                                                for (const i of colors) result += `<button value="${i}" style="--color:${i}"></button>`;
+                                                return result;
+                                            })()}
+                                        </div>
+                                    </div>` : ''
+                                }
                                 <div title="Türkçe" lang-name="tr" class="filled tr lang-button" tabindex="0" ${lang_support}></div>
                                 <span>${lang_support ? 'Türkçe' : lang_obj.tr.nav_turkish}</span>
                             </div>
@@ -115,6 +127,12 @@ class Sidenav extends HTMLElement {
                 delete e.target.firstElementChild.open;
                 e.target.classList.add('hvr');
             });
+        }
+        if (color) {
+            for (const b of this.getElementsByClassName('color')[0].children) {
+                b.addEventListener('click', e => document.querySelector(':root').style.setProperty(color, e.target.value));
+            }
+            colors.push(color);
         }
     }
 }
