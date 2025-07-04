@@ -19,6 +19,17 @@
     display: block;
 }
 
+.main div>span {
+    overflow: hidden;
+    user-select: none;
+    position: absolute;
+    text-align: center;
+    pointer-events: none;
+    color: var(--nav-clr);
+    font-family: Arial;
+    z-index: 1;
+}
+
 .expand {
     width: 100%;
     position: absolute;
