@@ -154,9 +154,15 @@
 .main>div:nth-child(1)>.filled::before {
     background-color: #26d991;
 }
+.main>div:nth-child(1)>span {
+    color: #26d991;
+}
 .menu:nth-child(3)>.filled,
 .menu:nth-child(3)>.filled::before {
     background-color: #b5d926;
+}
+.menu:nth-child(3)>span {
+    color: #b5d926;
 }
 .menu:nth-child(3)>.expand>div>.filled::before,
 .menu:nth-child(3)>.expand>div>.filled,
@@ -164,11 +170,17 @@
 .menu:nth-child(3)>.expand>div:nth-child(1)>.filled {
     background-color: #f00;
 }
+.menu:nth-child(3)>.expand>div:nth-child(1)>span{
+    color: #f00;
+}
 .menu:nth-child(3)>.expand>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(2)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(2)>.filled {
     background-color: #d9aa26;
+}
+.menu:nth-child(3)>.expand>div:nth-child(2)>span{
+    color: #d9aa26;
 }
 .menu:nth-child(3)>.expand>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>.filled,
@@ -176,11 +188,19 @@
 .menu:nth-child(3)>.expand>div:nth-child(3)>.filled {
     background-color: #f94040;
 }
+.menu:nth-child(3)>.expand>div>div>span,
+.menu:nth-child(3)>.expand>div:nth-child(3)>span{
+    color: #f94040;
+}
 .menu:nth-child(3)>.expand>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(4)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(4)>.filled {
     background-color: #ff7b0a;
+}
+.menu:nth-child(3)>.expand>div>div>div>span,
+.menu:nth-child(3)>.expand>div:nth-child(4)>span{
+    color: #ff7b0a;
 }
 .menu:nth-child(3)>.expand>div>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>div>.filled,
@@ -188,23 +208,40 @@
 .menu:nth-child(3)>.expand>div:nth-child(5)>.filled {
     background-color: #26d94a;
 }
+.menu:nth-child(3)>.expand>div>div>div>div>span,
+.menu:nth-child(3)>.expand>div:nth-child(5)>span{
+    color: #26d94a;
+}
 .menu:nth-child(3)>.expand>div>div>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(6)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(6)>.filled {
     background-color: #39c5a4;
 }
+.menu:nth-child(3)>.expand>div>div>div>div>div>span,
+.menu:nth-child(3)>.expand>div:nth-child(6)>span{
+    color: #39c5a4;
+}
 .menu:nth-child(4)>.filled,
 .menu:nth-child(4)>.filled::before {
     background-color: #26d926;
+}
+.menu:nth-child(4)>span {
+    color: #26d926;
 }
 .menu:nth-child(4)>.expand>div:nth-child(1)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(1)>.filled {
     background-color: #26d9b5;
 }
+.menu:nth-child(4)>.expand>div:nth-child(1)>span{
+    color: #26d9b5;
+}
 .menu:nth-child(4)>.expand>div:nth-child(2)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>.filled {
     background-color: #d9d326;
+}
+.menu:nth-child(4)>.expand>div:nth-child(2)>span{
+    color: #d9d326;
 }
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>.filled,
@@ -212,11 +249,19 @@
 .menu:nth-child(4)>.expand>div:nth-child(3)>.filled {
     background-color: #7c39ff;
 }
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>span,
+.menu:nth-child(4)>.expand>div:nth-child(3)>span{
+    color: #7c39ff;
+}
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>.filled,
 .menu:nth-child(4)>.expand>div:nth-child(4)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(4)>.filled {
     background-color: #d96e26;
+}
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>span,
+.menu:nth-child(4)>.expand>div:nth-child(4)>span{
+    color: #d96e26;
 }
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>.filled,
@@ -224,17 +269,30 @@
 .menu:nth-child(4)>.expand>div:nth-child(5)>.filled {
     background-color: #ff3636;
 }
+.menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>span,
+.menu:nth-child(4)>.expand>div:nth-child(5)>span{
+    color: #ff3636;
+}
 .main>div:nth-child(5)>.filled,
 .main>div:nth-child(5)>.filled::before {
     background-color: #2691d9;
+}
+.main>div:nth-child(5)>span {
+    color: #2691d9;
 }
 .main>div:nth-child(6)>.filled,
 .main>div:nth-child(6)>.filled::before {
     background-color: #d94a26;
 }
+.main>div:nth-child(6)>span {
+    color: #d94a26;
+}
 .main>div:nth-child(7)>.filled,
 .main>div:nth-child(7)>.filled::before {
     background-color: #6ed926;
+}
+.main>div:nth-child(7)>span {
+    color: #6ed926;
 }
 .menu:nth-child(7)>.expand>div:nth-child(1)>.filled::before,
 .menu:nth-child(7)>.expand>div:nth-child(1)>.filled {
@@ -244,10 +302,16 @@
 .menu:nth-child(7)>.expand>div:nth-child(2)>.filled {
     background-color: #239bfe;
 }
+.menu:nth-child(7)>.expand>div:nth-child(2)>span{
+    color: #239bfe;
+}
 .menu:nth-child(7)>.expand>div:nth-child(1)>.filled:hover::before {
     background-color: #e30a17;
 }
 .menu:nth-child(7)>.expand>div:nth-child(1)>span {
+    color: #fff;
+}
+.menu:nth-child(7)>.expand>div:nth-child(1)>.filled:hover+span {
     color: #e30a17;
 }
 
@@ -257,6 +321,12 @@
 .main :not(.menu)>.filled:hover.filled::before {
     background-color: #000;
     transform: scale(1.25) translateY(-5px);
+}
+.main>.menu>.expand .filled:hover+span,
+.main .menu.hvr>.pin-menu:hover~span,
+.main .menu.hvr>.filled:hover+span,
+.main :not(.menu):hover>span {
+    color: #000;
 }
 
 #topnav .menu.hvr>.filled:hover.filled::before,
