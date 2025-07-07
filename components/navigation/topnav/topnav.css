@@ -1,5 +1,5 @@
 :root {
-    --topnav-height: 40px;
+    --topnav-height: 45px;
 }
 
 top-nav {
@@ -15,6 +15,17 @@ top-nav {
     z-index: 3;
 }
 
+#topnav div>span {
+    height: 14px;
+    width: calc(100% - 2 * var(--nav-gap) / 4);
+    bottom: calc(var(--nav-gap) / 4);
+    font-size: 11px;
+}
+
+#topnav .filled::before {
+    mask-position: 50% 15%;
+}
+
 #topnav .menu:focus-within>.expand,
 #topnav .menu.hvr:hover>.expand {
     height: 100%;
@@ -23,7 +34,7 @@ top-nav {
 }
 
 #topnav>div, #topnav .expand>div {
-    padding: calc(var(--nav-gap) / 3);
+    padding: calc(var(--nav-gap) / 4);
 }
 
 #topnav .expand {

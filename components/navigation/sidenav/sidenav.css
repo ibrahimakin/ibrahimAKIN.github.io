@@ -45,6 +45,21 @@ side-nav {
     z-index: 3;
 }
 
+#sidenav div>span {
+    bottom: var(--nav-gap);
+    width: calc(100% - 2 * var(--nav-gap));
+    transition: opacity .15s linear;
+    font-size: 14px;
+    height: 18px;
+    opacity: 0;
+}
+
+#sidenav .filled:hover+span,
+#sidenav .menu.hvr:hover>span,
+#sidenav .pin-menu:checked~span {
+    opacity: 1;
+}
+
 #sidenav .color {
     padding: 3px;
 }
@@ -101,29 +116,6 @@ div.expand div.up {
     top: -100%;
 }
 
-.main div>span {
-    overflow: hidden;
-    user-select: none;
-    position: absolute;
-    text-align: center;
-    pointer-events: none;
-    color: var(--nav-clr);
-    font-family: Arial;
-    bottom: var(--nav-gap);
-    width: calc(100% - 2 * var(--nav-gap));
-    transition: opacity .15s linear;
-    font-size: 14px;
-    height: 18px;
-    z-index: 1;
-    opacity: 0;
-}
-
-.main .filled:hover+span,
-.main .menu.hvr:hover>span,
-.pin-menu:checked~span {
-    opacity: 1;
-}
-
 .pin-menu {
     opacity: 0;
     position: absolute;
@@ -164,9 +156,10 @@ div.expand div.up {
 }
 
 @media screen and (max-height: 450px) {
-    .main div>span {
+    #sidenav div>span {
         font-size: 10px;
         height: 13px;
+        opacity: 1;
     }
 
     #sidenav .color {
