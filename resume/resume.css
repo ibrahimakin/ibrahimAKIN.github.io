@@ -40,10 +40,9 @@ a {
     text-decoration: none;
 }
 
-#topnav, #topnav div>span, #sidenav div>span,
-.filled::before, .expand::before, #resume-summary,
-h2, hr, ::marker, #left-profile-image::after, .contact-icon,
-#skills>div, .edu-period, .sec-title {
+#topnav, .main div>span, .filled::before, .expand::before,
+#resume-summary, h2, hr, ::marker, #left-profile-image::after,
+.contact-icon, #skills>div, .edu-period, .sec-title {
     transition-timing-function: linear;
     transition-duration: .5s;
 }
@@ -53,8 +52,7 @@ h2, hr, ::marker, #left-profile-image::after, .contact-icon,
     transition-property: background-color;
 }
 
-#topnav div>span, #sidenav div>span,
-h2, ::marker, .edu-period, .sec-title {
+.main div>span, h2, ::marker, .edu-period, .sec-title {
     transition-property: color;
 }
 

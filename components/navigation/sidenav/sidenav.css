@@ -48,7 +48,6 @@ side-nav {
 #sidenav div>span {
     bottom: var(--nav-gap);
     width: calc(100% - 2 * var(--nav-gap));
-    transition: opacity .15s linear;
     font-size: 14px;
     height: 18px;
     opacity: 0;
