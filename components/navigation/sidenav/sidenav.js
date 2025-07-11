@@ -130,7 +130,11 @@ class Sidenav extends HTMLElement {
         }
         if (color) {
             for (const b of this.getElementsByClassName('color')[0].children) {
-                b.addEventListener('click', e => document.querySelector(':root').style.setProperty(color, e.target.value));
+                b.addEventListener('click', e => {
+                    document.querySelector(':root').style.setProperty(color, e.target.value);
+                    document.querySelector('meta[name="theme-color"]').setAttribute('content', e.target.value);
+                    e.target.blur();
+                });
             }
             colors.push(color);
         }

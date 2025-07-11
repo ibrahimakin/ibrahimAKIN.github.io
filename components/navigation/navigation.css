@@ -25,6 +25,7 @@
     position: absolute;
     text-align: center;
     pointer-events: none;
+    transition: opacity .15s linear;
     color: var(--nav-clr);
     font-family: Arial;
     z-index: 1;
