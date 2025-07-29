@@ -318,22 +318,21 @@ li>div>a:last-child, .cert-period>a {
     margin-bottom: 20px;
 }
 
-#projects h3[id] {
+#projects li>h3 {
     transition: color 1s linear;
+}
+
+#projects li>div[id] {
+    content: '';
+    display: block;
+    margin-top: -220px;
+    position: absolute;
 }
 
 .focus {
     width: fit-content;
     color: var(--resume-clr);
     position: relative;
-}
-
-.focus::before {
-    content: '';
-    display: block;
-    height: 220px;
-    margin-top: -220px;
-    visibility: hidden;
 }
 
 .focus::after {
@@ -408,6 +407,10 @@ li>div>a:last-child, .cert-period>a {
         #resume-right #resume-summary {
             position: relative;
             top: unset;
+        }
+
+        #projects li>div[id] {
+            margin-top: calc(var(--topnav-height) * -1);
         }
     }
 }
