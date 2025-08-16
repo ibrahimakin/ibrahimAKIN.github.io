@@ -53,7 +53,7 @@ button {
     padding: 4px 60px;
 }
 
-button:not([lang-tag]) {
+button:not([lang-tag]):not([style]) {
     border: none;
 }
 
