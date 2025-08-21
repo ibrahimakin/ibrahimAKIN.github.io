@@ -8,6 +8,7 @@
 }
 
 body {
+    font-family: system-ui;
     background-color: #bfbfbf;
 }
 
@@ -17,15 +18,52 @@ body {
     padding: 1em;
 }
 
-p, ul {
-    margin-block: 1em;
+header, section {
+    margin-bottom: 16px;
 }
 
-ul {
-    padding-inline-start: 40px;
+h1 {
+    font-size: 28px;
+    margin: 8px 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+p {
+    line-height: 1.65;
+    margin-bottom: 6px;
 }
 
 a {
     color: #000;
+}
+
+div>a {
     text-decoration: none;
+}
+
+p>a {
+    text-underline-offset: 3px;
+}
+
+header>p {
+    font-size: 15px;
+}
+
+header>div {
+    padding: 4px 2px;
+    font-size: 12px;
+}
+
+section:last-child {
+    font-size: 13px;
+}
+
+footer {
+    margin-top: 24px;
+    font-size: 13px;
+    text-align: center;
 }
