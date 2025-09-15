@@ -23,7 +23,7 @@
     <top-nav></top-nav>
     <side-nav></side-nav>
     <div id="root">
-        <a href="..">&lt; Back</a><br><br>
+        <a onclick="handleClick(event)" href="..">&lt; Back</a>
         <header>
             <div lang-tag="no_data">No Data Collected</div>
             <h1 lang-tag="privacy">Privacy Policy</h1>
@@ -68,7 +68,7 @@
             <section>
                 <h2 lang-tag="contact">Contact Us</h2>
                 <p lang-tag="about">If you have questions about this Privacy Policy or the Extension’s practices, contact:</p>
-                <p><strong lang-tag="web">Website:</strong> <a href="..">Search YouTube</a></p>
+                <p><strong lang-tag="web">Website:</strong> <a onclick="handleClick(event)" href="..">Search YouTube</a></p>
             </section>
             <section>
                 <p>
@@ -82,6 +82,12 @@
         </footer>
     </div>
     <script>
+        function handleClick(e) {
+            if (document.referrer.includes(location.pathname.split('/')[2])) {
+                e.preventDefault();
+                history.back();
+            }
+        }
         document.getElementById('y').textContent = new Date().getFullYear();
     </script>
 </body>
