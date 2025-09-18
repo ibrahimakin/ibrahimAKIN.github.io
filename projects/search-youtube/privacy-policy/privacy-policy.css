@@ -45,8 +45,12 @@ header>p {
 }
 
 header>div {
-    padding: 4px 2px;
-    font-size: 12px;
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 14px 0 2px 0;
+    font-size: 13px;
 }
 
 section:last-child {
@@ -54,7 +58,6 @@ section:last-child {
 }
 
 footer {
-    margin-top: 24px;
     font-size: 13px;
     text-align: center;
 }
