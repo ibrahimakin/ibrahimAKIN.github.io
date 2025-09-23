@@ -59,6 +59,8 @@ input:checked+span {
 form+div {
     display: none;
     align-items: center;
+    height: fit-content;
+    min-height: 100px;
     margin: 2px auto;
     position: relative;
 }
@@ -68,7 +70,7 @@ form+div::before {
     font-weight: bold;
     font-size: 20px;
     top: 6px;
-    left: 14px;
+    left: 16px;
     position: absolute;
 }
 
@@ -84,7 +86,7 @@ form+div>div {
 }
 
 form+div button {
-    margin: 0 8px;
+    margin: 1rem 15px 0;
 }
 
 form+div span {
