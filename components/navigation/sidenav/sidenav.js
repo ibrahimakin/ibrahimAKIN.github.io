@@ -87,7 +87,7 @@ class Sidenav extends HTMLElement {
                                         <div title="Colors" lang-tag="colors" class="filled color">
                                             ${(() => {
                                                 let result = '';
-                                                for (const i of colors) result += `<button value="${i}" style="--color:${i}"></button>`;
+                                                for (const i of colors) result += `<button aria-label="Color" value="${i}" style="--color:${i}"></button>`;
                                                 return result;
                                             })()}
                                         </div>
