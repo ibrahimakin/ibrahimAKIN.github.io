@@ -28,8 +28,14 @@
     <div id="root">
         <canvas width="800" height="500"></canvas>
         <div>
-            <button id="snake-play" lang-tag="play">Play</button>
-            <button id="snake-pause" lang-tag="pause">Pause</button>
+            <button id="play" lang-tag="play" ontouchend="showControls(this)">Play</button>
+            <button id="pause" lang-tag="pause">Pause</button>
+            <div class="controls" style="display:none">
+                <button value="37" ontouchstart="handleControls(event)">&larr;</button>
+                <button value="38" ontouchstart="handleControls(event)">&uarr;</button>
+                <button value="39" ontouchstart="handleControls(event)">&rarr;</button>
+                <button value="40" ontouchstart="handleControls(event)">&darr;</button>
+            </div>
         </div>
     </div>
 </body>

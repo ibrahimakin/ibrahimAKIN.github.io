@@ -37,3 +37,42 @@ canvas {
     padding: 5px;
     margin: 5px;
 }
+
+.controls {
+    opacity: .6;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 70px;
+    width: 60px;
+}
+
+.controls button {
+    user-select: none;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.controls button:nth-child(odd) {
+    position: absolute;
+    top: 60px;
+}
+
+.controls button:nth-child(1) {
+    right: 60px;
+}
+
+.controls button:nth-child(3) {
+    left: 60px;
+}
+
+@media screen and (max-height: 330px) {
+    #root>div:last-child {
+        margin-bottom: 10%;
+    }
+
+    .controls {
+        bottom: 5px;
+    }
+}
