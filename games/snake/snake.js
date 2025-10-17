@@ -2,8 +2,8 @@ class SnakeGame {
     constructor() {
         this.canvas = document.querySelector('canvas');
         this.context = this.canvas.getContext('2d');
-        document.getElementById('snake-play').addEventListener('click', this.handlePlayClick.bind(this));
-        document.getElementById('snake-pause').addEventListener('click', this.handlePauseClick.bind(this));
+        document.getElementById('play').addEventListener('click', this.handlePlayClick.bind(this));
+        document.getElementById('pause').addEventListener('click', this.handlePauseClick.bind(this));
         document.addEventListener('keydown', this.onKeyPress.bind(this));
         this.best = parseInt(localStorage.getItem('snake_high_score'));
         if (!this.best) this.best = 0;
@@ -51,30 +51,18 @@ class SnakeGame {
         this.positionX += this.velocityX;
         this.positionY += this.velocityY;
 
-        if (this.positionX < 0) {
-            this.positionX = this.tileCountX - 1;
-        }
-        if (this.positionY < 0) {
-            this.positionY = this.tileCountY - 1;
-        }
-        if (this.positionX > this.tileCountX - 1) {
-            this.positionX = 0;
-        }
-        if (this.positionY > this.tileCountY - 1) {
-            this.positionY = 0;
-        }
+        if (this.positionX < 0) this.positionX = this.tileCountX - 1;
+        if (this.positionY < 0) this.positionY = this.tileCountY - 1;
+        if (this.positionX > this.tileCountX - 1) this.positionX = 0;
+        if (this.positionY > this.tileCountY - 1) this.positionY = 0;
 
         this.trail.forEach(t => {
-            if (this.positionX === t.positionX && this.positionY === t.positionY) {
-                this.reset();
-            }
+            if (this.positionX === t.positionX && this.positionY === t.positionY) this.reset();
         });
 
         this.trail.push({ positionX: this.positionX, positionY: this.positionY });
 
-        while (this.trail.length > this.tailSize) {
-            this.trail.shift();
-        }
+        while (this.trail.length > this.tailSize) this.trail.shift();
 
         if (this.appleX === this.positionX && this.appleY === this.positionY) {
             this.tailSize++;
@@ -107,7 +95,7 @@ class SnakeGame {
     }
 
     onKeyPress(e) {
-        if (this.pause) { return; }
+        if (this.pause) return;
         this.play = true;
         if (e.keyCode === 37 && this.velocityX !== 1) {
             this.velocityX = -1;
@@ -127,5 +115,16 @@ class SnakeGame {
         }
     }
 }
+
+function handleControls(e) {
+    if (e.cancelable) e.preventDefault();
+    document.dispatchEvent(new KeyboardEvent('keydown', { keyCode: e.target.value }));
+}
+
+function showControls(e) {
+    e.nextElementSibling.nextElementSibling.removeAttribute('style');
+}
+
 const game = new SnakeGame();
+
 window.onload = () => game.init();
