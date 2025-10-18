@@ -68,3 +68,17 @@ window.onerror = function (event) {
         if (text) console.error('[post-exception status] ' + text);
     };
 };
+
+const keys = [87, 83, 38, 40];
+
+const buttons = document.getElementsByTagName('button');
+
+const createEvent = (e, keyCode) => new KeyboardEvent('key' + e, { keyCode, bubbles: true });
+
+for (let i = 0; i < keys.length; i++) {
+    buttons[i].addEventListener('touchstart', () => document.dispatchEvent(createEvent('down', keys[i])));
+    buttons[i].addEventListener('touchcancel', () => document.dispatchEvent(createEvent('up', keys[i])));
+    buttons[i].addEventListener('touchend', () => document.dispatchEvent(createEvent('up', keys[i])));
+}
+
+Module.canvas.addEventListener('touchend', () => document.dispatchEvent(createEvent('down', 32)));
