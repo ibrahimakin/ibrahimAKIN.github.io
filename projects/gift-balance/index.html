@@ -51,16 +51,20 @@
         <form class="hidden">
             <label>
                 &nbsp;<span lang-tag="phone">Phone</span><br />
-                <input type="tel" minlength="10" maxlength="10" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" required />
+                <input type="tel" pattern="^5\d{9}" minlength="10" maxlength="10" placeholder="5XXXXXXXXX" required />
             </label><br /><br />
             <button lang-tag="send">Send</button>
+            <p></p>
         </form>
         <form class="hidden">
             <label>
                 &nbsp;<span lang-tag="sms">SMS Code</span><br />
                 <input type="text" pattern="\d{6}" minlength="6" maxlength="6" required />
             </label><br /><br />
+            <button type="reset" lang-tag="resend">&lt; Back to resend</button>
             <button lang-tag="send">Send</button>
+            <p></p>
         </form>
+        <a class="link" href="privacy-policy" lang-tag="privacy">Privacy Policy</a>
     </div>
 </body>

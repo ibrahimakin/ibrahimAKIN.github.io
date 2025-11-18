@@ -74,14 +74,10 @@ function fillSelect() {
     const options = select.lastElementChild.firstElementChild;
     let total = 0, show = false;
     options.innerHTML = '';
-    if (cards.length > 0) {
-        select.classList.remove('hidden');
-    }
+    if (cards.length > 0) select.classList.remove('hidden');
     for (let i = 0; i < cards.length; i++) {
         total += cards[i].balance;
-        if (total > cards[i].balance && cards[i].balance > 0) {
-            show = true;
-        }
+        if (total > cards[i].balance && cards[i].balance > 0) show = true;
         const option = document.createElement('div');
         const bstr = (cards[i].balance / 100).toLocaleString('tr', { minimumFractionDigits: 2 });
         option.innerHTML = `${cards.length > 1 ? i + 1 : ''}<div><div>${cards[i].cardNo}</div><div>₺${bstr}</div></div>`;
@@ -190,8 +186,7 @@ async function checkBalance(cardNo, pinNo) {
 async function refreshTokens(customToken) {
     const endpoint = customToken ? 'auth' : 'refresh';
     const body = JSON.stringify(customToken ? { customToken } : { refreshToken });
-    const res = await fetch(URL + 'TOKEN/' + endpoint, { method: 'POST', body })
-        .then(res => res.json());
+    const res = await fetch(URL + 'TOKEN/' + endpoint, { method: 'POST', body }).then(res => res.json());
     if (res.accessToken) {
         accessToken = res.accessToken;
         refreshToken = res.refreshToken;
@@ -202,17 +197,13 @@ async function refreshTokens(customToken) {
 }
 
 async function sendOtp(p) {
-    const res = await fetch(URL + 'CALL/MsisdnAuthenticator/sendOtp/90' + p,
-        { method: 'POST', headers: { 'A101-User-Agent': 'web-2.0.3' } })
-        .then(res => res.json());
-    return res;
+    return await fetch(URL + 'CALL/MsisdnAuthenticator/sendOtp/90' + p,
+        { method: 'POST', headers: { 'A101-User-Agent': 'web-2.0.3' } }).then(res => res.json());
 }
 
 async function validateOtp(otp) {
-    const res = await fetch(URL + 'CALL/MsisdnAuthenticator/validateOtp/90' + phone,
-        { method: 'POST', body: JSON.stringify({ otp }) })
-        .then(res => res.json());
-    return res;
+    return await fetch(URL + 'CALL/MsisdnAuthenticator/validateOtp/90' + phone,
+        { method: 'POST', body: JSON.stringify({ otp }) }).then(res => res.json());
 }
 
 document.forms[0].addEventListener('submit', e => asyncWrapper(e, async e => {
@@ -244,7 +235,8 @@ document.forms[1].addEventListener('submit', e => asyncWrapper(e, async e => {
 }));
 
 document.forms[2].addEventListener('submit', e => asyncWrapper(e, async e => {
-    const otp = e.target[0].value;
+    const t = e.target;
+    const otp = t[0].value;
     let res = await validateOtp(otp);
     if (res.customToken) {
         res = await refreshTokens(res.customToken);
@@ -254,7 +246,17 @@ document.forms[2].addEventListener('submit', e => asyncWrapper(e, async e => {
             document.forms[0][0].focus();
         }
     }
+    else if (res.message) {
+        t.children[5].innerText = res.message;
+    }
 }));
+
+document.forms[2][1].addEventListener('click', () => {
+    document.forms[2].classList.add('hidden');
+    document.forms[2].children[5].innerText = '';
+    document.forms[1].removeAttribute('class');
+    document.forms[1][0].focus();
+});
 
 document.forms[0][0].addEventListener('input', e => {
     const value = e.target.value;
