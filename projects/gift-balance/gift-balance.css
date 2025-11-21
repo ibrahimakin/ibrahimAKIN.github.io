@@ -44,10 +44,18 @@ button:disabled::before {
     top: 0;
 }
 
+button:has(+button) {
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    float: right;
+}
+
 p {
     text-align: right;
-    margin: 20px 4px 0 2px;
-    height: 1em;
+    margin: 18px 4px 0 2px;
+    min-height: 1.223em;
 }
 
 p:first-of-type {
@@ -66,13 +74,21 @@ p:nth-of-type(2) {
     font-weight: bold;
 }
 
-p:last-of-type {
+form:first-of-type p:last-of-type {
     color: #adff2f;
 }
 
 form:first-of-type>label {
     display: inline-block;
     position: relative;
+}
+
+form+a {
+    float: right;
+    margin: 14px 4px 0 0;
+    text-underline-offset: 3px;
+    font-size: .9em;
+    color: #aaa;
 }
 
 #pin>label {

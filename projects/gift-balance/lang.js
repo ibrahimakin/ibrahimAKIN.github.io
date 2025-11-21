@@ -8,8 +8,10 @@ const lang_obj = {
         check: 'Kontrol Et',
         phone: 'Tel',
         sms: 'SMS Kodu',
+        resend: '< Tekrar gönder',
         send: 'Gönder',
-        last: 'Son Bakiye: '
+        last: 'Son Bakiye: ',
+        privacy: 'Gizlilik Politikası'
     },
     en: {
         cards: 'Cards',
@@ -20,7 +22,9 @@ const lang_obj = {
         check: 'Check',
         phone: 'Phone',
         sms: 'SMS Code',
+        resend: '< Back to resend',
         send: 'Send',
-        last: 'Last Balance: '
+        last: 'Last Balance: ',
+        privacy: 'Privacy Policy'
     }
 };
