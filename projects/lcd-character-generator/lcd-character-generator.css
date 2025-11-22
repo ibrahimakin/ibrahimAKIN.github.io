@@ -93,6 +93,7 @@ table:last-child th {
 
 .link {
     text-decoration: none;
+    text-align: center;
     margin: 20px;
 }
 
@@ -146,8 +147,11 @@ table:last-child th {
     z-index: 1;
 }
 
+.link:first-child {
+    width: 170px;
+}
+
 .link:last-child {
-    text-align: center;
     width: 114px;
 }
 
