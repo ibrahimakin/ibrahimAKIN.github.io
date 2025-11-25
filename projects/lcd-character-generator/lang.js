@@ -4,6 +4,7 @@ const lang_obj = {
         windows: 'Windows için İndirin',
         cancel: 'İptal',
         download: 'İndir',
+        source: 'Kaynak Kodu',
         privacy: 'Gizlilik Politikası'
     },
     en: {
@@ -11,6 +12,7 @@ const lang_obj = {
         windows: 'Download for Windows',
         cancel: 'Cancel',
         download: 'Download',
+        source: 'Source Code',
         privacy: 'Privacy Policy'
     }
 };
