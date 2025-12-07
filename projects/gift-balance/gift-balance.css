@@ -17,6 +17,11 @@ select, button, input {
     border-radius: 8px;
 }
 
+select {
+    border-width: 2px;
+    border-style: inset;
+}
+
 input {
     margin-top: 5px;
     font-size: medium;
@@ -83,12 +88,12 @@ form:first-of-type>label {
     position: relative;
 }
 
-form+a {
+a+a {
     float: right;
     margin: 14px 4px 0 0;
     text-underline-offset: 3px;
     font-size: .9em;
-    color: #aaa;
+    color: #ccc;
 }
 
 #pin>label {
@@ -132,7 +137,7 @@ form+a {
     align-items: center;
 }
 
-.selected, .options {
+.selected, .options, .link-img {
     border: 2px inset #999;
     border-radius: 8px;
 }
@@ -212,4 +217,37 @@ form+a {
 
 .options>div:not([class]) {
     padding: 5px 8px;
+}
+
+.link-img {
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 10px 2px 10px auto;
+    padding-left: 43px;
+    color: var(--bg-clr);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/assets/images/projects/lcd/google-play.png');
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: auto 65%;
+    background-position: 9px;
+    white-space: nowrap;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.link-img>div {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.link-img>div:first-child {
+    margin: 6px 0 1px;
+    font-size: 8px;
+}
+
+.link-img>div:last-child {
+    font-size: 16.5px;
 }
