@@ -3,7 +3,7 @@ const lang_obj = {
         autocomplete: 'Otomatik Tamamlama',
         theme: 'Tema',
         search: 'Ara',
-        search_youtube: 'Search YouTube, YouTube ana sayfasını atlayarak aramalarınızı daha hızlı bulmanıza yardımcı olan bir tarayıcı eklentisidir. Kullanıcılar, YouTube\'da hızlı bir şekilde arama yapmak için metni seçip sağ tıklayabilir veya eklenti penceresini açabilirsiniz. Ayrıca, YouTube Shorts\'u normal video olarak açabilir veya ileri ve geri sarma kısayollarıyla oynatmayı kolayca kontrol edebilirsiniz.',
+        search_youtube: 'Search YouTube, YouTube ana sayfasını atlayarak aramalarınızı daha hızlı bulmanıza yardımcı olan bir tarayıcı eklentisidir. YouTube\'da hızlı bir şekilde arama yapmak için metni seçip sağ tıklayabilir veya eklenti penceresini açabilirsiniz. Ayrıca, YouTube Shorts\'u normal video olarak açabilir veya ileri ve geri sarma kısayollarıyla oynatmayı kolayca kontrol edebilirsiniz.',
         chrome: 'Chrome Web Mağazasında Açın',
         firefox: 'Firefox Eklentilerinde Açın',
         edge: 'Microsoft Edge Eklentilerinde Açın',
