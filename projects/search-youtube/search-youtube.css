@@ -21,6 +21,7 @@ body>div {
 #extension {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     height: 80px;
 }
@@ -249,7 +250,7 @@ body>div>div:last-child {
 
 body>div>div:last-child>p,
 body>div>div:last-child>div {
-    max-width: 445px;
+    max-width: 555px;
     width: 100%;
 }
 
