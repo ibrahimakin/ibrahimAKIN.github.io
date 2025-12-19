@@ -1,0 +1,48 @@
+.ns {
+    --clr: #000;
+    color: var(--clr);
+    margin: auto;
+    text-align: center;
+}
+
+.ns label {
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.ns a {
+    color: inherit;
+    padding-left: 1.5em;
+    text-underline-offset: 2px;
+}
+
+.ns a::before {
+    content: '';
+    position: absolute;
+    -webkit-mask-image: url('/assets/icons/navigation/home-icon-silhouette.svg');
+    mask-image: url('/assets/icons/navigation/home-icon-silhouette.svg');
+    background-color: var(--clr);
+    margin: -.3em 0 0 -1.6em;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.ns input, .ns .tr, .ns .en {
+    display: none;
+}
+
+.ns #tr:checked~div label[for=tr],
+.ns #en:checked~div label[for=en] {
+    border-color: inherit;
+}
+
+.ns #tr:checked~div .tr,
+.ns #en:checked~div .en {
+    display: inline;
+}
+
+#root {
+    display: var(--d);
+}
