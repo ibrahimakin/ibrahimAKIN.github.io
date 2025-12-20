@@ -84,7 +84,7 @@
 
 @media screen and (max-height: 450px) {
     :root {
-        --sidenav-width: 60px;
+        --sidenav-width: var(--n, 60px);
         --nav-gap: 3px;
     }
 }
