@@ -1,5 +1,5 @@
 :root {
-    --topnav-height: 45px;
+    --topnav-height: var(--n, 45px);
 }
 
 top-nav {

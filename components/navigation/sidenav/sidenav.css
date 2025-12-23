@@ -1,5 +1,5 @@
 :root {
-    --sidenav-width: 90px;
+    --sidenav-width: var(--n, 90px);
 }
 
 side-nav {
