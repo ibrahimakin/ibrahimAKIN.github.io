@@ -1,3 +1,7 @@
+.ns {
+    --clr: #fff;
+}
+
 #root {
     color: #fff;
 }
