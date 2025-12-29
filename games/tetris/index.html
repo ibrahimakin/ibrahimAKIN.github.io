@@ -13,18 +13,29 @@
     <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
-    <link rel="stylesheet" type="text/css" href="static/css/main.2ad14c5f.css" />
+    <link rel="stylesheet" type="text/css" href="/components/noscript/noscript.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.7a28fd2d.css" />
     <script type="text/javascript" src="lang.js"></script>
     <script type="text/javascript" src="/components/navigation/lang.js"></script>
     <script type="text/javascript" src="/components/navigation/sidenav/sidenav.js"></script>
     <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
-    <script type="text/javascript" defer src="static/js/main.5c507f8f.js"></script>
+    <script type="text/javascript" defer src="static/js/main.ff9cb1d2.js"></script>
     <script type="text/javascript" defer src="/script.js"></script>
 </head>
 <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <top-nav></top-nav>
     <side-nav></side-nav>
+    <noscript class="ns">
+        <style>:root{--n:0}</style>
+        <input type="radio" name="lang" id="tr">
+        <input type="radio" name="lang" id="en" checked>
+        <div>
+            <span class="tr">Bu uygulamayı çalıştırmak için JavaScript'i etkinleştirmeniz gerekiyor.</span>
+            <span class="en">You need to enable JavaScript to run this app.</span><br><br>
+            <a href="/"><span class="tr">Anasayfa</span><span class="en">Homepage</span></a><br><br>
+            <label for="tr">TR</label>&emsp;<label for="en">EN</label>
+        </div>
+    </noscript>
     <div id="root"></div>
 </body>
 </html>
