@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="/components/noscript/noscript.css" />
     <link rel="stylesheet" type="text/css" href="index.css" />
     <script type="text/javascript" src="lang.js"></script>
     <script type="text/javascript" defer src="/components/navigation/lang.js"></script>
@@ -24,6 +25,16 @@
 <body>
     <top-nav></top-nav>
     <side-nav></side-nav>
+    <noscript class="ns">
+        <input type="radio" name="lang" id="tr">
+        <input type="radio" name="lang" id="en" checked>
+        <div>
+            <span class="tr">Bu uygulamayı çalıştırmak için JavaScript'i etkinleştirmeniz gerekiyor.</span>
+            <span class="en">You need to enable JavaScript to run this app.</span><br><br>
+            <a href="/"><span class="tr">Anasayfa</span><span class="en">Homepage</span></a><br><br>
+            <label for="tr">TR</label>&emsp;<label for="en">EN</label>
+        </div>
+    </noscript>
     <div id="root"></div>
 </body>
 </html>
