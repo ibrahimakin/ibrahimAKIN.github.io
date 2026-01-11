@@ -110,20 +110,18 @@ class Sidenav extends HTMLElement {
             pin.addEventListener('touchstart', e => {
                 if (e.target.open || e.target.checked) {
                     e.target.parentElement.classList.remove('hvr');
-                    delete e.target.open;
+                    e.target.open = 0;
                 }
                 else {
                     e.target.parentElement.classList.add('hvr');
-                    e.target.open = true;
+                    e.target.open = 1;
                 }
-                e.target.touch = true;
             }, { passive: true });
             pin.addEventListener('change', e => {
-                for (const p of pins) if (e.target.touch || e.target !== p) p.checked = false;
+                for (const p of pins) if (e.target.open >= 0 || e.target !== p) p.checked = false;
                 e.target.blur();
             });
             pin.parentElement.addEventListener('mouseleave', e => {
-                delete e.target.firstElementChild.touch;
                 delete e.target.firstElementChild.open;
                 e.target.classList.add('hvr');
             });
