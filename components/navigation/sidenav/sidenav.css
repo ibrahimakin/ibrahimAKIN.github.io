@@ -27,21 +27,22 @@ side-nav {
 }
 
 #sidenav .expand {
-    transition: left .1s linear, opacity 0s linear;
+    transition: left .1s linear, opacity 0s linear, z-index 0s linear;
     transition-delay: .2s, .3s;
     transform-style: preserve-3d;
     perspective: 300px;
     height: 100%;
 }
 
-#sidenav .menu:focus-within>.expand,
+#sidenav .menu.hvr:focus-within>.expand,
 #sidenav .menu.hvr:hover>.expand {
     transition-delay: 0s;
     opacity: 1;
     left: 100%;
 }
 
-#sidenav .menu:focus-within>.expand {
+#sidenav .menu.hvr:focus-within>.expand {
+    transition-delay: 0s, 0s, .1s;
     z-index: 3;
 }
 
@@ -53,8 +54,10 @@ side-nav {
     opacity: 0;
 }
 
-#sidenav .filled:hover+span,
 #sidenav .menu.hvr:hover>span,
+#sidenav .menu.hvr:focus-within>span,
+#sidenav :not(.menu)>.filled:hover+span,
+#sidenav :not(.menu)>.filled:focus+span,
 #sidenav .pin-menu:checked~span {
     opacity: 1;
 }
@@ -140,8 +143,8 @@ div.expand div.up {
 
 .menu.hvr:hover>.expand>div.up,
 .menu.hvr:hover>.expand>div div,
-.menu:focus-within>.expand>div.up,
-.menu:focus-within>.expand>div div,
+.menu.hvr:focus-within>.expand>div.up,
+.menu.hvr:focus-within>.expand>div div,
 .pin-menu:checked~.expand>div.up,
 .pin-menu:checked~.expand>div div {
     transition-delay: .1s;
@@ -149,7 +152,7 @@ div.expand div.up {
 }
 
 .menu.hvr:hover>.expand .up>.up,
-.menu:focus-within>.expand .up>.up,
+.menu.hvr:focus-within>.expand .up>.up,
 .pin-menu:checked~.expand .up>.up {
     transition-delay: .15s;
 }
