@@ -20,7 +20,11 @@ top-nav, side-nav {
     align-items: center;
     justify-content: center;
     perspective: 1000px;
-    font-size: .625em;
+    font-size: .63em;
+}
+
+#content input, #content .tr, #content .en {
+    display: none;
 }
 
 .container {
@@ -38,21 +42,14 @@ top-nav, side-nav {
     border: 1px solid #fff;
     border-radius: 30px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, .5), 0 0 50px rgba(0, 0, 0, .5);
-    transform-style: preserve-3d;
-}
-
-.effects+div {
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    transition: transform .5s ease;
     transform-style: preserve-3d;
 }
 
 .circle {
     width: 10em;
     height: 10em;
-    position: absolute;
+    margin: 24px auto;
     background-size: contain;
     background-repeat: no-repeat;
     transform-style: preserve-3d;
@@ -63,6 +60,7 @@ top-nav, side-nav {
 
 .logo {
     left: 26px;
+    transform: translateZ(1px);
     transition: transform .75s ease-out;
 }
 
@@ -185,24 +183,15 @@ top-nav, side-nav {
 
 .info p {
     font-size: 1.3em;
-    line-height: 18px;
+    line-height: 1.6em;
     color: #fff;
+    margin-bottom: 15px;
     transition: transform .75s ease-out;
     text-shadow: 2px 2px 4px #000;
 }
 
-.links {
-    transition: transform .75s ease-out;
-    padding: 0 1%;
-}
-
-@media screen and (max-width: 700px) {
-    .container {
-        width: 100%;
-    }
-}
-
 .background {
+    display: var(--d);
     position: absolute;
     top: -10%;
     left: -100%;
@@ -240,4 +229,41 @@ top-nav, side-nav {
 
 .card:hover .background {
     opacity: .5;
+}
+
+.ns a {
+    display: inline-block;
+    color: #fff;
+    text-underline-offset: 3px;
+}
+
+.ns div {
+    text-align: center;
+    margin-bottom: 28px;
+    font-size: 1.4em;
+}
+
+label {
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#tr:checked~div label[for=tr],
+#en:checked~div label[for=en] {
+    border-color: #fff;
+}
+
+#tr:checked~div .tr,
+#en:checked~div .en {
+    display: inline;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+    }
 }
