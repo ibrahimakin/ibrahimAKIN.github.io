@@ -1,31 +1,135 @@
-.soc {
-    display: block;
-    font-size: 10px;
-    list-style: none;
-    text-align: center;
-    max-width: 100%;
-    margin: 0 auto;
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 5px;
+    transition: transform .75s ease-out;
+    padding: 0 1% 2%;
 }
 
-.soc li {
-    display: inline-block;
-    margin: 1.2em 0;
-}
-
-.soc a, .soc svg {
-    display: block;
-}
-
-.soc a {
-    height: 5em;
+.links a {
     width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin-bottom: 12px;
 }
 
-.soc a:hover {
-    fill: #000;
-    border-radius: 100%;
+.links a:hover {
     transform: scale(1.25);
     transition: background-color .5s, transform .5s ease-out;
+}
+
+.ns a::before,
+.links>a::before {
+    content: '';
+    display: inline-block;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+.links a::before {
+    height: 100%;
+    width: 100%;
+}
+
+.links>a:nth-child(1)::before {
+    -webkit-mask-image: url('/assets/icons/social/github.svg');
+    mask-image: url('/assets/icons/social/github.svg');
+}
+
+.links>a:nth-child(1)::before,
+.links>a:nth-child(1):hover {
+    background-color: #26d991;
+}
+
+.links>a:nth-child(2)::before {
+    -webkit-mask-image: url('/assets/icons/social/gitlab.svg');
+    mask-image: url('/assets/icons/social/gitlab.svg');
+}
+
+.links>a:nth-child(2)::before,
+.links>a:nth-child(2):hover {
+    background-color: #91d926;
+}
+
+.links>a:nth-child(3)::before {
+    -webkit-mask-image: url('/assets/icons/social/stackoverflow.svg');
+    mask-image: url('/assets/icons/social/stackoverflow.svg');
+}
+
+.links>a:nth-child(3)::before,
+.links>a:nth-child(3):hover {
+    background-color: #9126d9;
+}
+
+.links>a:nth-child(4)::before {
+    -webkit-mask-image: url('/assets/icons/social/x.svg');
+    mask-image: url('/assets/icons/social/x.svg');
+}
+
+.links>a:nth-child(4)::before,
+.links>a:nth-child(4):hover {
+    background-color: #d926b5;
+}
+
+.links>a:nth-child(5)::before {
+    -webkit-mask-image: url('/assets/icons/social/facebook.svg');
+    mask-image: url('/assets/icons/social/facebook.svg');
+}
+
+.links>a:nth-child(5)::before,
+.links>a:nth-child(5):hover {
+    background-color: #26d926;
+}
+
+.links>a:nth-child(6)::before {
+    -webkit-mask-image: url('/assets/icons/social/instagram.svg');
+    mask-image: url('/assets/icons/social/instagram.svg');
+}
+
+.links>a:nth-child(6)::before,
+.links>a:nth-child(6):hover {
+    background-color: #26d9d9;
+}
+
+.links>a:nth-child(8)::before, .ns>a::before {
+    -webkit-mask-image: url('/assets/icons/social/blog.svg');
+    mask-image: url('/assets/icons/social/blog.svg');
+}
+
+.ns>a::before, .ns>a:hover,
+.links>a:nth-child(8)::before,
+.links>a:nth-child(8):hover {
+    background-color: #d94a26;
+}
+
+.links>a:nth-child(9)::before {
+    -webkit-mask-image: url('/assets/icons/social/linkedin.svg');
+    mask-image: url('/assets/icons/social/linkedin.svg');
+}
+
+.links>a:nth-child(9)::before,
+.links>a:nth-child(9):hover {
+    background-color: #2691d9;
+}
+
+.links a:hover::before {
+    background-color: #000;
+}
+
+.ns+a {
+    display: var(--d, block);
+}
+
+.ns>div>a::before {
+    -webkit-mask-image: url('/assets/icons/navigation/resume-and-cv.svg');
+    mask-image: url('/assets/icons/navigation/resume-and-cv.svg');
+    background-color: #fff;
+    margin-bottom: -.65em;
+    height: 2em;
+    width: 2em;
 }
 
 .icon-1 { fill: #d94a26; }
@@ -136,7 +240,7 @@
 }
 
 #collapse:hover+.filled,
-.menu.hvr>.pin-menu:hover+.filled,
+.menu.hvr>.pin-menu:hover~.filled,
 .main .menu.hvr .filled:hover,
 .main :not(.menu) .filled:hover {
     box-shadow: inset 0 0 0 0 #000;
@@ -154,174 +258,214 @@
 .main>div:nth-child(1)>.filled::before {
     background-color: #26d991;
 }
+
 .main>div:nth-child(1)>span {
     color: #26d991;
 }
+
 .menu:nth-child(3)>.filled,
 .menu:nth-child(3)>.filled::before {
     background-color: #b5d926;
 }
+
 .menu:nth-child(3)>span {
     color: #b5d926;
 }
+
 .menu:nth-child(3)>.expand>div>.filled::before,
 .menu:nth-child(3)>.expand>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(1)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(1)>.filled {
     background-color: #f00;
 }
+
 .menu:nth-child(3)>.expand>div:nth-child(1)>span{
     color: #f00;
 }
+
 .menu:nth-child(3)>.expand>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(2)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(2)>.filled {
     background-color: #d9aa26;
 }
+
 .menu:nth-child(3)>.expand>div:nth-child(2)>span{
     color: #d9aa26;
 }
+
 .menu:nth-child(3)>.expand>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(3)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(3)>.filled {
     background-color: #f94040;
 }
+
 .menu:nth-child(3)>.expand>div>div>span,
 .menu:nth-child(3)>.expand>div:nth-child(3)>span{
     color: #f94040;
 }
+
 .menu:nth-child(3)>.expand>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(4)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(4)>.filled {
     background-color: #ff7b0a;
 }
+
 .menu:nth-child(3)>.expand>div>div>div>span,
 .menu:nth-child(3)>.expand>div:nth-child(4)>span{
     color: #ff7b0a;
 }
+
 .menu:nth-child(3)>.expand>div>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(5)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(5)>.filled {
     background-color: #26d94a;
 }
+
 .menu:nth-child(3)>.expand>div>div>div>div>span,
 .menu:nth-child(3)>.expand>div:nth-child(5)>span{
     color: #26d94a;
 }
+
 .menu:nth-child(3)>.expand>div>div>div>div>div>.filled::before,
 .menu:nth-child(3)>.expand>div>div>div>div>div>.filled,
 .menu:nth-child(3)>.expand>div:nth-child(6)>.filled::before,
 .menu:nth-child(3)>.expand>div:nth-child(6)>.filled {
     background-color: #39c5a4;
 }
+
 .menu:nth-child(3)>.expand>div>div>div>div>div>span,
 .menu:nth-child(3)>.expand>div:nth-child(6)>span{
     color: #39c5a4;
 }
+
 .menu:nth-child(4)>.filled,
 .menu:nth-child(4)>.filled::before {
     background-color: #26d926;
 }
+
 .menu:nth-child(4)>span {
     color: #26d926;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(1)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(1)>.filled {
     background-color: #26d9b5;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(1)>span{
     color: #26d9b5;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(2)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>.filled {
     background-color: #d9d326;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(2)>span{
     color: #d9d326;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>.filled,
 .menu:nth-child(4)>.expand>div:nth-child(3)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(3)>.filled {
     background-color: #7c39ff;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>span,
 .menu:nth-child(4)>.expand>div:nth-child(3)>span{
     color: #7c39ff;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>.filled,
 .menu:nth-child(4)>.expand>div:nth-child(4)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(4)>.filled {
     background-color: #d96e26;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>span,
 .menu:nth-child(4)>.expand>div:nth-child(4)>span{
     color: #d96e26;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>.filled,
 .menu:nth-child(4)>.expand>div:nth-child(5)>.filled::before,
 .menu:nth-child(4)>.expand>div:nth-child(5)>.filled {
     background-color: #ff3636;
 }
+
 .menu:nth-child(4)>.expand>div:nth-child(2)>div>div>div>span,
 .menu:nth-child(4)>.expand>div:nth-child(5)>span{
     color: #ff3636;
 }
+
 .main>div:nth-child(5)>.filled,
 .main>div:nth-child(5)>.filled::before {
     background-color: #2691d9;
 }
+
 .main>div:nth-child(5)>span {
     color: #2691d9;
 }
+
 .main>div:nth-child(6)>.filled,
 .main>div:nth-child(6)>.filled::before {
     background-color: #d94a26;
 }
+
 .main>div:nth-child(6)>span {
     color: #d94a26;
 }
+
 .main>div:nth-child(7)>.filled,
 .main>div:nth-child(7)>.filled::before {
     background-color: #6ed926;
 }
+
 .main>div:nth-child(7)>span {
     color: #6ed926;
 }
+
 .menu:nth-child(7)>.expand>div:nth-child(1)>.filled::before,
 .menu:nth-child(7)>.expand>div:nth-child(1)>.filled {
     background-color: #fff;
 }
+
 .menu:nth-child(7)>.expand>div:nth-child(2)>.filled::before,
 .menu:nth-child(7)>.expand>div:nth-child(2)>.filled {
     background-color: #239bfe;
 }
+
 .menu:nth-child(7)>.expand>div:nth-child(2)>span{
     color: #239bfe;
 }
+
 .menu:nth-child(7)>.expand>div:nth-child(1)>.filled:hover::before {
     background-color: #e30a17;
 }
+
 .menu:nth-child(7)>.expand>div:nth-child(1)>span {
     color: #fff;
 }
+
 .menu:nth-child(7)>.expand>div:nth-child(1)>.filled:hover+span {
     color: #e30a17;
 }
 
 .main>.menu>.expand .filled:hover.filled::before,
-.main .menu.hvr>.pin-menu:hover+.filled::before,
+.main .menu.hvr>.pin-menu:hover~.filled::before,
 .main .menu.hvr>.filled:hover.filled::before,
 .main :not(.menu)>.filled:hover.filled::before {
     background-color: #000;
     transform: scale(1.25) translateY(-5px);
 }
+
 .main>.menu>.expand .filled:hover+span,
 .main .menu.hvr>.pin-menu:hover~span,
 .main .menu.hvr>.filled:hover+span,
