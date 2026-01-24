@@ -24,7 +24,8 @@
 <body>
     <top-nav></top-nav>
     <side-nav></side-nav>
-    <div id="root">
+    <noscript class="ns"><style>:root{--n:0;--d:none}</style></noscript>
+    <main id="root">
         <div id="resume-left" class="padding">
             <div id="left-profile-image"></div>
             <div id="contact">
@@ -102,12 +103,15 @@
                 <hr>
                 <div class="language">
                     <button class="lang-button" lang-name="en" lang-tag="english">English</button>
+                    <noscript class="ns">English</noscript>
                     <div lang-tag="pwp">Professional Working Proficiency</div>
                 </div>
                 <div>
                     <button class="lang-button" lang-name="tr" lang-tag="turkish">Turkish</button>
+                    <noscript class="ns">Turkish</noscript>
                     <div lang-tag="nbp">Native Proficiency</div>
                 </div>
+                <noscript class="ns"><hr><span>&#9888;</span> Please enable JavaScript to view the pages completely.</noscript>
             </div>
         </div>
         <div id="resume-right">
@@ -132,10 +136,11 @@
                                 <div class="sec-title" lang-tag="courses">Courses</div>
                                 <ul>
                                     <li>
+                                        <input type="checkbox" id="more">
                                         <span lang-tag="less_courses">
                                             Mobile Programming, Image Processing,
                                             Computer Networks, Object Oriented Analysis And
-                                            Design</span><span id="dots">...</span><span id="more-courses" lang-tag="more_courses" style="display: none;">,
+                                            Design</span><span id="dots">...</span><span id="more-courses" lang-tag="more_courses">,
                                             Algorithm and Programming, Linear Algebra, Structural Programming, Data Structures,
                                             Object Oriented Programming, Discrete Mathematics, Differantial Equations, Analog Electronics,
                                             Propbability and Statistics, Numerical Methods, Web Page Design and Programming, Computer Organization,
@@ -145,8 +150,7 @@
                                             Formal Languages and Automata Theory, Introduction to Cloud Computing, Computer Architecture,
                                             Analysis of Algorithms, Embedded System Design, Access to the Internet of Things, Software Testing Techniques
                                         </span>
-                                        <span id="show-more" onclick="showMore(this)" lang-tag="show_more">show more</span>
-                                        <span id="show-less" onclick="showLess(this)" lang-tag="show_less" style="display: none;">show less</span>
+                                        <label for="more"><span lang-tag="show_more">show more</span><span lang-tag="show_less">show less</span></label>
                                     </li>
                                 </ul>
                             </div>
@@ -367,6 +371,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 </body>
 </html>

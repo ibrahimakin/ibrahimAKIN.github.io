@@ -57,6 +57,7 @@ a {
 }
 
 #resume-left .lang-button {
+    display: var(--d);
     padding: 5px;
     margin-bottom: 2px;
 }
@@ -264,6 +265,21 @@ a {
     margin: 10px 0 5px 0;
 }
 
+.lang-button+.ns {
+    font-size: 1.1em;
+}
+
+.ns>hr {
+    margin-top: 10px;
+}
+
+.ns>span {
+    font-size: 25px;
+    margin: 3px 5px 0 0;
+    color: var(--resume-clr);
+    float: left;
+}
+
 #educations {
     margin-top: 10px;
 }
@@ -287,7 +303,18 @@ a {
     font-style: italic;
 }
 
-#show-more, #show-less {
+#more, #more-courses, #more:checked~#dots,
+#more~label>span:last-child, body>.ns,
+#more:checked~label>span:first-child {
+    display: none;
+}
+
+#more:checked~#more-courses,
+#more:checked~label>span:last-child {
+    display: inline;
+}
+
+#more-courses+label {
     cursor: pointer;
     text-underline-offset: 2px;
     text-decoration: underline;
@@ -436,6 +463,10 @@ li>div>a:last-child, .cert-period>a {
 }
 
 @media print {
+    body {
+        background-color: var(--resume-txt);
+    }
+
     #root {
         box-shadow: none;
         max-width: unset;
@@ -444,6 +475,10 @@ li>div>a:last-child, .cert-period>a {
     #resume-left {
         padding-right: 1%;
         height: 100%;
+    }
+
+    .mb>.ns, label {
+        display: none;
     }
 
     #resume-right>div {
