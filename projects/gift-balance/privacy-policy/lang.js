@@ -28,7 +28,6 @@ const lang_obj = {
         date: 'tarihi yenilenecek ve gerektiğinde uygulama içinde ya da uygulama mağazası ilanında bildirim sağlanacaktır',
         contact: 'İletişim',
         about: 'Bu Gizlilik Politikası veya uygulamanın gizlilik uygulamaları hakkında sorularınız varsa:',
-        email: 'e-posta:',
         effective: 'Yürürlük',
         november: 'Kasım',
         rights: 'Tüm hakları saklıdır'
@@ -62,7 +61,6 @@ const lang_obj = {
         date: 'date below and, where required, provide notice within the App or via the app store listing',
         contact: 'Contact Us',
         about: 'If you have questions about this Privacy Policy or the App’s practices, contact:',
-        email: 'e-mail:',
         effective: 'Effective',
         november: 'November',
         rights: 'All rights reserved'

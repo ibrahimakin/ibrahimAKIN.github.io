@@ -2,10 +2,15 @@ side-nav {
     width: 0;
 }
 
-body>div {
+body>main {
     margin: auto;
     color: #fff;
     font-size: large;
+}
+
+.ns {
+    display: block;
+    margin-bottom: 20px;
 }
 
 select, button, label>span, .select {
@@ -93,7 +98,7 @@ a+a {
     margin: 14px 4px 0 0;
     text-underline-offset: 3px;
     font-size: .9em;
-    color: #ccc;
+    color: #ddd;
 }
 
 #pin>label {
@@ -244,7 +249,7 @@ a+a {
 }
 
 .link-img>div:first-child {
-    margin: 6px 0 1px;
+    margin: 5px 0 1px;
     font-size: 8px;
 }
 
