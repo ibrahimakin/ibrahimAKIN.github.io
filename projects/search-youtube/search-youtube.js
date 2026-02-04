@@ -21,7 +21,7 @@ function addActive(x) {
     if (c_focus < 0) inp.value = value;
     else {
         inp.value = x[c_focus].lastChild.value;
-        x[c_focus].scrollIntoView({ block: 'nearest' });
+        x[c_focus].scrollIntoView({ block: "nearest", inline: "nearest" });
         x[c_focus].classList.add('active');
     }
 }
