@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="/components/noscript/noscript.css" />
     <link rel="stylesheet" type="text/css" href="src/css/prism.css" />
     <link rel="stylesheet" type="text/css" href="src/css/prism-line-numbers.css" />
     <link rel="stylesheet" type="text/css" href="src/css/prism-live.css" />
@@ -25,7 +26,18 @@
 <body>
     <top-nav></top-nav>
     <side-nav></side-nav>
-    <div id="root">
+    <noscript class="ns">
+        <style>:root{--n:0;--d:none}</style>
+        <input type="radio" name="lang" id="tr">
+        <input type="radio" name="lang" id="en" checked>
+        <div>
+            <span class="tr">Bu uygulamayı çalıştırmak için JavaScript'i etkinleştirmeniz gerekiyor.</span>
+            <span class="en">You need to enable JavaScript to run this app.</span><br><br>
+            <a href="/"><span class="tr">Anasayfa</span><span class="en">Homepage</span></a><br><br>
+            <label for="tr" title="Türkçe">TR</label>&emsp;<label for="en" title="English">EN</label>
+        </div>
+    </noscript>
+    <main id="root">
         <h2>HTML</h2>
         <div>
             <textarea class="prism-live line-numbers editor fill language-html" aria-label="editor" style="--max-height:30em"></textarea>
@@ -47,7 +59,7 @@
         </div>
         <h2 lang-tag="result">RESULT</h2>
         <div id="code-result"></div>
-    </div>
+    </main>
     <script src="src/js/bliss.shy.min.js"></script>
     <script src="src/js/prism.js"></script>
     <script src="src/js/prism-line-numbers.js"></script>
