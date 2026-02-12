@@ -7,6 +7,10 @@
     border-radius: 0;
 }
 
+.ns {
+    --clr: #fff;
+}
+
 #root {
     font: 14px/1.4 sans-serif;
     color: #fff;
