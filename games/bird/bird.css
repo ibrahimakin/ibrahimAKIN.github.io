@@ -10,8 +10,12 @@
     border-style: inset;
 }
 
+.ns {
+    --clr: #fff;
+}
+
 #root {
-    display: flex;
+    display: var(--d, flex);
     align-items: center;
     justify-content: center;
     color: rgb(206 208 210);
