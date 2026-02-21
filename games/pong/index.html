@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="/components/noscript/noscript.css" />
     <link rel="stylesheet" type="text/css" href="pong.css" />
     <script type="text/javascript" src="/components/navigation/sidenav/sidenav.js"></script>
     <script type="text/javascript" defer src="/components/navigation/topnav/topnav.js"></script>
@@ -21,7 +22,18 @@
 <body>
     <top-nav></top-nav>
     <side-nav></side-nav>
-    <div id="root">
+    <noscript class="ns">
+        <style>:root{--n:0;--d:none}</style>
+        <input type="radio" name="lang" id="tr">
+        <input type="radio" name="lang" id="en" checked>
+        <div>
+            <span class="tr">Bu uygulamayı çalıştırmak için JavaScript'i etkinleştirmeniz gerekiyor.</span>
+            <span class="en">You need to enable JavaScript to run this app.</span><br><br>
+            <a href="/"><span class="tr">Anasayfa</span><span class="en">Homepage</span></a><br><br>
+            <label for="tr" title="Türkçe">TR</label>&emsp;<label for="en" title="English">EN</label>
+        </div>
+    </noscript>
+    <main id="root">
         <div>
             <div class="spinner" id="spinner"></div>
             <div id="status">Downloading...</div>
@@ -43,7 +55,7 @@
             </div>
         </div>
         <textarea id="output" rows="8"></textarea>
-    </div>
+    </main>
     <script type="text/javascript" src="pong.js"></script>
     <script type="text/javascript" src="index.js" async></script>
 </body>

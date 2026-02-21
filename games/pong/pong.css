@@ -8,8 +8,12 @@
     border-radius: 10px;
 }
 
+.ns {
+    --clr: #fff;
+}
+
 #root {
-    display: flex;
+    display: var(--d, flex);
     flex-direction: column;
     position: relative;
     min-height: 0;
