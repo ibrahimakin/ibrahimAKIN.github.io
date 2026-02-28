@@ -9,8 +9,12 @@
     border-style: inset;
 }
 
+.ns {
+    --clr: #fff;
+}
+
 #root {
-    display: flex;
+    display: var(--d, flex);
     justify-content: center;
     align-items: center;
     min-height: 0;
