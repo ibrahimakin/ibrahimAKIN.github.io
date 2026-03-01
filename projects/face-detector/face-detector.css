@@ -3,6 +3,10 @@ top-nav, side-nav {
     width: 0;
 }
 
+.ns {
+    --clr: #fff;
+}
+
 #root {
     margin: auto;
     position: relative;
