@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="/components/noscript/noscript.css" />
     <link rel="stylesheet" type="text/css" href="face-detector.css" />
     <script type="text/javascript" defer src="face-api.min.js"></script>
     <script type="text/javascript" defer src="app.js"></script>
@@ -24,8 +25,19 @@
 <body>
     <top-nav></top-nav>
     <side-nav></side-nav>
-    <div id="root">
+    <noscript class="ns">
+        <style>:root{--d:none}</style>
+        <input type="radio" name="lang" id="tr">
+        <input type="radio" name="lang" id="en" checked>
+        <div>
+            <span class="tr">Bu uygulamayı çalıştırmak için JavaScript'i etkinleştirmeniz gerekiyor.</span>
+            <span class="en">You need to enable JavaScript to run this app.</span><br><br>
+            <a href="/"><span class="tr">Anasayfa</span><span class="en">Homepage</span></a><br><br>
+            <label for="tr" title="Türkçe">TR</label>&emsp;<label for="en" title="English">EN</label>
+        </div>
+    </noscript>
+    <main id="root">
         <video autoplay muted></video>
-    </div>
+    </main>
 </body>
 </html>
