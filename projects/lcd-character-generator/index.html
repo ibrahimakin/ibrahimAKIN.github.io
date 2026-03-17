@@ -7,7 +7,7 @@
     <title>LCD Character Generator</title>
     <link rel="icon" href="/favicon.ico" />
     <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/images/app/logo192.png" />
     <link rel="stylesheet" type="text/css" href="/styles.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/sidenav/sidenav.css" />
     <link rel="stylesheet" type="text/css" href="/components/navigation/topnav/topnav.css" />
@@ -23,7 +23,11 @@
 <body>
     <top-nav></top-nav>
     <side-nav></side-nav>
-    <div id="root">
+    <main id="root">
+        <noscript class="ns">
+            <style>:root{--n:0}</style>
+            Please enable JavaScript to view the pages completely.
+        </noscript>
         <div>
             <table id="lcd">
                 <tr>
@@ -170,6 +174,6 @@
             </div>
             <a class="link" href="privacy-policy" lang-tag="privacy">Privacy Policy</a>
         </div>
-    </div>
+    </main>
 </body>
 </html>
